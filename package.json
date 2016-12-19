@@ -1,10 +1,9 @@
 {
   "name": "atom-i18n",
   "main": "./lib/atom-i18n",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "i18n for Atom menus and some core packages",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-i18n:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
