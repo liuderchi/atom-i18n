@@ -1,18 +1,17 @@
 {
   "name": "atom-i18n",
-  "main": "./lib/atom-i18n",
+  "main": "./lib/main",
   "version": "0.0.1",
   "description": "i18n for Atom menus and some core packages",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "atom-i18n:toggle"
-  },
   "repository": "https://github.com/liuderchi/atom-i18n",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cson": "^4.0.0"
+  },
   "configSchema": {
     "locale": {
       "type": "string",
@@ -20,8 +19,14 @@
       "title": "Language",
       "description": "Select language you would like to apply",
       "enum": [
-        {"value": "ja", "description": "Japanese (ja)"},
-        {"value": "zh-tw", "description": "Chinese(Taiwan) (zh-tw)"}
+        {
+          "value": "ja",
+          "description": "Japanese (ja)"
+        },
+        {
+          "value": "zh-tw",
+          "description": "Chinese(Taiwan) (zh-tw)"
+        }
       ]
     }
   }
