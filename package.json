@@ -12,7 +12,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cson": "^4.0.0"
+  },
   "configSchema": {
     "locale": {
       "type": "string",
@@ -20,8 +22,14 @@
       "title": "Language",
       "description": "Select language you would like to apply",
       "enum": [
-        {"value": "ja", "description": "Japanese (ja)"},
-        {"value": "zh-tw", "description": "Chinese(Taiwan) (zh-tw)"}
+        {
+          "value": "ja",
+          "description": "Japanese (ja)"
+        },
+        {
+          "value": "zh-tw",
+          "description": "Chinese(Taiwan) (zh-tw)"
+        }
       ]
     }
   }
