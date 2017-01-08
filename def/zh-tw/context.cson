@@ -1,6 +1,6 @@
 Context:
   "atom-workspace":
-    "application:inspect": "要素の検証"
+    "application:inspect": "檢視元素"
   "atom-text-editor":
     "color-picker:open": "カラーピッカー"
     "minimap:toggle": "ミニマップ切替"
