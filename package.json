@@ -1,12 +1,9 @@
 {
   "name": "atom-i18n",
-  "main": "./lib/atom-i18n",
+  "main": "./lib/main",
   "version": "0.0.1",
   "description": "i18n for Atom menus and some core packages",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "atom-i18n:toggle"
-  },
   "repository": "https://github.com/liuderchi/atom-i18n",
   "license": "MIT",
   "engines": {
