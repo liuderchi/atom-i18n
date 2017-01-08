@@ -1,0 +1,47 @@
+* [x] understand basic ideas
+    * [x] how content is changed
+
+* [x] porting to empty package
+    - preparation of empty package
+        [x] activate this package
+        [x] add configSchema in package.json (https://atom.io/docs/api/v1.12.9/Config)
+        [x] rm -rf menus/* keymaps/* styles/*
+        [x] add .eslintrc, coffeelint.json
+        [x] add CONTRIBUTING.md
+        [x] update README.md
+    [x] copy package.json
+
+* [x] create common interface for any lang
+    * [x] def-LOCALE (best to have)
+    * [x] prepare template of cson for contributor
+
+--- MileStone 1 (v0.1)
+
+* [x] add api to switch to other language by package config
+    * [x] prompt user to restart on locale change
+    * [x] add screenshot (menu, context-menu, setting page) to README.md
+
+* [ ] translate more content
+    * [x] about-page
+    * [ ] style-guide
+    * [ ] timecop
+    * [ ] tooltip
+    * [ ] goto line number
+    * [ ] deprecation
+    * [ ] find
+    * [ ] background-tips
+    * [x] welcome-page
+
+--- MileStone 2 (v1.0)
+
+* [x] parse existing content
+    * [x] zh-tw
+
+* [ ] add spec
+    * [x] validate cson format and number of key-value pair, with atom source code
+    * [ ] test with atom editor env
+
+
+
+package name: atom-i18n
+GOAL: a common interface for any lang, to be Atom Core Module
