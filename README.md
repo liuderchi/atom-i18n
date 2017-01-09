@@ -19,8 +19,8 @@ Atom i18n package for multiple languages :globe_with_meridians:
           * context-menu when right clicked
           * preference page
 
-  * `package.json` containing package metadata
-      * key `configSchema` defines supported locales
+  * `package.json` contains package metadata
+      * key `configSchema` defines supported languages
 
 ## How to Contribute?
 
