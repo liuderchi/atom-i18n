@@ -1,5 +1,31 @@
 # atom-i18n package
 
-A short description of your package.
+Atom i18n package for multiple languages :globe_with_meridians:
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## Language Support
+
+  * Japanese (~100%)
+  * Traditional Chinese (<10%)
+
+## Project Structure
+
+  * `def/` is directory containing translation content
+      * content is grouped by locale folder
+
+  * `lib/` is about translation operations
+      * contains `main.coffee` which is entry point
+      * 3 big parts require i18n:
+          * menus in the top
+          * context-menu when right clicked
+          * preference page
+
+  * `package.json` containing package metadata
+      * key `configSchema` defines supported locales
+
+## How to Contribute?
+
+  - please refer to [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+## Reference
+
+  - this repo is based on [atom-japanese-menu](https://atom.io/packages/japanese-menu) by [syon](https://atom.io/users/syon) and [atom-cht-menu](https://atom.io/packages/cht-menu) by [Sheng-Bo](https://atom.io/users/Sheng-Bo)
