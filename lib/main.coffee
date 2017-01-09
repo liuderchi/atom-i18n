@@ -1,3 +1,4 @@
+path = require 'path'
 CSON        = require 'cson'
 Menu        = require './menu'
 ContextMenu = require './context-menu'
@@ -8,9 +9,10 @@ class JapaneseMenu
   pref: {done: false}
 
   constructor: ->
-    @defM = CSON.load __dirname + "/../def/menu_#{process.platform}.cson"
-    @defC = CSON.load __dirname + "/../def/context.cson"
-    @defS = CSON.load __dirname + "/../def/settings.cson"
+    LOCALE = atom.config.get('atom-i18n.locale')
+    @defM = CSON.load path.join __dirname, "../def", LOCALE, "menu_#{process.platform}.cson"
+    @defC = CSON.load path.join __dirname, "../def", LOCALE, "context.cson"
+    @defS = CSON.load path.join __dirname, "../def", LOCALE, "settings.cson"
 
   activate: (state) ->
     setTimeout(@delay, 0)
