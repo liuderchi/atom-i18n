@@ -3,312 +3,312 @@ Menu:
     value: "Atom"
     submenu:
       "About Atom":
-        value: "Atom について"
+        value: "About Atom"
       "View License":
-        value: "ライセンスを表示"
+        value: "View License"
       "Preferences…":
-        value: "環境設定..."
+        value: "Preferences..."
       "Config…":
-        value: "個人設定..."
+        value: "Config..."
       "Init Script…":
-        value: "起動スクリプト..."
+        value: "Init Script..."
       "Keymap…":
-        value: "キーマップ..."
+        value: "Keymap..."
       "Snippets…":
-        value: "スニペット..."
+        value: "Snippets..."
       "Stylesheet…":
-        value: "スタイルシート..."
+        value: "Stylesheet..."
       "Install Shell Commands":
-        value: "シェルコマンドをインストール"
+        value: "Install Shell Commands"
       "Hide Atom":
-        value: "Atom を隠す"
+        value: "Hide Atom"
       "Hide Others":
-        value: "他を隠す"
+        value: "Hide Others"
       "Show All":
-        value: "すべてを表示"
+        value: "Show All"
       Quit:
-        value: "Atom を終了"
+        value: "Quit"
   File:
-    value: "ファイル"
+    value: "File"
     submenu:
       "New Window":
-        value: "新規ウインドウ"
+        value: "New Window"
       "New File":
-        value: "新規ファイル"
+        value: "New File"
       "Open…":
-        value: "開く..."
+        value: "Open..."
       "Add Project Folder…":
-        value: "プロジェクトフォルダを追加..."
+        value: "Add Project Folder..."
       "Reopen Last Item":
-        value: "最後に使用したファイルを開く..."
+        value: "Reopen Last Item"
       Save:
-        value: "保存"
+        value: "Save"
       "Save As…":
-        value: "別名で保存..."
+        value: "Save As..."
       "Save All":
-        value: "すべて保存"
+        value: "Save All"
       "Close Tab":
-        value: "タブを閉じる"
+        value: "Close Tab"
       "Close Pane":
-        value: "ペインを閉じる"
+        value: "Close Pane"
       "Close Window":
-        value: "ウインドウを閉じる"
+        value: "Close Window"
       "Close All Tabs":
-        value: "タブをすべて閉じる"
+        value: "Close All Tabs"
   Edit:
-    value: "編集"
+    value: "Edit"
     submenu:
       Undo:
-        value: "取り消す"
+        value: "Undo"
       Redo:
-        value: "やり直す"
+        value: "Redo"
       Cut:
-        value: "カット"
+        value: "Cut"
       Copy:
-        value: "コピー"
+        value: "Copy"
       "Copy Path":
-        value: "パスをコピー"
+        value: "Copy Path"
       Paste:
-        value: "ペースト"
+        value: "Paste"
       "Select All":
-        value: "すべて選択"
+        value: "Select All"
       "Toggle Comments":
-        value: "コメントの切替"
+        value: "Toggle Comments"
       Lines:
-        value: "行"
+        value: "Lines"
         submenu:
           Indent:
-            value: "インデントを追加"
+            value: "Indent"
           Outdent:
-            value: "インデントを戻す"
+            value: "Outdent"
           "Auto Indent":
-            value: "自動インデント"
+            value: "Auto Indent"
           "Move Line Up":
-            value: "選択中の行を上に移動"
+            value: "Move Line Up"
           "Move Line Down":
-            value: "選択中の行を下に移動"
+            value: "Move Line Down"
           "Duplicate Lines":
-            value: "行を複製"
+            value: "Duplicate Lines"
           "Delete Line":
-            value: "行を削除"
+            value: "Delete Line"
           "Join Lines":
-            value: "行を結合"
+            value: "Join Lines"
       Columns:
-        value: "列"
+        value: "Columns"
         submenu:
           "Move Selection Left":
-            value: "選択範囲を左に移動"
+            value: "Move Selection Left"
           "Move Selection Right":
-            value: "選択範囲を右に移動"
+            value: "Move Selection Right"
       Text:
-        value: "テキスト"
+        value: "Text"
         submenu:
           "Upper Case":
-            value: "大文字に変換"
+            value: "Upper Case"
           "Lower Case":
-            value: "小文字に変換"
+            value: "Lower Case"
           "Delete to End of Word":
-            value: "単語の末尾まで削除"
+            value: "Delete to End of Word"
           "Delete to Previous Word Boundary":
-            value: "前の単語の境界まで削除"
+            value: "Delete to Previous Word Boundary"
           "Delete to Next Word Boundary":
-            value: "次の単語の境界まで削除"
+            value: "Delete to Next Word Boundary"
           "Delete Line":
-            value: "行を削除"
+            value: "Delete Line"
           Transpose:
-            value: "前後を入れ替え"
+            value: "Transpose"
       Folding:
-        value: "折りたたみ"
+        value: "Folding"
         submenu:
           Fold:
-            value: "折りたたむ"
+            value: "Fold"
           Unfold:
-            value: "折りたたみを戻す"
+            value: "Unfold"
           "Unfold All":
-            value: "すべての折りたたみを戻す"
+            value: "Unfold All"
           "Fold All":
-            value: "すべて折りたたむ"
+            value: "Fold All"
           "Fold Level 1":
-            value: "1段階折りたたむ"
+            value: "Fold Level 1"
           "Fold Level 2":
-            value: "2段階折りたたむ"
+            value: "Fold Level 2"
           "Fold Level 3":
-            value: "3段階折りたたむ"
+            value: "Fold Level 3"
           "Fold Level 4":
-            value: "4段階折りたたむ"
+            value: "Fold Level 4"
           "Fold Level 5":
-            value: "5段階折りたたむ"
+            value: "Fold Level 5"
           "Fold Level 6":
-            value: "6段階折りたたむ"
+            value: "Fold Level 6"
           "Fold Level 7":
-            value: "7段階折りたたむ"
+            value: "Fold Level 7"
           "Fold Level 8":
-            value: "8段階折りたたむ"
+            value: "Fold Level 8"
           "Fold Level 9":
-            value: "9段階折りたたむ"
+            value: "Fold Level 9"
       "Reflow Selection":
-        value: "選択範囲をリフロー"
+        value: "Reflow Selection"
       Bookmark:
-        value: "ブックマーク"
+        value: "Bookmark"
         submenu:
           "View All":
-            value: "すべて表示"
+            value: "View All"
           "Toggle Bookmark":
-            value: "ブックマークの切替"
+            value: "Toggle Bookmark"
           "Jump to Next Bookmark":
-            value: "次のブックマークへ"
+            value: "Jump to Next Bookmark"
           "Jump to Previous Bookmark":
-            value: "前のブックマークへ"
+            value: "Jump to Previous Bookmark"
       "Select Encoding":
-        value: "エンコーディング選択"
+        value: "Select Encoding"
       "Go to Line":
-        value: "指定行に移動"
+        value: "Go to Line"
       "Select Grammar":
-        value: "文法を選択"
+        value: "Select Grammar"
   View:
-    value: "表示"
+    value: "View"
     submenu:
       "Toggle Full Screen":
-        value: "フルスクリーン切替"
+        value: "Toggle Full Screen"
       Panes:
-        value: "ペイン"
+        value: "Panes"
         submenu:
           "Split Up":
-            value: "ペイン分割 ↑"
+            value: "Split Up"
           "Split Down":
-            value: "ペイン分割 ↓"
+            value: "Split Down"
           "Split Left":
-            value: "ペイン分割 ←"
+            value: "Split Left"
           "Split Right":
-            value: "ペイン分割 →"
+            value: "Split Right"
           "Focus Next Pane":
-            value: "次のペインにフォーカス"
+            value: "Focus Next Pane"
           "Focus Previous Pane":
-            value: "前のペインにフォーカス"
+            value: "Focus Previous Pane"
           "Focus Pane Above":
-            value: "ペインにフォーカス ↑"
+            value: "Focus Pane Above"
           "Focus Pane Below":
-            value: "ペインにフォーカス ↓"
+            value: "Focus Pane Below"
           "Focus Pane On Left":
-            value: "ペインにフォーカス ←"
+            value: "Focus Pane On Left"
           "Focus Pane On Right":
-            value: "ペインにフォーカス →"
+            value: "Focus Pane On Right"
           "Close Pane":
-            value: "ペインを閉じる"
+            value: "Close Pane"
       Developer:
-        value: "開発"
+        value: "Developer"
         submenu:
           "Open In Dev Mode…":
-            value: "開発モードで開く..."
+            value: "Open In Dev Mode..."
           "Reload Window":
-            value: "ウィンドウの再読み込み"
+            value: "Reload Window"
           "Run Package Specs":
-            value: "パッケージ Specs を実行"
+            value: "Run Package Specs"
           "Toggle Developer Tools":
-            value: "デベロッパー ツール"
+            value: "Toggle Developer Tools"
       "Increase Font Size":
-        value: "フォントサイズの拡大"
+        value: "Increase Font Size"
       "Decrease Font Size":
-        value: "フォントサイズの縮小"
+        value: "Decrease Font Size"
       "Reset Font Size":
-        value: "フォントサイズのリセット"
+        value: "Reset Font Size"
       "Toggle Soft Wrap":
-        value: "自動折り返しの切替"
+        value: "Toggle Soft Wrap"
       "Toggle Command Palette":
-        value: "コマンドパレット"
+        value: "Toggle Command Palette"
       "Toggle Tree View":
-        value: "ツリービュー"
+        value: "Toggle Tree View"
   Selection:
-    value: "選択"
+    value: "Selection"
     submenu:
       "Add Selection Above":
-        value: "選択範囲を広げる ↑"
+        value: "Add Selection Above"
       "Add Selection Below":
-        value: "選択範囲を広げる ↓"
+        value: "Add Selection Below"
       "Single Selection":
-        value: "同時操作状態を解除"
+        value: "Single Selection"
       "Split into Lines":
-        value: "選択範囲を各行に分割して同時操作"
+        value: "Split into Lines"
       "Select to Top":
-        value: "ファイル先頭まで選択"
+        value: "Select to Top"
       "Select to Bottom":
-        value: "ファイル末尾まで選択"
+        value: "Select to Bottom"
       "Select Line":
-        value: "行を選択"
+        value: "Select Line"
       "Select Word":
-        value: "単語を選択"
+        value: "Select Word"
       "Select to Beginning of Word":
-        value: "単語の先頭まで選択"
+        value: "Select to Beginning of Word"
       "Select to Beginning of Line":
-        value: "行頭まで選択"
+        value: "Select to Beginning of Line"
       "Select to First Character of Line":
-        value: "行の最初の文字まで選択"
+        value: "Select to First Character of Line"
       "Select to End of Word":
-        value: "単語の末尾まで選択"
+        value: "Select to End of Word"
       "Select to End of Line":
-        value: "行末まで選択"
+        value: "Select to End of Line"
       "Select Inside Brackets":
-        value: "カッコ内を選択"
+        value: "Select Inside Brackets"
   Find:
-    value: "検索"
+    value: "Find"
     submenu:
       "Find in Buffer":
-        value: "検索..."
+        value: "Find in Buffer"
       "Replace in Buffer":
-        value: "置換..."
+        value: "Replace in Buffer"
       "Select Next":
-        value: "次の一致も選択"
+        value: "Select Next"
       "Select All":
-        value: "一致をすべて選択"
+        value: "Select All"
       "Toggle Find in Buffer":
-        value: "検索パネル切替"
+        value: "Toggle Find in Buffer"
       "Find in Project":
-        value: "プロジェクト内検索..."
+        value: "Find in Project"
       "Toggle Find in Project":
-        value: "プロジェクト内検索パネル切替"
+        value: "Toggle Find in Project"
       "Find Next":
-        value: "次を検索"
+        value: "Find Next"
       "Find Previous":
-        value: "前を検索"
+        value: "Find Previous"
       "Replace Next":
-        value: "次を置換"
+        value: "Replace Next"
       "Replace All":
-        value: "すべて置換"
+        value: "Replace All"
       "Clear History":
-        value: "履歴をクリア"
+        value: "Clear History"
       "Find Buffer":
-        value: "バッファを検索"
+        value: "Find Buffer"
       "Find File":
-        value: "ファイルを検索"
+        value: "Find File"
       "Find Modified File":
-        value: "修正されたファイルを検索"
+        value: "Find Modified File"
   Packages:
-    value: "パッケージ"
+    value: "Packages"
   Window:
-    value: "ウインドウ"
+    value: "Window"
     submenu:
       Minimize:
-        value: "最小化"
+        value: "Minimize"
       Zoom:
-        value: "拡大／縮小"
+        value: "Zoom"
       "Bring All to Front":
-        value: "すべてを手前に移動"
+        value: "Bring All to Front"
   Help:
-    value: "ヘルプ"
+    value: "Help"
     submenu:
       "Terms of Use":
-        value: "利用条件"
+        value: "Terms of Use"
       Documentation:
-        value: "ドキュメント"
+        value: "Documentation"
       Roadmap:
-        value: "ロードマップ"
+        value: "Roadmap"
       "Frequently Asked Questions":
-        value: "よくあるご質問"
+        value: "Frequently Asked Questions"
       "Community Discussions":
-        value: "コミュニティ ディスカッション"
+        value: "Community Discussions"
       "Report Issue":
-        value: "問題の報告"
+        value: "Report Issue"
       "Search Issues":
-        value: "報告されている問題"
+        value: "Search Issues"
       "Welcome Guide":
-        value: "ウェルカムガイド"
+        value: "Welcome Guide"
