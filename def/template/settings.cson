@@ -1,60 +1,59 @@
 Settings:
-  "tab-title": "設定"
+  "tab-title": "Settings"
   menu: [
     {
       label: "Core"
-      value: "コア設定"
-      # TODO experiment on removing label
+      value: "Core"
     }
     {
       label: "Editor"
-      value: "エディタ設定"
+      value: "Editor"
     }
     {
       label: "Keybindings"
-      value: "キーバインド"
+      value: "Keybindings"
     }
     {
       label: "Packages"
-      value: "パッケージ"
+      value: "Packages"
     }
     {
       label: "Themes"
-      value: "テーマ"
+      value: "Themes"
     }
     {
       label: "Updates"
-      value: "アップデート"
+      value: "Updates"
     }
     {
       label: "Install"
-      value: "インストール"
+      value: "Install"
     }
   ]
-  "btn-open-config-folder": "設定フォルダを開く"
+  "btn-open-config-folder": "Open Config Folder"
   sectionHeadings: [
-    {label: "Core Settings", value: "コア設定"}
-    {label: "Editor Settings", value: "エディタ設定"}
-    {label: "Keybindings", value: "キーバインド"}
-    {label: "Installed Packages", value: "インストール済みのパッケージ"}
-    {label: "Choose a Theme", value: "テーマの選択"}
-    {label: "Installed Themes", value: "インストール済みのテーマ"}
-    {label: "Install Packages", value: "パッケージのインストール"}
-    {label: "Featured Packages", value: "おすすめのパッケージ"}
-    {label: "Install Themes", value: "テーマのインストール"}
-    {label: "Featured Themes", value: "おすすめのテーマ"}
+    {label: "Core Settings", value: "Core Settings"}
+    {label: "Editor Settings", value: "Editor Settings"}
+    {label: "Keybindings", value: "Keybindings"}
+    {label: "Installed Packages", value: "Installed Packages"}
+    {label: "Choose a Theme", value: "Choose a Theme"}
+    {label: "Installed Themes", value: "Installed Themes"}
+    {label: "Install Packages", value: "Install Packages"}
+    {label: "Featured Packages", value: "Featured Packages"}
+    {label: "Install Themes", value: "Install Themes"}
+    {label: "Featured Themes", value: "Featured Themes"}
   ]
-  "heading-available-updates": {label: "Available Updates", value: "利用可能なアップデート"}
+  "heading-available-updates": {label: "Available Updates", value: "Available Updates"}
   subSectionHeadings: [
-    {label: "Invisible", value: "不可視文字"}
-    {label: "Community Packages", value: "コミュニティパッケージ"}
-    {label: "Core Packages", value: "コアパッケージ"}
-    {label: "Development Packages", value: "開発パッケージ"}
-    {label: "Git Packages", value: "Git パッケージ"}
-    {label: "Community Themes", value: "コミュニティテーマ"}
-    {label: "Core Themes", value: "コアテーマ"}
-    {label: "Development Themes", value: "開発テーマ"}
-    {label: "Git Themes", value: "Git テーマ"}
+    {label: "Invisible", value: "Invisible"}
+    {label: "Community Packages", value: "Community Packages"}
+    {label: "Core Packages", value: "Core Packages"}
+    {label: "Development Packages", value: "Development Packages"}
+    {label: "Git Packages", value: "Git Packages"}
+    {label: "Community Themes", value: "Community Themes"}
+    {label: "Core Themes", value: "Core Themes"}
+    {label: "Development Themes", value: "Development Themes"}
+    {label: "Git Themes", value: "Git Themes"}
   ]
   settings: {
     notes: [
