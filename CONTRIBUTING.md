@@ -42,7 +42,24 @@
 
 and only content `"Inspect Element"` can be translated
 
-  - **NOTICE #2** for the menu label containing **hotkey hint** `&`, we should preserve it with braces wrapped at the end.
+  - **NOTICE #2** as for `settings.cson`, values under key `label` and `id` are *identifiers* for the package and should not be translated
+
+      ```coffee
+      Settings:
+        menu: [
+          {
+            label: "Core"  # DO NOT translate this line!
+            value: "Core"  # translate please
+          }
+          {
+            id: 'editor.lineHeight'  # DO NOT translate this line!
+            title: "Line Height"         # translate please
+            desc: "line-height (number)" # translate please
+          }
+          # more ...
+      ```
+
+  - **NOTICE #3** for the menu label containing **hotkey hint** `&`, we should preserve it with braces wrapped at the end.
 
       - for example let's checkout how `def/ja/menu_win32.cson` is translated into Japanese:
 
