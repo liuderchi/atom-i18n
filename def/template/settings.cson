@@ -76,62 +76,59 @@ Settings:
       {
         id: 'core.allowPendingPaneItems'
         title: "Allow Pending PaneItems"
-        desc: "ツリービューなどでファイルを選択した時にタブをプレビュー状態で開きます。
-               プレビュー時はタブ名が斜体となり、別のファイル選択時にタブが使い回されます。
-               ダブルクリックまたは編集を開始することでプレビュー状態が解除されます。"
+        desc: "Allow items to be previewed without adding them to a pane
+               permanently, such as when single clicking files in the tree view."
       }
       {
         id: 'core.audioBeep'
         title: "Audio Beep"
-        desc: "処理が予期したとおりに実行されなかったり、結果が何も得られなかった場合にシステムのビープ音を鳴らします。"
+        desc: "Trigger the system's beep sound when certain actions cannot be
+               executed or there are no results."
       }
       {
         id: 'core.automaticallyUpdate'
         title: "Automatically Update"
-        desc: "新しいバージョンの Atom がリリースされていた場合に自動でアップデートします。"
+        desc: "Automatically update Atom when a new release is available."
       }
       {
         id: 'core.autoHideMenuBar'
         title: "Auto Hide Menu Bar"
-        desc: "メニューバーを自動的に隠して Alt キーで切り替えます。この設定は Windows と Linux でのみサポートされます。"
+        desc: "Automatically hide the menu bar and toggle it by pressing Alt. This is only supported on Windows &amp; Linux."
       }
       {
         id: 'core.closeEmptyWindows'
         title: "Close Empty Windows"
-        desc: "ウインドウ内にタブもペインもない状態でタブを閉じるコマンドを与えた場合、ウインドウを閉じます。"
+        desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
       }
       {
         id: 'core.destroyEmptyPanes'
         title: "Destroy Empty Panes"
-        desc: "最後に開いていたタブを閉じた場合、ペインも閉じます。"
+        desc: "When the last tab of a pane is closed, remove that pane as well."
       }
       {
         id: 'core.excludeVcsIgnoredPaths'
         title: "Exclude VCS Ignored Paths"
-        desc: "現在のプロジェクトで使用中のバージョン管理システムによって無視されたファイルとディレクトリが、あいまい検索や検索、置換の中で無視されるようになります。
-               例えば Git を使用しているプロジェクトでは .gitignore ファイルで定義されたパスがそれにあたります。
-               個々のパッケージにもこの設定とは別にファイルやフォルダを無視する設定があるかもしれません。"
+        desc: "Files and directories ignored by the current project's VCS system will be ignored by some packages, such as the fuzzy finder and find and replace. For example, projects using Git have these paths defined in the .gitignore file. Individual packages might have additional config settings for ignoring VCS ignored files and folders."
       }
       {
         id: 'core.fileEncoding'
         title: "File Encoding"
-        desc: "ファイルを読み書きするためのデフォルトキャラクタセットを指定します。"
+        desc: "Default character set encoding to use when reading and writing files."
       }
       {
         id: 'core.followSymlinks'
         title: "Follow Symlinks"
-        desc: "あいまい検索でファイルを検索・開く時に使用されます。"
+        desc: "Follow symbolic links when searching files and when opening files with the fuzzy finder."
       }
       {
         id: 'core.ignoredNames'
         title: "Ignored Names"
-        desc: "無視する glob パターンを列挙します。マッチしたファイルとディレクトリは、あいまい検索やツリービューで表示されなくなります。
-               個々のパッケージにもこの設定とは別にファイルやフォルダを無視する設定があるかもしれません。"
+        desc: "List of <code>glob patterns</code>. Files and directories matching these patterns will be ignored by some packages, such as the fuzzy finder and tree view. Individual packages might have additional config settings for ignoring names."
       }
       {
         id: 'core.openEmptyEditorOnStart'
         title: "Open Empty Editor On Start"
-        desc: "起動時に新規のエディタを自動的に開きます。"
+        desc: "Automatically open an empty editor on startup."
       }
       {
         id: 'core.packagesWithKeymapsDisabled'
@@ -140,12 +137,12 @@ Settings:
       {
         id: 'core.projectHome'
         title: "Project Home"
-        desc: "プロジェクト群を配置するディレクトリを指定します。パッケージジェネレータで作成されたパッケージはデフォルトでここが格納先となります。"
+        desc: "The directory where projects are assumed to be located. Packages created using the Package Generator will be stored here by default."
       }
       {
         id: 'core.reopenProjectMenuCount'
         title: "Reopen Project Menu Count"
-        desc: ""
+        desc: "How many recent projects to show in the Reopen Project menu."
       }
       {
         id: 'core.restorePreviousWindowsOnStart'
@@ -154,11 +151,11 @@ Settings:
       {
         id: 'core.telemetryConsent'
         title: "Send Telemetry to the Atom Team"
-        desc: "使用統計データと障害レポートを Atom チームに送信して機能向上に役立てることを許可します。"
+        desc: "Allow usage statistics and exception reports to be sent to the Atom team to help improve the product."
         select:
-          limited: "匿名で限定された使用統計データと障害レポートの送信を許可する"
-          no: "遠隔測定結果を送信しない"
-          undecided: "まだ決まっていない（次回起動時に再確認）"
+          limited: "Allow limited anonymous usage stats, exception and crash reporting"
+          no: "Do not send any telemetry data"
+          undecided: "Undecided (Atom will ask again next time it is launched)"
       }
       {
         id: 'core.useCustomTitleBar'
@@ -167,144 +164,172 @@ Settings:
       {
         id: 'core.warnOnLargeFileLimit'
         title: "Warn On Large File Limit"
-        desc: "指定したファイルサイズ（メガバイト）より大きなファイルを開く前に警告します。"
+        desc: "Warn before opening files larger than this number of megabytes."
       }
       {
         id: 'editor.atomicSoftTabs'
         title: "Atomic Soft Tabs"
-        desc: "カーソル移動の時、ソフトタブインデントの空白をタブ幅でスキップします。"
+        desc: "Skip over tab-length runs of leading whitespace when moving the cursor."
       }
       {
         id: 'editor.autoIndent'
         title: "Auto Indent"
-        desc: "新しい行を挿入（改行）した時、カーソル位置を自動的にインデントした位置に移動します。"
+        desc: "Automatically indent the cursor when inserting a newline."
       }
       {
         id: 'editor.autoIndentOnPaste'
         title: "Auto Indent On Paste"
-        desc: "ペーストしたテキストを直前の行のインデントを基準に自動的にインデントします。"
+        desc: "Automatically indent pasted text based on the indentation of the previous line."
       }
       {
         id: 'editor.backUpBeforeSaving'
         title: "Back Up Before Saving"
-        desc: "ファイルの保存中に I/O エラーが発生した場合にファイルの内容が失われないよう、バックアップ用の一時コピーを作成します。"
+        desc: ""
       }
       {
         id: 'editor.confirmCheckoutHeadRevision'
         title: "Confirm Checkout HEAD Revision"
-        desc: "コマンド `Editor: Checkout Head Revision` を使用して HEAD リビジョンをチェックアウトし現在の変更内容を破棄する前に確認ダイアログを表示します。"
+        desc: "Show confirmation dialog when checking out the HEAD revision and discarding changes to current file since last commit."
       }
       {
         id: 'editor.fontFamily'
         title: "Font Family"
-        desc: "font-family"
+        desc: "The name of the font family used for editor text."
       }
       {
         id: 'editor.fontSize'
         title: "Font Size"
-        desc: "font-size (px)"
+        desc: "Height in pixels of editor text."
       }
       {
         id: 'editor.invisibles.cr'
         title: "Invisibles Cr"
-        desc: "キャリッジ・リターン（Microsoftスタイルの行末文字）として描画する文字（「不可視文字を表示」を有効にしている場合）"
+        desc: "Character used to render carriage return characters
+               (for Microsoft-style line endings) when the <code>Show
+               Invisibles</code> setting is enabled."
       }
       {
         id: 'editor.invisibles.eol'
         title: "Invisibles Eol"
-        desc: "改行 (\\n) として描画する文字（「不可視文字を表示」を有効にしている場合）"
+        desc: "Character used to render newline characters (\n) when the
+               <code>Show Invisibles</code> setting is enabled."
       }
       {
         id: 'editor.invisibles.space'
         title: "Invisibles Space"
-        desc: "スペース（行頭以前と行末以降）として描画する文字（「不可視文字を表示」を有効にしている場合）"
+        desc: "Character used to render leading and trailing space characters
+               when the <code>Show Invisibles</code> setting is enabled."
       }
       {
         id: 'editor.invisibles.tab'
         title: "Invisibles Tab"
-        desc: "ハードタブ（\\t）として描画する文字（「不可視文字を表示」を有効にしている場合）"
+        desc: "Character used to render hard tab characters (\t) when the
+               <code>Show Invisibles</code> setting is enabled."
       }
       {
         id: 'editor.lineHeight'
         title: "Line Height"
-        desc: "line-height (number)"
+        desc: "Height of editor lines, as a multiplier of font size."
       }
       {
         id: 'editor.nonWordCharacters'
         title: "Non Word Characters"
-        desc: "単語の境界を定めるための文字"
+        desc: "A string of non-word characters to define word boundaries."
       }
       {
         id: 'editor.preferredLineLength'
         title: "Preferred Line Length"
-        desc: "「右端ガイドの位置でソフトラップ」が有効な場合にテキストを折り返す位置を文字数で指定します。"
+        desc: "Identifies the length of a line which is used when wrapping text
+               with the <code>Soft Wrap At Preferred Line Length</code> setting
+               enabled, in number of characters."
       }
       {
         id: 'editor.scrollPastEnd'
         title: "Scroll Past End"
-        desc: "エディタに最終行が表示された地点でスクロールを止めないようにします。"
+        desc: "Allow the editor to be scrolled past the end of the last line."
       }
       {
         id: 'editor.scrollSensitivity'
         title: "Scroll Sensitivity"
-        desc: "マウスやトラックパッドでエディタをスクロールする時の速度"
+        desc: "Determines how fast the editor scrolls when using a mouse or
+               trackpad."
       }
       {
         id: 'editor.showIndentGuide'
         title: "Show Indent Guide"
-        desc: "エディタ内にインデントガイドを表示します。"
+        desc: "Show indentation indicators in the editor."
       }
       {
         id: 'editor.showInvisibles'
         title: "Show Invisibles"
-        desc: "タブやスペース、改行などの見えない文字を記号として表示します。"
+        desc: "Render placeholders for invisible characters, such as tabs,
+               spaces and newlines."
       }
       {
         id: 'editor.showLineNumbers'
         title: "Show Line Numbers"
-        desc: "エディタ内に行番号を表示します。"
+        desc: "Show line numbers in the editor's gutter."
       }
       {
         id: 'editor.softTabs'
         title: "Soft Tabs"
-        desc: "タブ文字の代わりにスペースを連ねて挿入します。"
+        desc: "If the <code>Tab Type</code> config setting is set to \"auto\"
+               and autodetection of tab type from buffer content fails, then
+               this config setting determines whether a soft tab or a hard tab
+               will be inserted when the Tab key is pressed."
       }
       {
         id: 'editor.softWrap'
         title: "Soft Wrap"
-        desc: "ウィンドウ幅を超えた時に折り返して表示します。「右端ガイドの位置でソフトラップ」が有効の場合は「右端ガイドの位置」の設定値で折り返されます。"
+        desc: "Wraps lines that exceed the width of the window. When
+               <code>Soft Wrap At Preferred Line Length</code> is set, it will
+               wrap to the number of characters defined by the <code>Preferred
+               Line Length</code> setting."
       }
       {
         id: 'editor.softWrapAtPreferredLineLength'
         title: "Soft Wrap At Preferred Line Length"
-        desc: "「右端ガイドの位置」の設定値で折り返します。この設定はソフトラップがグローバルまたは作業中の言語で有効な場合のみ適用されます。"
+        desc: "Instead of wrapping lines to the window's width, wrap lines to
+               the number of characters defined by the <code>Preferred Line
+               Length</code> setting. This will only take effect when the soft
+               wrap config setting is enabled globally or for the current
+               language. <strong>Note:</strong> If you want to hide the wrap
+               guide (the vertical line) you can disable the
+               <code>wrap-guide</code> package."
       }
       {
         id: 'editor.softWrapHangingIndent'
         title: "Soft Wrap Hanging Indent"
-        desc: "「ソフトラップ」が有効な場合、ラップされた行に対し指定した文字数だけ追加でインデントします。"
+        desc: "When soft wrap is enabled, defines length of additional
+               indentation applied to wrapped lines, in number of characters."
       }
       {
         id: 'editor.tabLength'
         title: "Tab Length"
-        desc: "タブを表す際に使用されるスペースの数"
+        desc: "Number of spaces used to represent a tab."
       }
       {
         id: 'editor.tabType'
         title: "Tab Type"
-        desc: 'タブキーを押した際に挿入する文字の形式を指定します。"soft" はソフトタブ（Space）、"hard" はハードタブ（Tab）が使用されます。
-               "auto" はエディタがバッファの内容を自動判別します。自動判別は最初に見つけた行（コメント行を除く）の先頭にあるスペースで行われます。
-               自動判別できなかった場合はソフトタブが設定されます。'
+        desc: "Determine character inserted when Tab key is pressed. Possible
+               values: \"auto\", \"soft\" and \"hard\". When set to \"soft\" or
+               \"hard\", soft tabs (spaces) or hard tabs (tab characters) are
+               used. When set to \"auto\", the editor auto-detects the tab type
+               based on the contents of the buffer (it uses the first leading
+               whitespace on a non-comment line), or uses the value of the Soft
+               Tabs config setting if auto-detection fails."
       }
       {
         id: 'editor.undoGroupingInterval'
         title: "Undo Grouping Interval"
-        desc: "ひとまとまりの操作と認識させて取り消し履歴に登録する間隔（ミリ秒）"
+        desc: "Time interval in milliseconds within which text editing
+               operations will be grouped together in the undo history."
       }
       {
         id: 'editor.zoomFontWhenCtrlScrolling'
         title: "Zoom Font When Ctrl Scrolling"
-        desc: "コントロールキーを押しながらスクロールを上下することでエディタのフォントサイズを拡大/縮小します。"
+        desc: "Change the editor font size when pressing the Ctrl key and
+               scrolling the mouse up/down."
       }
     ]
   }
