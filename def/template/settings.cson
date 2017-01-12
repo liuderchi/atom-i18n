@@ -351,21 +351,21 @@ Settings:
   }
   themes: {
     notes: {
-      text1: "Atom は"
-      text2: " スタイルシート "
-      text3: "を編集してスタイルを変更することもできます。"
+      text1: "You can also style Atom by editing "
+      text2: "your stylesheet"
+      text3: ""   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
-    title1: "インターフェーステーマ"
-    description1: "タブ、ステータスバー、ツリービューとドロップダウンのスタイルを変更します。"
-    title2: "シンタックステーマ"
-    description2: "テキストエディタの内側のスタイルを変更します。"
+    title1: "UI Theme"
+    description1: "This styles the tabs, status bar, tree view, and dropdowns"
+    title2: "Syntax Theme"
+    description2: "This styles the text inside the editor"
   }
   updates: {
-    "check-updates": "すべてアップデート"
-    "update-all": "アップデートをチェック"
-    "checking-updates": "アップデートを確認中..."
-    "all-updated-message": "インストールしたパッケージはすべて最新です！"
+    "check-updates": "Check for Updates"
+    "update-all": "Update All"
+    "checking-updates": "Checking for updates..."
+    "all-updated-message": "All of your installed packages are up to date!"
   }
   install: {
     notes: {
