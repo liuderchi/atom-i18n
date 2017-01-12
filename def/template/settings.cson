@@ -335,17 +335,17 @@ Settings:
   }
   keymaps: {
     notes: {
-      text1: "これらのキーバインドは　"
-      text2: "をクリック（コピー）して"
-      text3: " キーマップファイル "
-      text4: "に貼り付けると上書きできます。"
+      text1: "You can override these keybindings by copying "
+      text2: "and pasting them into "
+      text3: "your keymap file"
+      text4: ""   # optional
       _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
     }
-    "search-bar-placeholder": "キーバインディングの検索"
-    "table-header-keystroke": "キーストローク"
-    "table-header-command": "コマンド"
-    "table-header-source": "ソース"
-    "table-header-selector": "セレクタ"
+    "search-bar-placeholder": "Search keybindings"
+    "table-header-keystroke": "Keystroke"
+    "table-header-command": "Command"
+    "table-header-source": "Source"
+    "table-header-selector": "Selector"
   }
   packages: {
   }
