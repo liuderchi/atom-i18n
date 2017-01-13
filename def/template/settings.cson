@@ -369,20 +369,20 @@ Settings:
   }
   install: {
     notes: {
-      text1: "パッケージ・テーマは "
-      text2: "に公開されており "
-      text3: " にインストールされます。"
+      text1: "Packages are published to "
+      text2: " and are installed to "
+      text3: ""   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
-    "searchbar-placeholder": "パッケージを検索する"
-    "btn-packages": "パッケージ"
-    "btn-themes": "テーマ"
+    "searchbar-placeholder": "Search packages"
+    "btn-packages": "Packages"
+    "btn-themes": "Themes"
   }
   "control-btns":{
-    install: "インストール"
+    install: "Install"
     update: "Update to"
-    setting: "設定"
-    uninstall: "アンインストール"
-    disable: "無効にする"
-    enable: "有効にする"
+    setting: "Settings"
+    uninstall: "Uninstall"
+    disable: "Disable"
+    enable: "Enable"
   }
