@@ -18,7 +18,7 @@ class PreferencesUtil
     return unless text
     before = String(elem.textContent)
     return if before == text
-    elem.textContent = text
+    elem.innerHTML = text    # NOTE text may contain HTML
     elem.setAttribute('title', before)
     elem.setAttribute('data-localized', 'true')
     # NOTE indicator for localized elemnt
