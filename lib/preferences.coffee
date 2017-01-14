@@ -74,7 +74,7 @@ class Preferences
     menu = @sv.querySelector('.settings-view .panels-menu')
     return unless menu
     for d in @defS.Settings.menu
-      el = menu.querySelector("[name='#{d.label}']>a")
+      el = menu.querySelector("[name='#{d._label}']>a")
       PU.applyTextWithOrg el, d.value
 
     # Left-side button

@@ -2,32 +2,31 @@ Settings:
   "tab-title": "設定"
   menu: [
     {
-      label: "Core"
+      _label: "Core"
       value: "コア設定"
-      # TODO experiment on removing label
     }
     {
-      label: "Editor"
+      _label: "Editor"
       value: "エディタ設定"
     }
     {
-      label: "Keybindings"
+      _label: "Keybindings"
       value: "キーバインド"
     }
     {
-      label: "Packages"
+      _label: "Packages"
       value: "パッケージ"
     }
     {
-      label: "Themes"
+      _label: "Themes"
       value: "テーマ"
     }
     {
-      label: "Updates"
+      _label: "Updates"
       value: "アップデート"
     }
     {
-      label: "Install"
+      _label: "Install"
       value: "インストール"
     }
   ]

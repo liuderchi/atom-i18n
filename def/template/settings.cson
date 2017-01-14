@@ -2,31 +2,31 @@ Settings:
   "tab-title": "Settings"
   menu: [
     {
-      label: "Core"
+      _label: "Core"
       value: "Core"
     }
     {
-      label: "Editor"
+      _label: "Editor"
       value: "Editor"
     }
     {
-      label: "Keybindings"
+      _label: "Keybindings"
       value: "Keybindings"
     }
     {
-      label: "Packages"
+      _label: "Packages"
       value: "Packages"
     }
     {
-      label: "Themes"
+      _label: "Themes"
       value: "Themes"
     }
     {
-      label: "Updates"
+      _label: "Updates"
       value: "Updates"
     }
     {
-      label: "Install"
+      _label: "Install"
       value: "Install"
     }
   ]
