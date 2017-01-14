@@ -26,6 +26,10 @@
         {
           "value": "zh-tw",
           "description": "Chinese(Taiwan) (zh-tw)"
+        },
+        {
+          "value": "template",
+          "description": "English (en)"
         }
       ]
     }
