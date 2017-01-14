@@ -22,9 +22,9 @@
   "configSchema": {
     "locale": {
       "type": "string",
-      "default": "ja",
+      "default": "template",
       "title": "Language",
-      "description": "Select language you would like to apply. Please <strong>Restart Atom after changing locale.</strong>",
+      "description": "Select language you would like to apply. Press <code>Ctrl-Shift-F5</code> to <strong>Restart Atom after changing locale.</strong>",
       "enum": [
         {
           "value": "ar",
