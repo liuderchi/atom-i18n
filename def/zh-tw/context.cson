@@ -28,7 +28,6 @@ Context:
     "spell-check:correct-misspelling": "スペル修正"
     "symbols-view:go-to-declaration": "宣言に移動"
   ".overlayer":
-    "autocomplete:toggle": "オートコンプリート"
     "grammar-selector:show": "文法を選択"
   ".image-view":
     "image-view:reload": "画像をリロード"
