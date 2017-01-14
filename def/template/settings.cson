@@ -32,28 +32,28 @@ Settings:
   ]
   "btn-open-config-folder": "Open Config Folder"
   sectionHeadings: [
-    {label: "Core Settings", value: "Core Settings"}
-    {label: "Editor Settings", value: "Editor Settings"}
-    {label: "Keybindings", value: "Keybindings"}
-    {label: "Installed Packages", value: "Installed Packages"}
-    {label: "Choose a Theme", value: "Choose a Theme"}
-    {label: "Installed Themes", value: "Installed Themes"}
-    {label: "Install Packages", value: "Install Packages"}
-    {label: "Featured Packages", value: "Featured Packages"}
-    {label: "Install Themes", value: "Install Themes"}
-    {label: "Featured Themes", value: "Featured Themes"}
+    {_label: "Core Settings", value: "Core Settings"}
+    {_label: "Editor Settings", value: "Editor Settings"}
+    {_label: "Keybindings", value: "Keybindings"}
+    {_label: "Installed Packages", value: "Installed Packages"}
+    {_label: "Choose a Theme", value: "Choose a Theme"}
+    {_label: "Installed Themes", value: "Installed Themes"}
+    {_label: "Install Packages", value: "Install Packages"}
+    {_label: "Featured Packages", value: "Featured Packages"}
+    {_label: "Install Themes", value: "Install Themes"}
+    {_label: "Featured Themes", value: "Featured Themes"}
   ]
-  "heading-available-updates": {label: "Available Updates", value: "Available Updates"}
+  "heading-available-updates": {_label: "Available Updates", value: "Available Updates"}
   subSectionHeadings: [
-    {label: "Invisible", value: "Invisible"}
-    {label: "Community Packages", value: "Community Packages"}
-    {label: "Core Packages", value: "Core Packages"}
-    {label: "Development Packages", value: "Development Packages"}
-    {label: "Git Packages", value: "Git Packages"}
-    {label: "Community Themes", value: "Community Themes"}
-    {label: "Core Themes", value: "Core Themes"}
-    {label: "Development Themes", value: "Development Themes"}
-    {label: "Git Themes", value: "Git Themes"}
+    {_label: "Invisible", value: "Invisible"}
+    {_label: "Community Packages", value: "Community Packages"}
+    {_label: "Core Packages", value: "Core Packages"}
+    {_label: "Development Packages", value: "Development Packages"}
+    {_label: "Git Packages", value: "Git Packages"}
+    {_label: "Community Themes", value: "Community Themes"}
+    {_label: "Core Themes", value: "Core Themes"}
+    {_label: "Development Themes", value: "Development Themes"}
+    {_label: "Git Themes", value: "Git Themes"}
   ]
   settings: {
     notes: [

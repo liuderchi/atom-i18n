@@ -32,28 +32,28 @@ Settings:
   ]
   "btn-open-config-folder": "設定フォルダを開く"
   sectionHeadings: [
-    {label: "Core Settings", value: "コア設定"}
-    {label: "Editor Settings", value: "エディタ設定"}
-    {label: "Keybindings", value: "キーバインド"}
-    {label: "Installed Packages", value: "インストール済みのパッケージ"}
-    {label: "Choose a Theme", value: "テーマの選択"}
-    {label: "Installed Themes", value: "インストール済みのテーマ"}
-    {label: "Install Packages", value: "パッケージのインストール"}
-    {label: "Featured Packages", value: "おすすめのパッケージ"}
-    {label: "Install Themes", value: "テーマのインストール"}
-    {label: "Featured Themes", value: "おすすめのテーマ"}
+    {_label: "Core Settings", value: "コア設定"}
+    {_label: "Editor Settings", value: "エディタ設定"}
+    {_label: "Keybindings", value: "キーバインド"}
+    {_label: "Installed Packages", value: "インストール済みのパッケージ"}
+    {_label: "Choose a Theme", value: "テーマの選択"}
+    {_label: "Installed Themes", value: "インストール済みのテーマ"}
+    {_label: "Install Packages", value: "パッケージのインストール"}
+    {_label: "Featured Packages", value: "おすすめのパッケージ"}
+    {_label: "Install Themes", value: "テーマのインストール"}
+    {_label: "Featured Themes", value: "おすすめのテーマ"}
   ]
-  "heading-available-updates": {label: "Available Updates", value: "利用可能なアップデート"}
+  "heading-available-updates": {_label: "Available Updates", value: "利用可能なアップデート"}
   subSectionHeadings: [
-    {label: "Invisible", value: "不可視文字"}
-    {label: "Community Packages", value: "コミュニティパッケージ"}
-    {label: "Core Packages", value: "コアパッケージ"}
-    {label: "Development Packages", value: "開発パッケージ"}
-    {label: "Git Packages", value: "Git パッケージ"}
-    {label: "Community Themes", value: "コミュニティテーマ"}
-    {label: "Core Themes", value: "コアテーマ"}
-    {label: "Development Themes", value: "開発テーマ"}
-    {label: "Git Themes", value: "Git テーマ"}
+    {_label: "Invisible", value: "不可視文字"}
+    {_label: "Community Packages", value: "コミュニティパッケージ"}
+    {_label: "Core Packages", value: "コアパッケージ"}
+    {_label: "Development Packages", value: "開発パッケージ"}
+    {_label: "Git Packages", value: "Git パッケージ"}
+    {_label: "Community Themes", value: "コミュニティテーマ"}
+    {_label: "Core Themes", value: "コアテーマ"}
+    {_label: "Development Themes", value: "開発テーマ"}
+    {_label: "Git Themes", value: "Git テーマ"}
   ]
   settings: {
     notes: [

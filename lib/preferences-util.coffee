@@ -36,12 +36,12 @@ class PreferencesUtil
   @applySectionHeadings = (force) ->
     sv = document.querySelector('.settings-view')
     for sh in window.JapaneseMenu.defS.Settings.sectionHeadings
-      el = @getTextMatchElement(sv, '.section-heading', sh.label)
+      el = @getTextMatchElement(sv, '.section-heading', sh._label)
       continue unless el
       if !@isAlreadyLocalized(el) || force
         @applyTextWithOrg(el, sh.value)
     for sh in window.JapaneseMenu.defS.Settings.subSectionHeadings
-      el = @getTextMatchElement(sv, '.sub-section-heading', sh.label)
+      el = @getTextMatchElement(sv, '.sub-section-heading', sh._label)
       continue unless el
       if !@isAlreadyLocalized(el) || force
         @applyTextWithOrg(el, sh.value)
