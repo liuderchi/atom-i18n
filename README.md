@@ -2,6 +2,8 @@
 
 One i18n package for multiple languages :globe_with_meridians:
 
+![demo](https://cloud.githubusercontent.com/assets/4994705/21954194/b0cd5cbe-da85-11e6-96e0-c02202b947d0.png)
+
 ## Language Support
 
 | Language | code | status |
@@ -18,6 +20,12 @@ One i18n package for multiple languages :globe_with_meridians:
 | Chinese(China) |  `zh-tw` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Chinese(Taiwan) | `zh-cn` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 
+
+## How to Contribute? Who can Contribute?
+
+  - please refer to [CONTRIBUTING.md](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md)
+
+
 ## Project Structure
 
   * `def/` is directory containing translation content
@@ -33,9 +41,6 @@ One i18n package for multiple languages :globe_with_meridians:
   * `package.json` contains package metadata
       * key `configSchema` defines supported languages
 
-## How to Contribute?
-
-  - please refer to [CONTRIBUTING.md](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md)
 
 ## Reference
 
