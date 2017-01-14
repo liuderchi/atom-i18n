@@ -27,8 +27,44 @@
       "description": "Select language you would like to apply. Please <strong>Restart Atom after changing locale.</strong>",
       "enum": [
         {
+          "value": "ar",
+          "description": "Arabic (ar)"
+        },
+        {
+          "value": "es",
+          "description": "Spanish (es)"
+        },
+        {
+          "value": "de",
+          "description": "German (de)"
+        },
+        {
+          "value": "fr",
+          "description": "French (fr)"
+        },
+        {
+          "value": "hi",
+          "description": "Hindi (hi)"
+        },
+        {
           "value": "ja",
           "description": "Japanese (ja)"
+        },
+        {
+          "value": "ko",
+          "description": "Korean (ko)"
+        },
+        {
+          "value": "nl",
+          "description": "Dutch (nl)"
+        },
+        {
+          "value": "pt-br",
+          "description": "Portuguese(Brazil) (pt-br)"
+        },
+        {
+          "value": "zh-cn",
+          "description": "Simplified Chinese (zh-cn)"
         },
         {
           "value": "zh-tw",

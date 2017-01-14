@@ -1,11 +1,22 @@
 # atom-i18n package
 
-Atom i18n package for multiple languages :globe_with_meridians:
+One i18n package for multiple languages :globe_with_meridians:
 
 ## Language Support
 
-  * Japanese (~100%)
-  * Traditional Chinese (<10%)
+| Language | code | status |
+| -------- |:----:|:------:|
+| Arabic | `ar` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| Spanish | `es` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| German | `de` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| French | `fr` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| Hindi | `hi` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| Japanese | `ja` | :white_check_mark: 95% |
+| Korean | `ko` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| Dutch | `nl` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| Portuguese(Brazil) | `pr-br` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| Chinese(China) |  `zh-tw` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| Chinese(Taiwan) | `zh-cn` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 
 ## Project Structure
 
@@ -24,7 +35,7 @@ Atom i18n package for multiple languages :globe_with_meridians:
 
 ## How to Contribute?
 
-  - please refer to [CONTRIBUTING.md](./CONTRIBUTING.md)
+  - please refer to [CONTRIBUTING.md](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md)
 
 ## Reference
 
