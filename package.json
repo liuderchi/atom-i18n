@@ -2,8 +2,10 @@
   "name": "atom-i18n",
   "main": "./lib/main",
   "version": "0.0.1",
-  "description": "i18n for Atom menus and some core packages",
-  "keywords": [],
+  "description": "i18n for Atom in multiple languages",
+  "keywords": [
+    "atom", "i18n", "l12n", "internationalization", "localization", "translation"
+  ],
   "repository": "https://github.com/liuderchi/atom-i18n",
   "license": "MIT",
   "engines": {
