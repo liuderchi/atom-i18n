@@ -28,7 +28,7 @@ class PreferencesSettings
   @localizeSettingsPanel: () ->
     # Notes
     for note in @defS.settings.notes
-      info = @sv.querySelector("[id='#{note.id}']")
+      info = @sv.querySelector("[id='#{note._id}']")
       unless PU.isAlreadyLocalized(info)
         info.innerHTML = note.html
         info.setAttribute('data-localized', 'true')
@@ -38,7 +38,7 @@ class PreferencesSettings
       applyTextContentBySettingsId(d)
 
   applyTextContentBySettingsId = (data) ->
-    el = document.querySelector("[id='#{data.id}']")
+    el = document.querySelector("[id='#{data._id}']")
     return unless el
     ctrl = el.closest('.control-group')
     PU.applyTextWithOrg(ctrl.querySelector('.setting-title'), data.title)
@@ -90,7 +90,7 @@ class PreferencesSettings
       info.setAttribute('data-localized', 'true')
 
   @localizeUpdatesPanel: () =>
-    PU.applySpecialHeading(@sv, @defS["heading-available-updates"].label, 2, @defS["heading-available-updates"].value)
+    PU.applySpecialHeading(@sv, @defS["heading-available-updates"]._label, 2, @defS["heading-available-updates"].value)
     PU.applyTextWithOrg(@sv.querySelector('.update-all-button.btn-primary'), @defS.updates["check-updates"])
     PU.applyTextWithOrg(@sv.querySelector('.update-all-button:not(.btn-primary)'), @defS.updates["update-all"])
     PU.applyTextWithOrg(@sv.querySelector('.alert.icon-hourglass'),  @defS.updates["checking-updates"])
