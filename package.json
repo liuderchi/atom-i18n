@@ -17,7 +17,7 @@
       "type": "string",
       "default": "ja",
       "title": "Language",
-      "description": "Select language you would like to apply",
+      "description": "Select language you would like to apply. Please <strong>Restart Atom after changing locale.</strong>",
       "enum": [
         {
           "value": "ja",
