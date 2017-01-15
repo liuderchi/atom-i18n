@@ -4,7 +4,7 @@ class PreferencesSettings
 
   @localize: () ->
 
-    @defS = window.JapaneseMenu.defS.Settings
+    @defS = window.I18N.defS.Settings
     @sv = document.querySelector('.settings-view')
 
     # Settings panel

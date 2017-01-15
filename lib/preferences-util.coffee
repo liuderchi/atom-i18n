@@ -35,12 +35,12 @@ class PreferencesUtil
 
   @applySectionHeadings = (force) ->
     sv = document.querySelector('.settings-view')
-    for sh in window.JapaneseMenu.defS.Settings.sectionHeadings
+    for sh in window.I18N.defS.Settings.sectionHeadings
       el = @getTextMatchElement(sv, '.section-heading', sh._label)
       continue unless el
       if !@isAlreadyLocalized(el) || force
         @applyTextWithOrg(el, sh.value)
-    for sh in window.JapaneseMenu.defS.Settings.subSectionHeadings
+    for sh in window.I18N.defS.Settings.subSectionHeadings
       el = @getTextMatchElement(sv, '.sub-section-heading', sh._label)
       continue unless el
       if !@isAlreadyLocalized(el) || force
@@ -48,7 +48,7 @@ class PreferencesUtil
 
   @applyButtonToolbar = () ->
     # NOTE button in package updates/install tabs
-    @defS = window.JapaneseMenu.defS.Settings
+    @defS = window.I18N.defS.Settings
     sv = document.querySelector('.settings-view')
     for btn in sv.querySelectorAll('.meta-controls .install-button')
       @applyTextWithOrg(btn, @defS["control-btns"].install)

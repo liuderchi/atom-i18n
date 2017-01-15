@@ -4,7 +4,7 @@ Menu        = require './menu'
 ContextMenu = require './context-menu'
 Preferences = require './preferences'
 
-class JapaneseMenu
+class I18N
 
   pref: {done: false}
 
@@ -24,4 +24,4 @@ class JapaneseMenu
     # TODO localize more...
 
 
-module.exports = window.JapaneseMenu = new JapaneseMenu()
+module.exports = window.I18N = new I18N()
