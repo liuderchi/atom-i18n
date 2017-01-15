@@ -1,8 +1,9 @@
 path = require 'path'
-CSON        = require 'cson'
-Menu        = require './menu'
+CSON = require 'cson'
+Menu = require './menu'
 ContextMenu = require './context-menu'
 Preferences = require './preferences'
+Util = require './util'
 
 class I18N
 
@@ -22,6 +23,16 @@ class I18N
     ContextMenu.localize(@defC)
     Preferences.localize(@defS)
     # TODO localize more...
+
+    atom.config.onDidChange 'atom-i18n.locale', (event) ->
+      newLocale = event.newValue
+
+      configEnum = atom.config.getSchema('atom-i18n.locale').enum
+      newOption = configEnum.find (option) ->
+        option.value is newLocale
+      newLangauge = if newOption then newOption.description else newLocale
+
+      Util.promtReloadAtom("Reload Atom to translate into `#{newLangauge}`.")
 
 
 module.exports = window.I18N = new I18N()
