@@ -1,8 +1,9 @@
 path = require 'path'
-CSON        = require 'cson'
-Menu        = require './menu'
+CSON = require 'cson'
+Menu = require './menu'
 ContextMenu = require './context-menu'
 Preferences = require './preferences'
+Util = require './util'
 
 class I18N
 
@@ -31,13 +32,7 @@ class I18N
         option.value is newLocale
       newLangauge = if newOption then newOption.description else newLocale
 
-      buttons = [{
-        text: 'Reload',
-        onDidClick: -> atom.reload()
-      }]
-      atom.notifications.addInfo("Reload Atom to translate into `#{newLangauge}`.", {
-        dismissable: true, buttons: buttons
-      })
+      Util.promtReloadAtom("Reload Atom to translate into `#{newLangauge}`.")
 
 
 module.exports = window.I18N = new I18N()
