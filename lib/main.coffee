@@ -18,6 +18,9 @@ class I18N
   activate: (state) ->
     setTimeout(@delay, 0)
 
+  deactivate: () ->
+    Util.promptUserReloadAtom("Reload Atom to clear translation.")
+
   delay: () =>
     Menu.localize(@defM)
     ContextMenu.localize(@defC)
@@ -32,7 +35,7 @@ class I18N
         option.value is newLocale
       newLangauge = if newOption then newOption.description else newLocale
 
-      Util.promtReloadAtom("Reload Atom to translate into `#{newLangauge}`.")
+      Util.promptUserReloadAtom("Reload Atom to translate into `#{newLangauge}`.")
 
 
 module.exports = window.I18N = new I18N()

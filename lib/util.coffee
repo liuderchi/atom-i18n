@@ -1,6 +1,6 @@
 class Util
 
-  @promtReloadAtom: (msg = "Reload Atom for localization.") ->
+  @promptUserReloadAtom: (msg = "Reload Atom for localization.") ->
     buttons = [{
       text: 'Reload',
       onDidClick: -> atom.reload()
