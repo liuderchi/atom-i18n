@@ -9,6 +9,7 @@
     "l12n",
     "internationalization",
     "localization",
+    "translate",
     "translation"
   ],
   "repository": "https://github.com/liuderchi/atom-i18n",
@@ -24,7 +25,7 @@
       "type": "string",
       "default": "template",
       "title": "Language",
-      "description": "Select language you would like to apply. Press <code>Ctrl-Shift-F5</code> to <strong>Restart Atom after changing locale.</strong>",
+      "description": "Please <strong>Reload Atom</strong> after changing locale.",
       "enum": [
         {
           "value": "ar",

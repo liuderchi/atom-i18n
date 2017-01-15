@@ -35,7 +35,7 @@ class I18N
         option.value is newLocale
       newLangauge = if newOption then newOption.description else newLocale
 
-      Util.promptUserReloadAtom("Reload Atom to translate into `#{newLangauge}`.")
+      Util.promptUserReloadAtom("Reload Atom to translate into \n- `#{newLangauge}`.")
 
 
 module.exports = window.I18N = new I18N()
