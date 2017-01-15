@@ -23,5 +23,21 @@ class I18N
     Preferences.localize(@defS)
     # TODO localize more...
 
+    atom.config.onDidChange 'atom-i18n.locale', (event) ->
+      newLocale = event.newValue
+
+      configEnum = atom.config.getSchema('atom-i18n.locale').enum
+      newOption = configEnum.find (option) ->
+        option.value is newLocale
+      newLangauge = if newOption then newOption.description else newLocale
+
+      buttons = [{
+        text: 'Reload',
+        onDidClick: -> atom.reload()
+      }]
+      atom.notifications.addInfo("Reload Atom to translate into `#{newLangauge}`.", {
+        dismissable: true, buttons: buttons
+      })
+
 
 module.exports = window.I18N = new I18N()
