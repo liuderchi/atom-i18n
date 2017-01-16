@@ -3,386 +3,367 @@ Settings:
   menu: [
     {
       _label: "Core"
-      value: "Core"
+      value: "코어"
     }
     {
       _label: "Editor"
-      value: "Editor"
+      value: "에디터"
     }
     {
       _label: "Keybindings"
-      value: "Keybindings"
+      value: "키 바인딩"
     }
     {
       _label: "Packages"
-      value: "Packages"
+      value: "패키지"
     }
     {
       _label: "Themes"
-      value: "Themes"
+      value: "테마"
     }
     {
       _label: "Updates"
-      value: "Updates"
+      value: "업데이트"
     }
     {
       _label: "Install"
-      value: "Install"
+      value: "설치"
     }
   ]
-  "btn-open-config-folder": "Open Config Folder"
+  "btn-open-config-folder": "구성 폴더 열기"
   sectionHeadings: [
-    {_label: "Core Settings", value: "Core Settings"}
-    {_label: "Editor Settings", value: "Editor Settings"}
-    {_label: "Keybindings", value: "Keybindings"}
-    {_label: "Installed Packages", value: "Installed Packages"}
-    {_label: "Choose a Theme", value: "Choose a Theme"}
-    {_label: "Installed Themes", value: "Installed Themes"}
-    {_label: "Install Packages", value: "Install Packages"}
-    {_label: "Featured Packages", value: "Featured Packages"}
-    {_label: "Install Themes", value: "Install Themes"}
-    {_label: "Featured Themes", value: "Featured Themes"}
+    {_label: "Core Settings", value: "코어 설정"}
+    {_label: "Editor Settings", value: "에디터 설정"}
+    {_label: "Keybindings", value: "키 바인딩"}
+    {_label: "Installed Packages", value: "설치된 패키지"}
+    {_label: "Choose a Theme", value: "테마 선택"}
+    {_label: "Installed Themes", value: "설치된 테마"}
+    {_label: "Install Packages", value: "패키지 설치"}
+    {_label: "Featured Packages", value: "추천 패키지"}
+    {_label: "Install Themes", value: "테마 설치"}
+    {_label: "Featured Themes", value: "추천 테마"}
   ]
-  "heading-available-updates": {_label: "Available Updates", value: "Available Updates"}
+  "heading-available-updates": {_label: "Available Updates", value: "사용 가능한 업데이트"}
   subSectionHeadings: [
-    {_label: "Invisible", value: "Invisible"}
-    {_label: "Community Packages", value: "Community Packages"}
-    {_label: "Core Packages", value: "Core Packages"}
-    {_label: "Development Packages", value: "Development Packages"}
-    {_label: "Git Packages", value: "Git Packages"}
-    {_label: "Community Themes", value: "Community Themes"}
-    {_label: "Core Themes", value: "Core Themes"}
-    {_label: "Development Themes", value: "Development Themes"}
-    {_label: "Git Themes", value: "Git Themes"}
+    {_label: "Invisible", value: "비가시성 문자"}
+    {_label: "Community Packages", value: "커뮤니티 패키지"}
+    {_label: "Core Packages", value: "코어 패키지"}
+    {_label: "Development Packages", value: "개발 패키지"}
+    {_label: "Git Packages", value: "Git 패키지"}
+    {_label: "Community Themes", value: "커뮤니티 테마"}
+    {_label: "Core Themes", value: "코어 테마"}
+    {_label: "Development Themes", value: "개발 테마"}
+    {_label: "Git Themes", value: "Git 테마"}
   ]
   settings: {
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'These are Atom\'s core settings which affect behavior
-               unrelated to text editing. Individual packages may have
-               their own additional settings found within their package
-               card in the <a class="link packages-open">Packages list</a>.'
+        html: '이 설정은 텍스트 편집과 관계 없는 Atom Editor의 동작에 관련된 코어 설정입니다.
+               몇몇 패키지는 해당 패키지만의 추가적인 설정을 가지고 있을 수 있으며
+               <a class="link packages-open">Packages list</a>의
+               패키지 카드에서 찾을 수 있습니다.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'These settings are related to text editing. Some of these
-               can be overriden on a per-language basis. Check language
-               settings by clicking its package card in the
-               <a class="link packages-open">Packages list</a>.'
+        html: '이 설정은 문서 편집과 관련된 에디터 설정입니다.
+               어떤 설정은 각 언어 설정에 따라 덮어씌어질 수 있습니다.
+               <a class="link packages-open">Packages list</a>에서
+               패키지 카드를 선택하여 언어 설정을 확인하세요.'
       }
     ]
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
-        title: "Allow Pending PaneItems"
-        desc: "Allow items to be previewed without adding them to a pane
-               permanently, such as when single clicking files in the tree view."
+        title: "패널 아이템 미리보기 허용"
+        desc: "트리뷰에서 파일을 한 번 클릭 했을 때, 아이템을 탭에 추가하지 않고 미리보기 형태로 이전 패널과 겹쳐 보여줍니다."
       }
       {
         _id: 'core.audioBeep'
-        title: "Audio Beep"
-        desc: "Trigger the system's beep sound when certain actions cannot be
-               executed or there are no results."
+        title: "비프음"
+        desc: "어떤 특정한 동작을 실행시키지 못했거나 결과가 없을 때 시스템 비프 사운드를 재생합니다."
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automatically Update"
-        desc: "Automatically update Atom when a new release is available."
+        title: "자동 업데이트"
+        desc: "새로운 릴리즈를 사용할 수 있을 때 Atom을 자동으로 업데이트 합니다."
       }
       {
         _id: 'core.autoHideMenuBar'
-        title: "Auto Hide Menu Bar"
-        desc: "Automatically hide the menu bar and toggle it by pressing Alt. This is only supported on Windows &amp; Linux."
+        title: "메뉴 막대 자동 숨기기"
+        desc: "자동으로 창 상단의 메뉴 막대를 숨기고, Alt키를 눌렀을 때만 토글합니다. 이 기능은 Windows와 Linux에서만 지원합니다."
       }
       {
         _id: 'core.closeEmptyWindows'
-        title: "Close Empty Windows"
-        desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
+        title: "빈 창 닫기"
+        desc: "윈도우가 탭이나 패널을 하나도 열고 있지 않을 때, '탭 닫기 (Close Tab)' 커맨드가 입력되면 윈도우를 닫습니다."
       }
       {
         _id: 'core.destroyEmptyPanes'
-        title: "Destroy Empty Panes"
-        desc: "When the last tab of a pane is closed, remove that pane as well."
+        title: "빈 패널 닫기"
+        desc: "패널의 마지막 탭이 닫혔을 때, 그 패널도 같이 닫습니다."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
-        title: "Exclude VCS Ignored Paths"
-        desc: "Files and directories ignored by the current project's VCS system will be ignored by some packages, such as the fuzzy finder and find and replace. For example, projects using Git have these paths defined in the .gitignore file. Individual packages might have additional config settings for ignoring VCS ignored files and folders."
+        title: "VCS에서 무시된 경로 제외하기"
+        desc: "현재 프로젝트의 VCS 시스템에서 무시된 파일과 디렉토리가 몇몇 fuzzy finder와 find and replace 같은 패키지에서 무시됩니다. 예를 들어 Git을 사용하는 프로젝트에서 이러한 경로가 .gitignore 파일에 기재되어 있는 경우가 있습니다. 각각의 패키지들은 VCS에서 무시된 파일과 경로에 대한 추가적인 설정을 제공할 수도 있습니다."
       }
       {
         _id: 'core.fileEncoding'
-        title: "File Encoding"
-        desc: "Default character set encoding to use when reading and writing files."
+        title: "파일 인코딩"
+        desc: "파일을 읽거나 작성할 때 사용할 기본 문자 세트를 지정합니다."
       }
       {
         _id: 'core.followSymlinks'
-        title: "Follow Symlinks"
-        desc: "Follow symbolic links when searching files and when opening files with the fuzzy finder."
+        title: "심링크 따라가기"
+        desc: "파일을 찾거나 fuzzy finder로 열 때 심링크를 따라갑니다."
       }
       {
         _id: 'core.ignoredNames'
-        title: "Ignored Names"
-        desc: "List of <code>glob patterns</code>. Files and directories matching these patterns will be ignored by some packages, such as the fuzzy finder and tree view. Individual packages might have additional config settings for ignoring names."
+        title: "무시될 파일과 경로"
+        desc: "<code>Glob 패턴</code> 문자열로 이루어진 리스트입니다. 이 패턴에 일치하는 파일과 디렉토리는 몇몇 fuzzy finder와 find and replace 같은 패키지에서 무시됩니다. 각각의 패키지들은 무시될 파일과 경로에 대한 설정을 제공할 수도 있습니다."
       }
       {
         _id: 'core.openEmptyEditorOnStart'
-        title: "Open Empty Editor On Start"
-        desc: "Automatically open an empty editor on startup."
+        title: "시작시 빈 에디터로 열기"
+        desc: "자동으로 아무것도 열리지 않은 빈 에디터로 시작합니다."
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Packages With Keymaps Disabled"
+        title: "단축키 설정을 비활성화할 패키지 리스트"
       }
       {
         _id: 'core.projectHome'
-        title: "Project Home"
-        desc: "The directory where projects are assumed to be located. Packages created using the Package Generator will be stored here by default."
+        title: "프로젝트 홈"
+        desc: "프로젝트가 위치해야 할 경로입니다. 패키지 생성기로 만드는 패키지들은 모두 기본적으로 이 경로를 기준으로 생성됩니다."
       }
       {
         _id: 'core.reopenProjectMenuCount'
-        title: "Reopen Project Menu Count"
-        desc: "How many recent projects to show in the Reopen Project menu."
+        title: "프로젝트 다시 열기 메뉴의 프로젝트 개수"
+        desc: "프로제긑 다시 열기 메뉴 (Reopen Project menu)에서 최근 열린 프로젝트를 몇개까지 표시할지 지정합니다."
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "Restore Previous Windows On Start"
+        title: "시작시 이전 창 복구"
       }
       {
         _id: 'core.telemetryConsent'
-        title: "Send Telemetry to the Atom Team"
-        desc: "Allow usage statistics and exception reports to be sent to the Atom team to help improve the product."
+        title: "Atom 팀으로 사용 정보 보내기"
+        desc: "Atom을 더 좋게 만들기 위해 사용 정보와 예외 리포트를 Atom 팀으로 보낼 수 있도록 허용합니다."
         select:
-          limited: "Allow limited anonymous usage stats, exception and crash reporting"
-          no: "Do not send any telemetry data"
-          undecided: "Undecided (Atom will ask again next time it is launched)"
+          limited: "제한된 익명의 사용 정보, 예외 및 크래시 정보를 보내는 것을 허용합니다"
+          no: "어떠한 정보도 보내지 않습니다"
+          undecided: "나중에 물어보기 (나중에 Atom이 실행될 때 다시 물어봅니다)"
       }
       {
         _id: 'core.useCustomTitleBar'
-        title: "Use Custom Title Bar"
+        title: "커스텀 제목 막대 사용"
       }
       {
         _id: 'core.warnOnLargeFileLimit'
-        title: "Warn On Large File Limit"
-        desc: "Warn before opening files larger than this number of megabytes."
+        title: "커다란 크기의 파일을 열 때 경고"
+        desc: "다음 메가바이트 단위로 지정된 파일 크기보다 더 큰 파일을 열 때 경고를 표시합니다."
       }
       {
         _id: 'editor.atomicSoftTabs'
-        title: "Atomic Soft Tabs"
-        desc: "Skip over tab-length runs of leading whitespace when moving the cursor."
+        title: "간소화한 Soft 탭"
+        desc: "커서를 움직일 때, 탭 길이에 따라 선행하는 여백을 일반 탭처럼 건너뜁니다."
       }
       {
         _id: 'editor.autoIndent'
-        title: "Auto Indent"
-        desc: "Automatically indent the cursor when inserting a newline."
+        title: "자동 들여쓰기"
+        desc: "개행할 때 자동으로 커서를 들여쓰기합니다."
       }
       {
         _id: 'editor.autoIndentOnPaste'
-        title: "Auto Indent On Paste"
-        desc: "Automatically indent pasted text based on the indentation of the previous line."
+        title: "붙여넣기시 자동 들여쓰기"
+        desc: "붙여넣기된 텍스트를 이전 행의 들여쓰기에 맞춰 자동으로 들여쓰기를 수행합니다."
       }
       {
         _id: 'editor.backUpBeforeSaving'
-        title: "Back Up Before Saving"
-        desc: ""
+        title: "저장하기 전에 백업"
+        desc: "만약 저장 과정에 I/O 에러가 있더라도 일시적인 백업 복사본을 만듦으로써, 작성한 파일 내용을 잃어버리지 않게 합니다."
       }
       {
         _id: 'editor.confirmCheckoutHeadRevision'
-        title: "Confirm Checkout HEAD Revision"
-        desc: "Show confirmation dialog when checking out the HEAD revision and discarding changes to current file since last commit."
+        title: "HEAD 리비전 체크아웃시 확인"
+        desc: "HEAD 리비전을 체크아웃하고 마지막 커밋으로부터 현재 파일의 변경 사항을 폐기할 때 확인 대화상자를 표시합니다."
       }
       {
         _id: 'editor.fontFamily'
-        title: "Font Family"
-        desc: "The name of the font family used for editor text."
+        title: "폰트 패밀리"
+        desc: "에디터 텍스트에 사용할 폰트 패밀리를 지정합니다."
       }
       {
         _id: 'editor.fontSize'
-        title: "Font Size"
-        desc: "Height in pixels of editor text."
+        title: "폰트 크기"
+        desc: "픽셀 단위의 에디터 텍스트 크기입니다."
       }
       {
         _id: 'editor.invisibles.cr'
-        title: "Invisibles Cr"
-        desc: "Character used to render carriage return characters
-               (for Microsoft-style line endings) when the <code>Show
-               Invisibles</code> setting is enabled."
+        title: "비가시성 Cr"
+        desc: "<code>비가시성 문자 보이기</code> 설정이 활성화되어있을 때, 캐리지 리턴 문자 (Microsoft 스타일 개행)를 표현할 문자를 지정합니다."
       }
       {
         _id: 'editor.invisibles.eol'
-        title: "Invisibles Eol"
-        desc: "Character used to render newline characters (\n) when the
-               <code>Show Invisibles</code> setting is enabled."
+        title: "비가시성 Eol"
+        desc: "<code>비가시성 문자 보이기</code> 설정이 활성화되어있을 때, 개행 문자 (\n)를 표현할 문자를 지정합니다."
       }
       {
         _id: 'editor.invisibles.space'
-        title: "Invisibles Space"
-        desc: "Character used to render leading and trailing space characters
-               when the <code>Show Invisibles</code> setting is enabled."
+        title: "비가시성 Space"
+        desc: "<code>비가시성 문자 보이기</code> 설정이 활성화되어있을 때, 선행, 후행 스페이스를 표현할 문자를 지정합니다."
       }
       {
         _id: 'editor.invisibles.tab'
-        title: "Invisibles Tab"
-        desc: "Character used to render hard tab characters (\t) when the
-               <code>Show Invisibles</code> setting is enabled."
+        title: "비가시성 Tab"
+        desc: "<code>비가시성 문자 보이기</code> 설정이 활성화되어있을 때, 하드 탭 (\t)을 표현할 문자를 지정합니다."
       }
       {
         _id: 'editor.lineHeight'
-        title: "Line Height"
-        desc: "Height of editor lines, as a multiplier of font size."
+        title: "행 높이"
+        desc: "에디터 행의 높이이며 폰트 크기에 추가로 늘어납니다."
       }
       {
         _id: 'editor.nonWordCharacters'
-        title: "Non Word Characters"
-        desc: "A string of non-word characters to define word boundaries."
+        title: "비단어 문자"
+        desc: "단어의 경계를 구분할 비단어 문자의 문자열"
       }
       {
         _id: 'editor.preferredLineLength'
-        title: "Preferred Line Length"
-        desc: "Identifies the length of a line which is used when wrapping text
-               with the <code>Soft Wrap At Preferred Line Length</code> setting
-               enabled, in number of characters."
+        title: "선호하는 행 길이"
+        desc: "<code>선호하는 행 길이에 소프트 랩핑 적용</code> 설정이 활성화되어 있을 때,
+               텍스트를 랩핑하기 위해 사용할 행 문자의 개수를 지정합니다."
       }
       {
         _id: 'editor.scrollPastEnd'
-        title: "Scroll Past End"
-        desc: "Allow the editor to be scrolled past the end of the last line."
+        title: "마지막 행에서 스크롤"
+        desc: "에디터가 마지막 행의 끝에서 밑으로 더 스크롤 할 수 있도록 허용합니다."
       }
       {
         _id: 'editor.scrollSensitivity'
-        title: "Scroll Sensitivity"
-        desc: "Determines how fast the editor scrolls when using a mouse or
-               trackpad."
+        title: "스크롤 감도"
+        desc: "마우스나 트랙패드를 사용할 떄 얼마나 빠르게 에디터를 스크롤할지 지정합니다."
       }
       {
         _id: 'editor.showIndentGuide'
-        title: "Show Indent Guide"
-        desc: "Show indentation indicators in the editor."
+        title: "들여쓰기 가이드 보이기"
+        desc: "에디터에서 들여쓰기 가이드를 보이게할지 지정합니다."
       }
       {
         _id: 'editor.showInvisibles'
-        title: "Show Invisibles"
-        desc: "Render placeholders for invisible characters, such as tabs,
-               spaces and newlines."
+        title: "비가시성 문자 보이기"
+        desc: "탭, 스페이스, 개행 문자와 같은 비가시성 문자열의 대체 문자를 표시합니다."
       }
       {
         _id: 'editor.showLineNumbers'
-        title: "Show Line Numbers"
-        desc: "Show line numbers in the editor's gutter."
+        title: "행 번호 보이기"
+        desc: "에디터의 왼쪽 공간에 행 번호를 표시합니다."
       }
       {
         _id: 'editor.softTabs'
-        title: "Soft Tabs"
-        desc: "If the <code>Tab Type</code> config setting is set to \"auto\"
-               and autodetection of tab type from buffer content fails, then
-               this config setting determines whether a soft tab or a hard tab
-               will be inserted when the Tab key is pressed."
+        title: "소프트 탭"
+        desc: "<code>탭 종류</code> 설정이 \"auto\"로 되어있고,
+               버퍼 콘텐츠에서 탭 종류의 자동 인식에 실패했을 때,
+               탭 키가 입력되면 소프트 탭을 사용할지 하드 탭을 사용할지를 지정합니다."
       }
       {
         _id: 'editor.softWrap'
-        title: "Soft Wrap"
-        desc: "Wraps lines that exceed the width of the window. When
-               <code>Soft Wrap At Preferred Line Length</code> is set, it will
-               wrap to the number of characters defined by the <code>Preferred
-               Line Length</code> setting."
+        title: "소프트 랩핑"
+        desc: "창의 크기를 초과하는 행을 랩핑합니다.
+              <code>선호하는 행 길이에 소프트 랩핑 적용</code> 설정이 활성화되어있는 경우,
+              <code>선호하는 행 길이</code> 설정에 맞춰 랩핑됩니다."
       }
       {
         _id: 'editor.softWrapAtPreferredLineLength'
-        title: "Soft Wrap At Preferred Line Length"
-        desc: "Instead of wrapping lines to the window's width, wrap lines to
-               the number of characters defined by the <code>Preferred Line
-               Length</code> setting. This will only take effect when the soft
-               wrap config setting is enabled globally or for the current
-               language. <strong>Note:</strong> If you want to hide the wrap
-               guide (the vertical line) you can disable the
-               <code>wrap-guide</code> package."
+        title: "선호하는 행 길이에 소프트 랩핑 적용"
+        desc: "각 행을 창의 넓이에 랩핑하는 대신, <code>선호하는 행 길이</code> 설정에서
+               지정한 문자 개수에 맞춰 랩핑합니다. 이 설정은 전역 소프트 랩핑 설정 또는
+               현재 언어의 설정에서 활성화된 경우에만 작동합니다.
+               <strong>참고:</strong> 랩핑 가이드 (에디터에 표시되는 세로줄)를 숨기고 싶다면,
+               <code>wrap-guide</code> 패키지를 비활성화하면 됩니다."
       }
       {
         _id: 'editor.softWrapHangingIndent'
-        title: "Soft Wrap Hanging Indent"
-        desc: "When soft wrap is enabled, defines length of additional
-               indentation applied to wrapped lines, in number of characters."
+        title: "소프트 랩핑 추가 들여쓰기"
+        desc: "소프트 랩핑이 활성화되어있을 때, 랩핑된 행에 지정한 수 만큼의 들여쓰기를 추가합니다."
       }
       {
         _id: 'editor.tabLength'
-        title: "Tab Length"
-        desc: "Number of spaces used to represent a tab."
+        title: "탭 길이"
+        desc: "탭을 표현하는데 사용할 스페이스의 개수입니다."
       }
       {
         _id: 'editor.tabType'
-        title: "Tab Type"
-        desc: "Determine character inserted when Tab key is pressed. Possible
-               values: \"auto\", \"soft\" and \"hard\". When set to \"soft\" or
-               \"hard\", soft tabs (spaces) or hard tabs (tab characters) are
-               used. When set to \"auto\", the editor auto-detects the tab type
-               based on the contents of the buffer (it uses the first leading
-               whitespace on a non-comment line), or uses the value of the Soft
-               Tabs config setting if auto-detection fails."
+        title: "탭 종류"
+        desc: "탭 키가 입력됐을 때 어떤 문자가 삽입될지 지정합니다.
+               사용할 수 있는 값은: \"auto\", \"soft\" 그리고 \"hard\"가 있습니다.
+               \"soft\" 또는 \"hard\"로 설정하면 각각 소프트 탭 (스페이스)과 하드 탭 (탭 문자)이 사용됩니다.
+               \"auto\"로 설정하면, 에디터가 버터의 콘텐츠에 맞춰 자동으로 탭 종류를 지정하고
+               (주석이 아닌 첫 선행 공백 문자열을 통해 확인합니다), 만약 자동 지정에 실패하면 소프트 탭 설정에서 지정한 값을 사용합니다."
       }
       {
         _id: 'editor.undoGroupingInterval'
-        title: "Undo Grouping Interval"
-        desc: "Time interval in milliseconds within which text editing
-               operations will be grouped together in the undo history."
+        title: "실행취소 그룹화 간격"
+        desc: "실행취소 히스토리에 기록될 텍스트 편집 작업의 밀리초 단위의 간격입니다."
       }
       {
         _id: 'editor.zoomFontWhenCtrlScrolling'
-        title: "Zoom Font When Ctrl Scrolling"
-        desc: "Change the editor font size when pressing the Ctrl key and
-               scrolling the mouse up/down."
+        title: "Ctrl 키를 누른 상태에서 스크롤시 폰트 크기 조절"
+        desc: "Ctrl 키를 누른 상태로 위/아래로 스크롤시 폰트 크기를 조절할지 지정합니다."
       }
     ]
   }
   keymaps: {
     notes: {
-      text1: "You can override these keybindings by copying "
-      text2: "and pasting them into "
-      text3: "your keymap file"
-      text4: ""   # optional
+      text1: ""
+      text2: " 아이콘을 클릭하여 키 맵핑을 복사한 후 "
+      text3: "키 맵핑 파일"
+      text4: " 에 붙여넣으면 단축키를 덮어쓸 수 있습니다"   # optional
       _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
     }
-    "search-bar-placeholder": "Search keybindings"
-    "table-header-keystroke": "Keystroke"
-    "table-header-command": "Command"
-    "table-header-source": "Source"
-    "table-header-selector": "Selector"
+    "search-bar-placeholder": "키 바인딩 검색"
+    "table-header-keystroke": "키스트로크"
+    "table-header-command": "커맨드"
+    "table-header-source": "소스"
+    "table-header-selector": "선택자"
   }
   packages: {
   }
   themes: {
     notes: {
-      text1: "You can also style Atom by editing "
-      text2: "your stylesheet"
-      text3: ""   # optional
+      text1: "Atom의 "
+      text2: "스타일 시트"
+      text3: "를 수정함으로써 외관을 편집할 수 있습니다"   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
-    title1: "UI Theme"
-    description1: "This styles the tabs, status bar, tree view, and dropdowns"
-    title2: "Syntax Theme"
-    description2: "This styles the text inside the editor"
+    title1: "UI 테마"
+    description1: "이 테마는 탭, 상태 막대, 트리뷰, 그리고 드롭다운 메뉴의 스타일을 지정합니다"
+    title2: "문법 테마"
+    description2: "이 테마는 에디터 안의 텍스트 스타일을 지정합니다"
   }
   updates: {
-    "check-updates": "Check for Updates"
-    "update-all": "Update All"
-    "checking-updates": "Checking for updates..."
-    "all-updated-message": "All of your installed packages are up to date!"
+    "check-updates": "업데이트 확인"
+    "update-all": "모두 업데이트"
+    "checking-updates": "업데이트를 확인하는 중입니다..."
+    "all-updated-message": "설치된 모든 패키지가 최신 상태입니다!"
   }
   install: {
     notes: {
-      text1: "Packages are published to "
-      text2: " and are installed to "
-      text3: ""   # optional
+      text1: "패키지들은 모두 "
+      text2: " 에서 배포되며,"
+      text3: " 폴더에 설치됩니다"   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
-    "searchbar-placeholder": "Search packages"
-    "btn-packages": "Packages"
-    "btn-themes": "Themes"
+    "searchbar-placeholder": "패키지 검색"
+    "btn-packages": "패키지"
+    "btn-themes": "테마"
   }
   "control-btns":{
-    install: "Install"
-    update: "Update to"
-    setting: "Settings"
-    uninstall: "Uninstall"
-    disable: "Disable"
-    enable: "Enable"
+    install: "설치"
+    update: "다음으로 업데이트"
+    setting: "설정"
+    uninstall: "제거"
+    disable: "비활성화"
+    enable: "활성화"
   }
