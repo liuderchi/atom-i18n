@@ -76,7 +76,7 @@ Settings:
       {
         _id: 'core.allowPendingPaneItems'
         title: "패널 아이템 미리보기 허용"
-        desc: "트리뷰에서 파일을 한 번 클릭 했을 때, 아이템을 탭에 추가하지 않고 미리보기 형태로 이전 패널과 겹쳐 보여줍니다."
+        desc: "Tree View에서 파일을 한 번 클릭 했을 때, 아이템을 탭에 추가하지 않고 미리보기 형태로 이전 패널과 겹쳐 보여줍니다."
       }
       {
         _id: 'core.audioBeep'
@@ -338,7 +338,7 @@ Settings:
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
     title1: "UI 테마"
-    description1: "이 테마는 탭, 상태 막대, 트리뷰, 그리고 드롭다운 메뉴의 스타일을 지정합니다"
+    description1: "이 테마는 탭, 상태 막대, Tree View, 그리고 드롭다운 메뉴의 스타일을 지정합니다"
     title2: "문법 테마"
     description2: "이 테마는 에디터 안의 텍스트 스타일을 지정합니다"
   }
