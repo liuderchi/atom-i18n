@@ -90,8 +90,8 @@ Settings:
       }
       {
         _id: 'core.autoHideMenuBar'
-        title: "메뉴 막대 자동 숨기기"
-        desc: "자동으로 창 상단의 메뉴 막대를 숨기고, Alt키를 눌렀을 때만 토글합니다. 이 기능은 Windows와 Linux에서만 지원합니다."
+        title: "메뉴바 자동 숨기기"
+        desc: "자동으로 창 상단의 메뉴바를 숨기고, Alt키를 눌렀을 때만 토글합니다. 이 기능은 Windows와 Linux에서만 지원합니다."
       }
       {
         _id: 'core.closeEmptyWindows'
@@ -101,7 +101,7 @@ Settings:
       {
         _id: 'core.destroyEmptyPanes'
         title: "빈 패널 닫기"
-        desc: "패널의 마지막 탭이 닫혔을 때, 그 패널도 같이 닫습니다."
+        desc: "패널의 마지막 탭이 닫혔을 때, 해당 패널도 같이 닫습니다."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
@@ -125,7 +125,7 @@ Settings:
       }
       {
         _id: 'core.openEmptyEditorOnStart'
-        title: "시작시 빈 에디터로 열기"
+        title: "시작 시 빈 에디터로 열기"
         desc: "자동으로 아무것도 열리지 않은 빈 에디터로 시작합니다."
       }
       {
@@ -144,7 +144,7 @@ Settings:
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "시작시 이전 창 복구"
+        title: "시작 시 이전 창 복구"
       }
       {
         _id: 'core.telemetryConsent'
@@ -227,7 +227,7 @@ Settings:
       {
         _id: 'editor.nonWordCharacters'
         title: "비단어 문자"
-        desc: "단어의 경계를 구분할 비단어 문자의 문자열"
+        desc: "단어의 경계를 구분할 비단어 문자의 나열입니다."
       }
       {
         _id: 'editor.preferredLineLength'
@@ -304,8 +304,8 @@ Settings:
       }
       {
         _id: 'editor.undoGroupingInterval'
-        title: "실행취소 그룹화 간격"
-        desc: "실행취소 히스토리에 기록될 텍스트 편집 작업의 밀리초 단위의 간격입니다."
+        title: "실행 취소 그룹화 간격"
+        desc: "실행 취소 히스토리에 기록될 텍스트 편집 작업의 밀리초 단위의 간격입니다."
       }
       {
         _id: 'editor.zoomFontWhenCtrlScrolling'
