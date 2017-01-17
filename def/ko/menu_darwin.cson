@@ -40,7 +40,7 @@ Menu:
       "Add Project Folder…":
         value: "프로젝트 폴더 추가..."
       "Reopen Last Item":
-        value: "마지막으로 닫은 파일 다시 열기"
+        value: "마지막으로 닫은 아이템 다시 열기"
       Save:
         value: "저장"
       "Save As…":
