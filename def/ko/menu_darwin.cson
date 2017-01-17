@@ -211,7 +211,7 @@ Menu:
       "Decrease Font Size":
         value: "폰트 크기 줄이기"
       "Reset Font Size":
-        value: "폰트 크기 원래대로"
+        value: "폰트 크기 초기화"
       "Toggle Soft Wrap":
         value: "소프트 랩핑 토글"
       "Toggle Command Palette":
