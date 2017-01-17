@@ -14,7 +14,7 @@ One i18n package for multiple languages :globe_with_meridians:
 | French | `fr` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Hindi | `hi` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Japanese | `ja` | :white_check_mark: 95% |
-| Korean | `ko` | :white_check_mark: 60% |
+| Korean | `ko` | :white_check_mark: 100% |
 | Dutch | `nl` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Portuguese(Brazil) | `pr-br` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Chinese(Simplified) |  `zh-cn` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
