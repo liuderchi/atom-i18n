@@ -45,3 +45,10 @@ One i18n package for multiple languages :globe_with_meridians:
 ## Reference
 
   - this repo is based on [atom-japanese-menu](https://atom.io/packages/japanese-menu) by [syon](https://atom.io/users/syon) and [atom-cht-menu](https://atom.io/packages/cht-menu) by [Sheng-Bo](https://atom.io/users/Sheng-Bo)
+
+
+## Thanks for Contribution
+
+  - Chinese(Simplified): [trifirew](https://github.com/trifirew)
+  - Korean: [preco21](https://github.com/preco21) [chibichichi](https://github.com/chibichichi) [Riyeon](https://github.com/Riyeon)
+  - Spanish: [stsewd](https://github.com/stsewd)
