@@ -12,7 +12,7 @@ class Preferences
       if item isnt undefined
         if item.uri isnt undefined
           if item.uri.indexOf('atom://config') isnt -1
-            unless window.JapaneseMenu.pref.done
+            unless window.I18N.pref.done
               @updateSettings(true)
 
   @updateSettings: (onSettingsOpen = false) ->
@@ -41,7 +41,7 @@ class Preferences
       for btn in btns
         btn.addEventListener('click', applyInstallPanelOnSwitch)
 
-      window.JapaneseMenu.pref.done = true
+      window.I18N.pref.done = true
     catch e
       console.error "I18N failed with locale: ", e
       # TODO print current locale

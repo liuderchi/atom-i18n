@@ -1,10 +1,11 @@
 path = require 'path'
-CSON        = require 'cson'
-Menu        = require './menu'
+CSON = require 'cson'
+Menu = require './menu'
 ContextMenu = require './context-menu'
 Preferences = require './preferences'
+Util = require './util'
 
-class JapaneseMenu
+class I18N
 
   pref: {done: false}
 
@@ -17,11 +18,24 @@ class JapaneseMenu
   activate: (state) ->
     setTimeout(@delay, 0)
 
+  deactivate: () ->
+    Util.promptUserReloadAtom("Reload Atom to clear translation.")
+
   delay: () =>
     Menu.localize(@defM)
     ContextMenu.localize(@defC)
     Preferences.localize(@defS)
     # TODO localize more...
 
+    atom.config.onDidChange 'atom-i18n.locale', (event) ->
+      newLocale = event.newValue
 
-module.exports = window.JapaneseMenu = new JapaneseMenu()
+      configEnum = atom.config.getSchema('atom-i18n.locale').enum
+      newOption = configEnum.find (option) ->
+        option.value is newLocale
+      newLangauge = if newOption then newOption.description else newLocale
+
+      Util.promptUserReloadAtom("Reload Atom to translate into \n- `#{newLangauge}`.")
+
+
+module.exports = window.I18N = new I18N()

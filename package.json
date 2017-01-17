@@ -1,7 +1,7 @@
 {
   "name": "atom-i18n",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "one i18n package for multiple languages",
   "keywords": [
     "atom",
@@ -9,6 +9,7 @@
     "l12n",
     "internationalization",
     "localization",
+    "translate",
     "translation"
   ],
   "repository": "https://github.com/liuderchi/atom-i18n",
@@ -22,9 +23,9 @@
   "configSchema": {
     "locale": {
       "type": "string",
-      "default": "zh-cn",
+      "default": "template",
       "title": "Language",
-      "description": "Select language you would like to apply. Please <strong>Restart Atom after changing locale.</strong>",
+      "description": "Please <strong>Reload Atom</strong> after changing locale.",
       "enum": [
         {
           "value": "ar",
