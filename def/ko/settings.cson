@@ -75,8 +75,9 @@ Settings:
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
-        title: "패널 아이템 미리보기 허용"
-        desc: "Tree View에서 파일을 한 번 클릭 했을 때, 아이템을 탭에 추가하지 않고 미리보기 형태로 이전 패널과 겹쳐 보여줍니다."
+        title: "분할 창 아이템 미리보기 허용"
+        desc: "Tree View에서 파일을 한 번 클릭 했을 때,
+               아이템을 탭에 추가하지 않고 미리보기 형태로 이전 분할 창과 겹쳐 보여줍니다."
       }
       {
         _id: 'core.audioBeep'
@@ -91,22 +92,26 @@ Settings:
       {
         _id: 'core.autoHideMenuBar'
         title: "메뉴바 자동 숨기기"
-        desc: "자동으로 창 상단의 메뉴바를 숨기고, Alt키를 눌렀을 때만 토글합니다. 이 기능은 Windows와 Linux에서만 지원합니다."
+        desc: "자동으로 창 상단의 메뉴바를 숨기고, Alt키를 눌렀을 때만 토글합니다.
+               이 기능은 Windows와 Linux에서만 지원합니다."
       }
       {
         _id: 'core.closeEmptyWindows'
         title: "빈 창 닫기"
-        desc: "현재 창이 탭이나 패널을 하나도 열고 있지 않을 때, '탭 닫기 (Close Tab)' 커맨드가 입력되면 현재 창을 그대로 닫습니다."
+        desc: "현재 창이 탭이나 분할 창을 하나도 열고 있지 않을 때,
+               '탭 닫기 (Close Tab)' 커맨드가 입력되면 현재 창을 그대로 닫습니다."
       }
       {
         _id: 'core.destroyEmptyPanes'
-        title: "빈 패널 닫기"
-        desc: "패널의 마지막 탭이 닫혔을 때, 해당 패널도 같이 닫습니다."
+        title: "빈 분할 창 닫기"
+        desc: "분할 창의 마지막 탭이 닫혔을 때, 분할 창도 같이 닫습니다."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
         title: "VCS에서 무시된 경로 제외하기"
-        desc: "현재 프로젝트의 VCS 시스템에서 무시된 파일과 디렉토리가 몇몇 fuzzy finder와 find and replace 같은 패키지에서 무시됩니다. 예를 들어 Git을 사용하는 프로젝트에서 이러한 경로가 .gitignore 파일에 기재되어 있는 경우가 있습니다. 각각의 패키지들은 VCS에서 무시된 파일과 경로에 대한 추가적인 설정을 제공할 수도 있습니다."
+        desc: "현재 프로젝트의 VCS 시스템에서 무시된 파일과 디렉토리가 fuzzy finder와 find and replace 같은 패키지에서 무시됩니다.
+               예를 들어 Git을 사용하는 프로젝트에서 이러한 경로가 .gitignore 파일에 기재되어 있는 경우가 있습니다.
+               각각의 패키지들은 VCS에서 무시된 파일과 경로에 대한 추가적인 설정을 제공할 수도 있습니다."
       }
       {
         _id: 'core.fileEncoding'
@@ -121,7 +126,9 @@ Settings:
       {
         _id: 'core.ignoredNames'
         title: "무시될 파일과 경로"
-        desc: "<code>Glob 패턴</code> 문자열로 이루어진 리스트입니다. 이 패턴에 일치하는 파일과 디렉토리는 몇몇 fuzzy finder와 find and replace 같은 패키지에서 무시됩니다. 각각의 패키지들은 무시될 파일과 경로에 대한 설정을 제공할 수도 있습니다."
+        desc: "<code>Glob 패턴</code> 문자열로 이루어진 리스트입니다.
+               이 패턴에 일치하는 파일과 디렉토리는 몇몇 fuzzy finder와 find and replace 같은 패키지에서 무시됩니다.
+               각각의 패키지들은 무시될 파일과 경로에 대한 설정을 제공할 수도 있습니다."
       }
       {
         _id: 'core.openEmptyEditorOnStart'
@@ -333,7 +340,7 @@ Settings:
   themes: {
     notes: {
       text1: "Atom의 "
-      text2: "스타일 시트"
+      text2: "스타일시트"
       text3: "를 수정함으로써 외관을 편집할 수 있습니다"   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
