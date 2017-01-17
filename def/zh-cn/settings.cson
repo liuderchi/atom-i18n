@@ -1,75 +1,73 @@
 Settings:
-  "tab-title": "Settings"
+  "tab-title": "设置"
   menu: [
     {
       _label: "Core"
-      value: "Core"
+      value: "核心"
     }
     {
       _label: "Editor"
-      value: "Editor"
+      value: "编辑器"
     }
     {
       _label: "Keybindings"
-      value: "Keybindings"
+      value: "快捷键"
     }
     {
       _label: "Packages"
-      value: "Packages"
+      value: "管理扩展包"
     }
     {
       _label: "Themes"
-      value: "Themes"
+      value: "主题"
     }
     {
       _label: "Updates"
-      value: "Updates"
+      value: "更新"
     }
     {
       _label: "Install"
-      value: "Install"
+      value: "安装扩展包"
     }
   ]
-  "btn-open-config-folder": "Open Config Folder"
+  "btn-open-config-folder": "打开配置文件夹"
   sectionHeadings: [
-    {_label: "Core Settings", value: "Core Settings"}
-    {_label: "Editor Settings", value: "Editor Settings"}
-    {_label: "Keybindings", value: "Keybindings"}
-    {_label: "Installed Packages", value: "Installed Packages"}
-    {_label: "Choose a Theme", value: "Choose a Theme"}
-    {_label: "Installed Themes", value: "Installed Themes"}
-    {_label: "Install Packages", value: "Install Packages"}
-    {_label: "Featured Packages", value: "Featured Packages"}
-    {_label: "Install Themes", value: "Install Themes"}
-    {_label: "Featured Themes", value: "Featured Themes"}
+    {_label: "Core Settings", value: "核心设置"}
+    {_label: "Editor Settings", value: "编辑器设置"}
+    {_label: "Keybindings", value: "快捷键"}
+    {_label: "Installed Packages", value: "已安装扩展包"}
+    {_label: "Choose a Theme", value: "选择主题"}
+    {_label: "Installed Themes", value: "已安装主题"}
+    {_label: "Install Packages", value: "安装扩展包"}
+    {_label: "Featured Packages", value: "热门扩展包"}
+    {_label: "Install Themes", value: "安装主题"}
+    {_label: "Featured Themes", value: "热门主题"}
   ]
-  "heading-available-updates": {_label: "Available Updates", value: "Available Updates"}
+  "heading-available-updates": {_label: "Available Updates", value: "可用更新"}
   subSectionHeadings: [
-    {_label: "Invisible", value: "Invisible"}
-    {_label: "Community Packages", value: "Community Packages"}
-    {_label: "Core Packages", value: "Core Packages"}
-    {_label: "Development Packages", value: "Development Packages"}
-    {_label: "Git Packages", value: "Git Packages"}
-    {_label: "Community Themes", value: "Community Themes"}
-    {_label: "Core Themes", value: "Core Themes"}
-    {_label: "Development Themes", value: "Development Themes"}
-    {_label: "Git Themes", value: "Git Themes"}
+    {_label: "Invisible", value: "隐藏"}
+    {_label: "Community Packages", value: "社区扩展包"}
+    {_label: "Core Packages", value: "核心包"}
+    {_label: "Development Packages", value: "开发包"}
+    {_label: "Git Packages", value: "Git扩展包"}
+    {_label: "Community Themes", value: "社区主题"}
+    {_label: "Core Themes", value: "核心主题"}
+    {_label: "Development Themes", value: "开发主题"}
+    {_label: "Git Themes", value: "Git主题"}
   ]
   settings: {
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'These are Atom\'s core settings which affect behavior
-               unrelated to text editing. Individual packages may have
-               their own additional settings found within their package
-               card in the <a class="link packages-open">Packages list</a>.'
+        html: '这些是 Atom 的核心设置，与文本编辑无关。不同的扩展包可能有它们自己的附
+              加设置，你可以在<a class="link packages-open">扩展包列表</a>中找到这
+              些设置。'
       }
       {
         _id: 'editor-settings-note'
-        html: 'These settings are related to text editing. Some of these
-               can be overriden on a per-language basis. Check language
-               settings by clicking its package card in the
-               <a class="link packages-open">Packages list</a>.'
+        html: '这些是有关文本编辑的设置。其中一些设置可以被每种语言的设置覆盖，你可以在
+               <a class="link packages-open">扩展包列表</a>中点击这些扩展包，
+               查看这些编程语言的设置。'
       }
     ]
     controls: [
@@ -92,8 +90,8 @@ Settings:
       }
       {
         _id: 'core.autoHideMenuBar'
-        title: "Auto Hide Menu Bar"
-        desc: "Automatically hide the menu bar and toggle it by pressing Alt. This is only supported on Windows &amp; Linux."
+        title: "自动隐藏菜单栏"
+        desc: "按 Alt 以显示/隐藏菜单栏。目前仅支持Windows和Linux."
       }
       {
         _id: 'core.closeEmptyWindows'
@@ -112,7 +110,7 @@ Settings:
       }
       {
         _id: 'core.fileEncoding'
-        title: "File Encoding"
+        title: "文件编码"
         desc: "Default character set encoding to use when reading and writing files."
       }
       {
@@ -173,12 +171,12 @@ Settings:
       }
       {
         _id: 'editor.autoIndent'
-        title: "Auto Indent"
+        title: "自动缩进"
         desc: "Automatically indent the cursor when inserting a newline."
       }
       {
         _id: 'editor.autoIndentOnPaste'
-        title: "Auto Indent On Paste"
+        title: "粘贴时自动缩进"
         desc: "Automatically indent pasted text based on the indentation of the previous line."
       }
       {
@@ -193,12 +191,12 @@ Settings:
       }
       {
         _id: 'editor.fontFamily'
-        title: "Font Family"
+        title: "字体"
         desc: "The name of the font family used for editor text."
       }
       {
         _id: 'editor.fontSize'
-        title: "Font Size"
+        title: "字号"
         desc: "Height in pixels of editor text."
       }
       {

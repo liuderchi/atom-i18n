@@ -22,7 +22,7 @@
   "configSchema": {
     "locale": {
       "type": "string",
-      "default": "ja",
+      "default": "zh-cn",
       "title": "Language",
       "description": "Select language you would like to apply. Please <strong>Restart Atom after changing locale.</strong>",
       "enum": [

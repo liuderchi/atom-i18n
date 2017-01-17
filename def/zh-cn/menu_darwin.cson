@@ -3,21 +3,21 @@ Menu:
     value: "Atom"
     submenu:
       "About Atom":
-        value: "About Atom"
+        value: "关于Atom"
       "View License":
-        value: "View License"
+        value: "查看许可协议"
       "Preferences…":
-        value: "Preferences..."
+        value: "首选项..."
       "Config…":
-        value: "Config..."
+        value: "打开配置文件..."
       "Init Script…":
-        value: "Init Script..."
+        value: "Init脚本..."
       "Keymap…":
-        value: "Keymap..."
+        value: "管理快捷键..."
       "Snippets…":
-        value: "Snippets..."
+        value: "代码段..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "样式表..."
       "Install Shell Commands":
         value: "Install Shell Commands"
       "Hide Atom":
@@ -27,197 +27,196 @@ Menu:
       "Show All":
         value: "Show All"
       Quit:
-        value: "Quit"
+        value: "退出"
   File:
-    value: "File"
+    value: "文件"
     submenu:
       "New Window":
-        value: "New Window"
+        value: "打开新的窗口"
       "New File":
-        value: "New File"
+        value: "新建文件"
       "Open…":
-        value: "Open..."
+        value: "打开..."
       "Add Project Folder…":
-        value: "Add Project Folder..."
+        value: "添加项目文件夹..."
       "Reopen Last Item":
-        value: "Reopen Last Item"
+        value: "重新打开关闭的标签页"
       Save:
-        value: "Save"
+        value: "保存"
       "Save As…":
-        value: "Save As..."
+        value: "另存为..."
       "Save All":
-        value: "Save All"
+        value: "全部保存"
       "Close Tab":
-        value: "Close Tab"
+        value: "关闭标签页"
       "Close Pane":
-        value: "Close Pane"
+        value: "关闭面板"
       "Close Window":
-        value: "Close Window"
+        value: "关闭窗口"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "关闭所有标签页"
   Edit:
-    value: "Edit"
+    value: "编辑"
     submenu:
       Undo:
-        value: "Undo"
+        value: "撤销"
       Redo:
-        value: "Redo"
+        value: "恢复"
       Cut:
-        value: "Cut"
+        value: "剪切"
       Copy:
-        value: "Copy"
+        value: "复制"
       "Copy Path":
-        value: "Copy Path"
+        value: "复制文件路径"
       Paste:
-        value: "Paste"
+        value: "粘贴"
       "Select All":
-        value: "Select All"
+        value: "全选"
       "Toggle Comments":
-        value: "Toggle Comments"
+        value: "注释/取消注释"
       Lines:
-        value: "Lines"
+        value: "行操作"
         submenu:
-          Indent:
-            value: "Indent"
+            value: "缩进"
           Outdent:
-            value: "Outdent"
+            value: "退格"
           "Auto Indent":
-            value: "Auto Indent"
+            value: "自动缩进"
           "Move Line Up":
-            value: "Move Line Up"
+          value: "上移当前行"
           "Move Line Down":
-            value: "Move Line Down"
+            value: "下移当前行"
           "Duplicate Lines":
-            value: "Duplicate Lines"
+            value: "复制当前行"
           "Delete Line":
-            value: "Delete Line"
+            value: "删除当前行"
           "Join Lines":
-            value: "Join Lines"
+            value: "合并行"
       Columns:
-        value: "Columns"
+        value: "列操作"
         submenu:
           "Move Selection Left":
-            value: "Move Selection Left"
+            value: "左移选中内容"
           "Move Selection Right":
-            value: "Move Selection Right"
+            value: "右移选中内容"
       Text:
-        value: "Text"
+        value: "文本"
         submenu:
           "Upper Case":
-            value: "Upper Case"
+            value: "转换为大写"
           "Lower Case":
-            value: "Lower Case"
+            value: "转换为小写"
           "Delete to End of Word":
-            value: "Delete to End of Word"
+            value: "删除至单词结尾"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "删除至前一单词的分界"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "删除至后一单词的分界"
           "Delete Line":
-            value: "Delete Line"
+            value: "删除当前行"
           Transpose:
-            value: "Transpose"
+            value: "颠倒选中内容"
       Folding:
-        value: "Folding"
+        value: "折叠"
         submenu:
           Fold:
-            value: "Fold"
+            value: "折叠"
           Unfold:
-            value: "Unfold"
+            value: "展开"
           "Unfold All":
-            value: "Unfold All"
+            value: "全部展开"
           "Fold All":
-            value: "Fold All"
+            value: "全部折叠"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "折叠第1级文本"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "折叠第2级文本"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "折叠第3级文本"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "折叠第4级文本"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "折叠第5级文本"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "折叠第6级文本"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "折叠第7级文本"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "折叠第8级文本"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "折叠第9级文本"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "重排文本"
       Bookmark:
-        value: "Bookmark"
+        value: "书签"
         submenu:
           "View All":
-            value: "View All"
+            value: "查看全部书签"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "添加书签/取消书签"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "下一书签"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "上一书签"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "选择编码格式"
       "Go to Line":
-        value: "Go to Line"
+        value: "跳转至第...行"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "选择编程语言"
   View:
-    value: "View"
+    value: "视图"
     submenu:
       "Toggle Full Screen":
-        value: "Toggle Full Screen"
+        value: "切换全屏模式"
       Panes:
-        value: "Panes"
+        value: "面板"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "在上方打开新面板"
           "Split Down":
-            value: "Split Down"
+            value: "在下方打开新面板"
           "Split Left":
-            value: "Split Left"
+            value: "在左侧打开新面板"
           "Split Right":
-            value: "Split Right"
+            value: "在右侧打开新面板"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "聚焦下一面板"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "聚焦上一面板"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "聚焦上方的面板"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "聚焦下方的面板"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "聚焦左侧的面板"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "聚焦右侧的面板"
           "Close Pane":
-            value: "Close Pane"
+            value: "关闭面板"
       Developer:
-        value: "Developer"
+        value: "开发者"
         submenu:
           "Open In Dev Mode…":
-            value: "Open In Dev Mode..."
+            value: "用开发者模式打开..."
           "Reload Window":
-            value: "Reload Window"
+            value: "重新加载窗口"
           "Run Package Specs":
             value: "Run Package Specs"
           "Toggle Developer Tools":
-            value: "Toggle Developer Tools"
+            value: "显示/隐藏开发者工具"
       "Increase Font Size":
-        value: "Increase Font Size"
+        value: "加大字号"
       "Decrease Font Size":
-        value: "Decrease Font Size"
+        value: "减小字号"
       "Reset Font Size":
-        value: "Reset Font Size"
+        value: "恢复默认字号"
       "Toggle Soft Wrap":
-        value: "Toggle Soft Wrap"
+        value: "启用/禁用自动换行"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "显示/隐藏命令板"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "显示/隐藏树状图"
   Selection:
     value: "Selection"
     submenu:
@@ -234,9 +233,9 @@ Menu:
       "Select to Bottom":
         value: "Select to Bottom"
       "Select Line":
-        value: "Select Line"
+        value: "选择整行"
       "Select Word":
-        value: "Select Word"
+        value: "选择单词"
       "Select to Beginning of Word":
         value: "Select to Beginning of Word"
       "Select to Beginning of Line":
@@ -250,32 +249,32 @@ Menu:
       "Select Inside Brackets":
         value: "Select Inside Brackets"
   Find:
-    value: "Find"
+    value: "查找"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "查找"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "替换"
       "Select Next":
-        value: "Select Next"
+        value: "选中下一个"
       "Select All":
-        value: "Select All"
+        value: "选中所有"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "显示/隐藏“查找”界面"
       "Find in Project":
-        value: "Find in Project"
+        value: "在项目中查找"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "显示/隐藏“在项目中查找”面板"
       "Find Next":
-        value: "Find Next"
+        value: "查找下一个"
       "Find Previous":
-        value: "Find Previous"
+        value: "查找上一个"
       "Replace Next":
-        value: "Replace Next"
+        value: "替换下一个"
       "Replace All":
-        value: "Replace All"
+        value: "全部替换"
       "Clear History":
-        value: "Clear History"
+        value: "清除历史"
       "Find Buffer":
         value: "Find Buffer"
       "Find File":
@@ -283,32 +282,32 @@ Menu:
       "Find Modified File":
         value: "Find Modified File"
   Packages:
-    value: "Packages"
+    value: "扩展包"
   Window:
-    value: "Window"
+    value: "窗口"
     submenu:
       Minimize:
-        value: "Minimize"
+        value: "最小化"
       Zoom:
-        value: "Zoom"
+        value: "缩放"
       "Bring All to Front":
         value: "Bring All to Front"
   Help:
-    value: "Help"
+    value: "帮助"
     submenu:
       "Terms of Use":
-        value: "Terms of Use"
+        value: "查看使用条款"
       Documentation:
-        value: "Documentation"
+        value: "官方文档"
       Roadmap:
-        value: "Roadmap"
+        value: "开发路线图"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "FAQ/常问问题"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Atom社区讨论"
       "Report Issue":
-        value: "Report Issue"
+        value: "报告问题"
       "Search Issues":
-        value: "Search Issues"
+        value: "在GitHub上搜索问题"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "欢迎页"
