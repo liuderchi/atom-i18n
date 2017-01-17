@@ -5,8 +5,8 @@ Context:
     "color-picker:open": "색상 선택기"
     "minimap:toggle": "미니맵 토글"
   "atom-text-editor, .overlayer":
-    "core:undo": "실행취소"
-    "core:redo": "다시실행"
+    "core:undo": "실행 취소"
+    "core:redo": "다시 실행"
     "core:cut": "오려두기"
     "core:copy": "복사"
     "core:paste": "붙이기"

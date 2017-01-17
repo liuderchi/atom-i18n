@@ -140,7 +140,7 @@ Settings:
       {
         _id: 'core.reopenProjectMenuCount'
         title: "프로젝트 다시 열기 메뉴의 프로젝트 개수"
-        desc: "프로제긑 다시 열기 메뉴 (Reopen Project menu)에서 최근 열린 프로젝트를 몇개까지 표시할지 지정합니다."
+        desc: "프로젝트 다시 열기 메뉴 (Reopen Project menu)에서 최근 열린 프로젝트를 몇개까지 표시할지 지정합니다."
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
