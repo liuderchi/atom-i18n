@@ -11,6 +11,7 @@ class I18N
 
   constructor: ->
     LOCALE = atom.config.get('atom-i18n.locale')
+    # BUG when running spec, LOCALE is not initialized
     @defM = CSON.load path.join __dirname, "../def", LOCALE, "menu_#{process.platform}.cson"
     @defC = CSON.load path.join __dirname, "../def", LOCALE, "context.cson"
     @defS = CSON.load path.join __dirname, "../def", LOCALE, "settings.cson"
