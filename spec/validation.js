@@ -1,9 +1,10 @@
-'use babel';
+'use strict';
 
 // NOTE use atom --test spec/validation.js to test
 
 const path = require('path');
 const CSON = require('cson');
+const expect = require('chai').expect;
 
 describe('validation', () => {
 
@@ -32,7 +33,7 @@ describe('validation', () => {
       for (let locale of LOCALES) {
         for (let file of FILES) {
           let content = CSON.load(path.join(__dirname, '../def', locale, file));
-          expect(content).toBeTruthy();
+          expect(content).to.be.ok;
         }
       }
     });
@@ -76,16 +77,16 @@ describe('validation', () => {
           let keyCount = countKeysFromCSON(path.join(__dirname, '../def', locale, file));
           stat[file].push(keyCount);
         }
-        let maxCount = Math.max(...stat[file]);
+        let maxCount = Math.max.apply(null, stat[file]);
         let checkRes = Boolean((new Set(stat[file])).size === 1);
-        console.log(`${file}: ${(checkRes)?'ok':'Err: some less than ' + maxCount}`);
+        console.log(`*/${file}: ${(checkRes)?'ok':'Err: some less than ' + maxCount}`);
       }
 
       for (let file of FILES) {
         for (let locale of LOCALES) {
           it(`checks "${path.join(locale, file)}"`, () => {
             let keyCount = countKeysFromCSON(path.join(__dirname, '../def', locale, file));
-            expect(keyCount).toBe(Math.max(...stat[file]));
+            expect(keyCount).to.equal(Math.max.apply(null, stat[file]));
           });
         }
       }
