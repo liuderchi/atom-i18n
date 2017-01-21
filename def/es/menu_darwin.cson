@@ -203,7 +203,7 @@ Menu:
           "Reload Window":
             value: "Recargar Ventana"
           "Run Package Specs":
-            value: "Run Package Specs"
+            value: "Ejecutar Specs de Paquete"
           "Toggle Developer Tools":
             value: "Mostrar/Ocultar Herramientas de Desarrollador"
       "Increase Font Size":
