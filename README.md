@@ -14,7 +14,7 @@ One i18n package for multiple languages :globe_with_meridians:
 | French | `fr` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Hindi | `hi` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Japanese | `ja` | :white_check_mark: 95% |
-| Korean | `ko` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| Korean | `ko` | :white_check_mark: 100% |
 | Dutch | `nl` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Portuguese(Brazil) | `pr-br` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Chinese(Simplified) |  `zh-cn` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
@@ -45,3 +45,10 @@ One i18n package for multiple languages :globe_with_meridians:
 ## Reference
 
   - this repo is based on [atom-japanese-menu](https://atom.io/packages/japanese-menu) by [syon](https://atom.io/users/syon) and [atom-cht-menu](https://atom.io/packages/cht-menu) by [Sheng-Bo](https://atom.io/users/Sheng-Bo)
+
+
+## Thanks for Contribution
+
+  - Chinese(Simplified): [trifirew](https://github.com/trifirew)
+  - Korean: [preco21](https://github.com/preco21) [chibichichi](https://github.com/chibichichi) [Riyeon](https://github.com/Riyeon)
+  - Spanish: [stsewd](https://github.com/stsewd)
