@@ -9,7 +9,7 @@ One i18n package for multiple languages :globe_with_meridians:
 | Language | code | status |
 | -------- |:----:|:------:|
 | Arabic | `ar` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
-| Spanish | `es` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| Spanish | `es` | :white_check_mark: 100% |
 | German | `de` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | French | `fr` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Hindi | `hi` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
