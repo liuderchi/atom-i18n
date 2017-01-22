@@ -1,7 +1,7 @@
 {
   "name": "atom-i18n",
   "main": "./lib/main",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "one i18n package for multiple languages",
   "keywords": [
     "atom",
