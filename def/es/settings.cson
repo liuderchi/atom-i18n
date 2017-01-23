@@ -64,6 +64,13 @@ Settings:
                individuales pueden tener sus propios ajustes en la
                <a class="link packages-open">lista de Paquetes</a>.'
       }
+      {
+        _id: 'editor-settings-note'
+        html: 'These settings are related to text editing. Some of these
+               can be overriden on a per-language basis. Check language
+               settings by clicking its package card in the
+               <a class="link packages-open">Packages list</a>.'
+      }
     ]
     controls: [
       {

@@ -282,8 +282,6 @@ Menu:
         value: "ライセンス"
       "&Documentation":
         value: "ドキュメント(&D)"
-      Roadmap:
-        value: "ロードマップ"
       "Frequently Asked Questions":
         value: "よくあるご質問"
       "Community Discussions":

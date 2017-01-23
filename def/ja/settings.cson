@@ -130,9 +130,22 @@ Settings:
         desc: "起動時に新規のエディタを自動的に開きます。"
       }
       {
+        _id: 'core.packagesWithKeymapsDisabled'
+        title: "Packages With Keymaps Disabled"
+      }
+      {
         _id: 'core.projectHome'
         title: "プロジェクトホーム"
         desc: "プロジェクト群を配置するディレクトリを指定します。パッケージジェネレータで作成されたパッケージはデフォルトでここが格納先となります。"
+      }
+      {
+        _id: 'core.reopenProjectMenuCount'
+        title: "Reopen Project Menu Count"
+        desc: "How many recent projects to show in the Reopen Project menu."
+      }
+      {
+        _id: 'core.restorePreviousWindowsOnStart'
+        title: "Restore Previous Windows On Start"
       }
       {
         _id: 'core.telemetryConsent'
