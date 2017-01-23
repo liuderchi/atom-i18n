@@ -29,11 +29,13 @@ describe('validation', () => {
       'context.cson', 'settings.cson'
     ];
 
-    it('reads cson files of each locale', () => {
+    describe('reading cson files of each locale', () => {
       for (let locale of LOCALES) {
         for (let file of FILES) {
-          let content = CSON.load(path.join(__dirname, '../def', locale, file));
-          expect(content).to.be.ok;
+          it(`reads "${path.join(locale, file)}"`, () => {
+            let content = CSON.load(path.join(__dirname, '../def', locale, file));
+            expect(content).not.to.be.instanceof(Error);
+          });
         }
       }
     });
