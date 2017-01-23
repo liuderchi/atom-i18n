@@ -2,6 +2,9 @@
   "name": "atom-i18n",
   "main": "./lib/main",
   "version": "0.3.1",
+  "scripts": {
+    "test": "mocha spec/validation.js"
+  },
   "description": "one i18n package for multiple languages",
   "keywords": [
     "atom",
@@ -19,7 +22,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "cson": "^4.0.0"
+    "chai": "^3.5.0",
+    "cson": "^4.0.0",
+    "mocha": "^3.2.0"
   },
   "configSchema": {
     "locale": {
