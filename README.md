@@ -7,7 +7,7 @@ One i18n package for multiple languages :globe_with_meridians:
 ## Language Support
 
 | Language | code | status |
-| -------- |:----:|:------:|
+| -------- |:----:|:-------|
 | Arabic | `ar` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Spanish | `es` | :white_check_mark: 100% |
 | German | `de` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
@@ -23,7 +23,8 @@ One i18n package for multiple languages :globe_with_meridians:
 
 ## How to Contribute? Who can Contribute?
 
-  - please refer to [CONTRIBUTING.md](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md)
+  - *Any language* is welcomed. *Anyone* is welcomed to contribute.
+  - more info please refer to [CONTRIBUTING.md](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md)
 
 
 ## Project Structure
