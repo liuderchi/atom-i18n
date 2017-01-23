@@ -1,6 +1,8 @@
 # atom-i18n package
 
-One i18n package for multiple languages :globe_with_meridians:
+[![Build Status](https://travis-ci.org/liuderchi/atom-i18n.svg?branch=master)](https://travis-ci.org/liuderchi/atom-i18n)
+
+One i18n package for multiple languages :earth_asia: :earth_americas: :earth_africa:
 
 ![demo](https://cloud.githubusercontent.com/assets/4994705/21954194/b0cd5cbe-da85-11e6-96e0-c02202b947d0.png)
 
