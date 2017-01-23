@@ -31,51 +31,51 @@
       "type": "string",
       "default": "template",
       "title": "Language",
-      "description": "Please <strong>Reload Atom</strong> after changing locale.",
+      "description": "Language for internationalization (sorted by <em>locale code</em>).</br>Please <code>Reload Atom</code> after changing locale.",
       "enum": [
         {
           "value": "ar",
-          "description": "Arabic (ar)"
+          "description": "اللغة العربية (ar)"
         },
         {
           "value": "es",
-          "description": "Spanish (es)"
+          "description": "Español (es)"
         },
         {
           "value": "de",
-          "description": "German (de)"
+          "description": "Deutsch (de)"
         },
         {
           "value": "fr",
-          "description": "French (fr)"
+          "description": "Français (fr)"
         },
         {
           "value": "hi",
-          "description": "Hindi (hi)"
+          "description": "हिन्दी (hi)"
         },
         {
           "value": "ja",
-          "description": "Japanese (ja)"
+          "description": "日本語 (ja)"
         },
         {
           "value": "ko",
-          "description": "Korean (ko)"
+          "description": "한국어 (ko)"
         },
         {
           "value": "nl",
-          "description": "Dutch (nl)"
+          "description": "Nederlands (nl)"
         },
         {
           "value": "pt-br",
-          "description": "Portuguese(Brazil) (pt-br)"
+          "description": "Português(Brazil) (pt-br)"
         },
         {
           "value": "zh-cn",
-          "description": "Simplified Chinese (zh-cn)"
+          "description": "简体中文 (zh-cn)"
         },
         {
           "value": "zh-tw",
-          "description": "Traditional Chinese (zh-tw)"
+          "description": "繁體中文 (zh-tw)"
         },
         {
           "value": "template",
