@@ -1,10 +1,10 @@
 # CONTRIBUTING
 
-:smile: First of all, Thank YOU for taking time to contribute this package! :smile:
+:tada::tada: First of all, Thank YOU for taking time to contribute this package! :tada::tada:
 
 ## Which Languages can I Contribute?
 
-  - *Any language is welcomed*. Anyone is welcomed to contribute.
+  - *Any language* is welcomed. *Anyone* is welcomed to contribute. :earth_asia: :earth_americas: :earth_africa:
   - NOTE: Currently the author do not review grammar of the translation.
 
 
@@ -76,7 +76,7 @@ and only content `"Inspect Element"` can be translated
           # more ...
       ```
 
-  - for the menu label containing **hotkey hint** `&`, we should preserve it with braces wrapped at the end.
+  - for the menu label containing **hotkey hint** `&`, we should **preserve it with braces** wrapped at the end.
 
       - for example let's checkout how `def/ja/menu_win32.cson` is translated into Japanese:
 
@@ -96,7 +96,7 @@ the value of key `"&File"` ,`"New &Window"` are translated into `"ファイル(&
 ## How to Test I18N Result in DEV Mode
 
   - uninstall `atom-i18n` if you have installed
-  - change into the package repo directory you have forked and cloned
+  - change into the package directory you have forked and cloned
   - use `apm` command to link the package to atom user directory
 
   ```
@@ -104,9 +104,9 @@ the value of key `"&File"` ,`"New &Window"` are translated into `"ファイル(&
   ```
 
   - your package directory has been linked to `~/.atom/packages/atom-i18n`
-  - then you can test it by launching (or refreshing) Atom
+  - then you can test it by launching (or reloading) Atom
   - after your development, remove link
 
-  ```
+  ```shell
   cd path/to/fork/repo && apm unlink
   ```

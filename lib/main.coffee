@@ -11,6 +11,7 @@ class I18N
 
   constructor: ->
     LOCALE = atom.config.get('atom-i18n.locale')
+    # BUG when running spec, LOCALE is not initialized
     @defM = CSON.load path.join __dirname, "../def", LOCALE, "menu_#{process.platform}.cson"
     @defC = CSON.load path.join __dirname, "../def", LOCALE, "context.cson"
     @defS = CSON.load path.join __dirname, "../def", LOCALE, "settings.cson"
@@ -29,12 +30,7 @@ class I18N
 
     atom.config.onDidChange 'atom-i18n.locale', (event) ->
       newLocale = event.newValue
-
-      configEnum = atom.config.getSchema('atom-i18n.locale').enum
-      newOption = configEnum.find (option) ->
-        option.value is newLocale
-      newLangauge = if newOption then newOption.description else newLocale
-
+      newLangauge = Util.findLaguageNameByLocale(newLocale) || newLocale
       Util.promptUserReloadAtom("Reload Atom to translate into \n- `#{newLangauge}`.")
 
 
