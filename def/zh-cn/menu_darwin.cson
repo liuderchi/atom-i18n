@@ -77,13 +77,14 @@ Menu:
       Lines:
         value: "行操作"
         submenu:
+          Indent:
             value: "缩进"
           Outdent:
             value: "退格"
           "Auto Indent":
             value: "自动缩进"
           "Move Line Up":
-          value: "上移当前行"
+            value: "上移当前行"
           "Move Line Down":
             value: "下移当前行"
           "Duplicate Lines":
