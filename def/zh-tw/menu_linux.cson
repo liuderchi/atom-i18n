@@ -274,12 +274,12 @@ Menu:
   "&Packages":
     value: "擴充套件(&P)"
   "&Help":
-    value: "擴充套件(&H)"
+    value: "幫助(&H)"
     submenu:
       "View &Terms of Use":
-        value: "使用條款(&T)"
+        value: "檢視使用條款(&T)"
       "View &License":
-        value: "使用條款(&L)"
+        value: "檢視授權(&L)"
       "&Documentation":
         value: "說明文件(&D)"
       "Frequently Asked Questions":
