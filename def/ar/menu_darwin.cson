@@ -39,6 +39,11 @@ Menu:
         value: "Open..."
       "Add Project Folder…":
         value: "Add Project Folder..."
+      "Reopen Project":
+        value: "Reopen Project"
+        submenu:
+          "Clear Project History":
+            value: "Clear Project History"
       "Reopen Last Item":
         value: "Reopen Last Item"
       Save:

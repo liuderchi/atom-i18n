@@ -12,6 +12,11 @@ Menu:
         value: "開啟資料夾..."
       "Add Project Folder…":
         value: "新增專案資料夾..."
+      "Reopen Project":
+        value: "重新開啟專案"
+        submenu:
+          "Clear Project History":
+            value: "清除專案歷史紀錄"
       "Reopen Last &Item":
         value: "重新開啟上一個分頁(&I)"
       "&Save":

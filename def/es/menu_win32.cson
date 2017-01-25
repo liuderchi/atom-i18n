@@ -12,6 +12,11 @@ Menu:
         value: "Abrir Carpeta..."
       "Add Project Folder…":
         value: "Agregar Carpeta al Proyecto..."
+      "Reopen Project":
+        value: "Reopen Project"
+        submenu:
+          "Clear Project History":
+            value: "Clear Project History"
       "Reopen Last &Item":
         value: "Reabrir Último Ítem(&I)"
       "Se&ttings":
