@@ -12,6 +12,11 @@ Menu:
         value: "打开文件夹..."
       "Add Project Folder…":
         value: "添加项目文件夹..."
+      "Reopen Project":
+        value: "Reopen Project"
+        submenu:
+          "Clear Project History":
+            value: "Clear Project History"
       "Reopen Last &Item":
         value: "重新打开关闭的标签页(&I)"
       "&Save":

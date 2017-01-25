@@ -5,11 +5,13 @@
 ## Which Languages can I Contribute?
 
   - *Any language* is welcomed. *Anyone* is welcomed to contribute. :earth_asia: :earth_americas: :earth_africa:
+  - There are several [simple issues](https://github.com/liuderchi/atom-i18n/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) whose workload may not be too heavy.
   - NOTE: Currently the author do not review grammar of the translation.
 
 
 ## Steps to Contribute
 
+  - please checkout [Pull Request](https://github.com/liuderchi/atom-i18n/pulls) first to see whether there is already someone contributing.
   - fork this repo
   - clone the repo you just forked to your disk
 

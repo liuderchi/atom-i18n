@@ -39,6 +39,11 @@ Menu:
         value: "開く..."
       "Add Project Folder…":
         value: "プロジェクトフォルダを追加..."
+      "Reopen Project":
+        value: "Reopen Project"
+        submenu:
+          "Clear Project History":
+            value: "Clear Project History"
       "Reopen Last Item":
         value: "最後に使用したファイルを開く..."
       Save:

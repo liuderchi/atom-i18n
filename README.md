@@ -20,13 +20,14 @@ One i18n package for multiple languages :earth_asia: :earth_americas: :earth_afr
 | Dutch | `nl` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Portuguese(Brazil) | `pr-br` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
 | Chinese(Simplified) |  `zh-cn` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
-| Chinese(Traditional) | `zh-tw` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md) |
+| Chinese(Traditional) | `zh-tw` | :white_check_mark: 100% |
 
 
 ## How to Contribute? Who can Contribute?
 
   - *Any language* is welcomed. *Anyone* is welcomed to contribute.
-  - more info please refer to [CONTRIBUTING.md](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md)
+  - There are some [existing issues](https://github.com/liuderchi/atom-i18n/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) that require your help
+  - For more info of translation please refer to [CONTRIBUTING.md](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md)
 
 
 ## Project Structure
@@ -44,6 +45,7 @@ One i18n package for multiple languages :earth_asia: :earth_americas: :earth_afr
   * `package.json` contains package metadata
       * key `configSchema` defines supported languages
 
+  * `spec/` contains scripts checking cson files inside `def/`
 
 ## Reference
 

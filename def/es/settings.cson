@@ -66,10 +66,11 @@ Settings:
       }
       {
         _id: 'editor-settings-note'
-        html: 'These settings are related to text editing. Some of these
-               can be overriden on a per-language basis. Check language
-               settings by clicking its package card in the
-               <a class="link packages-open">Packages list</a>.'
+        html: 'Estos ajustes están relacionados a la edición de texto. Algunas
+               de estas pueden ser sobre escritas para un lenguaje específico.
+               Accede a los ajustes de un lenguaje dando click en el botón
+               `Ajustes` en la <a class="link packages-open">lista de
+               Paquetes</a>.'
       }
     ]
     controls: [
