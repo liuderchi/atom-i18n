@@ -47,3 +47,8 @@
 ## 0.4.0 - Chinese (traditional) support
 * Chinese (traditional) support (100%)
 * prepare doc: `CHANGELOG.md`
+
+
+## 0.4.1 - fixes
+* fix Chinese (traditional) translation
+* add translation entries to `menu_*.cson`
