@@ -3,6 +3,7 @@ CSON = require 'cson'
 Menu = require './menu'
 ContextMenu = require './context-menu'
 Preferences = require './preferences'
+About = require './about'
 Util = require './util'
 
 class I18N
@@ -15,6 +16,7 @@ class I18N
     @defM = CSON.load path.join __dirname, "../def", LOCALE, "menu_#{process.platform}.cson"
     @defC = CSON.load path.join __dirname, "../def", LOCALE, "context.cson"
     @defS = CSON.load path.join __dirname, "../def", LOCALE, "settings.cson"
+    @defA = CSON.load path.join __dirname, "../def", "zh-tw", "about.cson"   # TODO fix LOCALE
 
   activate: (state) ->
     setTimeout(@delay, 0)
@@ -26,6 +28,7 @@ class I18N
     Menu.localize(@defM)
     ContextMenu.localize(@defC)
     Preferences.localize(@defS)
+    About.localize(@defA)
     # TODO localize more...
 
     atom.config.onDidChange 'atom-i18n.locale', (event) ->
