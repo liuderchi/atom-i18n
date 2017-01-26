@@ -297,9 +297,9 @@ Settings:
   }
   keymaps: {
     notes: {
-      text1: "你可以點選複製按鈕"
+      text1: "你可以點選複製按鈕 "
       text2: "複製這些快捷鍵設定，然後貼至"
-      text3: "你的快捷鍵設定檔。"
+      text3: "你的快捷鍵設定檔"
       text4: ""   # optional
       _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
     }
@@ -331,8 +331,8 @@ Settings:
   }
   install: {
     notes: {
-      text1: "擴充套件會被發佈到 "
-      text2: " 且安裝在資料夾 "
+      text1: "這些發佈於 "
+      text2: " 的擴充套件會安裝在資料夾 "
       text3: ""   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
