@@ -12,8 +12,7 @@ class Preferences
       if item isnt undefined
         if item.uri isnt undefined
           if item.uri.indexOf('atom://config') isnt -1
-            unless window.I18N.pref.done
-              @updateSettings(true)
+            @updateSettings(true)
 
   @updateSettings: (onSettingsOpen = false) ->
     setTimeout(@delaySettings, 0, onSettingsOpen)
@@ -24,7 +23,7 @@ class Preferences
     return unless settingsTab && settingsEnabled
     try
       settingsTab.querySelector('.title').textContent = @defS.Settings["tab-title"]
-      # BUG re-open setting tab i18n fails
+      return if window.I18N.pref.done
 
       @sv = document.querySelector('.settings-view')
 
