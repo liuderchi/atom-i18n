@@ -1,11 +1,10 @@
 PU = require './preferences-util'
 PreferencesSettings = require './preferences-settings'
+Util = require './util'
 
 class Preferences
 
-  # NOTE entry point of setting
   @localize: (defS) ->
-    # NOTE settings.cson
     @defS = defS
     @updateSettings()  # first time localize
     atom.workspace.onDidChangeActivePaneItem (item) =>
@@ -13,10 +12,10 @@ class Preferences
       if item.__proto__.constructor.name is 'SettingsView'
         @updateSettings(true)
 
-  @updateSettings: (onSettingsOpen = false) ->
-    setTimeout(@delaySettings, 0, onSettingsOpen)
+  @updateSettings: () ->
+    setTimeout(@delaySettings, 0)
 
-  @delaySettings: (onSettingsOpen) =>  # NOTE onSettingsOpen is not used
+  @delaySettings: () =>
     settingsTab = document.querySelector('.tab-bar [data-type="SettingsView"]')
     settingsEnabled = settingsTab.className.includes 'active' if settingsTab
     return unless settingsTab && settingsEnabled
@@ -41,8 +40,7 @@ class Preferences
 
       window.I18N.pref.done = true
     catch e
-      console.error "I18N failed with locale: ", e
-      # TODO print current locale
+      console.error "I18N failed with locale #{atom.config.get('atom-i18n.locale')}: ", e
 
   @applyFonts: () =>
     if process.platform == 'win32'
