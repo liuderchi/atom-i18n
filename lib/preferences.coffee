@@ -9,10 +9,8 @@ class Preferences
     @defS = defS
     @updateSettings()  # first time localize
     atom.workspace.onDidChangeActivePaneItem (item) =>
-      if item isnt undefined
-        if item.uri isnt undefined
-          if item.uri.indexOf('atom://config') isnt -1
-            @updateSettings(true)
+      if item.__proto__.constructor.name is 'SettingsView'
+        @updateSettings(true)
 
   @updateSettings: (onSettingsOpen = false) ->
     setTimeout(@delaySettings, 0, onSettingsOpen)
