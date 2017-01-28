@@ -19,10 +19,9 @@ class PreferencesUtil
     before = String(elem.textContent)
     return if before == text
     elem.innerHTML = text    # NOTE text may contain HTML
-    elem.setAttribute('title', before)
+    elem.setAttribute('title', text)
     elem.setAttribute('data-localized', 'true')
-    # NOTE indicator for localized elemnt
-    # TODO elem.setAttribute('data-before-localized', before)
+    elem.setAttribute('data-before-localized', before)
 
   @getTextMatchElement = (area, query, text) ->
     elems = area.querySelectorAll(query)
