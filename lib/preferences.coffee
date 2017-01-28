@@ -9,6 +9,7 @@ class Preferences
     @defS = defS
     @updateSettings()  # first time localize
     atom.workspace.onDidChangeActivePaneItem (item) =>
+      return unless item
       if item.__proto__.constructor.name is 'SettingsView'
         @updateSettings(true)
 

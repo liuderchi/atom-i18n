@@ -4,6 +4,7 @@ class About
     @defA = defA
     @updateAbout()  # first time localize
     atom.workspace.onDidChangeActivePaneItem (item) =>
+      return unless item
       if item.__proto__.constructor.name is 'AboutView'
         setTimeout(@updateAbout, 0)
 
