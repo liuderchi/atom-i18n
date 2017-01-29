@@ -348,6 +348,7 @@ Settings:
     "table-header-selector": "Selector"
   }
   packages: {
+    searchBarText: 'Filter packages by name'
   }
   themes: {
     notes: {
@@ -360,6 +361,7 @@ Settings:
     description1: "This styles the tabs, status bar, tree view, and dropdowns"
     title2: "Syntax Theme"
     description2: "This styles the text inside the editor"
+    searchBarText: 'Filter themes by name'
   }
   updates: {
     "check-updates": "Check for Updates"

@@ -310,6 +310,7 @@ Settings:
     "table-header-selector": "選擇器"
   }
   packages: {
+    searchBarText: '輸入名稱篩選擴充套件'
   }
   themes: {
     notes: {
@@ -322,6 +323,7 @@ Settings:
     description1: "分頁、狀態列、tree view 及下拉式選單的外觀"
     title2: "語法佈景主題"
     description2: "編輯器內部文字的外觀"
+    searchBarText: '輸入名稱篩選佈景主題'
   }
   updates: {
     "check-updates": "檢查更新"

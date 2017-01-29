@@ -383,6 +383,7 @@ Settings:
     "table-header-selector": "Selector"
   }
   packages: {
+    searchBarText: 'Filter packages by name'
   }
   themes: {
     notes: {
@@ -395,6 +396,7 @@ Settings:
     description1: "Esto cambia las pestañas, barra de estado, tree view y las listas desplegables "
     title2: "Tema de la Sintaxis"
     description2: "Esto cambia el texto dentro del editor"
+    searchBarText: 'Filter themes by name'
   }
   updates: {
     "check-updates": "Buscar Actualizaciones"

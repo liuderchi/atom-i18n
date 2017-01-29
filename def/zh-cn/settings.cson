@@ -310,6 +310,7 @@ Settings:
     "table-header-selector": "选择器"
   }
   packages: {
+    searchBarText: 'Filter packages by name'
   }
   themes: {
     notes: {
@@ -322,6 +323,7 @@ Settings:
     description1: "标签页、状态栏、树状图、下拉菜单的外观"
     title2: "语法主题"
     description2: "编辑器中文本的外观"
+    searchBarText: 'Filter themes by name'
   }
   updates: {
     "check-updates": "检查更新"

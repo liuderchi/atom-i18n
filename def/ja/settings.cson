@@ -319,6 +319,7 @@ Settings:
     "table-header-selector": "セレクタ"
   }
   packages: {
+    searchBarText: 'Filter packages by name'
   }
   themes: {
     notes: {
@@ -331,6 +332,7 @@ Settings:
     description1: "タブ、ステータスバー、ツリービューとドロップダウンのスタイルを変更します。"
     title2: "シンタックステーマ"
     description2: "テキストエディタの内側のスタイルを変更します。"
+    searchBarText: 'Filter themes by name'
   }
   updates: {
     "check-updates": "すべてアップデート"

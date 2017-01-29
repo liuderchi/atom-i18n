@@ -336,6 +336,7 @@ Settings:
     "table-header-selector": "선택자"
   }
   packages: {
+    searchBarText: 'Filter packages by name'
   }
   themes: {
     notes: {
@@ -348,6 +349,7 @@ Settings:
     description1: "이 테마는 탭, 상태 막대, Tree View, 그리고 드롭다운 메뉴의 스타일을 지정합니다"
     title2: "문법 테마"
     description2: "이 테마는 에디터 안의 텍스트 스타일을 지정합니다"
+    searchBarText: 'Filter themes by name'
   }
   updates: {
     "check-updates": "업데이트 확인"

@@ -60,7 +60,6 @@ class PreferencesSettings
       info.setAttribute('data-localized', 'true')
 
     searchBarPlaceholder = @sv.querySelector('.keybinding-panel>div:nth-child(3) .placeholder-text')
-    # TODO i18n placeholder dynamic content
     unless PU.isAlreadyLocalized(searchBarPlaceholder)
       searchBarPlaceholder.textContent = @defS.keymaps["search-bar-placeholder"]
       searchBarPlaceholder.setAttribute('data-localized', 'true')
