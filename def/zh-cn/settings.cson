@@ -59,64 +59,58 @@ Settings:
     notes: [
       {
         _id: 'core-settings-note'
-        html: '这些是 Atom 的核心设置，与文本编辑无关。不同的插件包可能有它们自己的附
-              加设置，你可以在<a class="link packages-open">插件包列表</a>中找到这
-              些设置。'
+        html: '这些是 Atom 的核心设置，与文本编辑无关。不同插件包可能有附加设置，你可以在<a class="link packages-open">插件包列表</a>中找到这些设置。'
       }
       {
         _id: 'editor-settings-note'
-        html: '这些是有关文本编辑的设置。其中一些设置可以被每种语言的设置覆盖，你可以在
-               <a class="link packages-open">插件包列表</a>中点击这些插件包，
-               查看这些语法的设置。'
+        html: '这些是有关文本编辑的设置。其中一些设置可以被编程语言的设置覆盖，你可以在<a class="link packages-open">插件包列表</a>中点击这些插件包，查看这些语法的设置。'
       }
     ]
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
-        title: "Allow Pending PaneItems"
-        desc: "Allow items to be previewed without adding them to a pane
-               permanently, such as when single clicking files in the tree view."
+        title: "启用预览标签页"
+        desc: "允许使用预览标签页查看文件，不需要将其加入窗格，例如在树状图中单击文件时打开预览标签页。"
       }
       {
         _id: 'core.audioBeep'
-        title: "Audio Beep"
-        desc: "Trigger the system's beep sound when certain actions cannot be
-               executed or there are no results."
+        title: "提示音"
+        desc: "当某些操作不能执行，或是没有执行结果时，触发系统提示音。"
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automatically Update"
-        desc: "Automatically update Atom when a new release is available."
+        title: "自动更新"
+        desc: "当有可用的更新时，自动更新 Atom 。"
       }
       {
         _id: 'core.autoHideMenuBar'
         title: "自动隐藏菜单栏"
-        desc: "按 Alt 以切换菜单栏。目前仅支持Windows和Linux."
+        desc: "按 Alt 以切换菜单栏。仅支持 Windows 和 Linux 操作系统。"
       }
       {
         _id: 'core.closeEmptyWindows'
-        title: "Close Empty Windows"
-        desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
+        title: "关闭空窗口"
+        desc: "当窗口内没有打开的标签页或窗格时，“关闭标签页”选项会关闭该窗口。"
       }
       {
         _id: 'core.destroyEmptyPanes'
-        title: "Destroy Empty Panes"
-        desc: "When the last tab of a pane is closed, remove that pane as well."
+        title: "自动移除空窗格"
+        desc: "当窗格内的最后一个标签页被关闭时，移除该窗格。"
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
-        title: "Exclude VCS Ignored Paths"
-        desc: "Files and directories ignored by the current project's VCS system will be ignored by some packages, such as the fuzzy finder and find and replace. For example, projects using Git have these paths defined in the .gitignore file. Individual packages might have additional config settings for ignoring VCS ignored files and folders."
+        title: "排除版本控制系统（VCS）忽略的路径"
+        desc: "让某些插件包例如：模糊查找（fuzzy finder）、查找和替换（find and replace）,忽略当前项目中版本控制系统所忽略的文件和路径。例如，使用 Git 的项目会在 .gitignore 文件里定义所忽略的路径。一些插件包可能后提供附加设置来选择是否忽略这些路径。"
       }
       {
         _id: 'core.fileEncoding'
         title: "文件编码"
-        desc: "Default character set encoding to use when reading and writing files."
+        desc: "读写文件时默认使用的字符编码。"
       }
       {
         _id: 'core.followSymlinks'
-        title: "Follow Symlinks"
-        desc: "Follow symbolic links when searching files and when opening files with the fuzzy finder."
+        title: "使用软链接（Symbolic link）"
+        desc: "当查找或者在模糊查找中打开文件时遵循软链接（symbolic links）导向。"
       }
       {
         _id: 'core.ignoredNames'
@@ -125,8 +119,8 @@ Settings:
       }
       {
         _id: 'core.openEmptyEditorOnStart'
-        title: "Open Empty Editor On Start"
-        desc: "Automatically open an empty editor on startup."
+        title: "启动时打开空编辑器"
+        desc: "启动时自动打开一个空白的文本编辑器。"
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
@@ -134,8 +128,8 @@ Settings:
       }
       {
         _id: 'core.projectHome'
-        title: "Project Home"
-        desc: "The directory where projects are assumed to be located. Packages created using the Package Generator will be stored here by default."
+        title: "项目根目录"
+        desc: "此文件夹是项目的默认位置。使用 Package Generator 创建的插件包默认放在此文件夹内。"
       }
       {
         _id: 'core.reopenProjectMenuCount'
@@ -333,54 +327,54 @@ Settings:
   }
   keymaps: {
     notes: {
-      text1: "You can override these keybindings by copying "
-      text2: "and pasting them into "
-      text3: "your keymap file"
-      text4: ""   # optional
+      text1: "你可以复制这些快捷键设置，"
+      text2: "然后粘贴至"
+      text3: "你的快捷键配置文件"
+      text4: "，来覆盖这些快捷键设置"   # optional
       _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
     }
-    "search-bar-placeholder": "Search keybindings"
-    "table-header-keystroke": "Keystroke"
-    "table-header-command": "Command"
-    "table-header-source": "Source"
-    "table-header-selector": "Selector"
+    "search-bar-placeholder": "搜索快捷键设置"
+    "table-header-keystroke": "键盘输入"
+    "table-header-command": "命令"
+    "table-header-source": "来源"
+    "table-header-selector": "选择器"
   }
   packages: {
   }
   themes: {
     notes: {
-      text1: "You can also style Atom by editing "
-      text2: "your stylesheet"
-      text3: ""   # optional
+      text1: "你也可以通过编辑"
+      text2: "你的样式表"
+      text3: "来调整 Atom 的外观"   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
-    title1: "UI Theme"
-    description1: "This styles the tabs, status bar, tree view, and dropdowns"
-    title2: "Syntax Theme"
-    description2: "This styles the text inside the editor"
+    title1: "界面主题"
+    description1: "标签页、状态栏、树状图、下拉菜单的外观"
+    title2: "语法主题"
+    description2: "编辑器中文本的外观"
   }
   updates: {
-    "check-updates": "Check for Updates"
-    "update-all": "Update All"
-    "checking-updates": "Checking for updates..."
-    "all-updated-message": "All of your installed packages are up to date!"
+    "check-updates": "检查更新"
+    "update-all": "安装所有更新"
+    "checking-updates": "正在检查更新..."
+    "all-updated-message": "所有已安装的插件包都是最新版本了！"
   }
   install: {
     notes: {
-      text1: "Packages are published to "
-      text2: " and are installed to "
+      text1: "插件包会被发布到 "
+      text2: " 且安装在文件夹 "
       text3: ""   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
-    "searchbar-placeholder": "Search packages"
-    "btn-packages": "Packages"
-    "btn-themes": "Themes"
+    "searchbar-placeholder": "搜索插件包或主题"
+    "btn-packages": "插件包"
+    "btn-themes": "主题"
   }
   "control-btns":{
-    install: "Install"
-    update: "Update to"
-    setting: "Settings"
-    uninstall: "Uninstall"
-    disable: "Disable"
-    enable: "Enable"
+    install: "安装"
+    update: "更新至"
+    setting: "设置"
+    uninstall: "卸载"
+    disable: "禁用"
+    enable: "启用"
   }
