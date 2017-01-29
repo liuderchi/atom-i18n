@@ -12,6 +12,11 @@ Menu:
         value: "フォルダを開く..."
       "Add Project Folder…":
         value: "プロジェクトフォルダを追加..."
+      "Reopen Project":
+        value: "Reopen Project"
+        submenu:
+          "Clear Project History":
+            value: "Clear Project History"
       "Reopen Last &Item":
         value: "最後に使用したファイルを開く(&I)"
       "Se&ttings":
@@ -282,8 +287,6 @@ Menu:
         value: "ライセンス"
       "&Documentation":
         value: "ドキュメント(&D)"
-      Roadmap:
-        value: "ロードマップ"
       "Frequently Asked Questions":
         value: "よくあるご質問"
       "Community Discussions":

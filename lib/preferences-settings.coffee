@@ -4,7 +4,7 @@ class PreferencesSettings
 
   @localize: () ->
 
-    @defS = window.JapaneseMenu.defS.Settings
+    @defS = window.I18N.defS.Settings
     @sv = document.querySelector('.settings-view')
 
     # Settings panel
@@ -91,8 +91,8 @@ class PreferencesSettings
 
   @localizeUpdatesPanel: () =>
     PU.applySpecialHeading(@sv, @defS["heading-available-updates"]._label, 2, @defS["heading-available-updates"].value)
-    PU.applyTextWithOrg(@sv.querySelector('.update-all-button.btn-primary'), @defS.updates["check-updates"])
-    PU.applyTextWithOrg(@sv.querySelector('.update-all-button:not(.btn-primary)'), @defS.updates["update-all"])
+    PU.applyTextWithOrg(@sv.querySelector('.update-all-button.btn-primary'), @defS.updates["update-all"])
+    PU.applyTextWithOrg(@sv.querySelector('.update-all-button:not(.btn-primary)'), @defS.updates["check-updates"])
     PU.applyTextWithOrg(@sv.querySelector('.alert.icon-hourglass'),  @defS.updates["checking-updates"])
     PU.applyTextWithOrg(@sv.querySelector('.alert.icon-heart'),  @defS.updates["all-updated-message"])
     # TODO add failure message which is dynamic DOM node

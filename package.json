@@ -1,14 +1,19 @@
 {
   "name": "atom-i18n",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.4.1",
+  "scripts": {
+    "test": "mocha spec/validation.js"
+  },
   "description": "one i18n package for multiple languages",
   "keywords": [
     "atom",
     "i18n",
-    "l12n",
+    "l10n",
     "internationalization",
     "localization",
+    "language",
+    "translate",
     "translation"
   ],
   "repository": "https://github.com/liuderchi/atom-i18n",
@@ -17,58 +22,60 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "cson": "^4.0.0"
+    "chai": "^3.5.0",
+    "cson": "^4.0.0",
+    "mocha": "^3.2.0"
   },
   "configSchema": {
     "locale": {
       "type": "string",
-      "default": "ja",
+      "default": "template",
       "title": "Language",
-      "description": "Select language you would like to apply. Please <strong>Restart Atom after changing locale.</strong>",
+      "description": "Language for internationalization (sorted by <em>locale code</em>).</br>Please <code>Reload Atom</code> after changing locale.",
       "enum": [
         {
           "value": "ar",
-          "description": "Arabic (ar)"
+          "description": "اللغة العربية (ar)"
         },
         {
           "value": "es",
-          "description": "Spanish (es)"
+          "description": "Español (es)"
         },
         {
           "value": "de",
-          "description": "German (de)"
+          "description": "Deutsch (de)"
         },
         {
           "value": "fr",
-          "description": "French (fr)"
+          "description": "Français (fr)"
         },
         {
           "value": "hi",
-          "description": "Hindi (hi)"
+          "description": "हिन्दी (hi)"
         },
         {
           "value": "ja",
-          "description": "Japanese (ja)"
+          "description": "日本語 (ja)"
         },
         {
           "value": "ko",
-          "description": "Korean (ko)"
+          "description": "한국어 (ko)"
         },
         {
           "value": "nl",
-          "description": "Dutch (nl)"
+          "description": "Nederlands (nl)"
         },
         {
           "value": "pt-br",
-          "description": "Portuguese(Brazil) (pt-br)"
+          "description": "Português(Brazil) (pt-br)"
         },
         {
           "value": "zh-cn",
-          "description": "Simplified Chinese (zh-cn)"
+          "description": "简体中文 (zh-cn)"
         },
         {
           "value": "zh-tw",
-          "description": "Traditional Chinese (zh-tw)"
+          "description": "繁體中文 (zh-tw)"
         },
         {
           "value": "template",

@@ -12,6 +12,11 @@ Menu:
         value: "Open Folder..."
       "Add Project Folder…":
         value: "Add Project Folder..."
+      "Reopen Project":
+        value: "Reopen Project"
+        submenu:
+          "Clear Project History":
+            value: "Clear Project History"
       "Reopen Last &Item":
         value: "Reopen Last Item(&I)"
       "&Save":
@@ -242,9 +247,9 @@ Menu:
     value: "Find(&I)"
     submenu:
       "Find in Buffer":
-        value: "検索"
+        value: "Find in Buffer"
       "Replace in Buffer":
-        value: "置換"
+        value: "Replace in Buffer"
       "Select Next":
         value: "Select Next"
       "Select All":
