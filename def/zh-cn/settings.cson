@@ -15,7 +15,7 @@ Settings:
     }
     {
       _label: "Packages"
-      value: "管理扩展包"
+      value: "管理插件包"
     }
     {
       _label: "Themes"
@@ -27,7 +27,7 @@ Settings:
     }
     {
       _label: "Install"
-      value: "安装扩展包"
+      value: "安装插件包"
     }
   ]
   "btn-open-config-folder": "打开配置文件夹"
@@ -35,21 +35,21 @@ Settings:
     {_label: "Core Settings", value: "核心设置"}
     {_label: "Editor Settings", value: "编辑器设置"}
     {_label: "Keybindings", value: "快捷键"}
-    {_label: "Installed Packages", value: "已安装扩展包"}
+    {_label: "Installed Packages", value: "已安装插件包"}
     {_label: "Choose a Theme", value: "选择主题"}
     {_label: "Installed Themes", value: "已安装主题"}
-    {_label: "Install Packages", value: "安装扩展包"}
-    {_label: "Featured Packages", value: "热门扩展包"}
+    {_label: "Install Packages", value: "安装插件包"}
+    {_label: "Featured Packages", value: "热门插件包"}
     {_label: "Install Themes", value: "安装主题"}
     {_label: "Featured Themes", value: "热门主题"}
   ]
   "heading-available-updates": {_label: "Available Updates", value: "可用更新"}
   subSectionHeadings: [
     {_label: "Invisible", value: "隐藏"}
-    {_label: "Community Packages", value: "社区扩展包"}
+    {_label: "Community Packages", value: "社区插件包"}
     {_label: "Core Packages", value: "核心包"}
     {_label: "Development Packages", value: "开发包"}
-    {_label: "Git Packages", value: "Git扩展包"}
+    {_label: "Git Packages", value: "Git插件包"}
     {_label: "Community Themes", value: "社区主题"}
     {_label: "Core Themes", value: "核心主题"}
     {_label: "Development Themes", value: "开发主题"}
@@ -59,15 +59,15 @@ Settings:
     notes: [
       {
         _id: 'core-settings-note'
-        html: '这些是 Atom 的核心设置，与文本编辑无关。不同的扩展包可能有它们自己的附
-              加设置，你可以在<a class="link packages-open">扩展包列表</a>中找到这
+        html: '这些是 Atom 的核心设置，与文本编辑无关。不同的插件包可能有它们自己的附
+              加设置，你可以在<a class="link packages-open">插件包列表</a>中找到这
               些设置。'
       }
       {
         _id: 'editor-settings-note'
         html: '这些是有关文本编辑的设置。其中一些设置可以被每种语言的设置覆盖，你可以在
-               <a class="link packages-open">扩展包列表</a>中点击这些扩展包，
-               查看这些编程语言的设置。'
+               <a class="link packages-open">插件包列表</a>中点击这些插件包，
+               查看这些语法的设置。'
       }
     ]
     controls: [
@@ -91,7 +91,7 @@ Settings:
       {
         _id: 'core.autoHideMenuBar'
         title: "自动隐藏菜单栏"
-        desc: "按 Alt 以显示/隐藏菜单栏。目前仅支持Windows和Linux."
+        desc: "按 Alt 以切换菜单栏。目前仅支持Windows和Linux."
       }
       {
         _id: 'core.closeEmptyWindows'

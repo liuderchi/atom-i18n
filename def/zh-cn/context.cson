@@ -3,7 +3,7 @@ Context:
     "application:inspect": "审查元素"
   "atom-text-editor":
     "color-picker:open": "颜色选择器"
-    "minimap:toggle": "Toggle Minimap"
+    "minimap:toggle": "切换代码地图"
   "atom-text-editor, .overlayer":
     "core:undo": "撤销"
     "core:redo": "恢复"
@@ -12,23 +12,23 @@ Context:
     "core:paste": "粘贴"
     "core:delete": "删除"
     "core:select-all": "全选"
-    "pane:split-up-and-copy-active-item": "在上方打开新面板"
-    "pane:split-down-and-copy-active-item": "在下方打开新面板"
-    "pane:split-left-and-copy-active-item": "在左侧打开新面板"
-    "pane:split-right-and-copy-active-item": "在右侧打开新面板"
-    "pane:close": "关闭面板"
+    "pane:split-up-and-copy-active-item": "向上分割窗格 ↑"
+    "pane:split-down-and-copy-active-item": "向下分割窗格 ↓"
+    "pane:split-left-and-copy-active-item": "向左分割窗格 ←"
+    "pane:split-right-and-copy-active-item": "向右分割窗格 →"
+    "pane:close": "关闭窗格"
   "atom-pane":
-    "pane:split-up-and-copy-active-item": "在上方打开新面板"
-    "pane:split-down-and-copy-active-item": "在下方打开新面板"
-    "pane:split-left-and-copy-active-item": "在左侧打开新面板"
-    "pane:split-right-and-copy-active-item": "在右侧打开新面板"
-    "pane:close": "关闭面板"
+    "pane:split-up-and-copy-active-item": "向上分割窗格 ↑"
+    "pane:split-down-and-copy-active-item": "向下分割窗格 ↓"
+    "pane:split-left-and-copy-active-item": "向左分割窗格 ←"
+    "pane:split-right-and-copy-active-item": "向右分割窗格 →"
+    "pane:close": "关闭窗格"
   "atom-text-editor:not([mini])":
     "encoding-selector:show": "更换编码格式"
     "spell-check:correct-misspelling": "更正拼写"
-    "symbols-view:go-to-declaration": "Go to Declaration"
+    "symbols-view:go-to-declaration": "跳转至声明"
   ".overlayer":
-    "grammar-selector:show": "Change Grammar"
+    "grammar-selector:show": "更换语法"
   ".image-view":
     "image-view:reload": "重新加载图像"
   ".tab":
@@ -38,14 +38,14 @@ Context:
     "tabs:close-tabs-to-left": "关闭左侧标签页"
     "tabs:close-saved-tabs": "关闭已保存标签页"
     "tabs:close-all-tabs": "关闭所有标签页"
-    "tabs:split-up": "在上方打开新面板"
-    "tabs:split-down": "在下方打开新面板"
-    "tabs:split-left": "在左侧打开新面板"
-    "tabs:split-right": "在右侧打开新面板"
+    "tabs:split-up": "向上分割窗格 ↑"
+    "tabs:split-down": "向下分割窗格 ↓"
+    "tabs:split-left": "向左分割窗格 ←"
+    "tabs:split-right": "向右分割窗格 →"
   ".tab.texteditor":
     "tabs:open-in-new-window": "在新窗口中打开"
   ".tab.pending-tab":
-    "tabs:keep-pending-tab": "Keep Pending Tab"
+    "tabs:keep-pending-tab": "保留预览标签页"
   ".tab-bar":
     "pane:reopen-closed-item": "重新打开关闭的标签页"
   ".tree-view.full-menu":
@@ -57,19 +57,19 @@ Context:
     "tree-view:copy": "复制"
     "tree-view:cut": "剪切"
     "tree-view:paste": "粘贴"
-    "tree-view:open-selected-entry-up": "在上方打开新面板"
-    "tree-view:open-selected-entry-down": "在下方打开新面板"
-    "tree-view:open-selected-entry-left": "在左侧打开新面板"
-    "tree-view:open-selected-entry-right": "在右侧打开新面板"
+    "tree-view:open-selected-entry-up": "向上分割窗格 ↑"
+    "tree-view:open-selected-entry-down": "向下分割窗格 ↓"
+    "tree-view:open-selected-entry-left": "向左分割窗格 ←"
+    "tree-view:open-selected-entry-right": "向右分割窗格 →"
     "application:add-project-folder": "添加项目文件夹"
     "tree-view:copy-full-path": "复制文件路径到剪切板"
     "tree-view:copy-project-path": "复制项目路径到剪切板"
     "tree-view:open-in-new-window": "在新窗口中打开"
   '.tree-view.full-menu [is="tree-view-file"]':
-    "tree-view:open-selected-entry-up": "在上方打开新面板"
-    "tree-view:open-selected-entry-down": "在下方打开新面板"
-    "tree-view:open-selected-entry-left": "在左侧打开新面板"
-    "tree-view:open-selected-entry-right": "在右侧打开新面板"
+    "tree-view:open-selected-entry-up": "向上分割窗格 ↑"
+    "tree-view:open-selected-entry-down": "向下分割窗格 ↓"
+    "tree-view:open-selected-entry-left": "向左分割窗格 ←"
+    "tree-view:open-selected-entry-right": "向右分割窗格 →"
   ".tree-view.full-menu .project-root > .header":
     "tree-view:add-file": "新建文件"
     "tree-view:add-folder": "新建文件夹"
@@ -79,21 +79,21 @@ Context:
     "tree-view:copy": "复制"
     "tree-view:cut": "剪切"
     "tree-view:paste": "粘贴"
-    "tree-view:open-selected-entry-up": "在上方打开新面板"
-    "tree-view:open-selected-entry-down": "在下方打开新面板"
-    "tree-view:open-selected-entry-left": "在左侧打开新面板"
-    "tree-view:open-selected-entry-right": "在右侧打开新面板"
+    "tree-view:open-selected-entry-up": "向上分割窗格 ↑"
+    "tree-view:open-selected-entry-down": "向下分割窗格 ↓"
+    "tree-view:open-selected-entry-left": "向左分割窗格 ←"
+    "tree-view:open-selected-entry-right": "向右分割窗格 →"
     "application:add-project-folder": "添加项目文件夹"
     "tree-view:remove-project-folder": "移除项目文件夹"
     "tree-view:copy-full-path": "复制文件路径到剪切板"
     "tree-view:copy-project-path": "复制项目路径到剪切板"
     "tree-view:open-in-new-window": "在新窗口中打开"
   ".platform-darwin .tree-view.full-menu":
-    "tree-view:show-in-file-manager": "打开所在文件夹"
+    "tree-view:show-in-file-manager": "在 Finder 中显示"
   ".platform-win32 .tree-view.full-menu":
-    "tree-view:show-in-file-manager": "打开所在文件夹"
+    "tree-view:show-in-file-manager": "在文件资源管理器中显示"
   ".platform-linux .tree-view.full-menu":
-    "tree-view:show-in-file-manager": "打开所在文件夹"
+    "tree-view:show-in-file-manager": "在文件管理器中显示"
   ".tree-view > li.directory":
     "project-find:show-in-current-directory": "在当前目录查找"
   ".tree-view.multi-select":
@@ -107,14 +107,14 @@ Context:
     "tree-view:rename": "重命名"
     "tree-view:reveal-active-file": "在树状图中显示"
   ".platform-darwin atom-pane[data-active-item-path] .tab.active":
-    "tree-view:show-current-file-in-file-manager": "打开所在文件夹"
+    "tree-view:show-current-file-in-file-manager": "在 Finder 中显示"
   ".platform-win32 atom-pane[data-active-item-path] .tab.active":
-    "tree-view:show-current-file-in-file-manager": "打开所在文件夹"
+    "tree-view:show-current-file-in-file-manager": "在文件资源管理器中显示"
   ".platform-linux atom-pane[data-active-item-path] .tab.active":
-    "tree-view:show-current-file-in-file-manager": "打开所在文件夹"
+    "tree-view:show-current-file-in-file-manager": "在文件管理器中显示"
   ".platform-darwin atom-text-editor:not([mini])":
-    "tree-view:show-current-file-in-file-manager": "打开所在文件夹"
+    "tree-view:show-current-file-in-file-manager": "在 Finder 中显示"
   ".platform-win32 atom-text-editor:not([mini])":
-    "tree-view:show-current-file-in-file-manager": "打开所在文件夹"
+    "tree-view:show-current-file-in-file-manager": "在文件资源管理器中显示"
   ".platform-linux atom-text-editor:not([mini])":
-    "tree-view:show-current-file-in-file-manager": "打开所在文件夹"
+    "tree-view:show-current-file-in-file-manager": "在文件管理器中显示"
