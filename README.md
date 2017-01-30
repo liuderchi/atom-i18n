@@ -23,6 +23,9 @@ One i18n package for multiple languages :earth_asia: :earth_americas: :earth_afr
 | Chinese(Traditional) | `zh-tw` | :white_check_mark: 100% |
 
 
+ :heavy_plus_sign: [Create New Issue](https://github.com/liuderchi/atom-i18n/issues/new) to propose new translation for your locale :+1:
+
+
 ## How to Contribute? Who can Contribute?
 
   - *Any language* is welcomed. *Anyone* is welcomed to contribute.

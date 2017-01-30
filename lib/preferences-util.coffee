@@ -51,8 +51,11 @@ class PreferencesUtil
     @defS = window.I18N.defS.Settings
     sv = document.querySelector('.settings-view')
     for btn in sv.querySelectorAll('.meta-controls .install-button')
-      @applyTextWithOrg(btn, @defS["control-btns"].install)
-      # TODO i18n btn if content starts with "Udate to"
+      unless @isAlreadyLocalized(btn)
+        buttonText = if btn.textContent.startsWith('Update to')
+        then @defS["control-btns"].update + (version = btn.textContent.substr(9))
+        else @defS["control-btns"].install
+        @applyTextWithOrg(btn, buttonText)
     for btn in sv.querySelectorAll('.meta-controls .settings')
       @applyTextWithOrg(btn, @defS["control-btns"].setting)
     for btn in sv.querySelectorAll('.meta-controls .uninstall-button')

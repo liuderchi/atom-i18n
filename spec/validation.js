@@ -26,7 +26,7 @@ describe('validation', () => {
     ];
     const FILES = [
       'menu_darwin.cson', 'menu_linux.cson', 'menu_win32.cson',
-      'context.cson', 'settings.cson'
+      'context.cson', 'settings.cson', 'about.cson'
     ];
 
     describe('reading cson files of each locale', () => {
