@@ -1,3 +1,10 @@
+## 0.5.0 - Chinese (simplified) support
+* Chinese (simplified) support (100%)
+* display locale in error message in settings translation
+* fix translation of placeholder in search bar
+* fix translation of tool tips in settings tab
+
+
 ## 0.4.2 - about page
 * translate about page
 * fix translation on settings tab title
