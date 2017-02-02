@@ -1,7 +1,7 @@
 {
   "name": "atom-i18n",
   "main": "./lib/main",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "scripts": {
     "test": "mocha spec/validation.js; coffeelint lib/*.coffee;"
   },
