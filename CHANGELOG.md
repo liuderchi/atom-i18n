@@ -1,3 +1,8 @@
+## 0.5.1 - coffeelint
+* add coffeelint in test
+* fix Chinese (traditional) translation
+
+
 ## 0.5.0 - Chinese (simplified) support
 * Chinese (simplified) support (100%)
 * display locale in error message in settings translation
