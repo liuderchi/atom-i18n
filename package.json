@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "version": "0.5.1",
   "scripts": {
-    "test": "coffeelint def lib && mocha spec/validation.js"
+    "test": "eslint def lib spec && coffeelint def lib spec && mocha spec/validation.js"
   },
   "description": "one i18n package for multiple languages",
   "keywords": [
@@ -27,6 +27,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "coffeelint": "^1.16.0",
+    "eslint": "^3.15.0",
     "mocha": "^3.2.0"
   },
   "configSchema": {
