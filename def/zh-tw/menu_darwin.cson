@@ -299,7 +299,7 @@ Menu:
       "Bring All to Front":
         value: "全部移至最上層"
   Help:
-    value: "說明"
+    value: "幫助"
     submenu:
       "Terms of Use":
         value: "使用條款"
