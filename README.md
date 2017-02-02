@@ -40,10 +40,11 @@ One i18n package for multiple languages :earth_asia: :earth_americas: :earth_afr
 
   * `lib/` is about translation operations
       * contains `main.coffee` which is entry point
-      * 3 big parts require i18n:
+      * 4 parts require translation:
           * menus in the top
           * context-menu when right clicked
-          * preference page
+          * settings page
+          * about page
 
   * `package.json` contains package metadata
       * key `configSchema` defines supported languages
