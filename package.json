@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "version": "0.5.0",
   "scripts": {
-    "test": "mocha spec/validation.js"
+    "test": "mocha spec/validation.js; coffeelint lib/*.coffee;"
   },
   "description": "one i18n package for multiple languages",
   "keywords": [
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "chai": "^3.5.0",
+    "coffeelint": "^1.16.0",
     "cson": "^4.0.0",
     "mocha": "^3.2.0"
   },
