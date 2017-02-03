@@ -40,10 +40,10 @@ Menu:
       "Add Project Folder…":
         value: "Agregar Carpeta al Proyecto..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Reabrir Proyecto"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "Limpiar Historial"
       "Reopen Last Item":
         value: "Reabrir Último Ítem"
       Save:
