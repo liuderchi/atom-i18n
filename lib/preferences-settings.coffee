@@ -10,6 +10,9 @@ class PreferencesSettings
     # Settings panel
     @localizeSettingsPanel()
 
+    # System panel (win32)
+    @localizeSystemPanel()
+
     # Keybindings
     @localizeKeybindingsPanel()
 
@@ -47,6 +50,10 @@ class PreferencesSettings
     for o in el.querySelectorAll("option")
       v = o.attributes["value"].value
       o.innerText = data.select[v]
+
+  @localizeSystemPanel: () =>
+    note = @sv.querySelector('.text.icon.icon-question:not([id])')
+    if note then note.textContent = @defS.system.notes
 
   @localizeKeybindingsPanel: () =>
     info = @sv.querySelector('.keybinding-panel>div:nth-child(2)')

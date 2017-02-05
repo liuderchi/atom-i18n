@@ -10,6 +10,10 @@ Settings:
       value: "編輯器"
     }
     {
+      _label: "System"
+      value: "系統"
+    }
+    {
       _label: "Keybindings"
       value: "快捷鍵綁定"
     }
@@ -34,6 +38,7 @@ Settings:
   sectionHeadings: [
     {_label: "Core Settings", value: "核心設定"}
     {_label: "Editor Settings", value: "編輯器設定"}
+    {_label: "System Settings", value: "系統設定"}
     {_label: "Keybindings", value: "快捷鍵綁定"}
     {_label: "Installed Packages", value: "已安裝的擴充套件"}
     {_label: "Choose a Theme", value: "選擇一個佈景主題"}
@@ -293,7 +298,25 @@ Settings:
         title: "使用 Ctrl 鍵搭配滑鼠滾輪縮放字型大小"
         desc: "使用 Ctrl 鍵搭配上下捲動滑鼠滾輪改變編輯器字型大小。"
       }
+      {
+        _id: 'system.windows.file-handler'
+        title: "註冊為開啟檔案時使用的應用程式"
+        desc: "於開啟各類型檔案的應用程式清單中添加 Atom 以建立關聯。"
+      }
+      {
+        _id: 'system.windows.shell-menu-files'
+        title: "在檔案的滑鼠右鍵選單中顯示"
+        desc: "在檔案管理員中檔案的滑鼠右鍵選單中添加選項 \"Open with Atom\"。"
+      }
+      {
+        _id: 'system.windows.shell-menu-folders'
+        title: "在資料夾的滑鼠右鍵選單中顯示"
+        desc: "在檔案管理員中資料夾的滑鼠右鍵選單中添加選項 \"Open with Atom\"。"
+      }
     ]
+  }
+  system: {
+    notes: "這些設定會決定 Atom 如何與你的作業系統整合。"
   }
   keymaps: {
     notes: {
