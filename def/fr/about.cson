@@ -1,6 +1,9 @@
 About:
   tabTitle: "About"
   releaseNotes: "Release Notes"
+  newUpdate: "New Update"
+  automaticDownloadUpdates: "Automatic download updates"
+  restartInstall: "Restart and install"
   license: "License"
   termsOfUse: "Terms of Use"
   with: " with "
