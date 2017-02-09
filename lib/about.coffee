@@ -20,6 +20,13 @@ class About
       releaseNotes = about.querySelector('.about-header-info a.about-header-release-notes')
       releaseNotes.text = @defA.About.releaseNotes
 
+      updatesGroup = about.querySelector('.about-updates')
+      if updatesGroup
+        updatesGroup.querySelector('span.about-updates-label').textContent = @defA.About.newUpdate
+        updatesGroup.querySelector('a.about-updates-release-notes').textContent = @defA.About.releaseNotes
+        updatesGroup.querySelector('button').textContent = @defA.About.restartInstall
+        updatesGroup.querySelector('.about-auto-updates span').textContent = @defA.About.automaticDownloadUpdates
+
       buttons = about.querySelector('.about-actions.group-item .btn-group')
       buttons.childNodes[0].textContent = @defA.About.license
       buttons.childNodes[1].textContent = @defA.About.termsOfUse

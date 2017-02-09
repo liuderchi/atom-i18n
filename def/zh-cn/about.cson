@@ -1,6 +1,9 @@
 About:
   tabTitle: "关于"
   releaseNotes: "更新日志"
+  newUpdate: "New Update"
+  automaticDownloadUpdates: "Automatic download updates"
+  restartInstall: "Restart and install"
   license: "许可协议"
   termsOfUse: "使用条款"
   with: " 带着 "

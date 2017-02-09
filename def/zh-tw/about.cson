@@ -1,6 +1,9 @@
 About:
   tabTitle: "關於"
   releaseNotes: "發行公告"
+  newUpdate: "新版本"
+  automaticDownloadUpdates: "自動下載更新"
+  restartInstall: "重新啟動 Atom 並安裝更新"
   license: "授權"
   termsOfUse: "使用條款"
   with: " 帶著 "
