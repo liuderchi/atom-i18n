@@ -10,6 +10,10 @@ Settings:
       value: "エディタ設定"
     }
     {
+      _label: "System"
+      value: "System"
+    }
+    {
       _label: "Keybindings"
       value: "キーバインド"
     }
@@ -34,6 +38,7 @@ Settings:
   sectionHeadings: [
     {_label: "Core Settings", value: "コア設定"}
     {_label: "Editor Settings", value: "エディタ設定"}
+    {_label: "System Settings", value: "System Settings"}
     {_label: "Keybindings", value: "キーバインド"}
     {_label: "Installed Packages", value: "インストール済みのパッケージ"}
     {_label: "Choose a Theme", value: "テーマの選択"}
@@ -302,7 +307,25 @@ Settings:
         title: "Ctrl スクロールでフォントサイズを変える"
         desc: "コントロールキーを押しながらスクロールを上下することでエディタのフォントサイズを拡大/縮小します。"
       }
+      {
+        _id: 'system.windows.file-handler'
+        title: "Register as file handler"
+        desc: "Show Atom in the \"Open with\" application list for easy association with file types."
+      }
+      {
+        _id: 'system.windows.shell-menu-files'
+        title: "Show in file context menus"
+        desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
+      }
+      {
+        _id: 'system.windows.shell-menu-folders'
+        title: "Show in folder context menus"
+        desc: "Add \"Open with Atom\" to the File Explorer context menu for folders."
+      }
     ]
+  }
+  system: {
+    notes: "These settings determine how Atom integrates with your operating system."
   }
   keymaps: {
     notes: {

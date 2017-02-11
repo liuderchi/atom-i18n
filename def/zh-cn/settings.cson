@@ -10,6 +10,10 @@ Settings:
       value: "编辑器"
     }
     {
+      _label: "System"
+      value: "System"
+    }
+    {
       _label: "Keybindings"
       value: "快捷键"
     }
@@ -34,6 +38,7 @@ Settings:
   sectionHeadings: [
     {_label: "Core Settings", value: "核心设置"}
     {_label: "Editor Settings", value: "编辑器设置"}
+    {_label: "System Settings", value: "System Settings"}
     {_label: "Keybindings", value: "快捷键"}
     {_label: "Installed Packages", value: "已安装插件包"}
     {_label: "Choose a Theme", value: "选择主题"}
@@ -293,7 +298,25 @@ Settings:
         title: "使用<code>Ctrl + 鼠标滚轮</code>调节字体大小"
         desc: "按下 Ctrl 键并上下滚动鼠标滚轮来调节编辑器的字体大小。"
       }
+      {
+        _id: 'system.windows.file-handler'
+        title: "Register as file handler"
+        desc: "Show Atom in the \"Open with\" application list for easy association with file types."
+      }
+      {
+        _id: 'system.windows.shell-menu-files'
+        title: "Show in file context menus"
+        desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
+      }
+      {
+        _id: 'system.windows.shell-menu-folders'
+        title: "Show in folder context menus"
+        desc: "Add \"Open with Atom\" to the File Explorer context menu for folders."
+      }
     ]
+  }
+  system: {
+    notes: "These settings determine how Atom integrates with your operating system."
   }
   keymaps: {
     notes: {
