@@ -10,6 +10,10 @@ Settings:
       value: "Editor"
     }
     {
+      _label: "System"
+      value: "System"
+    }
+    {
       _label: "Keybindings"
       value: "Keybindings"
     }
@@ -34,6 +38,7 @@ Settings:
   sectionHeadings: [
     {_label: "Core Settings", value: "Core Settings"}
     {_label: "Editor Settings", value: "Editor Settings"}
+    {_label: "System Settings", value: "System Settings"}
     {_label: "Keybindings", value: "Keybindings"}
     {_label: "Installed Packages", value: "Installed Packages"}
     {_label: "Choose a Theme", value: "Choose a Theme"}
@@ -331,7 +336,25 @@ Settings:
         desc: "Change the editor font size when pressing the Ctrl key and
                scrolling the mouse up/down."
       }
+      {
+        _id: 'system.windows.file-handler'
+        title: "Register as file handler"
+        desc: "Show Atom in the \"Open with\" application list for easy association with file types."
+      }
+      {
+        _id: 'system.windows.shell-menu-files'
+        title: "Show in file context menus"
+        desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
+      }
+      {
+        _id: 'system.windows.shell-menu-folders'
+        title: "Show in folder context menus"
+        desc: "Add \"Open with Atom\" to the File Explorer context menu for folders."
+      }
     ]
+  }
+  system: {
+    notes: "These settings determine how Atom integrates with your operating system."
   }
   keymaps: {
     notes: {
