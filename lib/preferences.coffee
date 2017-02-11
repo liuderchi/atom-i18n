@@ -86,7 +86,7 @@ class Preferences
     return unless menu
     for d in @defS.Settings.menu
       el = menu.querySelector("[name='#{d._label}']>a")
-      PU.applyTextWithOrg el, d.value
+      if el then PU.applyTextWithOrg el, d.value
 
     # Left-side button
     ext = @sv.querySelector('.settings-view .icon-link-external')
