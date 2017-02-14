@@ -11,7 +11,7 @@ Settings:
     }
     {
       _label: "System"
-      value: "System"
+      value: "Sistema"
     }
     {
       _label: "Keybindings"
@@ -38,7 +38,7 @@ Settings:
   sectionHeadings: [
     {_label: "Core Settings", value: "Ajustes del Core"}
     {_label: "Editor Settings", value: "Ajustes del Editor"}
-    {_label: "System Settings", value: "System Settings"}
+    {_label: "System Settings", value: "Ajustes del Sistema"}
     {_label: "Keybindings", value: "Atajos"}
     {_label: "Installed Packages", value: "Paquetes Instalados"}
     {_label: "Choose a Theme", value: "Elige un Tema"}
@@ -373,23 +373,23 @@ Settings:
       }
       {
         _id: 'system.windows.file-handler'
-        title: "Register as file handler"
-        desc: "Show Atom in the \"Open with\" application list for easy association with file types."
+        title: "Registrar como administrador de archivos"
+        desc: "Mostar a Atom en la lista de aplicaciones del menú \"Abrir con\" para fácil asociación con algunos tipos de archivos."
       }
       {
         _id: 'system.windows.shell-menu-files'
-        title: "Show in file context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
+        title: "Mostrar en el menú contextual de archivos"
+        desc: "Agregar \"Abrir con Atom\" al menú contextual del Explorador de Archivos (sólo archivos)."
       }
       {
         _id: 'system.windows.shell-menu-folders'
-        title: "Show in folder context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for folders."
+        title: "Mostrar en el menú contextual de carpetas"
+        desc: "Agregar \"Abrir con Atom\" al menú contextual del Explorador de Archivos (sólo carpetas)."
       }
     ]
   }
   system: {
-    notes: "These settings determine how Atom integrates with your operating system."
+    notes: "Estas configuraciones determinan cómo Atom se integra con tu sistema operativo."
   }
   keymaps: {
     notes: {
