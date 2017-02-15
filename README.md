@@ -19,11 +19,12 @@ One i18n package for multiple languages :earth_asia: :earth_americas: :earth_afr
 | Korean | `ko` | :white_check_mark: 99% [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ko%22) |
 | Dutch | `nl` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20nl%22) |
 | Portuguese(Brazil) | `pr-br` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20pr-br%22) |
+| Russian | `ru` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ru%22) |
 | Chinese(Simplified) |  `zh-cn` | :white_check_mark: 100% |
 | Chinese(Traditional) | `zh-tw` | :white_check_mark: 100% |
 
 
- :heavy_plus_sign: [Create New Issue](https://github.com/liuderchi/atom-i18n/issues/new) to propose new translation for your locale :+1:
+ :heavy_plus_sign: you can [Create Issue](https://github.com/liuderchi/atom-i18n/issues/new) to propose translation for *your locale* :+1:
 
 
 ## How to Contribute? Who can Contribute?
