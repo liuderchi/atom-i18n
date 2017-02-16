@@ -1,3 +1,10 @@
+## 0.5.2 - fixes and enhance spec
+* update Spanish support (100%)
+* add Settings > System i18n for windows
+* fix About tab i18n for windows
+* improve spec (refactoring, support package.json, add eslint)
+
+
 ## 0.5.1 - coffeelint
 * add coffeelint in test
 * fix Chinese (traditional) translation
