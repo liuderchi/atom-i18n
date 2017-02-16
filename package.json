@@ -28,7 +28,7 @@
     "chai": "^3.5.0",
     "coffeelint": "^1.16.0",
     "mocha": "^3.2.0"
-},
+  },
   "configSchema": {
     "locale": {
       "type": "string",

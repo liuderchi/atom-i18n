@@ -1,33 +1,52 @@
 'use strict';
 
-// NOTE use atom --test spec/validation.js to test
+// NOTE run ./node_modules/mocha/bin/mocha ./spec/validation.js
 
+const fs = require('fs');
 const path = require('path');
 const CSON = require('cson');
 const expect = require('chai').expect;
 
+const LOCALES = [
+  'ar',
+  'es',
+  'de',
+  'fr',
+  'hi',
+  'ja',
+  'ko',
+  'nl',
+  'pt-br',
+  'zh-cn',
+  'zh-tw',
+  'template'
+];
+const FILES = [
+  'menu_darwin.cson', 'menu_linux.cson', 'menu_win32.cson',
+  'context.cson', 'settings.cson', 'about.cson'
+];
+
 describe('validation', () => {
+
+  let packageMeta = {};
+
+  describe('package.json validation', () => {
+
+    it('loads package.json', () => {
+      let loading = () => {
+        packageMeta = JSON.parse(fs.readFileSync('./package.json'), 'utf8');
+      };
+      expect(loading).not.to.throw(Error);
+    });
+
+    it('checks locale options list', () => {
+      let locales = packageMeta.configSchema.locale.enum.map((opt)=>{return opt.value;});
+      expect(locales).to.deep.equal(LOCALES);
+    });
+  });
 
   describe('cson file validation', () => {
 
-    const LOCALES = [
-      'ar',
-      'de',
-      'es',
-      'fr',
-      'hi',
-      'ja',
-      'ko',
-      'nl',
-      'pt-br',
-      'template',
-      'zh-cn',
-      'zh-tw'
-    ];
-    const FILES = [
-      'menu_darwin.cson', 'menu_linux.cson', 'menu_win32.cson',
-      'context.cson', 'settings.cson', 'about.cson'
-    ];
 
     describe('reading cson files of each locale', () => {
       for (let locale of LOCALES) {
