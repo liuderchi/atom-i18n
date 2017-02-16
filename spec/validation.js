@@ -21,7 +21,7 @@ const LOCALES = [
   'zh-tw',
   'template'
 ];
-const FILES = [
+const CsonFiles = [
   'menu_darwin.cson', 'menu_linux.cson', 'menu_win32.cson',
   'context.cson', 'settings.cson', 'about.cson'
 ];
@@ -47,19 +47,7 @@ describe('validation', () => {
 
   describe('cson file validation', () => {
 
-
-    describe('reading cson files of each locale', () => {
-      for (let locale of LOCALES) {
-        for (let file of FILES) {
-          it(`reads "${path.join(locale, file)}"`, () => {
-            let content = CSON.load(path.join(__dirname, '../def', locale, file));
-            expect(content).not.to.be.instanceof(Error);
-          });
-        }
-      }
-    });
-
-    describe('checking each cson files of all locales should have same number of key-value pairs', () => {
+    describe('checking each cson files of all locales having same key-value pairs as template/*.cson', () => {
 
       JSON.flatten = function(data) {
         var result = {};
@@ -87,29 +75,23 @@ describe('validation', () => {
         return result;
       };
 
-      function countKeysFromCSON(_path) {
-        return Object.keys(JSON.flatten(CSON.load(_path))).length;
+      let templateKeys = {};
+      for (let csonFile of CsonFiles) {
+        templateKeys[csonFile] = Object.keys(JSON.flatten(CSON.load(path.join(__dirname, '../def/template', csonFile))));
       }
 
-      let stat = {};
-      for (let file of FILES) {
-        stat[file] = [];
-        for (let locale of LOCALES) {
-          let keyCount = countKeysFromCSON(path.join(__dirname, '../def', locale, file));
-          stat[file].push(keyCount);
-        }
-        let maxCount = Math.max.apply(null, stat[file]);
-        let checkRes = Boolean((new Set(stat[file])).size === 1);
-        console.log(`*/${file}: ${(checkRes)?'ok':'Err: some less than ' + maxCount}`);
-      }
+      for (let locale of LOCALES) {
+        describe(`checking locale ${locale}`, () => {
+          for (let csonFile of CsonFiles) {
+            it(`checks "${path.join(locale, csonFile)}"`, () => {
+              let cson = CSON.load(path.join(__dirname, '../def', locale, csonFile));
+              expect(cson).not.to.be.instanceof(Error);
 
-      for (let file of FILES) {
-        for (let locale of LOCALES) {
-          it(`checks "${path.join(locale, file)}"`, () => {
-            let keyCount = countKeysFromCSON(path.join(__dirname, '../def', locale, file));
-            expect(keyCount).to.equal(Math.max.apply(null, stat[file]));
-          });
-        }
+              let localeCsonKeys = Object.keys(JSON.flatten(cson));
+              expect(localeCsonKeys).to.deep.equal(templateKeys[csonFile]);
+            });
+          }
+        });
       }
     });
 
