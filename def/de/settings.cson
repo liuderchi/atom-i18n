@@ -1,9 +1,9 @@
 Settings:
-  "tab-title": "Settings"
+  "tab-title": "Einstellungen"
   menu: [
     {
       _label: "Core"
-      value: "Core"
+      value: "Kern"
     }
     {
       _label: "Editor"
@@ -15,15 +15,15 @@ Settings:
     }
     {
       _label: "Keybindings"
-      value: "Keybindings"
+      value: "Tastenkürzel"
     }
     {
       _label: "Packages"
-      value: "Packages"
+      value: "Pakete"
     }
     {
       _label: "Themes"
-      value: "Themes"
+      value: "Thema"
     }
     {
       _label: "Updates"
@@ -31,34 +31,34 @@ Settings:
     }
     {
       _label: "Install"
-      value: "Install"
+      value: "Installieren"
     }
   ]
-  "btn-open-config-folder": "Open Config Folder"
+  "btn-open-config-folder": "Öffne Konfigurations-Ordner"
   sectionHeadings: [
-    {_label: "Core Settings", value: "Core Settings"}
-    {_label: "Editor Settings", value: "Editor Settings"}
-    {_label: "System Settings", value: "System Settings"}
-    {_label: "Keybindings", value: "Keybindings"}
-    {_label: "Installed Packages", value: "Installed Packages"}
-    {_label: "Choose a Theme", value: "Choose a Theme"}
-    {_label: "Installed Themes", value: "Installed Themes"}
-    {_label: "Install Packages", value: "Install Packages"}
-    {_label: "Featured Packages", value: "Featured Packages"}
-    {_label: "Install Themes", value: "Install Themes"}
-    {_label: "Featured Themes", value: "Featured Themes"}
+    {_label: "Core Settings", value: "Kern Einstellungen"}
+    {_label: "Editor Settings", value: "Editor Einstellungen"}
+    {_label: "System Settings", value: "System Einstellungen"}
+    {_label: "Keybindings", value: "Tastenkürzel"}
+    {_label: "Installed Packages", value: "Installierte Pakete"}
+    {_label: "Choose a Theme", value: "Ein Thema auswählen"}
+    {_label: "Installed Themes", value: "Installierte Themen"}
+    {_label: "Install Packages", value: "Paket installieren"}
+    {_label: "Featured Packages", value: "Präsentierte Pakete"}
+    {_label: "Install Themes", value: "Themen installieren"}
+    {_label: "Featured Themes", value: "Präsentierte Themen"}
   ]
-  "heading-available-updates": {_label: "Available Updates", value: "Available Updates"}
+  "heading-available-updates": {_label: "Available Updates", value: "Verfügbare Updates"}
   subSectionHeadings: [
-    {_label: "Invisible", value: "Invisible"}
-    {_label: "Community Packages", value: "Community Packages"}
-    {_label: "Core Packages", value: "Core Packages"}
-    {_label: "Development Packages", value: "Development Packages"}
-    {_label: "Git Packages", value: "Git Packages"}
-    {_label: "Community Themes", value: "Community Themes"}
-    {_label: "Core Themes", value: "Core Themes"}
-    {_label: "Development Themes", value: "Development Themes"}
-    {_label: "Git Themes", value: "Git Themes"}
+    {_label: "Invisible", value: "Unsichtbar"}
+    {_label: "Community Packages", value: "Community Pakete"}
+    {_label: "Core Packages", value: "Kern Pakete"}
+    {_label: "Development Packages", value: "Entwicklungs-Pakete"}
+    {_label: "Git Packages", value: "Git Pakete"}
+    {_label: "Community Themes", value: "Community Themen"}
+    {_label: "Core Themes", value: "Kern Themen"}
+    {_label: "Development Themes", value: "Entwickler Themen"}
+    {_label: "Git Themes", value: "Git Themen"}
   ]
   settings: {
     notes: [
