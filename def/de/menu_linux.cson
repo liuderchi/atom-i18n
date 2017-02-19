@@ -1,6 +1,6 @@
 Menu:
   "&File":
-    value: "File(&F)"
+    value: "Datei"
     submenu:
       "New &Window":
         value: "New Window(&W)"
