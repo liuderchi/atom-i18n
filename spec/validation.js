@@ -1,46 +1,53 @@
 'use strict';
 
-// NOTE use atom --test spec/validation.js to test
+// NOTE run ./node_modules/mocha/bin/mocha ./spec/validation.js
 
+const fs = require('fs');
 const path = require('path');
 const CSON = require('cson');
 const expect = require('chai').expect;
 
+const LOCALES = [
+  'ar',
+  'es',
+  'de',
+  'fr',
+  'hi',
+  'ja',
+  'ko',
+  'nl',
+  'pt-br',
+  'zh-cn',
+  'zh-tw',
+  'template'
+];
+const CsonFiles = [
+  'menu_darwin.cson', 'menu_linux.cson', 'menu_win32.cson',
+  'context.cson', 'settings.cson', 'about.cson'
+];
+
 describe('validation', () => {
+
+  let packageMeta = {};
+
+  describe('package.json validation', () => {
+
+    it('loads package.json', () => {
+      let loading = () => {
+        packageMeta = JSON.parse(fs.readFileSync('./package.json'), 'utf8');
+      };
+      expect(loading).not.to.throw(Error);
+    });
+
+    it('checks locale options list', () => {
+      let locales = packageMeta.configSchema.locale.enum.map((opt)=>{return opt.value;});
+      expect(locales).to.deep.equal(LOCALES);
+    });
+  });
 
   describe('cson file validation', () => {
 
-    const LOCALES = [
-      'ar',
-      'de',
-      'es',
-      'fr',
-      'hi',
-      'ja',
-      'ko',
-      'nl',
-      'pt-br',
-      'template',
-      'zh-cn',
-      'zh-tw'
-    ];
-    const FILES = [
-      'menu_darwin.cson', 'menu_linux.cson', 'menu_win32.cson',
-      'context.cson', 'settings.cson', 'about.cson'
-    ];
-
-    describe('reading cson files of each locale', () => {
-      for (let locale of LOCALES) {
-        for (let file of FILES) {
-          it(`reads "${path.join(locale, file)}"`, () => {
-            let content = CSON.load(path.join(__dirname, '../def', locale, file));
-            expect(content).not.to.be.instanceof(Error);
-          });
-        }
-      }
-    });
-
-    describe('checking each cson files of all locales should have same number of key-value pairs', () => {
+    describe('checking each cson files of all locales having same key-value pairs as template/*.cson', () => {
 
       JSON.flatten = function(data) {
         var result = {};
@@ -68,29 +75,31 @@ describe('validation', () => {
         return result;
       };
 
-      function countKeysFromCSON(_path) {
-        return Object.keys(JSON.flatten(CSON.load(_path))).length;
+      let templateKeys = {};
+      for (let csonFile of CsonFiles) {
+        templateKeys[csonFile] = Object.keys(JSON.flatten(CSON.load(path.join(__dirname, '../def/template', csonFile))));
       }
 
-      let stat = {};
-      for (let file of FILES) {
-        stat[file] = [];
-        for (let locale of LOCALES) {
-          let keyCount = countKeysFromCSON(path.join(__dirname, '../def', locale, file));
-          stat[file].push(keyCount);
-        }
-        let maxCount = Math.max.apply(null, stat[file]);
-        let checkRes = Boolean((new Set(stat[file])).size === 1);
-        console.log(`*/${file}: ${(checkRes)?'ok':'Err: some less than ' + maxCount}`);
-      }
+      for (let locale of LOCALES) {
+        describe(`checking locale ${locale}`, () => {
+          for (let csonFile of CsonFiles) {
+            it(`checks "${path.join(locale, csonFile)}"`, () => {
+              let cson = CSON.load(path.join(__dirname, '../def', locale, csonFile));
+              expect(cson).not.to.be.instanceof(Error);
 
-      for (let file of FILES) {
-        for (let locale of LOCALES) {
-          it(`checks "${path.join(locale, file)}"`, () => {
-            let keyCount = countKeysFromCSON(path.join(__dirname, '../def', locale, file));
-            expect(keyCount).to.equal(Math.max.apply(null, stat[file]));
-          });
-        }
+              let flattenCson = JSON.flatten(cson);
+              for (let k in flattenCson) {
+                const specialChr = /[\~\@\#\%\^\*]/g;
+                let _str = flattenCson[k];
+                let _res = _str.search(specialChr);
+                expect(_res, `\'${_str[_res]}\' in ${_str}`).to.equal(-1);
+              }
+
+              let localeCsonKeys = Object.keys(JSON.flatten(cson));
+              expect(localeCsonKeys).to.deep.equal(templateKeys[csonFile]);
+            });
+          }
+        });
       }
     });
 
