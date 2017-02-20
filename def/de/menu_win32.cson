@@ -1,13 +1,13 @@
 Menu:
   "&File":
-    value: "Datei"
+    value: "Datei(&F)"
     submenu:
       "New &Window":
-        value: "Neues Fenster"
+        value: "Neues Fenster(&W)"
       "&New File":
-        value: "Neue Datei"
+        value: "&Neue Datei"
       "&Open File…":
-        value: "Datei öffnen..."
+        value: "Datei öffnen...(&O)"
       "Open Folder…":
         value: "Ordner öffnen..."
       "Add Project Folder…":
@@ -18,7 +18,7 @@ Menu:
           "Clear Project History":
             value: "Projekt Historie löschen"
       "Reopen Last &Item":
-        value: "letzte Datei nochmals öffnen"
+        value: "letzte Date&i nochmals öffnen"
       "Se&ttings":
         value: "Eins&tellungen..."
       "Config…":
@@ -38,30 +38,30 @@ Menu:
       "Save A&ll":
         value: "&Alles Speichern"
       "&Close Tab":
-        value: "Tab schließen"
+        value: "Tab schließen(&C)"
       "Close &Pane":
-        value: "Alle Tabs schließen"
+        value: "Alle Tabs schließen(&P)"
       "Clos&e Window":
         value: "F&enster schließen"
       "E&xit":
-        value: "Exit(&X)"
+        value: "Beenden(&X)"
       "Close All Tabs":
         value: "Alle Tabs schließen"
   "&Edit":
     value: "B&earbeiten"
     submenu:
       "&Undo":
-        value: "Rückgängig"
+        value: "Rückgängig(&U)"
       "&Redo":
         value: "Wiederhe&rstellen"
-      "&Cut":
-        value: "Ausschneiden"
-      "C&opy":
-        value: "K&opieren"
+      "C&ut":
+        value: "Ausschneiden(&U)"
+      "&Copy":
+        value: "Kopieren (&C)"
       "Copy Pat&h":
-        value: "Pfad kopieren"
+        value: "Pfad kopieren(&H)"
       "&Paste":
-        value: "Einfügen"
+        value: "Einfügen(&P)"
       "Select &All":
         value: "&Alles auswählen"
       "&Toggle Comments":
@@ -72,19 +72,19 @@ Menu:
           "&Indent":
             value: "Ze&ile einrücken"
           "&Outdent":
-            value: "Zeile ausrücken"
+            value: "Zeile ausrücken(&O)"
           "&Auto Indent":
             value: "&Auto Zeileneinzug"
           "Move Line &Up":
-            value: "Zeile nach oben verschieben"
+            value: "Zeile nach oben verschieben(&U)"
           "Move Line &Down":
-            value: "Zeile nach unten verschieben"
+            value: "Zeile nach unten verschieben(&D)"
           "Du&plicate Lines":
             value: "Zeile du&plizieren"
           "D&elete Line":
             value: "Z&eile löschen"
           "&Join Lines":
-            value: "Zeilen zusammenfügen"
+            value: "Zeilen zusammenfügen(&J)"
       Columns:
         value: "Spalten"
         submenu:
@@ -96,9 +96,9 @@ Menu:
         value: "Text"
         submenu:
           "&Upper Case":
-            value: "Großschreiben"
+            value: "Großschreiben(&U)"
           "&Lower Case":
-            value: "Kleinschreiben"
+            value: "Kleinschreiben(&L)"
           "Delete to End of &Word":
             value: "Gesamtes &Wort entfernen"
           "Delete to Previous Word Boundary":
@@ -106,20 +106,20 @@ Menu:
           "Delete to Next Word Boundary":
             value: "Löschen bis zum nächsten Wortanfang"
           "&Delete Line":
-            value: "Zeile löschen"
+            value: "Zeile löschen(&D)"
           "&Transpose":
-            value: "Umkehren"
+            value: "Umkehren(&T)"
       Folding:
-        value: "Folding"
+        value: "Textblöcke auf-/zuklappen"
         submenu:
           "&Fold":
-            value: "Zuklappen"
+            value: "Zuklappen(&F)"
           "&Unfold":
             value: "A&ufklappen"
           "Unfold &All":
             value: "&Alles aufklappen"
           "Fol&d All":
-            value: "Alles zuklappen"
+            value: "Alles zuklappen(&D)"
           "Fold Level 1":
             value: "Zuklappen Level 1"
           "Fold Level 2":
@@ -139,7 +139,7 @@ Menu:
           "Fold Level 9":
             value: "Zuklappen Level 9"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Fließende Auswahl"
       Bookmark:
         value: "Lesezeichen"
         submenu:
@@ -158,10 +158,10 @@ Menu:
       "Select Grammar":
         value: "Grammatik auswählen"
   "&View":
-    value: "Anzeige"
+    value: "Anzeige(&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Vollbild ein-/ausschalten"
+        value: "Vollbild ein-/ausschalten(&F)"
       "Toggle Menu Bar":
         value: "Menüleiste ein-/ausschalten"
       Panes:
@@ -193,7 +193,7 @@ Menu:
         value: "Entwickler"
         submenu:
           "Open In &Dev Mode…":
-            value: "Öffnen im %Dev Modus..."
+            value: "Öffnen im Entwicklermodus...(&D)"
           "&Reload Window":
             value: "Fenster neu laden"
           "Run Package &Specs":
@@ -203,11 +203,11 @@ Menu:
       "&Increase Font Size":
         value: "Schr&iftgröße vergrößern"
       "&Decrease Font Size":
-        value: "Schriftgröße verkleinern"
+        value: "Schriftgröße verkleinern(&D)"
       "Re&set Font Size":
         value: "Schriftgröße zurück&setzen"
       "Toggle Soft &Wrap":
-        value: "Automatischer Zeilenumbruch ein-/ausschalten"
+        value: "Automatischer Zeilenumbruch ein-/ausschalten(&W)"
       "Toggle Command Palette":
         value: "Befehls-Palette umschalten"
       "Toggle Tree View":
@@ -218,15 +218,15 @@ Menu:
       "Add Selection &Above":
         value: "&Auswahl darüber hinzufügen"
       "Add Selection &Below":
-        value: "Auswahl darunter hinzufügen"
+        value: "Auswahl darunter hinzufügen(&B)"
       "S&plit into Lines":
-        value: "In Zeilen aufteilen"
+        value: "In Zeilen aufteilen(&P)"
       "Single Selection":
         value: "Einzelauswahl"
       "Select to &Top":
-        value: "Nach oben hin alles auswählen"
+        value: "Nach oben hin alles auswählen(&T)"
       "Select to Botto&m":
-        value: "Nach unten hin alles auswählen"
+        value: "Nach unten hin alles auswählen(&M)"
       "Select &Line":
         value: "Zei&le auswählen"
       "Select &Word":
@@ -236,7 +236,7 @@ Menu:
       "Select to Beginning of L&ine":
         value: "Bis zum Ze&ilenanfang auswählen"
       "Select to First &Character of Line":
-        value: "Bis zum ersten Buchstaben in Zeile auswählen"
+        value: "Bis zum ersten Zeichen in Zeile auswählen(&C)"
       "Select to End of Wor&d":
         value: "Bis zum Worten&de auswählen"
       "Select to End of Lin&e":
@@ -244,7 +244,7 @@ Menu:
       "Select Inside Brackets":
         value: "Klammerninhalt auswählen"
   "F&ind":
-    value: "Suchen"
+    value: "Suchen(&I)"
     submenu:
       "Find in Buffer":
         value: "Suchen in aktueller Ansicht"
@@ -282,9 +282,9 @@ Menu:
     value: "&Hilfe"
     submenu:
       "View &Terms of Use":
-        value: "Nutzungsbedingungen anzeigen"
+        value: "Nu&tzungsbedingungen anzeigen"
       "View &License":
-        value: "Lizenzbedingungen anzeigen"
+        value: "&Lizenzbedingungen anzeigen"
       "&Documentation":
         value: "&Dokumentation"
       "Frequently Asked Questions":

@@ -2,7 +2,7 @@ Context:
   "atom-workspace":
     "application:inspect": "Element untersuchen"
   "atom-text-editor":
-    "color-picker:open": "Farb wähler"
+    "color-picker:open": "Farbwähler"
     "minimap:toggle": "Minimap umschalten"
   "atom-text-editor, .overlayer":
     "core:undo": "Rückgängig"
