@@ -12,7 +12,7 @@ One i18n package for multiple languages :earth_asia: :earth_americas: :earth_afr
 | -------- |:----:|:-------|
 | Arabic | `ar` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ar%22) |
 | Spanish | `es` | :white_check_mark: 100% |
-| German | `de` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20de%22) |
+| German | `de` | :white_check_mark: 100% |
 | French | `fr` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fr%22) |
 | Hindi | `hi` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20hi%22) |
 | Japanese | `ja` | :white_check_mark: 95% [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ja%22) |
@@ -62,3 +62,4 @@ One i18n package for multiple languages :earth_asia: :earth_americas: :earth_afr
   - Chinese(Simplified): [trifirew](https://github.com/trifirew)
   - Korean: [preco21](https://github.com/preco21) [chibichichi](https://github.com/chibichichi) [Riyeon](https://github.com/Riyeon)
   - Spanish: [stsewd](https://github.com/stsewd)
+  - German: [Acer54](https://github.com/Acer54)
