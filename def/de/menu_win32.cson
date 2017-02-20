@@ -54,8 +54,8 @@ Menu:
         value: "Rückgängig(&U)"
       "&Redo":
         value: "Wiederhe&rstellen"
-      "C&ut":
-        value: "Ausschneiden(&U)"
+      "Cu&t":
+        value: "Ausschneiden(&T)"
       "&Copy":
         value: "Kopieren (&C)"
       "Copy Pat&h":
