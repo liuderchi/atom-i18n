@@ -87,6 +87,14 @@ describe('validation', () => {
               let cson = CSON.load(path.join(__dirname, '../def', locale, csonFile));
               expect(cson).not.to.be.instanceof(Error);
 
+              let flattenCson = JSON.flatten(cson);
+              for (let k in flattenCson) {
+                const specialChr = /[\~\@\#\%\^\*]/g;
+                let _str = flattenCson[k];
+                let _res = _str.search(specialChr);
+                expect(_res, `\'${_str[_res]}\' in ${_str}`).to.equal(-1);
+              }
+
               let localeCsonKeys = Object.keys(JSON.flatten(cson));
               expect(localeCsonKeys).to.deep.equal(templateKeys[csonFile]);
             });
