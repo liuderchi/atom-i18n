@@ -11,7 +11,7 @@
 
 ## Steps to Contribute
 
-  1. please checkout [Pull Request Page](https://github.com/liuderchi/atom-i18n/pulls) first to see whether there is already someone contributing.
+  1. please checkout [Pull Request Page](https://github.com/liuderchi/atom-i18n/pulls) first in case there is already someone contributing.
   2. fork this repo
   3. clone the repo you just forked to your disk
 
@@ -59,7 +59,7 @@
           # more ...
       ```
 
-and only string `"Inspect Element"` can be translated
+      - in previous example, only string `"Inspect Element"` need to be translated
 
   2. in `settings.cson`, keys having **underscore prefix** (e.g. `_label`, `_id`) are identifiers for package execution whose values **WILL NOT be translated**
 
@@ -95,20 +95,22 @@ and only string `"Inspect Element"` can be translated
 the value of key `"&File"` ,`"New &Window"` are translated into `"ファイル(&F)"`, `"新規ウインドウ(&W)"`
 
 
-## How to Test I18N Result in DEV Mode
+## How to Preview Your Translation in Development?
 
   1. uninstall `atom-i18n` if you have installed
   2. change into the package directory you have forked and cloned
   3. use `apm` command to link the package to atom user directory
 
-  ```
+  ```shell
   apm link
   ```
 
-  4. your package directory has been linked to `~/.atom/packages/atom-i18n`
-  5. then you can test it by launching (or reloading) Atom
-  6. after your development, remove link
+  Now your package directory has been linked to `~/.atom/packages/atom-i18n`
 
-  ```shell
-  cd path/to/fork/repo && apm unlink
-  ```
+  4. you can preview i18n result by launching (or reloading) Atom
+
+      - after your development, remove package link
+
+      ```shell
+      cd path/to/fork/repo && apm unlink
+      ```
