@@ -11,7 +11,7 @@ Settings:
     }
     {
       _label: "System"
-      value: "System"
+      value: "系统"
     }
     {
       _label: "Keybindings"
@@ -38,7 +38,7 @@ Settings:
   sectionHeadings: [
     {_label: "Core Settings", value: "核心设置"}
     {_label: "Editor Settings", value: "编辑器设置"}
-    {_label: "System Settings", value: "System Settings"}
+    {_label: "System Settings", value: "系统设置"}
     {_label: "Keybindings", value: "快捷键"}
     {_label: "Installed Packages", value: "已安装插件包"}
     {_label: "Choose a Theme", value: "选择主题"}
@@ -300,23 +300,23 @@ Settings:
       }
       {
         _id: 'system.windows.file-handler'
-        title: "Register as file handler"
-        desc: "Show Atom in the \"Open with\" application list for easy association with file types."
+        title: "注册为打开文件时使用的应用程序"
+        desc: "在\"打开方式\"菜单中显示 Atom 以建立文件关联。"
       }
       {
         _id: 'system.windows.shell-menu-files'
-        title: "Show in file context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
+        title: "在文件的鼠标右键菜单中显示"
+        desc: "在文件资源管理器内，文件的鼠标右键菜单中添加 \"Open with Atom\"（用 Atom 打开）选项。"
       }
       {
         _id: 'system.windows.shell-menu-folders'
-        title: "Show in folder context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for folders."
+        title: "在文件夹的鼠标右键菜单中显示"
+        desc: "在文件资源管理器内，文件夹的鼠标右键菜单中添加 \"Open with Atom\"（用 Atom 打开）选项。"
       }
     ]
   }
   system: {
-    notes: "These settings determine how Atom integrates with your operating system."
+    notes: "这些设置会决定 Atom 如何与你的操作系统整合。"
   }
   keymaps: {
     notes: {
@@ -333,7 +333,7 @@ Settings:
     "table-header-selector": "选择器"
   }
   packages: {
-    searchBarText: 'Filter packages by name'
+    searchBarText: '按名称过滤插件包'
   }
   themes: {
     notes: {
@@ -346,7 +346,7 @@ Settings:
     description1: "标签页、状态栏、树状图、下拉菜单的外观"
     title2: "语法主题"
     description2: "编辑器中文本的外观"
-    searchBarText: 'Filter themes by name'
+    searchBarText: '按名称过滤主题'
   }
   updates: {
     "check-updates": "检查更新"
