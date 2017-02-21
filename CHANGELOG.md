@@ -1,3 +1,9 @@
+## 0.6.0 - German support
+* German support (100%)
+* Chinese (simplified) translation update (100%)
+* add hot key hint checking in validation
+
+
 ## 0.5.2 - fixes and enhance spec
 * update Spanish support (100%)
 * add Settings > System i18n for windows
