@@ -36,12 +36,12 @@ describe('validation', () => {
       let loading = () => {
         packageMeta = JSON.parse(fs.readFileSync('./package.json'), 'utf8');
       };
-      expect(loading).not.to.throw(Error);
+      expect(loading, 'load package.json error').not.to.throw(Error);
     });
 
-    it('checks locale options list', () => {
+    it('checks locale options list in configSchema in package.json', () => {
       let locales = packageMeta.configSchema.locale.enum.map((opt)=>{return opt.value;});
-      expect(locales).to.deep.equal(LOCALES);
+      expect(locales, 'inconsistent locale options').to.deep.equal(LOCALES);
     });
   });
 
@@ -85,18 +85,28 @@ describe('validation', () => {
           for (let csonFile of CsonFiles) {
             it(`checks "${path.join(locale, csonFile)}"`, () => {
               let cson = CSON.load(path.join(__dirname, '../def', locale, csonFile));
-              expect(cson).not.to.be.instanceof(Error);
+              expect(cson, 'load cson error').not.to.be.instanceof(Error);
 
               let flattenCson = JSON.flatten(cson);
               for (let k in flattenCson) {
-                const specialChr = /[\~\@\#\%\^\*]/g;
+                let specialChr = /[\~\@\#\%\^\*]/g;
                 let _str = flattenCson[k];
                 let _res = _str.search(specialChr);
-                expect(_res, `\'${_str[_res]}\' in ${_str}`).to.equal(-1);
+                expect(_res, `\n\tfound special chr: \'${_str[_res]}\'\n\tdata: ${_str}`).to.equal(-1);
+
+                if (csonFile.match(/menu.*cson/g)) {
+                  let hotkeyHintRegex = /\&\w/g;
+                  let menuItemName = k.split('.').slice(-2)[0];
+                  _res = menuItemName.match(hotkeyHintRegex);
+                  if (_res) {
+                    let hotkeyHint = _res[0];
+                    expect(_str.search(new RegExp(hotkeyHint, 'i')), `\n\tcannot find \'${hotkeyHint}\'\n\tin \'${_str}\'`).to.not.equal(-1);
+                  }
+                }
               }
 
-              let localeCsonKeys = Object.keys(JSON.flatten(cson));
-              expect(localeCsonKeys).to.deep.equal(templateKeys[csonFile]);
+              let localeCsonKeys = Object.keys(flattenCson);
+              expect(localeCsonKeys, 'inconsistent keys').to.deep.equal(templateKeys[csonFile]);
             });
           }
         });
