@@ -201,11 +201,11 @@ Menu:
           "Toggle Developer &Tools":
             value: "デベロッパー ツール(&T)"
       "&Increase Font Size":
-        value: "フォントサイズの拡大"
+        value: "フォントサイズの拡大(&I)"
       "&Decrease Font Size":
-        value: "フォントサイズの縮小"
+        value: "フォントサイズの縮小(&D)"
       "Re&set Font Size":
-        value: "フォントサイズのリセット"
+        value: "フォントサイズのリセット(&S)"
       "Toggle Soft &Wrap":
         value: "自動折り返しの切替(&W)"
       "Toggle Command Palette":

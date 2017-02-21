@@ -53,7 +53,7 @@ Menu:
       "Select &All":
         value: "Seleccionar Todo(&A)"
       "&Toggle Comments":
-        value: "Comentar/Descomentar"
+        value: "Comentar/Descomentar(&T)"
       Lines:
         value: "Líneas"
         submenu:
