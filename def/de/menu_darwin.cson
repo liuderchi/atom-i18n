@@ -3,11 +3,11 @@ Menu:
     value: "Atom"
     submenu:
       "About Atom":
-        value: "About Atom"
+        value: "Über Atom"
       "View License":
-        value: "View License"
+        value: "Lizenzbedingungen anzeigen"
       "Preferences…":
-        value: "Preferences..."
+        value: "Einstellungen..."
       "Config…":
         value: "Config..."
       "Init Script…":
@@ -19,301 +19,301 @@ Menu:
       "Stylesheet…":
         value: "Stylesheet..."
       "Install Shell Commands":
-        value: "Install Shell Commands"
+        value: "Shell Kommandos installieren"
       "Hide Atom":
-        value: "Hide Atom"
+        value: "Atom verbergen"
       "Hide Others":
-        value: "Hide Others"
+        value: "Andere verbergen"
       "Show All":
-        value: "Show All"
+        value: "Alle anzeigen"
       Quit:
-        value: "Quit"
+        value: "Beenden"
   File:
-    value: "File"
+    value: "Datei"
     submenu:
       "New Window":
-        value: "New Window"
+        value: "Neues Fenster"
       "New File":
-        value: "New File"
+        value: "Neue Datei"
       "Open…":
-        value: "Open..."
+        value: "Öffnen..."
       "Add Project Folder…":
-        value: "Add Project Folder..."
+        value: "Projekt-Ordner hinzufügen..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Projekt erneut öffnen"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "Projekt Historie löschen"
       "Reopen Last Item":
-        value: "Reopen Last Item"
+        value: "letzte Datei nochmals öffnen"
       Save:
-        value: "Save"
+        value: "Speichern"
       "Save As…":
-        value: "Save As..."
+        value: "Speichern unter..."
       "Save All":
-        value: "Save All"
+        value: "Alles speichern"
       "Close Tab":
-        value: "Close Tab"
+        value: "Tab schließen"
       "Close Pane":
-        value: "Close Pane"
+        value: "Alle Tabs schließen"
       "Close Window":
-        value: "Close Window"
+        value: "Fenster schließen"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "Alle Tabs schließen"
   Edit:
     value: "Edit"
     submenu:
       Undo:
-        value: "Undo"
+        value: "Rückgängig"
       Redo:
-        value: "Redo"
+        value: "Wiederherstellen"
       Cut:
-        value: "Cut"
+        value: "Ausschneiden"
       Copy:
-        value: "Copy"
+        value: "Kopieren"
       "Copy Path":
-        value: "Copy Path"
+        value: "Pfad kopieren"
       Paste:
-        value: "Paste"
+        value: "Einfügen"
       "Select All":
-        value: "Select All"
+        value: "Alles auswählen"
       "Toggle Comments":
-        value: "Toggle Comments"
+        value: "Kommentare umschalten"
       Lines:
-        value: "Lines"
+        value: "Zeilen"
         submenu:
           Indent:
-            value: "Indent"
+            value: "Zeile einrücken"
           Outdent:
-            value: "Outdent"
+            value: "Zeile ausrücken"
           "Auto Indent":
-            value: "Auto Indent"
+            value: "Auto Zeileneinzug"
           "Move Line Up":
-            value: "Move Line Up"
+            value: "Zeile nach oben verschieben"
           "Move Line Down":
-            value: "Move Line Down"
+            value: "Zeile nach unten verschieben"
           "Duplicate Lines":
-            value: "Duplicate Lines"
+            value: "Zeile duplizieren"
           "Delete Line":
-            value: "Delete Line"
+            value: "Zeile löschen"
           "Join Lines":
-            value: "Join Lines"
+            value: "Zeilen zusammenfügen"
       Columns:
-        value: "Columns"
+        value: "Spalten"
         submenu:
           "Move Selection Left":
-            value: "Move Selection Left"
+            value: "Auswahl nach links verschieben"
           "Move Selection Right":
-            value: "Move Selection Right"
+            value: "Auswahl nach rechts verschieben"
       Text:
         value: "Text"
         submenu:
           "Upper Case":
-            value: "Upper Case"
+            value: "Großschreiben"
           "Lower Case":
-            value: "Lower Case"
+            value: "Kleinschreiben"
           "Delete to End of Word":
-            value: "Delete to End of Word"
+            value: "Gesamtes Wort entfernen"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "Löschen bis zum letzten Wortende"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "Löschen bis zum nächsten Wortanfang"
           "Delete Line":
-            value: "Delete Line"
+            value: "Zeile löschen"
           Transpose:
-            value: "Transpose"
+            value: "Umkehren"
       Folding:
         value: "Folding"
         submenu:
           Fold:
-            value: "Fold"
+            value: "Zuklappen"
           Unfold:
-            value: "Unfold"
+            value: "Aufklappen"
           "Unfold All":
-            value: "Unfold All"
+            value: "Alles aufklappen"
           "Fold All":
-            value: "Fold All"
+            value: "Alles zuklappen"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Zuklappen Level 1"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Zuklappen Level 2"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Zuklappen Level 3"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Zuklappen Level 4"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Zuklappen Level 5"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Zuklappen Level 6"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Zuklappen Level 7"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Zuklappen Level 8"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Zuklappen Level 9"
       "Reflow Selection":
         value: "Reflow Selection"
       Bookmark:
-        value: "Bookmark"
+        value: "Lesezeichen"
         submenu:
           "View All":
-            value: "View All"
+            value: "Alle anzeigen"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "Lesezeichen umschalten"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "Zum nächsten Lesezeichen springen"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "Zum vorhergehenden Lesezeichen springen"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "Encodierung auswählen"
       "Go to Line":
-        value: "Go to Line"
+        value: "Gehe zu Zeile"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "Grammatik auswählen"
   View:
-    value: "View"
+    value: "Anzeige"
     submenu:
       "Toggle Full Screen":
-        value: "Toggle Full Screen"
+        value: "Vollbild ein-/ausschalten"
       Panes:
-        value: "Panes"
+        value: "Fensterinhalt"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "Nach oben aufteilen"
           "Split Down":
-            value: "Split Down"
+            value: "Nach unten aufteilen"
           "Split Left":
-            value: "Split Left"
+            value: "Nach links aufteilen"
           "Split Right":
-            value: "Split Right"
+            value: "Nach rechts aufteilen"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "Nächsten Fensterinhalt fokussieren"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "Vorherigen Fensterinhalt fokussieren"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "Fensterinhalt oberhalb fokussieren"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "Fensterinhalt unterhalb fokussieren"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "Fensterinhalt links fokussieren"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "Fensterinhalt rechts fokussieren"
           "Close Pane":
-            value: "Close Pane"
+            value: "Gesammten Fensterinhalt schließen"
       Developer:
-        value: "Developer"
+        value: "Entwickler"
         submenu:
           "Open In Dev Mode…":
-            value: "Open In Dev Mode..."
+            value: "Öffnen im Dev Modus..."
           "Reload Window":
-            value: "Reload Window"
+            value: "Fenster neu laden"
           "Run Package Specs":
-            value: "Run Package Specs"
+            value: "Paket Spezifikationen ausführen"
           "Toggle Developer Tools":
-            value: "Toggle Developer Tools"
+            value: "Entwickler Tools ein-/ausschalten"
       "Increase Font Size":
-        value: "Increase Font Size"
+        value: "Schriftgröße vergrößern"
       "Decrease Font Size":
-        value: "Decrease Font Size"
+        value: "Schriftgröße verkleinern"
       "Reset Font Size":
-        value: "Reset Font Size"
+        value: "Schriftgröße zurücksetzen"
       "Toggle Soft Wrap":
-        value: "Toggle Soft Wrap"
+        value: "Automatischer Zeilenumbruch ein-/ausschalten"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "Befehls-Palette umschalten"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "Baumansicht ein-/ausschalten"
   Selection:
-    value: "Selection"
+    value: "Auswahl"
     submenu:
       "Add Selection Above":
-        value: "Add Selection Above"
+        value: "Auswahl darüber hinzufügen"
       "Add Selection Below":
-        value: "Add Selection Below"
+        value: "Auswahl darunter hinzufügen"
       "Single Selection":
-        value: "Single Selection"
+        value: "Einzelauswahl"
       "Split into Lines":
-        value: "Split into Lines"
+        value: "In Zeilen aufteilen"
       "Select to Top":
-        value: "Select to Top"
+        value: "Nach oben hin alles auswählen"
       "Select to Bottom":
-        value: "Select to Bottom"
+        value: "Nach unten hin alles auswählen"
       "Select Line":
-        value: "Select Line"
+        value: "Zeile auswählen"
       "Select Word":
-        value: "Select Word"
+        value: "Wort auswählen"
       "Select to Beginning of Word":
-        value: "Select to Beginning of Word"
+        value: "Bis zum Wortanfang auswählen"
       "Select to Beginning of Line":
-        value: "Select to Beginning of Line"
+        value: "Bis zum Zeilenanfang auswählen"
       "Select to First Character of Line":
-        value: "Select to First Character of Line"
+        value: "Bis zum ersten Buchstaben in Zeile auswählen"
       "Select to End of Word":
-        value: "Select to End of Word"
+        value: "Bis zum Wortende auswählen"
       "Select to End of Line":
-        value: "Select to End of Line"
+        value: "Bis zum Zeilenende auswählen"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "Klammerninhalt auswählen"
   Find:
-    value: "Find"
+    value: "Suchen"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "Suchen in aktueller Ansicht"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "Ersetzen in aktueller Ansicht"
       "Select Next":
-        value: "Select Next"
+        value: "Nächstes auswählen"
       "Select All":
-        value: "Select All"
+        value: "Alles auswählen"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "Suche ein-/ausschalten"
       "Find in Project":
-        value: "Find in Project"
+        value: "Suchen im Projekt"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "Projektsuche ein-/ausschalten"
       "Find Next":
-        value: "Find Next"
+        value: "Nächstes suchen"
       "Find Previous":
-        value: "Find Previous"
+        value: "Vorheriges suchen"
       "Replace Next":
-        value: "Replace Next"
+        value: "Nächstes ersetzen"
       "Replace All":
-        value: "Replace All"
+        value: "Alle ersetzen"
       "Clear History":
-        value: "Clear History"
+        value: "Historie löschen"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "In Ansicht suchen"
       "Find File":
-        value: "Find File"
+        value: "Datei suchen"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "Veränderte Datei suchen"
   Packages:
-    value: "Packages"
+    value: "Pakete"
   Window:
-    value: "Window"
+    value: "Fenster"
     submenu:
       Minimize:
-        value: "Minimize"
+        value: "Minimieren"
       Zoom:
         value: "Zoom"
       "Bring All to Front":
-        value: "Bring All to Front"
+        value: "Alles in den Vordergrund"
   Help:
-    value: "Help"
+    value: "Hilfe"
     submenu:
       "Terms of Use":
-        value: "Terms of Use"
+        value: "Nutzungsbedingungen anzeigen"
       Documentation:
-        value: "Documentation"
+        value: "Dokumentation"
       Roadmap:
         value: "Roadmap"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "Wiederkehrende Fragen (FAQ)"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Community Diskussionen"
       "Report Issue":
-        value: "Report Issue"
+        value: "Problem melden"
       "Search Issues":
-        value: "Search Issues"
+        value: "Problem suchen"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "Wilkommens-Guide"
