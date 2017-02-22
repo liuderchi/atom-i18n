@@ -1,8 +1,12 @@
 # atom-i18n package
 
-[![Build Status](https://travis-ci.org/liuderchi/atom-i18n.svg?branch=master)](https://travis-ci.org/liuderchi/atom-i18n)
+[![Build Status](https://travis-ci.org/liuderchi/atom-i18n.svg?branch=master)](https://travis-ci.org/liuderchi/atom-i18n) [![dependencies Status](https://david-dm.org/liuderchi/atom-i18n/status.svg)](https://david-dm.org/liuderchi/atom-i18n)
 
-One i18n package for multiple languages :earth_asia: :earth_americas: :earth_africa:
+Localize Atom for your locale.
+
+One i18n package for multiple languages. :earth_asia: :earth_americas: :earth_africa:
+
+Community-driven translation. :family:
 
 ![demo](https://cloud.githubusercontent.com/assets/4994705/21954194/b0cd5cbe-da85-11e6-96e0-c02202b947d0.png)
 
@@ -11,16 +15,16 @@ One i18n package for multiple languages :earth_asia: :earth_americas: :earth_afr
 | Language | code | status |
 | -------- |:----:|:-------|
 | Arabic | `ar` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ar%22) |
-| Spanish | `es` | :white_check_mark: 100% |
-| German | `de` | :white_check_mark: 100% |
+| Spanish | `es` | :warning: 99% [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20es%22) |
+| German | `de` | :warning: 99% [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20de%22) |
 | French | `fr` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fr%22) |
 | Hindi | `hi` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20hi%22) |
-| Japanese | `ja` | :white_check_mark: 95% [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ja%22) |
-| Korean | `ko` | :white_check_mark: 99% [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ko%22) |
+| Japanese | `ja` | :warning: 95% [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ja%22) |
+| Korean | `ko` | :warning: 99% [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ko%22) |
 | Dutch | `nl` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20nl%22) |
 | Portuguese(Brazil) | `pr-br` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20pr-br%22) |
 | Russian | `ru` | :exclamation: [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ru%22) |
-| Chinese(Simplified) |  `zh-cn` | :white_check_mark: 100% |
+| Chinese(Simplified) |  `zh-cn` | :warning: 99% [I can translate](https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20zh-cn%22) |
 | Chinese(Traditional) | `zh-tw` | :white_check_mark: 100% |
 
 
