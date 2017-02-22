@@ -36,7 +36,7 @@ Menu:
       "Save &As…":
         value: "Speichern &als..."
       "Save A&ll":
-        value: "&Alles Speichern"
+        value: "A&lles Speichern"
       "&Close Tab":
         value: "Tab schließen(&C)"
       "Close &Pane":
@@ -195,7 +195,7 @@ Menu:
           "Open In &Dev Mode…":
             value: "Öffnen im Entwicklermodus...(&D)"
           "&Reload Window":
-            value: "Fenster neu laden"
+            value: "Fenste&r neu laden"
           "Run Package &Specs":
             value: "Paket &Spezifikationen ausführen"
           "Toggle Developer &Tools":

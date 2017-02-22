@@ -24,7 +24,7 @@ Menu:
       "Save &As…":
         value: "Speichern &als..."
       "Save A&ll":
-        value: "&Alles speichern"
+        value: "A&lles speichern"
       "&Close Tab":
         value: "Tab schließen(&C)"
       "Close &Pane":
@@ -127,7 +127,7 @@ Menu:
           "Fold Level 9":
             value: "Zuklappen Level 9"
       "&Preferences":
-        value: "Einstellungen"
+        value: "Einstellungen(&P)"
       "Config…":
         value: "Config..."
       "Init Script…":
@@ -224,7 +224,7 @@ Menu:
       "Single Selection":
         value: "Einzelauswahl"
       "Select to &Top":
-        value: "Nach oben hin alles auswählen"
+        value: "Nach oben hin alles auswählen(&T)"
       "Select to Botto&m":
         value: "Nach unten hin alles auswählen(&M)"
       "Select &Line":
