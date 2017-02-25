@@ -97,6 +97,11 @@ Settings:
         desc: "メニューバーを自動的に隠して Alt キーで切り替えます。この設定は Windows と Linux でのみサポートされます。"
       }
       {
+        _id: 'core.closeDeletedFileTabs'
+        title: "Close Deleted File Tabs"
+        desc: "Close corresponding editors when a file is deleted outside Atom."
+      }
+      {
         _id: 'core.closeEmptyWindows'
         title: "空になったウインドウをタブと同様に閉じる"
         desc: "ウインドウ内にタブもペインもない状態でタブを閉じるコマンドを与えた場合、ウインドウを閉じます。"
@@ -151,6 +156,7 @@ Settings:
       {
         _id: 'core.restorePreviousWindowsOnStart'
         title: "Restore Previous Windows On Start"
+        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
       }
       {
         _id: 'core.telemetryConsent'
@@ -160,6 +166,11 @@ Settings:
           limited: "匿名で限定された使用統計データと障害レポートの送信を許可する"
           no: "遠隔測定結果を送信しない"
           undecided: "まだ決まっていない（次回起動時に再確認）"
+      }
+      {
+        _id: 'core.useProxySettingsWhenCallingApm'
+        title: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
       }
       {
         _id: 'core.useCustomTitleBar'
@@ -249,6 +260,11 @@ Settings:
         _id: 'editor.scrollSensitivity'
         title: "スクロール速度"
         desc: "マウスやトラックパッドでエディタをスクロールする時の速度"
+      }
+      {
+        _id: 'editor.showCursorOnSelection'
+        title: "Show Cursor On Selection"
+        desc: "Show cursor while there is a selection."
       }
       {
         _id: 'editor.showIndentGuide'

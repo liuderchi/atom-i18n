@@ -93,6 +93,11 @@ Settings:
         desc: "Menü automatisch verbergen und zum einblenden Alt drücken. Dies wird nur unter unterstütz unter Windows &amp; Linux."
       }
       {
+        _id: 'core.closeDeletedFileTabs'
+        title: "Close Deleted File Tabs"
+        desc: "Close corresponding editors when a file is deleted outside Atom."
+      }
+      {
         _id: 'core.closeEmptyWindows'
         title: "Leere Fenster schließen"
         desc: "Wenn ein Fenster keine geöffneten Tabs enthält und ein 'Tabs schließen' Kommando erhält, schließe dieses Fenster."
@@ -144,6 +149,7 @@ Settings:
       {
         _id: 'core.restorePreviousWindowsOnStart'
         title: "Letzte Fenster beim Start wieder herstellen"
+        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
       }
       {
         _id: 'core.telemetryConsent'
@@ -153,6 +159,11 @@ Settings:
           limited: "Limitierte anonyme Nutzer-Statistiken, Ausnahmen und Fehlerberichte"
           no: "Keine Telemetrie-Daten senden"
           undecided: "Unentschlossen (Atom will ask again next time it is launched)"
+      }
+      {
+        _id: 'core.useProxySettingsWhenCallingApm'
+        title: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
       }
       {
         _id: 'core.useCustomTitleBar'
@@ -242,6 +253,11 @@ Settings:
         _id: 'editor.scrollSensitivity'
         title: "Scroll-Sensibilität"
         desc: "Legt fest wie schnell der Editor per Maus oder Trackpad scrollt."
+      }
+      {
+        _id: 'editor.showCursorOnSelection'
+        title: "Show Cursor On Selection"
+        desc: "Show cursor while there is a selection."
       }
       {
         _id: 'editor.showIndentGuide'

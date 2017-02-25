@@ -105,6 +105,11 @@ Settings:
                presionando Alt. Esto es sólo soportado en Windows &amp; Linux."
       }
       {
+        _id: 'core.closeDeletedFileTabs'
+        title: "Close Deleted File Tabs"
+        desc: "Close corresponding editors when a file is deleted outside Atom."
+      }
+      {
         _id: 'core.closeEmptyWindows'
         title: "Cerrar Ventanas Vacías"
         desc: "Cuando a una ventana sin ninguna pestaña o panel le es dado el
@@ -171,6 +176,7 @@ Settings:
       {
         _id: 'core.restorePreviousWindowsOnStart'
         title: "Restaurar Ventana Previa al Iniciar"
+        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
       }
       {
         _id: 'core.telemetryConsent'
@@ -183,6 +189,11 @@ Settings:
           no: "No enviar ninguna información de telemetría."
           undecided: "Indeciso (Atom te preguntará nuevamente la siguiente
                       vez que sea ejecutado)."
+      }
+      {
+        _id: 'core.useProxySettingsWhenCallingApm'
+        title: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
       }
       {
         _id: 'core.useCustomTitleBar'
@@ -290,6 +301,11 @@ Settings:
         title: "Sensibilidad del Scroll"
         desc: "Determina qué tan rápido el editor se desplaza cuando se usa
                el mouse o el touch pad"
+      }
+      {
+        _id: 'editor.showCursorOnSelection'
+        title: "Show Cursor On Selection"
+        desc: "Show cursor while there is a selection."
       }
       {
         _id: 'editor.showIndentGuide'

@@ -93,6 +93,11 @@ Settings:
         desc: "按 Alt 以切换菜单栏。仅支持 Windows 和 Linux 操作系统。"
       }
       {
+        _id: 'core.closeDeletedFileTabs'
+        title: "Close Deleted File Tabs"
+        desc: "Close corresponding editors when a file is deleted outside Atom."
+      }
+      {
         _id: 'core.closeEmptyWindows'
         title: "关闭空窗口"
         desc: "当窗口内没有打开的标签页或窗格时，“关闭标签页”选项会关闭该窗口。"
@@ -144,6 +149,7 @@ Settings:
       {
         _id: 'core.restorePreviousWindowsOnStart'
         title: "启动时恢复之前的窗口状态"
+        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
       }
       {
         _id: 'core.telemetryConsent'
@@ -153,6 +159,11 @@ Settings:
           limited: "允许发送有限的匿名使用信息、例外和崩溃报告"
           no: "不发送任何遥测数据"
           undecided: "尚未决定（Atom 会在下次启动时再次询问）"
+      }
+      {
+        _id: 'core.useProxySettingsWhenCallingApm'
+        title: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
       }
       {
         _id: 'core.useCustomTitleBar'
@@ -242,6 +253,11 @@ Settings:
         _id: 'editor.scrollSensitivity'
         title: "滚动速度"
         desc: "调整在编辑器中使用鼠标滚轮或触摸板滚动的速度。"
+      }
+      {
+        _id: 'editor.showCursorOnSelection'
+        title: "Show Cursor On Selection"
+        desc: "Show cursor while there is a selection."
       }
       {
         _id: 'editor.showIndentGuide'
