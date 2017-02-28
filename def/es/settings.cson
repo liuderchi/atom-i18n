@@ -106,8 +106,8 @@ Settings:
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
-        desc: "Close corresponding editors when a file is deleted outside Atom."
+        title: "Cerrar Pestañas de Archivos Eliminados"
+        desc: "Cierra los editores correspondientes cuando un archivo es eliminado fuera de Atom."
       }
       {
         _id: 'core.closeEmptyWindows'
@@ -176,7 +176,7 @@ Settings:
       {
         _id: 'core.restorePreviousWindowsOnStart'
         title: "Restaurar Ventana Previa al Iniciar"
-        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
+        desc: "Cuando está marcada restaura el último estado de todas las ventanas de Atom cuando es iniciado desde el ícono o con <code>atom</code> desde la línea de comandos; caso contrario un ambiente en blanco es cargado."
       }
       {
         _id: 'core.telemetryConsent'
@@ -192,8 +192,8 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
-        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        title: "Usar ajustes detectados del proxy cuando la herramienta de línea de comandos <code>apm</code> es llamada."
+        desc: "Usar ajustes detectados del proxy cuando la herramienta de línea de comandos <code>apm</code> es llamada."
       }
       {
         _id: 'core.useCustomTitleBar'
@@ -304,8 +304,8 @@ Settings:
       }
       {
         _id: 'editor.showCursorOnSelection'
-        title: "Show Cursor On Selection"
-        desc: "Show cursor while there is a selection."
+        title: "Mostrar Cursor Sobre Selección"
+        desc: "Mostrar cursor mientras hay una selección."
       }
       {
         _id: 'editor.showIndentGuide'
