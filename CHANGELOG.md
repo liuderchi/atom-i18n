@@ -1,6 +1,11 @@
+## 0.6.2 - new I18n item, add Russian option
+* Spanish support update (100%)
+* add Russian option
+
+
 ## 0.6.1 - new I18n item
 * new items in settings
-* Chinese (traditional) support (100%)
+* Chinese (traditional) support update (100%)
 
 
 ## 0.6.0 - German support
