@@ -48,7 +48,7 @@ describe('validation', () => {
 
   describe('cson file validation', () => {
 
-    describe('checking each cson files of all locales having same key-value pairs as template/*.cson', () => {
+    describe('checking each cson files of all locales', () => {
 
       JSON.flatten = function(data) {
         var result = {};
@@ -84,30 +84,41 @@ describe('validation', () => {
       for (let locale of LOCALES) {
         describe(`checking locale ${locale}`, () => {
           for (let csonFile of CsonFiles) {
-            it(`checks "${path.join(locale, csonFile)}"`, () => {
+
+            describe(`checking "${path.join(locale, csonFile)}"`, () => {
+
               let cson = CSON.load(path.join(__dirname, '../def', locale, csonFile));
-              expect(cson, 'load cson error').not.to.be.instanceof(Error);
-
               let flattenCson = JSON.flatten(cson);
-              for (let k in flattenCson) {
-                let specialChr = /[\~\@\#\%\^\*]/g;
-                let _str = flattenCson[k];
-                let _res = _str.search(specialChr);
-                expect(_res, `\n\tfound special chr: \'${_str[_res]}\'\n\tdata: ${_str}`).to.equal(-1);
 
-                if (csonFile.match(/menu.*cson/g)) {
-                  let hotkeyHintRegex = /\&\w/g;
-                  let menuItemName = k.split('.').slice(-2)[0];
-                  _res = menuItemName.match(hotkeyHintRegex);
-                  if (_res) {
-                    let hotkeyHint = _res[0];
-                    expect(_str.search(new RegExp(hotkeyHint, 'i')), `\n\tcannot find \'${hotkeyHint}\'\n\tin \'${_str}\'`).to.not.equal(-1);
-                  }
+              it('has no error loading cson', () => {
+                expect(cson, 'load cson error').not.to.be.instanceof(Error);
+              });
+              it('has consistent flatten keys with template', () => {
+                expect(Object.keys(flattenCson), 'inconsistent keys').to.deep.equal(templateKeys[csonFile]);
+              });
+              it('has no special char in values of cson', () => {
+                for (let k in flattenCson) {
+                  let specialChr = /[\~\@\#\%\^\*]/g;
+                  let _str = flattenCson[k];
+                  let _res = _str.search(specialChr);
+                  expect(_res, `\n\tfound special chr: \'${_str[_res]}\'\n\tdata: ${_str}`).to.equal(-1);
                 }
+              });
+              if (csonFile === 'menu_linux.cson' || csonFile === 'menu_win32.cson') {
+                it('has correct hotkey hints', () => {
+                  for (let k in flattenCson) {
+                    let hotkeyHintRegex = /\&\w/g;
+                    let menuItemName = k.split('.').slice(-2)[0];
+                    let _str = flattenCson[k];
+                    let _res = menuItemName.match(hotkeyHintRegex);
+                    if (_res) {
+                      let hotkeyHint = _res[0];
+                      expect(_str.search(new RegExp(hotkeyHint, 'i')), `\n\tcannot find \'${hotkeyHint}\'\n\tin \'${_str}\'`).to.not.equal(-1);
+                    }
+                  }
+                });
               }
 
-              let localeCsonKeys = Object.keys(flattenCson);
-              expect(localeCsonKeys, 'inconsistent keys').to.deep.equal(templateKeys[csonFile]);
             });
           }
         });
