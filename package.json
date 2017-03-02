@@ -42,12 +42,12 @@
           "description": "اللغة العربية (ar)"
         },
         {
-          "value": "es",
-          "description": "Español (es)"
+            "value": "de",
+            "description": "Deutsch (de)"
         },
         {
-          "value": "de",
-          "description": "Deutsch (de)"
+          "value": "es",
+          "description": "Español (es)"
         },
         {
           "value": "fr",

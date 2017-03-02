@@ -9,8 +9,8 @@ const expect = require('chai').expect;
 
 const LOCALES = [
   'ar',
-  'es',
   'de',
+  'es',
   'fr',
   'hi',
   'ja',
