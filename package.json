@@ -74,6 +74,10 @@
           "description": "Português(Brazil) (pt-br)"
         },
         {
+          "value": "ru",
+          "description": "Ру́сский (ru)"
+        },
+        {
           "value": "zh-cn",
           "description": "简体中文 (zh-cn)"
         },
