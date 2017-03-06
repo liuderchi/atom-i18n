@@ -175,8 +175,8 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
-        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        title: "<code>apm</code> 커맨드 라인 도구를 불러올 때 발견된 프록시 설정 사용."
+        desc: "<code>apm</code> 커맨드 라인 도구를 불러올 때 발견된 프록시 설정 사용."
       }
       {
         _id: 'core.useCustomTitleBar'
