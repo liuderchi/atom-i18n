@@ -13,10 +13,10 @@ Menu:
       "Add Project Folder…":
         value: "프로젝트 폴더 추가..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "프로젝트 다시 열기"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "프로젝트 기록 지우기"
       "Reopen Last &Item":
         value: "마지막 아이템 다시 열기(&I)"
       "&Save":
@@ -209,9 +209,9 @@ Menu:
       "Toggle Soft &Wrap":
         value: "소프트 랩핑 토글(&W)"
       "Toggle Command Palette":
-        value: "Command Palette 토글"
+        value: "명령 팔레트 토글"
       "Toggle Tree View":
-        value: "Tree View 토글"
+        value: "트리 뷰 토글"
   "&Selection":
     value: "선택(&S)"
     submenu:
