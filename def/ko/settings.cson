@@ -11,7 +11,7 @@ Settings:
     }
     {
       _label: "System"
-      value: "System"
+      value: "시스템"
     }
     {
       _label: "Keybindings"
@@ -38,7 +38,7 @@ Settings:
   sectionHeadings: [
     {_label: "Core Settings", value: "코어 설정"}
     {_label: "Editor Settings", value: "에디터 설정"}
-    {_label: "System Settings", value: "System Settings"}
+    {_label: "System Settings", value: "시스템 설정"}
     {_label: "Keybindings", value: "키 바인딩"}
     {_label: "Installed Packages", value: "설치된 패키지"}
     {_label: "Choose a Theme", value: "테마 선택"}
@@ -66,14 +66,14 @@ Settings:
         _id: 'core-settings-note'
         html: '이 설정은 텍스트 편집과 관계 없는 Atom Editor의 동작에 관련된 코어 설정입니다.
                몇몇 패키지는 해당 패키지만의 추가적인 설정을 가지고 있을 수 있으며
-               <a class="link packages-open">Packages list</a>의
+               <a class="link packages-open">패키지 리스트</a>의
                패키지 카드에서 찾을 수 있습니다.'
       }
       {
         _id: 'editor-settings-note'
         html: '이 설정은 문서 편집과 관련된 에디터 설정입니다.
                어떤 설정은 각 언어 설정에 따라 덮어씌어질 수 있습니다.
-               <a class="link packages-open">Packages list</a>에서
+               <a class="link packages-open">패키지 리스트</a>에서
                패키지 카드를 선택하여 언어 설정을 확인하세요.'
       }
     ]
@@ -81,7 +81,7 @@ Settings:
       {
         _id: 'core.allowPendingPaneItems'
         title: "분할 창 아이템 미리보기 허용"
-        desc: "Tree View에서 파일을 한 번 클릭 했을 때,
+        desc: "트리 뷰에서 파일을 한 번 클릭 했을 때,
                아이템을 탭에 추가하지 않고 미리보기 형태로 이전 분할 창과 겹쳐 보여줍니다."
       }
       {
@@ -102,7 +102,7 @@ Settings:
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
+        title: "지워진 파일 탭 닫기"
         desc: "Close corresponding editors when a file is deleted outside Atom."
       }
       {
@@ -375,7 +375,7 @@ Settings:
     "table-header-selector": "선택자"
   }
   packages: {
-    searchBarText: 'Filter packages by name'
+    searchBarText: '제목으로 패키지 필터링'
   }
   themes: {
     notes: {
@@ -385,10 +385,10 @@ Settings:
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
     title1: "UI 테마"
-    description1: "이 테마는 탭, 상태 막대, Tree View, 그리고 드롭다운 메뉴의 스타일을 지정합니다"
+    description1: "이 테마는 탭, 상태 막대, 트리 뷰, 그리고 드롭다운 메뉴의 스타일을 지정합니다"
     title2: "문법 테마"
     description2: "이 테마는 에디터 안의 텍스트 스타일을 지정합니다"
-    searchBarText: 'Filter themes by name'
+    searchBarText: '제목으로 테마 필터링'
   }
   updates: {
     "check-updates": "업데이트 확인"
