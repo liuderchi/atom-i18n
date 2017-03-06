@@ -102,10 +102,10 @@ Context:
     "tree-view:cut": "오려두기"
     "tree-view:paste": "붙이기"
   "atom-pane[data-active-item-path] .item-views":
-    "tree-view:reveal-active-file": "Tree View에서 보이기"
+    "tree-view:reveal-active-file": "트리 뷰에서 보이기"
   "atom-pane[data-active-item-path] .tab.active":
     "tree-view:rename": "이름 변경"
-    "tree-view:reveal-active-file": "Tree View에서 보이기"
+    "tree-view:reveal-active-file": "트리 뷰에서 보이기"
   ".platform-darwin atom-pane[data-active-item-path] .tab.active":
     "tree-view:show-current-file-in-file-manager": "Finder에서 보이기"
   ".platform-win32 atom-pane[data-active-item-path] .tab.active":
