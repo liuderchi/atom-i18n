@@ -1,62 +1,62 @@
 Settings:
-  "tab-title": "Settings"
+  "tab-title": "Настройки"
   menu: [
     {
       _label: "Core"
-      value: "Core"
+      value: "Основные"
     }
     {
       _label: "Editor"
-      value: "Editor"
+      value: "Редактор"
     }
     {
       _label: "System"
-      value: "System"
+      value: "Система"
     }
     {
       _label: "Keybindings"
-      value: "Keybindings"
+      value: "Горячие клавиши"
     }
     {
       _label: "Packages"
-      value: "Packages"
+      value: "Расширения"
     }
     {
       _label: "Themes"
-      value: "Themes"
+      value: "Темы"
     }
     {
       _label: "Updates"
-      value: "Updates"
+      value: "Обновления"
     }
     {
       _label: "Install"
-      value: "Install"
+      value: "Установка расширений"
     }
   ]
-  "btn-open-config-folder": "Open Config Folder"
+  "btn-open-config-folder": "Открыть папку с конфиг."
   sectionHeadings: [
-    {_label: "Core Settings", value: "Core Settings"}
-    {_label: "Editor Settings", value: "Editor Settings"}
-    {_label: "System Settings", value: "System Settings"}
-    {_label: "Keybindings", value: "Keybindings"}
-    {_label: "Installed Packages", value: "Installed Packages"}
-    {_label: "Choose a Theme", value: "Choose a Theme"}
-    {_label: "Installed Themes", value: "Installed Themes"}
-    {_label: "Install Packages", value: "Install Packages"}
-    {_label: "Featured Packages", value: "Featured Packages"}
-    {_label: "Install Themes", value: "Install Themes"}
-    {_label: "Featured Themes", value: "Featured Themes"}
+    {_label: "Core Settings", value: "Основные настройки"}
+    {_label: "Editor Settings", value: "Настройки редактора"}
+    {_label: "System Settings", value: "Системные настройки"}
+    {_label: "Keybindings", value: "Горячие клавиши"}
+    {_label: "Installed Packages", value: "Установленные расширения"}
+    {_label: "Choose a Theme", value: "Выбор темы"}
+    {_label: "Installed Themes", value: "Установленные темы"}
+    {_label: "Install Packages", value: "Установка расширения"}
+    {_label: "Featured Packages", value: "Лучшие расширения"}
+    {_label: "Install Themes", value: "Установка тем"}
+    {_label: "Featured Themes", value: "Лучшие темы"}
   ]
-  "heading-available-updates": {_label: "Available Updates", value: "Available Updates"}
+  "heading-available-updates": {_label: "Available Updates", value: "Доступные обновления"}
   subSectionHeadings: [
     {_label: "Invisible", value: "Invisible"}
-    {_label: "Community Packages", value: "Community Packages"}
-    {_label: "Core Packages", value: "Core Packages"}
+    {_label: "Community Packages", value: "Пользовательские расширения"}
+    {_label: "Core Packages", value: "Основные расширения"}
     {_label: "Development Packages", value: "Development Packages"}
     {_label: "Git Packages", value: "Git Packages"}
-    {_label: "Community Themes", value: "Community Themes"}
-    {_label: "Core Themes", value: "Core Themes"}
+    {_label: "Community Themes", value: "Пользовательские темы"}
+    {_label: "Core Themes", value: "Основные темы"}
     {_label: "Development Themes", value: "Development Themes"}
     {_label: "Git Themes", value: "Git Themes"}
   ]
@@ -387,7 +387,7 @@ Settings:
     "table-header-selector": "Selector"
   }
   packages: {
-    searchBarText: 'Filter packages by name'
+    searchBarText: 'Фильтровать расширения по имени'
   }
   themes: {
     notes: {
@@ -396,34 +396,34 @@ Settings:
       text3: ""   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
-    title1: "UI Theme"
-    description1: "This styles the tabs, status bar, tree view, and dropdowns"
-    title2: "Syntax Theme"
-    description2: "This styles the text inside the editor"
-    searchBarText: 'Filter themes by name'
+    title1: "Внешний вид"
+    description1: "Это стиль вкладок, статус бар, дерево файлов и раскрывающиеся списки"
+    title2: "Тема синтаксиса"
+    description2: "Это стиль текста внутри редактора"
+    searchBarText: 'Отфильтровать темы по именам'
   }
   updates: {
-    "check-updates": "Check for Updates"
-    "update-all": "Update All"
-    "checking-updates": "Checking for updates..."
-    "all-updated-message": "All of your installed packages are up to date!"
+    "check-updates": "Проверить обновления"
+    "update-all": "Обновить все"
+    "checking-updates": "Проверка обновлений..."
+    "all-updated-message": "Все установленные расширения актуальны!"
   }
   install: {
     notes: {
-      text1: "Packages are published to "
-      text2: " and are installed to "
+      text1: "Расширения публикуются на "
+      text2: " и они установленны в "
       text3: ""   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
-    "searchbar-placeholder": "Search packages"
-    "btn-packages": "Packages"
-    "btn-themes": "Themes"
+    "searchbar-placeholder": "Найти расширения"
+    "btn-packages": "Расширения"
+    "btn-themes": "Темы"
   }
   "control-btns":{
-    install: "Install"
+    install: "Установить"
     update: "Update to"
-    setting: "Settings"
-    uninstall: "Uninstall"
-    disable: "Disable"
-    enable: "Enable"
+    setting: "Настройки"
+    uninstall: "Удалить"
+    disable: "Отключить"
+    enable: "Включить"
   }
