@@ -1,301 +1,305 @@
 Menu:
   "&File":
-    value: "File(&F)"
+    value: "Файл(&F)"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "Новое окно(&W)"
       "&New File":
-        value: "New File(&N)"
+        value: "Новый файл(&N)"
       "&Open File…":
-        value: "Open File(&O)..."
+        value: "Открыть файл(&O)..."
       "Open Folder…":
-        value: "Open Folder..."
+        value: "Открыть папку..."
       "Add Project Folder…":
-        value: "Add Project Folder..."
+        value: "Добавить папку с проектом..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Открыть заного проект"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "Очистить историю проектов"
       "Reopen Last &Item":
-        value: "Reopen Last Item(&I)"
+        value: "Открыть последний файл(&I)"
       "Se&ttings":
-        value: "Settings(&T)..."
+        value: "Настройки(&T)..."
       "Config…":
-        value: "Config..."
+        value: "Созд. конфиг..."
       "Init Script…":
-        value: "Init Script..."
+        value: "Созд. скипт..."
       "Keymap…":
-        value: "Keymap..."
+        value: "Созд. гор. клавишу..."
       "Snippets…":
-        value: "Snippets..."
+        value: "Созд. отрывка..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Созд. табл. стилей..."
       "&Save":
-        value: "Save(&S)"
+        value: "Сохранить(&S)"
       "Save &As…":
-        value: "Save As(&A)..."
+        value: "Сохранить как(&A)..."
       "Save A&ll":
-        value: "Save All(&L)"
+        value: "Сохранить всё(&L)"
       "&Close Tab":
-        value: "Close Tab(&C)"
+        value: "Закрыть вкладку(&C)"
       "Close &Pane":
-        value: "Close Pane(&P)"
+        value: "Закрыть панель(&P)"
       "Clos&e Window":
-        value: "Close Window(&E)"
+        value: "Закрыть окно(&E)"
       "E&xit":
-        value: "Exit(&X)"
+        value: "Выход(&X)"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "Закрыть все вкладки"
   "&Edit":
-    value: "Edit(&E)"
+    value: "Редактирование(&E)"
     submenu:
       "&Undo":
-        value: "Undo(&U)"
+        value: "Отменить(&U)"
       "&Redo":
-        value: "Redo(&R)"
+        value: "Вернуть(&R)"
       "Cu&t":
-        value: "Cut(&T)"
+        value: "Вырезать(&T)"
       "&Copy":
-        value: "Copy(&C)"
+        value: "Копировать(&C)"
       "Copy Pat&h":
-        value: "Copy Path(&H)"
+        value: "Копировать путь(&H)"
       "&Paste":
-        value: "Paste(&P)"
+        value: "Вставить(&P)"
       "Select &All":
-        value: "Select All(&A)"
+        value: "Выделить всё(&A)"
       "&Toggle Comments":
-        value: "Toggle Comments(&T)"
+        value: "Создать коментарий(&T)"
       Lines:
-        value: "Lines"
+        value: "Линии"
         submenu:
           "&Indent":
-            value: "Indent(&I)"
+            value: "Сделать отступ(&I)"
           "&Outdent":
-            value: "Outdent(&O)"
+            value: "Убрать отступ(&O)"
           "&Auto Indent":
-            value: "Auto Indent(&A)"
+            value: "Авто-отступ(&A)"
           "Move Line &Up":
-            value: "Move Line Up(&U)"
+            value: "Передвинуть линию вверх(&U)"
           "Move Line &Down":
-            value: "Move Line Down(&D)"
+            value: "Передвинуть линию вниз(&D)"
           "Du&plicate Lines":
-            value: "Duplicate Lines(&P)"
+            value: "Дублировать линию(&P)"
           "D&elete Line":
-            value: "Delete Line(&E)"
+            value: "Удалить линию(&E)"
           "&Join Lines":
-            value: "Join Lines(&J)"
+            value: "Соединить линии(&J)"
       Columns:
-        value: "Columns"
+        value: "Столбцы"
         submenu:
           "Move Selection &Left":
-            value: "Move Selection Left(&L)"
+            value: "Переместить выделенное влево(&L)"
           "Move Selection &Right":
-            value: "Move Selection Right(&R)"
+            value: "Переместить выделенное вправо(&R)"
       Text:
-        value: "Text"
+        value: "Текст"
         submenu:
           "&Upper Case":
-            value: "Upper Case(&U)"
+            value: "Верхний регистр(&U)"
           "&Lower Case":
-            value: "Lower Case(&L)"
+            value: "Нижний регистр(&L)"
           "Delete to End of &Word":
-            value: "Delete to End of Word(&W)"
+            value: "Удалить в конце слова(&W)"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "Удалить предыдущее слово"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "Удалить следующее слово"
           "&Delete Line":
-            value: "Delete Line(&D)"
+            value: "Удалить линию(&D)"
           "&Transpose":
-            value: "Transpose(&T)"
+            value: "Переместить(&T)"
       Folding:
-        value: "Folding"
+        value: "Скрытие"
         submenu:
           "&Fold":
-            value: "Fold(&F)"
+            value: "Скрыть(&F)"
           "&Unfold":
-            value: "Unfold(&U)"
+            value: "Раскрыть(&U)"
           "Unfold &All":
-            value: "Unfold All(&A)"
+            value: "Раскрыть всё(&A)"
           "Fol&d All":
-            value: "Fold All(&D)"
+            value: "Скрыть всё(&D)"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Скрыть 1 уровень"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Скрыть 2 уровень"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Скрыть 3 уровень"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Скрыть 4 уровень"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Скрыть 5 уровень"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Скрыть 6 уровень"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Скрыть 7 уровень"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Скрыть 8 уровень"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Скрыть 9 уровень"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Перевернуть выбранное"
       Bookmark:
-        value: "Bookmark"
+        value: "Закладка"
         submenu:
           "View All":
-            value: "View All"
+            value: "Показать все"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "Сделать закладку"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "Перейти на следующую закладку"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "Перейти на предыдущую закладку"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "Выбрать кодировку"
       "Go to Line":
-        value: "Go to Line"
+        value: "Перейти на линию"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "Выбрать синтаксис"
   "&View":
-    value: "View(&V)"
+    value: "Вид(&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Toggle Full Screen(&F)"
+        value: "На весь экран(&F)"
       "Toggle Menu Bar":
-        value: "Toggle Menu Bar"
+        value: "Показать меню"
       Panes:
-        value: "Panes"
+        value: "Панели"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "Разделить сверху"
           "Split Down":
-            value: "Split Down"
+            value: "Разделить снизу"
           "Split Left":
-            value: "Split Left"
+            value: "Разделить слева"
           "Split Right":
-            value: "Split Right"
+            value: "Разделить справа"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "Сфокусироваться на следующей панеле"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "Сфокусироваться на предыдущей панеле"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "Сфокусироваться на панеле выше"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "Сфокусироваться на панеле ниже"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "Сфокусироваться на панеле слева"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "Сфокусироваться на панеле справа"
           "Close Pane":
-            value: "Close Pane"
+            value: "Закрыть панель"
       Developer:
-        value: "Developer"
+        value: "Разработчик"
         submenu:
           "Open In &Dev Mode…":
-            value: "Open In Dev Mode(&D)..."
+            value: "Открыть в режиме разработчика(&D)..."
           "&Reload Window":
-            value: "Reload Window(&R)"
+            value: "Перезагрузить окно(&R)"
           "Run Package &Specs":
-            value: "Run Package Specs(&S)"
+            value: "Запустить настройки пакета(&S)"
+          "Run &Benchmarks":
+            value: "Запустить тесты(&B)"
           "Toggle Developer &Tools":
-            value: "Toggle Developer Tools(&T)"
+            value: "Показать dev консоль(&T)"
       "&Increase Font Size":
-        value: "Increase Font Size(&I)"
+        value: "Увеличить шрифт(&I)"
       "&Decrease Font Size":
-        value: "Decrease Font Size(&D)"
+        value: "Уменьшить шрифт(&D)"
       "Re&set Font Size":
-        value: "Reset Font Size(&S)"
+        value: "Вернуть размер шрифта(&S)"
       "Toggle Soft &Wrap":
-        value: "Toggle Soft Wrap(&W)"
+        value: "Мягкий стиль(&W)"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "Командная палитра"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "Показать дерево файлов"
   "&Selection":
-    value: "Selection(&S)"
+    value: "Выделение(&S)"
     submenu:
       "Add Selection &Above":
-        value: "Add Selection Above(&A)"
+        value: "Добавить к выделению ниже(&A)"
       "Add Selection &Below":
-        value: "Add Selection Below(&B)"
+        value: "Добавить к выделению выше(&B)"
       "S&plit into Lines":
-        value: "Split into Lines(&P)"
+        value: "Обьединить линии выделения(&P)"
       "Single Selection":
-        value: "Single Selection"
+        value: "Обычное выделение"
       "Select to &Top":
-        value: "Select to Top(&T)"
+        value: "Выделить верх(&T)"
       "Select to Botto&m":
-        value: "Select to Bottom(&M)"
+        value: "Выделить низ(&M)"
       "Select &Line":
-        value: "Select Line(&L)"
+        value: "Выделить линию(&L)"
       "Select &Word":
-        value: "Select Word(&W)"
+        value: "Выделить слово(&W)"
       "Select to Beginning of W&ord":
-        value: "Select to Beginning of Word(&O)"
+        value: "Выделить начало слова(&O)"
       "Select to Beginning of L&ine":
-        value: "Select to Beginning of Line(&I)"
+        value: "Выделить начало линии(&I)"
       "Select to First &Character of Line":
-        value: "Select to First Character of Line(&C)"
+        value: "Выделить первую букву в линии(&C)"
       "Select to End of Wor&d":
-        value: "Select to End of Word(&D)"
+        value: "Выделить конец слова(&D)"
       "Select to End of Lin&e":
-        value: "Select to End of Line(&E)"
+        value: "Выделить конец линии(&E)"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "Выделить внутри скобок"
   "F&ind":
-    value: "Find(&I)"
+    value: "Поиск(&I)"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "Найти"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "Заменить"
       "Select Next":
-        value: "Select Next"
+        value: "Найти далее"
       "Select All":
-        value: "Select All"
+        value: "Выделить всё"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "Показать поиск в буфере"
       "Find in Project":
-        value: "Find in Project"
+        value: "Найти в проекте"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "Показать поиск в проекте"
+      "Find All":
+        value: "Найти всё"
       "Find Next":
-        value: "Find Next"
+        value: "Найти следующее"
       "Find Previous":
-        value: "Find Previous"
+        value: "Найти предыдущее"
       "Replace Next":
-        value: "Replace Next"
+        value: "Заменить следующее"
       "Replace All":
-        value: "Replace All"
+        value: "Заменить всё"
       "Clear History":
-        value: "Clear History"
+        value: "Очистить историю"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "Найти буфер"
       "Find File":
-        value: "Find File"
+        value: "Найти файл"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "Найти изменённый файл"
   "&Packages":
-    value: "Packages(&P)"
+    value: "Расширения(&P)"
   "&Help":
-    value: "Help(&H)"
+    value: "Справка(&H)"
     submenu:
       "View &Terms of Use":
-        value: "View &Terms of Use"
+        value: "Правила использования(&T)"
       "View &License":
-        value: "View &License"
+        value: "Лицензия(&L)"
       "&Documentation":
-        value: "Documentation(&D)"
+        value: "Документация(&D)"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "FAQ"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Обсуждения в сообществе"
       "Report Issue":
-        value: "Report Issue"
+        value: "Сообщить о проблеме"
       "Search Issues":
-        value: "Search Issues"
+        value: "Найти проблему"
       "About Atom":
-        value: "About Atom"
+        value: "О Atom"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "Добро пожаловать!"

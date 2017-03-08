@@ -6,20 +6,22 @@ Menu:
         value: "О Atom"
       "View License":
         value: "Лицензия"
+      "Check For Update":
+        value: "Проверить обновления"
       "Preferences…":
         value: "Настройки..."
       "Config…":
-        value: "Конфиг..."
+        value: "Созд. конфиг..."
       "Init Script…":
-        value: "Init Script..."
+        value: "Созд. скипт..."
       "Keymap…":
-        value: "Keymap..."
+        value: "Созд. гор. клавишу..."
       "Snippets…":
-        value: "Snippets..."
+        value: "Созд. отрывка..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Созд. табл. стилей..."
       "Install Shell Commands":
-        value: "Install Shell Commands"
+        value: "Уст. команды Shell"
       "Hide Atom":
         value: "Скрыть Atom"
       "Hide Others":
@@ -78,215 +80,219 @@ Menu:
       "Select All":
         value: "Выделить всё"
       "Toggle Comments":
-        value: "Toggle Comments"
+        value: "Создать комментарий"
       Lines:
-        value: "Lines"
+        value: "Линии"
         submenu:
           Indent:
-            value: "Indent"
+            value: "Сделать отступ"
           Outdent:
-            value: "Outdent"
+            value: "Убрать отступ"
           "Auto Indent":
-            value: "Auto Indent"
+            value: "Авто-отступ"
           "Move Line Up":
-            value: "Move Line Up"
+            value: "Передвинуть линию вверх"
           "Move Line Down":
-            value: "Move Line Down"
+            value: "Передивнуть линию вниз"
           "Duplicate Lines":
-            value: "Duplicate Lines"
+            value: "Дублировать линию"
           "Delete Line":
-            value: "Delete Line"
+            value: "Удалить линию"
           "Join Lines":
-            value: "Join Lines"
+            value: "Соединить линии"
       Columns:
-        value: "Columns"
+        value: "Столбцы"
         submenu:
           "Move Selection Left":
-            value: "Move Selection Left"
+            value: "Переместить выделенное влево"
           "Move Selection Right":
-            value: "Move Selection Right"
+            value: "Переместить выделенное вправо"
       Text:
-        value: "Text"
+        value: "Текст"
         submenu:
           "Upper Case":
-            value: "Upper Case"
+            value: "Верхний регистр"
           "Lower Case":
-            value: "Lower Case"
+            value: "Нижний регистр"
           "Delete to End of Word":
-            value: "Delete to End of Word"
+            value: "Удалить в конце слова"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "Удалить предыдущее слово"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "Удалить следующее слово"
           "Delete Line":
-            value: "Delete Line"
+            value: "Удалить линию"
           Transpose:
-            value: "Transpose"
+            value: "Переместить"
       Folding:
-        value: "Folding"
+        value: "Скрытие"
         submenu:
           Fold:
-            value: "Fold"
+            value: "Скрыть"
           Unfold:
-            value: "Unfold"
+            value: "Раскрыть"
           "Unfold All":
-            value: "Unfold All"
+            value: "Раскрыть всё"
           "Fold All":
-            value: "Fold All"
+            value: "Скрыть всё"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Скрыть 1 уровень"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Скрыть 2 уровень"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Скрыть 3 уровень"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Скрыть 4 уровень"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Скрыть 5 уровень"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Скрыть 6 уровень"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Скрыть 7 уровень"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Скрыть 8 уровень"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Скрыть 9 уровень"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Перевернуть выбранное"
       Bookmark:
-        value: "Bookmark"
+        value: "Закладка"
         submenu:
           "View All":
-            value: "View All"
+            value: "Показать все"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "Сделать закладку"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "Перейти на следующую закладку"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "Перейти на предыдущую закладку"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "Выбрать кодировку"
       "Go to Line":
-        value: "Go to Line"
+        value: "Перейти на линию"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "Выбрать синтаксис"
   View:
     value: "Вид"
     submenu:
       "Toggle Full Screen":
-        value: "Toggle Full Screen"
+        value: "На весь экран"
       Panes:
-        value: "Panes"
+        value: "Панели"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "Разделить сверху"
           "Split Down":
-            value: "Split Down"
+            value: "Разделить снизу"
           "Split Left":
-            value: "Split Left"
+            value: "Разделить слева"
           "Split Right":
-            value: "Split Right"
+            value: "Разделить справа"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "Сфокусироваться на следующей панеле"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "Сфокусироваться на предыдущей панеле"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "Сфокусироваться на панеле выше"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "Сфокусироваться на панеле ниже"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "Сфокусироваться на панеле слева"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "Сфокусироваться на панеле справа"
           "Close Pane":
-            value: "Close Pane"
+            value: "Закрыть панель"
       Developer:
-        value: "Developer"
+        value: "Разработчик"
         submenu:
           "Open In Dev Mode…":
-            value: "Open In Dev Mode..."
+            value: "Открыть в режиме разработчика..."
           "Reload Window":
-            value: "Reload Window"
+            value: "Перезагрузить окно"
           "Run Package Specs":
-            value: "Run Package Specs"
+            value: "Запустить настройки пакета"
+          "Run Benchmarks":
+            value: "Запустить тесты"
           "Toggle Developer Tools":
-            value: "Toggle Developer Tools"
+            value: "Показать dev консоль"
       "Increase Font Size":
-        value: "Increase Font Size"
+        value: "Увеличить шрифт"
       "Decrease Font Size":
-        value: "Decrease Font Size"
+        value: "Уменьшить шрифт"
       "Reset Font Size":
-        value: "Reset Font Size"
+        value: "Вернуть размер шрифта"
       "Toggle Soft Wrap":
-        value: "Toggle Soft Wrap"
+        value: "Мягкий стиль"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "Командная палитра"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "Показать дерево файлов"
   Selection:
-    value: "Selection"
+    value: "Выделение"
     submenu:
       "Add Selection Above":
-        value: "Add Selection Above"
+        value: "Добавить к выделению ниже"
       "Add Selection Below":
-        value: "Add Selection Below"
+        value: "Добавить к выделению выше"
       "Single Selection":
-        value: "Single Selection"
+        value: "Обычное выделение"
       "Split into Lines":
-        value: "Split into Lines"
+        value: "Обьединить линии выделения"
       "Select to Top":
-        value: "Select to Top"
+        value: "Выделить верх"
       "Select to Bottom":
-        value: "Select to Bottom"
+        value: "Выделить низ"
       "Select Line":
-        value: "Select Line"
+        value: "Выделить линию"
       "Select Word":
-        value: "Select Word"
+        value: "Выделить слово"
       "Select to Beginning of Word":
-        value: "Select to Beginning of Word"
+        value: "Выделить начало слова"
       "Select to Beginning of Line":
-        value: "Select to Beginning of Line"
+        value: "Выделить начало линии"
       "Select to First Character of Line":
-        value: "Select to First Character of Line"
+        value: "Выделить первую букву в линии"
       "Select to End of Word":
-        value: "Select to End of Word"
+        value: "Выделить конец слова"
       "Select to End of Line":
-        value: "Select to End of Line"
+        value: "Выделить конец линии"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "Выделить внутри скобок"
   Find:
     value: "Поиск"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "Найти"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "Заменить"
       "Select Next":
-        value: "Select Next"
+        value: "Найти далее"
       "Select All":
-        value: "Select All"
+        value: "Выделить всё"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "Показать поиск в буфере"
       "Find in Project":
-        value: "Find in Project"
+        value: "Найти в проекте"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "Показать поиск в проекте"
+      "Find All":
+        value: "Найти всё"
       "Find Next":
-        value: "Find Next"
+        value: "Найти следующее"
       "Find Previous":
-        value: "Find Previous"
+        value: "Найти предыдущее"
       "Replace Next":
-        value: "Replace Next"
+        value: "Заменить следующее"
       "Replace All":
-        value: "Replace All"
+        value: "Заменить всё"
       "Clear History":
         value: "Очистить историю поиска"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "Найти буфер"
       "Find File":
-        value: "Find File"
+        value: "Найти файл"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "Найти изменённый файл"
   Packages:
     value: "Расширения"
   Window:
@@ -296,24 +302,24 @@ Menu:
         value: "Свернуть"
       Zoom:
         value: "Расширить"
-      "Все окна - на передний план":
-        value: "Bring All to Front"
+      "Bring All to Front":
+        value: "Все окна - на передний план"
   Help:
     value: "Справка"
     submenu:
       "Terms of Use":
-        value: "Terms of Use"
+        value: "Правила использования"
       Documentation:
         value: "Документация"
       Roadmap:
-        value: "Roadmap"
+        value: "Карта"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "FAQ"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Обсуждения в сообществе"
       "Report Issue":
-        value: "Report Issue"
+        value: "Сообщить о проблеме"
       "Search Issues":
-        value: "Search Issues"
+        value: "Найти проблему"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "Добро пожаловать!"

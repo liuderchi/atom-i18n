@@ -50,37 +50,36 @@ Settings:
   ]
   "heading-available-updates": {_label: "Available Updates", value: "Доступные обновления"}
   subSectionHeadings: [
-    {_label: "Invisible", value: "Invisible"}
+    {_label: "Invisible", value: "Скрытие"}
     {_label: "Community Packages", value: "Пользовательские расширения"}
     {_label: "Core Packages", value: "Основные расширения"}
-    {_label: "Development Packages", value: "Development Packages"}
-    {_label: "Git Packages", value: "Git Packages"}
+    {_label: "Development Packages", value: "Расширения в разработке"}
+    {_label: "Git Packages", value: "Расширения с Git"}
     {_label: "Community Themes", value: "Пользовательские темы"}
     {_label: "Core Themes", value: "Основные темы"}
-    {_label: "Development Themes", value: "Development Themes"}
-    {_label: "Git Themes", value: "Git Themes"}
+    {_label: "Development Themes", value: "Темы в разработке"}
+    {_label: "Git Themes", value: "Темы с Git"}
   ]
   settings: {
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'These are Atom\'s core settings which affect behavior
-               unrelated to text editing. Individual packages may have
-               their own additional settings found within their package
-               card in the <a class="link packages-open">Packages list</a>.'
+        html: 'Это основные настройки Atom\'а которые не влияют на параметры редактирования текста.
+        Отдельные расширения могут иметь собственные настройки, изменить их Вы можете во вкладке
+        <a class="link packages-open">Расширения</a>.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'These settings are related to text editing. Some of these
-               can be overriden on a per-language basis. Check language
-               settings by clicking its package card in the
-               <a class="link packages-open">Packages list</a>.'
+        html: 'Это параметры редактирования текста. Некоторые из них
+               могут быть переведенны на исходный язык. Проверяйте язык
+               настроек каждого расширения во вкладке
+               <a class="link packages-open">Расширения</a>.'
       }
     ]
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
-        title: "Allow Pending PaneItems"
+        title: "Allow Pending Pane Items"
         desc: "Allow items to be previewed without adding them to a pane
                permanently, such as when single clicking files in the tree view."
       }
@@ -92,28 +91,28 @@ Settings:
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automatically Update"
-        desc: "Automatically update Atom when a new release is available."
+        title: "Автоматическое обновление"
+        desc: "Автоматически обновлять Atom, если будет выпущенна новая версия."
       }
       {
         _id: 'core.autoHideMenuBar'
-        title: "Auto Hide Menu Bar"
-        desc: "Automatically hide the menu bar and toggle it by pressing Alt. This is only supported on Windows &amp; Linux."
+        title: "Автоматическое скрытие меню"
+        desc: "Автоматически скрывать меню и показать его при нажатии на кнопку Alt. Поддерживается только на Windows &amp; Linux."
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
-        desc: "Close corresponding editors when a file is deleted outside Atom."
+        title: "Закрывать вкладки удалённых файлов"
+        desc: "Закрывать соответветствующее окно редактора, если файл удален вне Atom."
       }
       {
         _id: 'core.closeEmptyWindows'
-        title: "Close Empty Windows"
-        desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
+        title: "Закрывать пустые окна"
+        desc: "Если в окне нету открытых вкладок или панелей будет дана команда 'Закрыть вкладку' что приведёт к закрытию этого окна."
       }
       {
         _id: 'core.destroyEmptyPanes'
-        title: "Destroy Empty Panes"
-        desc: "When the last tab of a pane is closed, remove that pane as well."
+        title: "Закрывать пустые панели"
+        desc: "Если последняя вкладка в панели была закрыта, то закрывать панель."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
@@ -122,51 +121,51 @@ Settings:
       }
       {
         _id: 'core.fileEncoding'
-        title: "File Encoding"
-        desc: "Default character set encoding to use when reading and writing files."
+        title: "Кодировка файла"
+        desc: "Кодировка файла используемая по-умолчанию для записи и чтения файлов."
       }
       {
         _id: 'core.followSymlinks'
-        title: "Follow Symlinks"
-        desc: "Follow symbolic links when searching files and when opening files with the fuzzy finder."
+        title: "Соблюдать символику"
+        desc: "Соблюдать символику при поиске или открытии файло в древе."
       }
       {
         _id: 'core.ignoredNames'
-        title: "Ignored Names"
-        desc: "List of <code>glob patterns</code>. Files and directories matching these patterns will be ignored by some packages, such as the fuzzy finder and tree view. Individual packages might have additional config settings for ignoring names."
+        title: "Игнорировать имена"
+        desc: "Список <code>глобальных имен</code>. Файлы и папки, сопоставленные с этим списком, будут проигнорированы в списке папок слева(древе файлов). Некоторые расширения имеют дополнительные настройки игнорирования имен."
       }
       {
         _id: 'core.openEmptyEditorOnStart'
-        title: "Open Empty Editor On Start"
-        desc: "Automatically open an empty editor on startup."
+        title: "Открывать пустой редактор при старте"
+        desc: "Автоматические открывает пустой редактор при старте Atom."
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Packages With Keymaps Disabled"
+        title: "Выключить расширения с собственными горячими клавишами"
       }
       {
         _id: 'core.projectHome'
-        title: "Project Home"
-        desc: "The directory where projects are assumed to be located. Packages created using the Package Generator will be stored here by default."
+        title: "Домашняя папка для проектов"
+        desc: "Папка, где расположенны проекты. Расширения созданные через Генератор Пакетов хранятся там по-умолчанию."
       }
       {
         _id: 'core.reopenProjectMenuCount'
-        title: "Reopen Project Menu Count"
-        desc: "How many recent projects to show in the Reopen Project menu."
+        title: "Число проектов для недавно закрытых"
+        desc: "Выбор числа проектов, которые будут показываться в меню Недавно Закрытые."
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "Restore Previous Windows On Start"
-        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
+        title: "Восстанавливать открытые окна при следующем запуске"
+        desc: "Если стоит галочка то, восстанавливать все окна Atom из предыдущей сессии или отдельно из командной строки <code>atom</code>; иначе, будет загружен чистый лист."
       }
       {
         _id: 'core.telemetryConsent'
-        title: "Send Telemetry to the Atom Team"
-        desc: "Allow usage statistics and exception reports to be sent to the Atom team to help improve the product."
+        title: "Отправлять данные о работе Atom в Atom Team"
+        desc: "Разрешить оправлять статистику и отчеты о багах(вылетах) к разработчикам Atom для помощи в улучшении продукта."
         select:
-          limited: "Allow limited anonymous usage stats, exception and crash reporting"
-          no: "Do not send any telemetry data"
-          undecided: "Undecided (Atom will ask again next time it is launched)"
+          limited: "Разрешить отправлять анонимную статистику о использовании, вылетов(крашей) и непредвиденных завершениях программы"
+          no: "Не отсылать никаких данных"
+          undecided: "Не определенно (Atom спросит Вас еще раз в следующий раз после запуска)"
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
@@ -175,12 +174,13 @@ Settings:
       }
       {
         _id: 'core.useCustomTitleBar'
-        title: "Use Custom Title Bar"
+        title: "Использовать нестандартный титульный бар (находится на самом верху :)"
+        desc: "Использовать кастомный титульный бар, который есть в темах."
       }
       {
         _id: 'core.warnOnLargeFileLimit'
-        title: "Warn On Large File Limit"
-        desc: "Warn before opening files larger than this number of megabytes."
+        title: "Установить лимит для предупреждения больших файлов"
+        desc: "Установить лимит для предупреждения перед открытием файлов, больше заданного размера в мегабайтах."
       }
       {
         _id: 'editor.atomicSoftTabs'
@@ -189,17 +189,17 @@ Settings:
       }
       {
         _id: 'editor.autoIndent'
-        title: "Auto Indent"
-        desc: "Automatically indent the cursor when inserting a newline."
+        title: "Автоматический отступ"
+        desc: "Автоматический отступ курсора, если делается переход на новую линию."
       }
       {
         _id: 'editor.autoIndentOnPaste'
-        title: "Auto Indent On Paste"
-        desc: "Automatically indent pasted text based on the indentation of the previous line."
+        title: "Автоматический отступ при вставке"
+        desc: "Автоматически применять отступ к вставленному тексту на основе отступа предыдущей линии."
       }
       {
         _id: 'editor.backUpBeforeSaving'
-        title: "Back Up Before Saving"
+        title: "Резервная копия перед сохранением"
         desc: ""
       }
       {
@@ -209,13 +209,13 @@ Settings:
       }
       {
         _id: 'editor.fontFamily'
-        title: "Font Family"
-        desc: "The name of the font family used for editor text."
+        title: "Название шрифта"
+        desc: "Имя шрифта используемого для редактора."
       }
       {
         _id: 'editor.fontSize'
-        title: "Font Size"
-        desc: "Height in pixels of editor text."
+        title: "Размер шрифта"
+        desc: "Высота в пикселях для редактора."
       }
       {
         _id: 'editor.invisibles.cr'
@@ -266,19 +266,18 @@ Settings:
       }
       {
         _id: 'editor.scrollSensitivity'
-        title: "Scroll Sensitivity"
-        desc: "Determines how fast the editor scrolls when using a mouse or
-               trackpad."
+        title: "Чувствительность прокрутки"
+        desc: "Определяет, как быстро прокручивается текст с помощью мыши или трекпада."
       }
       {
         _id: 'editor.showCursorOnSelection'
-        title: "Show Cursor On Selection"
-        desc: "Show cursor while there is a selection."
+        title: "Показывать курсор при выделенном тексте"
+        desc: "Показывать курсор во время выделенного текста."
       }
       {
         _id: 'editor.showIndentGuide'
-        title: "Show Indent Guide"
-        desc: "Show indentation indicators in the editor."
+        title: "Показывать подсказки для отступов"
+        desc: "Показывать идентификаторы отступов в редакторе."
       }
       {
         _id: 'editor.showInvisibles'
@@ -288,8 +287,8 @@ Settings:
       }
       {
         _id: 'editor.showLineNumbers'
-        title: "Show Line Numbers"
-        desc: "Show line numbers in the editor's gutter."
+        title: "Показывать номера лини"
+        desc: "Показывает номера линий в редакторе."
       }
       {
         _id: 'editor.softTabs'
@@ -348,59 +347,58 @@ Settings:
       }
       {
         _id: 'editor.zoomFontWhenCtrlScrolling'
-        title: "Zoom Font When Ctrl Scrolling"
-        desc: "Change the editor font size when pressing the Ctrl key and
-               scrolling the mouse up/down."
+        title: "Изменять шрифт при нажатии на Ctrl и колесика"
+        desc: "Изменять размер шрифта в редакторе при нажатии на Ctrl и прокрутки мыши колесиком вверх/вниз."
       }
       {
         _id: 'system.windows.file-handler'
-        title: "Register as file handler"
-        desc: "Show Atom in the \"Open with\" application list for easy association with file types."
+        title: "Установить обработчиком файлов"
+        desc: "Показывать Atom в \"Открыть с помощью...\" для более простой ассоциации с файломи."
       }
       {
         _id: 'system.windows.shell-menu-files'
-        title: "Show in file context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
+        title: "Показывать в контекстном меню файла"
+        desc: "Добавить \"Open with Atom\" в контекстное меню Проводника для файлов."
       }
       {
         _id: 'system.windows.shell-menu-folders'
-        title: "Show in folder context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for folders."
+        title: "Показывать в контекстном меню папки"
+        desc: "Добавить \"Открыть с помощью Atom\" в контекстное меню Проводника для папок."
       }
     ]
   }
   system: {
-    notes: "These settings determine how Atom integrates with your operating system."
+    notes: "Эти параметры определяют, как Atom интегрируется с Вашей системой."
   }
   keymaps: {
     notes: {
-      text1: "You can override these keybindings by copying "
-      text2: "and pasting them into "
-      text3: "your keymap file"
+      text1: "Вы можете изменить эти горячие клавиши с помощью копирования "
+      text2: "и вставки их в "
+      text3: "Ваш файл горячих клавиш"
       text4: ""   # optional
       _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
     }
-    "search-bar-placeholder": "Search keybindings"
-    "table-header-keystroke": "Keystroke"
-    "table-header-command": "Command"
-    "table-header-source": "Source"
-    "table-header-selector": "Selector"
+    "search-bar-placeholder": "Поиск горячих клавиши"
+    "table-header-keystroke": "Клавиши"
+    "table-header-command": "Команда"
+    "table-header-source": "Применение"
+    "table-header-selector": "Действие"
   }
   packages: {
     searchBarText: 'Фильтровать расширения по имени'
   }
   themes: {
     notes: {
-      text1: "You can also style Atom by editing "
-      text2: "your stylesheet"
+      text1: "Вы можете создать свою тему для Atom путем редактирования "
+      text2: "своего стиля"
       text3: ""   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
     title1: "Внешний вид"
-    description1: "Это стиль вкладок, статус бар, дерево файлов и раскрывающиеся списки"
-    title2: "Тема синтаксиса"
+    description1: "Стиль вкладок, статус бара, дерева файлов и раскрыв. списка"
+    title2: "Тема редоктора"
     description2: "Это стиль текста внутри редактора"
-    searchBarText: 'Отфильтровать темы по именам'
+    searchBarText: 'Фильтровать темы по именам'
   }
   updates: {
     "check-updates": "Проверить обновления"
@@ -421,7 +419,7 @@ Settings:
   }
   "control-btns":{
     install: "Установить"
-    update: "Update to"
+    update: "Обновить до"
     setting: "Настройки"
     uninstall: "Удалить"
     disable: "Отключить"
