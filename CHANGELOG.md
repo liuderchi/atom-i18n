@@ -1,3 +1,7 @@
+## 0.6.3 - Korean support
+* Korean support update (100%)
+
+
 ## 0.6.2 - new I18n item, add Russian option
 * Spanish support update (100%)
 * add Russian option
