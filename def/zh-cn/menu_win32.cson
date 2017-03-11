@@ -198,6 +198,8 @@ Menu:
             value: "重新加载窗口(&R)"
           "Run Package &Specs":
             value: "Run Package Specs(&S)"
+          "Run &Benchmarks":
+            value: "Run Benchmarks(&B)"
           "Toggle Developer &Tools":
             value: "切换开发者工具(&T)"
       "&Increase Font Size":
@@ -260,6 +262,8 @@ Menu:
         value: "在项目中查找"
       "Toggle Find in Project":
         value: "切换“在项目中查找”界面"
+      "Find All":
+        value: "Find All"
       "Find Next":
         value: "查找下一个"
       "Find Previous":
@@ -285,6 +289,8 @@ Menu:
         value: "查看使用条款(&T)"
       "View &License":
         value: "查看许可协议(&L)"
+      "Check For Update":
+        value: "Check for Update"
       "&Documentation":
         value: "官方文档(&D)"
       "Frequently Asked Questions":

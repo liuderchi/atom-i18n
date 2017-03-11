@@ -6,6 +6,8 @@ Menu:
         value: "About Atom"
       "View License":
         value: "View License"
+      "Check For Update":
+        value: "Check for Update"
       "Preferences…":
         value: "Preferences..."
       "Config…":
@@ -209,6 +211,8 @@ Menu:
             value: "Reload Window"
           "Run Package Specs":
             value: "Run Package Specs"
+          "Run Benchmarks":
+            value: "Run Benchmarks"
           "Toggle Developer Tools":
             value: "Toggle Developer Tools"
       "Increase Font Size":
@@ -271,6 +275,8 @@ Menu:
         value: "Find in Project"
       "Toggle Find in Project":
         value: "Toggle Find in Project"
+      "Find All":
+        value: "Find All"
       "Find Next":
         value: "Find Next"
       "Find Previous":

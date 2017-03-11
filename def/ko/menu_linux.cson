@@ -198,6 +198,8 @@ Menu:
             value: "창 다시 로드(&R)"
           "Run Package &Specs":
             value: "패키지 스팩 실행(&S)"
+          "Run &Benchmarks":
+            value: "Run Benchmarks(&B)"
           "Toggle Developer &Tools":
             value: "개발자 도구 토글(&T)"
       "&Increase Font Size":
@@ -260,6 +262,8 @@ Menu:
         value: "프로젝트에서 찾기"
       "Toggle Find in Project":
         value: "프로젝트에서 찾기 토글"
+      "Find All":
+        value: "Find All"
       "Find Next":
         value: "다음 찾기"
       "Find Previous":

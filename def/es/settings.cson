@@ -192,12 +192,13 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Usar ajustes detectados del proxy cuando la herramienta de línea de comandos <code>apm</code> es llamada."
+        title: "Use Proxy Settings When Calling APM"
         desc: "Usar ajustes detectados del proxy cuando la herramienta de línea de comandos <code>apm</code> es llamada."
       }
       {
         _id: 'core.useCustomTitleBar'
         title: "Usar Barra de Título Personalizada"
+        desc: "Use custom, theme-aware title bar.<br>Note: This currently does not include a proxy icon.<br>This setting will require a relaunch of Atom to take effect."
       }
       {
         _id: 'core.warnOnLargeFileLimit'
