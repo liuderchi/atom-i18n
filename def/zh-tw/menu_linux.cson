@@ -199,7 +199,7 @@ Menu:
           "Run Package &Specs":
             value: "執行擴充套件規格測試(&S)"
           "Run &Benchmarks":
-            value: "Run Benchmarks(&B)"
+            value: "執行性能測試(&B)"
           "Toggle Developer &Tools":
             value: "開發人員工具(&T)"
       "&Increase Font Size":
@@ -263,7 +263,7 @@ Menu:
       "Toggle Find in Project":
         value: "切換專案資料夾中尋找面板"
       "Find All":
-        value: "Find All"
+        value: "尋找所有項目"
       "Find Next":
         value: "尋找下一個項目"
       "Find Previous":
