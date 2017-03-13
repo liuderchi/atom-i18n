@@ -198,6 +198,8 @@ Menu:
             value: "ウィンドウの再読み込み(&R)"
           "Run Package &Specs":
             value: "パッケージ Specs を実行(&S)"
+          "Run &Benchmarks":
+            value: "Run Benchmarks(&B)"
           "Toggle Developer &Tools":
             value: "デベロッパー ツール(&T)"
       "&Increase Font Size":
@@ -260,6 +262,8 @@ Menu:
         value: "プロジェクト内検索..."
       "Toggle Find in Project":
         value: "プロジェクト内検索パネル切替"
+      "Find All":
+        value: "Find All"
       "Find Next":
         value: "次を検索"
       "Find Previous":
@@ -285,6 +289,8 @@ Menu:
         value: "利用条件(&T)"
       "View &License":
         value: "ライセンス(&L)"
+      "Check For Update":
+        value: "Check for Update"
       "&Documentation":
         value: "ドキュメント(&D)"
       "Frequently Asked Questions":

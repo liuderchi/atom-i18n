@@ -198,6 +198,8 @@ Menu:
             value: "Recargar Ventana(&R)"
           "Run Package &Specs":
             value: "Ejecutar Specs de Paquete(&S)"
+          "Run &Benchmarks":
+            value: "Run Benchmarks(&B)"
           "Toggle Developer &Tools":
             value: "Mostrar/Ocultar Herramientas de Desarrollador(&T)"
       "&Increase Font Size":
@@ -260,6 +262,8 @@ Menu:
         value: "Buscar en Proyecto"
       "Toggle Find in Project":
         value: "Mostrar/Ocultar Buscar en Proyecto"
+      "Find All":
+        value: "Find All"
       "Find Next":
         value: "Buscar Siguiente"
       "Find Previous":
@@ -285,6 +289,8 @@ Menu:
         value: "Ver Términos de Uso(&T)"
       "View &License":
         value: "Ver Licencia(&L)"
+      "Check For Update":
+        value: "Check for Update"
       "&Documentation":
         value: "Documentación(&D)"
       "Frequently Asked Questions":

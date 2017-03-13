@@ -6,6 +6,8 @@ Menu:
         value: "关于 Atom"
       "View License":
         value: "查看许可协议"
+      "Check For Update":
+        value: "Check for Update"
       "Preferences…":
         value: "首选项..."
       "Config…":
@@ -209,6 +211,8 @@ Menu:
             value: "重新加载窗口"
           "Run Package Specs":
             value: "Run Package Specs"
+          "Run Benchmarks":
+            value: "Run Benchmarks"
           "Toggle Developer Tools":
             value: "切换开发者工具"
       "Increase Font Size":
@@ -271,6 +275,8 @@ Menu:
         value: "在项目中查找"
       "Toggle Find in Project":
         value: "切换“在项目中查找”窗格"
+      "Find All":
+        value: "Find All"
       "Find Next":
         value: "查找下一个"
       "Find Previous":

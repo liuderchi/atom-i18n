@@ -162,12 +162,13 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "當呼叫命令列工具 <code>apm</code> 時，使用偵測到的代理伺服器設定。"
+        title: "呼叫 APM 時使用代理伺服器設定"
         desc: "當呼叫命令列工具 <code>apm</code> 時，使用偵測到的代理伺服器設定。"
       }
       {
         _id: 'core.useCustomTitleBar'
         title: "使用自訂的視窗標題樣式"
+        desc: "使用自訂且可由佈景主題修改的視窗標題。<br>備註：現在這個設定不包括代理圖示。<br>這個設定需要重新啟動 Atom 來套用。"
       }
       {
         _id: 'core.warnOnLargeFileLimit'

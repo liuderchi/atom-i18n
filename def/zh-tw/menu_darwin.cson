@@ -6,6 +6,8 @@ Menu:
         value: "關於 Atom"
       "View License":
         value: "檢視授權"
+      "Check For Update":
+        value: "檢查更新"
       "Preferences…":
         value: "偏好設定..."
       "Config…":
@@ -209,6 +211,8 @@ Menu:
             value: "重新載入視窗"
           "Run Package Specs":
             value: "執行擴充套件規格測試"
+          "Run Benchmarks":
+            value: "執行性能測試"
           "Toggle Developer Tools":
             value: "開發人員工具"
       "Increase Font Size":
@@ -271,6 +275,8 @@ Menu:
         value: "在專案資料夾中尋找"
       "Toggle Find in Project":
         value: "切換專案資料夾中尋找面板"
+      "Find All":
+        value: "尋找所有項目"
       "Find Next":
         value: "尋找下一個項目"
       "Find Previous":

@@ -5,13 +5,13 @@
 ## Which Languages can I Contribute?
 
   - *Any language* is welcomed. *Anyone* is welcomed to contribute. :earth_asia: :earth_americas: :earth_africa:
-  - There are several [ issues](https://github.com/liuderchi/atom-i18n/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) require your help.
+  - There are several [issues](//github.com/liuderchi/atom-i18n/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) require your help.
   - NOTE: Currently the author do not review grammar of the translation.
 
 
 ## Steps to Contribute
 
-  1. please checkout [Pull Request Page](https://github.com/liuderchi/atom-i18n/pulls) first in case there is already someone contributing.
+  1. please checkout [Issues Page](//github.com/liuderchi/atom-i18n/issues) and [Pull Request Page](//github.com/liuderchi/atom-i18n/pulls) first in case there is already someone being assigned or contributing.
   2. fork this repo
   3. clone the repo you just forked to your disk
 
@@ -34,7 +34,7 @@
 
   6. please read [translation guide](#translation-guide) before translation
 
-  7. you may preview your translation by [enabling DEV mode](#how-to-test-i18n-result-in-dev-mode)
+  7. you may preview your translation by [enabling DEV mode](#how-to-preview-your-translation-in-development)
 
   8. commit the changes and push the branch you created to your remote
 
@@ -44,7 +44,7 @@
       git push -u origin MY_BRANCH
       ```
 
-  9. [create a pull request](https://help.github.com/articles/creating-a-pull-request/)
+  9. [create a pull request](//help.github.com/articles/creating-a-pull-request/)
 
 
 ## Translation Guide
@@ -55,13 +55,13 @@
       ```coffee
       Context:
         "atom-workspace":
-          "application:inspect": "Inspect Element"
+          "application:inspect": "Inspect Element"  # translate "Inspect Element" please
           # more ...
       ```
 
       - in previous example, only string `"Inspect Element"` need to be translated
 
-  2. in `settings.cson`, keys having **underscore prefix** (e.g. `_label`, `_id`) are identifiers for package execution whose values **WILL NOT be translated**
+  2. in `settings.cson`, keys having **underscore prefix** (e.g. `_label`, `_id`) are **identifiers** for package execution whose values **WILL NOT be translated**
 
       ```coffee
       Settings:
@@ -78,21 +78,21 @@
           # more ...
       ```
 
-  3. for the menu label containing **hotkey hint** `&`, we **preserve it with braces** wrapped at the end.
+  3. for the menu label containing **hotkey hint** `&`, we can **preserve it with braces** wrapped at the end.
 
       - for example let's checkout how `def/ja/menu_win32.cson` is translated into Japanese:
 
       ```coffee
       Menu:
-        "&File":
-          value: "ファイル(&F)"
+        "&File":                # hotkey hint: &F
+          value: "ファイル(&F)"      # &F -> (&F)
           submenu:
-            "New &Window":
-              value: "新規ウインドウ(&W)"
+            "New &Window":                # hotkey hint: &W
+              value: "新規ウインドウ(&W)"       # &W -> (&W)
             # more ...
       ```
 
-the value of key `"&File"` ,`"New &Window"` are translated into `"ファイル(&F)"`, `"新規ウインドウ(&W)"`
+the values of key `"&File"` ,`"New &Window"` are translated into `"ファイル(&F)"`, `"新規ウインドウ(&W)"`
 
 
 ## How to Preview Your Translation in Development?

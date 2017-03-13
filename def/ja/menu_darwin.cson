@@ -6,6 +6,8 @@ Menu:
         value: "Atom について"
       "View License":
         value: "ライセンスを表示"
+      "Check For Update":
+        value: "Check for Update"
       "Preferences…":
         value: "環境設定..."
       "Config…":
@@ -209,6 +211,8 @@ Menu:
             value: "ウィンドウの再読み込み"
           "Run Package Specs":
             value: "パッケージ Specs を実行"
+          "Run Benchmarks":
+            value: "Run Benchmarks"
           "Toggle Developer Tools":
             value: "デベロッパー ツール"
       "Increase Font Size":
@@ -271,6 +275,8 @@ Menu:
         value: "プロジェクト内検索..."
       "Toggle Find in Project":
         value: "プロジェクト内検索パネル切替"
+      "Find All":
+        value: "Find All"
       "Find Next":
         value: "次を検索"
       "Find Previous":

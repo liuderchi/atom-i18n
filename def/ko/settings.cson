@@ -175,12 +175,13 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "<code>apm</code> 커맨드 라인 도구를 불러올 때 발견된 프록시 설정 사용."
+        title: "Use Proxy Settings When Calling APM"
         desc: "<code>apm</code> 커맨드 라인 도구를 불러올 때 발견된 프록시 설정 사용."
       }
       {
         _id: 'core.useCustomTitleBar'
         title: "커스텀 제목 막대 사용"
+        desc: "Use custom, theme-aware title bar.<br>Note: This currently does not include a proxy icon.<br>This setting will require a relaunch of Atom to take effect."
       }
       {
         _id: 'core.warnOnLargeFileLimit'

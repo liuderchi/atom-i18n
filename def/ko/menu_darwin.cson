@@ -6,6 +6,8 @@ Menu:
         value: "Atom에 관하여"
       "View License":
         value: "라이센스 보기"
+      "Check For Update":
+        value: "Check for Update"
       "Preferences…":
         value: "환경설정..."
       "Config…":
@@ -209,6 +211,8 @@ Menu:
             value: "창 다시 로드"
           "Run Package Specs":
             value: "패키지 스팩 실행"
+          "Run Benchmarks":
+            value: "Run Benchmarks"
           "Toggle Developer Tools":
             value: "개발자 도구 토글"
       "Increase Font Size":
@@ -271,6 +275,8 @@ Menu:
         value: "프로젝트에서 찾기"
       "Toggle Find in Project":
         value: "프로젝트에서 찾기 토글"
+      "Find All":
+        value: "Find All"
       "Find Next":
         value: "다음 찾기"
       "Find Previous":

@@ -198,6 +198,8 @@ Menu:
             value: "Fenste&r neu laden"
           "Run Package &Specs":
             value: "Paket &Spezifikationen ausführen"
+          "Run &Benchmarks":
+            value: "Run Benchmarks(&B)"
           "Toggle Developer &Tools":
             value: "Entwickler &Tools ein-/ausschalten"
       "&Increase Font Size":
@@ -260,6 +262,8 @@ Menu:
         value: "Suchen im Projekt"
       "Toggle Find in Project":
         value: "Projektsuche ein-/ausschalten"
+      "Find All":
+        value: "Find All"
       "Find Next":
         value: "Nächstes suchen"
       "Find Previous":
