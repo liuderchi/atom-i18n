@@ -3,7 +3,8 @@
   "main": "./lib/main",
   "version": "0.6.3",
   "scripts": {
-    "test": "eslint def lib spec && coffeelint def lib spec && mocha spec/validation.js"
+    "test": "npm run validation",
+    "validation": "eslint def lib spec && coffeelint def lib spec && mocha spec/validation.js"
   },
   "description": "Localize Atom for your locale. One i18n package for any language. Community-driven translation.",
   "keywords": [
@@ -28,7 +29,8 @@
     "chai": "^3.5.0",
     "coffeelint": "^1.16.0",
     "eslint": "^3.15.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "yargs": "^7.0.2"
   },
   "configSchema": {
     "locale": {
