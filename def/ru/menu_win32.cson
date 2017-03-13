@@ -289,6 +289,8 @@ Menu:
         value: "Правила использования(&T)"
       "View &License":
         value: "Лицензия(&L)"
+      "Check For Update":
+        value: "Проверить обновления"
       "&Documentation":
         value: "Документация(&D)"
       "Frequently Asked Questions":
