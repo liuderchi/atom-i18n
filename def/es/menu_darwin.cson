@@ -7,7 +7,7 @@ Menu:
       "View License":
         value: "Ver Licencia"
       "Check For Update":
-        value: "Check for Update"
+        value: "Buscar Actualizaciones"
       "Preferences…":
         value: "Preferencias..."
       "Config…":
@@ -212,7 +212,7 @@ Menu:
           "Run Package Specs":
             value: "Ejecutar Specs de Paquete"
           "Run Benchmarks":
-            value: "Run Benchmarks"
+            value: "Ejecutar Benchmarks"
           "Toggle Developer Tools":
             value: "Mostrar/Ocultar Herramientas de Desarrollador"
       "Increase Font Size":
@@ -276,7 +276,7 @@ Menu:
       "Toggle Find in Project":
         value: "Mostrar/Ocultar Buscar en Proyecto"
       "Find All":
-        value: "Find All"
+        value: "Buscar Todo"
       "Find Next":
         value: "Buscar Siguiente"
       "Find Previous":
