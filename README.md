@@ -30,7 +30,7 @@ Community-driven translation. :family:
 | Dutch | `nl` | :exclamation: [I can translate][nl-issue-filter] |
 | Portuguese(Brazil) | `pt-br` | :exclamation: [I can translate][pt-br-issue-filter] |
 | Russian | `ru` | :exclamation: [I can translate][ar-issue-filter] |
-| Chinese(Simplified) |  `zh-cn` | :warning: 99% [I can translate][ru-issue-filter] |
+| Chinese(Simplified) |  `zh-cn` | :white_check_mark: 100% |
 | Chinese(Traditional) | `zh-tw` | :white_check_mark: 100% |
 
 
