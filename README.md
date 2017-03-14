@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/liuderchi/atom-i18n.svg?branch=master)][travis-project] [![dependencies Status](https://david-dm.org/liuderchi/atom-i18n/status.svg)](https://david-dm.org/liuderchi/atom-i18n)
 
-Localize [Atom][atom]:atom: for your locale.
+Localize [Atom][atom] :atom: for your locale.
 
 One i18n package for Any language. :earth_asia: :earth_americas: :earth_africa:
 
