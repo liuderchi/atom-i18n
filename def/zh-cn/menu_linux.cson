@@ -197,9 +197,9 @@ Menu:
           "&Reload Window":
             value: "重新加载窗口(&R)"
           "Run Package &Specs":
-            value: "Run Package Specs(&S)"
+            value: "插件包规格测试(&S)"
           "Run &Benchmarks":
-            value: "Run Benchmarks(&B)"
+            value: "性能测试(&B)"
           "Toggle Developer &Tools":
             value: "切换开发者工具(&T)"
       "&Increase Font Size":

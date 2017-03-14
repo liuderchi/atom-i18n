@@ -210,9 +210,9 @@ Menu:
           "Reload Window":
             value: "重新加载窗口"
           "Run Package Specs":
-            value: "Run Package Specs"
+            value: "插件包规格测试"
           "Run Benchmarks":
-            value: "Run Benchmarks"
+            value: "性能测试"
           "Toggle Developer Tools":
             value: "切换开发者工具"
       "Increase Font Size":
