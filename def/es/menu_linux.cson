@@ -199,7 +199,7 @@ Menu:
           "Run Package &Specs":
             value: "Ejecutar Specs de Paquete(&S)"
           "Run &Benchmarks":
-            value: "Run Benchmarks(&B)"
+            value: "Ejecutar Benchmarks(&B)"
           "Toggle Developer &Tools":
             value: "Mostrar/Ocultar Herramientas de Desarrollador(&T)"
       "&Increase Font Size":
@@ -263,7 +263,7 @@ Menu:
       "Toggle Find in Project":
         value: "Mostrar/Ocultar Buscar en Proyecto"
       "Find All":
-        value: "Find All"
+        value: "Buscar Todo"
       "Find Next":
         value: "Buscar Siguiente"
       "Find Previous":
