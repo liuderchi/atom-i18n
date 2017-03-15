@@ -2,8 +2,8 @@ Context:
   "atom-workspace":
     "application:inspect": "Inspect Element"
   "atom-text-editor":
-    "color-picker:open": "Color Picker"
-    "minimap:toggle": "Toggle Minimap"
+    "color-picker:open": "Kleurenkiezer"
+    "minimap:toggle": "Minimap Aan/Uit"
   "atom-text-editor, .overlayer":
     "core:undo": "Ongedaan maken"
     "core:redo": "Opnieuw"
