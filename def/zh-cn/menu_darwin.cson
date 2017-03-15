@@ -276,7 +276,7 @@ Menu:
       "Toggle Find in Project":
         value: "切换“在项目中查找”窗格"
       "Find All":
-        value: "Find All"
+        value: "查找全部"
       "Find Next":
         value: "查找下一个"
       "Find Previous":
