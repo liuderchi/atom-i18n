@@ -9,7 +9,6 @@ class Welcome
         setTimeout(@updateWelcome, 0)
 
   @updateWelcome: () =>
-    console.log "Welcome Page"
     welcomeTab = document.querySelector('.tab[data-type="WelcomeView"]')
     welcomeEnabled = welcomeTab.className.includes 'active' if welcomeTab
     return unless welcomeTab && welcomeEnabled
@@ -39,7 +38,6 @@ class Welcome
         liOrg.querySelector('a[data-event="atom-org"]').textContent = @defW.Welcome.help.atomOrg.link
         liOrg.innerHTML = liOrg.innerHTML.replace(". This is where all GitHub-created Atom packages can be found.", @defW.Welcome.help.atomOrg.text2)
       welcome.querySelector('label').textContent = @defW.Welcome.showWelcomeGuide
-
 
       welcome.setAttribute('data-localized', 'true')
 
