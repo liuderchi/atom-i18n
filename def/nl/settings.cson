@@ -81,45 +81,50 @@ Settings:
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
-        title: "Allow Pending PaneItems"
-        desc: "Allow items to be previewed without adding them to a pane
-               permanently, such as when single clicking files in the tree view."
+        title: "Sta toe items in de wachtrij toe"
+        desc: "Maakt het mogelijk om items te bekijken zonder ze permanent
+               aan paneel toe te voegen, bijvoorbeeld door een enkele klik
+               op een bestand in de boomstructuur."
       }
       {
         _id: 'core.audioBeep'
-        title: "Audio Beep"
-        desc: "Trigger the system's beep sound when certain actions cannot be
-               executed or there are no results."
+        title: "Geluidssignalen"
+        desc: "Activeer het systeem geluid wanneer bepaalde akties niet
+               mogelijk zijn of er is geen resultaat."
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automatically Update"
-        desc: "Automatically update Atom when a new release is available."
+        title: "Automatische Updates"
+        desc: "Werk Atom automatisch bij wanneer er een nieuwere versie beschikbaar is."
       }
       {
         _id: 'core.autoHideMenuBar'
-        title: "Auto Hide Menu Bar"
-        desc: "Automatically hide the menu bar and toggle it by pressing Alt. This is only supported on Windows &amp; Linux."
+        title: "Verberg Menubalk Automatisch"
+        desc: "Verberg de menubalk automatisch en schakel hem handmatig in of uit
+        door op Alt te toetsen. Dit is alleen beschikbaar op Windows &amp; Linux."
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
-        desc: "Close corresponding editors when a file is deleted outside Atom."
+        title: "Sluit Verwijderde Tabbladen"
+        desc: "Sluit een tabblad automatisch wanneer het bestand buiten Atom verwijderd wordt."
       }
       {
         _id: 'core.closeEmptyWindows'
-        title: "Close Empty Windows"
-        desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
+        title: "Sluit Lege Schermen"
+        desc: "Wanneer een scherm geen open tabbladen of panelen heeft dan
+               wordt automatisch het commando 'Sluit Tab' gegeven, sluit het scherm."
       }
       {
         _id: 'core.destroyEmptyPanes'
-        title: "Destroy Empty Panes"
-        desc: "When the last tab of a pane is closed, remove that pane as well."
+        title: "Vernietig Lege Panelen"
+        desc: "Wanneer het laatste tab van een paneel is gesloten dan automatisch het paneel ook sluiten."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
-        title: "Exclude VCS Ignored Paths"
-        desc: "Files and directories ignored by the current project's VCS system will be ignored by some packages, such as the fuzzy finder and find and replace. For example, projects using Git have these paths defined in the .gitignore file. Individual packages might have additional config settings for ignoring VCS ignored files and folders."
+        title: "Sluit VCS Ignored Paths uit"
+        desc: "Bestanden en folders die genegeerd worden door het VCS systeem van het project worden door
+               sommige pakketten genegeerd, zoals bijvoorbeeld fuzzy finder en find en replace.
+               Bijvoorbeeld, projecten die Git gebruiken maken gebruik van deze paden en zijn gedefinieerd in het .gitignore bestand."
       }
       {
         _id: 'core.fileEncoding'
