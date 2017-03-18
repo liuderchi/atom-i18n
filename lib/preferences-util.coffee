@@ -8,6 +8,7 @@ class PreferencesUtil
     # org: original
     sh = @getTextMatchElement(area, '.section-heading', org)
     return unless sh && !@isAlreadyLocalized(sh)
+    return unless sh.childNodes[childIdx]
     sh.childNodes[childIdx].textContent = null
     span = document.createElement('span')
     span.textContent = org
@@ -16,6 +17,7 @@ class PreferencesUtil
 
   @applyTextWithOrg = (elem, text) ->
     return unless text
+    return unless elem
     before = String(elem.textContent)
     return if before == text
     elem.innerHTML = text    # NOTE text may contain HTML
