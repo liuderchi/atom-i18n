@@ -4,17 +4,6 @@ class PreferencesUtil
     localized = elem.getAttribute('data-localized') if elem
     return localized == 'true'
 
-  @applySpecialHeading = (area, org, childIdx, text) ->
-    # org: original
-    sh = @getTextMatchElement(area, '.section-heading', org)
-    return unless sh && !@isAlreadyLocalized(sh)
-    return unless sh.childNodes[childIdx]
-    sh.childNodes[childIdx].textContent = null
-    span = document.createElement('span')
-    span.textContent = org
-    @applyTextWithOrg(span, text)
-    sh.appendChild(span)
-
   @applyTextWithOrg = (elem, text, childIndex) ->
     childIndex = if (parseInt(atom.getVersion().split('.')[1]) > 15) then null else childIndex
     return unless text

@@ -47,9 +47,8 @@ Settings:
     {_label: "Featured Packages", value: "Лучшие расширения"}
     {_label: "Install Themes", value: "Установка тем"}
     {_label: "Featured Themes", value: "Лучшие темы"}
-    {_label: "Available Updates", value: "Доступные обновления", _childIndex: 2}
+    {_label: "Available Updates", value: "Доступные обновления"}
   ]
-  "heading-available-updates": {_label: "Available Updates", value: "Доступные обновления"}
   subSectionHeadings: [
     {_label: "Invisible", value: "Скрытие"}
     {_label: "Community Packages", value: "Пользовательские расширения"}
