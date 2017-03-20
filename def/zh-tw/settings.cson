@@ -47,6 +47,7 @@ Settings:
     {_label: "Featured Packages", value: "特色擴充套件"}
     {_label: "Install Themes", value: "安裝佈景主題"}
     {_label: "Featured Themes", value: "特色佈景主題"}
+    {_label: "Available Updates", value: "可用的更新"}
   ]
   "heading-available-updates": {_label: "Available Updates", value: "可用的更新"}
   subSectionHeadings: [
