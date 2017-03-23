@@ -25,17 +25,20 @@ class Welcome
       if helpGroup
         helpGroup.querySelector('p').textContent = @defW.Welcome.help.forHelpVisit
         liDocs = helpGroup.querySelector('ul li:nth-child(1)')
-        liDocs.innerHTML = liDocs.innerHTML.replace("The ", @defW.Welcome.help.atomDocs.text1)
-        liDocs.querySelector('a[data-event="atom-docs"]').textContent = @defW.Welcome.help.atomDocs.link
-        liDocs.innerHTML = liDocs.innerHTML.replace(" for Guides and the API reference.", @defW.Welcome.help.atomDocs.text2)
+        {text1, link, text2} = @defW.Welcome.help.atomDocs
+        liDocs.childNodes[0].textContent = text1
+        liDocs.childNodes[1].textContent = link
+        liDocs.childNodes[2].textContent = text2
         liForum = helpGroup.querySelector('ul li:nth-child(2)')
-        liForum.innerHTML = liForum.innerHTML.replace("The Atom forum at ", @defW.Welcome.help.atomForum.text1)
-        liForum.querySelector('a[data-event="discuss"]').textContent = @defW.Welcome.help.atomForum.link
-        liForum.innerHTML = liForum.innerHTML + @defW.Welcome.help.atomForum.text2
+        {text1, link, text2} = @defW.Welcome.help.atomForum
+        liForum.childNodes[0].textContent = text1
+        liForum.childNodes[1].textContent = link
+        liForum.appendChild(document.createTextNode(text2))
         liOrg = helpGroup.querySelector('ul li:nth-child(3)')
-        liOrg.innerHTML = liOrg.innerHTML.replace("The ", @defW.Welcome.help.atomOrg.text1)
-        liOrg.querySelector('a[data-event="atom-org"]').textContent = @defW.Welcome.help.atomOrg.link
-        liOrg.innerHTML = liOrg.innerHTML.replace(". This is where all GitHub-created Atom packages can be found.", @defW.Welcome.help.atomOrg.text2)
+        {text1, link, text2} = @defW.Welcome.help.atomOrg
+        liOrg.childNodes[0].textContent = text1
+        liOrg.childNodes[1].textContent = link
+        liOrg.childNodes[2].textContent = text2
       welcome.querySelector('label').textContent = @defW.Welcome.showWelcomeGuide
 
       welcome.setAttribute('data-localized', 'true')

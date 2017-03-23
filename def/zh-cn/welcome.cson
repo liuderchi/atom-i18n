@@ -16,7 +16,7 @@ Welcome:
     atomForum: {
       text1: "在 Atom 论坛 "
       link: "discuss.atom.io"
-      text2: " 上和大家一起讨论"   # optional
+      text2: " 上和大家一起讨论。"   # optional
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomOrg: {
