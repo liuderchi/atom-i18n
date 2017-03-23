@@ -18,9 +18,8 @@ class Welcome
     return if welcome is null
     unless welcome.getAttribute('data-localized') is 'true'
       subtitle = welcome.querySelector('.welcome-header h1.welcome-title')
-      subtitle.innerHTML = subtitle.innerHTML.replace("A hackable text editor for the 21", @defW.Welcome.subtitle.text1)
-      subtitle.querySelector('sup').textContent = @defW.Welcome.subtitle.superscript
-      subtitle.innerHTML = subtitle.innerHTML.replace(" Century", @defW.Welcome.subtitle.text2)
+      {text1, superscript, text2} = @defW.Welcome.subtitle
+      subtitle.innerHTML = "#{text1}<sup>#{superscript}</sup>#{text2}"
 
       helpGroup = welcome.querySelector('.welcome-panel')
       if helpGroup
