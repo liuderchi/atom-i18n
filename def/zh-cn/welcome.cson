@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "欢迎"
+  subtitle: {
+    text1: "为21世纪打造的"
+    superscript: ""
+    text2: "黑客文本编辑器"
+  }
+  help: {
+    forHelpVisit: "需要帮助？"
+    atomDocs: {
+      text1: "有关使用指南及API参考，请查看 "
+      link: "Atom 参考文档"
+      text2: " 。"
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "在 Atom 论坛 "
+      link: "discuss.atom.io"
+      text2: " 上和大家一起讨论。"   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: "在 "
+      link: "GitHub 上的 Atom 组织"
+      text2: " 能找到所有 GitHub 用户制作的 Atom 插件包。"
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "在 Atom 启动时显示起始页"
