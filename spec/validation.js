@@ -30,7 +30,7 @@ const LOCALES = [
 ];
 const CsonFiles = [
   'menu_darwin.cson', 'menu_linux.cson', 'menu_win32.cson',
-  'context.cson', 'settings.cson', 'about.cson'
+  'context.cson', 'settings.cson', 'about.cson', 'welcome.cson'
 ];
 
 describe('validation', () => {
