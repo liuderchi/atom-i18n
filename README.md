@@ -1,10 +1,10 @@
-# atom-i18n package
+# atom-i18n
 
 [![Build Status](https://travis-ci.org/liuderchi/atom-i18n.svg?branch=master)][travis-project] [![dependencies Status](https://david-dm.org/liuderchi/atom-i18n/status.svg)](https://david-dm.org/liuderchi/atom-i18n)
 
-Localize Atom for your locale.
+Localize [Atom][atom] :atom: for your locale.
 
-One i18n package for multiple languages. :earth_asia: :earth_americas: :earth_africa:
+One i18n package for Any language. :earth_asia: :earth_americas: :earth_africa:
 
 Community-driven translation. :family:
 
@@ -29,19 +29,37 @@ Community-driven translation. :family:
 | Korean | `ko` | :white_check_mark: 100% |
 | Dutch | `nl` | :exclamation: [I can translate][nl-issue-filter] |
 | Portuguese(Brazil) | `pt-br` | :exclamation: [I can translate][pt-br-issue-filter] |
-| Russian | `ru` | :exclamation: [I can translate][ar-issue-filter] |
-| Chinese(Simplified) |  `zh-cn` | :warning: 99% [I can translate][ru-issue-filter] |
+| Russian | `ru` | :warning: [I can translate][ru-issue-filter] |
+| Chinese(Simplified) |  `zh-cn` | :white_check_mark: 100% |
 | Chinese(Traditional) | `zh-tw` | :white_check_mark: 100% |
 
 
- :heavy_plus_sign: you can [Create Issue][Create Issue] to propose translation for *your locale* :+1:
+ Welcome to :heavy_plus_sign: [Propose new translation for *your locale*][Create Issue] :memo:
 
 
-## How to Contribute? Who can Contribute?
+## Who can Contribute?
 
-  - *Any language* is welcomed. *Anyone* is welcomed to contribute.
-  - There are some [help-wanted issues][help-wanted issues] that require your help
-  - For more info of translation please refer to [CONTRIBUTING.md][CONTRIBUTING.md]
+  - *Anyone* is welcomed to contribute. *Any language* is welcomed.
+
+
+## How to Contribute?
+
+  - You may checkout some [help-wanted issues][help-wanted issues].
+  - For detailed guidance please refer to [CONTRIBUTING.md][CONTRIBUTING.md].
+
+
+## Thanks to Contributors
+
+  - Chinese(Simplified): [trifirew](https://github.com/trifirew)
+  - Korean: [preco21](https://github.com/preco21) [chibichichi](https://github.com/chibichichi) [Riyeon](https://github.com/Riyeon) [nerhis](https://github.com/nerhis)
+  - Spanish: [stsewd](https://github.com/stsewd)
+  - German: [Acer54](https://github.com/Acer54)
+  - Russian: [Anonym0uz](https://github.com/Anonym0uz)
+
+
+## Reference
+
+  - this repo is based on [atom-japanese-menu](https://atom.io/packages/japanese-menu) by [syon](https://atom.io/users/syon) and [atom-cht-menu](https://atom.io/packages/cht-menu) by [Sheng-Bo](https://atom.io/users/Sheng-Bo)
 
 
 ## Project Structure
@@ -51,35 +69,23 @@ Community-driven translation. :family:
 
   * `lib/` is about translation operations
       * contains `main.coffee` which is entry point
-      * 4 parts require translation:
+      * 5 parts require translation:
           * menus in the top
           * context-menu when right clicked
           * settings page
           * about page
+          * welcome page
 
   * `package.json` contains package metadata
       * key `configSchema` defines supported languages
 
   * `spec/` contains scripts checking cson files inside `def/`
 
-## Reference
-
-  - this repo is based on [atom-japanese-menu](https://atom.io/packages/japanese-menu) by [syon](https://atom.io/users/syon) and [atom-cht-menu](https://atom.io/packages/cht-menu) by [Sheng-Bo](https://atom.io/users/Sheng-Bo)
-
-
-## Thanks for Contribution
-
-  - Chinese(Simplified): [trifirew](https://github.com/trifirew)
-  - Korean: [preco21](https://github.com/preco21) [chibichichi](https://github.com/chibichichi) [Riyeon](https://github.com/Riyeon) [nerhis](https://github.com/nerhis)
-  - Spanish: [stsewd](https://github.com/stsewd)
-  - German: [Acer54](https://github.com/Acer54)
-  - Russian: [Anonym0uz](https://github.com/Anonym0uz)
-
-
 
 [travis-project]: https://travis-ci.org/liuderchi/atom-i18n "travis-project"
 [david-status]: https://david-dm.org/liuderchi/atom-i18n/status.svg "david-status"
 [david-project]: https://david-dm.org/liuderchi/atom-i18n "david-project"
+[atom]: https://atom.io/ "atom"
 [demo-es]: https://cloud.githubusercontent.com/assets/4994705/23652503/36826bd6-0364-11e7-9683-43cdcc2aae88.png "demo-es"
 [demo-tw]: https://cloud.githubusercontent.com/assets/4994705/23652298/5123f294-0363-11e7-8f8f-e9c83f19710e.png "demo-tw"
 [demo-de]: https://cloud.githubusercontent.com/assets/4994705/23652305/57d92cf8-0363-11e7-8895-85b0d5d394f9.png "demo-de"

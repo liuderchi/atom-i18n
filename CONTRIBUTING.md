@@ -11,22 +11,22 @@
 
 ## Steps to Contribute
 
-  1. please checkout [Issues Page](//github.com/liuderchi/atom-i18n/issues) and [Pull Request Page](//github.com/liuderchi/atom-i18n/pulls) first in case there is already someone being assigned or contributing.
+  1. please checkout [Issues Page](//github.com/liuderchi/atom-i18n/issues) and [Pull Request Page](//github.com/liuderchi/atom-i18n/pulls) first in case there is already someone being assigned or working on it.
   2. fork this repo
   3. clone the repo you just forked to your disk
 
-  ```shell
-  git clone https://github.com/my-account/atom-i18n.git
-  ```
+      ```shell
+      git clone https://github.com/my-account/atom-i18n.git
+      ```
 
-  4. change into directory then *create a branch* named as the *locale you want to contribute*. For example:
+  4. install npm dependencies then *create a branch* named as the *locale you want to contribute*. For example:
 
-  ```shell
-  cd atom-i18n-cson && git checkout -b fr
-  ```
+      ```shell
+      cd atom-i18n && npm install && git checkout -b fr
+      ```
 
   5. open the cson file under folder `def/MY_LOCALE` you wanna translate
-      - NOTE: if your locale is missing, please copy `def/template` folder and rename it as [your locale](http://www.science.co.il/Language/Locale-codes.php)
+      - NOTE: if your locale is missing, please copy `def/template` folder and rename it as [your locale](http://www.science.co.il/language/Codes.php)
 
       ```shell
       cd def && cp -r template MY_LOCALE
@@ -36,7 +36,14 @@
 
   7. you may preview your translation by [enabling DEV mode](#how-to-preview-your-translation-in-development)
 
-  8. commit the changes and push the branch you created to your remote
+  8. you may validate syntax of your translation. For example:
+
+      ```shell
+      npm test -- -- --locale ko
+      npm run validation -- --locale ja
+      ```
+
+  9. commit the changes and push the branch you created to your remote
 
       ```
       git add def/
@@ -44,7 +51,7 @@
       git push -u origin MY_BRANCH
       ```
 
-  9. [create a pull request](//help.github.com/articles/creating-a-pull-request/)
+  10. [create a pull request](//help.github.com/articles/creating-a-pull-request/)
 
 
 ## Translation Guide

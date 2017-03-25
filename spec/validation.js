@@ -1,6 +1,12 @@
 'use strict';
 
-// NOTE run ./node_modules/mocha/bin/mocha ./spec/validation.js
+const argv = require('yargs')
+  .example('$ npm run validation', 'validate cson of all locales')
+  .example('$ npm run validation -- --locale fr zh-tw', 'validate cson in fr/* and zh-tw/*')
+  .array('locale')
+  .describe('locale', 'specify list of locales')
+  .help('h')
+  .argv;
 
 const fs = require('fs');
 const path = require('path');
@@ -24,7 +30,7 @@ const LOCALES = [
 ];
 const CsonFiles = [
   'menu_darwin.cson', 'menu_linux.cson', 'menu_win32.cson',
-  'context.cson', 'settings.cson', 'about.cson'
+  'context.cson', 'settings.cson', 'about.cson', 'welcome.cson'
 ];
 
 describe('validation', () => {
@@ -81,7 +87,7 @@ describe('validation', () => {
         templateKeys[csonFile] = Object.keys(JSON.flatten(CSON.load(path.join(__dirname, '../def/template', csonFile))));
       }
 
-      for (let locale of LOCALES) {
+      for (let locale of (argv.locale || LOCALES)) {
         describe(`checking locale ${locale}`, () => {
           for (let csonFile of CsonFiles) {
 

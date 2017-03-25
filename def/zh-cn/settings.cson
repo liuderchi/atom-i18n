@@ -47,6 +47,7 @@ Settings:
     {_label: "Featured Packages", value: "热门插件包"}
     {_label: "Install Themes", value: "安装主题"}
     {_label: "Featured Themes", value: "热门主题"}
+    {_label: "Available Updates", value: "可用更新"}
   ]
   "heading-available-updates": {_label: "Available Updates", value: "可用更新"}
   subSectionHeadings: [
@@ -94,8 +95,8 @@ Settings:
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
-        desc: "Close corresponding editors when a file is deleted outside Atom."
+        title: "关闭已删除文件的标签页"
+        desc: "当文件在 Atom 外部被删除时，关闭相应的编辑器标签页。"
       }
       {
         _id: 'core.closeEmptyWindows'
@@ -144,12 +145,12 @@ Settings:
       {
         _id: 'core.reopenProjectMenuCount'
         title: "重新打开项目的显示数量"
-        desc: "在“重现打开项目”菜单中，显示的最近项目的数量。"
+        desc: "在“重新打开项目”菜单中，显示的最近项目的数量。"
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
         title: "启动时恢复之前的窗口状态"
-        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
+        desc: "启用这个选项时，从桌面或是从命令行输入 <code>atom</code> 启动时，会恢复所有 Atom 窗口状态；否则，Atom 启动时会加载一个空白的工作环境。"
       }
       {
         _id: 'core.telemetryConsent'
@@ -162,13 +163,13 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use Proxy Settings When Calling APM"
-        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        title: "调用 APM 时使用代理服务器设置"
+        desc: "当调用命令行工具 <code>apm</code> 时，使用检测到的代理服务器设置。"
       }
       {
         _id: 'core.useCustomTitleBar'
         title: "使用自定义标题栏"
-        desc: "Use custom, theme-aware title bar.<br>Note: This currently does not include a proxy icon.<br>This setting will require a relaunch of Atom to take effect."
+        desc: "使用自定义，可通过主题修改的标题栏。<br>备注：这个设置现在不包括代理图标。<br>这个设置需要重新启动 Atom 才能生效。"
       }
       {
         _id: 'core.warnOnLargeFileLimit'
@@ -257,8 +258,8 @@ Settings:
       }
       {
         _id: 'editor.showCursorOnSelection'
-        title: "Show Cursor On Selection"
-        desc: "Show cursor while there is a selection."
+        title: "在选择范围上显示光标"
+        desc: "当有选择范围时，显示光标。"
       }
       {
         _id: 'editor.showIndentGuide'

@@ -1,11 +1,11 @@
 Menu:
   "&File":
-    value: "File(&F)"
+    value: "Arquivo(&F)"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "Nova Janela(&W)"
       "&New File":
-        value: "New File(&N)"
+        value: "Novo Arquivo(&N)"
       "&Open File…":
         value: "Open File(&O)..."
       "Open Folder…":
@@ -26,11 +26,11 @@ Menu:
       "Init Script…":
         value: "Init Script..."
       "Keymap…":
-        value: "Keymap..."
+        value: "Mapa De Teclas..."
       "Snippets…":
-        value: "Snippets..."
+        value: "Trechos..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Folha de estilo..."
       "&Save":
         value: "Save(&S)"
       "Save &As…":
@@ -288,9 +288,9 @@ Menu:
       "View &Terms of Use":
         value: "View &Terms of Use"
       "View &License":
-        value: "View &License"
+        value: "Ver &Licença"
       "Check For Update":
-        value: "Check for Update"
+        value: "Verifique atualizações"
       "&Documentation":
         value: "Documentation(&D)"
       "Frequently Asked Questions":
@@ -302,6 +302,6 @@ Menu:
       "Search Issues":
         value: "Search Issues"
       "About Atom":
-        value: "About Atom"
+        value: "Sobre Atom"
       "Welcome Guide":
         value: "Welcome Guide"

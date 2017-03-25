@@ -1,3 +1,10 @@
+## 0.7.0 - Russian support
+* Russian support (80%)
+* Spanish support update (100%)
+* Chinese (simplified) support update (100%)
+* validation support for single locale
+
+
 ## 0.6.3 - Korean support
 * Korean support update (100%)
 

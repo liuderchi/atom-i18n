@@ -27,8 +27,6 @@ class Preferences
       @applyPlaceholders()
       return if window.I18N.pref.done
 
-      @applyFonts()
-
       @loadAllSettingsPanels()
 
       PreferencesSettings.localize()
@@ -56,19 +54,6 @@ class Preferences
     searchBarPlaceholder = @sv.querySelector('div.section:not(.themes-panel) .search-container .placeholder-text')
     if searchBarPlaceholder
       searchBarPlaceholder.textContent = @defS.Settings.install["searchbar-placeholder"]
-
-  @applyFonts: () =>
-    if process.platform == 'win32'
-      font = atom.config.get('editor.fontFamily')
-      if font
-        @sv.style["fontFamily"] = font
-      else
-        @sv.style["fontFamily"] = "'Segoe UI', Meiryo"
-    else if process.platform == 'linux'
-      font = atom.config.get('editor.fontFamily')
-      @sv.style["fontFamily"] = font
-      settingsTab = document.querySelector('.tab-bar [data-type="SettingsView"]')
-      settingsTab.style["fontFamily"] = font
 
   @loadAllSettingsPanels: () =>
     # Load all settings panels

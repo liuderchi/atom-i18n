@@ -17,4 +17,4 @@ notifications:
     on_success: never
     on_failure: change
 
-script: npm test
+script: npm run validation

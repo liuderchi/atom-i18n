@@ -3,40 +3,40 @@ Menu:
     value: "Atom"
     submenu:
       "About Atom":
-        value: "About Atom"
+        value: "Sobre Atom"
       "View License":
-        value: "View License"
+        value: "Ver Licença"
       "Check For Update":
-        value: "Check for Update"
+        value: "Verifique atualizações"
       "Preferences…":
-        value: "Preferences..."
+        value: "Preferências..."
       "Config…":
-        value: "Config..."
+        value: "Configuração..."
       "Init Script…":
         value: "Init Script..."
       "Keymap…":
-        value: "Keymap..."
+        value: "Mapa De Teclas..."
       "Snippets…":
-        value: "Snippets..."
+        value: "Trechos..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Folha de estilo..."
       "Install Shell Commands":
-        value: "Install Shell Commands"
+        value: "Instalar Comandos Do Shell"
       "Hide Atom":
-        value: "Hide Atom"
+        value: "Ocultar Atom"
       "Hide Others":
-        value: "Hide Others"
+        value: "Ocultar Outros"
       "Show All":
-        value: "Show All"
+        value: "Mostre Tudo"
       Quit:
-        value: "Quit"
+        value: "Sair"
   File:
-    value: "File"
+    value: "Arquivo"
     submenu:
       "New Window":
-        value: "New Window"
+        value: "Nova Janela"
       "New File":
-        value: "New File"
+        value: "Novo Arquivo"
       "Open…":
         value: "Open..."
       "Add Project Folder…":
