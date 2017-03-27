@@ -80,15 +80,13 @@ Settings:
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
-        title: "Allow Pending Pane Items"
-        desc: "Allow items to be previewed without adding them to a pane
-               permanently, such as when single clicking files in the tree view."
+        title: "Открывать по клику"
+        desc: "Разрешить открывать файлы при одиночном клике на нем в дереве проекта."
       }
       {
         _id: 'core.audioBeep'
-        title: "Audio Beep"
-        desc: "Trigger the system's beep sound when certain actions cannot be
-               executed or there are no results."
+        title: "Звуковой сигнал"
+        desc: "Подавать звуковой сигнал если действие не было выполнено или не принесло результат."
       }
       {
         _id: 'core.automaticallyUpdate'
@@ -117,8 +115,8 @@ Settings:
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
-        title: "Exclude VCS Ignored Paths"
-        desc: "Files and directories ignored by the current project's VCS system will be ignored by some packages, such as the fuzzy finder and find and replace. For example, projects using Git have these paths defined in the .gitignore file. Individual packages might have additional config settings for ignoring VCS ignored files and folders."
+        title: "Исключать пути игнорирования СУВ"
+        desc: "Файлы и папки системы управления версиями, которые будут игнорироваться некоторыми пакетами (например \"Найти и заменить\")Например, в проекте, использующем Git пути прописаны в файле .gitignore. Некоторые плагины могут иметь свои настройки игнорирования."
       }
       {
         _id: 'core.fileEncoding'
@@ -170,8 +168,8 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
-        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        title: "Использовать определенные настройки прокси для вызовов командной строки."
+        desc: "Использовать определенные настройки прокси для вызовов командной строки."
       }
       {
         _id: 'core.useCustomTitleBar'
@@ -220,50 +218,49 @@ Settings:
       }
       {
         _id: 'editor.invisibles.cr'
-        title: "Invisibles Cr"
-        desc: "Character used to render carriage return characters
-               (for Microsoft-style line endings) when the <code>Show
-               Invisibles</code> setting is enabled."
+        title: "Возврат каретки"
+        desc: "Символ, используемый для отображения возврата каретки, если настройка
+               <code>Отображать невидимые</code> включена."
       }
       {
         _id: 'editor.invisibles.eol'
-        title: "Invisibles Eol"
-        desc: "Character used to render newline characters (\n) when the
-               <code>Show Invisibles</code> setting is enabled."
+        title: "Перенос строки"
+        desc: "Символ, используемый для отображения переноса строки (\n), если настройка
+               <code>Отображать невидимые</code> включена."
       }
       {
         _id: 'editor.invisibles.space'
-        title: "Invisibles Space"
-        desc: "Character used to render leading and trailing space characters
-               when the <code>Show Invisibles</code> setting is enabled."
+        title: "Невидимый пробел"
+        desc: "Символ, используемый для отображения пробела если настройка
+               <code>Отображать невидимые</code> включена."
       }
       {
         _id: 'editor.invisibles.tab'
-        title: "Invisibles Tab"
-        desc: "Character used to render hard tab characters (\t) when the
-               <code>Show Invisibles</code> setting is enabled."
+        title: "Отступ (Tab)"
+        desc: "Символ, используемый для отображения отступа (\t), если настройка
+               <code>Отображать невидимые</code> включена."
       }
       {
         _id: 'editor.lineHeight'
-        title: "Line Height"
-        desc: "Height of editor lines, as a multiplier of font size."
+        title: "Высота строки"
+        desc: "Высота строк редактора по отношению к размеру шрифта."
       }
       {
         _id: 'editor.nonWordCharacters'
-        title: "Non Word Characters"
-        desc: "A string of non-word characters to define word boundaries."
+        title: "Не буквы"
+        desc: "Строка символов для определения границы слов."
       }
       {
         _id: 'editor.preferredLineLength'
-        title: "Preferred Line Length"
+        title: "Длина строки"
         desc: "Identifies the length of a line which is used when wrapping text
                with the <code>Soft Wrap At Preferred Line Length</code> setting
                enabled, in number of characters."
       }
       {
         _id: 'editor.scrollPastEnd'
-        title: "Scroll Past End"
-        desc: "Allow the editor to be scrolled past the end of the last line."
+        title: "Прокрутка до конца последней строки"
+        desc: "Разрешить прокрутку редактора до конца последней строки."
       }
       {
         _id: 'editor.scrollSensitivity'
@@ -282,13 +279,12 @@ Settings:
       }
       {
         _id: 'editor.showInvisibles'
-        title: "Show Invisibles"
-        desc: "Render placeholders for invisible characters, such as tabs,
-               spaces and newlines."
+        title: "Показать невидимые"
+        desc: "Отображать невидимые символы (например возврат каретки и перенос строки)."
       }
       {
         _id: 'editor.showLineNumbers'
-        title: "Показывать номера лини"
+        title: "Показывать номера линий"
         desc: "Показывает номера линий в редакторе."
       }
       {
@@ -326,8 +322,8 @@ Settings:
       }
       {
         _id: 'editor.tabLength'
-        title: "Tab Length"
-        desc: "Number of spaces used to represent a tab."
+        title: "Длина отступа (Tab)"
+        desc: "Количество пробелов для отображения отступа."
       }
       {
         _id: 'editor.tabType'
@@ -359,7 +355,7 @@ Settings:
       {
         _id: 'system.windows.shell-menu-files'
         title: "Показывать в контекстном меню файла"
-        desc: "Добавить \"Open with Atom\" в контекстное меню Проводника для файлов."
+        desc: "Добавить \"Открыть с помощью Atom\" в контекстное меню Проводника для файлов."
       }
       {
         _id: 'system.windows.shell-menu-folders'
