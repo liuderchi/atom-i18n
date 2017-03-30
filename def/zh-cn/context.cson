@@ -95,7 +95,7 @@ Context:
   ".platform-linux .tree-view.full-menu":
     "tree-view:show-in-file-manager": "在文件管理器中显示"
   ".tree-view > li.directory":
-    "project-find:show-in-current-directory": "在当前目录查找"
+    "project-find:show-in-current-directory": "在目录中搜索"
   ".tree-view.multi-select":
     "tree-view:remove": "删除"
     "tree-view:copy": "复制"

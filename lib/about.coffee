@@ -25,8 +25,19 @@ class About
         try
           updatesGroup.querySelector('.about-auto-updates span').textContent = @defA.About.automaticDownloadUpdates
           updatesGroup.querySelector('span.about-updates-label').textContent = @defA.About.newUpdate
-          updatesGroup.querySelector('a.about-updates-release-notes').textContent = @defA.About.releaseNotes
-          updatesGroup.querySelector('button').textContent = @defA.About.restartInstall
+          if updatesGroup.querySelector('a.about-updates-release-notes') isnt null  # check if the element exists
+            updatesGroup.querySelector('a.about-updates-release-notes').textContent = @defA.About.releaseNotes
+
+          # update status box
+          appUpToDate = updatesGroup.querySelector('.app-up-to-date')
+          checkingUpdates = updatesGroup.querySelector('.app-checking-for-updates')
+          if appUpToDate isnt null    # when atom is up to date (tested)
+            updatesGroup.querySelector('span.about-updates-label').textContent = @defA.About.upToDate
+            updatesGroup.querySelector('button').textContent = @defA.About.checkUpdatesNow
+          else if checkingUpdates isnt null   # when checking for updates (not working for now)
+            updatesGroup.querySelector('span.about-updates-label').textContent = @defA.About.checkingForUpdates
+          else    # when have update, need to restart and install (not tested)
+            updatesGroup.querySelector('button').textContent = @defA.About.restartInstall
 
       buttons = about.querySelector('.about-actions.group-item .btn-group')
       buttons.childNodes[0].textContent = @defA.About.license

@@ -69,11 +69,12 @@ Community-driven translation. :family:
 
   * `lib/` is about translation operations
       * contains `main.coffee` which is entry point
-      * 4 parts require translation:
+      * 5 parts require translation:
           * menus in the top
           * context-menu when right clicked
           * settings page
           * about page
+          * welcome page
 
   * `package.json` contains package metadata
       * key `configSchema` defines supported languages

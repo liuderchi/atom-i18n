@@ -19,10 +19,10 @@
       git clone https://github.com/my-account/atom-i18n.git
       ```
 
-  4. change into directory then *create a branch* named as the *locale you want to contribute*. For example:
+  4. install npm dependencies then *create a branch* named as the *locale you want to contribute*. For example:
 
       ```shell
-      cd atom-i18n && git checkout -b fr
+      cd atom-i18n && npm install && git checkout -b fr
       ```
 
   5. open the cson file under folder `def/MY_LOCALE` you wanna translate

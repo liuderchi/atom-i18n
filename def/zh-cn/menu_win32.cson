@@ -28,7 +28,7 @@ Menu:
       "Keymap…":
         value: "管理快捷键..."
       "Snippets…":
-        value: "用户自定义代码段..."
+        value: "自定义代码段..."
       "Stylesheet…":
         value: "Atom 样式表..."
       "&Save":
@@ -263,7 +263,7 @@ Menu:
       "Toggle Find in Project":
         value: "切换“在项目中查找”界面"
       "Find All":
-        value: "Find All"
+        value: "查找全部"
       "Find Next":
         value: "查找下一个"
       "Find Previous":
@@ -304,4 +304,4 @@ Menu:
       "About Atom":
         value: "关于 Atom"
       "Welcome Guide":
-        value: "欢迎页和指南"
+        value: "起始页"
