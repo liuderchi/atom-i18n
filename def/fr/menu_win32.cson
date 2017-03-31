@@ -1,307 +1,307 @@
 Menu:
   "&File":
-    value: "File(&F)"
+    value: "Fichier(&F)"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "Nouvelle fenêtre(&W)"
       "&New File":
-        value: "New File(&N)"
+        value: "Nouveau fichier(&N)"
       "&Open File…":
-        value: "Open File(&O)..."
+        value: "Ouvrir un fichier(&O)..."
       "Open Folder…":
-        value: "Open Folder..."
+        value: "Ouvrir un dossier..."
       "Add Project Folder…":
-        value: "Add Project Folder..."
+        value: "Ajouter un dossier au projet...Ajouter un dossier au projet..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Ouvrir un projet récent"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "Effacer l'historique du projet"
       "Reopen Last &Item":
-        value: "Reopen Last Item(&I)"
+        value: "Réouvrir le dernier item(&I)"
       "Se&ttings":
-        value: "Settings(&T)..."
+        value: "Préférences(&T)..."
       "Config…":
-        value: "Config..."
+        value: "Paramètres..."
       "Init Script…":
-        value: "Init Script..."
+        value: "Script d'ouverture..."
       "Keymap…":
-        value: "Keymap..."
+        value: "Raccourcis clavier..."
       "Snippets…":
         value: "Snippets..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Feuille de style..."
       "&Save":
-        value: "Save(&S)"
+        value: "Enregistrer(&S)"
       "Save &As…":
-        value: "Save As(&A)..."
+        value: "Enregistrer sous(&A)..."
       "Save A&ll":
-        value: "Save All(&L)"
+        value: "Enregistrer tout(&L)"
       "&Close Tab":
-        value: "Close Tab(&C)"
+        value: "Fermer l'onglet(&C)"
       "Close &Pane":
-        value: "Close Pane(&P)"
+        value: "Fermer le panneau(&P)"
       "Clos&e Window":
-        value: "Close Window(&E)"
+        value: "Fermer la fenêtre(&E)"
       "E&xit":
-        value: "Exit(&X)"
+        value: "Quitter(&X)"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "Fermer tous les onglets"
   "&Edit":
-    value: "Edit(&E)"
+    value: "Edition(&E)"
     submenu:
       "&Undo":
-        value: "Undo(&U)"
+        value: "Annuler(&U)"
       "&Redo":
-        value: "Redo(&R)"
+        value: "Refaire(&R)"
       "Cu&t":
-        value: "Cut(&T)"
+        value: "Couper(&T)"
       "&Copy":
-        value: "Copy(&C)"
+        value: "Copier(&C)"
       "Copy Pat&h":
-        value: "Copy Path(&H)"
+        value: "Copier le chemin(&H)"
       "&Paste":
-        value: "Paste(&P)"
+        value: "Coller(&P)"
       "Select &All":
-        value: "Select All(&A)"
+        value: "Sélectionner tout(&A)"
       "&Toggle Comments":
-        value: "Toggle Comments(&T)"
+        value: "Commenter/Décommenter(&T)"
       Lines:
-        value: "Lines"
+        value: "Lignes"
         submenu:
           "&Indent":
-            value: "Indent(&I)"
+            value: "Indenter(&I)"
           "&Outdent":
-            value: "Outdent(&O)"
+            value: "Désindenter(&O)"
           "&Auto Indent":
-            value: "Auto Indent(&A)"
+            value: "Indentation automatique(&A)"
           "Move Line &Up":
-            value: "Move Line Up(&U)"
+            value: "Remonter la ligne(&U)"
           "Move Line &Down":
-            value: "Move Line Down(&D)"
+            value: "Descendre la ligne(&D)"
           "Du&plicate Lines":
-            value: "Duplicate Lines(&P)"
+            value: "Dupliquer les lignes(&P)"
           "D&elete Line":
-            value: "Delete Line(&E)"
+            value: "Supprimer la ligne(&E)"
           "&Join Lines":
-            value: "Join Lines(&J)"
+            value: "Fusionner les lignes(&J)"
       Columns:
-        value: "Columns"
+        value: "Colonnes"
         submenu:
           "Move Selection &Left":
-            value: "Move Selection Left(&L)"
+            value: "Déplacer la sélection à gauche(&L)"
           "Move Selection &Right":
-            value: "Move Selection Right(&R)"
+            value: "Déplacer la sélection à droite(&R)"
       Text:
         value: "Text"
         submenu:
           "&Upper Case":
-            value: "Upper Case(&U)"
+            value: "Mettre en majuscules(&U)"
           "&Lower Case":
-            value: "Lower Case(&L)"
+            value: "Mettre en minuscules(&L)"
           "Delete to End of &Word":
-            value: "Delete to End of Word(&W)"
+            value: "Retirer la fin du mot(&W)"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "Retirer le début du mot"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "Supprimer jusqu'au prochain mot"
           "&Delete Line":
-            value: "Delete Line(&D)"
+            value: "Supprimer la ligne(&D)"
           "&Transpose":
-            value: "Transpose(&T)"
+            value: "Intervertir les caractères(&T)"
       Folding:
-        value: "Folding"
+        value: "Pliage"
         submenu:
           "&Fold":
-            value: "Fold(&F)"
+            value: "Plier(&F)"
           "&Unfold":
-            value: "Unfold(&U)"
+            value: "Déplier(&U)"
           "Unfold &All":
-            value: "Unfold All(&A)"
+            value: "Déplier tout(&A)"
           "Fol&d All":
-            value: "Fold All(&D)"
+            value: "Plier tout(&D)"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Plier au niveau 1"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Plier au niveau 2"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Plier au niveau 3"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Plier au niveau 4"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Plier au niveau 5"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Plier au niveau 6"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Plier au niveau 7"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Plier au niveau 8"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Plier au niveau 9"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Redistribuer la sélection"
       Bookmark:
-        value: "Bookmark"
+        value: "Signets"
         submenu:
           "View All":
-            value: "View All"
+            value: "Afficher tout"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "Ajouter/Retirer un signet"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "Aller au prochain signet"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "Aller au signet précédent"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "Choisir l'Encodage"
       "Go to Line":
-        value: "Go to Line"
+        value: "Aller à une ligne"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "Choisir le langage"
   "&View":
-    value: "View(&V)"
+    value: "Affichage(&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Toggle Full Screen(&F)"
+        value: "Activer/Désactiver le plein écran(&F)"
       "Toggle Menu Bar":
-        value: "Toggle Menu Bar"
+        value: "Activer/Désactiver la barre de menu"
       Panes:
-        value: "Panes"
+        value: "Panneaux"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "Dédoubler en haut"
           "Split Down":
-            value: "Split Down"
+            value: "Dédoubler en bas"
           "Split Left":
-            value: "Split Left"
+            value: "Dédoubler à gauche"
           "Split Right":
-            value: "Split Right"
+            value: "Dédoubler à droite"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "Passer au panneau suivant"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "Revenir au panneau précédent"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "Passer au panneau du dessus"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "Passer au panneau du dessous"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "Passer au panneau de gauche"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "Passer au panneau de droite"
           "Close Pane":
-            value: "Close Pane"
+            value: "Fermer le panneau"
       Developer:
-        value: "Developer"
+        value: "Développeur"
         submenu:
           "Open In &Dev Mode…":
-            value: "Open In Dev Mode(&D)..."
+            value: "Ouvrir en mode développement(&D)..."
           "&Reload Window":
-            value: "Reload Window(&R)"
+            value: "Recharger la fenêtre(&R)"
           "Run Package &Specs":
-            value: "Run Package Specs(&S)"
+            value: "Lancer les tests unitaires du package(&S)"
           "Run &Benchmarks":
-            value: "Run Benchmarks(&B)"
+            value: "Lancer les tests de performance(&B)"
           "Toggle Developer &Tools":
-            value: "Toggle Developer Tools(&T)"
+            value: "Afficher/Masquer les outils de développement(&T)"
       "&Increase Font Size":
-        value: "Increase Font Size(&I)"
+        value: "Augmenter la taille de la police(&I)"
       "&Decrease Font Size":
-        value: "Decrease Font Size(&D)"
+        value: "Diminuer la taille de la police(&D)"
       "Re&set Font Size":
-        value: "Reset Font Size(&S)"
+        value: "Réinitialiser la taille de la police(&S)"
       "Toggle Soft &Wrap":
-        value: "Toggle Soft Wrap(&W)"
+        value: "Activer/Désactiver le retour à la ligne souple(&W)"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "Afficher/Masquer la liste des commandes"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "Afficher/Masquer l'arborescence"
   "&Selection":
-    value: "Selection(&S)"
+    value: "Sélection(&S)"
     submenu:
       "Add Selection &Above":
-        value: "Add Selection Above(&A)"
+        value: "Étendre la sélection au dessus(&A)"
       "Add Selection &Below":
-        value: "Add Selection Below(&B)"
+        value: "Étendre la sélection au dessous(&B)"
       "S&plit into Lines":
-        value: "Split into Lines(&P)"
+        value: "Séparer en lignes(&P)"
       "Single Selection":
-        value: "Single Selection"
+        value: "Sélection unique"
       "Select to &Top":
-        value: "Select to Top(&T)"
+        value: "Étendre la sélection au début(&T)"
       "Select to Botto&m":
-        value: "Select to Bottom(&M)"
+        value: "Étendre la sélection à la fin(&M)"
       "Select &Line":
-        value: "Select Line(&L)"
+        value: "Sélectionner toute la ligne(&L)"
       "Select &Word":
-        value: "Select Word(&W)"
+        value: "Sélectionner le mot(&W)"
       "Select to Beginning of W&ord":
-        value: "Select to Beginning of Word(&O)"
+        value: "Étendre la sélection au début du mot(&O)"
       "Select to Beginning of L&ine":
-        value: "Select to Beginning of Line(&I)"
+        value: "Étendre la sélection au début de la ligne(&I)"
       "Select to First &Character of Line":
-        value: "Select to First Character of Line(&C)"
+        value: "Étendre la sélection au premier caractère de la ligne(&C)"
       "Select to End of Wor&d":
-        value: "Select to End of Word(&D)"
+        value: "Étendre la sélection à la fin du mot(&D)"
       "Select to End of Lin&e":
-        value: "Select to End of Line(&E)"
+        value: "Étendre la sélection à la fin de la ligne(&E)"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "Sélectionner l'intérieur des parenthèses"
   "F&ind":
-    value: "Find(&I)"
+    value: "Chercher(&I)"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "Chercher dans le fichier courant"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "Remplacer dans le fichier courant"
       "Select Next":
-        value: "Select Next"
+        value: "Sélectionner l'occurence suivante"
       "Select All":
-        value: "Select All"
+        value: "Sélectionner toutes les occurences"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "Afficher/Masquer la recherche dans le fichier courant"
       "Find in Project":
-        value: "Find in Project"
+        value: "Chercher dans le projet"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "Afficher/Masquer la recherche dans le projet"
       "Find All":
-        value: "Find All"
+        value: "Chercher toutes les occurrences"
       "Find Next":
-        value: "Find Next"
+        value: "Chercher la suivante"
       "Find Previous":
-        value: "Find Previous"
+        value: "Chercher la précédente"
       "Replace Next":
-        value: "Replace Next"
+        value: "Remplacer la suivante"
       "Replace All":
-        value: "Replace All"
+        value: "Remplacer toutes les occurences"
       "Clear History":
-        value: "Clear History"
+        value: "Effacer l'historique"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "Chercher un fichier ouvert"
       "Find File":
-        value: "Find File"
+        value: "Chercher un fichier"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "Chercher un fichier modifié"
   "&Packages":
     value: "Packages(&P)"
   "&Help":
-    value: "Help(&H)"
+    value: "Aide(&H)"
     submenu:
       "View &Terms of Use":
-        value: "View &Terms of Use"
+        value: "Conditions d'utilisation(&T)"
       "View &License":
-        value: "View &License"
+        value: "VVoir la licence(&L)"
       "Check For Update":
         value: "Check for Update"
       "&Documentation":
         value: "Documentation(&D)"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "Questions fréquentes (FAQ)"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Forum communautaire"
       "Report Issue":
-        value: "Report Issue"
+        value: "Signaler un problème"
       "Search Issues":
-        value: "Search Issues"
+        value: "Parcourir les problèmes"
       "About Atom":
-        value: "About Atom"
+        value: "À propos de Atom"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "Guide de bienvenue"
