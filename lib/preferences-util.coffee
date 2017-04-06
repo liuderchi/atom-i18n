@@ -16,6 +16,7 @@ class PreferencesUtil
     sh.appendChild(span)
 
   @applyTextWithOrg = (elem, text, childIndex) ->
+    childIndex = if (parseInt(atom.getVersion().split('.')[1]) > 15) then null else childIndex
     return unless text
     return unless elem
     before = if not childIndex then String(elem.textContent) else String(elem.childNodes[childIndex].textContent)
