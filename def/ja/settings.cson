@@ -47,7 +47,7 @@ Settings:
     {_label: "Featured Packages", value: "おすすめのパッケージ"}
     {_label: "Install Themes", value: "テーマのインストール"}
     {_label: "Featured Themes", value: "おすすめのテーマ"}
-    {_label: "Available Updates", value: "利用可能なアップデート"}
+    {_label: "Available Updates", value: "利用可能なアップデート", _childIndex: 2}
   ]
   "heading-available-updates": {_label: "Available Updates", value: "利用可能なアップデート"}
   subSectionHeadings: [
