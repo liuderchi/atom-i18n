@@ -105,7 +105,7 @@ describe('validation', () => {
               it('has no special char in values of cson', () => {
                 for (let k in flattenCson) {
                   let specialChr = /[\~\@\#\%\^\*]/g;
-                  let _str = flattenCson[k];
+                  let _str = flattenCson[k].toString();
                   let _res = _str.search(specialChr);
                   expect(_res, `\n\tfound special chr: \'${_str[_res]}\'\n\tdata: ${_str}`).to.equal(-1);
                 }
