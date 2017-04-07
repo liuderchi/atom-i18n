@@ -47,7 +47,7 @@ Settings:
     {_label: "Featured Packages", value: "Paquetes Destacados"}
     {_label: "Install Themes", value: "Instalar Temas"}
     {_label: "Featured Themes", value: "Temas Destacados"}
-    {_label: "Available Updates", value: "Actualizaciones Disponibles"}
+    {_label: "Available Updates", value: "Actualizaciones Disponibles", _childIndex: 2}
   ]
   "heading-available-updates": {_label: "Available Updates", value: "Actualizaciones Disponibles"}
   subSectionHeadings: [

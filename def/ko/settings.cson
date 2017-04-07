@@ -47,7 +47,7 @@ Settings:
     {_label: "Featured Packages", value: "추천 패키지"}
     {_label: "Install Themes", value: "테마 설치"}
     {_label: "Featured Themes", value: "추천 테마"}
-    {_label: "Available Updates", value: "사용 가능한 업데이트"}
+    {_label: "Available Updates", value: "사용 가능한 업데이트", _childIndex: 2}
   ]
   "heading-available-updates": {_label: "Available Updates", value: "사용 가능한 업데이트"}
   subSectionHeadings: [
