@@ -20,7 +20,7 @@
   "repository": "https://github.com/liuderchi/atom-i18n",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.15.0 <2.0.0"
   },
   "dependencies": {
     "cson": "^4.0.0"
