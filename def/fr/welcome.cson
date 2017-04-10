@@ -1,29 +1,29 @@
 Welcome:
-  tabTitle: "Welcome"
+  tabTitle: "Bienvenue"
   subtitle: {
-    text1: "A hackable text editor for the 21"
-    superscript: "st"
-    text2: " Century"
+    text1: "Un éditeur de texte ultra-configurable pour le 21"
+    superscript: "ème"
+    text2: " siècle"
   }
   help: {
-    forHelpVisit: "For help, please visit"
+    forHelpVisit: "Besoin d'aide ? Visitez"
     atomDocs: {
-      text1: "The "
+      text1: "les "
       link: "Atom docs"
-      text2: " for Guides and the API reference."
+      text2: " comportant des guides et les références de l'API."
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {
-      text1: "The Atom forum at "
+      text1: "Le forum d'Atom sur "
       link: "discuss.atom.io"
       text2: ""   # optional
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomOrg: {
-      text1: "The "
+      text1: "Le "
       link: "Atom org"
-      text2: ". This is where all GitHub-created Atom packages can be found."
+      text2: ". C'est là que se trouvent tous les packages Atom crées sur GitHub."
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
-  showWelcomeGuide: "Show Welcome Guide when opening Atom"
+  showWelcomeGuide: "Afficher le guide de bienvenue à l'ouverture d'Atom"
