@@ -21,15 +21,15 @@ Community-driven translation. :family:
 | Language | code | status |
 | -------- |:----:|:-------|
 | Arabic | `ar` | :exclamation: [I can translate][ar-issue-filter] |
-| Spanish | `es` | :white_check_mark: 100% |
 | German | `de` | :warning: 99% [I can translate][de-issue-filter] |
+| Spanish | `es` | :white_check_mark: 100% |
 | French | `fr` | :exclamation: [I can translate][fr-issue-filter] |
 | Hindi | `hi` | :exclamation: [I can translate][hi-issue-filter] |
 | Japanese | `ja` | :warning: 95% [I can translate][ja-issue-filter] |
 | Korean | `ko` | :white_check_mark: 100% |
-| Dutch | `nl` | :exclamation: [I can translate][nl-issue-filter] |
+| Dutch | `nl` | :warning: 80% [I can translate][nl-issue-filter] |
 | Portuguese(Brazil) | `pt-br` | :exclamation: [I can translate][pt-br-issue-filter] |
-| Russian | `ru` | :warning: [I can translate][ru-issue-filter] |
+| Russian | `ru` | :warning: 99% [I can translate][ru-issue-filter] |
 | Chinese(Simplified) |  `zh-cn` | :white_check_mark: 100% |
 | Chinese(Traditional) | `zh-tw` | :white_check_mark: 100% |
 
@@ -50,11 +50,15 @@ Community-driven translation. :family:
 
 ## Thanks to Contributors
 
-  - Chinese(Simplified): [trifirew](https://github.com/trifirew)
+  - Chinese (Simplified): [trifirew](https://github.com/trifirew)
   - Korean: [preco21](https://github.com/preco21) [chibichichi](https://github.com/chibichichi) [Riyeon](https://github.com/Riyeon) [nerhis](https://github.com/nerhis)
   - Spanish: [stsewd](https://github.com/stsewd)
   - German: [Acer54](https://github.com/Acer54)
-  - Russian: [Anonym0uz](https://github.com/Anonym0uz)
+  - Russian: [Anonym0uz](https://github.com/Anonym0uz) [Driglu4it](https://github.com/Driglu4it)
+  - Portuguese (Brazilian): [jsolisu](https://github.com/jsolisu)
+  - Dutch: [laurensbrand](https://github.com/laurensbrand)
+  - Polish: [Jeplaa](https://github.com/Jeplaa)
+  - French: [chezyann](https://github.com/chezyann)
 
 
 ## Reference

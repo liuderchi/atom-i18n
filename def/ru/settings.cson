@@ -47,7 +47,7 @@ Settings:
     {_label: "Featured Packages", value: "Лучшие расширения"}
     {_label: "Install Themes", value: "Установка тем"}
     {_label: "Featured Themes", value: "Лучшие темы"}
-    {_label: "Available Updates", value: "Доступные обновления"}
+    {_label: "Available Updates", value: "Доступные обновления", _childIndex: 2}
   ]
   "heading-available-updates": {_label: "Available Updates", value: "Доступные обновления"}
   subSectionHeadings: [

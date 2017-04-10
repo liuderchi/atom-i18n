@@ -47,7 +47,7 @@ Settings:
     {_label: "Featured Packages", value: "热门插件包"}
     {_label: "Install Themes", value: "安装主题"}
     {_label: "Featured Themes", value: "热门主题"}
-    {_label: "Available Updates", value: "可用更新"}
+    {_label: "Available Updates", value: "可用更新", _childIndex: 2}
   ]
   "heading-available-updates": {_label: "Available Updates", value: "可用更新"}
   subSectionHeadings: [

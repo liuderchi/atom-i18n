@@ -15,12 +15,16 @@ class PreferencesUtil
     @applyTextWithOrg(span, text)
     sh.appendChild(span)
 
-  @applyTextWithOrg = (elem, text) ->
+  @applyTextWithOrg = (elem, text, childIndex) ->
+    childIndex = if (parseInt(atom.getVersion().split('.')[1]) > 15) then null else childIndex
     return unless text
     return unless elem
-    before = String(elem.textContent)
+    before = if not childIndex then String(elem.textContent) else String(elem.childNodes[childIndex].textContent)
     return if before == text
-    elem.innerHTML = text    # NOTE text may contain HTML
+    if not childIndex
+      elem.innerHTML = text    # NOTE text may contain HTML
+    else
+      elem.childNodes[childIndex].textContent = text
     elem.setAttribute('title', text)
     elem.setAttribute('data-localized', 'true')
     elem.setAttribute('data-before-localized', before)
@@ -40,7 +44,7 @@ class PreferencesUtil
       el = @getTextMatchElement(sv, '.section-heading', sh._label)
       continue unless el
       if !@isAlreadyLocalized(el) || force
-        @applyTextWithOrg(el, sh.value)
+        @applyTextWithOrg(el, sh.value, sh._childIndex)
     for sh in window.I18N.defS.Settings.subSectionHeadings
       el = @getTextMatchElement(sv, '.sub-section-heading', sh._label)
       continue unless el
