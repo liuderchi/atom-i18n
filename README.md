@@ -23,7 +23,7 @@ Community-driven translation. :family:
 | Arabic | `ar` | :exclamation: [I can translate][ar-issue-filter] |
 | German | `de` | :warning: 99% [I can translate][de-issue-filter] |
 | Spanish | `es` | :white_check_mark: 100% |
-| French | `fr` | :exclamation: [I can translate][fr-issue-filter] |
+| French | `fr` | :white_check_mark: 100% |
 | Hindi | `hi` | :exclamation: [I can translate][hi-issue-filter] |
 | Japanese | `ja` | :warning: 95% [I can translate][ja-issue-filter] |
 | Korean | `ko` | :white_check_mark: 100% |

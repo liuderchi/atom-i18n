@@ -1,3 +1,10 @@
+## 0.8.0 - French support
+* French support (100%)
+* Dutch support update (80%)
+* Russian support update (99%)
+* fix #63 to handle side effect of fixing #66
+
+
 ## 0.7.1 - welcome page support
 * welcome page i18n #60
 * fix #66 to support 1.16-beta DOM structure in settings page
