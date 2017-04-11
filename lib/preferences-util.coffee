@@ -4,16 +4,12 @@ class PreferencesUtil
     localized = elem.getAttribute('data-localized') if elem
     return localized == 'true'
 
-  @applyTextWithOrg = (elem, text, childIndex) ->
-    childIndex = if (parseInt(atom.getVersion().split('.')[1]) > 15) then null else childIndex
+  @applyTextWithOrg = (elem, text) ->
     return unless text
     return unless elem
-    before = if not childIndex then String(elem.textContent) else String(elem.childNodes[childIndex].textContent)
+    before = String(elem.textContent)
     return if before == text
-    if not childIndex
-      elem.innerHTML = text    # NOTE text may contain HTML
-    else
-      elem.childNodes[childIndex].textContent = text
+    elem.innerHTML = text    # NOTE text may contain HTML
     elem.setAttribute('title', text)
     elem.setAttribute('data-localized', 'true')
     elem.setAttribute('data-before-localized', before)
@@ -33,7 +29,7 @@ class PreferencesUtil
       el = @getTextMatchElement(sv, '.section-heading', sh._label)
       continue unless el
       if !@isAlreadyLocalized(el) || force
-        @applyTextWithOrg(el, sh.value, sh._childIndex)
+        @applyTextWithOrg(el, sh.value)
     for sh in window.I18N.defS.Settings.subSectionHeadings
       el = @getTextMatchElement(sv, '.sub-section-heading', sh._label)
       continue unless el
