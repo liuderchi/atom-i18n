@@ -20,4 +20,7 @@ class Util
       newLangauge = @findLaguageNameByLocale(newLocale) || newLocale
       @promptUserReloadAtom("Reload Atom to translate into \n- `#{newLangauge}`.")
 
+    atom.config.onDidChange 'atom-i18n.customMenuI18nPath', () =>
+      @promptUserReloadAtom("Reload Atom to translate Custom Menus")
+
 module.exports = Util
