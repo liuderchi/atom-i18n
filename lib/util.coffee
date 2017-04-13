@@ -15,4 +15,9 @@ class Util
       option.value is locale
     if option then option.description else null
 
+  @handleConfigChange: () =>
+    atom.config.onDidChange 'atom-i18n.locale', ({newValue: newLocale}) =>
+      newLangauge = @findLaguageNameByLocale(newLocale) || newLocale
+      @promptUserReloadAtom("Reload Atom to translate into \n- `#{newLangauge}`.")
+
 module.exports = Util

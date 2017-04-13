@@ -34,10 +34,7 @@ class I18N
     Welcome.localize(@defW)
     # TODO localize more...
 
-    atom.config.onDidChange 'atom-i18n.locale', (event) ->
-      newLocale = event.newValue
-      newLangauge = Util.findLaguageNameByLocale(newLocale) || newLocale
-      Util.promptUserReloadAtom("Reload Atom to translate into \n- `#{newLangauge}`.")
+    Util.handleConfigChange()
 
 
 module.exports = window.I18N = new I18N()
