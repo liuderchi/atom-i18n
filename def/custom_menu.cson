@@ -1,0 +1,33 @@
+# This is where you can put custom definition
+# to translate menu item for community package.
+#
+# Following code are demos for two different situations
+
+
+Menu:  # Must keep this line
+
+# Case One: target is a *new* individual menu
+#
+#   "TITLE #1":
+#     value: "I18N TITLE #1"
+#     submenu:
+#       "ITEM #2":
+#         value: "I18N ITEM #2"
+#       "SUBTITLE #3":
+#         value: "I18N SUBTITLE #3"
+#         submenu:
+#           "SUBITEM #4":
+#             value: "I18N SUBITEM #4"
+
+
+# Case Two: target is in the *existed* translated menu
+#   for example let's translate "Minimap" into Japanese
+#
+#   "パッケージ(&P)":
+#     value: "パッケージ(&P)" # translated "Packages" into Japanese (see def/LOCALE/menu_*.cson for reference)
+#     submenu:
+#       "Minimap":
+#         value: "I18N: Minimap"
+#         submenu:
+#           "Toggle":
+#             value: "I18N: Toggle"
