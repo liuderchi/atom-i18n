@@ -28,7 +28,7 @@
         "args": "after-used"
       }],
     "indent": ["warn", 2],
-    "semi": [1, "always"],
+    "semi": [0, "always"],
     "quotes": [1, "single"],
     "linebreak-style": [1, "unix"]
   }
