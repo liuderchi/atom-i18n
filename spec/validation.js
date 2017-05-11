@@ -13,6 +13,8 @@ const path = require('path');
 const CSON = require('cson');
 const expect = require('chai').expect;
 
+const flattenObj = require('./util.js').flattenObj;
+
 const LOCALES = [
   'ar',
   'de',
@@ -55,36 +57,9 @@ describe('validation', () => {
   describe('cson file validation', () => {
 
     describe('checking each cson files of all locales', () => {
-
-      JSON.flatten = function(data) {
-        var result = {};
-        function recurse (cur, prop) {
-          if (Object(cur) !== cur) {
-            result[prop] = cur;
-          } else if (Array.isArray(cur)) {
-            for(var i=0, l=cur.length; i<l; i++)
-              recurse(cur[i], prop + '[' + i + ']');
-            if (l == 0) {
-              result[prop] = [];
-            }
-          } else {
-            var isEmpty = true;
-            for (var p in cur) {
-              isEmpty = false;
-              recurse(cur[p], prop ? prop+'.'+p : p);
-            }
-            if (isEmpty && prop) {
-              result[prop] = {};
-            }
-          }
-        }
-        recurse(data, '');
-        return result;
-      };
-
       let templateKeys = {};
       for (let csonFile of CsonFiles) {
-        templateKeys[csonFile] = Object.keys(JSON.flatten(CSON.load(path.join(__dirname, '../def/template', csonFile))));
+        templateKeys[csonFile] = Object.keys(flattenObj(CSON.load(path.join(__dirname, '../def/template', csonFile))));
       }
 
       for (let locale of (argv.locale || LOCALES)) {
@@ -94,7 +69,7 @@ describe('validation', () => {
             describe(`checking "${path.join(locale, csonFile)}"`, () => {
 
               let cson = CSON.load(path.join(__dirname, '../def', locale, csonFile));
-              let flattenCson = JSON.flatten(cson);
+              let flattenCson = flattenObj(cson);
 
               it('has no error loading cson', () => {
                 expect(cson, 'load cson error').not.to.be.instanceof(Error);
@@ -128,9 +103,10 @@ describe('validation', () => {
             });
           }
         });
-      }
-    });
+      }   // end of for loop of locales
 
-  });
+    });   // end of checking each cson files of all locales
 
-});
+  });   // end of cson file validation
+
+});   // end of validation
