@@ -1,11 +1,11 @@
 Menu:
   "&File":
-    value: "File(&F)"
+    value: "Arquivo(&F)"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "Nova Janela(&W)"
       "&New File":
-        value: "New File(&N)"
+        value: "Novo Arquivo(&N)"
       "&Open File…":
         value: "Open File(&O)..."
       "Open Folder…":
@@ -32,7 +32,7 @@ Menu:
       "Clos&e Window":
         value: "Close Window(&E)"
       "Quit":
-        value: "Quit"
+        value: "Sair"
       "Close All Tabs":
         value: "Close All Tabs"
   "&Edit":
@@ -127,17 +127,17 @@ Menu:
           "Fold Level 9":
             value: "Fold Level 9"
       "&Preferences":
-        value: "Preferences(&P)"
+        value: "Preferências(&P)"
       "Config…":
         value: "Config..."
       "Init Script…":
         value: "Init Script..."
       "Keymap…":
-        value: "Keymap..."
+        value: "Mapa De Teclas..."
       "Snippets…":
-        value: "Snippets..."
+        value: "Trechos..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Folha de estilo..."
       "Reflow Selection":
         value: "Reflow Selection"
       Bookmark:
@@ -288,7 +288,7 @@ Menu:
       "View &Terms of Use":
         value: "View Terms of Use(&T)"
       "View &License":
-        value: "View License(&L)"
+        value: "Ver Licença(&L)"
       "&Documentation":
         value: "Documentation(&D)"
       "Frequently Asked Questions":
@@ -300,6 +300,6 @@ Menu:
       "Search Issues":
         value: "Search Issues"
       "About Atom":
-        value: "About Atom"
+        value: "Sobre Atom"
       "Welcome Guide":
         value: "Welcome Guide"
