@@ -1,3 +1,9 @@
+## 0.9.0 - Portuguese (Brazil) support, Custom Menu I18n
+* Portuguese (Brazil) support (80%)
+* custom menu translation #79
+* functions refactoring wrapping into util.coffee
+
+
 ## 0.8.0 - French support
 * French support (100%)
 * Dutch support update (80%)

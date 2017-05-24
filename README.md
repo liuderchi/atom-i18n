@@ -28,7 +28,7 @@ Community-driven translation. :family:
 | Japanese | `ja` | :warning: 95% [I can translate][ja-issue-filter] |
 | Korean | `ko` | :white_check_mark: 100% |
 | Dutch | `nl` | :warning: 80% [I can translate][nl-issue-filter] |
-| Portuguese(Brazil) | `pt-br` | :exclamation: [I can translate][pt-br-issue-filter] |
+| Portuguese(Brazil) | `pt-br` | :warning: 80% [I can translate][pt-br-issue-filter] |
 | Russian | `ru` | :warning: 99% [I can translate][ru-issue-filter] |
 | Chinese(Simplified) |  `zh-cn` | :white_check_mark: 100% |
 | Chinese(Traditional) | `zh-tw` | :white_check_mark: 100% |
