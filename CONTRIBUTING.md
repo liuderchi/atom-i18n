@@ -29,7 +29,7 @@
       - NOTE: if your locale is missing, please copy `def/template` folder and rename it as [your locale](http://www.science.co.il/language/Codes.php)
 
       ```shell
-      cd def && cp -r template MY_LOCALE
+      cd def && cp -r template/. MY_LOCALE
       ```
 
   6. please read [translation guide](#translation-guide) before translation
