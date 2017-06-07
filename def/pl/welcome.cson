@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "Witaj"
+  subtitle: {
+    text1: "A hackable text editor for the 21"
+    superscript: "st"
+    text2: " Century"
+  }
+  help: {
+    forHelpVisit: "Więcej informacji znajdziesz na poniższych stronach:"
+    atomDocs: {
+      text1: ""
+      link: "Dokumentacja Atom"
+      text2: " zawierająca wskazówki oraz szablony API."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "Forum Atom pod adresem "
+      link: "discuss.atom.io"
+      text2: "."   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: ""
+      link: "Atom org"
+      text2: " zawierające pakiety stworzone przez GitHub."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "Pokazuj to okno przy otwieraniu edytora Atom"
