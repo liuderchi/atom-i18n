@@ -7,7 +7,7 @@ Settings:
     }
     {
       _label: "Editor"
-      value: "Editeur"
+      value: "Éditeur"
     }
     {
       _label: "System"
@@ -34,7 +34,7 @@ Settings:
       value: "Installer"
     }
   ]
-  "btn-open-config-folder": "Ouvrir les dossier de configuration"
+  "btn-open-config-folder": "Ouvrir le dossier de configuration"
   sectionHeadings: [
     {_label: "Core Settings", value: "Paramètres principaux"}
     {_label: "Editor Settings", value: "Paramètres de l'éditeur"}
@@ -44,34 +44,35 @@ Settings:
     {_label: "Choose a Theme", value: "Choisir un thème"}
     {_label: "Installed Themes", value: "Thèmes installés"}
     {_label: "Install Packages", value: "Installer des packages"}
-    {_label: "Featured Packages", value: "Packages vedettes"}
+    {_label: "Featured Packages", value: "Packages à la une"}
     {_label: "Install Themes", value: "Installer des thèmes"}
-    {_label: "Featured Themes", value: "Thèmes vedettes"}
-    {_label: "Available Updates", value: "Mises à jour disponnibles"}
+    {_label: "Featured Themes", value: "Thèmes à la une"}
+    {_label: "Available Updates", value: "Mises à jour disponibles", _childIndex: 2}
   ]
+  "heading-available-updates": {_label: "Available Updates", value: "Mises à jour disponibles"}
   subSectionHeadings: [
     {_label: "Invisible", value: "Invisible"}
-    {_label: "Community Packages", value: "Packages tiers"}
+    {_label: "Community Packages", value: "Packages de la communauté"}
     {_label: "Core Packages", value: "Packages principaux"}
     {_label: "Development Packages", value: "Packages en développement"}
     {_label: "Git Packages", value: "Packages Git"}
-    {_label: "Community Themes", value: "Themes tiers"}
-    {_label: "Core Themes", value: "Themes principaux"}
+    {_label: "Community Themes", value: "Thèmes de la communauté"}
+    {_label: "Core Themes", value: "Thèmes principaux"}
     {_label: "Development Themes", value: "Thèmes en développement"}
-    {_label: "Git Themes", value: "Themes Git"}
+    {_label: "Git Themes", value: "Thèmes Git"}
   ]
   settings: {
     notes: [
       {
         _id: 'core-settings-note'
         html: 'Voici les principaux paramètres d\'Atom sans influence
-               sur l\'édition de textes. Les packages peuvent avoir leurs
+               sur l\'édition de texte. Les packages peuvent avoir leurs
                propres paramètres additionnels configurables depuis la
                <a class="link packages-open">liste des packages</a>.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'Ces paramètres portent sur l\'édition des textes. Certains
+        html: 'Ces paramètres portent sur l\'édition de texte. Certains
                peuvent être redéfinis pour des langages spécifiques. Vérifiez
                dans la <a class="link packages-open">liste des packages</a>
                les paramètres du langage.'
@@ -119,7 +120,7 @@ Settings:
       {
         _id: 'core.excludeVcsIgnoredPaths'
         title: "Exclure les chemins ignorés du gestionnaire de versions (VCS)"
-        desc: "Les fichiers et dossiers ignorés par le système VCS du projet seront aussi ignorés par certains packages comme le fuzzy finder ou chercher et remplacer. Par exemple, les projets utilisant Git ont ces chemins définis dans le fichier .gitignore. Certains packages peuvent avoir des paramètres supplémentaires pour ignorer les dossiers et fichiers ignorés par le VCS."
+        desc: "Les fichiers et dossiers ignorés par le système VCS du projet seront aussi ignorés par certains packages comme le fuzzy-finder ou chercher/remplacer. Par exemple, les projets utilisant Git ont ces chemins définis dans le fichier .gitignore. Certains packages peuvent avoir des paramètres supplémentaires pour ignorer les dossiers et fichiers ignorés par VCS."
       }
       {
         _id: 'core.fileEncoding'
@@ -129,12 +130,12 @@ Settings:
       {
         _id: 'core.followSymlinks'
         title: "Suivre les liens symboliques"
-        desc: "Suivre les liens symboliques lors de la recherche de fichiers et lors de l'ouverture de fichiers avec fuzzy finder."
+        desc: "Suivre les liens symboliques lors de la recherche de fichiers et lors de l'ouverture de fichiers avec fuzzy-finder."
       }
       {
         _id: 'core.ignoredNames'
         title: "Noms ignorés"
-        desc: "Liste de <code>glob patterns</code>. Les fichiers et répertoires correspondant à ces motifs seront ignorés par certains packages tels que fuzzy finder et tree view. Certains packages peuvent disposer de paramètres supplémentaires à cet effet."
+        desc: "Liste de <code>filtres de fichiers</code>. Les fichiers et répertoires correspondant à ces filtres seront ignorés par certains packages tels que fuzzy-finder et tree-view. Certains packages peuvent disposer de paramètres supplémentaires à cet effet."
       }
       {
         _id: 'core.openEmptyEditorOnStart'
@@ -158,7 +159,7 @@ Settings:
       {
         _id: 'core.restorePreviousWindowsOnStart'
         title: "Restaurer les fenêtres précédemment ouvertes au démarrage"
-        desc: "Restaurer l'état des fenêtres Atom de la dernière exécution lorsqu'Atom est lancé par son icone ou par la commande <code>atom</code>; le cas échéant un environnement vierge est chargé."
+        desc: "Restaurer l'état des fenêtres Atom de la dernière exécution lorsqu'Atom est lancé par son icone ou par la commande <code>atom</code> ; le cas échéant un environnement vierge est chargé."
       }
       {
         _id: 'core.telemetryConsent'
@@ -177,17 +178,17 @@ Settings:
       {
         _id: 'core.useCustomTitleBar'
         title: "Utiliser une barre de titre personnalisée"
-        desc: "Utiliser une barre de titre personalisée basée sur le thème actuel.<br>Note: Cela n'inclu pas pour l'instant d'icône de proxy.<br>Ce paramètrage ne sera pris en compte qu'après un redémarrage d'Atom."
+        desc: "Utiliser une barre de titre personalisée basée sur le thème actuel.<br>Note : Cela n'inclut pas pour l'instant d'icône proxy.<br>Ce paramètrage ne sera pris en compte qu'après un redémarrage d'Atom."
       }
       {
         _id: 'core.warnOnLargeFileLimit'
         title: "Avertir lorsque les fichiers sont trop gros"
-        desc: "Avertir avec d'ouvrir des fichiers de taille supérieure à ce nombre de Mégabits."
+        desc: "Avertir avant d'ouvrir des fichiers de taille supérieure à ce nombre de mégaoctets."
       }
       {
         _id: 'editor.atomicSoftTabs'
         title: "Tabulations souples atomiques"
-        desc: "Permet de passer au dessus des tabulations souples (série d'espaces) lors du déplacement du curseur."
+        desc: "Permet de passer par-dessus les tabulations souples (série d'espaces) lors du déplacement du curseur."
       }
       {
         _id: 'editor.autoIndent'
@@ -201,7 +202,7 @@ Settings:
       }
       {
         _id: 'editor.backUpBeforeSaving'
-        title: "Demander une confirmation avant d'enregistrer"
+        title: "Effectuer une sauvegarde avant d'enregistrer"
         desc: ""
       }
       {
@@ -212,7 +213,7 @@ Settings:
       {
         _id: 'editor.fontFamily'
         title: "Famille de police"
-        desc: "Le numéro de la famille de police utilisée par l'éditeur de texte."
+        desc: "Le nom de la famille de police utilisée par l'éditeur de texte."
       }
       {
         _id: 'editor.fontSize'
@@ -221,28 +222,28 @@ Settings:
       }
       {
         _id: 'editor.invisibles.cr'
-        title: "Cr Invisibles"
+        title: "Retours-chariot invisibles"
         desc: "Caractère utilisé pour matérialiser les retours à la ligne
                (à la façon de Microsoft) quand le paramètre
                <code>Afficher les caractères invisibles</code> est actif."
       }
       {
         _id: 'editor.invisibles.eol'
-        title: "Eol Invisibles"
-        desc: "Caractère utilisé pour matérialiser le caractère de nouvelle
-               ligne (\n) quand le paramètre <code>Afficher les caractères
+        title: "Fins de ligne invisibles"
+        desc: "Caractère utilisé pour matérialiser les fins de
+               ligne (\\n) quand le paramètre <code>Afficher les caractères
                invisibles</code> est actif."
       }
       {
         _id: 'editor.invisibles.space'
-        title: "Espaces Invisibles"
+        title: "Espaces invisibles"
         desc: "Caractère utilisé pour matérialiser les espaces lorsque le
                paramètre <code>Afficher les caractères invisibles</code> est actif."
       }
       {
         _id: 'editor.invisibles.tab'
-        title: "Tabulations Invisibles"
-        desc: "Caractère utilisé pour matérialiser les tabulations absolues (\t) lorsque le
+        title: "Tabulations invisibles"
+        desc: "Caractère utilisé pour matérialiser les tabulations absolues (\\t) lorsque le
                paramètre <code>Afficher les caractères invisibles</code> est actif."
       }
       {
@@ -252,8 +253,8 @@ Settings:
       }
       {
         _id: 'editor.nonWordCharacters'
-        title: "Caractères non alphanumériques"
-        desc: "Un chaîne des caractères n'apparaissant pas dans les mots pour pouvoir les délimiter."
+        title: "Caractères non-alphanumériques"
+        desc: "Une chaîne des caractères n'apparaissant pas dans les mots pour pouvoir les délimiter."
       }
       {
         _id: 'editor.preferredLineLength'
@@ -297,9 +298,9 @@ Settings:
       {
         _id: 'editor.softTabs'
         title: "Tabulations souples"
-        desc: "Si le paramètre <code>Type des tabulations</code> est sur \"auto\"
+        desc: "Si le paramètre <code>Type des tabulations</code> est sur <code>auto</code>
                et que la détection automatique des tabulations d'un buffer échoue,
-               ce paramètre précise si il faut insérer une tabulation souple ou dure
+               ce paramètre précise s'il faut insérer une tabulation souple ou absolue
                lorsque la touche tabulation est pressée."
       }
       {
@@ -307,18 +308,18 @@ Settings:
         title: "Retour à la ligne souple"
         desc: "Aller à la ligne lorsque les lignes dépassent la largeur de la fenêtre. Lorsque
                <code>Retour à la ligne souple à une largeur souhaitée</code> est sélectionné,
-               le retour à la ligne se fera pour le nombre de caractères spécifié par
-               <code>Longueur de ligne préférée</code> setting."
+               le retour à la ligne se fera pour le nombre de caractères spécifié par le paramètre
+               <code>Longueur de ligne préférée</code>."
       }
       {
         _id: 'editor.softWrapAtPreferredLineLength'
         title: "Retour à la ligne souple à une largeur souhaitée"
         desc: "Au lieu d'aller à la ligne selon la largeur de la fenêtre, fixer la
                largeur des lignes à la valeur du paramètre <code>Longueur de ligne préférée</code>.
-               Ce paramètre ne prendra effet que lors que le paramètre de retour à la ligne souple
+               Ce paramètre ne prendra effet que lorsque le paramètre de retour à la ligne souple
                est activé globalement ou pour le langage sélectionné.
-               <strong>Note:</strong> Pour cacher le guide de retour à la ligne
-               (la ligne verticale) vous pouvez désactiver le package <code>wrap-guide</code>."
+               <strong>Note :</strong> Pour cacher le guide de retour à la ligne
+               (la ligne verticale), vous pouvez désactiver le package <code>wrap-guide</code>."
       }
       {
         _id: 'editor.softWrapHangingIndent'
@@ -335,40 +336,40 @@ Settings:
         _id: 'editor.tabType'
         title: "Type des tabulations"
         desc: "Spécifie le caractère à insérer lorsque la touche de tabulations
-               est pressée. Les valeurs possibles sont : \"auto\", \"soft\" et
-               \"hard\". Les valeurs \"soft\" et \"hard\" insèrent des
-               tabulations souples (espaces) ou dures (caractère de tabulation),
-               selon. La valeur \"auto\" laissera l'éditeur détecter le type de
+               est pressée. Les valeurs possibles sont : <code>auto</code>, <code>soft</code> et
+               <code>hard</code>. Les valeurs <code>soft</code> et <code>hard</code> insèrent des
+               tabulations souples (espaces) ou absolues (caractère de tabulation),
+               respectivement. La valeur <code>auto</code> laissera l'éditeur détecter le type de
                tabulation à utiliser à partir du contenu du fichier courant
                (la détection se fait sur le premier espace ou la première ligne
                non commentée). Si la détection échoue, la valeur du paramètre
-               des Tabulations souples sera utilisée."
+               <code>Tabulations souples</code> sera utilisée."
       }
       {
         _id: 'editor.undoGroupingInterval'
         title: "Intervalle de temps des actions à annuler/défaire"
         desc: "Intervalle de temps en millisecondes durant lequel les opérations
-               d'édition de texte seront regroupées pour la fonction 'défaire'."
+               d'édition de texte seront regroupées pour la fonction <code>Défaire</code>."
       }
       {
         _id: 'editor.zoomFontWhenCtrlScrolling'
-        title: "Modifier la taille de police avec Ctrl+défilement"
+        title: "Modifier la taille de police avec Ctrl + défilement"
         desc: "Modifier la taille de la police utilisée par l'éditeur lorsque l'on presse la touche Ctrl et que l'on fait défiler ."
       }
       {
         _id: 'system.windows.file-handler'
         title: "Enregistrer en tant que gestionnaire de fichiers"
-        desc: "Afficher Atom dans la liste des applications \"Ouvrir avec\" pour une association facile avec des types de fichiers."
+        desc: "Afficher Atom dans la liste des applications <code>Ouvrir avec</code> pour une association facile avec des types de fichiers."
       }
       {
         _id: 'system.windows.shell-menu-files'
         title: "Afficher dans le menu contextuel des fichiers"
-        desc: "Ajouter \"Ouvrir avec Atom\" au menu contextuel des fichiers de l'explorateur de fichiers."
+        desc: "Ajouter <code>Ouvrir avec Atom</code> au menu contextuel des fichiers de l'explorateur de fichiers."
       }
       {
         _id: 'system.windows.shell-menu-folders'
         title: "Afficher dans le menu contextuel des dossiers"
-        desc: "Ajouter \"Ouvrir avec Atom\" au menu contextuel des dossiers de l'explorateur de fichiers."
+        desc: "Ajouter <code>Ouvrir avec Atom</code> au menu contextuel des dossiers de l'explorateur de fichiers."
       }
     ]
   }
@@ -387,23 +388,23 @@ Settings:
     "table-header-keystroke": "Touche frappée"
     "table-header-command": "Commande"
     "table-header-source": "Source"
-    "table-header-selector": "Sélecteurr"
+    "table-header-selector": "Sélecteur"
   }
   packages: {
-    searchBarText: 'Filtrer les packages par noms'
+    searchBarText: 'Filtrer les packages par nom'
   }
   themes: {
     notes: {
       text1: "Vous pouvez aussi modifier le style d'Atom "
       text2: "en éditant votre feuille de style"
-      text3: ""   # optional
+      text3: "."   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
     title1: "Thème de l'interface utilisateur"
-    description1: "Celà redéfinit le style des onglets, de la barre d'état, de l'arborescence et des menus déroulants"
+    description1: "Redéfinit le style des onglets, de la barre d'état, de l'arborescence et des menus déroulants"
     title2: "Thème pour la syntaxe"
-    description2: "Celà redéfinit le style des textes dans l'éditeur"
-    searchBarText: 'Filtrer les thèmes par noms'
+    description2: "Redéfinit le style du texte dans l'éditeur"
+    searchBarText: 'Filtrer les thèmes par nom'
   }
   updates: {
     "check-updates": "Vérifier les mises à jour"
