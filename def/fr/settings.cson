@@ -47,9 +47,8 @@ Settings:
     {_label: "Featured Packages", value: "Packages vedettes"}
     {_label: "Install Themes", value: "Installer des thèmes"}
     {_label: "Featured Themes", value: "Thèmes vedettes"}
-    {_label: "Available Updates", value: "Mises à jour disponnibles", _childIndex: 2}
+    {_label: "Available Updates", value: "Mises à jour disponnibles"}
   ]
-  "heading-available-updates": {_label: "Available Updates", value: "Mises à jour disponnibles"}
   subSectionHeadings: [
     {_label: "Invisible", value: "Invisible"}
     {_label: "Community Packages", value: "Packages tiers"}

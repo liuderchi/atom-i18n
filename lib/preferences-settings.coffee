@@ -96,7 +96,6 @@ class PreferencesSettings
       info.setAttribute('data-localized', 'true')
 
   @localizeUpdatesPanel: () =>
-    PU.applySpecialHeading(@sv, @defS["heading-available-updates"]._label, 2, @defS["heading-available-updates"].value)
     PU.applyTextWithOrg(@sv.querySelector('.update-all-button.btn-primary'), @defS.updates["update-all"])
     PU.applyTextWithOrg(@sv.querySelector('.update-all-button:not(.btn-primary)'), @defS.updates["check-updates"])
     PU.applyTextWithOrg(@sv.querySelector('.alert.icon-hourglass'),  @defS.updates["checking-updates"])
