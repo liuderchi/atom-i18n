@@ -42,14 +42,14 @@ describe('validation', () => {
   describe('package.json validation', () => {
 
     it('loads package.json', () => {
-      let loading = () => {
+      const loading = () => {
         packageMeta = JSON.parse(fs.readFileSync('./package.json'), 'utf8');
       };
       expect(loading, 'load package.json error').not.to.throw(Error);
     });
 
     it('checks locale options list in configSchema in package.json', () => {
-      let locales = packageMeta.configSchema.locale.enum.map((opt)=>{return opt.value;});
+      const locales = packageMeta.configSchema.locale.enum.map((opt)=>{return opt.value;});
       expect(locales, 'inconsistent locale options').to.deep.equal(LOCALES);
     });
   });
@@ -57,7 +57,7 @@ describe('validation', () => {
   describe('cson file validation', () => {
 
     describe('checking each cson files of all locales', () => {
-      let templateKeys = {};
+      const templateKeys = {};
       for (let csonFile of CsonFiles) {
         templateKeys[csonFile] = Object.keys(flattenObj(CSON.load(path.join(__dirname, '../def/template', csonFile))));
       }
@@ -68,8 +68,8 @@ describe('validation', () => {
 
             describe(`checking "${path.join(locale, csonFile)}"`, () => {
 
-              let cson = CSON.load(path.join(__dirname, '../def', locale, csonFile));
-              let flattenCson = flattenObj(cson);
+              const cson = CSON.load(path.join(__dirname, '../def', locale, csonFile));
+              const flattenCson = flattenObj(cson);
 
               it('has no error loading cson', () => {
                 expect(cson, 'load cson error').not.to.be.instanceof(Error);
@@ -79,9 +79,9 @@ describe('validation', () => {
               });
               it('has no special char in values of cson', () => {
                 for (let k in flattenCson) {
-                  let specialChr = /[\~\@\#\%\^\*]/g;
-                  let _str = flattenCson[k].toString();
-                  let _res = _str.search(specialChr);
+                  const specialChr = /[\~\@\#\%\^\*]/g;
+                  const _str = flattenCson[k].toString();
+                  const _res = _str.search(specialChr);
                   expect(_res, `\n\tfound special chr: \'${_str[_res]}\'\n\tdata: ${_str}`).to.equal(-1);
                 }
               });
