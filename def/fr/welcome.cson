@@ -2,7 +2,7 @@ Welcome:
   tabTitle: "Bienvenue"
   subtitle: {
     text1: "Un éditeur de texte ultra-configurable pour le 21"
-    superscript: "ème"
+    superscript: "e"
     text2: " siècle"
   }
   help: {
@@ -22,7 +22,7 @@ Welcome:
     atomOrg: {
       text1: "Le "
       link: "Atom org"
-      text2: ". C'est là que se trouvent tous les packages Atom crées sur GitHub."
+      text2: ". C'est là que se trouvent tous les packages Atom créés sur GitHub."
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }

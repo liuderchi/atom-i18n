@@ -1,6 +1,6 @@
 Context:
   "atom-workspace":
-    "application:inspect": "Inspecter l'élement"
+    "application:inspect": "Inspecter l'élément"
   "atom-text-editor":
     "color-picker:open": "Sélecteur de couleurs"
     "minimap:toggle": "Activer la Minimap"
@@ -47,7 +47,7 @@ Context:
   ".tab.pending-tab":
     "tabs:keep-pending-tab": "Garder les onglets provisoires"
   ".tab-bar":
-    "pane:reopen-closed-item": "RRéouvrir les onglets fermés"
+    "pane:reopen-closed-item": "Rouvrir les onglets fermés"
   ".tree-view.full-menu":
     "tree-view:add-file": "Nouveau fichier"
     "tree-view:add-folder": "Nouveau dossier"
