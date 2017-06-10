@@ -86,15 +86,14 @@ describe('validation', () => {
                 }
               });
               if (csonFile === 'menu_linux.cson' || csonFile === 'menu_win32.cson') {
-                it('has correct hotkey hints', () => {
+                it('has valid hotkey hints if required', () => {
                   for (let k in flattenCson) {
-                    let hotkeyHintRegex = /\&\w/g;
-                    let menuItemName = k.split('.').slice(-2)[0];
-                    let _str = flattenCson[k];
-                    let _res = menuItemName.match(hotkeyHintRegex);
-                    if (_res) {
-                      let hotkeyHint = _res[0];
-                      expect(_str.search(new RegExp(hotkeyHint, 'i')), `\n\tcannot find \'${hotkeyHint}\'\n\tin \'${_str}\'`).to.not.equal(-1);
+                    const menuItemName = k.split('.').slice(-2)[0];
+                    const _str = flattenCson[k];
+                    const hasAmpersand = menuItemName.match(/\&/g);
+                    if (hasAmpersand) {
+                      const hotkeyHintRegex = /\&\w/g;
+                      expect(_str.search(hotkeyHintRegex), `\n\tinvalid hotkey hint in \'${_str}\'`).to.not.equal(-1);
                     }
                   }
                 });
