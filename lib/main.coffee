@@ -21,8 +21,8 @@ class I18N
     @defM = CSON.load path.join __dirname, "../def", LOCALE, "menu_#{process.platform}.cson"
     @defC = CSON.load path.join __dirname, "../def", LOCALE, "context.cson"
     @defS = CSON.load path.join __dirname, "../def", LOCALE, "settings.cson"
-    @defA = CSON.load path.join __dirname, "../def", LOCALE, "about.cson"   # TODO fix LOCALE
-    @defW = CSON.load path.join __dirname, "../def", LOCALE, "welcome.cson"   # TODO fix LOCALE
+    @defA = CSON.load path.join __dirname, "../def", LOCALE, "about.cson"
+    @defW = CSON.load path.join __dirname, "../def", LOCALE, "welcome.cson"
 
   activate: (state) ->
     setTimeout(@delay, 0)
