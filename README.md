@@ -1,5 +1,6 @@
 # atom-i18n
 
+![contribute-welcome-banner][contribute-welcome-banner]
 [![Build Status](https://travis-ci.org/liuderchi/atom-i18n.svg?branch=master)][travis-project] [![dependencies Status](https://david-dm.org/liuderchi/atom-i18n/status.svg)](https://david-dm.org/liuderchi/atom-i18n)
 
 Localize [Atom][atom] :atom: for your locale.
@@ -86,6 +87,7 @@ Community-driven translation. :family:
   * `spec/` contains scripts checking cson files inside `def/`
 
 
+[contribute-welcome-banner]: https://camo.githubusercontent.com/9c8a9bb0456c3bff0d34d8ea66071420f1ab2c44/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6e747269627574696f6e732d77656c636f6d652d626c75652e737667 ""
 [travis-project]: https://travis-ci.org/liuderchi/atom-i18n "travis-project"
 [david-status]: https://david-dm.org/liuderchi/atom-i18n/status.svg "david-status"
 [david-project]: https://david-dm.org/liuderchi/atom-i18n "david-project"
