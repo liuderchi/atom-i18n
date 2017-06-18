@@ -158,7 +158,11 @@ Settings:
       {
         _id: 'core.restorePreviousWindowsOnStart'
         title: "Restaurer les fenêtres précédemment ouvertes au démarrage"
-        desc: "Restaurer l'état des fenêtres Atom de la dernière exécution lorsqu'Atom est lancé par son icone ou par la commande <code>atom</code> ; le cas échéant un environnement vierge est chargé."
+        desc: "Lorsque <code>Non</code> est sélectionné, un environnement vierge est chargé. Lorsque <code>Oui</code> est sélectionné et Atom lancé par son icône ou par la commande <code>atom</code>, alors l'état des fenêtres de la dernière exécution est restauré ; sinon un environnement vierge est chargé. Lorsque <code>Toujours</code> est sélectionné, l'état des fenêtres de la dernière exécution est restauré indépendamment du mode de lancement de Atom."
+        select:
+          no: "Non"
+          yes: "Oui"
+          always: "Toujours"
       }
       {
         _id: 'core.telemetryConsent'
