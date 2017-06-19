@@ -1,3 +1,10 @@
+## 0.9.1 - French I18n Fix
+* French grammar fix
+* Don't enforce hot key hint consistency in menu
+* deprecate atom v1.15
+* Refactoring validation code
+
+
 ## 0.9.0 - Portuguese (Brazil) support, Custom Menu I18n
 * Portuguese (Brazil) support (80%)
 * custom menu translation #79
