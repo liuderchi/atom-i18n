@@ -1,3 +1,6 @@
+## 0.9.2 - Fix Banner in README
+* fix banner link in README
+
 ## 0.9.1 - French I18n Fix
 * French grammar fix
 * Don't enforce hot key hint consistency in menu
