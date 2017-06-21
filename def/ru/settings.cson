@@ -155,6 +155,10 @@ Settings:
         _id: 'core.restorePreviousWindowsOnStart'
         title: "Восстанавливать открытые окна при следующем запуске"
         desc: "Если стоит галочка то, восстанавливать все окна Atom из предыдущей сессии или отдельно из командной строки <code>atom</code>; иначе, будет загружен чистый лист."
+        select:
+          no: "no"
+          yes: "yes"
+          always: "always"
       }
       {
         _id: 'core.telemetryConsent'

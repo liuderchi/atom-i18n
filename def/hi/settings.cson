@@ -158,6 +158,10 @@ Settings:
         _id: 'core.restorePreviousWindowsOnStart'
         title: "Restore Previous Windows On Start"
         desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
+        select:
+          no: "no"
+          yes: "yes"
+          always: "always"
       }
       {
         _id: 'core.telemetryConsent'

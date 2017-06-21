@@ -163,6 +163,10 @@ Settings:
         _id: 'core.restorePreviousWindowsOnStart'
         title: "시작 시 이전 창 복원"
         desc: "아이콘이나 커맨드 라인으로 <code>Atom</code>을 실행할 때 마지막 상태의 창으로 복원합니다. 그렇지 않으면 빈 환경으로 불러옵니다."
+        select:
+          no: "no"
+          yes: "yes"
+          always: "always"
       }
       {
         _id: 'core.telemetryConsent'

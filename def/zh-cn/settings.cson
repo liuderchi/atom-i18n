@@ -150,6 +150,10 @@ Settings:
         _id: 'core.restorePreviousWindowsOnStart'
         title: "启动时恢复之前的窗口状态"
         desc: "启用这个选项时，从桌面或是从命令行输入 <code>atom</code> 启动时，会恢复所有 Atom 窗口状态；否则，Atom 启动时会加载一个空白的工作环境。"
+        select:
+          no: "no"
+          yes: "yes"
+          always: "always"
       }
       {
         _id: 'core.telemetryConsent'
