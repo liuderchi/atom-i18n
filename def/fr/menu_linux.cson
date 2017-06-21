@@ -16,7 +16,7 @@ Menu:
         value: "Rouvrir un projet"
         submenu:
           "Clear Project History":
-            value: "Effacer l'historique du projet"
+            value: "Effacer l'historique des projets"
       "Reopen Last &Item":
         value: "Rouvrir le &dernier élément"
       "&Save":

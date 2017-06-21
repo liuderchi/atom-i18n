@@ -16,7 +16,7 @@ Menu:
         value: "Rouvrir un projet"
         submenu:
           "Clear Project History":
-            value: "Effacer l'historique du projet"
+            value: "Effacer l'historique des projets"
       "Reopen Last &Item":
         value: "Rouvrir le &dernier élément"
       "Se&ttings":
@@ -289,7 +289,7 @@ Menu:
         value: "&Conditions d'utilisation"
       "View &License":
         value: "&Voir la licence"
-      "Check For Update":
+      "Check for Update":
         value: "Vérifier les mises à jour"
       "&Documentation":
         value: "&Documentation"
