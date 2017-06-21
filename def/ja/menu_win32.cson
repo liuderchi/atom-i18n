@@ -289,7 +289,7 @@ Menu:
         value: "利用条件(&T)"
       "View &License":
         value: "ライセンス(&L)"
-      "Check For Update":
+      "Check for Update":
         value: "Check for Update"
       "&Documentation":
         value: "ドキュメント(&D)"

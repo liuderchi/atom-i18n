@@ -289,7 +289,7 @@ Menu:
         value: "查看使用条款(&T)"
       "View &License":
         value: "查看许可协议(&L)"
-      "Check For Update":
+      "Check for Update":
         value: "Check for Update"
       "&Documentation":
         value: "官方文档(&D)"

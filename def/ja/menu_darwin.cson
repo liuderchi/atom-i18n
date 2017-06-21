@@ -6,7 +6,7 @@ Menu:
         value: "Atom について"
       "View License":
         value: "ライセンスを表示"
-      "Check For Update":
+      "Check for Update":
         value: "Check for Update"
       "Preferences…":
         value: "環境設定..."

@@ -289,7 +289,7 @@ Menu:
         value: "Ver Términos de Uso(&T)"
       "View &License":
         value: "Ver Licencia(&L)"
-      "Check For Update":
+      "Check for Update":
         value: "Buscar Actualizaciones"
       "&Documentation":
         value: "Documentación(&D)"
