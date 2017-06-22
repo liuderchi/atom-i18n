@@ -59,7 +59,7 @@ Community-driven translation. :family:
   - Portuguese (Brazilian): [jsolisu](https://github.com/jsolisu)
   - Dutch: [laurensbrand](https://github.com/laurensbrand)
   - Polish: [Jeplaa](https://github.com/Jeplaa)
-  - French: [chezyann](https://github.com/chezyann)
+  - French: [chezyann](https://github.com/chezyann) [Vivalzar](https://github.com/Vivalzar)
 
 
 ## Reference
