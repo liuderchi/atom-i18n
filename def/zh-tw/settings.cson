@@ -150,6 +150,10 @@ Settings:
         _id: 'core.restorePreviousWindowsOnStart'
         title: "啟動時回復視窗狀態"
         desc: "當此選項勾選時，從桌面捷徑或是從命令列輸入 <code>atom</code> 啟動時會復原所有 Atom 視窗的狀態；否則，Atom 啟動時會開啟一個空白的工作環境。"
+        select:
+          no: "no"
+          yes: "yes"
+          always: "always"
       }
       {
         _id: 'core.telemetryConsent'

@@ -177,6 +177,10 @@ Settings:
         _id: 'core.restorePreviousWindowsOnStart'
         title: "Restaurar Ventana Previa al Iniciar"
         desc: "Cuando está marcada restaura el último estado de todas las ventanas de Atom cuando es iniciado desde el ícono o con <code>atom</code> desde la línea de comandos; caso contrario un ambiente en blanco es cargado."
+        select:
+          no: "no"
+          yes: "yes"
+          always: "always"
       }
       {
         _id: 'core.telemetryConsent'
