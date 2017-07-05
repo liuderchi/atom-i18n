@@ -1,87 +1,87 @@
 Menu:
   "&File":
-    value: "File(&F)"
+    value: "Plik(&F)"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "Nowe okno(&W)"
       "&New File":
-        value: "New File(&N)"
+        value: "Nowy plik(&N)"
       "&Open File…":
-        value: "Open File(&O)..."
+        value: "Otwórz plik(&O)..."
       "Open Folder…":
-        value: "Open Folder..."
+        value: "Otwórz folder..."
       "Add Project Folder…":
-        value: "Add Project Folder..."
+        value: "Dodaj folder projektu..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Ponownie otwórz projekt"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "Wyczyść historię projektu"
       "Reopen Last &Item":
-        value: "Reopen Last Item(&I)"
+        value: "Otwórz ponownie plik(&I)"
       "&Save":
-        value: "Save(&S)"
+        value: "Zapisz(&S)"
       "Save &As…":
-        value: "Save As(&A)..."
+        value: "Zapisz jako(&A)..."
       "Save A&ll":
-        value: "Save All(&L)"
+        value: "Zapisz wszystko(&L)"
       "&Close Tab":
-        value: "Close Tab(&C)"
+        value: "Zamknij zakładkę(&C)"
       "Close &Pane":
-        value: "Close Pane(&P)"
+        value: "Zamknij panel(&P)"
       "Clos&e Window":
-        value: "Close Window(&E)"
+        value: "Zamknij okno(&E)"
       "Quit":
-        value: "Quit"
+        value: "Wyjdź"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "Zamknij wszystkie zakładki"
   "&Edit":
-    value: "Edit(&E)"
+    value: "Edytuj(&E)"
     submenu:
       "&Undo":
-        value: "Undo(&U)"
+        value: "Cofnij(&U)"
       "&Redo":
-        value: "Redo(&R)"
+        value: "Ponów(&R)"
       "&Cut":
-        value: "Cut(&C)"
+        value: "Wytnij(&C)"
       "C&opy":
-        value: "Copy(&O)"
+        value: "Kopiuj(&O)"
       "Copy Pat&h":
-        value: "Copy Path(&H)"
+        value: "Kopiuj ścieżkę(&H)"
       "&Paste":
-        value: "Paste(&P)"
+        value: "Wklej(&P)"
       "Select &All":
-        value: "Select All(&A)"
+        value: "Zaznacz wszystko(&A)"
       "&Toggle Comments":
-        value: "Toggle Comments(&T)"
+        value: "Przełącz na komentarz(&T)"
       Lines:
-        value: "Lines"
+        value: "Linie"
         submenu:
           "&Indent":
-            value: "Indent(&I)"
+            value: "Zwiększ wcięcie(&I)"
           "&Outdent":
-            value: "Outdent(&O)"
+            value: "Zmniejsz wcięcie(&O)"
           "&Auto Indent":
-            value: "Auto Indent(&A)"
+            value: "Automatyczne wcięcie(&A)"
           "Move Line &Up":
-            value: "Move Line Up(&U)"
+            value: "Przenieś linię do góry(&U)"
           "Move Line &Down":
-            value: "Move Line Down(&D)"
+            value: "Przenieś linię do dołu(&D)"
           "Du&plicate Lines":
-            value: "Duplicate Lines(&P)"
+            value: "Duplikuj linie(&P)"
           "D&elete Line":
-            value: "Delete Line(&E)"
+            value: "Skasuj linie(&E)"
           "&Join Lines":
-            value: "Join Lines(&J)"
+            value: "Połącz linie(&J)"
       Columns:
-        value: "Columns"
+        value: "Kolumny"
         submenu:
           "Move Selection &Left":
-            value: "Move Selection Left(&L)"
+            value: "Przenieś zaznaczenie na lewo(&L)"
           "Move Selection &Right":
-            value: "Move Selection Right(&R)"
+            value: "Przenieś zaznaczenie na prawo(&R)"
       Text:
-        value: "Text"
+        value: "Tekst"
         submenu:
           "&Upper Case":
             value: "Upper Case(&U)"
@@ -127,13 +127,13 @@ Menu:
           "Fold Level 9":
             value: "Fold Level 9"
       "&Preferences":
-        value: "Preferences(&P)"
+        value: "Preferencje(&P)"
       "Config…":
-        value: "Config..."
+        value: "Konfiguracja..."
       "Init Script…":
-        value: "Init Script..."
+        value: "Skrypt Init..."
       "Keymap…":
-        value: "Keymap..."
+        value: "Mapowanie klawiszy..."
       "Snippets…":
         value: "Snippets..."
       "Stylesheet…":
@@ -141,31 +141,31 @@ Menu:
       "Reflow Selection":
         value: "Reflow Selection"
       Bookmark:
-        value: "Bookmark"
+        value: "Zakładki"
         submenu:
           "View All":
-            value: "View All"
+            value: "Pokaż wszystkie"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "Przełącz zakładkę"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "Skocz do następnej zakładki"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "Skocz do poprzedniej zakładki"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "Wybierz kodowanie"
       "Go to Line":
-        value: "Go to Line"
+        value: "Idź do linii"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "Sprawdź gramatykę"
   "&View":
-    value: "View(&V)"
+    value: "Widok(&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Toggle Full Screen(&F)"
+        value: "Przełącz na pełny ekran(&F)"
       "Toggle Menu Bar":
-        value: "Toggle Menu Bar"
+        value: "Wyłącz pasek menu"
       Panes:
-        value: "Panes"
+        value: "Panele"
         submenu:
           "Split Up":
             value: "Split Up"
@@ -215,7 +215,7 @@ Menu:
       "Toggle Tree View":
         value: "Toggle Tree View"
   "&Selection":
-    value: "Selection(&S)"
+    value: "Zaznaczenia(&S)"
     submenu:
       "Add Selection &Above":
         value: "Add Selection Above(&A)"
@@ -246,7 +246,7 @@ Menu:
       "Select Inside Brackets":
         value: "Select Inside Brackets"
   "F&ind":
-    value: "Find(&I)"
+    value: "Szukaj(&I)"
     submenu:
       "Find in Buffer":
         value: "Find in Buffer"
@@ -281,25 +281,25 @@ Menu:
       "Find Modified File":
         value: "Find Modified File"
   "&Packages":
-    value: "Packages(&P)"
+    value: "Pakiety(&P)"
   "&Help":
-    value: "Help(&H)"
+    value: "Pomoc(&H)"
     submenu:
       "View &Terms of Use":
-        value: "View Terms of Use(&T)"
+        value: "Pokaż warunki korzystania(&T)"
       "View &License":
-        value: "View License(&L)"
+        value: "Pokaż licencję(&L)"
       "&Documentation":
-        value: "Documentation(&D)"
+        value: "Dokumentacja(&D)"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "Często zadawane pytania (FAQ)"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Dyskusje społeczności"
       "Report Issue":
-        value: "Report Issue"
+        value: "Zgłoś błąd"
       "Search Issues":
-        value: "Search Issues"
+        value: "Szukaj błędów"
       "About Atom":
-        value: "About Atom"
+        value: "O Atom'ie"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "Przewodnik powitalny"

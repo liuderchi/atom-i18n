@@ -72,6 +72,10 @@
           "description": "Nederlands (nl)"
         },
         {
+          "value": "pl",
+          "description": "Polski (pl)"
+        },
+        {
           "value": "pt-br",
           "description": "Português(Brazil) (pt-br)"
         },

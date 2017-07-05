@@ -10,7 +10,7 @@ Welcome:
     atomDocs: {
       text1: ""
       link: "Dokumentacja Atom'a"
-      text2: " zawiera przewodniki oraz źródła API."
+      text2: " zawiera przewodniki oraz dokumentację API."
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {

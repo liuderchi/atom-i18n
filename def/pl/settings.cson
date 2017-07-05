@@ -1,13 +1,13 @@
 Settings:
-  "tab-title": "Settings"
+  "tab-title": "Ustawienia"
   menu: [
     {
       _label: "Core"
-      value: "Core"
+      value: "Główne"
     }
     {
       _label: "Editor"
-      value: "Editor"
+      value: "Edytor"
     }
     {
       _label: "System"
@@ -15,26 +15,26 @@ Settings:
     }
     {
       _label: "Keybindings"
-      value: "Keybindings"
+      value: "Przypisanie klawiszy"
     }
     {
       _label: "Packages"
-      value: "Packages"
+      value: "Pakiety"
     }
     {
       _label: "Themes"
-      value: "Themes"
+      value: "Style"
     }
     {
       _label: "Updates"
-      value: "Updates"
+      value: "Aktualizacje"
     }
     {
       _label: "Install"
-      value: "Install"
+      value: "Zainstaluj"
     }
   ]
-  "btn-open-config-folder": "Open Config Folder"
+  "btn-open-config-folder": "Otwórz folder z konfiguracją"
   sectionHeadings: [
     {_label: "Core Settings", value: "Core Settings"}
     {_label: "Editor Settings", value: "Editor Settings"}
@@ -425,10 +425,10 @@ Settings:
     "btn-themes": "Themes"
   }
   "control-btns":{
-    install: "Install"
-    update: "Update to"
-    setting: "Settings"
-    uninstall: "Uninstall"
-    disable: "Disable"
-    enable: "Enable"
+    install: "Zainstaluj"
+    update: "Zaktualizuj do"
+    setting: "Ustawienia"
+    uninstall: "Odinstaluj"
+    disable: "Wyłącz"
+    enable: "Włącz"
   }

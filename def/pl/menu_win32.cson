@@ -1,6 +1,6 @@
 Menu:
   "&File":
-    value: "File(&F)"
+    value: "Plik(&F)"
     submenu:
       "New &Window":
         value: "New Window(&W)"
@@ -13,7 +13,7 @@ Menu:
       "Add Project Folder…":
         value: "Add Project Folder..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Ponownie otwórz projekt"
         submenu:
           "Clear Project History":
             value: "Clear Project History"

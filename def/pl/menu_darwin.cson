@@ -3,35 +3,35 @@ Menu:
     value: "Atom"
     submenu:
       "About Atom":
-        value: "About Atom"
+        value: "O Atom'ie"
       "View License":
-        value: "View License"
+        value: "Wyświetl licencję"
       "Check for Update":
-        value: "Check for Update"
+        value: "Sprawdź aktualizacje"
       "Preferences…":
-        value: "Preferences..."
+        value: "Preferencje..."
       "Config…":
-        value: "Config..."
+        value: "Konfiguracja..."
       "Init Script…":
-        value: "Init Script..."
+        value: "Skrypt Init..."
       "Keymap…":
-        value: "Keymap..."
+        value: "Mapowanie klawiszy..."
       "Snippets…":
-        value: "Snippets..."
+        value: "Fragmenty..."
       "Stylesheet…":
         value: "Stylesheet..."
       "Install Shell Commands":
-        value: "Install Shell Commands"
+        value: "Zainstaluj komendy Shell'a"
       "Hide Atom":
-        value: "Hide Atom"
+        value: "Ukryj Atom'a"
       "Hide Others":
-        value: "Hide Others"
+        value: "Ukryj inne"
       "Show All":
-        value: "Show All"
+        value: "Pokaż wszystko"
       Quit:
-        value: "Quit"
+        value: "Wyjdź"
   File:
-    value: "File"
+    value: "Plik"
     submenu:
       "New Window":
         value: "New Window"
@@ -42,7 +42,7 @@ Menu:
       "Add Project Folder…":
         value: "Add Project Folder..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Ponownie otwórz projekt"
         submenu:
           "Clear Project History":
             value: "Clear Project History"
