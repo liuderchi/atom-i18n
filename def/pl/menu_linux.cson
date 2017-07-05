@@ -203,17 +203,17 @@ Menu:
           "Toggle Developer &Tools":
             value: "Toggle Developer Tools(&T)"
       "&Increase Font Size":
-        value: "Increase Font Size(&I)"
+        value: "Zwiększ rozmiar czcionki(&I)"
       "&Decrease Font Size":
-        value: "Decrease Font Size(&D)"
+        value: "Zmniejsz rozmiar czcionki(&D)"
       "Re&set Font Size":
-        value: "Reset Font Size(&S)"
+        value: "Zresetuj rozmiar czcionki(&S)"
       "Toggle Soft &Wrap":
         value: "Toggle Soft Wrap(&W)"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "Przełącz na okno poleceń"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "Przełącz na widok drzewa"
   "&Selection":
     value: "Zaznaczenia(&S)"
     submenu:
@@ -249,37 +249,37 @@ Menu:
     value: "Szukaj(&I)"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "Szukaj w buforze"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "Zmień w buforze"
       "Select Next":
-        value: "Select Next"
+        value: "Zaznacz następny"
       "Select All":
-        value: "Select All"
+        value: "Zaznacz wszystko"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "Przełącz na szukanie w buforze"
       "Find in Project":
-        value: "Find in Project"
+        value: "Szukaj w projekcie"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "Przełącz na szukanie w projekcie"
       "Find All":
-        value: "Find All"
+        value: "Szukaj wszędzie"
       "Find Next":
-        value: "Find Next"
+        value: "Znajdź następny"
       "Find Previous":
-        value: "Find Previous"
+        value: "Znajdź poprzedni"
       "Replace Next":
-        value: "Replace Next"
+        value: "Zastąp następny"
       "Replace All":
-        value: "Replace All"
+        value: "Zastąp wszystko"
       "Clear History":
-        value: "Clear History"
+        value: "Wyczyść historię"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "Przeszukaj bufor"
       "Find File":
-        value: "Find File"
+        value: "Szukaj pliku"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "Szukaj modyfikowanego pliku"
   "&Packages":
     value: "Pakiety(&P)"
   "&Help":
