@@ -26,11 +26,19 @@
       ```
 
   5. open the cson file under folder `def/MY_LOCALE` you wanna translate
-      - NOTE: if your locale is missing, please copy `def/template` folder and rename it as [your locale](http://www.science.co.il/language/Codes.php)
+      - NOTE: if your locale is missing, please do:
 
-      ```shell
-      cd def && cp -r template MY_LOCALE
-      ```
+          - copy `def/template` folder and rename it as [your locale](http://www.science.co.il/language/Codes.php)
+              ```shell
+              cd def && cp -r template MY_LOCALE
+              ```
+          - insert one menu item in [package.json](//github.com/liuderchi/atom-i18n/blob/master/package.json) under `configSchema.locale.enum` field
+              ```js
+              {
+                "value": "pl",  # your locale code
+                "description": "Polski (pl)"  # menu item displayed
+              },
+              ```
 
   6. please read [translation guide](#translation-guide) before translation
 
