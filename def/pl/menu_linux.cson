@@ -84,19 +84,19 @@ Menu:
         value: "Tekst"
         submenu:
           "&Upper Case":
-            value: "Upper Case(&U)"
+            value: "Wielkie litery(&U)"
           "&Lower Case":
-            value: "Lower Case(&L)"
+            value: "Małe litery(&L)"
           "Delete to End of &Word":
-            value: "Delete to End of Word(&W)"
+            value: "Skasuj do końca słowa(&W)"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "Skasuj do granicy poprzedniego słowa"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "Skasuj do granicy następnego słowa"
           "&Delete Line":
-            value: "Delete Line(&D)"
+            value: "Skasuj linię(&D)"
           "&Transpose":
-            value: "Transpose(&T)"
+            value: "Transponuj(&T)"
       Folding:
         value: "Folding"
         submenu:
@@ -168,27 +168,27 @@ Menu:
         value: "Panele"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "Podziel na górze"
           "Split Down":
-            value: "Split Down"
+            value: "Podziel na dole"
           "Split Left":
-            value: "Split Left"
+            value: "Podziel po lewej"
           "Split Right":
-            value: "Split Right"
+            value: "Podziel po prawej"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "Ustaw się na następnym panelu"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "Ustaw się na poprzednim panelu"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "Ustaw się na górnym panelu"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "Ustaw się na dolnym panelu"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "Ustaw się na lewym panelu"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "Ustaw się na prawym panelu"
           "Close Pane":
-            value: "Close Pane"
+            value: "Zamknij panel"
       Developer:
         value: "Developer"
         submenu:
@@ -211,7 +211,7 @@ Menu:
       "Toggle Soft &Wrap":
         value: "Toggle Soft Wrap(&W)"
       "Toggle Command Palette":
-        value: "Przełącz na okno poleceń"
+        value: "Przełącz na linię poleceń"
       "Toggle Tree View":
         value: "Przełącz na widok drzewa"
   "&Selection":
