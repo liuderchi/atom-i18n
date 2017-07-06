@@ -68,11 +68,11 @@ Menu:
           "Move Line &Down":
             value: "Przenieś linię do dołu(&D)"
           "Du&plicate Lines":
-            value: "Duplikuj linie(&P)"
+            value: "Duplikuj linię(&P)"
           "D&elete Line":
-            value: "Skasuj linie(&E)"
+            value: "Skasuj linię(&E)"
           "&Join Lines":
-            value: "Połącz linie(&J)"
+            value: "Połącz linię(&J)"
       Columns:
         value: "Kolumny"
         submenu:

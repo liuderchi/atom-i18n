@@ -3,7 +3,7 @@ Menu:
     value: "Plik(&F)"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "Nowe okno(&W)"
       "&New File":
         value: "New File(&N)"
       "&Open File…":
@@ -30,7 +30,7 @@ Menu:
       "Snippets…":
         value: "Snippets..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Arkusz stylów..."
       "&Save":
         value: "Save(&S)"
       "Save &As…":
@@ -246,62 +246,62 @@ Menu:
       "Select Inside Brackets":
         value: "Select Inside Brackets"
   "F&ind":
-    value: "Find(&I)"
+    value: "Szukaj(&I)"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "Szukaj w buforze"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "Zmień w buforze"
       "Select Next":
-        value: "Select Next"
+        value: "Zaznacz następny"
       "Select All":
-        value: "Select All"
+        value: "Zaznacz wszystko"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "Przełącz na szukanie w buforze"
       "Find in Project":
-        value: "Find in Project"
+        value: "Szukaj w projekcie"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "Przełącz na szukanie w projekcie"
       "Find All":
-        value: "Find All"
+        value: "Szukaj wszędzie"
       "Find Next":
-        value: "Find Next"
+        value: "Znajdź następny"
       "Find Previous":
-        value: "Find Previous"
+        value: "Znajdź poprzedni"
       "Replace Next":
-        value: "Replace Next"
+        value: "Zastąp następny"
       "Replace All":
-        value: "Replace All"
+        value: "Zastąp wszystko"
       "Clear History":
-        value: "Clear History"
+        value: "Wyczyść historię"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "Przeszukaj bufor"
       "Find File":
-        value: "Find File"
+        value: "Szukaj pliku"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "Szukaj modyfikowanego pliku"
   "&Packages":
-    value: "Packages(&P)"
+    value: "Pakiety(&P)"
   "&Help":
-    value: "Help(&H)"
+    value: "Pomoc(&H)"
     submenu:
       "View &Terms of Use":
-        value: "View &Terms of Use"
+        value: "Pokaż warunki korzystania"
       "View &License":
-        value: "View &License"
+        value: "Pokaż licencję"
       "Check for Update":
-        value: "Check for Update"
+        value: "Sprawdź aktualizacje"
       "&Documentation":
-        value: "Documentation(&D)"
+        value: "Dokumentacja(&D)"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "Często zadawane pytania (FAQ)"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Dyskusje społeczności"
       "Report Issue":
-        value: "Report Issue"
+        value: "Zgłoś błąd"
       "Search Issues":
-        value: "Search Issues"
+        value: "Szukaj błędów"
       "About Atom":
-        value: "About Atom"
+        value: "O Atom'ie"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "Przewodnik powitalny"
