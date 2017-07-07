@@ -93,23 +93,27 @@
           # more ...
       ```
 
-  3. for the menu label containing **hotkey hint** `&`, we can **preserve it with braces** wrapped at the end or **preserve it in the word** for best user experience.
+  3. for the menu label containing **hotkey hint** `&`, we can **preserve it in the word** or **preserve it with braces** wrapped at the end. It's up to user experience.
 
-      - for example let's checkout how `def/ja/menu_win32.cson` is translated into Japanese:
+      - let's look at `menu_win32.cson`:
 
       ```coffee
+      # preserve it in the word (fr)
       Menu:
-        "&File":                # hotkey hint: &F
-          value: "ファイル(&F)"      # &F -> (&F)
+        "&File":
+          value: "&Fichier"         # "&File" -> "&Fichier"  (hotkey hint: &F)
           submenu:
-            "New &Window":                # hotkey hint: &W
-              value: "新規ウインドウ(&W)"       # &W -> (&W)
-            # more ...
+            "New &Window":
+              value: "Nouvelle &fenêtre"      # "New &Window" -> "Nouvelle &fenêtre"  (hotkey hint: &w)
+
+      # or preserve it with braces (ja)
+      Menu:
+        "&File":
+          value: "ファイル(&F)"      # "&File" -> "ファイル(&F)"  (hotkey hint: &F)
+          submenu:
+            "New &Window":
+              value: "新規ウインドウ(&W)"       # "New &Window" -> "新規ウインドウ(&W)"  (hotkey hint: &w)
       ```
-
-the values of key `"&File"` ,`"New &Window"` are translated into `"ファイル(&F)"`, `"新規ウインドウ(&W)"`.
-
-For French, you can translate them into `"&Fichier"`, `"Nouvelle &fenêtre"`.
 
 
 ## How to Preview Your Translation in Development?
