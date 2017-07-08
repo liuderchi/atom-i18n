@@ -1,0 +1,18 @@
+# code owner will automatically be PR reviewer for specific code
+# ref: https://help.github.com/articles/about-codeowners/
+
+*   @liuderchi
+
+# def/ar/*.cson
+def/de/*.cson        @Acer54
+def/es/*.cson        @stsewd
+def/fr/*.cson        @chezyann  @Vivalzar
+# def/hi/*.cson
+def/ja/*.cson        @liuderchi
+def/ko/*.cson        @preco21  @chibichichi  @Riyeon  @nerhis
+def/nl/*.cson        @laurensbrand
+def/pl/*.cson        @nolt
+def/pt-br/*.cson     @jsolisu
+def/ru/*.cson        @Anonym0uz  @Driglu4it
+def/zh-cn/*.cson     @trifirew
+def/zh-tw/*.cson     @liuderchi
