@@ -286,9 +286,9 @@ Menu:
     value: "Pomoc(&H)"
     submenu:
       "View &Terms of Use":
-        value: "Pokaż warunki korzystania"
+        value: "Pokaż &warunki korzystania"
       "View &License":
-        value: "Pokaż licencję"
+        value: "Pokaż &licencję"
       "Check for Update":
         value: "Sprawdź aktualizacje"
       "&Documentation":
