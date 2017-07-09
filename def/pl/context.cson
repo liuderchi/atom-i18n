@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Zbadaj element"
+  "atom-text-editor":
+    "color-picker:open": "Wybór koloru"
+    "minimap:toggle": "Przełącz minimapę"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Cofnij"
+    "core:redo": "Ponów"
+    "core:cut": "Wytnij"
+    "core:copy": "Kopiuj"
+    "core:paste": "Wklej"
+    "core:delete": "Skasuj"
+    "core:select-all": "Zaznacz wszystko"
+    "pane:split-up-and-copy-active-item": "Podziel na górze"
+    "pane:split-down-and-copy-active-item": "Podziel na dole"
+    "pane:split-left-and-copy-active-item": "Podziel po lewej"
+    "pane:split-right-and-copy-active-item": "Podziel po prawej"
+    "pane:close": "Zamknij panel"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Podziel na górze"
+    "pane:split-down-and-copy-active-item": "Podziel na dole"
+    "pane:split-left-and-copy-active-item": "Podziel po lewej"
+    "pane:split-right-and-copy-active-item": "Podziel po prawej"
+    "pane:close": "Zamknij panel"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Zmień kodowanie"
+    "spell-check:correct-misspelling": "Popraw pisownię"
+    "symbols-view:go-to-declaration": "Idź do deklaracji"
+  ".overlayer":
+    "grammar-selector:show": "Zmień gramatykę"
+  ".image-view":
+    "image-view:reload": "Przeładuj obraz"
+  ".tab":
+    "tabs:close-tab": "Zamknij zakładkę"
+    "tabs:close-other-tabs": "Zamknij inne zakładki"
+    "tabs:close-tabs-to-right": "Zamknij zakładki po prawej"
+    "tabs:close-tabs-to-left": "Zamknij zakładki po lewej"
+    "tabs:close-saved-tabs": "Zamknij zapisane zakładki"
+    "tabs:close-all-tabs": "Zamknij wszystkie zakładki"
+    "tabs:split-up": "Podziel na górze"
+    "tabs:split-down": "Podziel na dole"
+    "tabs:split-left": "Podziel po lewej"
+    "tabs:split-right": "Podziel po prawej"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Otwórz w nowym oknie"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Zachowaj oczekującą zakładkę"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Otwórz zamkniętą zakładkę"
+  ".tree-view.full-menu":
+    "tree-view:add-file": "Nowy plik"
+    "tree-view:add-folder": "Nowy folder"
+    "tree-view:move": "Zmień nazwę"
+    "tree-view:duplicate": "Duplikuj"
+    "tree-view:remove": "Skasuj"
+    "tree-view:copy": "Kopiuj"
+    "tree-view:cut": "Wytnij"
+    "tree-view:paste": "Wklej"
+    "tree-view:open-selected-entry-up": "Podziel na górze"
+    "tree-view:open-selected-entry-down": "Podziel na dole"
+    "tree-view:open-selected-entry-left": "Podziel po lewej"
+    "tree-view:open-selected-entry-right": "Podziel po prawej"
+    "application:add-project-folder": "Dodaj folder projektu"
+    "tree-view:copy-full-path": "Skopiuj pełną ścieżkę"
+    "tree-view:copy-project-path": "Skopiuj ścieżkę projektu"
+    "tree-view:open-in-new-window": "Otwórz w nowym oknie"
+  '.tree-view.full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Podziel na górze"
+    "tree-view:open-selected-entry-down": "Podziel na dole"
+    "tree-view:open-selected-entry-left": "Podziel po lewej"
+    "tree-view:open-selected-entry-right": "Podziel po prawej"
+  ".tree-view.full-menu .project-root > .header":
+    "tree-view:add-file": "Nowy plik"
+    "tree-view:add-folder": "Nowy folder"
+    "tree-view:move": "Zmień nazwę"
+    "tree-view:duplicate": "Duplikuj"
+    "tree-view:remove": "Skasuj"
+    "tree-view:copy": "Kopiuj"
+    "tree-view:cut": "Wytnij"
+    "tree-view:paste": "Wklej"
+    "tree-view:open-selected-entry-up": "Podziel na górze"
+    "tree-view:open-selected-entry-down": "Podziel na dole"
+    "tree-view:open-selected-entry-left": "Podziel po lewej"
+    "tree-view:open-selected-entry-right": "Podziel po prawej"
+    "application:add-project-folder": "Dodaj folder projektu"
+    "tree-view:remove-project-folder": "Usuń folder projektu"
+    "tree-view:copy-full-path": "Skopiuj pełną ścieżkę"
+    "tree-view:copy-project-path": "Skopiuj ścieżkę projektu"
+    "tree-view:open-in-new-window": "Otwórz w nowym oknie"
+  ".platform-darwin .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Pokaż w folderze"
+  ".platform-win32 .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Pokaż w eksplorerze"
+  ".platform-linux .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Pokaż w menedżerze plików"
+  ".tree-view > li.directory":
+    "project-find:show-in-current-directory": "Szukaj w katalogu"
+  ".tree-view.multi-select":
+    "tree-view:remove": "Skasuj"
+    "tree-view:copy": "Kopiuj"
+    "tree-view:cut": "Wytnij"
+    "tree-view:paste": "Wklej"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Pokaż w widoku drzewa"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Zmień nazwę"
+    "tree-view:reveal-active-file": "Pokaż w widoku drzewa"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Pokaż w wyszukiwarce"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Pokaż w eksploratorze"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Pokaż w menedżerze plików"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Pokaż w wyszukiwarce"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Pokaż w eksploratorze"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Pokaż w menedżerze plików"
