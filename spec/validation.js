@@ -14,27 +14,8 @@ const CSON = require('cson')
 const { expect } = require('chai')
 
 const { flattenObj } = require('./util.js')
-
-const LOCALES = [
-  'ar',
-  'de',
-  'es',
-  'fr',
-  'hi',
-  'ja',
-  'ko',
-  'nl',
-  'pl',
-  'pt-br',
-  'ru',
-  'zh-cn',
-  'zh-tw',
-  'template'
-]
-const CsonFiles = [
-  'menu_darwin.cson', 'menu_linux.cson', 'menu_win32.cson',
-  'context.cson', 'settings.cson', 'about.cson', 'welcome.cson'
-]
+const LOCALES = require('./locales.js')
+const CsonFiles = require('./defs.js')
 
 describe('validation', () => {
 
@@ -83,7 +64,7 @@ describe('validation', () => {
                   const specialChr = /[\~\@\#\%\^\*]/g
                   const _str = flattenCson[k].toString()
                   const _res = _str.search(specialChr)
-                  const errMsg = `\n\tfound special chr: \'${_str[_res]}\'\n\tdata: ${_str}`
+                  const errMsg = `\n\tfound special chr: \'${_str[_res]}\' in value: \'${_str}\'\n\n\tcson-path: \'${k}\'\t`
                   expect(_res, errMsg).to.equal(-1)
                 }
               })
@@ -95,7 +76,7 @@ describe('validation', () => {
                     const hasAmpersand = menuItemName.match(/\&/g)
                     if (hasAmpersand) {
                       const hotkeyHintRegex = /\&\w/g
-                      const errMsg = `\n\tinvalid hotkey hint in \'${_str}\'`
+                      const errMsg = `\n\tinvalid or missing hotkey hint in \'${_str}\'\n\n\tcson-path: \'${k}\'\t`
                       expect(_str.search(hotkeyHintRegex), errMsg).to.not.equal(-1)
                     }
                   }
