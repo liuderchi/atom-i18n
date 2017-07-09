@@ -14,27 +14,8 @@ const CSON = require('cson')
 const { expect } = require('chai')
 
 const { flattenObj } = require('./util.js')
-
-const LOCALES = [
-  'ar',
-  'de',
-  'es',
-  'fr',
-  'hi',
-  'ja',
-  'ko',
-  'nl',
-  'pl',
-  'pt-br',
-  'ru',
-  'zh-cn',
-  'zh-tw',
-  'template'
-]
-const CsonFiles = [
-  'menu_darwin.cson', 'menu_linux.cson', 'menu_win32.cson',
-  'context.cson', 'settings.cson', 'about.cson', 'welcome.cson'
-]
+const LOCALES = require('./locales.js')
+const CsonFiles = require('./defs.js')
 
 describe('validation', () => {
 
