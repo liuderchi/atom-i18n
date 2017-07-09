@@ -83,7 +83,7 @@ describe('validation', () => {
                   const specialChr = /[\~\@\#\%\^\*]/g
                   const _str = flattenCson[k].toString()
                   const _res = _str.search(specialChr)
-                  const errMsg = `\n\tfound special chr: \'${_str[_res]}\'\n\tdata: ${_str}`
+                  const errMsg = `\n\tfound special chr: \'${_str[_res]}\' in value: \'${_str}\'\n\n\tcson-path: \'${k}\'\t`
                   expect(_res, errMsg).to.equal(-1)
                 }
               })
@@ -95,7 +95,7 @@ describe('validation', () => {
                     const hasAmpersand = menuItemName.match(/\&/g)
                     if (hasAmpersand) {
                       const hotkeyHintRegex = /\&\w/g
-                      const errMsg = `\n\tinvalid hotkey hint in \'${_str}\'`
+                      const errMsg = `\n\tinvalid or missing hotkey hint in \'${_str}\'\n\n\tcson-path: \'${k}\'\t`
                       expect(_str.search(hotkeyHintRegex), errMsg).to.not.equal(-1)
                     }
                   }
