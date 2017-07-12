@@ -1,10 +1,16 @@
+## 0.10.0 - Polish support
+* Polish support (80%) #92
+* Fix cson key inconsistent #89
+* refactoring validation
+
+
 ## 0.9.2 - Fix Banner in README
 * fix banner link in README
 
 ## 0.9.1 - French I18n Fix
-* French grammar fix
-* Don't enforce hot key hint consistency in menu
-* deprecate atom v1.15
+* French grammar fix #85
+* Don't enforce hot key hint consistency in menu #87
+* deprecate atom v1.15 #84
 * Refactoring validation code
 
 
