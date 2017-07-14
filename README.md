@@ -1,7 +1,11 @@
 # atom-i18n
 
-![contribute-welcome-banner][contribute-welcome-banner]
-[![Build Status](https://travis-ci.org/liuderchi/atom-i18n.svg?branch=master)][travis-project] [![dependencies Status](https://david-dm.org/liuderchi/atom-i18n/status.svg)](https://david-dm.org/liuderchi/atom-i18n)
+[![apm-download-count][apm-download-count]][apm-download-link]
+[![contributor-count][contributor-count]][contributors]
+[![contribute-welcome-banner][contribute-welcome-banner]][CONTRIBUTING.md]
+[![issues-count][issues-count]][issues]
+[![Build Status][travis-status]][travis-project]
+[![dependencies Status][david-status]][david-project]
 
 Localize [Atom][atom] :atom: for your locale.
 
@@ -89,7 +93,15 @@ Community-driven translation. :family:
   * `spec/` contains scripts checking cson files inside `def/`
 
 
+[apm-download-count]: https://img.shields.io/apm/dm/atom-i18n.svg "apm-download-count"
+[apm-download-link]: https://atom.io/packages/atom-i18n "apm-download-link"
+[contributor-count]: https://img.shields.io/github/contributors/liuderchi/atom-i18n.svg "contributor-count"
+[contributors]: https://github.com/liuderchi/atom-i18n#thanks-to-contributors "contributors"
 [contribute-welcome-banner]: https://camo.githubusercontent.com/9c8a9bb0456c3bff0d34d8ea66071420f1ab2c44/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6e747269627574696f6e732d77656c636f6d652d626c75652e737667 "welcome-banner"
+[CONTRIBUTING.md]: https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md "CONTRIBUTING.md"
+[issues-count]: https://img.shields.io/github/issues/liuderchi/atom-i18n.svg "issues-count"
+[issues]: https://github.com/liuderchi/atom-i18n/issues "issues"
+[travis-status]: https://travis-ci.org/liuderchi/atom-i18n.svg?branch=master "travis-status"
 [travis-project]: https://travis-ci.org/liuderchi/atom-i18n "travis-project"
 [david-status]: https://david-dm.org/liuderchi/atom-i18n/status.svg "david-status"
 [david-project]: https://david-dm.org/liuderchi/atom-i18n "david-project"
@@ -115,4 +127,3 @@ Community-driven translation. :family:
 
 [Create Issue]: https://github.com/liuderchi/atom-i18n/issues/new "Create Issue"
 [help-wanted issues]: https://github.com/liuderchi/atom-i18n/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
-[CONTRIBUTING.md]: https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md "CONTRIBUTING.md"
