@@ -91,29 +91,29 @@ Menu:
           "Auto Indent":
             value: "Auto Indent"
           "Move Line Up":
-            value: "Move Line Up"
+            value: "Sposta linea su"
           "Move Line Down":
-            value: "Move Line Down"
+            value: "Sposta linea giù"
           "Duplicate Lines":
-            value: "Duplicate Lines"
+            value: "Duplica linee"
           "Delete Line":
-            value: "Delete Line"
+            value: "Elimina linea"
           "Join Lines":
-            value: "Join Lines"
+            value: "Unisci linee"
       Columns:
-        value: "Columns"
+        value: "Colonne"
         submenu:
           "Move Selection Left":
-            value: "Move Selection Left"
+            value: "Sposta la selezione a sinistra"
           "Move Selection Right":
-            value: "Move Selection Right"
+            value: "Sposta la selezione a destra"
       Text:
-        value: "Text"
+        value: "Testo"
         submenu:
           "Upper Case":
-            value: "Upper Case"
+            value: "Maiuscola"
           "Lower Case":
-            value: "Lower Case"
+            value: "Minuscola"
           "Delete to End of Word":
             value: "Delete to End of Word"
           "Delete to Previous Word Boundary":
@@ -121,7 +121,7 @@ Menu:
           "Delete to Next Word Boundary":
             value: "Delete to Next Word Boundary"
           "Delete Line":
-            value: "Delete Line"
+            value: "Elimina linea"
           Transpose:
             value: "Transpose"
       Folding:

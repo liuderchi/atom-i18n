@@ -23,15 +23,15 @@ Settings:
     }
     {
       _label: "Themes"
-      value: "Themes"
+      value: "Temi"
     }
     {
       _label: "Updates"
-      value: "Updates"
+      value: "Aggiornamenti"
     }
     {
       _label: "Install"
-      value: "Install"
+      value: "Installa"
     }
   ]
   "btn-open-config-folder": "Open Config Folder"
@@ -40,20 +40,20 @@ Settings:
     {_label: "Editor Settings", value: "Editor Settings"}
     {_label: "System Settings", value: "System Settings"}
     {_label: "Keybindings", value: "Keybindings"}
-    {_label: "Installed Packages", value: "Installed Packages"}
-    {_label: "Choose a Theme", value: "Choose a Theme"}
+    {_label: "Installed Packages", value: "Pacchetti installati"}
+    {_label: "Choose a Theme", value: "Scegli un tema"}
     {_label: "Installed Themes", value: "Installed Themes"}
-    {_label: "Install Packages", value: "Install Packages"}
+    {_label: "Install Packages", value: "Installa pacchetti"}
     {_label: "Featured Packages", value: "Featured Packages"}
     {_label: "Install Themes", value: "Install Themes"}
     {_label: "Featured Themes", value: "Featured Themes"}
-    {_label: "Available Updates", value: "Available Updates"}
+    {_label: "Available Updates", value: "Aggiornamenti disponibili"}
   ]
   subSectionHeadings: [
-    {_label: "Invisible", value: "Invisible"}
-    {_label: "Community Packages", value: "Community Packages"}
+    {_label: "Invisible", value: "Invisibile"}
+    {_label: "Community Packages", value: "Pacchetti della Community"}
     {_label: "Core Packages", value: "Core Packages"}
-    {_label: "Development Packages", value: "Development Packages"}
+    {_label: "Development Packages", value: "Pacchetti di sviluppo"}
     {_label: "Git Packages", value: "Git Packages"}
     {_label: "Community Themes", value: "Community Themes"}
     {_label: "Core Themes", value: "Core Themes"}
@@ -92,8 +92,8 @@ Settings:
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automatically Update"
-        desc: "Automatically update Atom when a new release is available."
+        title: "Aggiorna automaticamente"
+        desc: "Aggiorna Atom automaticamente quando un nuovo rilascio risulta disponibile."
       }
       {
         _id: 'core.autoHideMenuBar'
@@ -107,8 +107,8 @@ Settings:
       }
       {
         _id: 'core.closeEmptyWindows'
-        title: "Close Empty Windows"
-        desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
+        title: "Chiudi le finestre vuote"
+        desc: "Quando il comando 'Chiudi scheda' è attivato per una finestra senza schede o pannelli aperti, viene chiusa la finestra stessa."
       }
       {
         _id: 'core.destroyEmptyPanes'
