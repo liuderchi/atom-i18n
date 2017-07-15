@@ -1,0 +1,325 @@
+Menu:
+  Atom:
+    value: "Atom"
+    submenu:
+      "About Atom":
+        value: "About Atom"
+      "View License":
+        value: "View License"
+      "Check for Update":
+        value: "Check for Update"
+      "Preferences…":
+        value: "Preferences..."
+      "Config…":
+        value: "Config..."
+      "Init Script…":
+        value: "Init Script..."
+      "Keymap…":
+        value: "Keymap..."
+      "Snippets…":
+        value: "Snippets..."
+      "Stylesheet…":
+        value: "Stylesheet..."
+      "Install Shell Commands":
+        value: "Install Shell Commands"
+      "Hide Atom":
+        value: "Hide Atom"
+      "Hide Others":
+        value: "Hide Others"
+      "Show All":
+        value: "Show All"
+      Quit:
+        value: "Quit"
+  File:
+    value: "File"
+    submenu:
+      "New Window":
+        value: "New Window"
+      "New File":
+        value: "New File"
+      "Open…":
+        value: "Open..."
+      "Add Project Folder…":
+        value: "Add Project Folder..."
+      "Reopen Project":
+        value: "Reopen Project"
+        submenu:
+          "Clear Project History":
+            value: "Clear Project History"
+      "Reopen Last Item":
+        value: "Reopen Last Item"
+      Save:
+        value: "Save"
+      "Save As…":
+        value: "Save As..."
+      "Save All":
+        value: "Save All"
+      "Close Tab":
+        value: "Close Tab"
+      "Close Pane":
+        value: "Close Pane"
+      "Close Window":
+        value: "Close Window"
+      "Close All Tabs":
+        value: "Close All Tabs"
+  Edit:
+    value: "Edit"
+    submenu:
+      Undo:
+        value: "Undo"
+      Redo:
+        value: "Redo"
+      Cut:
+        value: "Cut"
+      Copy:
+        value: "Copy"
+      "Copy Path":
+        value: "Copy Path"
+      Paste:
+        value: "Paste"
+      "Select All":
+        value: "Select All"
+      "Toggle Comments":
+        value: "Toggle Comments"
+      Lines:
+        value: "Lines"
+        submenu:
+          Indent:
+            value: "Indent"
+          Outdent:
+            value: "Outdent"
+          "Auto Indent":
+            value: "Auto Indent"
+          "Move Line Up":
+            value: "Move Line Up"
+          "Move Line Down":
+            value: "Move Line Down"
+          "Duplicate Lines":
+            value: "Duplicate Lines"
+          "Delete Line":
+            value: "Delete Line"
+          "Join Lines":
+            value: "Join Lines"
+      Columns:
+        value: "Columns"
+        submenu:
+          "Move Selection Left":
+            value: "Move Selection Left"
+          "Move Selection Right":
+            value: "Move Selection Right"
+      Text:
+        value: "Text"
+        submenu:
+          "Upper Case":
+            value: "Upper Case"
+          "Lower Case":
+            value: "Lower Case"
+          "Delete to End of Word":
+            value: "Delete to End of Word"
+          "Delete to Previous Word Boundary":
+            value: "Delete to Previous Word Boundary"
+          "Delete to Next Word Boundary":
+            value: "Delete to Next Word Boundary"
+          "Delete Line":
+            value: "Delete Line"
+          Transpose:
+            value: "Transpose"
+      Folding:
+        value: "Folding"
+        submenu:
+          Fold:
+            value: "Fold"
+          Unfold:
+            value: "Unfold"
+          "Unfold All":
+            value: "Unfold All"
+          "Fold All":
+            value: "Fold All"
+          "Fold Level 1":
+            value: "Fold Level 1"
+          "Fold Level 2":
+            value: "Fold Level 2"
+          "Fold Level 3":
+            value: "Fold Level 3"
+          "Fold Level 4":
+            value: "Fold Level 4"
+          "Fold Level 5":
+            value: "Fold Level 5"
+          "Fold Level 6":
+            value: "Fold Level 6"
+          "Fold Level 7":
+            value: "Fold Level 7"
+          "Fold Level 8":
+            value: "Fold Level 8"
+          "Fold Level 9":
+            value: "Fold Level 9"
+      "Reflow Selection":
+        value: "Reflow Selection"
+      Bookmark:
+        value: "Bookmark"
+        submenu:
+          "View All":
+            value: "View All"
+          "Toggle Bookmark":
+            value: "Toggle Bookmark"
+          "Jump to Next Bookmark":
+            value: "Jump to Next Bookmark"
+          "Jump to Previous Bookmark":
+            value: "Jump to Previous Bookmark"
+      "Select Encoding":
+        value: "Select Encoding"
+      "Go to Line":
+        value: "Go to Line"
+      "Select Grammar":
+        value: "Select Grammar"
+  View:
+    value: "View"
+    submenu:
+      "Toggle Full Screen":
+        value: "Toggle Full Screen"
+      Panes:
+        value: "Panes"
+        submenu:
+          "Split Up":
+            value: "Split Up"
+          "Split Down":
+            value: "Split Down"
+          "Split Left":
+            value: "Split Left"
+          "Split Right":
+            value: "Split Right"
+          "Focus Next Pane":
+            value: "Focus Next Pane"
+          "Focus Previous Pane":
+            value: "Focus Previous Pane"
+          "Focus Pane Above":
+            value: "Focus Pane Above"
+          "Focus Pane Below":
+            value: "Focus Pane Below"
+          "Focus Pane On Left":
+            value: "Focus Pane On Left"
+          "Focus Pane On Right":
+            value: "Focus Pane On Right"
+          "Close Pane":
+            value: "Close Pane"
+      Developer:
+        value: "Developer"
+        submenu:
+          "Open In Dev Mode…":
+            value: "Open In Dev Mode..."
+          "Reload Window":
+            value: "Reload Window"
+          "Run Package Specs":
+            value: "Run Package Specs"
+          "Run Benchmarks":
+            value: "Run Benchmarks"
+          "Toggle Developer Tools":
+            value: "Toggle Developer Tools"
+      "Increase Font Size":
+        value: "Increase Font Size"
+      "Decrease Font Size":
+        value: "Decrease Font Size"
+      "Reset Font Size":
+        value: "Reset Font Size"
+      "Toggle Soft Wrap":
+        value: "Toggle Soft Wrap"
+      "Toggle Command Palette":
+        value: "Toggle Command Palette"
+      "Toggle Tree View":
+        value: "Toggle Tree View"
+  Selection:
+    value: "Selection"
+    submenu:
+      "Add Selection Above":
+        value: "Add Selection Above"
+      "Add Selection Below":
+        value: "Add Selection Below"
+      "Single Selection":
+        value: "Single Selection"
+      "Split into Lines":
+        value: "Split into Lines"
+      "Select to Top":
+        value: "Select to Top"
+      "Select to Bottom":
+        value: "Select to Bottom"
+      "Select Line":
+        value: "Select Line"
+      "Select Word":
+        value: "Select Word"
+      "Select to Beginning of Word":
+        value: "Select to Beginning of Word"
+      "Select to Beginning of Line":
+        value: "Select to Beginning of Line"
+      "Select to First Character of Line":
+        value: "Select to First Character of Line"
+      "Select to End of Word":
+        value: "Select to End of Word"
+      "Select to End of Line":
+        value: "Select to End of Line"
+      "Select Inside Brackets":
+        value: "Select Inside Brackets"
+  Find:
+    value: "Find"
+    submenu:
+      "Find in Buffer":
+        value: "Find in Buffer"
+      "Replace in Buffer":
+        value: "Replace in Buffer"
+      "Select Next":
+        value: "Select Next"
+      "Select All":
+        value: "Select All"
+      "Toggle Find in Buffer":
+        value: "Toggle Find in Buffer"
+      "Find in Project":
+        value: "Find in Project"
+      "Toggle Find in Project":
+        value: "Toggle Find in Project"
+      "Find All":
+        value: "Find All"
+      "Find Next":
+        value: "Find Next"
+      "Find Previous":
+        value: "Find Previous"
+      "Replace Next":
+        value: "Replace Next"
+      "Replace All":
+        value: "Replace All"
+      "Clear History":
+        value: "Clear History"
+      "Find Buffer":
+        value: "Find Buffer"
+      "Find File":
+        value: "Find File"
+      "Find Modified File":
+        value: "Find Modified File"
+  Packages:
+    value: "Packages"
+  Window:
+    value: "Window"
+    submenu:
+      Minimize:
+        value: "Minimize"
+      Zoom:
+        value: "Zoom"
+      "Bring All to Front":
+        value: "Bring All to Front"
+  Help:
+    value: "Help"
+    submenu:
+      "Terms of Use":
+        value: "Terms of Use"
+      Documentation:
+        value: "Documentation"
+      Roadmap:
+        value: "Roadmap"
+      "Frequently Asked Questions":
+        value: "Frequently Asked Questions"
+      "Community Discussions":
+        value: "Community Discussions"
+      "Report Issue":
+        value: "Report Issue"
+      "Search Issues":
+        value: "Search Issues"
+      "Welcome Guide":
+        value: "Welcome Guide"
