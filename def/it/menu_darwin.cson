@@ -3,15 +3,15 @@ Menu:
     value: "Atom"
     submenu:
       "About Atom":
-        value: "About Atom"
+        value: "Info su Atom"
       "View License":
-        value: "View License"
+        value: "Vedi la Licenza"
       "Check for Update":
-        value: "Check for Update"
+        value: "Verifica aggiornamenti"
       "Preferences…":
-        value: "Preferences..."
+        value: "Preferenze..."
       "Config…":
-        value: "Config..."
+        value: "Configura..."
       "Init Script…":
         value: "Init Script..."
       "Keymap…":
@@ -21,71 +21,71 @@ Menu:
       "Stylesheet…":
         value: "Stylesheet..."
       "Install Shell Commands":
-        value: "Install Shell Commands"
+        value: "Installa i comandi da Shell"
       "Hide Atom":
-        value: "Hide Atom"
+        value: "Nascondi Atom"
       "Hide Others":
-        value: "Hide Others"
+        value: "Nascondi gli altri"
       "Show All":
-        value: "Show All"
+        value: "Mostra tutto"
       Quit:
-        value: "Quit"
+        value: "Esci"
   File:
     value: "File"
     submenu:
       "New Window":
-        value: "New Window"
+        value: "Nuova Finestra"
       "New File":
-        value: "New File"
+        value: "Nuovo File"
       "Open…":
-        value: "Open..."
+        value: "Apri..."
       "Add Project Folder…":
-        value: "Add Project Folder..."
+        value: "Aggiungi una cartella di progetto..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Riapri il progetto"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "Svuota cronologia del progetto"
       "Reopen Last Item":
-        value: "Reopen Last Item"
+        value: "Riapri l'ultimo Item"
       Save:
-        value: "Save"
+        value: "Salva"
       "Save As…":
-        value: "Save As..."
+        value: "Salva con nome..."
       "Save All":
-        value: "Save All"
+        value: "Salva tutti"
       "Close Tab":
-        value: "Close Tab"
+        value: "Chiudi la scheda"
       "Close Pane":
-        value: "Close Pane"
+        value: "Chiudi il pannello"
       "Close Window":
-        value: "Close Window"
+        value: "Chiudi la finestra"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "Chiudi tutte le schede"
   Edit:
-    value: "Edit"
+    value: "Modifica"
     submenu:
       Undo:
-        value: "Undo"
+        value: "Annulla"
       Redo:
-        value: "Redo"
+        value: "Ripeti"
       Cut:
-        value: "Cut"
+        value: "Taglia"
       Copy:
-        value: "Copy"
+        value: "Copia"
       "Copy Path":
-        value: "Copy Path"
+        value: "Copia percorso"
       Paste:
-        value: "Paste"
+        value: "Incolla"
       "Select All":
-        value: "Select All"
+        value: "Seleziona tutto"
       "Toggle Comments":
-        value: "Toggle Comments"
+        value: "Attiva/Disattiva commenti"
       Lines:
-        value: "Lines"
+        value: "Linee"
         submenu:
           Indent:
-            value: "Indent"
+            value: "Indenta"
           Outdent:
             value: "Outdent"
           "Auto Indent":
