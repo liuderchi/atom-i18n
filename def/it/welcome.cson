@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "Benvenuto"
+  subtitle: {
+    text1: "Un editor di test hackerabile per il 21"
+    superscript: "o"
+    text2: " secolo"
+  }
+  help: {
+    forHelpVisit: "Per supporto, visita"
+    atomDocs: {
+      text1: "La "
+      link: "documentazione di Atom"
+      text2: " per Guide e consultazione delle API."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "Il forum di Atom su "
+      link: "discuss.atom.io"
+      text2: ""   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: "Il sito "
+      link: "Atom org"
+      text2: ". Dove si possono trovare tutti i pacchetti per Atom creati con GitHub."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "Mostra la Guida di benvenuto all'avvio di Atom"
