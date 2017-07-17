@@ -1,0 +1,307 @@
+Menu:
+  "&File":
+    value: "File(&F)"
+    submenu:
+      "New &Window":
+        value: "New Window(&W)"
+      "&New File":
+        value: "New File(&N)"
+      "&Open File…":
+        value: "Open File(&O)..."
+      "Open Folder…":
+        value: "Open Folder..."
+      "Add Project Folder…":
+        value: "Add Project Folder..."
+      "Reopen Project":
+        value: "Reopen Project"
+        submenu:
+          "Clear Project History":
+            value: "Clear Project History"
+      "Reopen Last &Item":
+        value: "Reopen Last Item(&I)"
+      "Se&ttings":
+        value: "Settings(&T)..."
+      "Config…":
+        value: "Config..."
+      "Init Script…":
+        value: "Init Script..."
+      "Keymap…":
+        value: "Keymap..."
+      "Snippets…":
+        value: "Snippets..."
+      "Stylesheet…":
+        value: "Stylesheet..."
+      "&Save":
+        value: "Save(&S)"
+      "Save &As…":
+        value: "Save As(&A)..."
+      "Save A&ll":
+        value: "Save All(&L)"
+      "&Close Tab":
+        value: "Close Tab(&C)"
+      "Close &Pane":
+        value: "Close Pane(&P)"
+      "Clos&e Window":
+        value: "Close Window(&E)"
+      "E&xit":
+        value: "Exit(&X)"
+      "Close All Tabs":
+        value: "Close All Tabs"
+  "&Edit":
+    value: "Edit(&E)"
+    submenu:
+      "&Undo":
+        value: "Undo(&U)"
+      "&Redo":
+        value: "Redo(&R)"
+      "Cu&t":
+        value: "Cut(&T)"
+      "&Copy":
+        value: "Copy(&C)"
+      "Copy Pat&h":
+        value: "Copy Path(&H)"
+      "&Paste":
+        value: "Paste(&P)"
+      "Select &All":
+        value: "Select All(&A)"
+      "&Toggle Comments":
+        value: "Toggle Comments(&T)"
+      Lines:
+        value: "Lines"
+        submenu:
+          "&Indent":
+            value: "Indent(&I)"
+          "&Outdent":
+            value: "Outdent(&O)"
+          "&Auto Indent":
+            value: "Auto Indent(&A)"
+          "Move Line &Up":
+            value: "Move Line Up(&U)"
+          "Move Line &Down":
+            value: "Move Line Down(&D)"
+          "Du&plicate Lines":
+            value: "Duplicate Lines(&P)"
+          "D&elete Line":
+            value: "Delete Line(&E)"
+          "&Join Lines":
+            value: "Join Lines(&J)"
+      Columns:
+        value: "Columns"
+        submenu:
+          "Move Selection &Left":
+            value: "Move Selection Left(&L)"
+          "Move Selection &Right":
+            value: "Move Selection Right(&R)"
+      Text:
+        value: "Text"
+        submenu:
+          "&Upper Case":
+            value: "Upper Case(&U)"
+          "&Lower Case":
+            value: "Lower Case(&L)"
+          "Delete to End of &Word":
+            value: "Delete to End of Word(&W)"
+          "Delete to Previous Word Boundary":
+            value: "Delete to Previous Word Boundary"
+          "Delete to Next Word Boundary":
+            value: "Delete to Next Word Boundary"
+          "&Delete Line":
+            value: "Delete Line(&D)"
+          "&Transpose":
+            value: "Transpose(&T)"
+      Folding:
+        value: "Folding"
+        submenu:
+          "&Fold":
+            value: "Fold(&F)"
+          "&Unfold":
+            value: "Unfold(&U)"
+          "Unfold &All":
+            value: "Unfold All(&A)"
+          "Fol&d All":
+            value: "Fold All(&D)"
+          "Fold Level 1":
+            value: "Fold Level 1"
+          "Fold Level 2":
+            value: "Fold Level 2"
+          "Fold Level 3":
+            value: "Fold Level 3"
+          "Fold Level 4":
+            value: "Fold Level 4"
+          "Fold Level 5":
+            value: "Fold Level 5"
+          "Fold Level 6":
+            value: "Fold Level 6"
+          "Fold Level 7":
+            value: "Fold Level 7"
+          "Fold Level 8":
+            value: "Fold Level 8"
+          "Fold Level 9":
+            value: "Fold Level 9"
+      "Reflow Selection":
+        value: "Reflow Selection"
+      Bookmark:
+        value: "Bookmark"
+        submenu:
+          "View All":
+            value: "View All"
+          "Toggle Bookmark":
+            value: "Toggle Bookmark"
+          "Jump to Next Bookmark":
+            value: "Jump to Next Bookmark"
+          "Jump to Previous Bookmark":
+            value: "Jump to Previous Bookmark"
+      "Select Encoding":
+        value: "Select Encoding"
+      "Go to Line":
+        value: "Go to Line"
+      "Select Grammar":
+        value: "Select Grammar"
+  "&View":
+    value: "View(&V)"
+    submenu:
+      "Toggle &Full Screen":
+        value: "Toggle Full Screen(&F)"
+      "Toggle Menu Bar":
+        value: "Toggle Menu Bar"
+      Panes:
+        value: "Panes"
+        submenu:
+          "Split Up":
+            value: "Split Up"
+          "Split Down":
+            value: "Split Down"
+          "Split Left":
+            value: "Split Left"
+          "Split Right":
+            value: "Split Right"
+          "Focus Next Pane":
+            value: "Focus Next Pane"
+          "Focus Previous Pane":
+            value: "Focus Previous Pane"
+          "Focus Pane Above":
+            value: "Focus Pane Above"
+          "Focus Pane Below":
+            value: "Focus Pane Below"
+          "Focus Pane On Left":
+            value: "Focus Pane On Left"
+          "Focus Pane On Right":
+            value: "Focus Pane On Right"
+          "Close Pane":
+            value: "Close Pane"
+      Developer:
+        value: "Developer"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "Open In Dev Mode(&D)..."
+          "&Reload Window":
+            value: "Reload Window(&R)"
+          "Run Package &Specs":
+            value: "Run Package Specs(&S)"
+          "Run &Benchmarks":
+            value: "Run Benchmarks(&B)"
+          "Toggle Developer &Tools":
+            value: "Toggle Developer Tools(&T)"
+      "&Increase Font Size":
+        value: "Increase Font Size(&I)"
+      "&Decrease Font Size":
+        value: "Decrease Font Size(&D)"
+      "Re&set Font Size":
+        value: "Reset Font Size(&S)"
+      "Toggle Soft &Wrap":
+        value: "Toggle Soft Wrap(&W)"
+      "Toggle Command Palette":
+        value: "Toggle Command Palette"
+      "Toggle Tree View":
+        value: "Toggle Tree View"
+  "&Selection":
+    value: "Selection(&S)"
+    submenu:
+      "Add Selection &Above":
+        value: "Add Selection Above(&A)"
+      "Add Selection &Below":
+        value: "Add Selection Below(&B)"
+      "S&plit into Lines":
+        value: "Split into Lines(&P)"
+      "Single Selection":
+        value: "Single Selection"
+      "Select to &Top":
+        value: "Select to Top(&T)"
+      "Select to Botto&m":
+        value: "Select to Bottom(&M)"
+      "Select &Line":
+        value: "Select Line(&L)"
+      "Select &Word":
+        value: "Select Word(&W)"
+      "Select to Beginning of W&ord":
+        value: "Select to Beginning of Word(&O)"
+      "Select to Beginning of L&ine":
+        value: "Select to Beginning of Line(&I)"
+      "Select to First &Character of Line":
+        value: "Select to First Character of Line(&C)"
+      "Select to End of Wor&d":
+        value: "Select to End of Word(&D)"
+      "Select to End of Lin&e":
+        value: "Select to End of Line(&E)"
+      "Select Inside Brackets":
+        value: "Select Inside Brackets"
+  "F&ind":
+    value: "Find(&I)"
+    submenu:
+      "Find in Buffer":
+        value: "Find in Buffer"
+      "Replace in Buffer":
+        value: "Replace in Buffer"
+      "Select Next":
+        value: "Select Next"
+      "Select All":
+        value: "Select All"
+      "Toggle Find in Buffer":
+        value: "Toggle Find in Buffer"
+      "Find in Project":
+        value: "Find in Project"
+      "Toggle Find in Project":
+        value: "Toggle Find in Project"
+      "Find All":
+        value: "Find All"
+      "Find Next":
+        value: "Find Next"
+      "Find Previous":
+        value: "Find Previous"
+      "Replace Next":
+        value: "Replace Next"
+      "Replace All":
+        value: "Replace All"
+      "Clear History":
+        value: "Clear History"
+      "Find Buffer":
+        value: "Find Buffer"
+      "Find File":
+        value: "Find File"
+      "Find Modified File":
+        value: "Find Modified File"
+  "&Packages":
+    value: "Packages(&P)"
+  "&Help":
+    value: "Help(&H)"
+    submenu:
+      "View &Terms of Use":
+        value: "View &Terms of Use"
+      "View &License":
+        value: "View &License"
+      "Check for Update":
+        value: "Check for Update"
+      "&Documentation":
+        value: "Documentation(&D)"
+      "Frequently Asked Questions":
+        value: "Frequently Asked Questions"
+      "Community Discussions":
+        value: "Community Discussions"
+      "Report Issue":
+        value: "Report Issue"
+      "Search Issues":
+        value: "Search Issues"
+      "About Atom":
+        value: "About Atom"
+      "Welcome Guide":
+        value: "Welcome Guide"

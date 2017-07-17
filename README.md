@@ -30,6 +30,7 @@ Community-driven translation. :family:
 | Spanish | `es` | :white_check_mark: 100% |
 | French | `fr` | :white_check_mark: 100% |
 | Hindi | `hi` | :exclamation: [I can translate][hi-issue-filter] |
+| Italian| `it` | :warning: 30% [I can translate][it-issue-filter] |
 | Japanese | `ja` | :warning: 95% [I can translate][ja-issue-filter] |
 | Korean | `ko` | :white_check_mark: 100% |
 | Dutch | `nl` | :warning: 80% [I can translate][nl-issue-filter] |
@@ -66,6 +67,7 @@ Community-driven translation. :family:
   - Polish: [Jeplaa](//github.com/Jeplaa)
   - French: [chezyann](//github.com/chezyann) [Vivalzar](//github.com/Vivalzar)
   - Polish: [nolt](//github.com/nolt)
+  - Italian: [francematt](//github.com/francematt)
 
 
 ## Reference
@@ -116,6 +118,7 @@ Community-driven translation. :family:
 [de-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20de%22 "de-issue-filter"
 [fr-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fr%22 "fr-issue-filter"
 [hi-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20hi%22 "hi-issue-filter"
+[it-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20it%22 "it-issue-filter"
 [ja-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ja%22 "ja-issue-filter"
 [ko-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ko%22 "ko-issue-filter"
 [nl-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20nl%22 "nl-issue-filter"

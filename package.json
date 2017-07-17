@@ -64,6 +64,10 @@
           "description": "Italiano (it)"
         },
         {
+          "value": "it",
+          "description": "Italiano (it)"
+        },
+        {
           "value": "ja",
           "description": "日本語 (ja)"
         },
