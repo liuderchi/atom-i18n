@@ -61,10 +61,10 @@ describe('validation', () => {
               })
               it('has no special char in values of cson', () => {
                 for (let k in flattenCson) {
-                  const specialChr = /[\~\@\#\%\^\*]/g
+                  const specialChr = /[~@#%^*]/g
                   const _str = flattenCson[k].toString()
                   const _res = _str.search(specialChr)
-                  const errMsg = `\n\tfound special chr: \'${_str[_res]}\' in value: \'${_str}\'\n\n\tcson-path: \'${k}\'\t`
+                  const errMsg = `\n\tfound special chr: '${_str[_res]}' in value: '${_str}'\n\n\tcson-path: '${k}'\t`
                   expect(_res, errMsg).to.equal(-1)
                 }
               })
@@ -73,10 +73,10 @@ describe('validation', () => {
                   for (let k in flattenCson) {
                     const menuItemName = k.split('.').slice(-2, -1).shift()
                     const _str = flattenCson[k]
-                    const hasAmpersand = menuItemName.match(/\&/g)
+                    const hasAmpersand = menuItemName.match(/&/g)
                     if (hasAmpersand) {
-                      const hotkeyHintRegex = /\&\w/g
-                      const errMsg = `\n\tinvalid or missing hotkey hint in \'${_str}\'\n\n\tcson-path: \'${k}\'\t`
+                      const hotkeyHintRegex = /&\w/g
+                      const errMsg = `\n\tinvalid or missing hotkey hint in '${_str}'\n\n\tcson-path: '${k}'\t`
                       expect(_str.search(hotkeyHintRegex), errMsg).to.not.equal(-1)
                     }
                   }
