@@ -1,7 +1,7 @@
 {
   "name": "atom-i18n",
   "main": "./lib/main",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "scripts": {
     "test": "npm run validation",
     "validation": "eslint def lib spec && coffeelint def lib spec && mocha spec/validation.js"
