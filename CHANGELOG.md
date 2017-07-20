@@ -1,3 +1,8 @@
+## 0.11.0 - Italian support
+* Italian support (30%) #94
+* update eslint config, fix linter error
+
+
 ## 0.10.0 - Polish support
 * Polish support (80%) #92
 * Fix cson key inconsistent #89
@@ -6,6 +11,7 @@
 
 ## 0.9.2 - Fix Banner in README
 * fix banner link in README
+
 
 ## 0.9.1 - French I18n Fix
 * French grammar fix #85
