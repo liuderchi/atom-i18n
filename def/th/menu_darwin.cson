@@ -17,7 +17,7 @@ Menu:
       "Keymap…":
         value: "การจับคู่คีย์..."
       "Snippets…":
-        value: "ชุดโค้ด..."
+        value: "ชุดคำสั่ง..."
       "Stylesheet…":
         value: "ชุดรูปแบบ..."
       "Install Shell Commands":
@@ -82,12 +82,12 @@ Menu:
       "Toggle Comments":
         value: "สลับความเห็น"
       Lines:
-        value: "การจัดแถว"
+        value: "บรรทัด"
         submenu:
           Indent:
             value: "ย่อหน้า"
           Outdent:
-            value: "เยื่องหน้า"
+            value: "เยื้องหน้า"
           "Auto Indent":
             value: "ย่อหน้าอัตโนมัติ"
           "Move Line Up":
@@ -125,7 +125,7 @@ Menu:
           Transpose:
             value: "ผวนคำ"
       Folding:
-        value: "ปล่อยคำ"
+        value: "การปล่อยคำ"
         submenu:
           Fold:
             value: "ปล่อย"
@@ -154,7 +154,7 @@ Menu:
           "Fold Level 9":
             value: "ปล่อย 9 ระดับ"
       "Reflow Selection":
-        value: "ปรับลำดับส่วนที่เลือกใหม่"
+        value: "ปรับลำดับการเลือกใหม่"
       Bookmark:
         value: "ที่คั่นหน้า"
         submenu:
@@ -208,7 +208,7 @@ Menu:
           "Open In Dev Mode…":
             value: "เปิดโหมดนักพัฒนา..."
           "Reload Window":
-            value: "โหลดหน้้าจอใหม่"
+            value: "โหลดหน้้าต่างใหม่"
           "Run Package Specs":
             value: "Run Package Specs"
           "Run Benchmarks":
@@ -220,13 +220,13 @@ Menu:
       "Decrease Font Size":
         value: "ลดขนาดตัวอักษร"
       "Reset Font Size":
-        value: "ปรับขนาดตัวอักษร"
+        value: "ล้างค่าขนาดตัวอักษร"
       "Toggle Soft Wrap":
         value: "สลับการตัดคำ"
       "Toggle Command Palette":
         value: "สลับถาดคำสั่ง"
       "Toggle Tree View":
-        value: "สลับวิวต้นไม้"
+        value: "สลับมุมมองโครงสร้าง"
   Selection:
     value: "การเลือก"
     submenu:
@@ -322,4 +322,4 @@ Menu:
       "Search Issues":
         value: "ค้นปัญหา"
       "Welcome Guide":
-        value: "แนวทางต้นรับ"
+        value: "แนวทางต้อนรับ"
