@@ -173,7 +173,7 @@ Menu:
       "Select Grammar":
         value: "เลือกไวยากรณ์"
   View:
-    value: "วิว"
+    value: "มุมมอง"
     submenu:
       "Toggle Full Screen":
         value: "สลับเต็มจอ"

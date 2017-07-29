@@ -158,7 +158,7 @@ Menu:
       "Select Grammar":
         value: "เลือกไวยากรณ์"
   "&View":
-    value: "วิว(&V)"
+    value: "มุมมอง(&V)"
     submenu:
       "Toggle &Full Screen":
         value: "สลับเต็มจอ(&F)"
