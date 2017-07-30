@@ -129,7 +129,7 @@ Menu:
       "&Preferences":
         value: "การปรับแต่ง(&P)"
       "Config…":
-        value: "แก้ไข..."
+        value: "กำหนดค่า..."
       "Init Script…":
         value: "สคริปต์เริ่มต้น..."
       "Keymap…":
@@ -197,9 +197,9 @@ Menu:
           "&Reload Window":
             value: "โหลดหน้าต่างใหม่(&R)"
           "Run Package &Specs":
-            value: "Run Package Specs(&S)"
+            value: "เรียกใช้ข้อกำหนดของแพคเก็จ(&S)"
           "Run &Benchmarks":
-            value: "Run Benchmarks(&B)"
+            value: "เรียกใช้ที่คั่นหน้า(&B)"
           "Toggle Developer &Tools":
             value: "สลับเครื่องมือนักพัฒนา(&T)"
       "&Increase Font Size":

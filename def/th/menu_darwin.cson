@@ -11,7 +11,7 @@ Menu:
       "Preferences…":
         value: "การปรับแต่ง..."
       "Config…":
-        value: "แก้ไข..."
+        value: "กำหนดค่า..."
       "Init Script…":
         value: "สคริปต์เริ่มต้น..."
       "Keymap…":
@@ -210,9 +210,9 @@ Menu:
           "Reload Window":
             value: "โหลดหน้้าต่างใหม่"
           "Run Package Specs":
-            value: "Run Package Specs"
+            value: "เรียกใช้ข้อกำหนดของแพคเก็จ"
           "Run Benchmarks":
-            value: "Run Benchmarks"
+            value: "เรียกใช้ที่คั่นหน้า"
           "Toggle Developer Tools":
             value: "สลับเครื่องมือนักพัฒนา"
       "Increase Font Size":
