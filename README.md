@@ -37,6 +37,7 @@ Community-driven translation. :family:
 | Polish | `pl` | :warning: 80% [I can translate][pl-issue-filter] |
 | Portuguese(Brazil) | `pt-br` | :warning: 80% [I can translate][pt-br-issue-filter] |
 | Russian | `ru` | :warning: 99% [I can translate][ru-issue-filter] |
+| Thai | `th` | :warning: 80% [I can translate][th-issue-filter] |
 | Chinese(Simplified) |  `zh-cn` | :white_check_mark: 100% |
 | Chinese(Traditional) | `zh-tw` | :white_check_mark: 100% |
 
@@ -68,6 +69,7 @@ Community-driven translation. :family:
   - French: [chezyann](//github.com/chezyann) [Vivalzar](//github.com/Vivalzar)
   - Polish: [nolt](//github.com/nolt)
   - Italian: [francematt](//github.com/francematt)
+  - Thai: [sitdh](//github.com/sitdh)
 
 
 ## Reference
@@ -125,6 +127,7 @@ Community-driven translation. :family:
 [pl-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20pl%22 "pl-issue-filter"
 [pt-br-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20pt-br%22 "pt-br-issue-filter"
 [ru-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ru%22 "ru-issue-filter"
+[th-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20th%22 "th-issue-filter"
 [zh-cn-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20zh-cn%22 "zh-cn-issue-filter"
 [zh-tw-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20zh-tw%22 "zh-tw-issue-filter"
 
