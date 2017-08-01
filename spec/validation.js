@@ -19,9 +19,8 @@ const CsonFiles = require('./defs.js')
 
 describe('validation', () => {
 
-  let packageMeta = {}
-
   describe('package.json validation', () => {
+    let packageMeta = {}
 
     it('loads package.json', () => {
       const loading = () => {
@@ -31,7 +30,7 @@ describe('validation', () => {
     })
 
     it('checks locale options list in configSchema in package.json', () => {
-      const locales = packageMeta.configSchema.locale.enum.map((opt)=>{return opt.value})
+      const locales = packageMeta.configSchema.locale.enum.map(opt => opt.value)
       expect(locales, 'inconsistent locale options').to.deep.equal(LOCALES)
     })
   })
@@ -40,13 +39,16 @@ describe('validation', () => {
 
     describe('checking each cson files of all locales', () => {
       const templateKeys = {}
-      for (let csonFile of CsonFiles) {
+      CsonFiles.forEach(csonFile => {
         templateKeys[csonFile] = Object.keys(flattenObj(CSON.load(path.join(__dirname, '../def/template', csonFile))))
-      }
+      })
 
-      for (let locale of (argv.locale || LOCALES)) {
+      const locales = argv.locale || LOCALES
+      locales.forEach(locale => {
+
         describe(`checking locale ${locale}`, () => {
-          for (let csonFile of CsonFiles) {
+
+          CsonFiles.forEach(csonFile => {
 
             describe(`checking "${path.join(locale, csonFile)}"`, () => {
 
@@ -60,17 +62,17 @@ describe('validation', () => {
                 expect(Object.keys(flattenCson), 'inconsistent keys').to.deep.equal(templateKeys[csonFile])
               })
               it('has no special char in values of cson', () => {
-                for (let k in flattenCson) {
+                Object.keys(flattenCson).forEach(k => {
                   const specialChr = /[~@#%^*]/g
                   const _str = flattenCson[k].toString()
                   const _res = _str.search(specialChr)
                   const errMsg = `\n\tfound special chr: '${_str[_res]}' in value: '${_str}'\n\n\tcson-path: '${k}'\t`
                   expect(_res, errMsg).to.equal(-1)
-                }
+                })
               })
               if (csonFile === 'menu_linux.cson' || csonFile === 'menu_win32.cson') {
                 it('has valid hotkey hints if required', () => {
-                  for (let k in flattenCson) {
+                  Object.keys(flattenCson).forEach(k => {
                     const menuItemName = k.split('.').slice(-2, -1).shift()
                     const _str = flattenCson[k]
                     const hasAmpersand = menuItemName.match(/&/g)
@@ -79,14 +81,14 @@ describe('validation', () => {
                       const errMsg = `\n\tinvalid or missing hotkey hint in '${_str}'\n\n\tcson-path: '${k}'\t`
                       expect(_str.search(hotkeyHintRegex), errMsg).to.not.equal(-1)
                     }
-                  }
+                  })
                 })
               }
 
             })
-          }
+          })
         })
-      }   // end of for loop of locales
+      })   // end of each locale of locales
 
     })   // end of checking each cson files of all locales
 
