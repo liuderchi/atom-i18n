@@ -3,9 +3,9 @@ Menu:
     value: "File(&F)"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "Nuova Finestra(&W)"
       "&New File":
-        value: "New File(&N)"
+        value: "Nuovo File(&N)"
       "&Open File…":
         value: "Open File(&O)..."
       "Open Folder…":

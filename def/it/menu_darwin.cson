@@ -85,11 +85,11 @@ Menu:
         value: "Linee"
         submenu:
           Indent:
-            value: "Indenta"
+            value: "Aggiungi rientro"
           Outdent:
-            value: "Outdent"
+            value: "Togli rientro"
           "Auto Indent":
-            value: "Auto Indent"
+            value: "Aggiungi rientro automaticamente"
           "Move Line Up":
             value: "Sposta linea su"
           "Move Line Down":
@@ -115,79 +115,79 @@ Menu:
           "Lower Case":
             value: "Minuscola"
           "Delete to End of Word":
-            value: "Delete to End of Word"
+            value: "Cancella fino a fine parola"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "Cancella fino a inizio parola"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "Cancella fino al prossimo confine di parola"
           "Delete Line":
             value: "Elimina linea"
           Transpose:
-            value: "Transpose"
+            value: "Trasponi"
       Folding:
-        value: "Folding"
+        value: "Raggruppare"
         submenu:
           Fold:
-            value: "Fold"
+            value: "Unisci Gruppo"
           Unfold:
-            value: "Unfold"
+            value: "Separa Gruppo"
           "Unfold All":
-            value: "Unfold All"
+            value: "Separa tutto"
           "Fold All":
-            value: "Fold All"
+            value: "Raggruppa tutto"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Unione Level 1"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Unione Level 2"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Unione Level 3"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Unione Level 4"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Unione Level 5"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Unione Level 6"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Unione Level 7"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Unione Level 8"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Unione Level 9"
       "Reflow Selection":
         value: "Reflow Selection"
       Bookmark:
-        value: "Bookmark"
+        value: "Segnalibro"
         submenu:
           "View All":
-            value: "View All"
+            value: "Vedi tutto"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "Attiva/Disattiva Bookmark"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "Vai al prossimo Segnalibro"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "Vai al Segnalibro precedente"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "Seleziona Codifica"
       "Go to Line":
-        value: "Go to Line"
+        value: "Vai alla linea"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "Seleziona Grammatica"
   View:
-    value: "View"
+    value: "Vista"
     submenu:
       "Toggle Full Screen":
-        value: "Toggle Full Screen"
+        value: "Attiva/Disattiva Schermo Intero"
       Panes:
-        value: "Panes"
+        value: "Pannelli"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "Separa in alto"
           "Split Down":
-            value: "Split Down"
+            value: "Separa in basso"
           "Split Left":
-            value: "Split Left"
+            value: "Separa a sinistra"
           "Split Right":
-            value: "Split Right"
+            value: "Separa a destra"
           "Focus Next Pane":
             value: "Focus Next Pane"
           "Focus Previous Pane":
@@ -201,20 +201,20 @@ Menu:
           "Focus Pane On Right":
             value: "Focus Pane On Right"
           "Close Pane":
-            value: "Close Pane"
+            value: "Chiudi pannello"
       Developer:
-        value: "Developer"
+        value: "Sviluppatore"
         submenu:
           "Open In Dev Mode…":
-            value: "Open In Dev Mode..."
+            value: "Apri in Dev Mode..."
           "Reload Window":
-            value: "Reload Window"
+            value: "Ricarica Finestra"
           "Run Package Specs":
-            value: "Run Package Specs"
+            value: "Esegui le Package Specs"
           "Run Benchmarks":
-            value: "Run Benchmarks"
+            value: "Esegui i Benchmarks"
           "Toggle Developer Tools":
-            value: "Toggle Developer Tools"
+            value: "Attiva/Disattiva gli Strumenti di Sviluppo"
       "Increase Font Size":
         value: "Increase Font Size"
       "Decrease Font Size":
@@ -259,67 +259,67 @@ Menu:
       "Select Inside Brackets":
         value: "Select Inside Brackets"
   Find:
-    value: "Find"
+    value: "Trova"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "Trova nel Buffer"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "Sostituisci nel Buffer"
       "Select Next":
-        value: "Select Next"
+        value: "Seleziona il successivo"
       "Select All":
-        value: "Select All"
+        value: "Seleziona tutto"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "Attiva/Disattiva Trova nel Buffer"
       "Find in Project":
-        value: "Find in Project"
+        value: "Trova in Project"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "Attiva/Disattiva Trova in Project"
       "Find All":
-        value: "Find All"
+        value: "Trova tutto"
       "Find Next":
-        value: "Find Next"
+        value: "Trova il successivo"
       "Find Previous":
-        value: "Find Previous"
+        value: "Trova il precedente"
       "Replace Next":
-        value: "Replace Next"
+        value: "Sostituisci il prossimo"
       "Replace All":
-        value: "Replace All"
+        value: "Sostituisci tutto"
       "Clear History":
-        value: "Clear History"
+        value: "Cancella cronologia"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "Trova Buffer"
       "Find File":
-        value: "Find File"
+        value: "Trova File"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "Trova il File modificato"
   Packages:
-    value: "Packages"
+    value: "Pacchetti"
   Window:
-    value: "Window"
+    value: "Finestra"
     submenu:
       Minimize:
-        value: "Minimize"
+        value: "Riduci"
       Zoom:
         value: "Zoom"
       "Bring All to Front":
-        value: "Bring All to Front"
+        value: "Porta tutto in primo piano"
   Help:
-    value: "Help"
+    value: "Aiuto"
     submenu:
       "Terms of Use":
-        value: "Terms of Use"
+        value: "Condizioni d'Uso"
       Documentation:
-        value: "Documentation"
+        value: "Documentazione"
       Roadmap:
         value: "Roadmap"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "Frequently Asked Questions (Domande Frequenti)"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Discussioni della Community"
       "Report Issue":
-        value: "Report Issue"
+        value: "Segnala un problema"
       "Search Issues":
-        value: "Search Issues"
+        value: "Cerca un problema"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "Guida di Benvenuto"
