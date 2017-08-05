@@ -44,9 +44,9 @@ Settings:
     {_label: "Choose a Theme", value: "Ein Thema auswählen"}
     {_label: "Installed Themes", value: "Installierte Themen"}
     {_label: "Install Packages", value: "Paket installieren"}
-    {_label: "Featured Packages", value: "Präsentierte Pakete"}
+    {_label: "Featured Packages", value: "Vorgestellte Pakete"}
     {_label: "Install Themes", value: "Themen installieren"}
-    {_label: "Featured Themes", value: "Präsentierte Themen"}
+    {_label: "Featured Themes", value: "Vorgestellte Themen"}
     {_label: "Available Updates", value: "Verfügbare Updates"}
   ]
   subSectionHeadings: [
@@ -64,11 +64,11 @@ Settings:
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'Dies sind Atom\'s kern welche das Verhalten ohne Verbindung zum editieren von Texten beeinflussen. Individuelle Pakete könnten eigene Einstellungen besitzen, welche sich in der jeweiligen Paket-Karte in der <a class="link packages-open">Paket Liste</a> befinden.'
+        html: 'Dies sind Atom\'s Kerneinstellungen welche aber nicht das Verhalten zum Editieren von Texten beeinflussen (zu finden unter Editor). Individuelle Pakete könnten eigene Einstellungen besitzen, welche sich in dem jeweiligen Paket-Einstellungsdialog in der <a class="link packages-open">Liste aller installierten Pakete</a> befinden.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'Diese Einstellungen hängen mit dem editieren von Text zusammen. Einige davon, können auf Basis der jeweiligen Sprache übergangen werden. Prüfe die jeweiligen Spracheinstellungen in der jeweiligen Paket-Karte in der <a class="link packages-open">Paket Liste</a>.'
+        html: 'Diese Einstellungen hängen mit dem Editieren von Text zusammen. Einige davon können auf Basis der jeweiligen Sprache übergangen werden. Prüfe die jeweiligen Spracheinstellungen in dem jeweiligen Paket-Einstellungsdialog in der <a class="link packages-open">Liste aller installierten Pakete</a>.'
       }
     ]
     controls: [
@@ -79,8 +79,8 @@ Settings:
       }
       {
         _id: 'core.audioBeep'
-        title: "Audio Beep"
-        desc: "Löse den System-Beep aus, wenn eine spezielle Aktion nicht ausgeführt werden kann oder keine Ergebnisse existieren."
+        title: "Systemton auslösen"
+        desc: "Löse den Systemton (System-Beep) aus, wenn eine spezielle Aktion nicht ausgeführt werden kann oder keine Ergebnisse existieren."
       }
       {
         _id: 'core.automaticallyUpdate'
@@ -90,12 +90,12 @@ Settings:
       {
         _id: 'core.autoHideMenuBar'
         title: "Menü automatisch verbergen"
-        desc: "Menü automatisch verbergen und zum einblenden Alt drücken. Dies wird nur unter unterstütz unter Windows &amp; Linux."
+        desc: "Menü automatisch verbergen und zum einblenden Alt drücken. Dies wird nur unter Windows &amp; Linux unterstützt."
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
-        desc: "Close corresponding editors when a file is deleted outside Atom."
+        title: "Schließe Reiter, wenn Datei gelöscht wurde"
+        desc: "Schließe den zugehörigen Reiter, sobald die entsprechende Datei im System gelöscht wurde."
       }
       {
         _id: 'core.closeEmptyWindows'
@@ -120,7 +120,7 @@ Settings:
       {
         _id: 'core.followSymlinks'
         title: "Folge Symlinks"
-        desc: "Folge beim suchen von Dateien und beim öffnen von Ordnern mit dem fuzzy Finder symbolischen Verknüpfungen."
+        desc: "Folge beim Suchen von Dateien und beim Öffnen von Ordnern mit dem fuzzy Finder symbolischen Verknüpfungen."
       }
       {
         _id: 'core.ignoredNames'
@@ -134,12 +134,12 @@ Settings:
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Pakete mit deaktivierten Keymaps"
+        title: "Pakete mit deaktivierten Tastaturkürzeln"
       }
       {
         _id: 'core.projectHome'
-        title: "Projekt Home"
-        desc: "Verzeichnis wo Projekte gespeichert werden. Pakete welche mittels dem Paket-Generator erstellt werden werden dort standardmäßig abgelegt."
+        title: "Projekt Heimverzeichnis"
+        desc: "Verzeichnis in dem Projekte gespeichert werden. Pakete welche mittels dem Paket-Generator erstellt werden, werden dort standardmäßig abgelegt."
       }
       {
         _id: 'core.reopenProjectMenuCount'
@@ -148,31 +148,31 @@ Settings:
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "Letzte Fenster beim Start wieder herstellen"
-        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
+        title: "Letzte Fenster beim Start wiederherstellen"
+        desc: "Wenn aktiviert, wird der letzte Stand aller Atom-Fenster bei Start über das Icon wiederhergestellt. Gilt auch für den Start von <code>atom</code> über die Kommandozeile. Andernfalls wird Atom mit einer neuen Umgebung gestartet."
         select:
-          no: "no"
-          yes: "yes"
-          always: "always"
+          no: "Nein"
+          yes: "Ja"
+          always: "Immer"
       }
       {
         _id: 'core.telemetryConsent'
         title: "Sende Telemetrie-Daten an das Atom Team"
-        desc: "Dem Senden und der Verwendung von statistischen Daten sowie Ausnahmemeldungen an das Atom Team zustimmen um mitzuhelfen das Produkt zu verbessern."
+        desc: "Dem Senden und der Verwendung von statistischen Daten sowie Ausnahmemeldungen an das Atom Team zustimmen. Dient der Produkt um mitzuhelfen das Produkt zu verbessern."
         select:
           limited: "Limitierte anonyme Nutzer-Statistiken, Ausnahmen und Fehlerberichte"
           no: "Keine Telemetrie-Daten senden"
-          undecided: "Unentschlossen (Atom will ask again next time it is launched)"
+          undecided: "Unentschlossen (Atom fragt beim nächsten Start erneut nach)"
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use Proxy Settings When Calling APM"
-        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        title: "Nutze die Proxy-Einstellungen, wenn APM aufgerufen wird"
+        desc: "Nutze die erkannten Proxy-Einstellungen, wenn das <code>apm</code> Kommandozeilenwerkzeug aufgerufen wird."
       }
       {
         _id: 'core.useCustomTitleBar'
-        title: "Benutze Benutzerspezifische Titel-Leiste"
-        desc: "Use custom, theme-aware title bar.<br>Note: This currently does not include a proxy icon.<br>This setting will require a relaunch of Atom to take effect."
+        title: "Benutze benutzerspezifische Titel-Leiste"
+        desc: "Nutze eigene, Theme-gebundene Titel-Leiste.<br>Hinweis: Das Proxy-Icon ist davon ausgenommen.<br>Damit diese Einstellung Wirkung hat, muss Atom neu gestartet werden."
       }
       {
         _id: 'core.warnOnLargeFileLimit'
@@ -191,12 +191,12 @@ Settings:
       }
       {
         _id: 'editor.autoIndentOnPaste'
-        title: "Automatisches einrücken beim einfügen"
+        title: "Automatisches einrücken beim Einfügen"
         desc: "Automatisch eingefügten Text einrücken, basierend auf der Einrückung der vorausgehenden Zeile."
       }
       {
         _id: 'editor.backUpBeforeSaving'
-        title: "Back Up vor dem Speichern"
+        title: "Sicherung vor dem Speichern"
         desc: ""
       }
       {
@@ -206,12 +206,12 @@ Settings:
       }
       {
         _id: 'editor.fontFamily'
-        title: "Font Familie"
-        desc: "Der Name der Font Familie welche als Editor-Text verwendet wird."
+        title: "Schrifttypfamilie"
+        desc: "Der Name der Schrifttypfamilie welche als Editor-Text verwendet wird."
       }
       {
         _id: 'editor.fontSize'
-        title: "Font Größe"
+        title: "Schrifttypgröße"
         desc: "Höhe des Textes im Editor in Pixel."
       }
       {
@@ -237,7 +237,7 @@ Settings:
       {
         _id: 'editor.lineHeight'
         title: "Zeilen Höhe"
-        desc: "Höhe von Editor-Zeilen, als Multiplikator der Font-Größe."
+        desc: "Höhe von Editor-Zeilen, als Multiplikator der Schrifttypgröße."
       }
       {
         _id: 'editor.nonWordCharacters'
@@ -261,8 +261,8 @@ Settings:
       }
       {
         _id: 'editor.showCursorOnSelection'
-        title: "Show Cursor On Selection"
-        desc: "Show cursor while there is a selection."
+        title: "Zeige Mauszeiger bei Textmarkierungen"
+        desc: "Zeige den Mauszeiger auch dann an, wenn Text markiert wird."
       }
       {
         _id: 'editor.showIndentGuide'
@@ -271,13 +271,13 @@ Settings:
       }
       {
         _id: 'editor.showInvisibles'
-        title: "Zeige Unsichtbare"
-        desc: "Zeige Platzhalter für unsichtbbare Zeichen wie Tabs, Leerzeichen oder Zeilenumbrüche."
+        title: "Zeige Unsichtbare Zeichen"
+        desc: "Zeige Platzhalter für unsichtbare Zeichen wie Tabs, Leerzeichen oder Zeilenumbrüche."
       }
       {
         _id: 'editor.showLineNumbers'
-        title: "Zeige Zeilen Nummern"
-        desc: "Zeige Zeilen Nummern im Editor-Spaltenzwischenraum."
+        title: "Zeige Zeilennummern"
+        desc: "Zeige Zeilennummern im Editor-Spaltenzwischenraum."
       }
       {
         _id: 'editor.softTabs'
@@ -287,22 +287,22 @@ Settings:
       {
         _id: 'editor.softWrap'
         title: "Soft Wrap"
-        desc: "Bricht Zeilen um, welche die Breite des Fensters überschreiten. Wenn <code>Soft Wrap anhand bevorzugten Zeilenlänge</code> aktiviert ist, wird die Zeile anhand der definierten maximalen Anzahl an Zeichen in der <code>Bevorzugten Zeilenlänge</code> Einstellung umgebrochen."
+        desc: "Bricht Zeilen um, welche die Breite des Fensters überschreiten wird. Wenn <code>Soft Wrap anhand bevorzugten Zeilenlänge</code> aktiviert ist, wird die Zeile anhand der definierten maximalen Anzahl an Zeichen in der <code>Bevorzugten Zeilenlänge</code> Einstellung umgebrochen."
       }
       {
         _id: 'editor.softWrapAtPreferredLineLength'
         title: "Soft Wrap anhand bevorzugter Zeilenlänge"
-        desc: "Anstelle eines Zeilenumbruches an der Fensterbreite, wird die Zeile bei der Anzahl der Zeichen umgebrochen welche in <code>Bevorzugte Zeilenlänge</code> Einstellung defininiert ist. Dies hat nur einen Effekt, wenn die Soft Wrap Einstellung global oder für die aktuelle Sprache aktiviert ist. <strong>Beachte:</strong> Wenn du die Wrap-Hilfe (vertikale Linie) verbergen willst kannst du das Paket <code>wrap-guide</code> de-aktivieren."
+        desc: "Anstelle eines Zeilenumbruches an der Fensterbreite, wird die Zeile bei der Anzahl der Zeichen umgebrochen, welche in <code>Bevorzugte Zeilenlänge</code> Einstellung defininiert ist. Dies hat nur einen Effekt, wenn die Soft Wrap Einstellung global oder für die aktuelle Sprache aktiviert ist. <strong>Beachte:</strong> Wenn du die Wrap-Hilfe (vertikale Linie) verbergen willst kannst du das Paket <code>wrap-guide</code> de-aktivieren."
       }
       {
         _id: 'editor.softWrapHangingIndent'
         title: "Soft Wrap fliegende Einrückung"
-        desc: "Wenn Soft Wrap aktiviert ist, definiert dies die Anzahl an Zeichen die als zusätzliche Einrückung verwendet wird."
+        desc: "Wenn Soft Wrap aktiviert ist, definiert dies die Anzahl an Zeichen, die als zusätzliche Einrückung verwendet wird."
       }
       {
         _id: 'editor.tabLength'
         title: "Tab Länge"
-        desc: "Anzahl von Leerzeichen welche verwendet werden um ein Tab darzustellen."
+        desc: "Anzahl von Leerzeichen, welche verwendet werden, um einen Tab darzustellen."
       }
       {
         _id: 'editor.tabType'
@@ -316,8 +316,8 @@ Settings:
       }
       {
         _id: 'editor.zoomFontWhenCtrlScrolling'
-        title: "Zoom Font beim Strg scrollen"
-        desc: "Ändere die Font-Größe wenn bei gedrückter Strg-Taste mit der Maus nach oben oder unten gescrollt wird."
+        title: "Ändere die Schriftgröße, wenn mit Strg + Mausrad gescrollt wird"
+        desc: "Ändere die Schriftgröße wenn bei gedrückter Strg-Taste mit der Maus nach oben oder unten gescrollt wird."
       }
       {
         _id: 'system.windows.file-handler'
