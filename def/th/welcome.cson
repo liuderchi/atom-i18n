@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "ยินดีต้นรับ"
+  subtitle: {
+    text1: "อิดิเตอร์ที่แฮคได้ของศตวรรษที่ 21"
+    superscript: " st"
+    text2: " "
+  }
+  help: {
+    forHelpVisit: "สำหรับความช่วยเหลือ, โปรดเข้าไปที่ "
+    atomDocs: {
+      text1: " "
+      link: "เอกสารของ Atom"
+      text2: " สำหรับแนวทางและคู่มือ API"
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "กระทู้ของ Atom ที่ "
+      link: "discuss.atom.io"
+      text2: " "   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: " "
+      link: "Atom org"
+      text2: " คือที่ที่จะพบแพคเก็จของ Atom ที่สร้างบน Github"
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "แสดงข้อความต้อนรับเมื่อเริ่มเปิด Atom"

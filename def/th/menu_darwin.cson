@@ -1,0 +1,325 @@
+Menu:
+  Atom:
+    value: "Atom"
+    submenu:
+      "About Atom":
+        value: "เกี่ยวกับ Atom"
+      "View License":
+        value: "ดูการอนุญาต License"
+      "Check for Update":
+        value: "ตรวจสอบการอัพเดต"
+      "Preferences…":
+        value: "การปรับแต่ง..."
+      "Config…":
+        value: "กำหนดค่า..."
+      "Init Script…":
+        value: "สคริปต์เริ่มต้น..."
+      "Keymap…":
+        value: "การจับคู่คีย์..."
+      "Snippets…":
+        value: "ชุดคำสั่ง..."
+      "Stylesheet…":
+        value: "ชุดรูปแบบ..."
+      "Install Shell Commands":
+        value: "ติดตั้งคำสั่งเชลล์"
+      "Hide Atom":
+        value: "ซ่อน Atom"
+      "Hide Others":
+        value: "ซ่อนอื่นๆ"
+      "Show All":
+        value: "แสดงทั้งหมด"
+      Quit:
+        value: "ออก"
+  File:
+    value: "ไฟล์"
+    submenu:
+      "New Window":
+        value: "หน้าต่างใหม่"
+      "New File":
+        value: "ไฟล์ใหม่"
+      "Open…":
+        value: "เปิด..."
+      "Add Project Folder…":
+        value: "เพิ่มโฟลเดอร์โปรเจค..."
+      "Reopen Project":
+        value: "เปิดโปรเจคอีกครั้ง"
+        submenu:
+          "Clear Project History":
+            value: "ล้างประวัติโปรเจค"
+      "Reopen Last Item":
+        value: "เปิดไอเทมล่าสุดอีกครั้ง"
+      Save:
+        value: "บันทึก"
+      "Save As…":
+        value: "บันทึกเป็น..."
+      "Save All":
+        value: "บันทึกทั้งหมด"
+      "Close Tab":
+        value: "ปิดแท็บ"
+      "Close Pane":
+        value: "ปิดกระดาน"
+      "Close Window":
+        value: "ปิดหน้าต่าง"
+      "Close All Tabs":
+        value: "ปิดแท็บทั้งหมด"
+  Edit:
+    value: "แก้ไข"
+    submenu:
+      Undo:
+        value: "เลิกทำ"
+      Redo:
+        value: "ทำซ้ำ"
+      Cut:
+        value: "ตัด"
+      Copy:
+        value: "คัดลอก"
+      "Copy Path":
+        value: "คัดลอกเส้นทาง"
+      Paste:
+        value: "วาง"
+      "Select All":
+        value: "เลือกทั้งหมด"
+      "Toggle Comments":
+        value: "สลับความเห็น"
+      Lines:
+        value: "บรรทัด"
+        submenu:
+          Indent:
+            value: "ย่อหน้า"
+          Outdent:
+            value: "เยื้องหน้า"
+          "Auto Indent":
+            value: "ย่อหน้าอัตโนมัติ"
+          "Move Line Up":
+            value: "เลื่อนบรรทัดขึ้น"
+          "Move Line Down":
+            value: "เลื่อนบรรทัดลง"
+          "Duplicate Lines":
+            value: "ทำซ้ำทั้งบรรทัด"
+          "Delete Line":
+            value: "ลบบรรทัด"
+          "Join Lines":
+            value: "รวบบรรทัด"
+      Columns:
+        value: "คอลัมน์"
+        submenu:
+          "Move Selection Left":
+            value: "ย้ายส่วนที่เลือกไปทางซ้าย"
+          "Move Selection Right":
+            value: "ย้ายส่วนที่เลือกไปทางขวา"
+      Text:
+        value: "ข้อความ"
+        submenu:
+          "Upper Case":
+            value: "ตัวใหญ่"
+          "Lower Case":
+            value: "ตัวเล็ก"
+          "Delete to End of Word":
+            value: "ลบไปจนจบคำ"
+          "Delete to Previous Word Boundary":
+            value: "ลบไปจนกระทั่งถึงคำก่อนหน้า"
+          "Delete to Next Word Boundary":
+            value: "ลบไปจนกระทั่งถึงคำถัดไป"
+          "Delete Line":
+            value: "ลบบรรทัด"
+          Transpose:
+            value: "ผวนคำ"
+      Folding:
+        value: "การปล่อยคำ"
+        submenu:
+          Fold:
+            value: "ปล่อย"
+          Unfold:
+            value: "ไม่ปล่อย"
+          "Unfold All":
+            value: "ไม่ปล่อยทั้งหมด"
+          "Fold All":
+            value: "ปล่อยทั้งหมด"
+          "Fold Level 1":
+            value: "ปล่อย 1 ระดับ"
+          "Fold Level 2":
+            value: "ปล่อย 2 ระดับ"
+          "Fold Level 3":
+            value: "ปล่อย 3 ระดับ"
+          "Fold Level 4":
+            value: "ปล่อย 4 ระดับ"
+          "Fold Level 5":
+            value: "ปล่อย 5 ระดับ"
+          "Fold Level 6":
+            value: "ปล่อย 6 ระดับ"
+          "Fold Level 7":
+            value: "ปล่อย 7 ระดับ"
+          "Fold Level 8":
+            value: "ปล่อย 8 ระดับ"
+          "Fold Level 9":
+            value: "ปล่อย 9 ระดับ"
+      "Reflow Selection":
+        value: "ปรับลำดับการเลือกใหม่"
+      Bookmark:
+        value: "ที่คั่นหน้า"
+        submenu:
+          "View All":
+            value: "แสดงทั้งหมด"
+          "Toggle Bookmark":
+            value: "สลับที่คั่นหน้า"
+          "Jump to Next Bookmark":
+            value: "กระโดดไปยังที่คั่นหน้าถัดไป"
+          "Jump to Previous Bookmark":
+            value: "กระโดดไปยังที่คั่นหน้าก่อนหน้า"
+      "Select Encoding":
+        value: "เลือกการเข้ารหัส"
+      "Go to Line":
+        value: "ไปยังบรรทัด"
+      "Select Grammar":
+        value: "เลือกไวยากรณ์"
+  View:
+    value: "มุมมอง"
+    submenu:
+      "Toggle Full Screen":
+        value: "สลับเต็มจอ"
+      Panes:
+        value: "กระดาน"
+        submenu:
+          "Split Up":
+            value: "แบ่งขึ้นด้านบน"
+          "Split Down":
+            value: "แบ่งลงด้านล่าง"
+          "Split Left":
+            value: "แบ่งไปทางซ้าย"
+          "Split Right":
+            value: "แบ่งไปทางขวา"
+          "Focus Next Pane":
+            value: "ย้ายไปกระดานถัดไป"
+          "Focus Previous Pane":
+            value: "ย้ายไปกระดานก่อนหน้า"
+          "Focus Pane Above":
+            value: "ย้ายไปกระดานด้านบน"
+          "Focus Pane Below":
+            value: "ย้ายไปกระดานด้านล่าง"
+          "Focus Pane On Left":
+            value: "ย้ายไปกระดานด้านซ้าย"
+          "Focus Pane On Right":
+            value: "ย้ายไปกระดานด้านขวา"
+          "Close Pane":
+            value: "ปิดกระดาน"
+      Developer:
+        value: "นักพัฒนา"
+        submenu:
+          "Open In Dev Mode…":
+            value: "เปิดโหมดนักพัฒนา..."
+          "Reload Window":
+            value: "โหลดหน้้าต่างใหม่"
+          "Run Package Specs":
+            value: "เรียกใช้ข้อกำหนดของแพคเก็จ"
+          "Run Benchmarks":
+            value: "เรียกใช้ที่คั่นหน้า"
+          "Toggle Developer Tools":
+            value: "สลับเครื่องมือนักพัฒนา"
+      "Increase Font Size":
+        value: "เพิ่มขนาดตัวอักษร"
+      "Decrease Font Size":
+        value: "ลดขนาดตัวอักษร"
+      "Reset Font Size":
+        value: "ล้างค่าขนาดตัวอักษร"
+      "Toggle Soft Wrap":
+        value: "สลับการตัดคำ"
+      "Toggle Command Palette":
+        value: "สลับถาดคำสั่ง"
+      "Toggle Tree View":
+        value: "สลับมุมมองโครงสร้าง"
+  Selection:
+    value: "การเลือก"
+    submenu:
+      "Add Selection Above":
+        value: "เพิ่มการเลือกด้านบน"
+      "Add Selection Below":
+        value: "เพิ่มการเลือกด้านล่าง"
+      "Single Selection":
+        value: "เลือกครั้งเดียว"
+      "Split into Lines":
+        value: "แยกเป็นบรรทัด"
+      "Select to Top":
+        value: "เลือกไปจนถึงด้านบนสุด"
+      "Select to Bottom":
+        value: "เลือกไปจนถึงด้านล่างสุด"
+      "Select Line":
+        value: "เลือกบรรทัด"
+      "Select Word":
+        value: "เลือกคำ"
+      "Select to Beginning of Word":
+        value: "เลือกไปจนถึงจุดเริ่มต้นคำ"
+      "Select to Beginning of Line":
+        value: "เลือกไปจนถึงต้นบรรทัด"
+      "Select to First Character of Line":
+        value: "เลือกไปจนถึงตัวอักษรแรกของบรรทัด"
+      "Select to End of Word":
+        value: "เลือกไปจนสุดคำ"
+      "Select to End of Line":
+        value: "เลือกไปจนสุดบรรทัด"
+      "Select Inside Brackets":
+        value: "เลือกภายในวงเล็บ"
+  Find:
+    value: "ค้นหา"
+    submenu:
+      "Find in Buffer":
+        value: "ค้นหาในบัฟเฟอร์"
+      "Replace in Buffer":
+        value: "แทนในบัฟเฟอร์"
+      "Select Next":
+        value: "เลือกถัดไป"
+      "Select All":
+        value: "เลือกทั้งหมด"
+      "Toggle Find in Buffer":
+        value: "สลับค้นหาในบัฟเฟอร์"
+      "Find in Project":
+        value: "ค้นในโปรเจค"
+      "Toggle Find in Project":
+        value: "สลับค้นในโปรเจค"
+      "Find All":
+        value: "เลือกทั้งหมด"
+      "Find Next":
+        value: "เลือกถัดไป"
+      "Find Previous":
+        value: "เลือกก่อนหน้า"
+      "Replace Next":
+        value: "แทนที่ถัดไป"
+      "Replace All":
+        value: "แทนที่ทั้งหมด"
+      "Clear History":
+        value: "ล้างประวัติ"
+      "Find Buffer":
+        value: "ค้นบัฟเฟอร์"
+      "Find File":
+        value: "ค้นไฟล์"
+      "Find Modified File":
+        value: "ค้นไฟล์ที่ถูกแก้ไข"
+  Packages:
+    value: "แพคเก็จ"
+  Window:
+    value: "หน้าต่าง"
+    submenu:
+      Minimize:
+        value: "ย่อขนาด"
+      Zoom:
+        value: "ขยาย"
+      "Bring All to Front":
+        value: "นำมาด้านหน้าทั้งหมด"
+  Help:
+    value: "ช่วยเหลือ"
+    submenu:
+      "Terms of Use":
+        value: "ข้อกำหนดการใช้งาน"
+      Documentation:
+        value: "เอกสารประกอบ"
+      Roadmap:
+        value: "แนวทาง"
+      "Frequently Asked Questions":
+        value: "คำถามที่พบบ่อย"
+      "Community Discussions":
+        value: "ข้อคิดเห็นของชุมชน"
+      "Report Issue":
+        value: "รายงานปัญหา"
+      "Search Issues":
+        value: "ค้นปัญหา"
+      "Welcome Guide":
+        value: "แนวทางต้อนรับ"

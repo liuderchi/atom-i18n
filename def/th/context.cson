@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Inspect Element"
+  "atom-text-editor":
+    "color-picker:open": "Color Picker"
+    "minimap:toggle": "Toggle Minimap"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Undo"
+    "core:redo": "Redo"
+    "core:cut": "Cut"
+    "core:copy": "Copy"
+    "core:paste": "Paste"
+    "core:delete": "Delete"
+    "core:select-all": "Select All"
+    "pane:split-up-and-copy-active-item": "Split Up"
+    "pane:split-down-and-copy-active-item": "Split Down"
+    "pane:split-left-and-copy-active-item": "Split Left"
+    "pane:split-right-and-copy-active-item": "Split Right"
+    "pane:close": "Close Pane"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Split Up"
+    "pane:split-down-and-copy-active-item": "Split Down"
+    "pane:split-left-and-copy-active-item": "Split Left"
+    "pane:split-right-and-copy-active-item": "Split Right"
+    "pane:close": "Close Pane"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Change Encoding"
+    "spell-check:correct-misspelling": "Correct Spelling"
+    "symbols-view:go-to-declaration": "Go to Declaration"
+  ".overlayer":
+    "grammar-selector:show": "Change Grammar"
+  ".image-view":
+    "image-view:reload": "Reload Image"
+  ".tab":
+    "tabs:close-tab": "Close Tab"
+    "tabs:close-other-tabs": "Close Other Tabs"
+    "tabs:close-tabs-to-right": "Close Tabs to the Right"
+    "tabs:close-tabs-to-left": "Close Tabs to the Left"
+    "tabs:close-saved-tabs": "Close Saved Tabs"
+    "tabs:close-all-tabs": "Close All Tabs"
+    "tabs:split-up": "Split Up"
+    "tabs:split-down": "Split Down"
+    "tabs:split-left": "Split Left"
+    "tabs:split-right": "Split Right"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Open In New Window"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Keep Pending Tab"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Reopen Closed Tab"
+  ".tree-view.full-menu":
+    "tree-view:add-file": "New File"
+    "tree-view:add-folder": "New Folder"
+    "tree-view:move": "Rename"
+    "tree-view:duplicate": "Duplicate"
+    "tree-view:remove": "Delete"
+    "tree-view:copy": "Copy"
+    "tree-view:cut": "Cut"
+    "tree-view:paste": "Paste"
+    "tree-view:open-selected-entry-up": "Split Up"
+    "tree-view:open-selected-entry-down": "Split Down"
+    "tree-view:open-selected-entry-left": "Split Left"
+    "tree-view:open-selected-entry-right": "Split Right"
+    "application:add-project-folder": "Add Project Folder"
+    "tree-view:copy-full-path": "Copy Full Path"
+    "tree-view:copy-project-path": "Copy Project Path"
+    "tree-view:open-in-new-window": "Open In New Window"
+  '.tree-view.full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Split Up"
+    "tree-view:open-selected-entry-down": "Split Down"
+    "tree-view:open-selected-entry-left": "Split Left"
+    "tree-view:open-selected-entry-right": "Split Right"
+  ".tree-view.full-menu .project-root > .header":
+    "tree-view:add-file": "New File"
+    "tree-view:add-folder": "New Folder"
+    "tree-view:move": "Rename"
+    "tree-view:duplicate": "Duplicate"
+    "tree-view:remove": "Delete"
+    "tree-view:copy": "Copy"
+    "tree-view:cut": "Cut"
+    "tree-view:paste": "Paste"
+    "tree-view:open-selected-entry-up": "Split Up"
+    "tree-view:open-selected-entry-down": "Split Down"
+    "tree-view:open-selected-entry-left": "Split Left"
+    "tree-view:open-selected-entry-right": "Split Right"
+    "application:add-project-folder": "Add Project Folder"
+    "tree-view:remove-project-folder": "Remove Project Folder"
+    "tree-view:copy-full-path": "Copy Full Path"
+    "tree-view:copy-project-path": "Copy Project Path"
+    "tree-view:open-in-new-window": "Open In New Window"
+  ".platform-darwin .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Show in Finder"
+  ".platform-win32 .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Show in Explorer"
+  ".platform-linux .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Show in File Manager"
+  ".tree-view > li.directory":
+    "project-find:show-in-current-directory": "Search in Directory"
+  ".tree-view.multi-select":
+    "tree-view:remove": "Delete"
+    "tree-view:copy": "Copy"
+    "tree-view:cut": "Cut"
+    "tree-view:paste": "Paste"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Reveal in Tree View"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Rename"
+    "tree-view:reveal-active-file": "Reveal in Tree View"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Show In Finder"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Show In Explorer"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Show In File Manager"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Show In Finder"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Show In Explorer"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Show In File Manager"
