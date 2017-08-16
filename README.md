@@ -60,7 +60,7 @@ Community-driven translation. :family:
   - Chinese (Simplified): [trifirew](//github.com/trifirew)
   - Korean: [preco21](//github.com/preco21) [chibichichi](//github.com/chibichichi) [Riyeon](//github.com/Riyeon) [nerhis](//github.com/nerhis)
   - Spanish: [stsewd](//github.com/stsewd)
-  - German: [Acer54](//github.com/Acer54)
+  - German: [Acer54](//github.com/Acer54) [queenar](//github.com/queenar)
   - Russian: [Anonym0uz](//github.com/Anonym0uz) [Driglu4it](//github.com/Driglu4it)
   - Portuguese (Brazilian): [jsolisu](//github.com/jsolisu)
   - Dutch: [laurensbrand](//github.com/laurensbrand)
