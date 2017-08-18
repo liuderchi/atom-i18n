@@ -1,3 +1,9 @@
+## 0.12.0 - Thai support
+* Thai support (80%) #99
+* Italian support update (50%) #96
+* German i18n refine #100
+
+
 ## 0.11.0 - Italian support
 * Italian support (30%) #94
 * update eslint config, fix linter error
