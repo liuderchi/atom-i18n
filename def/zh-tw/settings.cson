@@ -165,9 +165,24 @@ Settings:
           undecided: "尚未決定（Atom 會於下次啟動時再次詢問）"
       }
       {
+        _id: 'core.titleBar'
+        title: "視窗標題列"
+        desc: "實驗功能：讓視窗標題列套用 <code>自訂</code> 的主題顏色。選擇 <code>自訂-嵌入</code> 會增加一點空白區域。視窗標題列也可以完全 <code>隱藏</code>。<br>註記：使用自訂或隱藏視窗標題列會讓某些功能失效。<br>變更這個設定需要重新啟動 Atom 以套用效果。"
+        select:
+          native: "原生"
+          custom: "自訂"
+          "custom-inset": "自訂-插頁"
+          hidden: "隱藏"
+      }
+      {
         _id: 'core.useProxySettingsWhenCallingApm'
         title: "呼叫 APM 時使用代理伺服器設定"
         desc: "當呼叫命令列工具 <code>apm</code> 時，使用偵測到的代理伺服器設定。"
+      }
+      {
+        _id: 'core.versionPinnedPackages'
+        title: "固定版本的套件"
+        desc: "輸入已安裝套件的名稱清單，名單中的套件不會自動更新。"
       }
       {
         _id: 'core.useCustomTitleBar'

@@ -178,9 +178,24 @@ Settings:
           undecided: "나중에 물어보기 (나중에 Atom이 실행될 때 다시 물어봅니다)"
       }
       {
+        _id: 'core.titleBar'
+        title: "Title Bar"
+        desc: "Experimental: A <code>custom</code> title bar adapts to theme colors. Choosing <code>custom-inset</code> adds a bit more padding. The title bar can also be completely <code>hidden</code>.<br>Note: Switching to a custom or hidden title bar will compromise some functionality.<br>This setting will require a relaunch of Atom to take effect."
+        select:
+          native: "native"
+          custom: "custom"
+          "custom-inset": "custom-inset"
+          hidden: "hidden"
+      }
+      {
         _id: 'core.useProxySettingsWhenCallingApm'
         title: "Use Proxy Settings When Calling APM"
         desc: "<code>apm</code> 커맨드 라인 도구를 불러올 때 발견된 프록시 설정 사용."
+      }
+      {
+        _id: 'core.versionPinnedPackages'
+        title: "Version Pinned Packages"
+        desc: "List of names of installed packages which are not automatically updated."
       }
       {
         _id: 'core.useCustomTitleBar'
