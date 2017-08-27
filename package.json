@@ -3,8 +3,9 @@
   "main": "./lib/main",
   "version": "0.12.0",
   "scripts": {
-    "test": "npm run validation",
-    "validation": "eslint def lib spec && coffeelint def lib spec && mocha spec/validation.js"
+    "test": "npm run lint && npm run validation",
+    "lint": "eslint def lib spec && coffeelint def lib spec",
+    "validation": "mocha spec/validation.js"
   },
   "description": "Localize Atom for your locale. One i18n package for any language. Community-driven translation.",
   "keywords": [
