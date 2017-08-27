@@ -41,7 +41,7 @@ describe('validation', () => {
 
     describe('checking template/settings.cson `controls.*._id` according atom config-schema.js', () => {
 
-      it('fetches config-schema.js then compares keys of settings.cson with it', () => {
+      it('fetches config-schema.js then compares keys of settings.cson with it', async () => {
         const neverShownDesciptionInSettingsPanelItems = [
           'core.customFileTypes',
           'core.disabledPackages',
@@ -60,17 +60,18 @@ describe('validation', () => {
         const axios = require('axios')
         const configURL = `https://raw.githubusercontent.com/atom/atom/${ATOMVERSION}/src/config-schema.js`
         console.info(`fetching ${configURL}...`)
-        return axios.get(configURL).then(({ data }) => {
+
+        const flattenSrcConfigKeys = await axios.get(configURL).then(({ data }) => {
           const srcConfig = eval(data)
-          const flattenSrcConfigKeys = Object.keys(flattenObj(srcConfig))
+          return Object.keys(flattenObj(srcConfig))
             .filter(key => key.search(/enum/g) === -1)
             .filter(key => key.search(/description$/g) > -1)
             .map(key => key.replace(/\.properties/g, '').replace(/\.description/g, ''))
-
-          expect(templateSettingsControls.concat(neverShownDesciptionInSettingsPanelItems))
-            .to.include.members(flattenSrcConfigKeys, `inconsistent keys compared with ${configURL}\n`)
-          // NOTE expect every key `flattenSrcConfigKeys` appears in templateSettingsControls
         })
+
+        expect(templateSettingsControls.concat(neverShownDesciptionInSettingsPanelItems))
+          .to.include.members(flattenSrcConfigKeys, `inconsistent keys compared with ${configURL}\n`)
+        // NOTE expect every key `flattenSrcConfigKeys` appears in templateSettingsControls
       })
     })
 
