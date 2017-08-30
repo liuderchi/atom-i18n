@@ -26,12 +26,12 @@ describe('validation', () => {
       const loading = () => {
         packageMeta = JSON.parse(fs.readFileSync('./package.json'), 'utf8')
       }
-      expect(loading, 'load package.json error').not.to.throw(Error)
+      expect(loading).not.to.throw(Error, 'load package.json error')
     })
 
     it('checks locale options list in configSchema in package.json', () => {
       const locales = packageMeta.configSchema.locale.enum.map(opt => opt.value)
-      expect(locales, 'inconsistent locale options').to.deep.equal(LOCALES)
+      expect(locales).to.deep.equal(LOCALES, 'inconsistent locale options')
     })
   })
 
@@ -56,10 +56,10 @@ describe('validation', () => {
               const flattenCson = flattenObj(cson)
 
               it('has no error loading cson', () => {
-                expect(cson, 'load cson error').not.to.be.instanceof(Error)
+                expect(cson).not.to.be.instanceof(Error, 'load cson error')
               })
               it('has consistent flatten keys with template', () => {
-                expect(Object.keys(flattenCson), 'inconsistent keys').to.deep.equal(templateKeys[csonFile])
+                expect(Object.keys(flattenCson)).to.deep.equal(templateKeys[csonFile], 'inconsistent keys')
               })
               it('has no special char in values of cson', () => {
                 Object.keys(flattenCson).forEach(k => {
@@ -67,7 +67,7 @@ describe('validation', () => {
                   const _str = flattenCson[k].toString()
                   const _res = _str.search(specialChr)
                   const errMsg = `\n\tfound special chr: '${_str[_res]}' in value: '${_str}'\n\n\tcson-path: '${k}'\t`
-                  expect(_res, errMsg).to.equal(-1)
+                  expect(_res).to.equal(-1, errMsg)
                 })
               })
               if (csonFile === 'menu_linux.cson' || csonFile === 'menu_win32.cson') {
@@ -79,7 +79,7 @@ describe('validation', () => {
                     if (hasAmpersand) {
                       const hotkeyHintRegex = /&\w/g
                       const errMsg = `\n\tinvalid or missing hotkey hint in '${_str}'\n\n\tcson-path: '${k}'\t`
-                      expect(_str.search(hotkeyHintRegex), errMsg).to.not.equal(-1)
+                      expect(_str.search(hotkeyHintRegex)).to.not.equal(-1, errMsg)
                     }
                   })
                 })
