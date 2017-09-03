@@ -15,7 +15,7 @@ const { expect } = require('chai')
 
 const { flattenObj } = require('./util.js')
 const LOCALES = require('./locales.js')
-const CsonFiles = require('./defs.js')
+const { CSON_FILES, ATOM_VERSION } = require('./config.js')
 
 describe('validation', () => {
 
@@ -37,9 +37,45 @@ describe('validation', () => {
 
   describe('cson file validation', () => {
 
+    describe('checking template/settings.cson `controls.*._id` according atom config-schema.js', () => {
+
+      it('fetches config-schema.js then compares keys of settings.cson with it', async () => {
+        const neverShownDesciptionInSettingsPanelItems = [
+          'core.customFileTypes',
+          'core.disabledPackages',
+          'core.themes',
+          'editor.commentEnd',
+          'editor.commentStart',
+          'editor.decreaseIndentPattern',
+          'editor.foldEndPattern',
+          'editor.increaseIndentPattern',
+          'editor.invisibles',   // NOTE shows only editor.invisibles.*
+        ]    // NOTE Manually updated exceptional list from https://github.com/atom/settings-view/blob/master/lib/settings-panel.js#L339-L350
+
+        const templateSettingsControls = CSON.load(path.join(__dirname, '../def/template', 'settings.cson'))
+          .Settings.settings.controls.map(({ _id }) => _id)
+
+        const axios = require('axios')
+        const configURL = `https://raw.githubusercontent.com/atom/atom/${ATOM_VERSION}/src/config-schema.js`
+        console.info(`fetching ${configURL}...`)
+
+        const flattenSrcConfigKeys = await axios.get(configURL).then(({ data }) => {
+          const srcConfig = eval(data)
+          return Object.keys(flattenObj(srcConfig))
+            .filter(key => key.search(/enum/g) === -1)
+            .filter(key => key.search(/description$/g) > -1)
+            .map(key => key.replace(/\.properties/g, '').replace(/\.description/g, ''))
+        })
+
+        expect(templateSettingsControls.concat(neverShownDesciptionInSettingsPanelItems))
+          .to.include.members(flattenSrcConfigKeys, `inconsistent keys compared with ${configURL}\n`)
+        // NOTE expect every key `flattenSrcConfigKeys` appears in templateSettingsControls
+      })
+    })
+
     describe('checking each cson files of all locales', () => {
       const templateKeys = {}
-      CsonFiles.forEach(csonFile => {
+      CSON_FILES.forEach(csonFile => {
         templateKeys[csonFile] = Object.keys(flattenObj(CSON.load(path.join(__dirname, '../def/template', csonFile))))
       })
 
@@ -48,7 +84,7 @@ describe('validation', () => {
 
         describe(`checking locale ${locale}`, () => {
 
-          CsonFiles.forEach(csonFile => {
+          CSON_FILES.forEach(csonFile => {
 
             describe(`checking "${path.join(locale, csonFile)}"`, () => {
 
