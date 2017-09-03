@@ -1,4 +1,4 @@
-const CsonFiles = [
+const CSON_FILES = [
   'menu_darwin.cson',
   'menu_linux.cson',
   'menu_win32.cson',
@@ -8,4 +8,9 @@ const CsonFiles = [
   'welcome.cson',
 ]
 
-module.exports = CsonFiles
+const ATOM_VERSION = 'v1.19.0'
+
+module.exports = {
+  CSON_FILES,
+  ATOM_VERSION,
+}

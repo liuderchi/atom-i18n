@@ -15,9 +15,7 @@ const { expect } = require('chai')
 
 const { flattenObj } = require('./util.js')
 const LOCALES = require('./locales.js')
-const CsonFiles = require('./defs.js')
-
-const ATOMVERSION = 'v1.19.0'
+const { CSON_FILES, ATOM_VERSION } = require('./config.js')
 
 describe('validation', () => {
 
@@ -58,7 +56,7 @@ describe('validation', () => {
           .Settings.settings.controls.map(({ _id }) => _id)
 
         const axios = require('axios')
-        const configURL = `https://raw.githubusercontent.com/atom/atom/${ATOMVERSION}/src/config-schema.js`
+        const configURL = `https://raw.githubusercontent.com/atom/atom/${ATOM_VERSION}/src/config-schema.js`
         console.info(`fetching ${configURL}...`)
 
         const flattenSrcConfigKeys = await axios.get(configURL).then(({ data }) => {
@@ -77,7 +75,7 @@ describe('validation', () => {
 
     describe('checking each cson files of all locales', () => {
       const templateKeys = {}
-      CsonFiles.forEach(csonFile => {
+      CSON_FILES.forEach(csonFile => {
         templateKeys[csonFile] = Object.keys(flattenObj(CSON.load(path.join(__dirname, '../def/template', csonFile))))
       })
 
@@ -86,7 +84,7 @@ describe('validation', () => {
 
         describe(`checking locale ${locale}`, () => {
 
-          CsonFiles.forEach(csonFile => {
+          CSON_FILES.forEach(csonFile => {
 
             describe(`checking "${path.join(locale, csonFile)}"`, () => {
 
