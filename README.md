@@ -6,6 +6,7 @@
 [![issues-count][issues-count]][issues]
 [![Build Status][travis-status]][travis-project]
 [![dependencies Status][david-status]][david-project]
+[![Greenkeeper badge](https://badges.greenkeeper.io/liuderchi/atom-i18n.svg)](https://greenkeeper.io/)
 
 Localize [Atom][atom] :atom: for your locale.
 
