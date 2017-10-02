@@ -29,7 +29,7 @@
   "devDependencies": {
     "axios": "^0.16.2",
     "chai": "^4.1.1",
-    "coffeelint": "^1.16.0",
+    "coffeelint": "^2.0.0",
     "eslint": "^4.5.0",
     "mocha": "^3.5.0",
     "yargs": "^8.0.2"
