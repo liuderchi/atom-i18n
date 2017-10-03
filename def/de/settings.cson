@@ -118,6 +118,14 @@ Settings:
         desc: "Vorgabe der Zeichencodierung, welche zum Lesen und Schreiben von Dateien verwendet wird."
       }
       {
+        _id: 'core.fileSystemWatcher'
+        title: "File System Watcher"
+        desc: "Choose the underlying implementation used to watch for filesystem changes. Emulating changes will miss any events caused by applications other than Atom, but may help prevent crashes or freezes."
+        select:
+          native: "Native operating system APIs"
+          atom: "Emulated with Atom events"
+      }
+      {
         _id: 'core.followSymlinks'
         title: "Symlinks folgen"
         desc: "Atom folgt beim Suchen von Dateien, und beim Öffnen von Ordnern mit dem fuzzy Finder, symbolischen Verknüpfungen."

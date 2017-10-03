@@ -123,6 +123,14 @@ Settings:
         desc: "Кодировка файла используемая по-умолчанию для записи и чтения файлов."
       }
       {
+        _id: 'core.fileSystemWatcher'
+        title: "File System Watcher"
+        desc: "Choose the underlying implementation used to watch for filesystem changes. Emulating changes will miss any events caused by applications other than Atom, but may help prevent crashes or freezes."
+        select:
+          native: "Native operating system APIs"
+          atom: "Emulated with Atom events"
+      }
+      {
         _id: 'core.followSymlinks'
         title: "Соблюдать символику"
         desc: "Соблюдать символику при поиске или открытии файло в древе."

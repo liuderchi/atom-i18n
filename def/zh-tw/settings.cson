@@ -118,6 +118,14 @@ Settings:
         desc: "設定讀寫檔案時預設使用的字元集編碼。"
       }
       {
+        _id: 'core.fileSystemWatcher'
+        title: "檔案系統監控"
+        desc: "選擇監控檔案系統變化所使用的底層實作。選擇模擬的實作會導致 Atom 錯過 Atom 之外其他應用程式產生的事件，但是可以避免 Atom 當機或畫面停滯。"
+        select:
+          native: "原生作業系統應用程式介面"
+          atom: "以 Atom 事件模擬"
+      }
+      {
         _id: 'core.followSymlinks'
         title: "允許使用符號連結（symbolic link）"
         desc: "使用模糊尋找（fuzzy finder）時，允許尋找及開啟符號連結（symbolic link）所對應的檔案。"
