@@ -8,7 +8,7 @@ const CSON_FILES = [
   'welcome.cson',
 ]
 
-const ATOM_VERSION = 'v1.19.0'
+const ATOM_VERSION = 'v1.20.1'
 
 module.exports = {
   CSON_FILES,
