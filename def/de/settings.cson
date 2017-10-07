@@ -165,9 +165,24 @@ Settings:
           undecided: "Weiß nicht (Atom fragt beim nächsten Start erneut nach)"
       }
       {
+        _id: 'core.titleBar'
+        title: "Title Bar"
+        desc: "Experimental: A <code>custom</code> title bar adapts to theme colors. Choosing <code>custom-inset</code> adds a bit more padding. The title bar can also be completely <code>hidden</code>.<br>Note: Switching to a custom or hidden title bar will compromise some functionality.<br>This setting will require a relaunch of Atom to take effect."
+        select:
+          native: "native"
+          custom: "custom"
+          "custom-inset": "custom-inset"
+          hidden: "hidden"
+      }
+      {
         _id: 'core.useProxySettingsWhenCallingApm'
         title: "Nutze die Proxy-Einstellungen, wenn APM aufgerufen wird"
         desc: "Die erkannten Proxy-Einstellungen verwenden, wenn das <code>apm</code> Kommandozeilenwerkzeug aufgerufen wird."
+      }
+      {
+        _id: 'core.versionPinnedPackages'
+        title: "Version Pinned Packages"
+        desc: "List of names of installed packages which are not automatically updated."
       }
       {
         _id: 'core.useCustomTitleBar'
