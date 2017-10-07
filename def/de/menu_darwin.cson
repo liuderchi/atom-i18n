@@ -7,13 +7,13 @@ Menu:
       "View License":
         value: "Lizenzbedingungen anzeigen"
       "Check for Update":
-        value: "Check for Update"
+        value: "Nach Aktualisierungen suchen"
       "Preferences…":
         value: "Einstellungen..."
       "Config…":
-        value: "Config..."
+        value: "Konfiguration..."
       "Init Script…":
-        value: "Init Script..."
+        value: "Script initialisieren..."
       "Keymap…":
         value: "Keymap..."
       "Snippets…":
@@ -21,7 +21,7 @@ Menu:
       "Stylesheet…":
         value: "Stylesheet..."
       "Install Shell Commands":
-        value: "Shell Kommandos installieren"
+        value: "Shell-Kommandos installieren"
       "Hide Atom":
         value: "Atom verbergen"
       "Hide Others":
@@ -45,7 +45,7 @@ Menu:
         value: "Projekt erneut öffnen"
         submenu:
           "Clear Project History":
-            value: "Projekt Historie löschen"
+            value: "Projekt-Historie löschen"
       "Reopen Last Item":
         value: "letzte Datei nochmals öffnen"
       Save:
