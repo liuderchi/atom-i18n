@@ -272,6 +272,11 @@ Settings:
         desc: "Высота строк редактора по отношению к размеру шрифта."
       }
       {
+        _id: 'editor.maxScreenLineLength'
+        title: "Max Screen Line Length"
+        desc: "Defines the maximum width of the editor window before soft wrapping is enforced, in number of characters."
+      }
+      {
         _id: 'editor.nonWordCharacters'
         title: "Не буквы"
         desc: "Строка символов для определения границы слов."

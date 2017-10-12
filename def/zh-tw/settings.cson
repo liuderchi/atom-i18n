@@ -263,6 +263,11 @@ Settings:
         desc: "文字編輯器內文字的行高，為字型大小的倍數。"
       }
       {
+        _id: 'editor.maxScreenLineLength'
+        title: "視窗顯示的每行最大長度"
+        desc: "不會套用自動換行的編輯器視窗寬度最大值，以字元數來表示。"
+      }
+      {
         _id: 'editor.nonWordCharacters'
         title: "不視為詞彙的字元"
         desc: "下列字元將不被視為詞彙，而是拿來做為詞彙邊界。"

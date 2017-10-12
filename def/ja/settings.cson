@@ -270,6 +270,11 @@ Settings:
         desc: "line-height (number)"
       }
       {
+        _id: 'editor.maxScreenLineLength'
+        title: "Max Screen Line Length"
+        desc: "Defines the maximum width of the editor window before soft wrapping is enforced, in number of characters."
+      }
+      {
         _id: 'editor.nonWordCharacters'
         title: "単語の一部として扱わない文字"
         desc: "単語の境界を定めるための文字"

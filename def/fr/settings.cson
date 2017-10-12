@@ -278,6 +278,11 @@ Settings:
         desc: "Hauteur des lignes de l'éditeur sous forme du coefficient multiplicateur de la taille de la police."
       }
       {
+        _id: 'editor.maxScreenLineLength'
+        title: "Max Screen Line Length"
+        desc: "Defines the maximum width of the editor window before soft wrapping is enforced, in number of characters."
+      }
+      {
         _id: 'editor.nonWordCharacters'
         title: "Caractères non-alphanumériques"
         desc: "Une chaîne des caractères n'apparaissant pas dans les mots pour pouvoir les délimiter."
