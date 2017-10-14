@@ -126,6 +126,14 @@ Settings:
         desc: "Default character set encoding to use when reading and writing files."
       }
       {
+        _id: 'core.fileSystemWatcher'
+        title: "File System Watcher"
+        desc: "Choose the underlying implementation used to watch for filesystem changes. Emulating changes will miss any events caused by applications other than Atom, but may help prevent crashes or freezes."
+        select:
+          native: "Native operating system APIs"
+          atom: "Emulated with Atom events"
+      }
+      {
         _id: 'core.followSymlinks'
         title: "Follow Symlinks"
         desc: "Follow symbolic links when searching files and when opening files with the fuzzy finder."
@@ -266,6 +274,11 @@ Settings:
         _id: 'editor.lineHeight'
         title: "Line Height"
         desc: "Height of editor lines, as a multiplier of font size."
+      }
+      {
+        _id: 'editor.maxScreenLineLength'
+        title: "Max Screen Line Length"
+        desc: "Defines the maximum width of the editor window before soft wrapping is enforced, in number of characters."
       }
       {
         _id: 'editor.nonWordCharacters'
