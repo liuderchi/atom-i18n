@@ -1,3 +1,9 @@
+## 0.12.1 - Refine validation
+* Validate settings content with Atom v1.22 source config #102 #107
+* German i18n update #109
+* Update package dependencies, add greenkeeper bot #103 #104
+
+
 ## 0.12.0 - Thai support
 * Thai support (80%) #99
 * Italian support update (50%) #96
