@@ -27,7 +27,7 @@
     "cson": "^4.0.0"
   },
   "devDependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.17.0",
     "chai": "^4.1.1",
     "coffeelint": "^1.16.0",
     "eslint": "^4.5.0",
