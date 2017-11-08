@@ -7,7 +7,7 @@ Menu:
       "View License":
         value: "ライセンスを表示"
       "Check for Update":
-        value: "Check for Update"
+        value: "アップデートを確認"
       "Preferences…":
         value: "環境設定..."
       "Config…":
@@ -42,10 +42,10 @@ Menu:
       "Add Project Folder…":
         value: "プロジェクトフォルダを追加..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "最近使用したプロジェクトを開く"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "プロジェクト履歴をクリア"
       "Reopen Last Item":
         value: "最後に使用したファイルを開く..."
       Save:
