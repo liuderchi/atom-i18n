@@ -71,6 +71,7 @@ Community-driven translation. :family:
   - Polish: [nolt](//github.com/nolt)
   - Italian: [francematt](//github.com/francematt)
   - Thai: [sitdh](//github.com/sitdh)
+  - Japanese [shingo-uzuki](//github.com/shingo-uzuki)
 
 
 ## Reference
