@@ -191,6 +191,15 @@ Settings:
           hidden: "hidden"
       }
       {
+        _id: 'core.uriHandlerRegistration'
+        title: 'Uri Handler Registration'
+        desc: 'When should Atom register itself as the default handler for atom:// URIs'
+        select:
+          prompt: 'Prompt to register Atom as the default atom:// URI handler'
+          always: 'Always become the default atom:// URI handler automatically'
+          never: 'Never become the default atom:// URI handler'
+      }
+      {
         _id: 'core.useProxySettingsWhenCallingApm'
         title: "Use Proxy Settings When Calling APM"
         desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
