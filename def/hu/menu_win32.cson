@@ -44,7 +44,7 @@ Menu:
       "Clos&e Window":
         value: "Ablak bezárása(&E)"
       "E&xit":
-        value: "Exit(&X)"
+        value: "Kilépés(&X)"
       "Close All Tabs":
         value: "Minden lap bezárása"
   "&Edit":
