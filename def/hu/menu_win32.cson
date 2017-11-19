@@ -286,9 +286,9 @@ Menu:
     value: "Súgó(&H)"
     submenu:
       "View &Terms of Use":
-        value: "Felhasználási feltételek megtekintése"
+        value: "Felhasználási feltételek megtekintése(&T)"
       "View &License":
-        value: "Licenc megtekintése"
+        value: "Licenc megtekintése(&L)"
       "Check for Update":
         value: "Frissítések keresése"
       "&Documentation":

@@ -259,7 +259,7 @@ Menu:
       "Select Inside Brackets":
         value: "Zárójelen belüli rész kijelölése"
   Find:
-    value: "Keresés
+    value: "Keresés"
     submenu:
       "Find in Buffer":
         value: "Keresés a pufferben"
