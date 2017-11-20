@@ -32,6 +32,7 @@ Community-driven translation. :family:
 | Spanish | `es` | :white_check_mark: 100% |
 | French | `fr` | :white_check_mark: 100% |
 | Hindi | `hi` | :exclamation: [I can translate][hi-issue-filter] |
+| Hungarian | `hu` | :white_check_mark: 100% |
 | Italian| `it` | :warning: 50% [I can translate][it-issue-filter] |
 | Japanese | `ja` | :white_check_mark: 100% |
 | Korean | `ko` | :white_check_mark: 100% |
@@ -72,7 +73,8 @@ Community-driven translation. :family:
   - Polish: [nolt](//github.com/nolt)
   - Italian: [francematt](//github.com/francematt)
   - Thai: [sitdh](//github.com/sitdh)
-  - Japanese [shingo-uzuki](//github.com/shingo-uzuki)
+  - Japanese: [shingo-uzuki](//github.com/shingo-uzuki)
+  - Hungarian: [dominicus-75](//github.com/dominicus-75)
 
 
 ## Reference
@@ -128,6 +130,7 @@ Community-driven translation. :family:
 [de-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20de%22 "de-issue-filter"
 [fr-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fr%22 "fr-issue-filter"
 [hi-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20hi%22 "hi-issue-filter"
+[hu-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20hu%22 "hu-issue-filter"
 [it-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20it%22 "it-issue-filter"
 [ja-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ja%22 "ja-issue-filter"
 [ko-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ko%22 "ko-issue-filter"
