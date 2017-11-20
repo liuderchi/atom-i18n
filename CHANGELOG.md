@@ -1,3 +1,8 @@
+## 0.13.0 - Hungarian support
+* Hungarian support (100%) #116
+* Japanese support update (95%) #112
+
+
 ## 0.12.1 - Refine validation
 * Validate settings content with Atom v1.22 source config #102 #107
 * German i18n update #109

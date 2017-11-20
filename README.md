@@ -2,11 +2,12 @@
 
 [![apm-download-count][apm-download-count]][apm-download-link]
 [![contributor-count][contributor-count]][contributors]
-[![contribute-welcome-banner][contribute-welcome-banner]][CONTRIBUTING.md]
+[![contribute-welcome-badge][contribute-welcome-badge]][CONTRIBUTING.md]
 [![issues-count][issues-count]][issues]
 [![Build Status][travis-status]][travis-project]
 [![dependencies Status][david-status]][david-project]
-[![Greenkeeper badge](https://badges.greenkeeper.io/liuderchi/atom-i18n.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge][greenkeeper-badge]][greenkeeper]
+[![license][license-badge]][license]
 
 Localize [Atom][atom] :atom: for your locale.
 
@@ -31,6 +32,7 @@ Community-driven translation. :family:
 | Spanish | `es` | :white_check_mark: 100% |
 | French | `fr` | :white_check_mark: 100% |
 | Hindi | `hi` | :exclamation: [I can translate][hi-issue-filter] |
+| Hungarian | `hu` | :white_check_mark: 100% |
 | Italian| `it` | :warning: 50% [I can translate][it-issue-filter] |
 | Japanese | `ja` | :white_check_mark: 100% |
 | Korean | `ko` | :white_check_mark: 100% |
@@ -71,7 +73,8 @@ Community-driven translation. :family:
   - Polish: [nolt](//github.com/nolt)
   - Italian: [francematt](//github.com/francematt)
   - Thai: [sitdh](//github.com/sitdh)
-  - Japanese [shingo-uzuki](//github.com/shingo-uzuki)
+  - Japanese: [shingo-uzuki](//github.com/shingo-uzuki)
+  - Hungarian: [dominicus-75](//github.com/dominicus-75)
 
 
 ## Reference
@@ -103,7 +106,7 @@ Community-driven translation. :family:
 [apm-download-link]: https://atom.io/packages/atom-i18n "apm-download-link"
 [contributor-count]: https://img.shields.io/github/contributors/liuderchi/atom-i18n.svg "contributor-count"
 [contributors]: https://github.com/liuderchi/atom-i18n#thanks-to-contributors "contributors"
-[contribute-welcome-banner]: https://camo.githubusercontent.com/9c8a9bb0456c3bff0d34d8ea66071420f1ab2c44/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6e747269627574696f6e732d77656c636f6d652d626c75652e737667 "welcome-banner"
+[contribute-welcome-badge]: https://camo.githubusercontent.com/9c8a9bb0456c3bff0d34d8ea66071420f1ab2c44/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6e747269627574696f6e732d77656c636f6d652d626c75652e737667 "welcome-badge"
 [CONTRIBUTING.md]: https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md "CONTRIBUTING.md"
 [issues-count]: https://img.shields.io/github/issues/liuderchi/atom-i18n.svg "issues-count"
 [issues]: https://github.com/liuderchi/atom-i18n/issues "issues"
@@ -111,6 +114,11 @@ Community-driven translation. :family:
 [travis-project]: https://travis-ci.org/liuderchi/atom-i18n "travis-project"
 [david-status]: https://david-dm.org/liuderchi/atom-i18n/status.svg "david-status"
 [david-project]: https://david-dm.org/liuderchi/atom-i18n "david-project"
+[greenkeeper-badge]: https://badges.greenkeeper.io/liuderchi/atom-i18n.svg "greenkeeper"
+[greenkeeper]: https://greenkeeper.io/ "greenkeeper"
+[license-badge]: https://img.shields.io/github/license/liuderchi/atom-i18n.svg "license-badge"
+[license]: http://liuderchi.mit-license.org/ "license"
+
 [atom]: https://atom.io/ "atom"
 [demo-es]: https://cloud.githubusercontent.com/assets/4994705/23652503/36826bd6-0364-11e7-9683-43cdcc2aae88.png "demo-es"
 [demo-tw]: https://cloud.githubusercontent.com/assets/4994705/23652298/5123f294-0363-11e7-8f8f-e9c83f19710e.png "demo-tw"
@@ -122,6 +130,7 @@ Community-driven translation. :family:
 [de-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20de%22 "de-issue-filter"
 [fr-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fr%22 "fr-issue-filter"
 [hi-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20hi%22 "hi-issue-filter"
+[hu-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20hu%22 "hu-issue-filter"
 [it-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20it%22 "it-issue-filter"
 [ja-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ja%22 "ja-issue-filter"
 [ko-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ko%22 "ko-issue-filter"
