@@ -62,6 +62,10 @@
           "description": "हिन्दी (hi)"
         },
         {
+          "value": "hu",
+          "description": "Magyar (hu)"
+        },
+        {
           "value": "it",
           "description": "Italiano (it)"
         },

@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "Üdvözlet!"
+  subtitle: {
+    text1: "Testreszabható szövegszerkesztő a 21"
+    superscript: "."
+    text2: " századnak"
+  }
+  help: {
+    forHelpVisit: "Hasznos webhelyek (angolul): "
+    atomDocs: {
+      text1: "Az "
+      link: "Atom "
+      text2: " dokumentációs oldala, a teljes API referenciával."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "Az Atom "
+      link: "felhasználói fóruma"
+      text2: ""   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: "Az Atom "
+      link: "GitHub oldala"
+      text2: ", ahol megtalálható az Atom-hoz elérhető összes csomag."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "Az Atom megnyitásakor mindig mutassa ezt az üdvözlő-lapot"

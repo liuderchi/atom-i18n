@@ -4,6 +4,7 @@ const LOCALES = [
   'es',
   'fr',
   'hi',
+  'hu',
   'it',
   'ja',
   'ko',
