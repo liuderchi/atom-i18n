@@ -88,7 +88,7 @@ Community-driven translation. :family:
       * content is grouped by locale folder
 
   * `lib/` is about translation operations
-      * contains `main.coffee` which is entry point
+      * contains `main.js` which is entry point
       * 5 parts require translation:
           * menus in the top
           * context-menu when right clicked
