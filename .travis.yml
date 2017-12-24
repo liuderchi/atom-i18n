@@ -8,6 +8,10 @@ branches:
   - master
   - /^greenkeeper/.*$/
 
+before_install:
+- npm install -g npm@5
+- npm install -g greenkeeper-lockfile@1
+
 install:
 - npm install
 
@@ -18,4 +22,8 @@ notifications:
     on_success: never
     on_failure: change
 
+before_script: greenkeeper-lockfile-update
+
 script: npm run validation
+
+after_script: greenkeeper-lockfile-upload
