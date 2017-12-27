@@ -1,9 +1,9 @@
 Settings:
-  "tab-title": "Settings"
+  "tab-title": "Impostazioni"
   menu: [
     {
       _label: "Core"
-      value: "Core"
+      value: "Base"
     }
     {
       _label: "Editor"
@@ -11,15 +11,15 @@ Settings:
     }
     {
       _label: "System"
-      value: "System"
+      value: "Sistema"
     }
     {
       _label: "Keybindings"
-      value: "Keybindings"
+      value: "Mappa Tasti"
     }
     {
       _label: "Packages"
-      value: "Packages"
+      value: "Pacchetti"
     }
     {
       _label: "Themes"
@@ -34,47 +34,47 @@ Settings:
       value: "Installa"
     }
   ]
-  "btn-open-config-folder": "Open Config Folder"
+  "btn-open-config-folder": "Apri Directory di Configurazione"
   sectionHeadings: [
-    {_label: "Core Settings", value: "Core Settings"}
-    {_label: "Editor Settings", value: "Editor Settings"}
-    {_label: "System Settings", value: "System Settings"}
-    {_label: "Keybindings", value: "Keybindings"}
+    {_label: "Core Settings", value: "Impostazioni di Base"}
+    {_label: "Editor Settings", value: "Impostazioni dell'Editor"}
+    {_label: "System Settings", value: "Impostazioni di Sistema"}
+    {_label: "Keybindings", value: "Mappa Tasti"}
     {_label: "Installed Packages", value: "Pacchetti installati"}
     {_label: "Choose a Theme", value: "Scegli un tema"}
-    {_label: "Installed Themes", value: "Installed Themes"}
+    {_label: "Installed Themes", value: "Temi Installati"}
     {_label: "Install Packages", value: "Installa pacchetti"}
-    {_label: "Featured Packages", value: "Featured Packages"}
-    {_label: "Install Themes", value: "Install Themes"}
-    {_label: "Featured Themes", value: "Featured Themes"}
+    {_label: "Featured Packages", value: "Pacchetti Disponibili"}
+    {_label: "Install Themes", value: "Installa Temi"}
+    {_label: "Featured Themes", value: "Temi Disponibili"}
     {_label: "Available Updates", value: "Aggiornamenti disponibili"}
   ]
   subSectionHeadings: [
     {_label: "Invisible", value: "Invisibile"}
     {_label: "Community Packages", value: "Pacchetti della Community"}
-    {_label: "Core Packages", value: "Core Packages"}
+    {_label: "Core Packages", value: "Pacchetti di Base"}
     {_label: "Development Packages", value: "Pacchetti di sviluppo"}
-    {_label: "Git Packages", value: "Git Packages"}
-    {_label: "Community Themes", value: "Community Themes"}
-    {_label: "Core Themes", value: "Core Themes"}
-    {_label: "Development Themes", value: "Development Themes"}
-    {_label: "Git Themes", value: "Git Themes"}
+    {_label: "Git Packages", value: "Pacchetti Git"}
+    {_label: "Community Themes", value: "Temi della Comunità"}
+    {_label: "Core Themes", value: "Temi di Base"}
+    {_label: "Development Themes", value: "Temi di Sviluppo"}
+    {_label: "Git Themes", value: "Temi Git"}
   ]
   settings: {
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'These are Atom\'s core settings which affect behavior
-               unrelated to text editing. Individual packages may have
-               their own additional settings found within their package
-               card in the <a class="link packages-open">Packages list</a>.'
+        html: 'Queste sono le impostazioni di Base di Atom che influenzano il comportamento
+               non relativo alla modifica del testo. I pacchetti individuali possono avere 
+               le proprie impostazioni addizionali, che puoi modificare tramite la loro schedina
+               nella <a class="link packages-open">Lista dei Pacchetti</a>.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'These settings are related to text editing. Some of these
-               can be overriden on a per-language basis. Check language
-               settings by clicking its package card in the
-               <a class="link packages-open">Packages list</a>.'
+        html: 'Queste impostazioni riguardano la modifica del testo. Alcune di queste
+               possono essere sovrascritte in base al linguaggio. Controlla le
+               impostazioni della lingua cliccando sulla schedina del pacchetto linguistico nella
+               <a class="link packages-open">Lista dei Pacchetti</a>.'
       }
     ]
     controls: [
@@ -403,60 +403,60 @@ Settings:
     ]
   }
   system: {
-    notes: "These settings determine how Atom integrates with your operating system."
+    notes: "Queste impostazioni determinano il modo in cui Atom interagisce con il tuo sistema operativo."
   }
   keymaps: {
     notes: {
-      text1: "You can override these keybindings by copying "
-      text2: "and pasting them into "
-      text3: "your keymap file"
-      text4: ""   # optional
+      text1: "Puoi sovrascrivere queste associazioni copiandole "
+      text2: "ed incollandole nel tuo "
+      text3: "file delle Associazioni"
+      text4: "."   # optional
       _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
     }
-    "search-bar-placeholder": "Search keybindings"
-    "table-header-keystroke": "Keystroke"
-    "table-header-command": "Command"
-    "table-header-source": "Source"
-    "table-header-selector": "Selector"
+    "search-bar-placeholder": "Ricerca tasti associati"
+    "table-header-keystroke": "Tasto"
+    "table-header-command": "Comando associato"
+    "table-header-source": "Fonte"
+    "table-header-selector": "Selettore"
   }
   packages: {
-    searchBarText: 'Filter packages by name'
+    searchBarText: 'Filtra i pacchetti per nome'
   }
   themes: {
     notes: {
-      text1: "You can also style Atom by editing "
-      text2: "your stylesheet"
-      text3: ""   # optional
+      text1: "Puoi anche personalizzare Atom editando "
+      text2: "il tuo Foglio di Stile"
+      text3: "."   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
-    title1: "UI Theme"
-    description1: "This styles the tabs, status bar, tree view, and dropdowns"
-    title2: "Syntax Theme"
-    description2: "This styles the text inside the editor"
-    searchBarText: 'Filter themes by name'
+    title1: "Tema della GUI"
+    description1: "Questo personalizza schede, barre di stato, visuali ad albero e menu a discesa"
+    title2: "Tema sintattico"
+    description2: "Questo personalizza il testo all'interno dell'editor"
+    searchBarText: 'Filtra i temi per nome'
   }
   updates: {
-    "check-updates": "Check for Updates"
-    "update-all": "Update All"
-    "checking-updates": "Checking for updates..."
-    "all-updated-message": "All of your installed packages are up to date!"
+    "check-updates": "Controlla Aggiornamenti"
+    "update-all": "Aggiorna Tutto"
+    "checking-updates": "Ricerca degli Aggiornamenti..."
+    "all-updated-message": "Tutti i pacchetti installati risultano aggiornati!"
   }
   install: {
     notes: {
-      text1: "Packages are published to "
-      text2: " and are installed to "
-      text3: ""   # optional
+      text1: "I pacchetti vengono pubblicati presso "
+      text2: " e sono installati all'interno di '"
+      text3: "'."   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
-    "searchbar-placeholder": "Search packages"
-    "btn-packages": "Packages"
-    "btn-themes": "Themes"
+    "searchbar-placeholder": "Cerca i pacchetti"
+    "btn-packages": "Pacchetti"
+    "btn-themes": "Temi"
   }
   "control-btns":{
-    install: "Install"
-    update: "Update to"
-    setting: "Settings"
-    uninstall: "Uninstall"
-    disable: "Disable"
-    enable: "Enable"
+    install: "Installa"
+    update: "Aggiorna a"
+    setting: "Impostazioni"
+    uninstall: "Disinstalla"
+    disable: "Disattiva"
+    enable: "Attiva"
   }
