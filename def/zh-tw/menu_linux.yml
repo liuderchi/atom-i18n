@@ -1,0 +1,305 @@
+Menu:
+  '&File':
+    value: 檔案(&F)
+    submenu:
+      New &Window:
+        value: 開新視窗(&W)
+      '&New File':
+        value: 新增文件(&N)
+      '&Open File…':
+        value: 開啟(&O)...
+      Open Folder…:
+        value: 開啟資料夾...
+      Add Project Folder…:
+        value: 新增專案資料夾...
+      Reopen Project:
+        value: 重新開啟專案
+        submenu:
+          Clear Project History:
+            value: 清除專案歷史紀錄
+      Reopen Last &Item:
+        value: 重新開啟上一個分頁(&I)
+      '&Save':
+        value: 存檔(&S)
+      Save &As…:
+        value: 另存新檔(&A)...
+      Save A&ll:
+        value: 儲存所有文件(&L)
+      '&Close Tab':
+        value: 關閉分頁(&C)
+      Close &Pane:
+        value: 關閉窗格(&P)
+      Clos&e Window:
+        value: 關閉視窗(&E)
+      Quit:
+        value: 結束 Atom
+      Close All Tabs:
+        value: 關閉所有分頁
+  '&Edit':
+    value: 編輯(&E)
+    submenu:
+      '&Undo':
+        value: 復原(&U)
+      '&Redo':
+        value: 重作(&R)
+      '&Cut':
+        value: 剪下(&C)
+      C&opy:
+        value: 複製(&O)
+      Copy Pat&h:
+        value: 複製檔案路徑(&H)
+      '&Paste':
+        value: 貼上(&P)
+      Select &All:
+        value: 全選(&A)
+      '&Toggle Comments':
+        value: 註解/取消註解(&T)
+      Lines:
+        value: 行
+        submenu:
+          '&Indent':
+            value: 增加縮排(&I)
+          '&Outdent':
+            value: 減少縮排(&O)
+          '&Auto Indent':
+            value: 自動縮排(&A)
+          Move Line &Up:
+            value: 將此行向上移動(&U)
+          Move Line &Down:
+            value: 將此行向下移動(&D)
+          Du&plicate Lines:
+            value: 複製(&P)
+          D&elete Line:
+            value: 刪除(&E)
+          '&Join Lines':
+            value: 多行合併(&J)
+      Columns:
+        value: 欄
+        submenu:
+          Move Selection &Left:
+            value: 將選取範圍向左移(&L)
+          Move Selection &Right:
+            value: 將選取範圍向右移(&R)
+      Text:
+        value: 文字
+        submenu:
+          '&Upper Case':
+            value: 轉為大寫(&U)
+          '&Lower Case':
+            value: 轉為小寫(&L)
+          Delete to End of &Word:
+            value: 刪除至下一個詞尾(&W)
+          Delete to Previous Word Boundary:
+            value: 刪除至上一個詞語邊界
+          Delete to Next Word Boundary:
+            value: 刪除至下一個詞語邊界
+          '&Delete Line':
+            value: 刪除行(&D)
+          '&Transpose':
+            value: 顛倒(&T)
+      Folding:
+        value: 折疊程式碼
+        submenu:
+          '&Fold':
+            value: 折疊(&F)
+          '&Unfold':
+            value: 展開(&U)
+          Unfold &All:
+            value: 展開全部(&A)
+          Fol&d All:
+            value: 折疊全部(&D)
+          Fold Level 1:
+            value: 折疊至第 1 層縮排
+          Fold Level 2:
+            value: 折疊至第 2 層縮排
+          Fold Level 3:
+            value: 折疊至第 3 層縮排
+          Fold Level 4:
+            value: 折疊至第 4 層縮排
+          Fold Level 5:
+            value: 折疊至第 5 層縮排
+          Fold Level 6:
+            value: 折疊至第 6 層縮排
+          Fold Level 7:
+            value: 折疊至第 7 層縮排
+          Fold Level 8:
+            value: 折疊至第 8 層縮排
+          Fold Level 9:
+            value: 折疊至第 9 層縮排
+      '&Preferences':
+        value: 偏好設定(&P)
+      Config…:
+        value: 設定檔...
+      Init Script…:
+        value: 開啟初始指令...
+      Keymap…:
+        value: 開啟快捷鍵設定...
+      Snippets…:
+        value: 開啟程式碼片段...
+      Stylesheet…:
+        value: 開啟 Atom 樣式表...
+      Reflow Selection:
+        value: 重新編排選取區域
+      Bookmark:
+        value: 書籤
+        submenu:
+          View All:
+            value: 檢視所有書籤
+          Toggle Bookmark:
+            value: 切換書籤
+          Jump to Next Bookmark:
+            value: 移至下一個書籤
+          Jump to Previous Bookmark:
+            value: 移至上一個書籤
+      Select Encoding:
+        value: 選擇編碼
+      Go to Line:
+        value: 移動至指定行數
+      Select Grammar:
+        value: 切換語法
+  '&View':
+    value: 檢視(&V)
+    submenu:
+      Toggle &Full Screen:
+        value: 切換全螢幕(&F)
+      Toggle Menu Bar:
+        value: 顯示/隱藏功能表欄
+      Panes:
+        value: 窗格
+        submenu:
+          Split Up:
+            value: 向上分割窗格 ↑
+          Split Down:
+            value: 向下分割窗格 ↓
+          Split Left:
+            value: 向左分割窗格 ←
+          Split Right:
+            value: 向右分割窗格 →
+          Focus Next Pane:
+            value: 移至下一個窗格
+          Focus Previous Pane:
+            value: 移至上一個窗格
+          Focus Pane Above:
+            value: 移至上方窗格 ↑
+          Focus Pane Below:
+            value: 移至下方窗格 ↓
+          Focus Pane On Left:
+            value: 移至左方窗格 ←
+          Focus Pane On Right:
+            value: 移至右方窗格 →
+          Close Pane:
+            value: 關閉窗格
+      Developer:
+        value: 開發人員
+        submenu:
+          Open In &Dev Mode…:
+            value: 在開發人員模式中開啟(&D)...
+          '&Reload Window':
+            value: 重新載入視窗(&R)
+          Run Package &Specs:
+            value: 執行擴充套件規格測試(&S)
+          Run &Benchmarks:
+            value: 執行性能測試(&B)
+          Toggle Developer &Tools:
+            value: 開發人員工具(&T)
+      '&Increase Font Size':
+        value: 放大字型(&I)
+      '&Decrease Font Size':
+        value: 縮小字型(&D)
+      Re&set Font Size:
+        value: 重設字型大小(&S)
+      Toggle Soft &Wrap:
+        value: 自動換行(&W)
+      Toggle Command Palette:
+        value: 切換指令面板
+      Toggle Tree View:
+        value: 切換 Tree View
+  '&Selection':
+    value: 選取區域(&S)
+    submenu:
+      Add Selection &Above:
+        value: 向上新增游標(&A)
+      Add Selection &Below:
+        value: 向下新增游標(&B)
+      S&plit into Lines:
+        value: 建立多個游標(&P)
+      Single Selection:
+        value: 單一游標
+      Select to &Top:
+        value: 選取至文件頂端(&T)
+      Select to Botto&m:
+        value: 選取至文件底端(&M)
+      Select &Line:
+        value: 選取行(&L)
+      Select &Word:
+        value: 選取詞(&W)
+      Select to Beginning of W&ord:
+        value: 選取至詞首(&O)
+      Select to Beginning of L&ine:
+        value: 選取至行首(&I)
+      Select to First &Character of Line:
+        value: 選取至行內第一個字元(&C)
+      Select to End of Wor&d:
+        value: 選取至詞尾(&D)
+      Select to End of Lin&e:
+        value: 選取至行尾(&E)
+      Select Inside Brackets:
+        value: 選取括號內容
+  F&ind:
+    value: 尋找(&I)
+    submenu:
+      Find in Buffer:
+        value: 在文件中尋找
+      Replace in Buffer:
+        value: 在文件中取代
+      Select Next:
+        value: 選擇下一個項目
+      Select All:
+        value: 選擇所有項目
+      Toggle Find in Buffer:
+        value: 切換文件中尋找面板
+      Find in Project:
+        value: 在專案資料夾中尋找
+      Toggle Find in Project:
+        value: 切換專案資料夾中尋找面板
+      Find All:
+        value: 尋找所有項目
+      Find Next:
+        value: 尋找下一個項目
+      Find Previous:
+        value: 尋找上一個項目
+      Replace Next:
+        value: 取代下一個項目
+      Replace All:
+        value: 全部取代
+      Clear History:
+        value: 清除歷史記錄
+      Find Buffer:
+        value: 尋找編輯中文件
+      Find File:
+        value: 尋找檔案
+      Find Modified File:
+        value: 尋找修改過的檔案
+  '&Packages':
+    value: 擴充套件(&P)
+  '&Help':
+    value: 幫助(&H)
+    submenu:
+      View &Terms of Use:
+        value: 檢視使用條款(&T)
+      View &License:
+        value: 檢視授權(&L)
+      '&Documentation':
+        value: 說明文件(&D)
+      Frequently Asked Questions:
+        value: 常見問題
+      Community Discussions:
+        value: 社群討論區
+      Report Issue:
+        value: 回報問題
+      Search Issues:
+        value: 搜尋問題
+      About Atom:
+        value: 關於 Atom
+      Welcome Guide:
+        value: 歡迎畫面與指南

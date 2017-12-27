@@ -139,6 +139,12 @@ describe('validation', () => {
       ]
       const YAML_FILES = [
         'about',
+        'context',
+        'settings',
+        'welcome',
+        'menu_darwin',
+        'menu_linux',
+        'menu_win32',
       ]
 
       YAML_FILES.forEach(fileName => {

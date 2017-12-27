@@ -1,0 +1,24 @@
+Welcome:
+  tabTitle: 歡迎
+  subtitle:
+    text1: 為 21 世紀打造 — 可改造的文字編輯器
+    superscript: ''
+    text2: ''
+  help:
+    forHelpVisit: 若需要幫助，請拜訪
+    atomDocs:
+      text1: ''
+      link: Atom 文件
+      text2: 以取得操作指南及 API 參考文件。
+      _template: ${text1}<a>${link}</a>${text2}
+    atomForum:
+      text1: 'Atom 論壇，位於 '
+      link: discuss.atom.io
+      text2: ''
+      _template: ${text1}<a>${link}</a>${text2}
+    atomOrg:
+      text1: ''
+      link: Atom 組織
+      text2: 。這裡包含所有 GitHub 所開發的 Atom 擴充套件。
+      _template: ${text1}<a>${link}</a>${text2}
+  showWelcomeGuide: 開啟 Atom 時顯示歡迎指南

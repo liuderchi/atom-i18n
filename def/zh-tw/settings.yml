@@ -1,0 +1,385 @@
+Settings:
+  tab-title: 設定
+  menu:
+    -
+      _label: Core
+      value: 核心
+    -
+      _label: Editor
+      value: 編輯器
+    -
+      _label: System
+      value: 系統
+    -
+      _label: Keybindings
+      value: 快捷鍵綁定
+    -
+      _label: Packages
+      value: 擴充套件
+    -
+      _label: Themes
+      value: 佈景主題
+    -
+      _label: Updates
+      value: 更新
+    -
+      _label: Install
+      value: 安裝
+  btn-open-config-folder: 開啟設定資料夾
+  sectionHeadings:
+    -
+      _label: Core Settings
+      value: 核心設定
+    -
+      _label: Editor Settings
+      value: 編輯器設定
+    -
+      _label: System Settings
+      value: 系統設定
+    -
+      _label: Keybindings
+      value: 快捷鍵綁定
+    -
+      _label: Installed Packages
+      value: 已安裝的擴充套件
+    -
+      _label: Choose a Theme
+      value: 選擇一個佈景主題
+    -
+      _label: Installed Themes
+      value: 已安裝的佈景主題
+    -
+      _label: Install Packages
+      value: 安裝擴充套件
+    -
+      _label: Featured Packages
+      value: 特色擴充套件
+    -
+      _label: Install Themes
+      value: 安裝佈景主題
+    -
+      _label: Featured Themes
+      value: 特色佈景主題
+    -
+      _label: Available Updates
+      value: 可用的更新
+  subSectionHeadings:
+    -
+      _label: Invisible
+      value: 隱藏字元
+    -
+      _label: Community Packages
+      value: 社群開發的擴充套件
+    -
+      _label: Core Packages
+      value: 核心擴充套件
+    -
+      _label: Development Packages
+      value: 開發中的擴充套件
+    -
+      _label: Git Packages
+      value: 由 Git 倉庫（Repository）安裝的擴充套件
+    -
+      _label: Community Themes
+      value: 社群開發的佈景主題
+    -
+      _label: Core Themes
+      value: 核心佈景主題
+    -
+      _label: Development Themes
+      value: 開發中的佈景主題
+    -
+      _label: Git Themes
+      value: 由 Git 倉庫（Repository）安裝的佈景主題
+  settings:
+    notes:
+      -
+        _id: core-settings-note
+        html: 這些 Atom 核心設定與文字編輯操作無關。各個擴充套件可能有額外的設定，可於<a class="link packages-open">擴充套件清單</a>中的擴充套件卡片內檢視。
+      -
+        _id: editor-settings-note
+        html: 這些是文字編輯操作的相關設定。有些設定會被各種程式語言的擴充套件所覆寫，可於<a class="link packages-open">擴充套件清單</a>中的擴充套件卡片內檢視各種程式語言的文法設定。
+    controls:
+      -
+        _id: core.allowPendingPaneItems
+        title: 允許預覽分頁
+        desc: 允許使用預覽分頁預覽項目，不需將其加入窗格，例如於 tree view 點擊項目時開啟預覽分頁。
+      -
+        _id: core.audioBeep
+        title: 提示音
+        desc: 當特定操作不能執行，或是沒有執行結果時，觸發系統提示音。
+      -
+        _id: core.automaticallyUpdate
+        title: 自動更新
+        desc: 當有可用的更新時，自動更新 Atom 。
+      -
+        _id: core.autoHideMenuBar
+        title: 自動隱藏功能表欄
+        desc: 自動隱藏功能表欄，藉由點擊 Alt 鍵切換功能表欄。這項功能只支援於 Windows 與 Linux 作業系統。
+      -
+        _id: core.closeDeletedFileTabs
+        title: 關閉已刪除檔案的分頁
+        desc: 當檔案由 Atom 外部刪除時，關閉對應的編輯器分頁。
+      -
+        _id: core.closeEmptyWindows
+        title: 關閉空視窗
+        desc: 當視窗中沒有開啟的分頁或預覽分頁時，「關閉分頁」指令會關閉該視窗。
+      -
+        _id: core.destroyEmptyPanes
+        title: 自動移除空窗格
+        desc: 當窗格中的最後一個分頁被關閉時，也移除該窗格。
+      -
+        _id: core.excludeVcsIgnoredPaths
+        title: 排除版本控制系統（VCS）所忽略的路徑
+        desc: 讓某些擴充套件例如：模糊尋找（fuzzy finder）、尋找與取代（find and replace），忽略當前專案中版本控制系統所忽略的檔案及路徑。例如，使用 Git 的專案會在 .gitignore 檔案裡定義所忽略的路徑。個別的擴充套件可能會提供額外設定選項來選擇是否忽略這些路徑。
+      -
+        _id: core.fileEncoding
+        title: 檔案編碼
+        desc: 設定讀寫檔案時預設使用的字元集編碼。
+      -
+        _id: core.fileSystemWatcher
+        title: 檔案系統監控
+        desc: 選擇監控檔案系統變化所使用的底層實作。選擇模擬的實作會導致 Atom 錯過 Atom 之外其他應用程式產生的事件，但是可以避免 Atom 當機或畫面停滯。
+        select:
+          native: 原生作業系統應用程式介面
+          atom: 以 Atom 事件模擬
+      -
+        _id: core.followSymlinks
+        title: 允許使用符號連結（symbolic link）
+        desc: 使用模糊尋找（fuzzy finder）時，允許尋找及開啟符號連結（symbolic link）所對應的檔案。
+      -
+        _id: core.ignoredNames
+        title: 忽略的檔案名稱
+        desc: 檔案路徑規則，其格式符合函式 <code>glob()</code> 的參數 <code>pattern</code> 。符合規則的檔案和資料夾將會被某些擴充套件忽略，例如模糊尋找（fuzzy finder）或是 tree view。個別的擴充套件可能會使用額外的設定來忽略檔案。
+      -
+        _id: core.openEmptyEditorOnStart
+        title: 啟動時開啟空白文字編輯器
+        desc: 啟動時，自動開啟一個空白的文字編輯器。
+      -
+        _id: core.packagesWithKeymapsDisabled
+        title: 停用快捷鍵綁定的擴充套件
+      -
+        _id: core.projectHome
+        title: 專案根目錄
+        desc: 此資料夾為預設情況下專案之位置。使用 Package Generator 建立的擴充套件預設會放在此資料夾中。
+      -
+        _id: core.reopenProjectMenuCount
+        title: 重新開啟專案之顯示數量
+        desc: 在「重新開啟專案」選單中，顯示的專案數量。
+      -
+        _id: core.restorePreviousWindowsOnStart
+        title: 啟動時回復視窗狀態
+        desc: 當此選項勾選時，從桌面捷徑或是從命令列輸入 <code>atom</code> 啟動時會復原所有 Atom 視窗的狀態；否則，Atom 啟動時會開啟一個空白的工作環境。
+        select:
+          no: 否
+          yes: 是
+          always: 總是
+      -
+        _id: core.telemetryConsent
+        title: 傳送遙測記錄給 Atom 開發團隊
+        desc: 允許將使用紀錄及錯誤報告傳送給 Atom 開發團隊以助於改善本產品。
+        select:
+          limited: 允許以匿名傳送有限的使用數據、例外及錯誤報告
+          no: 不要傳送任何遙測記錄資料
+          undecided: 尚未決定（Atom 會於下次啟動時再次詢問）
+      -
+        _id: core.titleBar
+        title: 視窗標題列
+        desc: 實驗功能：讓視窗標題列套用 <code>自訂</code> 的主題顏色。選擇 <code>自訂-嵌入</code> 會增加一點空白區域。視窗標題列也可以完全 <code>隱藏</code>。<br>註記：使用自訂或隱藏視窗標題列會讓某些功能失效。<br>變更這個設定需要重新啟動 Atom 以套用效果。
+        select:
+          native: 原生
+          custom: 自訂
+          custom-inset: 自訂-插頁
+          hidden: 隱藏
+      -
+        _id: core.useProxySettingsWhenCallingApm
+        title: 呼叫 APM 時使用代理伺服器設定
+        desc: 當呼叫命令列工具 <code>apm</code> 時，使用偵測到的代理伺服器設定。
+      -
+        _id: core.versionPinnedPackages
+        title: 固定版本的套件
+        desc: 輸入已安裝套件的名稱清單，名單中的套件不會自動更新。
+      -
+        _id: core.useCustomTitleBar
+        title: 使用自訂的視窗標題樣式
+        desc: 使用自訂且可由佈景主題修改的視窗標題。<br>備註：現在這個設定不包括代理圖示。<br>這個設定需要重新啟動 Atom 來套用。
+      -
+        _id: core.warnOnLargeFileLimit
+        title: 大檔案警告的檔案容量設定
+        desc: 開啟的檔案容量超過此數字（單位為百萬位元組）時，顯示警告視窗。
+      -
+        _id: editor.atomicSoftTabs
+        title: 在行前空白區域建立軟定位點
+        desc: 使用鍵盤方向鍵於行前空白移動時，游標會根據定位點長度設定，跳至下個軟定位點。
+      -
+        _id: editor.autoIndent
+        title: 自動縮排
+        desc: 新增一行時，自動縮排游標對齊上一行。
+      -
+        _id: editor.autoIndentOnPaste
+        title: 貼上時自動縮排
+        desc: 根據上一行，自動縮排貼上的文字。
+      -
+        _id: editor.backUpBeforeSaving
+        title: 自動備份
+        desc: ''
+      -
+        _id: editor.confirmCheckoutHeadRevision
+        title: Checkout 至 HEAD 版本時跳出確認視窗
+        desc: 當執行 Checkout 至 HEAD 版本，放棄對最後一個 commit 的檔案修改時，跳出確認視窗。
+      -
+        _id: editor.fontFamily
+        title: 編輯器字型
+        desc: 文字編輯器顯示的字型名稱。
+      -
+        _id: editor.fontSize
+        title: 字型大小
+        desc: 以像素（px）表示文字編輯器內顯示文字的高度。
+      -
+        _id: editor.invisibles.cr
+        title: 斷行字元（Cr）
+        desc: 啟動<code>顯示隱藏字元</code>設定時，微軟系統用來表示斷行（carriage return）的字元。
+      -
+        _id: editor.invisibles.eol
+        title: 斷行字元（Eol）
+        desc: 啟動<code>顯示隱藏字元</code>設定時，用來表示斷行（\n）的字元。
+      -
+        _id: editor.invisibles.space
+        title: 空白字元（space）
+        desc: 啟動<code>顯示隱藏字元</code>設定時，用來表示行首與行尾空白的字元。
+      -
+        _id: editor.invisibles.tab
+        title: 定位點（Tab）
+        desc: 啟動<code>顯示隱藏字元</code>設定時，用來表示定位點（\t）的字元。
+      -
+        _id: editor.lineHeight
+        title: 行高
+        desc: 文字編輯器內文字的行高，為字型大小的倍數。
+      -
+        _id: editor.maxScreenLineLength
+        title: 視窗顯示的每行最大長度
+        desc: 不會套用自動換行的編輯器視窗寬度最大值，以字元數來表示。
+      -
+        _id: editor.nonWordCharacters
+        title: 不視為詞彙的字元
+        desc: 下列字元將不被視為詞彙，而是拿來做為詞彙邊界。
+      -
+        _id: editor.preferredLineLength
+        title: 每行字數
+        desc: 啟動<code>依據每行字數自動換行</code>設定後，自動換行所參考的字數。單位：字元。
+      -
+        _id: editor.scrollPastEnd
+        title: 捲動瀏覽超越最後一行
+        desc: 允許編輯器捲動瀏覽超越最後一行。
+      -
+        _id: editor.scrollSensitivity
+        title: 捲動速度
+        desc: 設定編輯器中使用滑鼠或觸控板捲動瀏覽的速度。
+      -
+        _id: editor.showCursorOnSelection
+        title: 在選取範圍上顯示游標
+        desc: 當有選取範圍時，顯示游標。
+      -
+        _id: editor.showIndentGuide
+        title: 顯示縮排對齊線
+        desc: 在編輯器中顯示縮排對齊線。
+      -
+        _id: editor.showInvisibles
+        title: 顯示隱藏字元
+        desc: 在編輯器中顯示隱藏字元符號，例如：定位點、空白和斷行。
+      -
+        _id: editor.showLineNumbers
+        title: 顯示行號
+        desc: 在編輯器側邊顯示行號。
+      -
+        _id: editor.softTabs
+        title: 軟定位點
+        desc: 如果<code>定位（tab）模式</code>設定為「自動偵測（auto）」且偵測失敗時，則當此設定啟用時，會以「軟定位點（soft）」模式，否則將以「硬定位點（hard）」模式插入定位字元。
+      -
+        _id: editor.softWrap
+        title: 自動換行
+        desc: 字數超過視窗寬度時，自動換行。當啟用<code>依據每行字數自動換行</code>設定時，換行字數會參考<code>每行字數</code>設定值，而非視窗寬度。
+      -
+        _id: editor.softWrapAtPreferredLineLength
+        title: 依據每行字數自動換行
+        desc: 字數超過<code>每行字數</code>設定值時自動換行，而非依據視窗寬度。這項設定只有在該語言環境中啟用<code>自動換行</code>設定時才有效。<strong>備註：</strong>如果想要隱藏縮排對齊線（垂直線），可以關閉 <code>wrap-guide</code> 擴充套件。
+      -
+        _id: editor.softWrapHangingIndent
+        title: 自動換行的縮排長度
+        desc: 啟動<code>自動換行</code>設定時，換行文字的額外縮排長度。單位：字元。
+      -
+        _id: editor.tabLength
+        title: 定位點（tab）長度
+        desc: 顯示一個定位點（tab）字元的空白字元的數量。
+      -
+        _id: editor.tabType
+        title: 定位（tab）模式
+        desc: 點擊定位（tab）鍵時插入的字元。有三種設定值：「自動判斷（auto）」、「軟定位點 （soft）」或 「硬定位點（hard）」。「軟定位點」使用空白字元（space），「硬定位點」使用定位字元（\t）。「自動判斷」模式將會使用該行行首的空白字元或定位字元。如果自動判斷失敗，將會直接採用<code>軟定位點</code>的設定值。
+      -
+        _id: editor.undoGroupingInterval
+        title: 合併復原操作的時間間隔
+        desc: 在此時間間隔內的文字編輯操作，在復原歷史紀錄中會被合併在一起。單位：毫秒。
+      -
+        _id: editor.zoomFontWhenCtrlScrolling
+        title: 使用 Ctrl 鍵搭配滑鼠滾輪縮放字型大小
+        desc: 使用 Ctrl 鍵搭配上下捲動滑鼠滾輪改變編輯器字型大小。
+      -
+        _id: system.windows.file-handler
+        title: 註冊為開啟檔案時使用的應用程式
+        desc: 於開啟各類型檔案的應用程式清單中添加 Atom 以建立關聯。
+      -
+        _id: system.windows.shell-menu-files
+        title: 在檔案的滑鼠右鍵選單中顯示
+        desc: 在檔案管理員中檔案的滑鼠右鍵選單中添加選項 "Open with Atom"。
+      -
+        _id: system.windows.shell-menu-folders
+        title: 在資料夾的滑鼠右鍵選單中顯示
+        desc: 在檔案管理員中資料夾的滑鼠右鍵選單中添加選項 "Open with Atom"。
+  system:
+    notes: 這些設定會決定 Atom 如何與你的作業系統整合。
+  keymaps:
+    notes:
+      text1: '你可以點選複製按鈕 '
+      text2: 複製這些快捷鍵設定，然後貼至
+      text3: 你的快捷鍵設定檔
+      text4: ''   # optional
+      _template: ${text1} <icon /> ${text2} <a>${text3}</a> ${text4}
+    search-bar-placeholder: 搜尋快捷鍵設定
+    table-header-keystroke: 鍵盤輸入
+    table-header-command: 指令
+    table-header-source: 來源
+    table-header-selector: 選擇器
+  packages:
+    searchBarText: 輸入名稱篩選擴充套件
+  themes:
+    notes:
+      text1: 你可以藉由編輯
+      text2: 你的樣式表
+      text3: 來調整 Atom 外觀   # optional
+      _template: ${text1} <a>${text2}</a> ${text3}
+    title1: 使用者介面佈景主題
+    description1: 分頁、狀態列、tree view 及下拉式選單的外觀
+    title2: 語法佈景主題
+    description2: 編輯器內部文字的外觀
+    searchBarText: 輸入名稱篩選佈景主題
+  updates:
+    check-updates: 檢查更新
+    update-all: 安裝所有更新
+    checking-updates: 檢查更新中...
+    all-updated-message: 你所有的擴充套件都是最新版本了！
+  install:
+    notes:
+      text1: '這些發佈於 '
+      text2: ' 的擴充套件會安裝在資料夾 '
+      text3: ''   # optional
+      _template: ${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}
+    searchbar-placeholder: 搜尋擴充套件
+    btn-packages: 擴充套件
+    btn-themes: 佈景主題
+  control-btns:
+    install: 安裝
+    update: 安裝版本
+    setting: 設定
+    uninstall: 解除安裝
+    disable: 停用
+    enable: 啟動

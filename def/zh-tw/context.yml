@@ -1,0 +1,120 @@
+Context:
+  atom-workspace:
+    application:inspect: 檢視元素
+  atom-text-editor:
+    color-picker:open: 色彩選取工具
+    minimap:toggle: Minimap
+  atom-text-editor, .overlayer:
+    core:undo: 復原
+    core:redo: 重做
+    core:cut: 剪下
+    core:copy: 複製
+    core:paste: 貼上
+    core:delete: 刪除
+    core:select-all: 全選
+    pane:split-up-and-copy-active-item: 向上分割窗格 ↑
+    pane:split-down-and-copy-active-item: 向下分割窗格 ↓
+    pane:split-left-and-copy-active-item: 向左分割窗格 ←
+    pane:split-right-and-copy-active-item: 向右分割窗格 →
+    pane:close: 關閉窗格
+  atom-pane:
+    pane:split-up-and-copy-active-item: 向上分割窗格 ↑
+    pane:split-down-and-copy-active-item: 向下分割窗格 ↓
+    pane:split-left-and-copy-active-item: 向左分割窗格 ←
+    pane:split-right-and-copy-active-item: 向右分割窗格 →
+    pane:close: 關閉窗格
+  atom-text-editor:not([mini]):
+    encoding-selector:show: 切換編碼
+    spell-check:correct-misspelling: 拼字校正
+    symbols-view:go-to-declaration: 移動至宣告
+  .overlayer:
+    grammar-selector:show: 切換語法
+  .image-view:
+    image-view:reload: 重新載入圖片
+  .tab:
+    tabs:close-tab: 關閉分頁
+    tabs:close-other-tabs: 關閉其他分頁
+    tabs:close-tabs-to-right: 關閉右側分頁
+    tabs:close-tabs-to-left: 關閉左側分頁
+    tabs:close-saved-tabs: 關閉已存檔分頁
+    tabs:close-all-tabs: 關閉全部分頁
+    tabs:split-up: 向上分割窗格 ↑
+    tabs:split-down: 向下分割窗格 ↓
+    tabs:split-left: 向左分割窗格 ←
+    tabs:split-right: 向右分割窗格 →
+  .tab.texteditor:
+    tabs:open-in-new-window: 在新視窗開啟
+  .tab.pending-tab:
+    tabs:keep-pending-tab: 保留預覽分頁
+  .tab-bar:
+    pane:reopen-closed-item: 重新開啟關閉分頁
+  .tree-view.full-menu:
+    tree-view:add-file: 新增文件
+    tree-view:add-folder: 新增資料夾
+    tree-view:move: 移動/重新命名
+    tree-view:duplicate: 建立副本
+    tree-view:remove: 刪除
+    tree-view:copy: 複製
+    tree-view:cut: 剪下
+    tree-view:paste: 貼上
+    tree-view:open-selected-entry-up: 向上分割窗格並開啟 ↑
+    tree-view:open-selected-entry-down: 向下分割窗格並開啟 ↓
+    tree-view:open-selected-entry-left: 向左分割窗格並開啟 ←
+    tree-view:open-selected-entry-right: 向右分割窗格並開啟 →
+    application:add-project-folder: 新增專案資料夾
+    tree-view:copy-full-path: 複製完整路徑
+    tree-view:copy-project-path: 複製專案資料夾路徑
+    tree-view:open-in-new-window: 於新視窗開啟
+  .tree-view.full-menu [is="tree-view-file"]:
+    tree-view:open-selected-entry-up: 向上分割窗格並開啟 ↑
+    tree-view:open-selected-entry-down: 向下分割窗格並開啟 ↓
+    tree-view:open-selected-entry-left: 向左分割窗格並開啟 ←
+    tree-view:open-selected-entry-right: 向右分割窗格並開啟 →
+  .tree-view.full-menu .project-root > .header:
+    tree-view:add-file: 新增文件
+    tree-view:add-folder: 新增資料夾
+    tree-view:move: 移動/重新命名
+    tree-view:duplicate: 建立副本
+    tree-view:remove: 刪除
+    tree-view:copy: 複製
+    tree-view:cut: 剪下
+    tree-view:paste: 貼上
+    tree-view:open-selected-entry-up: 向上分割窗格並開啟 ↑
+    tree-view:open-selected-entry-down: 向下分割窗格並開啟 ↓
+    tree-view:open-selected-entry-left: 向左分割窗格並開啟 ←
+    tree-view:open-selected-entry-right: 向右分割窗格並開啟 →
+    application:add-project-folder: 新增專案資料夾
+    tree-view:remove-project-folder: 移除專案資料夾
+    tree-view:copy-full-path: 複製完整路徑
+    tree-view:copy-project-path: 複製專案路徑
+    tree-view:open-in-new-window: 於新視窗中開啟
+  .platform-darwin .tree-view.full-menu:
+    tree-view:show-in-file-manager: 在 Finder 中顯示
+  .platform-win32 .tree-view.full-menu:
+    tree-view:show-in-file-manager: 在檔案總管中顯示
+  .platform-linux .tree-view.full-menu:
+    tree-view:show-in-file-manager: 在檔案總管中顯示
+  .tree-view > li.directory:
+    project-find:show-in-current-directory: 在資料夾中尋找
+  .tree-view.multi-select:
+    tree-view:remove: 刪除
+    tree-view:copy: 複製
+    tree-view:cut: 剪下
+    tree-view:paste: 貼上
+  atom-pane[data-active-item-path] .item-views:
+    tree-view:reveal-active-file: 在 Tree View 中顯示
+  atom-pane[data-active-item-path] .tab.active:
+    tree-view:rename: 重新命名
+    tree-view:reveal-active-file: 在 Tree View 中顯示
+  .platform-darwin atom-pane[data-active-item-path] .tab.active:
+    tree-view:show-current-file-in-file-manager: 在 Finder 中顯示
+  .platform-win32 atom-pane[data-active-item-path] .tab.active:
+    tree-view:show-current-file-in-file-manager: 在檔案總管中顯示
+  .platform-linux atom-pane[data-active-item-path] .tab.active:
+    tree-view:show-current-file-in-file-manager: 在檔案總管中顯示
+  .platform-darwin atom-text-editor:not([mini]):
+    tree-view:show-current-file-in-file-manager: 在 Finder 中顯示
+  .platform-win32 atom-text-editor:not([mini]):
+    tree-view:show-current-file-in-file-manager: 在檔案總管中顯示
+  .platform-linux atom-text-editor:not([mini]):
+    tree-view:show-current-file-in-file-manager: 在檔案總管中顯示
