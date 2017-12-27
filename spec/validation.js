@@ -130,4 +130,27 @@ describe('validation', () => {
 
   })   // end of cson file validation
 
+  describe('TEMP yaml file validation', () => {
+    const YAML = require('js-yaml')
+
+    describe('added yaml content is equivalent to cson content', () => {
+      const YAML_LOCALES = [
+        'zh-tw',
+      ]
+      const YAML_FILES = [
+        'about',
+      ]
+
+      YAML_FILES.forEach(fileName => {
+        YAML_LOCALES.forEach(locale => {
+          const basePath = path.join(__dirname, '../def', locale, fileName)
+          const cson = CSON.load(`${basePath}.cson`)
+          const yaml = YAML.safeLoad(fs.readFileSync(`${basePath}.yml`, 'utf8'))
+
+          expect(cson).to.deep.equal(yaml)
+        })
+      })
+    })
+  })
+
 })   // end of validation
