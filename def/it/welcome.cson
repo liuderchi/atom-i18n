@@ -1,29 +1,29 @@
 Welcome:
   tabTitle: "Benvenuto"
   subtitle: {
-    text1: "Un editor di test hackerabile per il 21"
+    text1: "Un editor di testo hackerabile per il 21"
     superscript: "o"
     text2: " secolo"
   }
   help: {
-    forHelpVisit: "Per supporto, visita"
+    forHelpVisit: "Per ricevere supporto, visita"
     atomDocs: {
       text1: "La "
       link: "documentazione di Atom"
-      text2: " per Guide e consultazione delle API."
+      text2: " per le Guide e la consultazione delle API."
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {
-      text1: "Il forum di Atom su "
-      link: "discuss.atom.io"
-      text2: ""   # optional
+      text1: "Il forum di Atom presso "
+      link: "'discuss.atom.io'"
+      text2: "."   # optional
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomOrg: {
       text1: "Il sito "
-      link: "Atom org"
-      text2: ". Dove si possono trovare tutti i pacchetti per Atom creati con GitHub."
+      link: "'Atom.org'"
+      text2: ", dove si trovano tutti i pacchetti per Atom creati su GitHub."
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
-  showWelcomeGuide: "Mostra la Guida di benvenuto all'avvio di Atom"
+  showWelcomeGuide: "Mostra la Guida di Benvenuto all'avvio di Atom"

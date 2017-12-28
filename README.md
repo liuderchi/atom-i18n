@@ -71,7 +71,7 @@ Community-driven translation. :family:
   - Polish: [Jeplaa](//github.com/Jeplaa)
   - French: [chezyann](//github.com/chezyann) [Vivalzar](//github.com/Vivalzar)
   - Polish: [nolt](//github.com/nolt)
-  - Italian: [francematt](//github.com/francematt)
+  - Italian: [francematt](//github.com/francematt) [Lorenzo Ancora](//github.com/LorenzoAncora)
   - Thai: [sitdh](//github.com/sitdh)
   - Japanese: [shingo-uzuki](//github.com/shingo-uzuki)
   - Hungarian: [dominicus-75](//github.com/dominicus-75)
