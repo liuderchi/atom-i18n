@@ -255,7 +255,7 @@ Settings:
       {
         _id: 'editor.invisibles.eol'
         title: "Invisibles Eol"
-        desc: "Character used to render newline characters (\n) when the
+        desc: "Character used to render newline characters (\\n) when the
                <code>Show Invisibles</code> setting is enabled."
       }
       {
@@ -267,7 +267,7 @@ Settings:
       {
         _id: 'editor.invisibles.tab'
         title: "Invisibles Tab"
-        desc: "Character used to render hard tab characters (\t) when the
+        desc: "Character used to render hard tab characters (\\t) when the
                <code>Show Invisibles</code> setting is enabled."
       }
       {
