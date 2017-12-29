@@ -16,7 +16,7 @@ Menu:
         value: "Reopen Project"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "プロジェクト履歴をクリア"
       "Reopen Last &Item":
         value: "最後に使用したファイルを開く(&I)"
       "&Save":

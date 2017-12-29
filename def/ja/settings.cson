@@ -98,8 +98,8 @@ Settings:
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
-        desc: "Close corresponding editors when a file is deleted outside Atom."
+        title: "削除されたファイルのタブを閉じる"
+        desc: "Atom の外部でファイルが削除された場合、対応するエディタを閉じます。"
       }
       {
         _id: 'core.closeEmptyWindows'
@@ -124,6 +124,14 @@ Settings:
         desc: "ファイルを読み書きするためのデフォルトキャラクタセットを指定します。"
       }
       {
+        _id: 'core.fileSystemWatcher'
+        title: "ファイルシステムウォッチャ"
+        desc: "ファイルシステムの変更を監視するために使用される内部的な実装を選択します。変更をエミュレートすると、Atom 以外のアプリケーションにより発生したイベントは全て失われますが、クラッシュやフリーズの防止に役立ちます。"
+        select:
+          native: "ネイティブオペレーティングシステム API"
+          atom: "Atom イベントによりエミュレート"
+      }
+      {
         _id: 'core.followSymlinks'
         title: "シンボリックリンクをたどる"
         desc: "あいまい検索でファイルを検索・開く時に使用されます。"
@@ -141,7 +149,7 @@ Settings:
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Packages With Keymaps Disabled"
+        title: "キーマップが無効化されたパッケージ"
       }
       {
         _id: 'core.projectHome'
@@ -150,13 +158,13 @@ Settings:
       }
       {
         _id: 'core.reopenProjectMenuCount'
-        title: "Reopen Project Menu Count"
-        desc: "How many recent projects to show in the Reopen Project menu."
+        title: "プロジェクト履歴の表示数"
+        desc: "「プロジェクトを再開」に表示するプロジェクト履歴の数を指定します。"
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "Restore Previous Windows On Start"
-        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
+        title: "起動時に前回のウィンドウを復元する"
+        desc: "'no' の場合、空の環境が読み込まれます。'yes' の場合、アイコンまたは <code>atom</code> コマンドにより起動した時に Atom の全てのウィンドウを前回の状態に復元します。他の方法で起動した場合は空の環境が読み込まれます。'always' の場合、Atom の起動方法に関わらず全てのウィンドウを前回の状態に復元します。"
         select:
           no: "no"
           yes: "yes"
@@ -173,8 +181,8 @@ Settings:
       }
       {
         _id: 'core.titleBar'
-        title: "Title Bar"
-        desc: "Experimental: A <code>custom</code> title bar adapts to theme colors. Choosing <code>custom-inset</code> adds a bit more padding. The title bar can also be completely <code>hidden</code>.<br>Note: Switching to a custom or hidden title bar will compromise some functionality.<br>This setting will require a relaunch of Atom to take effect."
+        title: "タイトルバー"
+        desc: "実験的な機能: <code>custom</code> タイトルバーは、テーマカラーに適応するタイトルバーです。<code>custom-inset</code> を選択した場合、パディングが追加されます。<code>hidden</code> を選択する事で、タイトルバーを完全に隠す事も可能です。<br>注意: custom または hidden のに切り替えると、いくつかの機能が損なわれる可能性があります。<br>この設定を有効にするには Atom の再起動が必要です。"
         select:
           native: "native"
           custom: "custom"
@@ -183,18 +191,18 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use Proxy Settings When Calling APM"
-        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        title: "APM を呼ぶ時にプロキシ設定を使う"
+        desc: "apm コマンドを呼ぶ時に、検出したプロキシ設定を使います。"
       }
       {
         _id: 'core.versionPinnedPackages'
-        title: "Version Pinned Packages"
-        desc: "List of names of installed packages which are not automatically updated."
+        title: "バージョン固定のパッケージ"
+        desc: "自動アップデートを行わないインストール済みパッケージの一覧です。"
       }
       {
         _id: 'core.useCustomTitleBar'
         title: "カスタムタイトルバーを使う"
-        desc: "Use custom, theme-aware title bar.<br>Note: This currently does not include a proxy icon.<br>This setting will require a relaunch of Atom to take effect."
+        desc: "テーマに対応したカスタムタイトルバーを使用します。<br>注意: プロキシアイコンは含みません。<br>この設定を有効にするには Atom の再起動が必要です。"
       }
       {
         _id: 'core.warnOnLargeFileLimit'
@@ -229,12 +237,12 @@ Settings:
       {
         _id: 'editor.fontFamily'
         title: "フォント"
-        desc: "font-family"
+        desc: "フォントファミリ"
       }
       {
         _id: 'editor.fontSize'
         title: "フォントサイズ"
-        desc: "font-size (px)"
+        desc: "フォントサイズ (px)"
       }
       {
         _id: 'editor.invisibles.cr'
@@ -259,7 +267,12 @@ Settings:
       {
         _id: 'editor.lineHeight'
         title: "行の高さ"
-        desc: "line-height (number)"
+        desc: "行の高さ (数値)"
+      }
+      {
+        _id: 'editor.maxScreenLineLength'
+        title: "画面行の最大長さ"
+        desc: "ソフトラッピングが適用される前のエディタウィンドウの最大幅を文字数で定義します。"
       }
       {
         _id: 'editor.nonWordCharacters'
@@ -283,8 +296,8 @@ Settings:
       }
       {
         _id: 'editor.showCursorOnSelection'
-        title: "Show Cursor On Selection"
-        desc: "Show cursor while there is a selection."
+        title: "選択時にカーソルを表示する"
+        desc: "選択された項目がある時にカーソルを表示します。"
       }
       {
         _id: 'editor.showIndentGuide'
@@ -345,23 +358,23 @@ Settings:
       }
       {
         _id: 'system.windows.file-handler'
-        title: "Register as file handler"
-        desc: "Show Atom in the \"Open with\" application list for easy association with file types."
+        title: "ファイルハンドラとして登録する"
+        desc: "ファイルタイプとの簡単な関連付けのために\"このアプリケーションで開く\"に Atom を表示します。"
       }
       {
         _id: 'system.windows.shell-menu-files'
-        title: "Show in file context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
+        title: "ファイルコンテキストメニューに表示する"
+        desc: "\"Atom で開く\"をファイルエクスプローラのファイル用コンテキストメニューに追加します。"
       }
       {
         _id: 'system.windows.shell-menu-folders'
-        title: "Show in folder context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for folders."
+        title: "フォルダコンテキストメニューに表示する"
+        desc: "\"Atom で開く\"をファイルエクスプローラのフォルダ用コンテキストメニューに追加します。"
       }
     ]
   }
   system: {
-    notes: "These settings determine how Atom integrates with your operating system."
+    notes: "これらの設定項目では、Atom とオペレーティングシステムの統合方法を決定します。"
   }
   keymaps: {
     notes: {
@@ -378,7 +391,7 @@ Settings:
     "table-header-selector": "セレクタ"
   }
   packages: {
-    searchBarText: 'Filter packages by name'
+    searchBarText: 'パッケージを名前でフィルタリング'
   }
   themes: {
     notes: {
@@ -391,7 +404,7 @@ Settings:
     description1: "タブ、ステータスバー、ツリービューとドロップダウンのスタイルを変更します。"
     title2: "シンタックステーマ"
     description2: "テキストエディタの内側のスタイルを変更します。"
-    searchBarText: 'Filter themes by name'
+    searchBarText: 'テーマを名前でフィルタリング'
   }
   updates: {
     "check-updates": "すべてアップデート"

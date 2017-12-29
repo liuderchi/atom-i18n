@@ -4,17 +4,34 @@
 *   @liuderchi
 
 # def/ar/*.cson
-def/de/*.cson        @Acer54
-def/de/settings.cson @Acer54  @queenar
+
+def/de/*.cson        @Acer54 @socialmedialabs
+def/de/settings.cson @Acer54  @queenar  @socialmedialabs
+
 def/es/*.cson        @stsewd
+
 def/fr/*.cson        @chezyann  @Vivalzar
+
 # def/hi/*.cson
-def/ja/*.cson        @liuderchi
+
+def/hu/*.cson       @dominicus-75
+
+def/it/*.cson       @francematt
+
+def/ja/*.cson        @shingo-uzuki
+
 def/ko/*.cson        @preco21  @chibichichi  @Riyeon  @nerhis
+
 def/nl/*.cson        @laurensbrand
+
 def/pl/*.cson        @nolt
+
 def/pt-br/*.cson     @jsolisu
+
 def/ru/*.cson        @Anonym0uz  @Driglu4it
+
 def/th/*.cson        @sitdh
+
 def/zh-cn/*.cson     @trifirew
+
 def/zh-tw/*.cson     @liuderchi

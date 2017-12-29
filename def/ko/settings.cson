@@ -129,6 +129,14 @@ Settings:
         desc: "파일을 읽거나 작성할 때 사용할 기본 문자 세트를 지정합니다."
       }
       {
+        _id: 'core.fileSystemWatcher'
+        title: "File System Watcher"
+        desc: "Choose the underlying implementation used to watch for filesystem changes. Emulating changes will miss any events caused by applications other than Atom, but may help prevent crashes or freezes."
+        select:
+          native: "Native operating system APIs"
+          atom: "Emulated with Atom events"
+      }
+      {
         _id: 'core.followSymlinks'
         title: "심링크 따라가기"
         desc: "파일을 찾거나 fuzzy finder로 열 때 심링크를 따라갑니다."
@@ -266,6 +274,11 @@ Settings:
         _id: 'editor.lineHeight'
         title: "행 높이"
         desc: "에디터 행의 높이이며 폰트 크기에 추가로 늘어납니다."
+      }
+      {
+        _id: 'editor.maxScreenLineLength'
+        title: "Max Screen Line Length"
+        desc: "Defines the maximum width of the editor window before soft wrapping is enforced, in number of characters."
       }
       {
         _id: 'editor.nonWordCharacters'

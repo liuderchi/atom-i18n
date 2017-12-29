@@ -1,0 +1,325 @@
+Menu:
+  Atom:
+    value: "Atom"
+    submenu:
+      "About Atom":
+        value: "Az Atomról"
+      "View License":
+        value: "Licenc megtekintése"
+      "Check for Update":
+        value: "Frissítések keresése"
+      "Preferences…":
+        value: "Beállítások..."
+      "Config…":
+        value: "Konfigurálás..."
+      "Init Script…":
+        value: "Init Script..."
+      "Keymap…":
+        value: "Billentyűzetkiosztás..."
+      "Snippets…":
+        value: "Töredékek..."
+      "Stylesheet…":
+        value: "Stíluslap..."
+      "Install Shell Commands":
+        value: "Héj-parancsok telepítése"
+      "Hide Atom":
+        value: "Atom elrejtése"
+      "Hide Others":
+        value: "Mások elrejtése"
+      "Show All":
+        value: "Mindent mutat"
+      Quit:
+        value: "Kilépés"
+  File:
+    value: "Fájl"
+    submenu:
+      "New Window":
+        value: "Új ablak"
+      "New File":
+        value: "Új fájl"
+      "Open…":
+        value: "Open..."
+      "Add Project Folder…":
+        value: "Projektkönyvtár hozzáadása..."
+      "Reopen Project":
+        value: "Projekt újra megnyitása"
+        submenu:
+          "Clear Project History":
+            value: "Projekt előzmények törlése"
+      "Reopen Last Item":
+        value: "Utolsó elem újra megnyitása"
+      Save:
+        value: "Mentés"
+      "Save As…":
+        value: "Mentés másként..."
+      "Save All":
+        value: "Mindegyik mentése"
+      "Close Tab":
+        value: "Lap bezárása"
+      "Close Pane":
+        value: "Panel bezárása"
+      "Close Window":
+        value: "Ablak bezárása"
+      "Close All Tabs":
+        value: "Minden lap bezárása"
+  Edit:
+    value: "Szerkesztés"
+    submenu:
+      Undo:
+        value: "Visszavonás"
+      Redo:
+        value: "Újra"
+      Cut:
+        value: "Kivágás"
+      Copy:
+        value: "Másolás"
+      "Copy Path":
+        value: "Elérési út másolása"
+      Paste:
+        value: "Beillesztés"
+      "Select All":
+        value: "Összes kijelölése"
+      "Toggle Comments":
+        value: "Kommentbe helyezés"
+      Lines:
+        value: "Sorok"
+        submenu:
+          Indent:
+            value: "Behúzás növelése"
+          Outdent:
+            value: "Behúzás csökkentése"
+          "Auto Indent":
+            value: "Automatikus behúzás"
+          "Move Line Up":
+            value: "Sor mozgatása fel"
+          "Move Line Down":
+            value: "Sor mozgatása le"
+          "Duplicate Lines":
+            value: "Sorok kettőzése"
+          "Delete Line":
+            value: "Sor törlése"
+          "Join Lines":
+            value: "Sorok összefűzése"
+      Columns:
+        value: "Oszlopok"
+        submenu:
+          "Move Selection Left":
+            value: "Kijelölés mozgatása balra"
+          "Move Selection Right":
+            value: "Kijelölés mozgatása jobbra"
+      Text:
+        value: "Szöveg"
+        submenu:
+          "Upper Case":
+            value: "Nagybetű"
+          "Lower Case":
+            value: "Kisbetű"
+          "Delete to End of Word":
+            value: "Törlés a szó végéig"
+          "Delete to Previous Word Boundary":
+            value: "Törlés az előző szóelválasztóig"
+          "Delete to Next Word Boundary":
+            value: "Törlés a következő szóelválasztóig"
+          "Delete Line":
+            value: "Sor törlése"
+          Transpose:
+            value: "Betűk felcserélése"
+      Folding:
+        value: "Kódblokk összecsukása"
+        submenu:
+          Fold:
+            value: "Összecsukás"
+          Unfold:
+            value: "Kinyitás"
+          "Unfold All":
+            value: "Összes kinyitása"
+          "Fold All":
+            value: "Összes összecsukása"
+          "Fold Level 1":
+            value: "Takarási szint: 1"
+          "Fold Level 2":
+            value: "Takarási szint: 2"
+          "Fold Level 3":
+            value: "Takarási szint: 3"
+          "Fold Level 4":
+            value: "Takarási szint: 4"
+          "Fold Level 5":
+            value: "Takarási szint: 5"
+          "Fold Level 6":
+            value: "Takarási szint: 6"
+          "Fold Level 7":
+            value: "Takarási szint: 7"
+          "Fold Level 8":
+            value: "Takarási szint: 8"
+          "Fold Level 9":
+            value: "Takarási szint: 9"
+      "Reflow Selection":
+        value: "Kijelölés folyamatossá tétele"
+      Bookmark:
+        value: "Könyvjelzők"
+        submenu:
+          "View All":
+            value: "Összes mutatása"
+          "Toggle Bookmark":
+            value: "Könyvjelző be/ki"
+          "Jump to Next Bookmark":
+            value: "Ugrás a következő könyvjelzőre"
+          "Jump to Previous Bookmark":
+            value: "Ugrás az előző könyvjelzőre"
+      "Select Encoding":
+        value: "Karakterkódolás kiválasztása"
+      "Go to Line":
+        value: "Ugrás sorra"
+      "Select Grammar":
+        value: "Programnyelv kiválasztása"
+  View:
+    value: "Nézet"
+    submenu:
+      "Toggle Full Screen":
+        value: "Teljes képernyő"
+      Panes:
+        value: "Panelek"
+        submenu:
+          "Split Up":
+            value: "Osztott nézet fent"
+          "Split Down":
+            value: "Osztott nézet lent"
+          "Split Left":
+            value: "Osztott nézet balra"
+          "Split Right":
+            value: "Osztott nézet jobbra"
+          "Focus Next Pane":
+            value: "Fókusz a következő panelen"
+          "Focus Previous Pane":
+            value: "Fókusz az előző panelen"
+          "Focus Pane Above":
+            value: "Fókusz a panel fölött"
+          "Focus Pane Below":
+            value: "Fókusz a panel alatt"
+          "Focus Pane On Left":
+            value: "Fókusz a paneltől balra"
+          "Focus Pane On Right":
+            value: "Fókusz a paneltől jobbra"
+          "Close Pane":
+            value: "Panel bezárása"
+      Developer:
+        value: "Fejlesztő"
+        submenu:
+          "Open In Dev Mode…":
+            value: "Megnyitás fejlesztői módban..."
+          "Reload Window":
+            value: "Ablak újratöltése"
+          "Run Package Specs":
+            value: "Run Package Specs"
+          "Run Benchmarks":
+            value: "Referenciák futtatása"
+          "Toggle Developer Tools":
+            value: "Fejlesztői eszközök be/ki"
+      "Increase Font Size":
+        value: "Betűméret növelése"
+      "Decrease Font Size":
+        value: "Betűméret csökkentése"
+      "Reset Font Size":
+        value: "Betűméret visszaállítása"
+      "Toggle Soft Wrap":
+        value: "Sortörés be/ki"
+      "Toggle Command Palette":
+        value: "Parancs-paletta be/ki"
+      "Toggle Tree View":
+        value: "Fa-nézet be/ki"
+  Selection:
+    value: "Kijelölés"
+    submenu:
+      "Add Selection Above":
+        value: "Kijelölés bővítése felfelé"
+      "Add Selection Below":
+        value: "Kijelölés bővítése lefelé"
+      "Single Selection":
+        value: "Egyszeres kijelölés"
+      "Split into Lines":
+        value: "Felosztás sorokra"
+      "Select to Top":
+        value: "Kijelölés felfelé"
+      "Select to Bottom":
+        value: "Kijelölés lefelé"
+      "Select Line":
+        value: "Sor kijelölése"
+      "Select Word":
+        value: "Szó kijelölése"
+      "Select to Beginning of Word":
+        value: "Kijelölés a szó elejéig"
+      "Select to Beginning of Line":
+        value: "Kijelölés a sor elejéig"
+      "Select to First Character of Line":
+        value: "Kijelölés a sor első karakteréig"
+      "Select to End of Word":
+        value: "Kijelölés a szó végéig"
+      "Select to End of Line":
+        value: "Kijelölés a sor végéig"
+      "Select Inside Brackets":
+        value: "Zárójelen belüli rész kijelölése"
+  Find:
+    value: "Keresés"
+    submenu:
+      "Find in Buffer":
+        value: "Keresés a pufferben"
+      "Replace in Buffer":
+        value: "Csere a pufferben"
+      "Select Next":
+        value: "Következő kiválasztása"
+      "Select All":
+        value: "Összes kijelölése"
+      "Toggle Find in Buffer":
+        value: "Keresés a pufferben be/ki"
+      "Find in Project":
+        value: "Keresés a projektben"
+      "Toggle Find in Project":
+        value: "Keresés a projektben be/ki"
+      "Find All":
+        value: "Összes keresése"
+      "Find Next":
+        value: "Következő találat"
+      "Find Previous":
+        value: "Előző találat"
+      "Replace Next":
+        value: "Következő cseréje"
+      "Replace All":
+        value: "Összes cseréje"
+      "Clear History":
+        value: "Előzmények törlése"
+      "Find Buffer":
+        value: "Puffer keresése"
+      "Find File":
+        value: "Fájl keresése"
+      "Find Modified File":
+        value: "Módosított fájl keresése"
+  Packages:
+    value: "Csomagok"
+  Window:
+    value: "Ablak"
+    submenu:
+      Minimize:
+        value: "Minimalizálás"
+      Zoom:
+        value: "Kiemelés"
+      "Bring All to Front":
+        value: "Mindent előre"
+  Help:
+    value: "Súgó"
+    submenu:
+      "Terms of Use":
+        value: "Felhasználási feltételek"
+      Documentation:
+        value: "Dokumentáció"
+      Roadmap:
+        value: "Útiterv"
+      "Frequently Asked Questions":
+        value: "Gyakran Ismételt Kérdések"
+      "Community Discussions":
+        value: "Felhasználói fórum"
+      "Report Issue":
+        value: "Hibák jelentése"
+      "Search Issues":
+        value: "Hibajelentések böngészése"
+      "Welcome Guide":
+        value: "Üdvözlő képernyő"

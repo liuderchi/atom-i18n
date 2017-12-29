@@ -1,29 +1,29 @@
 Welcome:
-  tabTitle: "Welcome"
+  tabTitle: "ようこそ"
   subtitle: {
-    text1: "A hackable text editor for the 21"
-    superscript: "st"
-    text2: " Century"
+    text1: "21世紀のためのハック可能なテキストエディタ"
+    superscript: ""
+    text2: ""
   }
   help: {
-    forHelpVisit: "For help, please visit"
+    forHelpVisit: "ヘルプについては以下をご覧ください。"
     atomDocs: {
-      text1: "The "
+      text1: "使い方及び API リファレンスは "
       link: "Atom docs"
-      text2: " for Guides and the API reference."
+      text2: " へ。"
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {
-      text1: "The Atom forum at "
+      text1: "Atom のフォーラムは "
       link: "discuss.atom.io"
-      text2: ""   # optional
+      text2: " へ。"   # optional
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomOrg: {
-      text1: "The "
+      text1: "GitHub 上で作成された全ての Atom パッケージを見つけるには "
       link: "Atom org"
-      text2: ". This is where all GitHub-created Atom packages can be found."
+      text2: " へ。"
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
-  showWelcomeGuide: "Show Welcome Guide when opening Atom"
+  showWelcomeGuide: "Atom を開いた時にウェルカムガイドを表示する"

@@ -3,9 +3,9 @@ Menu:
     value: "Atom"
     submenu:
       "About Atom":
-        value: "Info su Atom"
+        value: "Informazioni su Atom"
       "View License":
-        value: "Vedi la Licenza"
+        value: "Visiona la Licenza"
       "Check for Update":
         value: "Verifica aggiornamenti"
       "Preferences…":
@@ -15,11 +15,11 @@ Menu:
       "Init Script…":
         value: "Init Script..."
       "Keymap…":
-        value: "Keymap..."
+        value: "Mappatura tasti..."
       "Snippets…":
-        value: "Snippets..."
+        value: "Frammenti..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Fogli di stile..."
       "Install Shell Commands":
         value: "Installa i comandi da Shell"
       "Hide Atom":
@@ -154,7 +154,7 @@ Menu:
           "Fold Level 9":
             value: "Unione Level 9"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Ridisponi selezione"
       Bookmark:
         value: "Segnalibro"
         submenu:
@@ -189,75 +189,75 @@ Menu:
           "Split Right":
             value: "Separa a destra"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "Seleziona Pannello Successivo"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "Seleziona Pannello Precedente"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "Seleziona Pannello Superiore"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "Seleziona Pannello Inferiore"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "Seleziona Pannello sulla Sinistra"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "Seleziona Pannello sulla Destra"
           "Close Pane":
             value: "Chiudi pannello"
       Developer:
         value: "Sviluppatore"
         submenu:
           "Open In Dev Mode…":
-            value: "Apri in Dev Mode..."
+            value: "Apri in Modalità Sviluppo..."
           "Reload Window":
             value: "Ricarica Finestra"
           "Run Package Specs":
-            value: "Esegui le Package Specs"
+            value: "Esegui le Specifiche dei Pacchetti"
           "Run Benchmarks":
-            value: "Esegui i Benchmarks"
+            value: "Esegui i Test Prestazionali"
           "Toggle Developer Tools":
             value: "Attiva/Disattiva gli Strumenti di Sviluppo"
       "Increase Font Size":
-        value: "Increase Font Size"
+        value: "Ingrandisci caratteri"
       "Decrease Font Size":
-        value: "Decrease Font Size"
+        value: "Riduci caratteri"
       "Reset Font Size":
-        value: "Reset Font Size"
+        value: "Reimposta grandezza caratteri"
       "Toggle Soft Wrap":
-        value: "Toggle Soft Wrap"
+        value: "Commuta Wrapping"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "Commuta Palette dei Comandi"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "Commuta Visione ad Albero"
   Selection:
-    value: "Selection"
+    value: "Selezione"
     submenu:
       "Add Selection Above":
-        value: "Add Selection Above"
+        value: "Aggiungi Selezione Sopra"
       "Add Selection Below":
-        value: "Add Selection Below"
+        value: "Aggiungi Selezione Sotto"
       "Single Selection":
-        value: "Single Selection"
+        value: "Selezione Unica"
       "Split into Lines":
-        value: "Split into Lines"
+        value: "Suddividi in Linee"
       "Select to Top":
-        value: "Select to Top"
+        value: "Seleziona fino all'Inizio'"
       "Select to Bottom":
-        value: "Select to Bottom"
+        value: "Seleziona fino alla Fine"
       "Select Line":
-        value: "Select Line"
+        value: "Seleziona Linea"
       "Select Word":
-        value: "Select Word"
+        value: "Seleziona Parola"
       "Select to Beginning of Word":
-        value: "Select to Beginning of Word"
+        value: "Seleziona fino all'Inizio della Parola'"
       "Select to Beginning of Line":
-        value: "Select to Beginning of Line"
+        value: "Seleziona fino all'Inizio della Linea"
       "Select to First Character of Line":
-        value: "Select to First Character of Line"
+        value: "Seleziona fino al Primo Carattere della Linea"
       "Select to End of Word":
-        value: "Select to End of Word"
+        value: "Seleziona fino al Termine della Parola"
       "Select to End of Line":
-        value: "Select to End of Line"
+        value: "Seleziona fino al Termine della Linea"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "Seleziona Contenuto Parentesi"
   Find:
     value: "Trova"
     submenu:
@@ -272,9 +272,9 @@ Menu:
       "Toggle Find in Buffer":
         value: "Attiva/Disattiva Trova nel Buffer"
       "Find in Project":
-        value: "Trova in Project"
+        value: "Trova nel Progetto"
       "Toggle Find in Project":
-        value: "Attiva/Disattiva Trova in Project"
+        value: "Attiva/Disattiva Trova nel Progetto"
       "Find All":
         value: "Trova tutto"
       "Find Next":
@@ -312,9 +312,9 @@ Menu:
       Documentation:
         value: "Documentazione"
       Roadmap:
-        value: "Roadmap"
+        value: "Piano di Sviluppo"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions (Domande Frequenti)"
+        value: "Domande Frequenti (FAQ)"
       "Community Discussions":
         value: "Discussioni della Community"
       "Report Issue":

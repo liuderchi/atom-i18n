@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Elem ellenőrzése"
+  "atom-text-editor":
+    "color-picker:open": "Színválasztó"
+    "minimap:toggle": "Váltás minimap-ra"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Visszavonás"
+    "core:redo": "Újra"
+    "core:cut": "Kivágás"
+    "core:copy": "Másolás"
+    "core:paste": "Beillesztés"
+    "core:delete": "Törlés"
+    "core:select-all": "Minden kijelölése"
+    "pane:split-up-and-copy-active-item": "Osztott nézet fent"
+    "pane:split-down-and-copy-active-item": "Osztott nézet lent"
+    "pane:split-left-and-copy-active-item": "Osztott nézet balra"
+    "pane:split-right-and-copy-active-item": "Osztott nézet jobbra"
+    "pane:close": "Ablak bezárása"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Osztott nézet fent"
+    "pane:split-down-and-copy-active-item": "Osztott nézet lent"
+    "pane:split-left-and-copy-active-item": "Osztott nézet balra"
+    "pane:split-right-and-copy-active-item": "Osztott nézet jobbra"
+    "pane:close": "Ablak bezárása"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Karakterkódolás beállítása"
+    "spell-check:correct-misspelling": "Nincs helyesírási hiba"
+    "symbols-view:go-to-declaration": "Ugrás a deklarációhoz"
+  ".overlayer":
+    "grammar-selector:show": "Programnyelv kiválasztása"
+  ".image-view":
+    "image-view:reload": "Kép újratöltése"
+  ".tab":
+    "tabs:close-tab": "Lap bezárása"
+    "tabs:close-other-tabs": "Más lapok bezárása"
+    "tabs:close-tabs-to-right": "Close Tabs to the Right"
+    "tabs:close-tabs-to-left": "Close Tabs to the Left"
+    "tabs:close-saved-tabs": "Mentett lapok bezárása"
+    "tabs:close-all-tabs": "Összes lap bezárása"
+    "tabs:split-up": "Osztott nézet fent"
+    "tabs:split-down": "Osztott nézet lent"
+    "tabs:split-left": "Osztott nézet balra"
+    "tabs:split-right": "Osztott nézet jobbra"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Megnyitás új ablakban"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Nem mentett lap megtartása"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Bezárt lap újranyitása"
+  ".tree-view.full-menu":
+    "tree-view:add-file": "Új fájl"
+    "tree-view:add-folder": "Új könyvtár"
+    "tree-view:move": "Átnevezés"
+    "tree-view:duplicate": "Kettőzés"
+    "tree-view:remove": "Törlés"
+    "tree-view:copy": "Másolás"
+    "tree-view:cut": "Kivágás"
+    "tree-view:paste": "Beillesztés"
+    "tree-view:open-selected-entry-up": "Osztott nézet fent"
+    "tree-view:open-selected-entry-down": "Osztott nézet lent"
+    "tree-view:open-selected-entry-left": "Osztott nézet balra"
+    "tree-view:open-selected-entry-right": "Osztott nézet jobbra"
+    "application:add-project-folder": "Projekt könyvtár létrehozása"
+    "tree-view:copy-full-path": "Teljes elérési út másolása"
+    "tree-view:copy-project-path": "Projekt elérési út másolása"
+    "tree-view:open-in-new-window": "Megnyitás új ablakban"
+  '.tree-view.full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Osztott nézet fent"
+    "tree-view:open-selected-entry-down": "Osztott nézet lent"
+    "tree-view:open-selected-entry-left": "Osztott nézet balra"
+    "tree-view:open-selected-entry-right": "Osztott nézet jobbra"
+  ".tree-view.full-menu .project-root > .header":
+    "tree-view:add-file": "Új fájl"
+    "tree-view:add-folder": "Új könyvtár"
+    "tree-view:move": "Átnevezés"
+    "tree-view:duplicate": "Kettőzés"
+    "tree-view:remove": "Törlés"
+    "tree-view:copy": "Másolás"
+    "tree-view:cut": "Kivágás"
+    "tree-view:paste": "Beillesztés"
+    "tree-view:open-selected-entry-up": "Osztott nézet fent"
+    "tree-view:open-selected-entry-down": "Osztott nézet lent"
+    "tree-view:open-selected-entry-left": "Osztott nézet balra"
+    "tree-view:open-selected-entry-right": "Osztott nézet jobbra"
+    "application:add-project-folder": "Projekt könyvtár létrehozása"
+    "tree-view:remove-project-folder": "Projekt könyvtár eltávolítása"
+    "tree-view:copy-full-path": "Teljes elérési út másolása"
+    "tree-view:copy-project-path": "Projekt elérési út másolása"
+    "tree-view:open-in-new-window": "Megnyitás új ablakban"
+  ".platform-darwin .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Megjelenítés a keresőben"
+  ".platform-win32 .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Megjelenítés a böngészőben"
+  ".platform-linux .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Megjelenítés a fájlkezelőben"
+  ".tree-view > li.directory":
+    "project-find:show-in-current-directory": "Keresés a munka könyvtárban"
+  ".tree-view.multi-select":
+    "tree-view:remove": "Törlés"
+    "tree-view:copy": "Másolás"
+    "tree-view:cut": "Kivágás"
+    "tree-view:paste": "Beillesztés"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Mutatás fa-struktúrában"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Átnevezés"
+    "tree-view:reveal-active-file": "Mutatás fa-struktúrában"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Megjelenítés a keresőben"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Megjelenítés a böngészőben"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Megjelenítés a fájlkezelőben"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Megjelenítés a keresőben"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Megjelenítés a böngészőben"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Megjelenítés a fájlkezelőben"

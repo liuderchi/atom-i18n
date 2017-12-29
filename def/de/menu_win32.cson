@@ -11,18 +11,18 @@ Menu:
       "Open Folder…":
         value: "Ordner öffnen..."
       "Add Project Folder…":
-        value: "Projekt-Ordner hinzufügen..."
+        value: "Projektordner hinzufügen..."
       "Reopen Project":
         value: "Projekt erneut öffnen"
         submenu:
           "Clear Project History":
-            value: "Projekt Historie löschen"
+            value: "Projekthistorie löschen"
       "Reopen Last &Item":
-        value: "letzte Date&i nochmals öffnen"
+        value: "Letzte Date&i nochmals öffnen"
       "Se&ttings":
         value: "Eins&tellungen..."
       "Config…":
-        value: "Config..."
+        value: "Konfiguration..."
       "Init Script…":
         value: "Init Script..."
       "Keymap…":
@@ -40,7 +40,7 @@ Menu:
       "&Close Tab":
         value: "Tab schließen(&C)"
       "Close &Pane":
-        value: "Alle Tabs schließen(&P)"
+        value: "Fenster schließen(&P)"
       "Clos&e Window":
         value: "F&enster schließen"
       "E&xit":
@@ -96,11 +96,11 @@ Menu:
         value: "Text"
         submenu:
           "&Upper Case":
-            value: "Großschreiben(&U)"
+            value: "Großbuchstaben(&U)"
           "&Lower Case":
-            value: "Kleinschreiben(&L)"
+            value: "Kleinbuchstaben(&L)"
           "Delete to End of &Word":
-            value: "Gesamtes &Wort entfernen"
+            value: "Gesamtes &Wort löschen"
           "Delete to Previous Word Boundary":
             value: "Löschen bis zum letzten Wortende"
           "Delete to Next Word Boundary":
@@ -139,7 +139,7 @@ Menu:
           "Fold Level 9":
             value: "Zuklappen Level 9"
       "Reflow Selection":
-        value: "Fließende Auswahl"
+        value: "Reflow der Auswahl"
       Bookmark:
         value: "Lesezeichen"
         submenu:
@@ -152,7 +152,7 @@ Menu:
           "Jump to Previous Bookmark":
             value: "Zum vorhergehenden Lesezeichen springen"
       "Select Encoding":
-        value: "Encodierung auswählen"
+        value: "Codierung auswählen"
       "Go to Line":
         value: "Gehe zu Zeile"
       "Select Grammar":
@@ -281,7 +281,7 @@ Menu:
       "Find Modified File":
         value: "Veränderte Datei suchen"
   "&Packages":
-    value: "&Pakete"
+    value: "&Packages"
   "&Help":
     value: "&Hilfe"
     submenu:

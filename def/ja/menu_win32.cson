@@ -13,10 +13,10 @@ Menu:
       "Add Project Folder…":
         value: "プロジェクトフォルダを追加..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "最近使用したプロジェクトを開く"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "プロジェクト履歴をクリア"
       "Reopen Last &Item":
         value: "最後に使用したファイルを開く(&I)"
       "Se&ttings":
@@ -290,7 +290,7 @@ Menu:
       "View &License":
         value: "ライセンス(&L)"
       "Check for Update":
-        value: "Check for Update"
+        value: "アップデートを確認"
       "&Documentation":
         value: "ドキュメント(&D)"
       "Frequently Asked Questions":

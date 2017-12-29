@@ -39,16 +39,11 @@ describe('validation', () => {
 
     describe('checking template/settings.cson `controls.*._id` according atom config-schema.js', () => {
 
-      it('fetches config-schema.js then compares keys of settings.cson with it', async () => {
+      it('fetches descriptive part of config-schema.js then compares keys of settings.cson with it', async () => {
         const neverShownDesciptionInSettingsPanelItems = [
           'core.customFileTypes',
           'core.disabledPackages',
           'core.themes',
-          'editor.commentEnd',
-          'editor.commentStart',
-          'editor.decreaseIndentPattern',
-          'editor.foldEndPattern',
-          'editor.increaseIndentPattern',
           'editor.invisibles',   // NOTE shows only editor.invisibles.*
         ]    // NOTE Manually updated exceptional list from https://github.com/atom/settings-view/blob/master/lib/settings-panel.js#L339-L350
 
@@ -61,15 +56,20 @@ describe('validation', () => {
 
         const flattenSrcConfigKeys = await axios.get(configURL).then(({ data }) => {
           const srcConfig = eval(data)
+          const keysWithoutDescriptionToKeep = [
+            'core.autoHideMenuBar', // platform specific
+          ]
           return Object.keys(flattenObj(srcConfig))
             .filter(key => key.search(/enum/g) === -1)
-            .filter(key => key.search(/description$/g) > -1)
+            .filter(key => key.search(/description$/g) !== -1)
+            .concat(keysWithoutDescriptionToKeep)
             .map(key => key.replace(/\.properties/g, '').replace(/\.description/g, ''))
+            .sort()
         })
 
-        expect(templateSettingsControls.concat(neverShownDesciptionInSettingsPanelItems))
+        expect(templateSettingsControls.concat(neverShownDesciptionInSettingsPanelItems).sort())
           .to.include.members(flattenSrcConfigKeys, `inconsistent keys compared with ${configURL}\n`)
-        // NOTE expect every key `flattenSrcConfigKeys` appears in templateSettingsControls
+        // NOTE expect every key in `flattenSrcConfigKeys` appears in templateSettingsControls
       })
     })
 
