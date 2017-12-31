@@ -1,3 +1,11 @@
+## 0.13.1 - Decaffeinate
+* fix null dom query #126
+* introduce greenkeeper-lockfile #125
+* Italian update (100%) #124
+* Decaffeinate #119
+* Hungarian update (100%) #118
+
+
 ## 0.13.0 - Hungarian support
 * Hungarian support (100%) #116
 * Japanese support update (95%) #112
