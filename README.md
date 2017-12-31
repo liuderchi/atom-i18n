@@ -33,7 +33,7 @@ Community-driven translation. :family:
 | French | `fr` | :white_check_mark: 100% |
 | Hindi | `hi` | :exclamation: [I can translate][hi-issue-filter] |
 | Hungarian | `hu` | :white_check_mark: 100% |
-| Italian| `it` | :warning: 50% [I can translate][it-issue-filter] |
+| Italian| `it` | :white_check_mark: 100% |
 | Japanese | `ja` | :white_check_mark: 100% |
 | Korean | `ko` | :white_check_mark: 100% |
 | Dutch | `nl` | :warning: 80% [I can translate][nl-issue-filter] |
