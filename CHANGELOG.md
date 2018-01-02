@@ -1,3 +1,6 @@
+## 0.13.2 - hotfix
+* fix null dom query #128
+
 ## 0.13.1 - Decaffeinate
 * fix null dom query #126
 * introduce greenkeeper-lockfile #125
