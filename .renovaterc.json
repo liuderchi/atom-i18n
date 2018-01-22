@@ -1,4 +1,5 @@
 {
+  "pinVersions": false,
   "extends": [
     "config:base"
   ]
