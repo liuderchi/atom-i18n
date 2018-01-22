@@ -27,13 +27,13 @@
     "cson": "^4.0.0"
   },
   "devDependencies": {
-    "axios": "^0.16.2",
-    "chai": "^4.1.1",
-    "coffeelint": "^1.16.0",
-    "eslint": "^4.5.0",
-    "greenkeeper-lockfile": "^1.12.0",
-    "mocha": "^4.1.0",
-    "yargs": "^8.0.2"
+    "axios": "0.16.2",
+    "chai": "4.1.2",
+    "coffeelint": "1.16.0",
+    "eslint": "4.16.0",
+    "greenkeeper-lockfile": "1.13.0",
+    "mocha": "4.1.0",
+    "yargs": "8.0.2"
   },
   "configSchema": {
     "locale": {
