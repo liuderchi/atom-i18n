@@ -4,7 +4,7 @@
   "version": "0.13.3",
   "scripts": {
     "test": "npm run lint && npm run validation",
-    "lint": "eslint def lib spec && coffeelint def lib spec",
+    "lint": "eslint def lib spec",
     "validation": "mocha spec/validation.js"
   },
   "description": "Localize Atom for your locale. One i18n package for any language. Community-driven translation.",
@@ -29,7 +29,6 @@
   "devDependencies": {
     "axios": "^0.16.2",
     "chai": "^4.1.1",
-    "coffeelint": "^1.16.0",
     "eslint": "^4.5.0",
     "greenkeeper-lockfile": "^1.12.0",
     "mocha": "^4.1.0",
