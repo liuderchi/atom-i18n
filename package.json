@@ -27,7 +27,7 @@
     "cson": "^5.1.0"
   },
   "devDependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.17.0",
     "chai": "^4.1.1",
     "eslint": "^4.5.0",
     "greenkeeper-lockfile": "^1.12.0",
