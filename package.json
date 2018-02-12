@@ -31,7 +31,7 @@
     "chai": "^4.1.1",
     "eslint": "^4.5.0",
     "greenkeeper-lockfile": "^1.12.0",
-    "mocha": "^4.1.0",
+    "mocha": "^5.0.0",
     "yargs": "^10.0.0"
   },
   "configSchema": {
