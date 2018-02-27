@@ -6,7 +6,6 @@
 [![issues-count][issues-count]][issues]
 [![Build Status][travis-status]][travis-project]
 [![dependencies Status][david-status]][david-project]
-[![Greenkeeper badge][greenkeeper-badge]][greenkeeper]
 [![license][license-badge]][license]
 
 Localize [Atom][atom] :atom: for your locale.
@@ -114,8 +113,6 @@ Community-driven translation. :family:
 [travis-project]: https://travis-ci.org/liuderchi/atom-i18n "travis-project"
 [david-status]: https://david-dm.org/liuderchi/atom-i18n/status.svg "david-status"
 [david-project]: https://david-dm.org/liuderchi/atom-i18n "david-project"
-[greenkeeper-badge]: https://badges.greenkeeper.io/liuderchi/atom-i18n.svg "greenkeeper"
-[greenkeeper]: https://greenkeeper.io/ "greenkeeper"
 [license-badge]: https://img.shields.io/github/license/liuderchi/atom-i18n.svg "license-badge"
 [license]: http://liuderchi.mit-license.org/ "license"
 
