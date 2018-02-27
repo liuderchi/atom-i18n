@@ -4,7 +4,9 @@
 [![contributor-count][contributor-count]][contributors]
 [![contribute-welcome-badge][contribute-welcome-badge]][CONTRIBUTING.md]
 [![issues-count][issues-count]][issues]
+
 [![Build Status][travis-status]][travis-project]
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
 [![dependencies Status][david-status]][david-project]
 [![license][license-badge]][license]
 
@@ -111,6 +113,8 @@ Community-driven translation. :family:
 [issues]: https://github.com/liuderchi/atom-i18n/issues "issues"
 [travis-status]: https://travis-ci.org/liuderchi/atom-i18n.svg?branch=master "travis-status"
 [travis-project]: https://travis-ci.org/liuderchi/atom-i18n "travis-project"
+[renovate-badge]: https://img.shields.io/badge/renovate-enabled-brightgreen.svg "renovate-badge"
+[renovate-link]: https://renovateapp.com
 [david-status]: https://david-dm.org/liuderchi/atom-i18n/status.svg "david-status"
 [david-project]: https://david-dm.org/liuderchi/atom-i18n "david-project"
 [license-badge]: https://img.shields.io/github/license/liuderchi/atom-i18n.svg "license-badge"
