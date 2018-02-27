@@ -7,7 +7,9 @@
 
 [![Build Status][travis-status]][travis-project]
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
-[![dependencies Status][david-status]][david-project]
+[![Dependency Status][david-status]][david-project]
+[![DevDependency Status][david-dev-status]][david-dev-project]
+[![PeerDependency Status][david-peer-status]][david-peer-project]
 [![license][license-badge]][license]
 
 Localize [Atom][atom] :atom: for your locale.
@@ -117,6 +119,10 @@ Community-driven translation. :family:
 [renovate-link]: https://renovateapp.com
 [david-status]: https://david-dm.org/liuderchi/atom-i18n/status.svg "david-status"
 [david-project]: https://david-dm.org/liuderchi/atom-i18n "david-project"
+[david-dev-status]: https://david-dm.org/liuderchi/atom-i18n/dev-status.svg "david-dev-status"
+[david-dev-project]: https://david-dm.org/liuderchi/atom-i18n#info=devDependencies "david-dev-project"
+[david-peer-status]: https://david-dm.org/liuderchi/atom-i18n/peer-status.svg "david-peer-status"
+[david-peer-project]: https://david-dm.org/liuderchi/atom-i18n#info=peerDependencies "david-peer-project"
 [license-badge]: https://img.shields.io/github/license/liuderchi/atom-i18n.svg "license-badge"
 [license]: http://liuderchi.mit-license.org/ "license"
 
