@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Etsi elementtiä"
+  "atom-text-editor":
+    "color-picker:open": "Avaa värivalitsin"
+    "minimap:toggle": "Kytke minikartta"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Peru"
+    "core:redo": "Tee sittenkin"
+    "core:cut": "Leikkaa"
+    "core:copy": "Kopioi"
+    "core:paste": "Sijoita"
+    "core:delete": "Poista"
+    "core:select-all": "Valitse kaikki"
+    "pane:split-up-and-copy-active-item": "Jaa ylöspäin"
+    "pane:split-down-and-copy-active-item": "Jaa alaspäin"
+    "pane:split-left-and-copy-active-item": "Jaa vasemmalle"
+    "pane:split-right-and-copy-active-item": "Jaa oikealle"
+    "pane:close": "Sulje kaikki ikkunassa"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Jaa ylöspäin"
+    "pane:split-down-and-copy-active-item": "Jaa alaspäin"
+    "pane:split-left-and-copy-active-item": "Jaa vasemmalle"
+    "pane:split-right-and-copy-active-item": "Jaa oikealle"
+    "pane:close": "Sulje kaikki ikkunassa"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Vaihda merkistökoodaus"
+    "spell-check:correct-misspelling": "Korjaa kirjoitusvirheet"
+    "symbols-view:go-to-declaration": "Siirry määritelmään"
+  ".overlayer":
+    "grammar-selector:show": "Muuta kielioppia"
+  ".image-view":
+    "image-view:reload": "Lataa kuva uudelleen"
+  ".tab":
+    "tabs:close-tab": "Sulje välilehti"
+    "tabs:close-other-tabs": "Sulje muut välilehdet"
+    "tabs:close-tabs-to-right": "Sulje oikeanpuoleiset välilehdet"
+    "tabs:close-tabs-to-left": "Sulje vasemmanpuoleiset välilehdet"
+    "tabs:close-saved-tabs": "Sulje tallennetut välilehdet"
+    "tabs:close-all-tabs": "Sulje kaikki välilehdet"
+    "tabs:split-up": "Jaa ylöspäin"
+    "tabs:split-down": "Jaa alaspäin"
+    "tabs:split-left": "Jaa vasemmalle"
+    "tabs:split-right": "Jaa oikealle"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Avaa uudessa ikkunassa"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Säilytä odottava välilehti"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Avaa suljettu välilehti uudelleen"
+  ".tree-view.full-menu":
+    "tree-view:add-file": "Uusi tiedosto"
+    "tree-view:add-folder": "Uusi hakemisto"
+    "tree-view:move": "Siirrä"
+    "tree-view:duplicate": "Monista"
+    "tree-view:remove": "Poista"
+    "tree-view:copy": "Kopioi"
+    "tree-view:cut": "Leikkaa"
+    "tree-view:paste": "Sijoita"
+    "tree-view:open-selected-entry-up": "Avaa yläpuolelle"
+    "tree-view:open-selected-entry-down": "Avaa alapuolelle"
+    "tree-view:open-selected-entry-left": "Avaa vasemmalle"
+    "tree-view:open-selected-entry-right": "Avaa oikealle"
+    "application:add-project-folder": "Lisää projektihakemisto"
+    "tree-view:copy-full-path": "Kopioi koko tiedostopolku"
+    "tree-view:copy-project-path": "Kopioi projektin polku"
+    "tree-view:open-in-new-window": "Avaa uudessa ikkunassa"
+  '.tree-view.full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Avaa yläpuolelle"
+    "tree-view:open-selected-entry-down": "Avaa alapuolelle"
+    "tree-view:open-selected-entry-left": "Avaa vasemmalle"
+    "tree-view:open-selected-entry-right": "Avaa oikealle"
+  ".tree-view.full-menu .project-root > .header":
+    "tree-view:add-file": "Uusi tiedosto"
+    "tree-view:add-folder": "Uusi hakemisto"
+    "tree-view:move": "Siirrä"
+    "tree-view:duplicate": "Monista"
+    "tree-view:remove": "Poista"
+    "tree-view:copy": "Kopioi"
+    "tree-view:cut": "Leikkaa"
+    "tree-view:paste": "Sijoita"
+    "tree-view:open-selected-entry-up": "Avaa yläpuolelle"
+    "tree-view:open-selected-entry-down": "Avaa alapuolelle"
+    "tree-view:open-selected-entry-left": "Avaa vasemmalle"
+    "tree-view:open-selected-entry-right": "Avaa oikealle"
+    "application:add-project-folder": "Lisää projektihakemisto"
+    "tree-view:remove-project-folder": "Poista projektihakemisto"
+    "tree-view:copy-full-path": "Kopioi koko tiedostopolku"
+    "tree-view:copy-project-path": "Kopioi projektin polku"
+    "tree-view:open-in-new-window": "Avaa uudessa ikkunassa"
+  ".platform-darwin .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Näytä Finderissa"
+  ".platform-win32 .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Näytä resurssienhallinnassa"
+  ".platform-linux .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Näytä tiedostoselaimessa"
+  ".tree-view > li.directory":
+    "project-find:show-in-current-directory": "Näytä hakemistossa"
+  ".tree-view.multi-select":
+    "tree-view:remove": "Poista"
+    "tree-view:copy": "Kopioi"
+    "tree-view:cut": "Leikkaa"
+    "tree-view:paste": "Sijoita"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Näytä aktiivinen tiedosto"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Nimeä uudelleen"
+    "tree-view:reveal-active-file": "Näytä aktiivinen tiedosto"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Avaa Finderissa"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Näytä resurssienhallinnassa"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Näytä tiedostoselaimessa"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Avaa Finderissa"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Näytä resurssienhallinnassa"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Näytä tiedostoselaimessa"
