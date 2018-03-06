@@ -122,8 +122,8 @@ Settings:
       }
       {
         _id: 'core.fileEncoding'
-        title: "File Encoding"
-        desc: "Default character set encoding to use when reading and writing files."
+        title: "Kodowanie pliku"
+        desc: "Domyślne ustawienie kodowania znaków używane podczas czytania i zapisywania plików."
       }
       {
         _id: 'core.fileSystemWatcher'
