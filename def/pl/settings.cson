@@ -237,13 +237,13 @@ Settings:
       }
       {
         _id: 'editor.fontFamily'
-        title: "Font Family"
-        desc: "The name of the font family used for editor text."
+        title: "Czcionka"
+        desc: "Nazwa czcionki używana w edytorze tekstowym."
       }
       {
         _id: 'editor.fontSize'
-        title: "Font Size"
-        desc: "Height in pixels of editor text."
+        title: "Rozmiar czcionki"
+        desc: "Wysokość tekstu w edytorze wyrażona pikselach."
       }
       {
         _id: 'editor.invisibles.cr'
