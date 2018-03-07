@@ -54,6 +54,10 @@
           "description": "Español (es)"
         },
         {
+          "value": "fi",
+          "description": "suomi (fi)"
+        },
+        {
           "value": "fr",
           "description": "Français (fr)"
         },

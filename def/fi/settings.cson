@@ -1,0 +1,424 @@
+Settings:
+  "tab-title": "Asetukset"
+  menu: [
+    {
+      _label: "Core"
+      value: "Ydin"
+    }
+    {
+      _label: "Editor"
+      value: "Muokkain"
+    }
+    {
+      _label: "System"
+      value: "Järjestelmä"
+    }
+    {
+      _label: "Keybindings"
+      value: "Näppäintoiminnot"
+    }
+    {
+      _label: "Packages"
+      value: "Paketit"
+    }
+    {
+      _label: "Themes"
+      value: "Teemat"
+    }
+    {
+      _label: "Updates"
+      value: "Päivitykset"
+    }
+    {
+      _label: "Install"
+      value: "Asenna"
+    }
+  ]
+  "btn-open-config-folder": "Avaa määrityshakemisto"
+  sectionHeadings: [
+    {_label: "Core Settings", value: "Ydinasetukset"}
+    {_label: "Editor Settings", value: "Muokkaimen asetukset"}
+    {_label: "System Settings", value: "Järjestelmän asetukset"}
+    {_label: "Keybindings", value: "Näppäintoiminnot"}
+    {_label: "Installed Packages", value: "Asennetut paketit"}
+    {_label: "Choose a Theme", value: "Valitse teema"}
+    {_label: "Installed Themes", value: "Asennetut teemat"}
+    {_label: "Install Packages", value: "Asenna paketteja"}
+    {_label: "Featured Packages", value: "Esitellyt paketit"}
+    {_label: "Install Themes", value: "Asenna teemoja"}
+    {_label: "Featured Themes", value: "Esitellyt teemat"}
+    {_label: "Available Updates", value: "Saatavilla olevat päivitykset"}
+  ]
+  subSectionHeadings: [
+    {_label: "Invisible", value: "Näkymätön"}
+    {_label: "Community Packages", value: "Yhteisöpaketit"}
+    {_label: "Core Packages", value: "Ydinpaketit"}
+    {_label: "Development Packages", value: "Kehityspaketit"}
+    {_label: "Git Packages", value: "Git-paketit"}
+    {_label: "Community Themes", value: "Yhteisöteemat"}
+    {_label: "Core Themes", value: "Ydinteemat"}
+    {_label: "Development Themes", value: "Kehitysteemat"}
+    {_label: "Git Themes", value: "Git-teemat"}
+  ]
+  settings: {
+    notes: [
+      {
+        _id: 'core-settings-note'
+        html: 'Nämä ovat Atomin ydinasetukset, jotka eivät kuitenkaan liity tekstityöskentelyyn (viimeksimainitut löytyvät Muokkain-kohdasta). Yksittäisillä paketeilla voi olla omia asetuksia, jotka löytyvät kunkin paketin omalta sivulta, ks. <a class="link packages-open">Luettelo asennetuista paketeista</a>.'
+      }
+      {
+        _id: 'editor-settings-note'
+        html: 'Nämä asetukset liittyvät tekstin muokkaamiseen. Jotkut niistä voidaan ylikirjoittaa kohdekielikohtaisesti. Tarkista kunkin kohdekielen asetukset paketin omalta sivulta, ks. <a class="link packages-open">Luettelo asennetuista paketeista</a>.'
+      }
+    ]
+    controls: [
+      {
+        _id: 'core.allowPendingPaneItems'
+        title: "Salli odottava tiedostosisältö"
+        desc: "Salli kohteiden esikatselu avaamatta niitä paneelissa; esimerkiksi yksittäisellä napautuksella puunäkymässä."
+      }
+      {
+        _id: 'core.audioBeep'
+        title: "Äänimerkki"
+        desc: "Käytä järjestelmän äänimerkkiä (piippaus), kun tiettyjä toimintoja ei voida syorittaa tai kun tuloksia ei löytynyt."
+      }
+      {
+        _id: 'core.automaticallyUpdate'
+        title: "Automaattinen päivitys"
+        desc: "Päivitä Atom automaattisesti, kun uusi versio julkaistaan."
+      }
+      {
+        _id: 'core.autoHideMenuBar'
+        title: "Piilota valikko"
+        desc: "Piilota valikko oletuksena; kytke päälle ja pois painamalla Alt-näppäintä. Käytettävissä vain Windows- tai Linux-ympäristössä."
+      }
+      {
+        _id: 'core.closeDeletedFileTabs'
+        title: "Sulje välilehti, kun tiedosto poistetaan"
+        desc: "Sulje avoin välilehti, kun vastaava tiedosto poistetaan Atomin ulkopuolella."
+      }
+      {
+        _id: 'core.closeEmptyWindows'
+        title: "Sulje tyhjät ikkunat"
+        desc: "Sulje ikkuna viimeisen avoimen välilehden sulkemisen yhteydessä."
+      }
+      {
+        _id: 'core.destroyEmptyPanes'
+        title: "Sulje tyhjät paneelit"
+        desc: "Sulje paneeli viimeisen avoimen välilehden sulkemisen yhteydessä."
+      }
+      {
+        _id: 'core.excludeVcsIgnoredPaths'
+        title: "Ohita versionhallinnan ohittamat polut"
+        desc: "Tiedostot ja hakemistot, jotka on asetettu ohitettaviksi asianomaisen projektin versionhallintajärjestelmässä, ohitetaan myös eräiden Atom-pakettien, kuten sumean haun ja etsi-ja-korvaa-toiminnon, yhteydessä. Tällaisia ovat esimerkiksi Git-projektin .gitignore-tiedostossa määritellyt polut. Yksittäisillä paketeilla voi olla omia lisäasetuksiaan, jotka vaikuttavat tällaisten tiedostojen käsittelyyn."
+      }
+      {
+        _id: 'core.fileEncoding'
+        title: "Merkistökoodaus"
+        desc: "Merkistökoodaus, jota käytetään oletuksena tiedostoja luettaessa ja kirjoitettaessa."
+      }
+      {
+        _id: 'core.fileSystemWatcher'
+        title: "Tiedostojärjestelmän tarkkailija"
+        desc: "Konkreettinen toteutus, jota käytetään tiedostojärjestelmän muutoksien tarkkailuun. Emulointiin perustuva toteutus ei huomaa toisten ohjelmistojen aiheuttamia tilanteita, mutta voi auttaa torjumaan kaatumisia ja lukittumisia."
+        select:
+          native: "Järjestelmän sisäänrakennettu rajapinta"
+          atom: "Emulointi Atom-tapahtumien avulla"
+      }
+      {
+        _id: 'core.followSymlinks'
+        title: "Seuraa symbolisia linkkejä"
+        desc: "Seuraa symbolisia linkkejä tiedostoja haettaessa ja avattaessa sumean haun avulla."
+      }
+      {
+        _id: 'core.ignoredNames'
+        title: "Ohita tiedostonimet"
+        desc: "Luettelo <code>glob</code>-kuvioista, joihin täsmäävät tiedostot ja hakemistot ohitetaan tiettyjen pakettien, kuten sumean haun ja puunäkymän yhteydessä. Yksittäisillä paketeilla voi olla omia lisäasetuksiaan, jotka vaikuttavat ohitettaviin tiedostonimiin."
+      }
+      {
+        _id: 'core.openEmptyEditorOnStart'
+        title: "Avaa tyhjä muokkain"
+        desc: "Avaa tyhjä muokkain automaattisesti ohjelman käynnistyksen yhteydessä."
+      }
+      {
+        _id: 'core.packagesWithKeymapsDisabled'
+        title: "Paketit, joiden yhteydessä näppäinkartat poistetaan käytöstä"
+      }
+      {
+        _id: 'core.projectHome'
+        title: "Projektihakemisto"
+        desc: "Hakemisto, jossa projektit sijaitsevat. Pakettien luonti sijoittaa uudet paketit oletuksena tänne."
+      }
+      {
+        _id: 'core.reopenProjectMenuCount'
+        title: "Viimeksi avattujen projektin lukumäärä"
+        desc: "Niiden viimeksi avattujen projektien enimmäismäärä, jotka näytetään Avaa projekti uudelleen -valikossa."
+      }
+      {
+        _id: 'core.restorePreviousWindowsOnStart'
+        title: "Avaa edelliset ikkunat käynnistyksen yhteydessä"
+        desc: "Määrää, avataanko kaikki Atom-ikkunat niitä suljettaessa vallinneeseen tilaansa, kun Atom käynnistetään kuvakkeesta tai komentoriviltä <code>atom</code>-komennolla; muutoin avataan tyhjä työskentelytila"
+        select:
+          no: "Ei"
+          yes: "Kyllä"
+          always: "Aina"
+      }
+      {
+        _id: 'core.telemetryConsent'
+        title: "Lähetä käyttötietodataa Atom-työryhmälle"
+        desc: "Sallii käyttömäärätilastojen ja virhetilanneraporttien lähettämisen Atom-työryhmälle ohjelman kohentamiseksi."
+        select:
+          limited: "Salli rajallinen ja nimetön tilastojen, virhetilanteiden ja kaatumisten raportointi"
+          no: "Älä lähetä mitään tietoja"
+          undecided: "En osaa sanoa (Atom kysyy tätä uudelleen seuraavan käynnistyksen yhteydessä)"
+      }
+      {
+        _id: 'core.titleBar'
+        title: "Nimiöpalkki"
+        desc: "Kokeellinen ominaisuus: valinta <code>mukautettu</code> asettaa nimiöpalkin mukautumaan temaattisiin väreihin. Valinta <code>mukautettu-väljä</code> lisää tyhjän tilan määrää. Valinta <code>piilota</code> piilottaa palkin kokonaan.<br>Huomautus: mukautettu tai piilotettu palkki haittaa määrättyjen toiminnallisuuksien käyttöä.<br>Tämä asetus edellyttää ohjelman uudelleenkäynnistämistä astuakseen voimaan."
+        select:
+          native: "oletus"
+          custom: "mukautettu"
+          "custom-inset": "mukautettu-väljä"
+          hidden: "piilota"
+      }
+      {
+        _id: 'core.useProxySettingsWhenCallingApm'
+        title: "Käytä välityspalvelinta APM-kutsujen yhteydessä"
+        desc: "Käytä tunnistettuja välityspalvelimen asetuksia, kun kutsutaan komentorivityökalua <code>apm</code>."
+      }
+      {
+        _id: 'core.versionPinnedPackages'
+        title: "Versioon sidotut paketit"
+        desc: "Luettelo sellaisista asennetuista paketeista, joita ei päivitetä automaattisesti."
+      }
+      {
+        _id: 'core.useCustomTitleBar'
+        title: "Käytä mukautettua nimiöpalkkia"
+        desc: "Käytä temaattista, mukautettua nimiöpalkkia.<br>Huomautus: poistaa Proxy-kuvakkeen käytöstä.<br>Edellyttää ohjelman uudelleenkäynnistystä astuakseen voimaan."
+      }
+      {
+        _id: 'core.warnOnLargeFileLimit'
+        title: "Varoita avattaessa suuria tiedostoja"
+        desc: "Varoita, kun avataan tiedostoa, jonka koko megatavuissa on tätä lukua suurempi."
+      }
+      {
+        _id: 'editor.atomicSoftTabs'
+        title: "Ryhmitelty sisennys"
+        desc: "Siirrä kursoria määritellyn sarkainleveyden suuruisissa ryhmissä, kun liikutaan välilyönneillä sisennetyn rivin alussa."
+      }
+      {
+        _id: 'editor.autoIndent'
+        title: "Sisennä automaattisesti"
+        desc: "Sisennä automaattisesti, kun lisätään uusi rivi."
+      }
+      {
+        _id: 'editor.autoIndentOnPaste'
+        title: "Sisennä sijoitettu teksti automaattisesti"
+        desc: "Sisennä leikepöydältä sijoitettu teksti automaattisesti edellisen rivin tasolle."
+      }
+      {
+        _id: 'editor.backUpBeforeSaving'
+        title: "Varmuuskopioi ennen tallentamista"
+        desc: ""
+      }
+      {
+        _id: 'editor.confirmCheckoutHeadRevision'
+        title: "Varmista, kun siirrytään HEAD-versioon"
+        desc: "Näytä varmistusikkuna, kun siirrytään HEAD-versioon ja hylätään aktiiviseen tiedostoon edellisen version jälkeen tehdyt muutokset."
+      }
+      {
+        _id: 'editor.fontFamily'
+        title: "Kirjasinlaji"
+        desc: "Tekstin muokkauksessa käytetyn kirjasinlaji nimi."
+      }
+      {
+        _id: 'editor.fontSize'
+        title: "Kirjasimen koko"
+        desc: "Tekstin muokkauksessa käytetyn kirjasimen korkeus pikseleissä."
+      }
+      {
+        _id: 'editor.invisibles.cr'
+        title: "Näkyvä askelpalautin (CR)"
+        desc: "Merkki, jota käytetään askelpalauttimen (\r) osoittamiseen silloin, kun tiedoston rivinvaihdot ovat Microsoft-tyyppisiä ja <code>Näytä näkymätön</code>-asetus on päällä."
+      }
+      {
+        _id: 'editor.invisibles.eol'
+        title: "Näkyvä rivinvaihto (LF)"
+        desc: "Merkki, jota käytetään rivinvaihdon (\n) osoittamiseen silloin, kun <code>Näytä näkymätön</code>-asetus on päällä."
+      }
+      {
+        _id: 'editor.invisibles.space'
+        title: "Näkyvä välilyönti"
+        desc: "Merkki, jota käytetään välilyönnin ( ) osoittamiseen rivin alussa ja lopussa silloin, kun <code>Näytä näkymätön</code>-asetus on päällä."
+      }
+      {
+        _id: 'editor.invisibles.tab'
+        title: "Näkyvä sarkain"
+        desc: "Merkki, jota käytetään sarkaimen (\t) osoittamiseen silloin, kun <code>Näytä näkymätön</code>-asetus on päällä."
+      }
+      {
+        _id: 'editor.lineHeight'
+        title: "Rivin korkeus"
+        desc: "Tekstirivien korkeus muokkaimessa, kertoimena <code>Kirjasimen koko</code>-asetukselle."
+      }
+      {
+        _id: 'editor.maxScreenLineLength'
+        title: "Suurin sallittu rivin pituus"
+        desc: "Merkkimäärä, jonka ylittävät rivit pilkotaan aina näytöllä useammaksi riviksi."
+      }
+      {
+        _id: 'editor.nonWordCharacters'
+        title: "Sanojen erotinmerkit"
+        desc: "Merkkijono, johon sisältyvät merkit tulkitaan sanojen välisiksi ja niitä toisistaan erottaviksi merkeiksi."
+      }
+      {
+        _id: 'editor.preferredLineLength'
+        title: "Tavoiteltu rivin pituus"
+        desc: "Merkkimäärä, jonka ylittävät rivit pilkotaan näytöllä useammaksi riviksi silloin, kun <code>Rivitä tavoitepituuteen</code>-asetus on päällä."
+      }
+      {
+        _id: 'editor.scrollPastEnd'
+        title: "Salli rullaus viimeisen rivin ohi"
+        desc: "Salli muokkaimen rullaaminen viimeisen rivin ohi."
+      }
+      {
+        _id: 'editor.scrollSensitivity'
+        title: "Rullausherkkyys"
+        desc: "Määrittää, miten herkästi muokkain rullaa sisältöä hiiren tai kosketuslevyn avulla."
+      }
+      {
+        _id: 'editor.showCursorOnSelection'
+        title: "Näytä kohdistin valinnassa"
+        desc: "Näytä hiiren kohdistin silloin, kun tekstiä on valittu."
+      }
+      {
+        _id: 'editor.showIndentGuide'
+        title: "Näytä sisennysohjain"
+        desc: "Näytä sisennysohjaimet tekstimuokkaimessa."
+      }
+      {
+        _id: 'editor.showInvisibles'
+        title: "Näytä näkymätön"
+        desc: "Osoita näkymättömät merkit, kuten sarkaimet, välilyönnit ja rivinvaihdot erityisin osoitusmerkein."
+      }
+      {
+        _id: 'editor.showLineNumbers'
+        title: "Näytä rivinumerot"
+        desc: "Näytä rivien numerot tekstimuokkaimen marginaalissa."
+      }
+      {
+        _id: 'editor.softTabs'
+        title: "Näennäiset sarkaimet"
+        desc: "Määrittää sisennystyypin silloin, kun <code>Sarkaintyyppi</code>-asetus on tilassa \"auto\" ja käytetyn sisennystyypin tunnistus epäonnistuu. Kun tämä asetus on päällä, sarkainnäppäin tuottaa aidon sarkaimen (\t) sijaan määritetyn sarkainleveyden mukaisen määrän välilyöntejä."
+      }
+      {
+        _id: 'editor.softWrap'
+        title: "Rivitys näytöllä"
+        desc: "Pilkkoo ikkunan leveyden ylittävät rivit useammaksi riviksi. Kun <code>Rivitä tavoitepituuteen</code>-asetus on päällä, käytetään ikkunan leveyden sijaan asetuksen <code>Tavoiteltu rivin pituus</code> määrittämää merkkimäärää."
+      }
+      {
+        _id: 'editor.softWrapAtPreferredLineLength'
+        title: "Rivitä tavoitepituuteen"
+        desc: "Pilko rivit näytön leveyden sijaan asetuksen <code>Tavoiteltu rivin pituus</code> määrittämään merkkimäärään. Näin tehdään silloin, kun <code>Rivitys näytöllä</code>-asetus on päällä ohjelmanlaajuisesti tai aktiivisen kohdekielen osalta. <strong>Huomautus:</strong> rivitysopastin (pystyviiva) voidaan piilottaa poistamalla paketti <code>wrap-guide</code> käytöstä."
+      }
+      {
+        _id: 'editor.softWrapHangingIndent'
+        title: "Rivityssisennys"
+        desc: "Kun rivitys näytölle on käytössä, sisennetään pilkotut rivit tämän asetuksen määräämän ylimääräisen merkkimäärän verran."
+      }
+      {
+        _id: 'editor.tabLength'
+        title: "Sisennys"
+        desc: "Yhtä sarkainmerkkiä vastaavien välilyöntien lukumäärä."
+      }
+      {
+        _id: 'editor.tabType'
+        title: "Sarkaintyyppi"
+        desc: "Määrää sarkainnäppäimen tuottaman merkin - mahdollisia arvoja ovat \"auto\", \"soft\" ja \"hard\". Käytettäessä asetusta \"soft\" tai \"hard\", tuotetaan välilyöntejä (soft) tai sarkainmerkkejä (hard). Kun asetus on tilassa \"auto\", tekstimuokkain tunnistaa käytetyn sisennystyypin puskurin sisällön perusteella automaattisesti. Jos tunnistus epäonnistuu, käytetään asetusta <code>Näennäiset sarkaimet</code>."
+      }
+      {
+        _id: 'editor.undoGroupingInterval'
+        title: "Muokkaushistorian ryhmittelyväli"
+        desc: "Sen aikavälin pituus millisekunteina, jonka sisällä tehdyt perättäiset muokkaukset ryhmitellään yhdeksi tapahtumaksi muokkaushistoriassa."
+      }
+      {
+        _id: 'editor.zoomFontWhenCtrlScrolling'
+        title: "Muuta kirjasimen kokoa Control-rullattaessa"
+        desc: "Muuta tekstimuokkaimen kirjasimen kokoa silloin, kun rullataan Control-näppäin painettuna."
+      }
+      {
+        _id: 'system.windows.file-handler'
+        title: "Rekisteröidy tiedoston käsittelijäksi"
+        desc: "Näytä Atom \"Avaa sovelluksessa\"-luettelossa. Mahdollistaa helpon kytkeytymisen tiedostotyyppeihin."
+      }
+      {
+        _id: 'system.windows.shell-menu-files'
+        title: "Näytä tiedoston lisätoimintonäkymässä"
+        desc: "Lisää \"Avaa Atomissa\" resurssienhallinnan lisätoimintoluetteloon tiedostoille."
+      }
+      {
+        _id: 'system.windows.shell-menu-folders'
+        title: "Näytä hakemiston lisätoimintonäkymässä"
+        desc: "Lisää \"Avaa Atomissa\" resurssienhallinnan lisätoimintoluetteloon hakemistoille."
+      }
+    ]
+  }
+  system: {
+    notes: "Nämä asetukset määräävät sen, miten Atom kytkeytyy tietokoneen käyttöjärjestelmään."
+  }
+  keymaps: {
+    notes: {
+      text1: "Nämä näppäintoiminnot voidaan ylikirjoittaa kopioimalla"
+      text2: "ja sijoittamalla ne "
+      text3: "henkilökohtaiseen näppäinkarttatiedostoon"
+      text4: ""   # optional
+      _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
+    }
+    "search-bar-placeholder": "Etsi näppäintoimintoja"
+    "table-header-keystroke": "Näppäinyhdistelmä"
+    "table-header-command": "Komento"
+    "table-header-source": "Komento"
+    "table-header-selector": "Valitsin"
+  }
+  packages: {
+    searchBarText: 'Suodata paketit nimen mukaan'
+  }
+  themes: {
+    notes: {
+      text1: "Atomin tyyliasetuksia voidaan muokata myös "
+      text2: "henkilökohtaisen tyylisivun"
+      text3: " avulla"   # optional
+      _template: "${text1} <a>${text2}</a> ${text3}"
+    }
+    title1: "Käyttöliittymäteema"
+    description1: "Ohjaa välilehtien, tilapalkin, puunäkymän ja pudotusvalikoiden tyylittelyä"
+    title2: "Syntaksiteema"
+    description2: "Ohjaa tekstin tyylittelyä muokkaimessa"
+    searchBarText: 'Suodata teemoja nimen mukaan'
+  }
+  updates: {
+    "check-updates": "Tarkista päivitykset"
+    "update-all": "Päivitä kaikki"
+    "checking-updates": "Tarkistetaan päivityksiä..."
+    "all-updated-message": "Kaikki asennetut paketit ovat ajan tasalla!"
+  }
+  install: {
+    notes: {
+      text1: "Paketit julkaistaan osoitteessa "
+      text2: " ja asennetaan hakemistoon "
+      text3: ""   # optional
+      _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
+    }
+    "searchbar-placeholder": "Etsi paketteja"
+    "btn-packages": "Paketit"
+    "btn-themes": "Teemat"
+  }
+  "control-btns":{
+    install: "Asenna"
+    update: "Päivitä"
+    setting: "Asetukset"
+    uninstall: "Poista"
+    disable: "Estä"
+    enable: "Salli"
+  }

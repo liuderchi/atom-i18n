@@ -1,0 +1,305 @@
+Menu:
+  "&File":
+    value: "Tiedosto(&F)"
+    submenu:
+      "New &Window":
+        value: "Uusi ikkuna(&W)"
+      "&New File":
+        value: "Uusi tiedosto(&N)"
+      "&Open File…":
+        value: "Avaa tied&osto…"
+      "Open Folder…":
+        value: "Avaa hakemisto…"
+      "Add Project Folder…":
+        value: "Avaa projektihakemisto…"
+      "Reopen Project":
+        value: "Avaa projekti uudelleen"
+        submenu:
+          "Clear Project History":
+            value: "Tyhjennä projektihistoria"
+      "Reopen Last &Item":
+        value: "Avaa v&iimeisin kohde uudelleen"
+      "&Save":
+        value: "Tallenna(&S)"
+      "Save &As…":
+        value: "Tallenn&a nimellä…"
+      "Save A&ll":
+        value: "Ta&llenna kaikki"
+      "&Close Tab":
+        value: "Sulje välilehti(&C)"
+      "Close &Pane":
+        value: "Sulje &paneeli"
+      "Clos&e Window":
+        value: "Sulj&e ikkuna"
+      "Quit":
+        value: "Lopeta"
+      "Close All Tabs":
+        value: "Sulje kaikki välilehdet"
+  "&Edit":
+    value: "Muokkaa(&E)"
+    submenu:
+      "&Undo":
+        value: "Per&u"
+      "&Redo":
+        value: "Tee sittenkin(&R)"
+      "&Cut":
+        value: "Leikkaa(&C)"
+      "C&opy":
+        value: "K&opioi"
+      "Copy Pat&h":
+        value: "Kopioi polku(&H)"
+      "&Paste":
+        value: "Liitä(&P)"
+      "Select &All":
+        value: "V&alitse kaikki"
+      "&Toggle Comments":
+        value: "Ky&tke kommentit"
+      Lines:
+        value: "Rivit"
+        submenu:
+          "&Indent":
+            value: "Lisää s&isennystä"
+          "&Outdent":
+            value: "Vähennä sisennystä(&O)"
+          "&Auto Indent":
+            value: "Sisennä &automaattisesti"
+          "Move Line &Up":
+            value: "Siirrä rivi ylöspäin(&U)"
+          "Move Line &Down":
+            value: "Siirrä rivi alaspäin(&D)"
+          "Du&plicate Lines":
+            value: "Monista rivit(&P)"
+          "D&elete Line":
+            value: "Poista rivi(&E)"
+          "&Join Lines":
+            value: "Yhdistä rivit(&J)"
+      Columns:
+        value: "Sarakkeet"
+        submenu:
+          "Move Selection &Left":
+            value: "Siirrä va&lintaa vasemmalle"
+          "Move Selection &Right":
+            value: "Sii&rrä valintaa oikealle"
+      Text:
+        value: "Teksti"
+        submenu:
+          "&Upper Case":
+            value: "S&uuri kirjainkoko"
+          "&Lower Case":
+            value: "Pieni kirjainkoko(&L)"
+          "Delete to End of &Word":
+            value: "Poista sanan loppuun(&W)"
+          "Delete to Previous Word Boundary":
+            value: "Poista edellisen sanan loppuun"
+          "Delete to Next Word Boundary":
+            value: "Poista seuraavan sanan alkuun"
+          "&Delete Line":
+            value: "Poista rivi(&D)"
+          "&Transpose":
+            value: "Käännä(&T)"
+      Folding:
+        value: "Taitto"
+        submenu:
+          "&Fold":
+            value: "Piilota(&F)"
+          "&Unfold":
+            value: "Näytä(&U)"
+          "Unfold &All":
+            value: "K&aikki näkyviin"
+          "Fol&d All":
+            value: "Kaikki piiloon(&D)"
+          "Fold Level 1":
+            value: "Piilota taso 1"
+          "Fold Level 2":
+            value: "Piilota taso 2"
+          "Fold Level 3":
+            value: "Piilota taso 3"
+          "Fold Level 4":
+            value: "Piilota taso 4"
+          "Fold Level 5":
+            value: "Piilota taso 5"
+          "Fold Level 6":
+            value: "Piilota taso 6"
+          "Fold Level 7":
+            value: "Piilota taso 7"
+          "Fold Level 8":
+            value: "Piilota taso 8"
+          "Fold Level 9":
+            value: "Piilota taso 9"
+      "&Preferences":
+        value: "Asetukset(&P)"
+      "Config…":
+        value: "Määritys…"
+      "Init Script…":
+        value: "Alustuskomentosarja…"
+      "Keymap…":
+        value: "Näppäinkartta…"
+      "Snippets…":
+        value: "Koodinpätkät…"
+      "Stylesheet…":
+        value: "Tyyli…"
+      "Reflow Selection":
+        value: "Taita valinta uudelleen"
+      Bookmark:
+        value: "Kirjanmerkit"
+        submenu:
+          "View All":
+            value: "Näytä kaikki"
+          "Toggle Bookmark":
+            value: "Kytke kirjanmerkki"
+          "Jump to Next Bookmark":
+            value: "Hyppää seuraavaan"
+          "Jump to Previous Bookmark":
+            value: "Hyppää edelliseen"
+      "Select Encoding":
+        value: "Valitse merkistökoodaus"
+      "Go to Line":
+        value: "Siirry riville"
+      "Select Grammar":
+        value: "Valitse kielioppi"
+  "&View":
+    value: "Näytä(&V)"
+    submenu:
+      "Toggle &Full Screen":
+        value: "Kytke koko näytön tila(&F)"
+      "Toggle Menu Bar":
+        value: "Kytke valikkopalkki"
+      Panes:
+        value: "Paneelit"
+        submenu:
+          "Split Up":
+            value: "Jaa ylös"
+          "Split Down":
+            value: "Jaa alas"
+          "Split Left":
+            value: "Jaa vasemmalle"
+          "Split Right":
+            value: "Jaa oikealle"
+          "Focus Next Pane":
+            value: "Kohdista seuraavaan paneeliin"
+          "Focus Previous Pane":
+            value: "Kohdista edelliseen paneeliin"
+          "Focus Pane Above":
+            value: "Kohdista ylös"
+          "Focus Pane Below":
+            value: "Kohdista alas"
+          "Focus Pane On Left":
+            value: "Kohdista vasemmalle"
+          "Focus Pane On Right":
+            value: "Kohdista oikealle"
+          "Close Pane":
+            value: "Sulje paneeli"
+      Developer:
+        value: "Kehittäjä"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "Avaa kehittäjätilassa(&D)…"
+          "&Reload Window":
+            value: "Lataa ikkunan sisältö uudelleen(&R)"
+          "Run Package &Specs":
+            value: "Avaa pakettimäärity&s"
+          "Run &Benchmarks":
+            value: "Aja suorituskykymittaus(&B)"
+          "Toggle Developer &Tools":
+            value: "Kytke kehittäjä&työkalut"
+      "&Increase Font Size":
+        value: "Suurenna k&irjasimen kokoa"
+      "&Decrease Font Size":
+        value: "Pienennä kirjasimen kokoa(&D)"
+      "Re&set Font Size":
+        value: "Palauta kirja&simen oletuskoko"
+      "Toggle Soft &Wrap":
+        value: "Kytke automaattinen rivitys(&W)"
+      "Toggle Command Palette":
+        value: "Kytke komentopalkki"
+      "Toggle Tree View":
+        value: "Kytke puunäkymä"
+  "&Selection":
+    value: "Valinta(&S)"
+    submenu:
+      "Add Selection &Above":
+        value: "Lisää v&alinta ylös"
+      "Add Selection &Below":
+        value: "Lisää valinta alas(&B)"
+      "S&plit into Lines":
+        value: "Rivitä(&P)"
+      "Single Selection":
+        value: "Yksittäisvalinta"
+      "Select to &Top":
+        value: "Vali&tse kaikki yläreunaan"
+      "Select to Botto&m":
+        value: "Valitse kaikki alareunaan(&M)"
+      "Select &Line":
+        value: "Va&litse rivi"
+      "Select &Word":
+        value: "Valitse sana(&W)"
+      "Select to Beginning of W&ord":
+        value: "Valitse sanan alkuun(&O)"
+      "Select to Beginning of L&ine":
+        value: "Val&itse sanan loppuun"
+      "Select to First &Character of Line":
+        value: "Valitse rivin ensimmäiseen merkkiin(&C)"
+      "Select to End of Wor&d":
+        value: "Valitse sanan loppuun(&D)"
+      "Select to End of Lin&e":
+        value: "Valits&e rivin loppuun"
+      "Select Inside Brackets":
+        value: "Valitse sulkeiden sisältö"
+  "F&ind":
+    value: "Ets&i"
+    submenu:
+      "Find in Buffer":
+        value: "Etsi puskurista"
+      "Replace in Buffer":
+        value: "Korvaa puskurissa"
+      "Select Next":
+        value: "Valitse seuraava"
+      "Select All":
+        value: "Valitse kaikki"
+      "Toggle Find in Buffer":
+        value: "Kytke haku puskurissa"
+      "Find in Project":
+        value: "Etsi projektista"
+      "Toggle Find in Project":
+        value: "Kytke haku projektista"
+      "Find All":
+        value: "Etsi kaikki"
+      "Find Next":
+        value: "Etsi seuraava"
+      "Find Previous":
+        value: "Etsi edellinen"
+      "Replace Next":
+        value: "Korvaa seuraava"
+      "Replace All":
+        value: "Korvaa kaikki"
+      "Clear History":
+        value: "Tyhjennä historia"
+      "Find Buffer":
+        value: "Etsi puskuri"
+      "Find File":
+        value: "Etsi tiedosto"
+      "Find Modified File":
+        value: "Etsi muokattu tiedosto"
+  "&Packages":
+    value: "&Paketit"
+  "&Help":
+    value: "O&hje"
+    submenu:
+      "View &Terms of Use":
+        value: "Näytä käyttöehdo&t"
+      "View &License":
+        value: "Näytä käyttöoikeus(&L)"
+      "&Documentation":
+        value: "&Dokumentaatio"
+      "Frequently Asked Questions":
+        value: "Usein kysytyt kysymykset (UKK)"
+      "Community Discussions":
+        value: "Yhteisökeskustelut"
+      "Report Issue":
+        value: "Ilmoita ongelmasta"
+      "Search Issues":
+        value: "Etsi ongelmaa"
+      "About Atom":
+        value: "Tietoja Atomista"
+      "Welcome Guide":
+        value: "Tervetulo-opastus"

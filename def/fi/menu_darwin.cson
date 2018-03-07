@@ -1,0 +1,325 @@
+Menu:
+  Atom:
+    value: "Atom"
+    submenu:
+      "About Atom":
+        value: "Tietoja Atomista"
+      "View License":
+        value: "Näytä käyttöoikeus"
+      "Check for Update":
+        value: "Etsi päivityksiä"
+      "Preferences…":
+        value: "Asetukset…"
+      "Config…":
+        value: "Määritys…"
+      "Init Script…":
+        value: "Alustuskomentosarja…"
+      "Keymap…":
+        value: "Näppäinkartta…"
+      "Snippets…":
+        value: "Koodinpätkät…"
+      "Stylesheet…":
+        value: "Tyyli…"
+      "Install Shell Commands":
+        value: "Asenna shell-komentoja"
+      "Hide Atom":
+        value: "Piilota Atom"
+      "Hide Others":
+        value: "Piilota muut"
+      "Show All":
+        value: "Näytä kaikki"
+      "Quit":
+        value: "Lopeta"
+  "File":
+    value: "Arkisto"
+    submenu:
+      "New Window":
+        value: "Uusi ikkuna"
+      "New File":
+        value: "Uusi tiedosto"
+      "Open…":
+        value: "Avaa…"
+      "Add Project Folder…":
+        value: "Avaa projektihakemisto…"
+      "Reopen Project":
+        value: "Avaa projekti uudelleen"
+        submenu:
+          "Clear Project History":
+            value: "Tyhjennä projektihistoria"
+      "Reopen Last Item":
+        value: "Avaa viimeisin kohde uudelleen"
+      "Save":
+        value: "Tallenna"
+      "Save As…":
+        value: "Tallenna nimellä…"
+      "Save All":
+        value: "Tallenna kaikki"
+      "Close Tab":
+        value: "Sulje välilehti"
+      "Close Pane":
+        value: "Sulje paneeli"
+      "Close Window":
+        value: "Sulje ikkuna"
+      "Close All Tabs":
+        value: "Sulje kaikki välilehdet"
+  "Edit":
+    value: "Muokkaa"
+    submenu:
+      "Undo":
+        value: "Peru"
+      "Redo":
+        value: "Tee sittenkin"
+      "Cut":
+        value: "Leikkaa"
+      "Copy":
+        value: "Kopioi"
+      "Copy Path":
+        value: "Kopioi polku"
+      "Paste":
+        value: "Sijoita"
+      "Select All":
+        value: "Valitse kaikki"
+      "Toggle Comments":
+        value: "Kytke kommentit"
+      Lines:
+        value: "Rivit"
+        submenu:
+          "Indent":
+            value: "Lisää sisennystä"
+          "Outdent":
+            value: "Vähennä sisennystä"
+          "Auto Indent":
+            value: "Sisennä automaattisesti"
+          "Move Line Up":
+            value: "Siirrä rivi ylöspäin"
+          "Move Line Down":
+            value: "Siirrä rivi alaspäin"
+          "Duplicate Lines":
+            value: "Monista rivit"
+          "Delete Line":
+            value: "Poista rivi"
+          "Join Lines":
+            value: "Yhdistä rivit"
+      Columns:
+        value: "Sarakkeet"
+        submenu:
+          "Move Selection Left":
+            value: "Siirrä valintaa vasemmalle"
+          "Move Selection Right":
+            value: "Siirrä valintaa oikealle"
+      Text:
+        value: "Teksti"
+        submenu:
+          "Upper Case":
+            value: "Suuri kirjainkoko"
+          "Lower Case":
+            value: "Pieni kirjainkoko"
+          "Delete to End of Word":
+            value: "Poista sanan loppuun"
+          "Delete to Previous Word Boundary":
+            value: "Poista edellisen sanan loppuun"
+          "Delete to Next Word Boundary":
+            value: "Poista seuraavan sanan alkuun"
+          "Delete Line":
+            value: "Poista rivi"
+          "Transpose":
+            value: "Käännä"
+      Folding:
+        value: "Taitto"
+        submenu:
+          "Fold":
+            value: "Piilota"
+          "Unfold":
+            value: "Näytä"
+          "Unfold All":
+            value: "Kaikki näkyviin"
+          "Fold All":
+            value: "Kaikki piiloon"
+          "Fold Level 1":
+            value: "Piilota taso 1"
+          "Fold Level 2":
+            value: "Piilota taso 2"
+          "Fold Level 3":
+            value: "Piilota taso 3"
+          "Fold Level 4":
+            value: "Piilota taso 4"
+          "Fold Level 5":
+            value: "Piilota taso 5"
+          "Fold Level 6":
+            value: "Piilota taso 6"
+          "Fold Level 7":
+            value: "Piilota taso 7"
+          "Fold Level 8":
+            value: "Piilota taso 8"
+          "Fold Level 9":
+            value: "Piilota taso 9"
+      "Reflow Selection":
+        value: "Taita valinta uudelleen"
+      Bookmark:
+        value: "Kirjanmerkit"
+        submenu:
+          "View All":
+            value: "Näytä kaikki"
+          "Toggle Bookmark":
+            value: "Kytke kirjanmerkki"
+          "Jump to Next Bookmark":
+            value: "Hyppää seuraavaan"
+          "Jump to Previous Bookmark":
+            value: "Hyppää edelliseen"
+      "Select Encoding":
+        value: "Valitse merkistökoodaus"
+      "Go to Line":
+        value: "Siirry riville"
+      "Select Grammar":
+        value: "Valitse kielioppi"
+  "View":
+    value: "Näytä"
+    submenu:
+      "Toggle Full Screen":
+        value: "Kytke koko näytön tila"
+      Panes:
+        value: "Paneelit"
+        submenu:
+          "Split Up":
+            value: "Jaa ylös"
+          "Split Down":
+            value: "Jaa alas"
+          "Split Left":
+            value: "Jaa vasemmalle"
+          "Split Right":
+            value: "Jaa oikealle"
+          "Focus Next Pane":
+            value: "Kohdista seuraavaan paneeliin"
+          "Focus Previous Pane":
+            value: "Kohdista edelliseen paneeliin"
+          "Focus Pane Above":
+            value: "Kohdista ylös"
+          "Focus Pane Below":
+            value: "Kohdista alas"
+          "Focus Pane On Left":
+            value: "Kohdista vasemmalle"
+          "Focus Pane On Right":
+            value: "Kohdista oikealle"
+          "Close Pane":
+            value: "Sulje paneeli"
+      Developer:
+        value: "Kehittäjä"
+        submenu:
+          "Open In Dev Mode…":
+            value: "Avaa kehittäjätilassa"
+          "Reload Window":
+            value: "Lataa ikkunan sisältö uudelleen"
+          "Run Package Specs":
+            value: "Avaa pakettimääritys"
+          "Run Benchmarks":
+            value: "Aja suorituskykymittaus"
+          "Toggle Developer Tools":
+            value: "Kytke kehittäjätyökalut"
+      "Increase Font Size":
+        value: "Suurenna kirjasimen kokoa"
+      "Decrease Font Size":
+        value: "Pienennä kirjasimen kokoa"
+      "Reset Font Size":
+        value: "Palauta kirjasimen oletuskoko"
+      "Toggle Soft Wrap":
+        value: "Kytke automaattinen rivitys"
+      "Toggle Command Palette":
+        value: "Kytke komentopalkki"
+      "Toggle Tree View":
+        value: "Kytke puunäkymä"
+  "Selection":
+    value: "Valinta"
+    submenu:
+      "Add Selection Above":
+        value: "Lisää valinta ylös"
+      "Add Selection Below":
+        value: "Lisää valinta alas"
+      "Single Selection":
+        value: "Yksittäisvalinta"
+      "Split into Lines":
+        value: "Rivitä"
+      "Select to Top":
+        value: "Valitse kaikki yläreunaan"
+      "Select to Bottom":
+        value: "Valitse kaikki alareunaan"
+      "Select Line":
+        value: "Valitse rivi"
+      "Select Word":
+        value: "Valitse sana"
+      "Select to Beginning of Word":
+        value: "Valitse sanan alkuun"
+      "Select to Beginning of Line":
+        value: "Valitse sanan loppuun"
+      "Select to First Character of Line":
+        value: "Valitse rivin ensimmäiseen merkkiin"
+      "Select to End of Word":
+        value: "Valitse sanan loppuun"
+      "Select to End of Line":
+        value: "Valitse rivin loppuun"
+      "Select Inside Brackets":
+        value: "Valitse sulkeiden sisältö"
+  "Find":
+    value: "Etsi"
+    submenu:
+      "Find in Buffer":
+        value: "Etsi puskurista"
+      "Replace in Buffer":
+        value: "Korvaa puskurissa"
+      "Select Next":
+        value: "Valitse seuraava"
+      "Select All":
+        value: "Valitse kaikki"
+      "Toggle Find in Buffer":
+        value: "Kytke haku puskurissa"
+      "Find in Project":
+        value: "Etsi projektista"
+      "Toggle Find in Project":
+        value: "Kytke haku projektista"
+      "Find All":
+        value: "Etsi kaikki"
+      "Find Next":
+        value: "Etsi seuraava"
+      "Find Previous":
+        value: "Etsi edellinen"
+      "Replace Next":
+        value: "Korvaa seuraava"
+      "Replace All":
+        value: "Korvaa kaikki"
+      "Clear History":
+        value: "Tyhjennä historia"
+      "Find Buffer":
+        value: "Etsi puskuri"
+      "Find File":
+        value: "Etsi tiedosto"
+      "Find Modified File":
+        value: "Etsi muokattu tiedosto"
+  "Packages":
+    value: "Paketit"
+  "Window":
+    value: "Ikkuna"
+    submenu:
+      Minimize:
+        value: "Pienennä"
+      Zoom:
+        value: "Suurenna"
+      "Bring All to Front":
+        value: "Tuo kaikki eteen"
+  "Help":
+    value: "Ohje"
+    submenu:
+      "Terms of Use":
+        value: "Näytä käyttöehdot"
+      "Documentation":
+        value: "Dokumentaatio"
+      Roadmap:
+        value: "Tiekartta"
+      "Frequently Asked Questions":
+        value: "Usein kysytyt kysymykset (UKK)"
+      "Community Discussions":
+        value: "Yhteisökeskustelut"
+      "Report Issue":
+        value: "Ilmoita ongelmasta"
+      "Search Issues":
+        value: "Etsi ongelmaa"
+      "Welcome Guide":
+        value: "Tervetulo-opastus"

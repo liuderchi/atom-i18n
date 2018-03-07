@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "Tervetuloa"
+  subtitle: {
+    text1: "Muokattava muokkain 21."
+    superscript: ""
+    text2: " vuosisadalle"
+  }
+  help: {
+    forHelpVisit: "Lisäohjeita saatavilla"
+    atomDocs: {
+      text1: ""
+      link: "Atom-dokumentaatiosivulla"
+      text2: ": oppaat ja rajapintakuvaus"
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "Atom-keskustelupalstalla osoitteessa "
+      link: "discuss.atom.io"
+      text2: ""   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: "osoitteessa "
+      link: "Atom.org"
+      text2: ". Täältä löytyvät kaikki Githubin kautta saatavilla olevat Atom-paketit."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "Näytä tervetulosivu, kun Atom avataan"
