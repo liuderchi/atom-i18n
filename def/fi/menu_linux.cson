@@ -1,13 +1,13 @@
 Menu:
   "&File":
-    value: "Tiedosto"
+    value: "Tiedosto(&F)"
     submenu:
       "New &Window":
-        value: "Uusi ikkuna"
+        value: "Uusi ikkuna(&W)"
       "&New File":
-        value: "Uusi tiedosto"
+        value: "Uusi tiedosto(&N)"
       "&Open File…":
-        value: "Avaa tiedosto…"
+        value: "Avaa tied&osto…"
       "Open Folder…":
         value: "Avaa hakemisto…"
       "Add Project Folder…":
@@ -18,96 +18,96 @@ Menu:
           "Clear Project History":
             value: "Tyhjennä projektihistoria"
       "Reopen Last &Item":
-        value: "Avaa viimeisin kohde uudelleen"
+        value: "Avaa v&iimeisin kohde uudelleen"
       "&Save":
-        value: "Tallenna"
+        value: "Tallenna(&S)"
       "Save &As…":
-        value: "Tallenna nimellä…"
+        value: "Tallenn&a nimellä…"
       "Save A&ll":
-        value: "Tallenna kaikki"
+        value: "Ta&llenna kaikki"
       "&Close Tab":
-        value: "Sulje välilehti"
+        value: "Sulje välilehti(&C)"
       "Close &Pane":
-        value: "Sulje paneeli"
+        value: "Sulje &paneeli"
       "Clos&e Window":
-        value: "Sulje ikkuna"
+        value: "Sulj&e ikkuna"
       "Quit":
         value: "Lopeta"
       "Close All Tabs":
         value: "Sulje kaikki välilehdet"
   "&Edit":
-    value: "Muokkaa"
+    value: "Muokkaa(&E)"
     submenu:
       "&Undo":
-        value: "Peru"
+        value: "Per&u"
       "&Redo":
-        value: "Tee sittenkin"
+        value: "Tee sittenkin(&R)"
       "&Cut":
-        value: "Leikkaa"
+        value: "Leikkaa(&C)"
       "C&opy":
-        value: "Kopioi"
+        value: "K&opioi"
       "Copy Pat&h":
-        value: "Kopioi polku"
+        value: "Kopioi polku(&H)"
       "&Paste":
-        value: "Sijoita"
+        value: "Liitä(&P)"
       "Select &All":
-        value: "Valitse kaikki"
+        value: "V&alitse kaikki"
       "&Toggle Comments":
-        value: "Kytke kommentit"
+        value: "Ky&tke kommentit"
       Lines:
         value: "Rivit"
         submenu:
           "&Indent":
-            value: "Lisää sisennystä"
+            value: "Lisää s&isennystä"
           "&Outdent":
-            value: "Vähennä sisennystä"
+            value: "Vähennä sisennystä(&O)"
           "&Auto Indent":
-            value: "Sisennä automaattisesti"
+            value: "Sisennä &automaattisesti"
           "Move Line &Up":
-            value: "Siirrä rivi ylöspäin"
+            value: "Siirrä rivi ylöspäin(&U)"
           "Move Line &Down":
-            value: "Siirrä rivi alaspäin"
+            value: "Siirrä rivi alaspäin(&D)"
           "Du&plicate Lines":
-            value: "Monista rivit"
+            value: "Monista rivit(&P)"
           "D&elete Line":
-            value: "Poista rivi"
+            value: "Poista rivi(&E)"
           "&Join Lines":
-            value: "Yhdistä rivit"
+            value: "Yhdistä rivit(&J)"
       Columns:
         value: "Sarakkeet"
         submenu:
           "Move Selection &Left":
-            value: "Siirrä valintaa vasemmalle"
+            value: "Siirrä va&lintaa vasemmalle"
           "Move Selection &Right":
-            value: "Siirrä valintaa oikealle"
+            value: "Sii&rrä valintaa oikealle"
       Text:
         value: "Teksti"
         submenu:
           "&Upper Case":
-            value: "Suuri kirjainkoko"
+            value: "S&uuri kirjainkoko"
           "&Lower Case":
-            value: "Pieni kirjainkoko"
+            value: "Pieni kirjainkoko(&L)"
           "Delete to End of &Word":
-            value: "Poista sanan loppuun"
+            value: "Poista sanan loppuun(&W)"
           "Delete to Previous Word Boundary":
             value: "Poista edellisen sanan loppuun"
           "Delete to Next Word Boundary":
             value: "Poista seuraavan sanan alkuun"
           "&Delete Line":
-            value: "Poista rivi"
+            value: "Poista rivi(&D)"
           "&Transpose":
-            value: "Käännä"
+            value: "Käännä(&T)"
       Folding:
         value: "Taitto"
         submenu:
           "&Fold":
-            value: "Piilota"
+            value: "Piilota(&F)"
           "&Unfold":
-            value: "Näytä"
+            value: "Näytä(&U)"
           "Unfold &All":
-            value: "Kaikki näkyviin"
+            value: "K&aikki näkyviin"
           "Fol&d All":
-            value: "Kaikki piiloon"
+            value: "Kaikki piiloon(&D)"
           "Fold Level 1":
             value: "Piilota taso 1"
           "Fold Level 2":
@@ -127,7 +127,7 @@ Menu:
           "Fold Level 9":
             value: "Piilota taso 9"
       "&Preferences":
-        value: "Asetukset"
+        value: "Asetukset(&P)"
       "Config…":
         value: "Määritys…"
       "Init Script…":
@@ -158,10 +158,10 @@ Menu:
       "Select Grammar":
         value: "Valitse kielioppi"
   "&View":
-    value: "Näytä"
+    value: "Näytä(&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Kytke koko näytön tila"
+        value: "Kytke koko näytön tila(&F)"
       "Toggle Menu Bar":
         value: "Kytke valikkopalkki"
       Panes:
@@ -193,60 +193,60 @@ Menu:
         value: "Kehittäjä"
         submenu:
           "Open In &Dev Mode…":
-            value: "Avaa kehittäjätilassa"
+            value: "Avaa kehittäjätilassa(&D)…"
           "&Reload Window":
-            value: "Lataa ikkunan sisältö uudelleen"
+            value: "Lataa ikkunan sisältö uudelleen(&R)"
           "Run Package &Specs":
-            value: "Avaa pakettimääritys"
+            value: "Avaa pakettimäärity&s"
           "Run &Benchmarks":
-            value: "Aja suorituskykymittaus"
+            value: "Aja suorituskykymittaus(&B)"
           "Toggle Developer &Tools":
-            value: "Kytke kehittäjätyökalut"
+            value: "Kytke kehittäjä&työkalut"
       "&Increase Font Size":
-        value: "Suurenna kirjasimen kokoa"
+        value: "Suurenna k&irjasimen kokoa"
       "&Decrease Font Size":
-        value: "Pienennä kirjasimen kokoa"
+        value: "Pienennä kirjasimen kokoa(&D)"
       "Re&set Font Size":
-        value: "Palauta kirjasimen oletuskoko"
+        value: "Palauta kirja&simen oletuskoko"
       "Toggle Soft &Wrap":
-        value: "Kytke automaattinen rivitys"
+        value: "Kytke automaattinen rivitys(&W)"
       "Toggle Command Palette":
         value: "Kytke komentopalkki"
       "Toggle Tree View":
         value: "Kytke puunäkymä"
   "&Selection":
-    value: "Valinta"
+    value: "Valinta(&S)"
     submenu:
       "Add Selection &Above":
-        value: "Lisää valinta ylös"
+        value: "Lisää v&alinta ylös"
       "Add Selection &Below":
-        value: "Lisää valinta alas"
+        value: "Lisää valinta alas(&B)"
       "S&plit into Lines":
-        value: "Rivitä"
+        value: "Rivitä(&P)"
       "Single Selection":
         value: "Yksittäisvalinta"
       "Select to &Top":
-        value: "Valitse kaikki yläreunaan"
+        value: "Vali&tse kaikki yläreunaan"
       "Select to Botto&m":
-        value: "Valitse kaikki alareunaan"
+        value: "Valitse kaikki alareunaan(&M)"
       "Select &Line":
-        value: "Valitse rivi"
+        value: "Va&litse rivi"
       "Select &Word":
-        value: "Valitse sana"
+        value: "Valitse sana(&W)"
       "Select to Beginning of W&ord":
-        value: "Valitse sanan alkuun"
+        value: "Valitse sanan alkuun(&O)"
       "Select to Beginning of L&ine":
-        value: "Valitse sanan loppuun"
+        value: "Val&itse sanan loppuun"
       "Select to First &Character of Line":
-        value: "Valitse rivin ensimmäiseen merkkiin"
+        value: "Valitse rivin ensimmäiseen merkkiin(&C)"
       "Select to End of Wor&d":
-        value: "Valitse sanan loppuun"
+        value: "Valitse sanan loppuun(&D)"
       "Select to End of Lin&e":
-        value: "Valitse rivin loppuun"
+        value: "Valits&e rivin loppuun"
       "Select Inside Brackets":
         value: "Valitse sulkeiden sisältö"
   "F&ind":
-    value: "Etsi"
+    value: "Ets&i"
     submenu:
       "Find in Buffer":
         value: "Etsi puskurista"
@@ -281,16 +281,16 @@ Menu:
       "Find Modified File":
         value: "Etsi muokattu tiedosto"
   "&Packages":
-    value: "Paketit"
+    value: "&Paketit"
   "&Help":
-    value: "Ohje"
+    value: "O&hje"
     submenu:
       "View &Terms of Use":
-        value: "Näytä käyttöehdot"
+        value: "Näytä käyttöehdo&t"
       "View &License":
-        value: "Näytä käyttöoikeus"
+        value: "Näytä käyttöoikeus(&L)"
       "&Documentation":
-        value: "Dokumentaatio"
+        value: "&Dokumentaatio"
       "Frequently Asked Questions":
         value: "Usein kysytyt kysymykset (UKK)"
       "Community Discussions":

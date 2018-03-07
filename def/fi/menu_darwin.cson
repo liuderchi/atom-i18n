@@ -31,7 +31,7 @@ Menu:
       "Quit":
         value: "Lopeta"
   "File":
-    value: "Tiedosto"
+    value: "Arkisto"
     submenu:
       "New Window":
         value: "Uusi ikkuna"
