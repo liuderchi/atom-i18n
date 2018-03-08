@@ -92,18 +92,18 @@ Settings:
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automatically Update"
-        desc: "Automatically update Atom when a new release is available."
+        title: "Automatyczne aktualizacje"
+        desc: "Aktualizuj automatycznie Atom'a gdy jest dostępna nowa wersja."
       }
       {
         _id: 'core.autoHideMenuBar'
-        title: "Auto Hide Menu Bar"
-        desc: "Automatically hide the menu bar and toggle it by pressing Alt. This is only supported on Windows &amp; Linux."
+        title: "Autoukrywanie paska menu"
+        desc: "Automatycznie ukrywaj pasek menu lub go przywróć klikając klawisz Alt. Opcja wspierana tylko w Windows &amp; Linux."
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
-        desc: "Close corresponding editors when a file is deleted outside Atom."
+        title: "Zamykaj zakładki skasowanych plików"
+        desc: "Zamknij zakładki edytowanych plików jeżeli te zostały skasowane poza edytorem Atom."
       }
       {
         _id: 'core.closeEmptyWindows'
@@ -159,26 +159,26 @@ Settings:
       }
       {
         _id: 'core.reopenProjectMenuCount'
-        title: "Reopen Project Menu Count"
-        desc: "How many recent projects to show in the Reopen Project menu."
+        title: "Otwórz ponownie menu z liczbą projektów"
+        desc: "Ile ostatnich projektów pokazać w menu ostatnich projektów."
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "Restore Previous Windows On Start"
-        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
+        title: "Przywróc przy starcie poprzednie okna"
+        desc: "Gdy zaznaczone, przywraca ostatni stan wszystkich okien Atom'a gdy program został uruchomiony poprzez kliknięcie w ikonę lub komendą <code>atom</code> w terminal; w innym przypadku ładowane jest puste środowisko."
         select:
-          no: "no"
-          yes: "yes"
-          always: "always"
+          no: "nie"
+          yes: "tak"
+          always: "zawsze"
       }
       {
         _id: 'core.telemetryConsent'
-        title: "Send Telemetry to the Atom Team"
-        desc: "Allow usage statistics and exception reports to be sent to the Atom team to help improve the product."
+        title: "Przesyłaj dane telemetryczne do twórców Atom'a"
+        desc: "Zezwól na zbieranie statystyk oraz wyjątkowych raportów oraz przesyłanie ich twórcom Atom'a w celu jego ulepszenia."
         select:
-          limited: "Allow limited anonymous usage stats, exception and crash reporting"
-          no: "Do not send any telemetry data"
-          undecided: "Undecided (Atom will ask again next time it is launched)"
+          limited: "Zezwól na ograniczone anonimowe statystyki użytkowania, raportowanie wyjątków i awarii programu"
+          no: "Nie wysyłaj żadnych danych telemetrycznych"
+          undecided: "Niezdecydowany (Atom zapyta Cię przy ponownym uruchomieniu)"
       }
       {
         _id: 'core.titleBar'
@@ -192,13 +192,13 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use Proxy Settings When Calling APM"
-        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        title: "Korzystaj z ustawień proxy przy wywoływaniu APM"
+        desc: "Użyj wykrytych ustawień proxy gdy jest wywoływane narzędzie konsolowe <code>apm</code>."
       }
       {
         _id: 'core.versionPinnedPackages'
-        title: "Version Pinned Packages"
-        desc: "List of names of installed packages which are not automatically updated."
+        title: "Wersje przypiętych pakietów"
+        desc: "Lista nazw zainstalowanych pakietów, które nie są automatycznie aktualizowane."
       }
       {
         _id: 'core.useCustomTitleBar'
@@ -207,8 +207,8 @@ Settings:
       }
       {
         _id: 'core.warnOnLargeFileLimit'
-        title: "Warn On Large File Limit"
-        desc: "Warn before opening files larger than this number of megabytes."
+        title: "Ostrzeżenie przy otwarciu dużych plików"
+        desc: "Ostrzegaj przed otwarciem dużych plików, większych niż podana liczba megabajtów."
       }
       {
         _id: 'editor.atomicSoftTabs'
