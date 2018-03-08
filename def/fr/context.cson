@@ -16,13 +16,13 @@ Context:
     "pane:split-down-and-copy-active-item": "Dédoubler en bas"
     "pane:split-left-and-copy-active-item": "Dédoubler à gauche"
     "pane:split-right-and-copy-active-item": "Dédoubler à droite"
-    "pane:close": "Fermer l'onglet"
+    "pane:close": "Fermer le panneau"
   "atom-pane":
     "pane:split-up-and-copy-active-item": "Dédoubler en haut"
     "pane:split-down-and-copy-active-item": "Dédoubler en bas"
     "pane:split-left-and-copy-active-item": "Dédoubler à gauche"
     "pane:split-right-and-copy-active-item": "Dédoubler à droite"
-    "pane:close": "Fermer l'onglet"
+    "pane:close": "Fermer le panneau"
   "atom-text-editor:not([mini])":
     "encoding-selector:show": "Changer l'encodage"
     "spell-check:correct-misspelling": "Corriger l'orthographe"
