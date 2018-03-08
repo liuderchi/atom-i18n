@@ -10,7 +10,9 @@ def/de/settings.cson @Acer54  @queenar  @socialmedialabs
 
 def/es/*.cson        @stsewd
 
-def/fr/*.cson        @chezyann  @Vivalzar
+def/fi/*.cson        @an7oine
+
+def/fr/*.cson        @chezyann  @Vivalzar  @DThought
 
 # def/hi/*.cson
 

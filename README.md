@@ -33,6 +33,7 @@ Community-driven translation. :family:
 | Arabic | `ar` | :exclamation: [I can translate][ar-issue-filter] |
 | German | `de` | :warning: 99% [I can translate][de-issue-filter] |
 | Spanish | `es` | :white_check_mark: 100% |
+| Finnish | `fi` | :white_check_mark: 100% |
 | French | `fr` | :white_check_mark: 100% |
 | Hindi | `hi` | :exclamation: [I can translate][hi-issue-filter] |
 | Hungarian | `hu` | :white_check_mark: 100% |
@@ -72,12 +73,13 @@ Community-driven translation. :family:
   - Portuguese (Brazilian): [jsolisu](//github.com/jsolisu)
   - Dutch: [laurensbrand](//github.com/laurensbrand)
   - Polish: [Jeplaa](//github.com/Jeplaa)
-  - French: [chezyann](//github.com/chezyann) [Vivalzar](//github.com/Vivalzar)
+  - French: [chezyann](//github.com/chezyann) [Vivalzar](//github.com/Vivalzar) [DThought](//github.com/DThought)
   - Polish: [nolt](//github.com/nolt)
   - Italian: [francematt](//github.com/francematt) [Lorenzo Ancora](//github.com/LorenzoAncora)
   - Thai: [sitdh](//github.com/sitdh)
   - Japanese: [shingo-uzuki](//github.com/shingo-uzuki)
   - Hungarian: [dominicus-75](//github.com/dominicus-75)
+  - Finnish: [an7oine](//github.com/an7oine)
 
 
 ## Reference
@@ -135,6 +137,7 @@ Community-driven translation. :family:
 [ar-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ar%22 "ar-issue-filter"
 [es-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20es%22 "es-issue-filter"
 [de-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20de%22 "de-issue-filter"
+[fi-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fi%22 "fi-issue-filter"
 [fr-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fr%22 "fr-issue-filter"
 [hi-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20hi%22 "hi-issue-filter"
 [hu-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20hu%22 "hu-issue-filter"

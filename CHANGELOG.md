@@ -1,3 +1,12 @@
+## 0.14.0 - Finnish support
+* French fix #155
+* Finnish support (100%) #152
+* refine README #150
+* renovate update npm dependencies #139 #142 #136 #138 #140 #148
+* uninstall coffeelint #141
+* introduce Renovate app #133
+
+
 ## 0.13.3 - hotfix
 * fix null dom query #130
 
