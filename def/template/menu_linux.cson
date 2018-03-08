@@ -3,7 +3,7 @@ Menu:
     value: "File(&F)"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "New &Window"
       "&New File":
         value: "New File(&N)"
       "&Open File…":
