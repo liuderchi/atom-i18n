@@ -64,61 +64,64 @@ Settings:
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'These are Atom\'s core settings which affect behavior
-               unrelated to text editing. Individual packages may have
-               their own additional settings found within their package
-               card in the <a class="link packages-open">Packages list</a>.'
+        html: 'Ustawienia programu Atom, nie są one w żaden sposób związane
+               z edytowanie tekstu. Zainstalowane pakiety mogą posiadać własne
+               dodatkowe ustawienia, które znajdują się na karcie danego
+               pakietu w <a class="link packages-open">liście pakietów</a>.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'These settings are related to text editing. Some of these
-               can be overriden on a per-language basis. Check language
-               settings by clicking its package card in the
-               <a class="link packages-open">Packages list</a>.'
+        html: 'Ustawienia zwiazane z edytowaniem tekstu. Niektóre z nich mogą być
+               nadpisane przez poszczególne języki. Sprawdź ustawienia jezyka
+               poprzez kliknięcie na jego pakiet na <a class="link packages-open">liście pakietów</a>.'
       }
     ]
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
-        title: "Allow Pending PaneItems"
-        desc: "Allow items to be previewed without adding them to a pane
-               permanently, such as when single clicking files in the tree view."
+        title: "Zezwól na oczekujące elementy panelu"
+        desc: "Zezwól na wyświetlenie elementu bez jego dodawania do panelu,
+               podobnie gdy klikamy na pliki wyświetlane w widoku drzewa."
       }
       {
         _id: 'core.audioBeep'
-        title: "Audio Beep"
-        desc: "Trigger the system's beep sound when certain actions cannot be
-               executed or there are no results."
+        title: "Syngał dźwiękowy"
+        desc: "Włącz sygnał dźwiękowy w sytuacji gdy dana akcja nie może zostać
+               wykonana lub nie ma żadnych wyników z nią związanych."
       }
       {
         _id: 'core.automaticallyUpdate'
         title: "Automatyczne aktualizacje"
-        desc: "Aktualizuj automatycznie Atom'a gdy jest dostępna nowa wersja."
+        desc: "Aktualizuj automatycznie Atom'a, gdy dostępna jest nowa wersja."
       }
       {
         _id: 'core.autoHideMenuBar'
         title: "Autoukrywanie paska menu"
-        desc: "Automatycznie ukrywaj pasek menu lub go przywróć klikając klawisz Alt. Opcja wspierana tylko w Windows &amp; Linux."
+        desc: "Automatycznie ukryj pasek menu lub go przywróć klikając klawisz Alt. Opcja wspierana tylko w Windows i Linux."
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Zamykaj zakładki skasowanych plików"
+        title: "Zamknij zakładki skasowanych plików"
         desc: "Zamknij zakładki edytowanych plików jeżeli te zostały skasowane poza edytorem Atom."
       }
       {
         _id: 'core.closeEmptyWindows'
-        title: "Close Empty Windows"
-        desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
+        title: "Zamknij puste okna"
+        desc: "Gdy uruchomione jest okno bez otwartych zakładek lub paneli
+               komenda 'Zamknij zakładkę' zamyka też to okno."
       }
       {
         _id: 'core.destroyEmptyPanes'
-        title: "Destroy Empty Panes"
-        desc: "When the last tab of a pane is closed, remove that pane as well."
+        title: "Zamknij puste panele"
+        desc: "Gdy ostatni panel lub zakładka zostanie zamknięta, zamknij także panel."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
-        title: "Exclude VCS Ignored Paths"
-        desc: "Files and directories ignored by the current project's VCS system will be ignored by some packages, such as the fuzzy finder and find and replace. For example, projects using Git have these paths defined in the .gitignore file. Individual packages might have additional config settings for ignoring VCS ignored files and folders."
+        title: "Wyklucz ignorowane ścieżki VCS"
+        desc: "Ignorowane pliki i katalogi przez obecny system kontroli wersji (VCS) będą ignorowane przez niektóre pakiety,
+               takie jak wyszukiwarka lub opcja znajdź i zamień. Na przykład, projekty korzystające z Git'a mają te ścieżki
+               zdefiniowane w pliku .gitignore. Indywidualne pakiety mogą posiadać dodatkowe ustawienia konfiguracyjne,
+               które ignorują ścieżki ignorowanych plików i folderów przez dany system kontroli wersji."
       }
       {
         _id: 'core.fileEncoding'
@@ -127,34 +130,38 @@ Settings:
       }
       {
         _id: 'core.fileSystemWatcher'
-        title: "File System Watcher"
-        desc: "Choose the underlying implementation used to watch for filesystem changes. Emulating changes will miss any events caused by applications other than Atom, but may help prevent crashes or freezes."
+        title: "Systemowy monitor plików"
+        desc: "Wybierz podstawową implementację używaną do śledzenia zmian plików w systemie. Emulacja nie bierze
+               pod uwagę zmian powodowanych przez inne aplikacje niż Atom, ale może zapobiec w zawieszeniu
+               lub uszkodzeniu."
         select:
-          native: "Native operating system APIs"
-          atom: "Emulated with Atom events"
+          native: "Natywne API systemu operacyjnego"
+          atom: "Emulowane zdarzeniami Atom'a"
       }
       {
         _id: 'core.followSymlinks'
-        title: "Follow Symlinks"
-        desc: "Follow symbolic links when searching files and when opening files with the fuzzy finder."
+        title: "Podążaj za dowiązaniami symbolicznymi"
+        desc: "Podążaj za linkami symbolicznymi gdy pliki są wyszukiwane i otwierane przez wyszukiwarkę."
       }
       {
         _id: 'core.ignoredNames'
-        title: "Ignored Names"
-        desc: "List of <code>glob patterns</code>. Files and directories matching these patterns will be ignored by some packages, such as the fuzzy finder and tree view. Individual packages might have additional config settings for ignoring names."
+        title: "Nazwy ignorowane"
+        desc: "Lista <code>wzorców globalnych</code>. Pliki i katalogi odpowiadające temu wzorcowi będą ingorowane przez
+               niektóre pakiety, takie jak wyszukiwarka i widok drzewa plików. Indywidualne pakiety mogą posiadać dodatkowo
+               konfigurację ustawień dla ignorowania nazw."
       }
       {
         _id: 'core.openEmptyEditorOnStart'
-        title: "Open Empty Editor On Start"
-        desc: "Automatically open an empty editor on startup."
+        title: "Otwórz pusty edytor przy starcie"
+        desc: "Automatycznie otwiera pusty edytor przy stacie."
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Packages With Keymaps Disabled"
+        title: "Wyłączone pakiety z mapowaniem klawiszy"
       }
       {
         _id: 'core.projectHome'
-        title: "Project Home"
+        title: "Projekt domowy"
         desc: "The directory where projects are assumed to be located. Packages created using the Package Generator will be stored here by default."
       }
       {
