@@ -306,14 +306,13 @@ Settings:
       }
       {
         _id: 'editor.scrollPastEnd'
-        title: "Scroll Past End"
-        desc: "Allow the editor to be scrolled past the end of the last line."
+        title: "Przewijanie do końca"
+        desc: "Pozwala na przewijanie edytora do samego końca ostatniej linii."
       }
       {
         _id: 'editor.scrollSensitivity'
-        title: "Scroll Sensitivity"
-        desc: "Determines how fast the editor scrolls when using a mouse or
-               trackpad."
+        title: "Czułość przewijania"
+        desc: "Określa jak szybko działa przewijanie w edytorze gdy korzystasz z myszu lub trackpada."
       }
       {
         _id: 'editor.showCursorOnSelection'
@@ -322,8 +321,8 @@ Settings:
       }
       {
         _id: 'editor.showIndentGuide'
-        title: "Show Indent Guide"
-        desc: "Show indentation indicators in the editor."
+        title: "Pokaż przewodnik akapitów"
+        desc: "Pokaż w edytorze wskaźniki akapitów."
       }
       {
         _id: 'editor.showInvisibles'
@@ -393,9 +392,8 @@ Settings:
       }
       {
         _id: 'editor.zoomFontWhenCtrlScrolling'
-        title: "Zoom Font When Ctrl Scrolling"
-        desc: "Change the editor font size when pressing the Ctrl key and
-               scrolling the mouse up/down."
+        title: "Zwiększenie czcionki przy użyciu scrolla i klawisza Ctrl"
+        desc: "Zmień rozmiar czcionki w edytorze, gdy klawisz Ctrl jest przytrzymany wraz z przewijaniem scrolla myszy w górę/dół."
       }
       {
         _id: 'system.windows.file-handler'
