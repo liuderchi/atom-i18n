@@ -64,8 +64,8 @@ Settings:
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'Ustawienia programu Atom, nie są one w żaden sposób związane
-               z edytowanie tekstu. Zainstalowane pakiety mogą posiadać własne
+        html: 'Główne ustawienia programu Atom, które nie są w żaden sposób związane
+               z edytowaniem tekstu. Zainstalowane pakiety mogą posiadać własne
                dodatkowe ustawienia, które znajdują się na karcie danego
                pakietu w <a class="link packages-open">liście pakietów</a>.'
       }
@@ -102,12 +102,12 @@ Settings:
       {
         _id: 'core.closeDeletedFileTabs'
         title: "Zamknij zakładki skasowanych plików"
-        desc: "Zamknij zakładki edytowanych plików jeżeli te zostały skasowane poza edytorem Atom."
+        desc: "Zamknij zakładki edytowanych plików, jeżeli te zostały skasowane poza edytorem Atom."
       }
       {
         _id: 'core.closeEmptyWindows'
         title: "Zamknij puste okna"
-        desc: "Gdy uruchomione jest okno bez otwartych zakładek lub paneli
+        desc: "Gdy uruchomione jest okno bez otwartych zakładek lub paneli,
                komenda 'Zamknij zakładkę' zamyka też to okno."
       }
       {
@@ -162,7 +162,8 @@ Settings:
       {
         _id: 'core.projectHome'
         title: "Projekt domowy"
-        desc: "The directory where projects are assumed to be located. Packages created using the Package Generator will be stored here by default."
+        desc: "Katalog gdzie są ulokowane projekty. Pakiety tworzone używając generatora pakietów będą przechowywane
+               domyślnie w tym miejscu."
       }
       {
         _id: 'core.reopenProjectMenuCount'
@@ -172,7 +173,8 @@ Settings:
       {
         _id: 'core.restorePreviousWindowsOnStart'
         title: "Przywróc przy starcie poprzednie okna"
-        desc: "Gdy zaznaczone, przywraca ostatni stan wszystkich okien Atom'a gdy program został uruchomiony poprzez kliknięcie w ikonę lub komendą <code>atom</code> w terminal; w innym przypadku ładowane jest puste środowisko."
+        desc: "Gdy zaznaczone, przywraca ostatni stan wszystkich okien Atom'a gdy program został uruchomiony poprzez
+               kliknięcie w ikonę lub komendą <code>atom</code> w terminal; w innym przypadku ładowane jest puste środowisko."
         select:
           no: "nie"
           yes: "tak"
@@ -189,8 +191,11 @@ Settings:
       }
       {
         _id: 'core.titleBar'
-        title: "Title Bar"
-        desc: "Experimental: A <code>custom</code> title bar adapts to theme colors. Choosing <code>custom-inset</code> adds a bit more padding. The title bar can also be completely <code>hidden</code>.<br>Note: Switching to a custom or hidden title bar will compromise some functionality.<br>This setting will require a relaunch of Atom to take effect."
+        title: "Pasek tytułowy"
+        desc: "Eksperymentalne: <code>Własny</code> pasek tytułowy adoptujący kolor. Wybierając <code>własne dodanie</code> powoduje
+               dodanie lekkiego wewnętrznego odstępu (padding). Pasek tytułowy może być całkowicie <code>ukryty</code>.<br>Uwaga: Ustawienie
+               własego lub ukrytego paska tytułu może zagrażać niektórym funkcjom.<br>Opcja ta wymaga ponownego uruchomienia
+               edytora Atom."
         select:
           native: "native"
           custom: "custom"
