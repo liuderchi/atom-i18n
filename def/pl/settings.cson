@@ -244,8 +244,8 @@ Settings:
       }
       {
         _id: 'editor.confirmCheckoutHeadRevision'
-        title: "Confirm Checkout HEAD Revision"
-        desc: "Show confirmation dialog when checking out the HEAD revision and discarding changes to current file since last commit."
+        title: "Potwierdź pobranie głównej (HEAD) rewizji"
+        desc: "Pokaż komunikat potwierdzający gdy pobierasz gówną rewizję i pomijasz zmiany w obecnych plikach od ostatniego commit'a."
       }
       {
         _id: 'editor.fontFamily'
@@ -266,21 +266,21 @@ Settings:
       }
       {
         _id: 'editor.invisibles.eol'
-        title: "Invisibles Eol"
-        desc: "Character used to render newline characters (\n) when the
-               <code>Show Invisibles</code> setting is enabled."
+        title: "Niewidoczny koniec linii"
+        desc: "Znak użyty do renderowania znaku nowej linii (\n) gdy
+               ustawienie <code>Pokaż niewidoczne</code> jest włączone."
       }
       {
         _id: 'editor.invisibles.space'
-        title: "Invisibles Space"
-        desc: "Character used to render leading and trailing space characters
-               when the <code>Show Invisibles</code> setting is enabled."
+        title: "Niewidoczne spacje"
+        desc: "Znak użyty do renderowania początku i końca znaku spacji
+               gdy ustawienie <code>Pokaż niewidoczne</code> jest włączone."
       }
       {
         _id: 'editor.invisibles.tab'
-        title: "Invisibles Tab"
-        desc: "Character used to render hard tab characters (\t) when the
-               <code>Show Invisibles</code> setting is enabled."
+        title: "Niewidoczna tabulacja"
+        desc: "Znak użyty do renderowania twardego znaku tabulacji (\t) gdy
+               ustawienie <code>Pokaż niewidoczne</code> jest włączone."
       }
       {
         _id: 'editor.lineHeight'
@@ -289,8 +289,8 @@ Settings:
       }
       {
         _id: 'editor.maxScreenLineLength'
-        title: "Max Screen Line Length"
-        desc: "Defines the maximum width of the editor window before soft wrapping is enforced, in number of characters."
+        title: "Maksymalna długość linii na ekranie"
+        desc: "Określa maksymalną szerokość liczby znaków okna edytora przed dodaniem miękkiego zawijania."
       }
       {
         _id: 'editor.nonWordCharacters'
@@ -299,10 +299,9 @@ Settings:
       }
       {
         _id: 'editor.preferredLineLength'
-        title: "Preferred Line Length"
-        desc: "Identifies the length of a line which is used when wrapping text
-               with the <code>Soft Wrap At Preferred Line Length</code> setting
-               enabled, in number of characters."
+        title: "Preferowana długość linii"
+        desc: "Włączając ustawienie <code>Miękkie zawijanie w preferowanej długości linii</code>.
+               Identyfikuje długość linii (określanych w ilości znaków), która jest użyta gdy tekst jest zawijany."
       }
       {
         _id: 'editor.scrollPastEnd'
@@ -326,9 +325,8 @@ Settings:
       }
       {
         _id: 'editor.showInvisibles'
-        title: "Show Invisibles"
-        desc: "Render placeholders for invisible characters, such as tabs,
-               spaces and newlines."
+        title: "Pokaż niewidoczne"
+        desc: "Renderuje symbol zastępczy dla niewidocznych znaków, takich jak tabulatory, spacje oraz nowe linie."
       }
       {
         _id: 'editor.showLineNumbers'
@@ -397,18 +395,18 @@ Settings:
       }
       {
         _id: 'system.windows.file-handler'
-        title: "Register as file handler"
-        desc: "Show Atom in the \"Open with\" application list for easy association with file types."
+        title: "Zarejestruj jako obsługę plików"
+        desc: "Pokaż Atom'a w \"Otwórz za pomocą\" na liście aplikacji w celu łatwego przypisania typu plików."
       }
       {
         _id: 'system.windows.shell-menu-files'
-        title: "Show in file context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
+        title: "Pokaż w menu kontektstowym plików"
+        desc: "Dodaj \"Otwórz używając Atom'a\" w menu kontekstowym eksploratora plików."
       }
       {
         _id: 'system.windows.shell-menu-folders'
-        title: "Show in folder context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for folders."
+        title: "Pokaż w menu kontekstowym folderów"
+        desc: "Dodaj \"Otwórz używając Atom'a\" w menu kontekstowym eksploratora dla folderów."
       }
     ]
   }
