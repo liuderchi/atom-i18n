@@ -197,10 +197,10 @@ Settings:
                własego lub ukrytego paska tytułu może zagrażać niektórym funkcjom.<br>Opcja ta wymaga ponownego uruchomienia
                edytora Atom."
         select:
-          native: "native"
-          custom: "custom"
+          native: "natywny"
+          custom: "własny"
           "custom-inset": "custom-inset"
-          hidden: "hidden"
+          hidden: "ukryty"
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
@@ -214,8 +214,8 @@ Settings:
       }
       {
         _id: 'core.useCustomTitleBar'
-        title: "Use Custom Title Bar"
-        desc: "Use custom, theme-aware title bar.<br>Note: This currently does not include a proxy icon.<br>This setting will require a relaunch of Atom to take effect."
+        title: "Użyj własnego paska tytułowego"
+        desc: "Użyj własnego paska tytułowego.<br>Uwaga: Obecnie nie zawiera ikony proxy.<br>Ustawienie wymaga ponownego urochomienia edytora Atom."
       }
       {
         _id: 'core.warnOnLargeFileLimit'
@@ -229,17 +229,17 @@ Settings:
       }
       {
         _id: 'editor.autoIndent'
-        title: "Auto Indent"
-        desc: "Automatically indent the cursor when inserting a newline."
+        title: "Automatyczny akapit"
+        desc: "Automatycznie dodaj aktapit zaczynając nową linię."
       }
       {
         _id: 'editor.autoIndentOnPaste'
-        title: "Auto Indent On Paste"
-        desc: "Automatically indent pasted text based on the indentation of the previous line."
+        title: "Automatyczny akapit przy wklejaniu"
+        desc: "Automatyczny akapit przy wklejaniu tekstu na podstawie akapitu użytego w poprzedniej linii."
       }
       {
         _id: 'editor.backUpBeforeSaving'
-        title: "Back Up Before Saving"
+        title: "Kopia zapasowa przed zapisaniem"
         desc: ""
       }
       {
@@ -284,8 +284,8 @@ Settings:
       }
       {
         _id: 'editor.lineHeight'
-        title: "Line Height"
-        desc: "Height of editor lines, as a multiplier of font size."
+        title: "Wysokość linii"
+        desc: "Wysokość linii w edytorze, jako mnożnik rozmiaru czcionki."
       }
       {
         _id: 'editor.maxScreenLineLength'
@@ -317,8 +317,8 @@ Settings:
       }
       {
         _id: 'editor.showCursorOnSelection'
-        title: "Show Cursor On Selection"
-        desc: "Show cursor while there is a selection."
+        title: "Pokaż kursor na zaznaczeniu"
+        desc: "Pokaż kursor gdy tekst jest zaznaczony."
       }
       {
         _id: 'editor.showIndentGuide'
@@ -333,8 +333,8 @@ Settings:
       }
       {
         _id: 'editor.showLineNumbers'
-        title: "Show Line Numbers"
-        desc: "Show line numbers in the editor's gutter."
+        title: "Pokaż numery linii"
+        desc: "Pokaż numery linii w edytorze."
       }
       {
         _id: 'editor.softTabs'
@@ -371,8 +371,8 @@ Settings:
       }
       {
         _id: 'editor.tabLength'
-        title: "Tab Length"
-        desc: "Number of spaces used to represent a tab."
+        title: "Długość zakładki"
+        desc: "Liczba spacji użyta jako długość zakładki."
       }
       {
         _id: 'editor.tabType'
@@ -415,13 +415,13 @@ Settings:
     ]
   }
   system: {
-    notes: "These settings determine how Atom integrates with your operating system."
+    notes: "Te ustawienia określają jak Atom integruje się z Twoim systemem operacyjnym."
   }
   keymaps: {
     notes: {
-      text1: "You can override these keybindings by copying "
-      text2: "and pasting them into "
-      text3: "your keymap file"
+      text1: "Możesz nadpisać przypisanie klawiszy poprzez kopiowanie "
+      text2: "i wklejenie ich do "
+      text3: "Twojego pliku z przypisaniem klawiszy"
       text4: ""   # optional
       _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
     }
