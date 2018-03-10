@@ -48,7 +48,7 @@ Context:
     "tabs:keep-pending-tab": "임시 탭 유지"
   ".tab-bar":
     "pane:reopen-closed-item": "닫힌 탭 다시 열기"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "새로운 파일"
     "tree-view:add-folder": "새로운 폴더"
     "tree-view:move": "이름 변경"
@@ -65,12 +65,12 @@ Context:
     "tree-view:copy-full-path": "전체 경로 복사"
     "tree-view:copy-project-path": "프로젝트 경로 복사"
     "tree-view:open-in-new-window": "새 창에서 열기"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "위로 분할"
     "tree-view:open-selected-entry-down": "아래로 분할"
     "tree-view:open-selected-entry-left": "왼쪽으로 분할"
     "tree-view:open-selected-entry-right": "오른쪽으로 분할"
-  ".tree-view.full-menu .project-root > .header":
+  ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "새로운 파일"
     "tree-view:add-folder": "새로운 폴더"
     "tree-view:move": "이름 변경"
@@ -88,15 +88,15 @@ Context:
     "tree-view:copy-full-path": "전체 경로 복사"
     "tree-view:copy-project-path": "프로젝트 경로 복사"
     "tree-view:open-in-new-window": "새 창에서 열기"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Finder에서 열기"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "탐색기에서 열기"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "파일 관리자에서 열기"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "이 디렉토리에서 검색"
-  ".tree-view.multi-select":
+  ".tree-view .multi-select":
     "tree-view:remove": "삭제"
     "tree-view:copy": "복사"
     "tree-view:cut": "오려두기"

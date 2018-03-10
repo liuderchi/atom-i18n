@@ -48,7 +48,7 @@ Context:
     "tabs:keep-pending-tab": "Keep Pending Tab"
   ".tab-bar":
     "pane:reopen-closed-item": "Heropen gesloten blad"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "Nieuw bestand"
     "tree-view:add-folder": "Nieuwe map"
     "tree-view:move": "Hernoemen"
@@ -65,12 +65,12 @@ Context:
     "tree-view:copy-full-path": "Kopieer volledig pad"
     "tree-view:copy-project-path": "Kopieer project pad"
     "tree-view:open-in-new-window": "Open in een nieuw venster"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "Splits naar boven"
     "tree-view:open-selected-entry-down": "Splits naar beneden"
     "tree-view:open-selected-entry-left": "Splits naar links"
     "tree-view:open-selected-entry-right": "Splits naar rechts"
-  ".tree-view.full-menu .project-root > .header":
+  ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "Nieuw bestand"
     "tree-view:add-folder": "Nieuwe map"
     "tree-view:move": "Hernoemen"
@@ -88,15 +88,15 @@ Context:
     "tree-view:copy-full-path": "Kopieer volledig pad"
     "tree-view:copy-project-path": "Kopieer project pad"
     "tree-view:open-in-new-window": "Open in een nieuw venster"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Toon in Finder"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Toon in Explorer"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Toon in File Manager"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "In directory zoeken"
-  ".tree-view.multi-select":
+  ".tree-view .multi-select":
     "tree-view:remove": "Verwijder"
     "tree-view:copy": "Kopieren"
     "tree-view:cut": "Knippen"

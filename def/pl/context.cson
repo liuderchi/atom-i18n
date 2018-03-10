@@ -48,7 +48,7 @@ Context:
     "tabs:keep-pending-tab": "Zachowaj oczekującą zakładkę"
   ".tab-bar":
     "pane:reopen-closed-item": "Otwórz zamkniętą zakładkę"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "Nowy plik"
     "tree-view:add-folder": "Nowy folder"
     "tree-view:move": "Zmień nazwę"
@@ -65,12 +65,12 @@ Context:
     "tree-view:copy-full-path": "Skopiuj pełną ścieżkę"
     "tree-view:copy-project-path": "Skopiuj ścieżkę projektu"
     "tree-view:open-in-new-window": "Otwórz w nowym oknie"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "Podziel na górze"
     "tree-view:open-selected-entry-down": "Podziel na dole"
     "tree-view:open-selected-entry-left": "Podziel po lewej"
     "tree-view:open-selected-entry-right": "Podziel po prawej"
-  ".tree-view.full-menu .project-root > .header":
+  ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "Nowy plik"
     "tree-view:add-folder": "Nowy folder"
     "tree-view:move": "Zmień nazwę"
@@ -88,15 +88,15 @@ Context:
     "tree-view:copy-full-path": "Skopiuj pełną ścieżkę"
     "tree-view:copy-project-path": "Skopiuj ścieżkę projektu"
     "tree-view:open-in-new-window": "Otwórz w nowym oknie"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Pokaż w folderze"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Pokaż w eksplorerze"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Pokaż w menedżerze plików"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "Szukaj w katalogu"
-  ".tree-view.multi-select":
+  ".tree-view .multi-select":
     "tree-view:remove": "Skasuj"
     "tree-view:copy": "Kopiuj"
     "tree-view:cut": "Wytnij"

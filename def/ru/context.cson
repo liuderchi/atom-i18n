@@ -48,7 +48,7 @@ Context:
     "tabs:keep-pending-tab": "Удерживать вкладку"
   ".tab-bar":
     "pane:reopen-closed-item": "Открыть закрытые вкладки"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "Новый файл"
     "tree-view:add-folder": "Новая папка"
     "tree-view:move": "Переименовать"
@@ -65,12 +65,12 @@ Context:
     "tree-view:copy-full-path": "Копировать полный путь"
     "tree-view:copy-project-path": "Копировать путь проекта"
     "tree-view:open-in-new-window": "Открыть в новом окне"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "Разделить сверху"
     "tree-view:open-selected-entry-down": "Разделить снизу"
     "tree-view:open-selected-entry-left": "Разделить слева"
     "tree-view:open-selected-entry-right": "Разделить справа"
-  ".tree-view.full-menu .project-root > .header":
+  ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "Новый файл"
     "tree-view:add-folder": "Новая папка"
     "tree-view:move": "Переименовать"
@@ -88,15 +88,15 @@ Context:
     "tree-view:copy-full-path": "Копировать полный путь"
     "tree-view:copy-project-path": "Копировать путь проекта"
     "tree-view:open-in-new-window": "Открыть в новом окне"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Показать в Finder"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Показать в Explorer"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Показать в File Manager"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "Поиск в папке"
-  ".tree-view.multi-select":
+  ".tree-view .multi-select":
     "tree-view:remove": "Удалить"
     "tree-view:copy": "Копировать"
     "tree-view:cut": "Вырезать"

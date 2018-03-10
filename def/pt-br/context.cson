@@ -48,7 +48,7 @@ Context:
     "tabs:keep-pending-tab": "Guia Manter Pendente"
   ".tab-bar":
     "pane:reopen-closed-item": "Abrir Novamente A Guia Fechada"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "Novo Arquivo"
     "tree-view:add-folder": "Nova Pasta"
     "tree-view:move": "Renomear"
@@ -65,12 +65,12 @@ Context:
     "tree-view:copy-full-path": "Copiar Caminho Completo"
     "tree-view:copy-project-path": "Copiar Caminho Do Projeto"
     "tree-view:open-in-new-window": "Abra Em Uma Nova Janela"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "Dividir Para Cima"
     "tree-view:open-selected-entry-down": "Dividir Abaixo"
     "tree-view:open-selected-entry-left": "Dividir À Esquerda"
     "tree-view:open-selected-entry-right": "Dividir À Direita"
-  ".tree-view.full-menu .project-root > .header":
+  ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "Novo Arquivo"
     "tree-view:add-folder": "Nova Pasta"
     "tree-view:move": "Renomear"
@@ -88,15 +88,15 @@ Context:
     "tree-view:copy-full-path": "Copiar Caminho Completo"
     "tree-view:copy-project-path": "Copiar Caminho Do Projeto"
     "tree-view:open-in-new-window": "Abra Em Uma Nova Janela"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Mostrar No Finder"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Mostrar No Explorer"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Mostrar No File Manager"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "Pesquisar No Diretório"
-  ".tree-view.multi-select":
+  ".tree-view .multi-select":
     "tree-view:remove": "Excluir"
     "tree-view:copy": "Copiar"
     "tree-view:cut": "Cortar"

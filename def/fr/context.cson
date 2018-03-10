@@ -48,7 +48,7 @@ Context:
     "tabs:keep-pending-tab": "Garder les onglets provisoires"
   ".tab-bar":
     "pane:reopen-closed-item": "Rouvrir les onglets fermés"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "Nouveau fichier"
     "tree-view:add-folder": "Nouveau dossier"
     "tree-view:move": "Renommer"
@@ -65,12 +65,12 @@ Context:
     "tree-view:copy-full-path": "Copier le chemin complet"
     "tree-view:copy-project-path": "Copier le chemin du projet"
     "tree-view:open-in-new-window": "Ouvrir dans une nouvelle fenêtre"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "Dédoubler en haut"
     "tree-view:open-selected-entry-down": "Dédoubler en bas"
     "tree-view:open-selected-entry-left": "Dédoubler à gauche"
     "tree-view:open-selected-entry-right": "Dédoubler à droite"
-  ".tree-view.full-menu .project-root > .header":
+  ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "Nouveau fichier"
     "tree-view:add-folder": "Nouveau dossier"
     "tree-view:move": "Renommer"
@@ -88,15 +88,15 @@ Context:
     "tree-view:copy-full-path": "Copier le chemin complet"
     "tree-view:copy-project-path": "Copier le chemin du projet"
     "tree-view:open-in-new-window": "Ouvrir dans une nouvelle fenêtre"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Afficher dans le Finder"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Afficher dans l'Explorateur"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Afficher dans le gestionnaire de fichiers"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "Chercher dans le dossier"
-  ".tree-view.multi-select":
+  ".tree-view .multi-select":
     "tree-view:remove": "Supprimer"
     "tree-view:copy": "Copier"
     "tree-view:cut": "Couper"
