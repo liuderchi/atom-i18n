@@ -62,6 +62,8 @@ Menu:
         value: "パスをコピー(&H)"
       "&Paste":
         value: "ペースト(&P)"
+      "Paste Without Reformatting":
+        value: "書式設定なしで貼り付け"
       "Select &All":
         value: "すべて選択(&A)"
       "&Toggle Comments":
@@ -151,6 +153,10 @@ Menu:
             value: "次のブックマークへ"
           "Jump to Previous Bookmark":
             value: "前のブックマークへ"
+          "Select to Next Bookmark":
+            value: "次のブックマークまで選択する"
+          "Select to Previous Bookmark":
+            value: "前のブックマークまで選択する"
       "Select Encoding":
         value: "エンコーディング選択"
       "Go to Line":
@@ -197,9 +203,9 @@ Menu:
           "&Reload Window":
             value: "ウィンドウの再読み込み(&R)"
           "Run Package &Specs":
-            value: "パッケージ Specs を実行(&S)"
+            value: "パッケージスペックを実行(&S)"
           "Run &Benchmarks":
-            value: "Run Benchmarks(&B)"
+            value: "ベンチマークを実行(&B)"
           "Toggle Developer &Tools":
             value: "デベロッパー ツール(&T)"
       "&Increase Font Size":
@@ -263,7 +269,7 @@ Menu:
       "Toggle Find in Project":
         value: "プロジェクト内検索パネル切替"
       "Find All":
-        value: "Find All"
+        value: "すべて検索"
       "Find Next":
         value: "次を検索"
       "Find Previous":
@@ -289,8 +295,14 @@ Menu:
         value: "利用条件(&T)"
       "View &License":
         value: "ライセンス(&L)"
+      "Restart and Install Update":
+        value: "再起動してアップデートをインストール"
       "Check for Update":
         value: "アップデートを確認"
+      "Checking for Update":
+        value: "アップデートを確認中"
+      "Downloading Update":
+        value: "アップデートをダウンロード中"
       "&Documentation":
         value: "ドキュメント(&D)"
       "Frequently Asked Questions":
