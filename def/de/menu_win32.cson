@@ -62,6 +62,8 @@ Menu:
         value: "Pfad kopieren(&H)"
       "&Paste":
         value: "Einfügen(&P)"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
       "Select &All":
         value: "&Alles auswählen"
       "&Toggle Comments":
@@ -150,7 +152,11 @@ Menu:
           "Jump to Next Bookmark":
             value: "Zum nächsten Lesezeichen springen"
           "Jump to Previous Bookmark":
-            value: "Zum vorhergehenden Lesezeichen springen"
+            value: "Jump to Previous Bookmark"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "Codierung auswählen"
       "Go to Line":
@@ -289,8 +295,14 @@ Menu:
         value: "Nu&tzungsbedingungen anzeigen"
       "View &License":
         value: "&Lizenzbedingungen anzeigen"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
       "Check for Update":
         value: "Check for Update"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
       "&Documentation":
         value: "&Dokumentation"
       "Frequently Asked Questions":

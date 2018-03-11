@@ -62,6 +62,8 @@ Menu:
         value: "Copier le c&hemin"
       "&Paste":
         value: "C&oller"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
       "Select &All":
         value: "&Sélectionner tout"
       "&Toggle Comments":
@@ -151,6 +153,10 @@ Menu:
             value: "Aller au prochain signet"
           "Jump to Previous Bookmark":
             value: "Aller au signet précédent"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "Choisir l'encodage"
       "Go to Line":
@@ -289,8 +295,14 @@ Menu:
         value: "&Conditions d'utilisation"
       "View &License":
         value: "&Voir la licence"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
       "Check for Update":
         value: "Vérifier les mises à jour"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
       "&Documentation":
         value: "&Documentation"
       "Frequently Asked Questions":

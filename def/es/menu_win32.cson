@@ -62,6 +62,8 @@ Menu:
         value: "Copiar Ruta(&H)"
       "&Paste":
         value: "Pegar(&P)"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
       "Select &All":
         value: "Seleccionar Todo(&A)"
       "&Toggle Comments":
@@ -151,6 +153,10 @@ Menu:
             value: "Saltar al Marcador Siguiente"
           "Jump to Previous Bookmark":
             value: "Saltar al Marcador Anterior"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "Seleccionar Codificación"
       "Go to Line":
@@ -289,8 +295,14 @@ Menu:
         value: "Ver Términos de Uso(&T)"
       "View &License":
         value: "Ver Licencia(&L)"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
       "Check for Update":
         value: "Buscar Actualizaciones"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
       "&Documentation":
         value: "Documentación(&D)"
       "Frequently Asked Questions":
