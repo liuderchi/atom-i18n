@@ -62,7 +62,7 @@ Menu:
         value: "Copy Path(&H)"
       "&Paste":
         value: "Paste(&P)"
-      "Paste Without Reformatting"
+      "Paste Without Reformatting":
         value: "Paste Without Reformatting"
       "Select &All":
         value: "Select All(&A)"
@@ -299,7 +299,7 @@ Menu:
         value: "Restart and Install Update"
       "Check for Update":
         value: "Check for Update"
-      "Checking for Update"
+      "Checking for Update":
         value: "Checking for Update"
       "Downloading Update":
         value: "Downloading Update"
