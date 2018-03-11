@@ -101,7 +101,7 @@ Context:
     "tree-view:copy": "Copiar"
     "tree-view:cut": "Cortar"
     "tree-view:paste": "Pegar"
-  "atom-pane[data-active-item-path] .item-views":".tree-view li.directory"
+  "atom-pane[data-active-item-path] .item-views":
     "tree-view:reveal-active-file": "Revelar en Tree View"
   "atom-pane[data-active-item-path] .tab.active":
     "tree-view:rename": "Renombrar"

@@ -94,7 +94,7 @@ Context:
     "tree-view:show-in-file-manager": "Näytä resurssienhallinnassa"
   ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Näytä tiedostoselaimessa"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "Näytä hakemistossa"
   ".tree-view .multi-select":
     "tree-view:remove": "Poista"
