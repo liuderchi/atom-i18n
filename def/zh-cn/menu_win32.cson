@@ -62,6 +62,8 @@ Menu:
         value: "复制文件路径(&H)"
       "&Paste":
         value: "粘贴(&P)"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
       "Select &All":
         value: "全选(&A)"
       "&Toggle Comments":
@@ -151,6 +153,10 @@ Menu:
             value: "下一书签"
           "Jump to Previous Bookmark":
             value: "上一书签"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "选择编码格式"
       "Go to Line":
@@ -289,8 +295,14 @@ Menu:
         value: "查看使用条款(&T)"
       "View &License":
         value: "查看许可协议(&L)"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
       "Check for Update":
         value: "Check for Update"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
       "&Documentation":
         value: "官方文档(&D)"
       "Frequently Asked Questions":

@@ -62,6 +62,8 @@ Menu:
         value: "คัดลอกเส้นทาง(&H)"
       "&Paste":
         value: "วาง(&P)"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
       "Select &All":
         value: "บันทึกทั้งหมด(&A)"
       "&Toggle Comments":
@@ -151,6 +153,10 @@ Menu:
             value: "กระโดดไปยังที่คั่นหน้าถัดไป"
           "Jump to Previous Bookmark":
             value: "กระโดดไปยังที่คั่นหน้าก่อนหน้า"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "เลือกการเข้ารหัส"
       "Go to Line":
@@ -289,8 +295,14 @@ Menu:
         value: "แสดงข้อกำหนดการใช้งาน(&T)"
       "View &License":
         value: "แสดงสิทธิ(&L)"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
       "Check for Update":
         value: "ตรวจสอบการอัพเดต"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
       "&Documentation":
         value: "เอกสารประกอบ(&D)"
       "Frequently Asked Questions":

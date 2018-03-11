@@ -62,6 +62,8 @@ Menu:
         value: "複製檔案路徑(&H)"
       "&Paste":
         value: "貼上(&P)"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
       "Select &All":
         value: "全選(&A)"
       "&Toggle Comments":
@@ -151,6 +153,10 @@ Menu:
             value: "移至下一個書籤"
           "Jump to Previous Bookmark":
             value: "移至上一個書籤"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "選擇編碼"
       "Go to Line":
@@ -289,8 +295,14 @@ Menu:
         value: "檢視使用條款(&T)"
       "View &License":
         value: "檢視授權(&L)"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
       "Check for Update":
         value: "檢查更新"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
       "&Documentation":
         value: "說明文件(&D)"
       "Frequently Asked Questions":

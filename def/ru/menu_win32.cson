@@ -62,6 +62,8 @@ Menu:
         value: "Копировать путь(&H)"
       "&Paste":
         value: "Вставить(&P)"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
       "Select &All":
         value: "Выделить всё(&A)"
       "&Toggle Comments":
@@ -151,6 +153,10 @@ Menu:
             value: "Перейти на следующую закладку"
           "Jump to Previous Bookmark":
             value: "Перейти на предыдущую закладку"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "Выбрать кодировку"
       "Go to Line":
@@ -289,8 +295,14 @@ Menu:
         value: "Правила использования(&T)"
       "View &License":
         value: "Лицензия(&L)"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
       "Check for Update":
         value: "Проверить обновления"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
       "&Documentation":
         value: "Документация(&D)"
       "Frequently Asked Questions":
