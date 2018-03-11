@@ -62,6 +62,8 @@ Menu:
         value: "Kopioi polku(&H)"
       "&Paste":
         value: "Liitä(&P)"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
       "Select &All":
         value: "Valitse k&aikki"
       "&Toggle Comments":
@@ -151,6 +153,10 @@ Menu:
             value: "Hyppää seuraavaan"
           "Jump to Previous Bookmark":
             value: "Hyppää edelliseen"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "Valitse merkistökoodaus"
       "Go to Line":
@@ -289,8 +295,14 @@ Menu:
         value: "Näytä käy&ttöehdot"
       "View &License":
         value: "Näytä käyttöoikeus(&L)"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
       "Check for Update":
         value: "Etsi päivityksiä"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
       "&Documentation":
         value: "&Dokumentaatio"
       "Frequently Asked Questions":
