@@ -48,7 +48,7 @@ Context:
     "tabs:keep-pending-tab": "Unerledigte Tabs behalten"
   ".tab-bar":
     "pane:reopen-closed-item": "Geschlossenen Tab neu öffnen"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "Neue Datei"
     "tree-view:add-folder": "Neuer Ordner"
     "tree-view:move": "Umbenennen"
@@ -65,12 +65,12 @@ Context:
     "tree-view:copy-full-path": "Gesamten Pfad kopieren"
     "tree-view:copy-project-path": "Projekt-Pfad kopieren"
     "tree-view:open-in-new-window": "In neuem Fenster öffnen"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "Nach oben teilen"
     "tree-view:open-selected-entry-down": "Nach unten teilen"
     "tree-view:open-selected-entry-left": "Nach links teilen"
     "tree-view:open-selected-entry-right": "Nach rechts teilen"
-  ".tree-view.full-menu .project-root > .header":
+  ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "Neue Datei"
     "tree-view:add-folder": "Neuer Ordner"
     "tree-view:move": "Umbenennen"
@@ -88,15 +88,15 @@ Context:
     "tree-view:copy-full-path": "Gesamten Pfad kopieren"
     "tree-view:copy-project-path": "Projektpfad kopieren"
     "tree-view:open-in-new-window": "In neuem Fenster öffnen"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Im Finder anzeigen"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Im Explorer anzeigen"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Im Dateimanager anzeigen"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "Suche in Verzeichnis"
-  ".tree-view.multi-select":
+  ".tree-view .multi-select":
     "tree-view:remove": "Löschen"
     "tree-view:copy": "Kopieren"
     "tree-view:cut": "Ausschneiden"

@@ -48,7 +48,7 @@ Context:
     "tabs:keep-pending-tab": "保留預覽分頁"
   ".tab-bar":
     "pane:reopen-closed-item": "重新開啟關閉分頁"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "新增文件"
     "tree-view:add-folder": "新增資料夾"
     "tree-view:move": "移動/重新命名"
@@ -65,12 +65,12 @@ Context:
     "tree-view:copy-full-path": "複製完整路徑"
     "tree-view:copy-project-path": "複製專案資料夾路徑"
     "tree-view:open-in-new-window": "於新視窗開啟"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "向上分割窗格並開啟 ↑"
     "tree-view:open-selected-entry-down": "向下分割窗格並開啟 ↓"
     "tree-view:open-selected-entry-left": "向左分割窗格並開啟 ←"
     "tree-view:open-selected-entry-right": "向右分割窗格並開啟 →"
-  ".tree-view.full-menu .project-root > .header":
+  ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "新增文件"
     "tree-view:add-folder": "新增資料夾"
     "tree-view:move": "移動/重新命名"
@@ -88,15 +88,15 @@ Context:
     "tree-view:copy-full-path": "複製完整路徑"
     "tree-view:copy-project-path": "複製專案路徑"
     "tree-view:open-in-new-window": "於新視窗中開啟"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "在 Finder 中顯示"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "在檔案總管中顯示"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "在檔案總管中顯示"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "在資料夾中尋找"
-  ".tree-view.multi-select":
+  ".tree-view .multi-select":
     "tree-view:remove": "刪除"
     "tree-view:copy": "複製"
     "tree-view:cut": "剪下"

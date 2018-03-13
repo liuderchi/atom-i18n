@@ -48,7 +48,7 @@ Context:
     "tabs:keep-pending-tab": "プレビュー状態を解除"
   ".tab-bar":
     "pane:reopen-closed-item": "閉じたタブを開く"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "新規ファイル"
     "tree-view:add-folder": "新規フォルダ"
     "tree-view:move": "移動・名前を変更..."
@@ -65,12 +65,12 @@ Context:
     "tree-view:copy-full-path": "フルパスをコピー"
     "tree-view:copy-project-path": "プロジェクトパスをコピー"
     "tree-view:open-in-new-window": "新規ウインドウで開く"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "ペイン分割 ↑"
     "tree-view:open-selected-entry-down": "ペイン分割 ↓"
     "tree-view:open-selected-entry-left": "ペイン分割 ←"
     "tree-view:open-selected-entry-right": "ペイン分割 →"
-  ".tree-view.full-menu .project-root > .header":
+  ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "新規ファイル"
     "tree-view:add-folder": "新規フォルダ"
     "tree-view:move": "移動・名前を変更..."
@@ -88,15 +88,15 @@ Context:
     "tree-view:copy-full-path": "フルパスをコピー"
     "tree-view:copy-project-path": "プロジェクトパスをコピー"
     "tree-view:open-in-new-window": "新規ウインドウで開く"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Finder で表示"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "エクスプローラで表示"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "ファイルマネージャで表示"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "ディレクトリ内を検索"
-  ".tree-view.multi-select":
+  ".tree-view .multi-select":
     "tree-view:remove": "削除"
     "tree-view:copy": "コピー"
     "tree-view:cut": "カット"

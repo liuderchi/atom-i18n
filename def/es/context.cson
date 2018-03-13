@@ -48,7 +48,7 @@ Context:
     "tabs:keep-pending-tab": "Mantener Pestaña Pendiente"
   ".tab-bar":
     "pane:reopen-closed-item": "Reabrir Pestaña Cerrada"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "Nuevo Archivo"
     "tree-view:add-folder": "Nueva Carpeta"
     "tree-view:move": "Renombrar"
@@ -65,12 +65,12 @@ Context:
     "tree-view:copy-full-path": "Copiar Ruta Completa"
     "tree-view:copy-project-path": "Copiar Ruta del Proyecto"
     "tree-view:open-in-new-window": "Abrir en una Nueva Ventana"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "Dividir Hacia Arriba"
     "tree-view:open-selected-entry-down": "Dividir Hacia Abajo"
     "tree-view:open-selected-entry-left": "Dividir Hacia la Izquierda"
     "tree-view:open-selected-entry-right": "Dividir Hacia la Derecha"
-  ".tree-view.full-menu .project-root > .header":
+  ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "Nuevo Archivo"
     "tree-view:add-folder": "Nueva Carpeta"
     "tree-view:move": "Renombrar"
@@ -88,15 +88,15 @@ Context:
     "tree-view:copy-full-path": "Copiar Ruta Completa"
     "tree-view:copy-project-path": "Copiar Ruta del Proyecto"
     "tree-view:open-in-new-window": "Abrir en una Nueva Ventana"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Mostrar en el Finder"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Mostrar en el Explorador"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Mostrar en el Administrador de Archivos"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "Buscar en el Directorio"
-  ".tree-view.multi-select":
+  ".tree-view .multi-select":
     "tree-view:remove": "Borrar"
     "tree-view:copy": "Copiar"
     "tree-view:cut": "Cortar"
