@@ -62,6 +62,8 @@ Menu:
         value: "Elérési út másolása(&H)"
       "&Paste":
         value: "Beillesztés(&P)"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
       "Select &All":
         value: "Összes kijelölése(&A)"
       "&Toggle Comments":
@@ -151,6 +153,10 @@ Menu:
             value: "Ugrás a következő könyvjelzőre"
           "Jump to Previous Bookmark":
             value: "Ugrás az előző könyvjelzőre"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "Karakterkódolás kiválasztása"
       "Go to Line":
@@ -289,8 +295,14 @@ Menu:
         value: "Felhasználási feltételek megtekintése(&T)"
       "View &License":
         value: "Licenc megtekintése(&L)"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
       "Check for Update":
         value: "Frissítések keresése"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
       "&Documentation":
         value: "Dokumentáció(&D)"
       "Frequently Asked Questions":

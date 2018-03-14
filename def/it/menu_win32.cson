@@ -62,6 +62,8 @@ Menu:
         value: "Copia Percorso(&H)"
       "&Paste":
         value: "Incolla(&P)"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
       "Select &All":
         value: "Seleziona Tutto(&A)"
       "&Toggle Comments":
@@ -151,6 +153,10 @@ Menu:
             value: "Salta al Preferito Successivo"
           "Jump to Previous Bookmark":
             value: "Salta al Preferito Precedente"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "Seleziona Codifica"
       "Go to Line":
@@ -289,8 +295,14 @@ Menu:
         value: "Visiona &Termini d'Uso"
       "View &License":
         value: "Visiona &Licenza"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
       "Check for Update":
         value: "Cerca Aggiornamenti"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
       "&Documentation":
         value: "Documentazione(&D)"
       "Frequently Asked Questions":

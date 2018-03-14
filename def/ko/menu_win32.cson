@@ -62,6 +62,8 @@ Menu:
         value: "경로 복사(&H)"
       "&Paste":
         value: "붙이기(&P)"
+      "Paste Without Reformatting":
+        value: "Paste Without Reformatting"
       "Select &All":
         value: "모두 선택(&A)"
       "&Toggle Comments":
@@ -151,6 +153,10 @@ Menu:
             value: "다음 북마크로 이동"
           "Jump to Previous Bookmark":
             value: "이전 북마크로 이동"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "인코딩 설정"
       "Go to Line":
@@ -289,8 +295,14 @@ Menu:
         value: "이용약관 보기(&T)"
       "View &License":
         value: "라이센스 보기(&L)"
+      "Restart and Install Update":
+        value: "Restart and Install Update"
       "Check for Update":
         value: "Check for Update"
+      "Checking for Update":
+        value: "Checking for Update"
+      "Downloading Update":
+        value: "Downloading Update"
       "&Documentation":
         value: "참조 문서(&D)"
       "Frequently Asked Questions":
