@@ -292,7 +292,7 @@ Menu:
     value: "Pomoc(&H)"
     submenu:
       "View &Terms of Use":
-        value: "Pokaż &warunki korzystania"
+        value: "Pokaż warunki korzys&tania"
       "View &License":
         value: "Pokaż &licencję"
       "Restart and Install Update":

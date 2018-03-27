@@ -113,9 +113,14 @@ describe('validation', () => {
                     const _str = flattenCson[k]
                     const hasAmpersand = menuItemName.match(/&/g)
                     if (hasAmpersand) {
-                      const hotkeyHintRegex = /&\w/g
+                      const hotkeyHintRegex = /&(\w)/i
                       const errMsg = `\n\tinvalid or missing hotkey hint in '${_str}'\n\n\tcson-path: '${k}'\t`
-                      expect(_str.search(hotkeyHintRegex)).to.not.equal(-1, errMsg)
+                      expect(hotkeyHintRegex.exec(_str)).not.be.equal(null, errMsg)
+                      expect(hotkeyHintRegex.exec(_str)[1].toLowerCase())
+                        .to.equal(
+                          hotkeyHintRegex.exec(menuItemName)[1].toLowerCase(),
+                          errMsg
+                        )
                     }
                   })
                 })

@@ -22,7 +22,7 @@ Menu:
       "&Save":
         value: "Salva(&S)"
       "Save &As…":
-        value: "Salva con Nome(&N)..."
+        value: "S&alva con Nome..."
       "Save A&ll":
         value: "Salva Tutto(&T)"
       "&Close Tab":
