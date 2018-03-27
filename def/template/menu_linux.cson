@@ -1,113 +1,113 @@
 Menu:
   "&File":
-    value: "File(&F)"
+    value: "&File"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "New &Window"
       "&New File":
-        value: "New File(&N)"
+        value: "&New File"
       "&Open File…":
-        value: "Open File(&O)..."
+        value: "&Open File…"
       "Open Folder…":
-        value: "Open Folder..."
+        value: "Open Folder…"
       "Add Project Folder…":
-        value: "Add Project Folder..."
+        value: "Add Project Folder…"
       "Reopen Project":
         value: "Reopen Project"
         submenu:
           "Clear Project History":
             value: "Clear Project History"
       "Reopen Last &Item":
-        value: "Reopen Last Item(&I)"
+        value: "Reopen Last &Item"
       "&Save":
-        value: "Save(&S)"
+        value: "&Save"
       "Save &As…":
-        value: "Save As(&A)..."
+        value: "Save &As…"
       "Save A&ll":
-        value: "Save All(&L)"
+        value: "Save A&ll"
       "&Close Tab":
-        value: "Close Tab(&C)"
+        value: "&Close Tab"
       "Close &Pane":
-        value: "Close Pane(&P)"
+        value: "Close &Pane"
       "Clos&e Window":
-        value: "Close Window(&E)"
+        value: "Clos&e Window"
       "Quit":
         value: "Quit"
       "Close All Tabs":
         value: "Close All Tabs"
   "&Edit":
-    value: "Edit(&E)"
+    value: "&Edit"
     submenu:
       "&Undo":
-        value: "Undo(&U)"
+        value: "&Undo"
       "&Redo":
-        value: "Redo(&R)"
+        value: "&Redo"
       "&Cut":
-        value: "Cut(&C)"
+        value: "&Cut"
       "C&opy":
-        value: "Copy(&O)"
+        value: "C&opy"
       "Copy Pat&h":
-        value: "Copy Path(&H)"
+        value: "Copy Pat&h"
       "&Paste":
-        value: "Paste(&P)"
+        value: "&Paste"
       "Select &All":
-        value: "Select All(&A)"
+        value: "Select &All"
       "&Toggle Comments":
-        value: "Toggle Comments(&T)"
+        value: "&Toggle Comments"
       Lines:
         value: "Lines"
         submenu:
           "&Indent":
-            value: "Indent(&I)"
+            value: "&Indent"
           "&Outdent":
-            value: "Outdent(&O)"
+            value: "&Outdent"
           "&Auto Indent":
-            value: "Auto Indent(&A)"
+            value: "&Auto Indent"
           "Move Line &Up":
-            value: "Move Line Up(&U)"
+            value: "Move Line &Up"
           "Move Line &Down":
-            value: "Move Line Down(&D)"
+            value: "Move Line &Down"
           "Du&plicate Lines":
-            value: "Duplicate Lines(&P)"
+            value: "Du&plicate Lines"
           "D&elete Line":
-            value: "Delete Line(&E)"
+            value: "D&elete Line"
           "&Join Lines":
-            value: "Join Lines(&J)"
+            value: "&Join Lines"
       Columns:
         value: "Columns"
         submenu:
           "Move Selection &Left":
-            value: "Move Selection Left(&L)"
+            value: "Move Selection &Left"
           "Move Selection &Right":
-            value: "Move Selection Right(&R)"
+            value: "Move Selection &Right"
       Text:
         value: "Text"
         submenu:
           "&Upper Case":
-            value: "Upper Case(&U)"
+            value: "&Upper Case"
           "&Lower Case":
-            value: "Lower Case(&L)"
+            value: "&Lower Case"
           "Delete to End of &Word":
-            value: "Delete to End of Word(&W)"
+            value: "Delete to End of &Word"
           "Delete to Previous Word Boundary":
             value: "Delete to Previous Word Boundary"
           "Delete to Next Word Boundary":
             value: "Delete to Next Word Boundary"
           "&Delete Line":
-            value: "Delete Line(&D)"
+            value: "&Delete Line"
           "&Transpose":
-            value: "Transpose(&T)"
+            value: "&Transpose"
       Folding:
         value: "Folding"
         submenu:
           "&Fold":
-            value: "Fold(&F)"
+            value: "&Fold"
           "&Unfold":
-            value: "Unfold(&U)"
+            value: "&Unfold"
           "Unfold &All":
-            value: "Unfold All(&A)"
+            value: "Unfold &All"
           "Fol&d All":
-            value: "Fold All(&D)"
+            value: "Fol&d All"
           "Fold Level 1":
             value: "Fold Level 1"
           "Fold Level 2":
@@ -127,17 +127,17 @@ Menu:
           "Fold Level 9":
             value: "Fold Level 9"
       "&Preferences":
-        value: "Preferences(&P)"
+        value: "&Preferences"
       "Config…":
-        value: "Config..."
+        value: "Config…"
       "Init Script…":
-        value: "Init Script..."
+        value: "Init Script…"
       "Keymap…":
-        value: "Keymap..."
+        value: "Keymap…"
       "Snippets…":
-        value: "Snippets..."
+        value: "Snippets…"
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Stylesheet…"
       "Reflow Selection":
         value: "Reflow Selection"
       Bookmark:
@@ -158,10 +158,10 @@ Menu:
       "Select Grammar":
         value: "Select Grammar"
   "&View":
-    value: "View(&V)"
+    value: "&View"
     submenu:
       "Toggle &Full Screen":
-        value: "Toggle Full Screen(&F)"
+        value: "Toggle &Full Screen"
       "Toggle Menu Bar":
         value: "Toggle Menu Bar"
       Panes:
@@ -193,60 +193,60 @@ Menu:
         value: "Developer"
         submenu:
           "Open In &Dev Mode…":
-            value: "Open In Dev Mode(&D)..."
+            value: "Open In &Dev Mode…"
           "&Reload Window":
-            value: "Reload Window(&R)"
+            value: "&Reload Window"
           "Run Package &Specs":
-            value: "Run Package Specs(&S)"
+            value: "Run Package &Specs"
           "Run &Benchmarks":
-            value: "Run Benchmarks(&B)"
+            value: "Run &Benchmarks"
           "Toggle Developer &Tools":
-            value: "Toggle Developer Tools(&T)"
+            value: "Toggle Developer &Tools"
       "&Increase Font Size":
-        value: "Increase Font Size(&I)"
+        value: "&Increase Font Size"
       "&Decrease Font Size":
-        value: "Decrease Font Size(&D)"
+        value: "&Decrease Font Size"
       "Re&set Font Size":
-        value: "Reset Font Size(&S)"
+        value: "Re&set Font Size"
       "Toggle Soft &Wrap":
-        value: "Toggle Soft Wrap(&W)"
+        value: "Toggle Soft &Wrap"
       "Toggle Command Palette":
         value: "Toggle Command Palette"
       "Toggle Tree View":
         value: "Toggle Tree View"
   "&Selection":
-    value: "Selection(&S)"
+    value: "&Selection"
     submenu:
       "Add Selection &Above":
-        value: "Add Selection Above(&A)"
+        value: "Add Selection &Above"
       "Add Selection &Below":
-        value: "Add Selection Below(&B)"
+        value: "Add Selection &Below"
       "S&plit into Lines":
-        value: "Split into Lines(&P)"
+        value: "S&plit into Lines"
       "Single Selection":
         value: "Single Selection"
       "Select to &Top":
-        value: "Select to Top(&T)"
+        value: "Select to &Top"
       "Select to Botto&m":
-        value: "Select to Bottom(&M)"
+        value: "Select to Botto&m"
       "Select &Line":
-        value: "Select Line(&L)"
+        value: "Select &Line"
       "Select &Word":
-        value: "Select Word(&W)"
+        value: "Select &Word"
       "Select to Beginning of W&ord":
-        value: "Select to Beginning of Word(&O)"
+        value: "Select to Beginning of W&ord"
       "Select to Beginning of L&ine":
-        value: "Select to Beginning of Line(&I)"
+        value: "Select to Beginning of L&ine"
       "Select to First &Character of Line":
-        value: "Select to First Character of Line(&C)"
+        value: "Select to First &Character of Line"
       "Select to End of Wor&d":
-        value: "Select to End of Word(&D)"
+        value: "Select to End of Wor&d"
       "Select to End of Lin&e":
-        value: "Select to End of Line(&E)"
+        value: "Select to End of Lin&e"
       "Select Inside Brackets":
         value: "Select Inside Brackets"
   "F&ind":
-    value: "Find(&I)"
+    value: "F&ind"
     submenu:
       "Find in Buffer":
         value: "Find in Buffer"
@@ -281,16 +281,16 @@ Menu:
       "Find Modified File":
         value: "Find Modified File"
   "&Packages":
-    value: "Packages(&P)"
+    value: "&Packages"
   "&Help":
-    value: "Help(&H)"
+    value: "&Help"
     submenu:
       "View &Terms of Use":
-        value: "View Terms of Use(&T)"
+        value: "View &Terms of Use"
       "View &License":
-        value: "View License(&L)"
+        value: "View &License"
       "&Documentation":
-        value: "Documentation(&D)"
+        value: "&Documentation"
       "Frequently Asked Questions":
         value: "Frequently Asked Questions"
       "Community Discussions":
