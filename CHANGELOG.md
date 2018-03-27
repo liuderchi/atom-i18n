@@ -1,3 +1,11 @@
+## 0.14.1 - Polish, Japanese update
+* welcome page fixes (Thanks [Lorenzo Ancora](//github.com/LorenzoAncora)) #164 #168
+* Polish update (100%) #160
+* Japanese update (100%) #165
+* cson query fix #162
+* cson enhancement #168
+
+
 ## 0.14.0 - Finnish support
 * French fix #155
 * Finnish support (100%) #152

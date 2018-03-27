@@ -6,7 +6,7 @@
 [![issues-count][issues-count]][issues]
 
 [![Build Status][travis-status]][travis-project]
-[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
+[![Renovate enabled][renovate-badge]][renovate-link]
 [![Dependency Status][david-status]][david-project]
 [![DevDependency Status][david-dev-status]][david-dev-project]
 [![PeerDependency Status][david-peer-status]][david-peer-project]
@@ -41,7 +41,7 @@ Community-driven translation. :family:
 | Japanese | `ja` | :white_check_mark: 100% |
 | Korean | `ko` | :white_check_mark: 100% |
 | Dutch | `nl` | :warning: 80% [I can translate][nl-issue-filter] |
-| Polish | `pl` | :warning: 80% [I can translate][pl-issue-filter] |
+| Polish | `pl` | :white_check_mark: 100% |
 | Portuguese(Brazil) | `pt-br` | :warning: 80% [I can translate][pt-br-issue-filter] |
 | Russian | `ru` | :warning: 99% [I can translate][ru-issue-filter] |
 | Thai | `th` | :warning: 80% [I can translate][th-issue-filter] |
@@ -77,7 +77,7 @@ Community-driven translation. :family:
   - Polish: [nolt](//github.com/nolt)
   - Italian: [francematt](//github.com/francematt) [Lorenzo Ancora](//github.com/LorenzoAncora)
   - Thai: [sitdh](//github.com/sitdh)
-  - Japanese: [shingo-uzuki](//github.com/shingo-uzuki)
+  - Japanese: [shingo-uzuki](//github.com/shingo-uzuki) [Umoxfo](//github.com/Umoxfo)
   - Hungarian: [dominicus-75](//github.com/dominicus-75)
   - Finnish: [an7oine](//github.com/an7oine)
 
