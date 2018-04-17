@@ -1,29 +1,29 @@
 Welcome:
-  tabTitle: "Welcome"
+  tabTitle: "환영합니다"
   subtitle: {
-    text1: "A hackable text editor for the 21"
-    superscript: "st"
-    text2: " Century"
+    text1: "해킹할 수 있는 21세기 텍스트 편집기"
+    superscript: ""
+    text2: " "
   }
   help: {
-    forHelpVisit: "For help, please visit"
+    forHelpVisit: "도움이 필요하시다면, 다음을 참고해 주세요."
     atomDocs: {
-      text1: "The "
+      text1: "설명서 또는 API 참고 문서는 "
       link: "Atom docs"
-      text2: " for Guides and the API reference."
+      text2: " 에서 확인해주세요."
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {
-      text1: "The Atom forum at "
+      text1: "Atom 포험은 "
       link: "discuss.atom.io"
-      text2: ""   # optional
+      text2: " 에서 확인해주세요."   # optional
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomOrg: {
-      text1: "The "
+      text1: "GitHub에 생성된 모든 Atom의 패키지를 찾으시려면 "
       link: "Atom org"
-      text2: ". This is where all GitHub-created Atom packages can be found."
+      text2: " 에서 확인해주세요."
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
-  showWelcomeGuide: "Show Welcome Guide when opening Atom"
+  showWelcomeGuide: "Atom 시작 시, 환영 가이드 보기"
