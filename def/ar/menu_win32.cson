@@ -292,9 +292,9 @@ Menu:
     value: "المساعدة(&H)"
     submenu:
       "View &Terms of Use":
-        value: "إعرض &شروط الإستخدام"
+        value: "إعرض شروط الإستخدام (&T)"
       "View &License":
-        value: "إعرض ال&رخصة"
+        value: "إعرض الرخضة (&L)"
       "Restart and Install Update":
         value: "أعد التشغيل وثبت التحديث"
       "Check for Update":
