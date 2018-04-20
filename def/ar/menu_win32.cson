@@ -1,319 +1,319 @@
 Menu:
   "&File":
-    value: "File(&F)"
+    value: "ملف(&F)"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "نافذة جديدة(&W)"
       "&New File":
-        value: "New File(&N)"
+        value: "ملف جديد(&N)"
       "&Open File…":
-        value: "Open File(&O)..."
+        value: "إفتح ملف(&O)..."
       "Open Folder…":
-        value: "Open Folder..."
+        value: "إفتح مجلد..."
       "Add Project Folder…":
-        value: "Add Project Folder..."
+        value: "إفتح مجلد مشروع..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "أعد فتح المشروع"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "إمسح تأريخ المشاريع"
       "Reopen Last &Item":
-        value: "Reopen Last Item(&I)"
+        value: "أعد فتح العنصر الأخير(&I)"
       "Se&ttings":
-        value: "Settings(&T)..."
+        value: "الإعدادات(&T)..."
       "Config…":
-        value: "Config..."
+        value: "التهيئة..."
       "Init Script…":
-        value: "Init Script..."
+        value: "نص البدأ..."
       "Keymap…":
-        value: "Keymap..."
+        value: "خارطة المفاتيح..."
       "Snippets…":
-        value: "Snippets..."
+        value: "القصاصات..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "ورقة الأنماط..."
       "&Save":
-        value: "Save(&S)"
+        value: "إحفظ(&S)"
       "Save &As…":
-        value: "Save As(&A)..."
+        value: "إحفظ كـ(&A)..."
       "Save A&ll":
-        value: "Save All(&L)"
+        value: "إحفظ الكل(&L)"
       "&Close Tab":
-        value: "Close Tab(&C)"
+        value: "أغلف اللسان(&C)"
       "Close &Pane":
-        value: "Close Pane(&P)"
+        value: "أغلق الجانب(&P)"
       "Clos&e Window":
-        value: "Close Window(&E)"
+        value: "أغلق النافذة(&E)"
       "E&xit":
-        value: "Exit(&X)"
+        value: "أخرج(&X)"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "أغلق الألسنة جميعا"
   "&Edit":
-    value: "Edit(&E)"
+    value: "تحرير(&E)"
     submenu:
       "&Undo":
-        value: "Undo(&U)"
+        value: "تراجع(&U)"
       "&Redo":
-        value: "Redo(&R)"
+        value: "أعد(&R)"
       "Cu&t":
-        value: "Cut(&T)"
+        value: "قص(&T)"
       "&Copy":
-        value: "Copy(&C)"
+        value: "إنسخ(&C)"
       "Copy Pat&h":
-        value: "Copy Path(&H)"
+        value: "إنسخ المسار(&H)"
       "&Paste":
-        value: "Paste(&P)"
+        value: "إلصق(&P)"
       "Paste Without Reformatting":
-        value: "Paste Without Reformatting"
+        value: "إلصق بدون إعادة التنسيق"
       "Select &All":
-        value: "Select All(&A)"
+        value: "حدد الكل(&A)"
       "&Toggle Comments":
-        value: "Toggle Comments(&T)"
+        value: "بدل التعليقات(&T)"
       Lines:
-        value: "Lines"
+        value: "الأسطر"
         submenu:
           "&Indent":
-            value: "Indent(&I)"
+            value: "البادئة(&I)"
           "&Outdent":
-            value: "Outdent(&O)"
+            value: "الخاتمة(&O)"
           "&Auto Indent":
-            value: "Auto Indent(&A)"
+            value: "إبدأ آليا(&A)"
           "Move Line &Up":
-            value: "Move Line Up(&U)"
+            value: "حرك السطر لأعلى(&U)"
           "Move Line &Down":
-            value: "Move Line Down(&D)"
+            value: "حرك السطر لأسفل(&D)"
           "Du&plicate Lines":
-            value: "Duplicate Lines(&P)"
+            value: "ضاعف الأسطر(&P)"
           "D&elete Line":
-            value: "Delete Line(&E)"
+            value: "إحذف السطر(&E)"
           "&Join Lines":
-            value: "Join Lines(&J)"
+            value: "ضم الأسطر(&J)"
       Columns:
-        value: "Columns"
+        value: "الأعمدة"
         submenu:
           "Move Selection &Left":
-            value: "Move Selection Left(&L)"
+            value: "حرك المحدد يسارا(&L)"
           "Move Selection &Right":
-            value: "Move Selection Right(&R)"
+            value: "حرك المحدد يمينا(&R)"
       Text:
-        value: "Text"
+        value: "النص"
         submenu:
           "&Upper Case":
-            value: "Upper Case(&U)"
+            value: "إرفع الحالة(&U)"
           "&Lower Case":
-            value: "Lower Case(&L)"
+            value: "إخفض الحالة(&L)"
           "Delete to End of &Word":
-            value: "Delete to End of Word(&W)"
+            value: "إحذف حتى نهاية الكلمة(&W)"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "إحذف حتى حد الكلمة السابق"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "إحذف حتى حد الكلمة التالي"
           "&Delete Line":
-            value: "Delete Line(&D)"
+            value: "إحذف السطر(&D)"
           "&Transpose":
-            value: "Transpose(&T)"
+            value: "إقلب(&T)"
       Folding:
-        value: "Folding"
+        value: "الطي"
         submenu:
           "&Fold":
-            value: "Fold(&F)"
+            value: "إطو(&F)"
           "&Unfold":
-            value: "Unfold(&U)"
+            value: "إبسط(&U)"
           "Unfold &All":
-            value: "Unfold All(&A)"
+            value: "إبسط الكل(&A)"
           "Fol&d All":
-            value: "Fold All(&D)"
+            value: "إطو الكل(&D)"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "إطو المستوى 1"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "إطو المستوى 2"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "إطو المستوى 3"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "إطو المستوى 4"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "إطو المستوى 5"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "إطو المستوى 6"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "إطو المستوى 7"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "إطو المستوى 8"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "إطو المستوى 9"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "أعد دفق المحدد"
       Bookmark:
-        value: "Bookmark"
+        value: "العلامات"
         submenu:
           "View All":
-            value: "View All"
+            value: "عرض الكل"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "بدل التعليم"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "انتقل للعلامة التالية"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "انتقل للعلامة السابقة"
           "Select to Next Bookmark":
-            value: "Select to Next Bookmark"
+            value: "حدد للعلامة التالية"
           "Select to Previous Bookmark":
-            value: "Select to Previous Bookmark"
+            value: "حدد للعلامة السابقة"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "حدد الترميز"
       "Go to Line":
-        value: "Go to Line"
+        value: "إذهب للسطر"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "حدد النحو"
   "&View":
-    value: "View(&V)"
+    value: "العرض(&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Toggle Full Screen(&F)"
+        value: "بدل كامل الشاشة(&F)"
       "Toggle Menu Bar":
-        value: "Toggle Menu Bar"
+        value: "بدل شريط العنوان"
       Panes:
-        value: "Panes"
+        value: "الجوانب"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "إقسم لأعلى"
           "Split Down":
-            value: "Split Down"
+            value: "إقسم لأسفل"
           "Split Left":
-            value: "Split Left"
+            value: "إقسم يسارا"
           "Split Right":
-            value: "Split Right"
+            value: "إقسم يمينا"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "ركز على الجانب التالي"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "ركز على الجانب السابق"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "ركز على الجانب الأعلى"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "ركز على الجانب الأدنى"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "ركز على الجانب الأيسر"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "ركز على الجانب الأيمن"
           "Close Pane":
-            value: "Close Pane"
+            value: "أغلق الجانب"
       Developer:
-        value: "Developer"
+        value: "المطور"
         submenu:
           "Open In &Dev Mode…":
-            value: "Open In Dev Mode(&D)..."
+            value: "إفتح في وضع المطور(&D)..."
           "&Reload Window":
-            value: "Reload Window(&R)"
+            value: "أعد تحميل النافذة(&R)"
           "Run Package &Specs":
-            value: "Run Package Specs(&S)"
+            value: "شغل مواصفات الحزمة(&S)"
           "Run &Benchmarks":
-            value: "Run Benchmarks(&B)"
+            value: "شغل المعايرات(&B)"
           "Toggle Developer &Tools":
-            value: "Toggle Developer Tools(&T)"
+            value: "بدل أدوات المطور(&T)"
       "&Increase Font Size":
-        value: "Increase Font Size(&I)"
+        value: "زد حجم النص(&I)"
       "&Decrease Font Size":
-        value: "Decrease Font Size(&D)"
+        value: "أنقص حجم النص(&D)"
       "Re&set Font Size":
-        value: "Reset Font Size(&S)"
+        value: "أعد تعيين حجم النص(&S)"
       "Toggle Soft &Wrap":
-        value: "Toggle Soft Wrap(&W)"
+        value: "بدل اللف السلس(&W)"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "بدل لوحة الأوامر"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "بدل العرض الشجري"
   "&Selection":
-    value: "Selection(&S)"
+    value: "التحديد(&S)"
     submenu:
       "Add Selection &Above":
-        value: "Add Selection Above(&A)"
+        value: "أضف المحدد أعلاه(&A)"
       "Add Selection &Below":
-        value: "Add Selection Below(&B)"
+        value: "أضف المحدد أدناه(&B)"
       "S&plit into Lines":
-        value: "Split into Lines(&P)"
+        value: "إقسم إلى أسطر(&P)"
       "Single Selection":
-        value: "Single Selection"
+        value: "تحديد فردي"
       "Select to &Top":
-        value: "Select to Top(&T)"
+        value: "حدد حتى القمة(&T)"
       "Select to Botto&m":
-        value: "Select to Bottom(&M)"
+        value: "حدد حتى القاع(&M)"
       "Select &Line":
-        value: "Select Line(&L)"
+        value: "حدد السطر(&L)"
       "Select &Word":
-        value: "Select Word(&W)"
+        value: "حدد الكلمة(&W)"
       "Select to Beginning of W&ord":
-        value: "Select to Beginning of Word(&O)"
+        value: "حدد حتى بداية الكلمة(&O)"
       "Select to Beginning of L&ine":
-        value: "Select to Beginning of Line(&I)"
+        value: "حدد حتى بداية السطر(&I)"
       "Select to First &Character of Line":
-        value: "Select to First Character of Line(&C)"
+        value: "حدد حتى أةل حرف في السطر(&C)"
       "Select to End of Wor&d":
-        value: "Select to End of Word(&D)"
+        value: "حدد حتى نهاية الكلمة(&D)"
       "Select to End of Lin&e":
-        value: "Select to End of Line(&E)"
+        value: "حدد حتى نهاية السطر(&E)"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "حدد ما بين القوسين"
   "F&ind":
-    value: "Find(&I)"
+    value: "الإيجاد(&I)"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "جد في المحمل"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "استبدل في المحمل"
       "Select Next":
-        value: "Select Next"
+        value: "حدد التالي"
       "Select All":
-        value: "Select All"
+        value: "حدد الكل"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "بدل الإيجاد في المحمل"
       "Find in Project":
-        value: "Find in Project"
+        value: "جد في المشروع"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "بدل الإيجاد في المشروع"
       "Find All":
-        value: "Find All"
+        value: "جد الكل"
       "Find Next":
-        value: "Find Next"
+        value: "جد التالي"
       "Find Previous":
-        value: "Find Previous"
+        value: "جد السابق"
       "Replace Next":
-        value: "Replace Next"
+        value: "استبدل التالي"
       "Replace All":
-        value: "Replace All"
+        value: "إستبدل الكل"
       "Clear History":
-        value: "Clear History"
+        value: "إمسح التأريخ"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "جد محمل"
       "Find File":
-        value: "Find File"
+        value: "جد ملف"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "جد ملف معدل"
   "&Packages":
-    value: "Packages(&P)"
+    value: "الحزم(&P)"
   "&Help":
-    value: "Help(&H)"
+    value: "المساعدة(&H)"
     submenu:
       "View &Terms of Use":
-        value: "View &Terms of Use"
+        value: "إعرض &شروط الإستخدام"
       "View &License":
-        value: "View &License"
+        value: "إعرض ال&رخصة"
       "Restart and Install Update":
-        value: "Restart and Install Update"
+        value: "أعد التشغيل وثبت التحديث"
       "Check for Update":
-        value: "Check for Update"
+        value: "تحقق من التحديثات"
       "Checking for Update":
-        value: "Checking for Update"
+        value: "جاري التحقق من التحديثات"
       "Downloading Update":
-        value: "Downloading Update"
+        value: "جاري تنزيل التحديث"
       "&Documentation":
-        value: "Documentation(&D)"
+        value: "التوثيق(&D)"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "الأسئلة المتكررة"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "نقاشات المجتمع"
       "Report Issue":
-        value: "Report Issue"
+        value: "أبلغ عن مشكلة"
       "Search Issues":
-        value: "Search Issues"
+        value: "إبحث في المشاكل"
       "About Atom":
-        value: "About Atom"
+        value: "عن أتوم"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "دليل الترحيبس"
