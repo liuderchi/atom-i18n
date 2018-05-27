@@ -1,0 +1,120 @@
+Context:
+	"atom-workspace":
+		"application:inspect": "Інспектар элемента"
+	"atom-text-editor":
+		"color-picker:open": "Абраць колер"
+		"minimap:toggle": "Паказаць мінімапу"
+	"atom-text-editor, .overlayer":
+		"core:undo": "Адрабіць"
+		"core:redo": "Паўтарыць"
+		"core:cut": "Выразаць"
+		"core:copy": "Капіраваць"
+		"core:paste": "Уставіць"
+		"core:delete": "Выдаліць"
+		"core:select-all": "Вылучыць усё"
+		"pane:split-up-and-copy-active-item": "Падзяліць зверху"
+		"pane:split-down-and-copy-active-item": "Падзяліць знізу"
+		"pane:split-left-and-copy-active-item": "Падзяліць злева"
+		"pane:split-right-and-copy-active-item": "Падзяліць зправа"
+		"pane:close": "Закрыць панэль"
+	"atom-pane":
+		"pane:split-up-and-copy-active-item": "Падзяліць зверху"
+		"pane:split-down-and-copy-active-item": "Падзяліць знізу"
+		"pane:split-left-and-copy-active-item": "Падзяліць злева"
+		"pane:split-right-and-copy-active-item": "Падзяліць зправа"
+		"pane:close": "Закрыць панэль"
+	"atom-text-editor:not([mini])":
+		"encoding-selector:show": "Змяніць кадаванне"
+		"spell-check:correct-misspelling": "Карэктны правапіс"
+		"symbols-view:go-to-declaration": "Перайсці да аб'явы"
+	".overlayer":
+		"grammar-selector:show": "Змяніць сінтаксіс"
+	".image-view":
+		"image-view:reload": "Перазагрузіць выявы"
+	".tab":
+		"tabs:close-tab": "Закрыць укладку"
+		"tabs:close-other-tabs": "Закрыць іншыя ўкладкі"
+		"tabs:close-tabs-to-right": "Закрыць укладкі зправа"
+		"tabs:close-tabs-to-left": "Закрыць укладкі злева"
+		"tabs:close-saved-tabs": "Закрыць захаваныя ўкладкі"
+		"tabs:close-all-tabs": "Закрыць усе ўкладкі"
+		"tabs:split-up": "Падзяліць зверху"
+		"tabs:split-down": "Падзяліць знізу"
+		"tabs:split-left": "Падзяліць злева"
+		"tabs:split-right": "Падзяліць зправа"
+	".tab.texteditor":
+		"tabs:open-in-new-window": "Адкрыць у новым акне"
+	".tab.pending-tab":
+		"tabs:keep-pending-tab": "Пакінуць укладку чакаць"
+	".tab-bar":
+		"pane:reopen-closed-item": "Адкрыць закрытыя ўкладкі"
+	".tree-view .full-menu":
+		"tree-view:add-file": "Новы файл"
+		"tree-view:add-folder": "Новы каталог"
+		"tree-view:move": "Змяніць назву"
+		"tree-view:duplicate": "Дубляваць"
+		"tree-view:remove": "Выдаліць"
+		"tree-view:copy": "Капіраваць"
+		"tree-view:cut": "Выразаць"
+		"tree-view:paste": "Уставіць"
+		"tree-view:open-selected-entry-up": "Падзяліць зверху"
+		"tree-view:open-selected-entry-down": "Падзяліць знізу"
+		"tree-view:open-selected-entry-left": "Падзяліць злева"
+		"tree-view:open-selected-entry-right": "Падзяліць зправа"
+		"application:add-project-folder": "Дадаць каталог праекта"
+		"tree-view:copy-full-path": "Скапіраваць увесь шлях"
+		"tree-view:copy-project-path": "Скапіраваць шлях праекта"
+		"tree-view:open-in-new-window": "Адкрыць у новым акне"
+	".tree-view .full-menu [is=\"tree-view-file\"]":
+		"tree-view:open-selected-entry-up": "Падзяліць зверху"
+		"tree-view:open-selected-entry-down": "Падзяліць знізу"
+		"tree-view:open-selected-entry-left": "Падзяліць злева"
+		"tree-view:open-selected-entry-right": "Падзяліць зправа"
+	".tree-view .full-menu .project-root > .header":
+		"tree-view:add-file": "Новы файл"
+		"tree-view:add-folder": "Новы каталог"
+		"tree-view:move": "Змяніць назву"
+		"tree-view:duplicate": "Дубляваць"
+		"tree-view:remove": "Выдаліць"
+		"tree-view:copy": "Капіраваць"
+		"tree-view:cut": "Выразаць"
+		"tree-view:paste": "Уставіць"
+		"tree-view:open-selected-entry-up": "Падзяліць зверху"
+		"tree-view:open-selected-entry-down": "Падзяліць знізу"
+		"tree-view:open-selected-entry-left": "Падзяліць злева"
+		"tree-view:open-selected-entry-right": "Падзяліць зправа"
+		"application:add-project-folder": "Дадаць каталог праекта"
+		"tree-view:remove-project-folder": "Выдаліць каталог праекта"
+		"tree-view:copy-full-path": "Скапіраваць увесь шлях"
+		"tree-view:copy-project-path": "Скапіраваць шлях праекта"
+		"tree-view:open-in-new-window": "Адкрыць у новым акне"
+	".platform-darwin .tree-view .full-menu":
+		"tree-view:show-in-file-manager": "Паказаць у пошукаўцы"
+	".platform-win32 .tree-view .full-menu":
+		"tree-view:show-in-file-manager": "Паказаць у правадніку"
+	".platform-linux .tree-view .full-menu":
+		"tree-view:show-in-file-manager": "Паказаць у кіраўніку файлаў"
+	".tree-view li.directory":
+		"project-find:show-in-current-directory": "Шукаць у каталозе"
+	".tree-view .multi-select":
+		"tree-view:remove": "Выдаліць"
+		"tree-view:copy": "Капіраваць"
+		"tree-view:cut": "Выразаць"
+		"tree-view:paste": "Уставіць"
+	"atom-pane[data-active-item-path] .item-views":
+		"tree-view:reveal-active-file": "Паказаць у выглядзе дрэва"
+	"atom-pane[data-active-item-path] .tab.active":
+		"tree-view:rename": "Змяніць назву"
+		"tree-view:reveal-active-file": "Паказаць у выглядзе дрэва"
+	".platform-darwin atom-pane[data-active-item-path] .tab.active":
+		"tree-view:show-current-file-in-file-manager": "Паказаць у пошукаўцы"
+	".platform-win32 atom-pane[data-active-item-path] .tab.active":
+		"tree-view:show-current-file-in-file-manager": "Паказаць у правадніку"
+	".platform-linux atom-pane[data-active-item-path] .tab.active":
+		"tree-view:show-current-file-in-file-manager": "Паказаць у кіраўніку файлаў"
+	".platform-darwin atom-text-editor:not([mini])":
+		"tree-view:show-current-file-in-file-manager": "Паказаць у пошукаўцы"
+	".platform-win32 atom-text-editor:not([mini])":
+		"tree-view:show-current-file-in-file-manager": "Паказаць у правадніку"
+	".platform-linux atom-text-editor:not([mini])":
+		"tree-view:show-current-file-in-file-manager": "Паказаць у кіраўніку файлаў"

@@ -1,0 +1,24 @@
+Welcome:
+	tabTitle: "Вітаем"
+	subtitle:
+		text1: "Пашыраемы тэкставы рэдактар 21"
+		superscript: "st"
+		text2: " стагоддзя"
+	help:
+		forHelpVisit: "Па дапамогу завітайце на"
+		atomDocs:
+			text1: "The "
+			link: "Atom docs"
+			text2: " за дапаможнікамі і API"
+			_template: "${text1}<a>${link}</a>${text2}"
+		atomForum:
+			text1: "Форум Atom "
+			link: "discuss.atom.io"
+			text2: ""
+			_template: "${text1}<a>${link}</a>${text2}"
+		atomOrg:
+			text1: "The "
+			link: "Atom org"
+			text2: ". Тут знаходзяцца ўсе пакункі, створаныя на GitHub"
+			_template: "${text1}<a>${link}</a>${text2}"
+	showWelcomeGuide: "Паказваць падчас запуску Atom"
