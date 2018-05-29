@@ -1,5 +1,5 @@
 Settings:
-  "tab-title": "Settings"
+  "tab-title": "Configurações"
   menu: [
     {
       _label: "Core"
@@ -11,7 +11,7 @@ Settings:
     }
     {
       _label: "System"
-      value: "System"
+      value: "Sistema"
     }
     {
       _label: "Keybindings"
@@ -19,62 +19,62 @@ Settings:
     }
     {
       _label: "Packages"
-      value: "Packages"
+      value: "Pacotes"
     }
     {
       _label: "Themes"
-      value: "Themes"
+      value: "Temas"
     }
     {
       _label: "Updates"
-      value: "Updates"
+      value: "Atualizações"
     }
     {
       _label: "Install"
-      value: "Install"
+      value: "Instalar"
     }
   ]
-  "btn-open-config-folder": "Open Config Folder"
+  "btn-open-config-folder": "Abrir pasta de configuralções"
   sectionHeadings: [
-    {_label: "Core Settings", value: "Core Settings"}
-    {_label: "Editor Settings", value: "Editor Settings"}
-    {_label: "System Settings", value: "System Settings"}
+    {_label: "Core Settings", value: "Configurações principais"}
+    {_label: "Editor Settings", value: "Configurações do editor"}
+    {_label: "System Settings", value: "Configurações do sistema"}
     {_label: "Keybindings", value: "Keybindings"}
-    {_label: "Installed Packages", value: "Installed Packages"}
-    {_label: "Choose a Theme", value: "Choose a Theme"}
-    {_label: "Installed Themes", value: "Installed Themes"}
-    {_label: "Install Packages", value: "Install Packages"}
-    {_label: "Featured Packages", value: "Featured Packages"}
-    {_label: "Install Themes", value: "Install Themes"}
-    {_label: "Featured Themes", value: "Featured Themes"}
-    {_label: "Available Updates", value: "Available Updates"}
+    {_label: "Installed Packages", value: "Pacotes instalados"}
+    {_label: "Choose a Theme", value: "Escolher um tema"}
+    {_label: "Installed Themes", value: "Tema instalado"}
+    {_label: "Install Packages", value: "Instalar pacote"}
+    {_label: "Featured Packages", value: "Pacotes em destaque"}
+    {_label: "Install Themes", value: "Instalar tema"}
+    {_label: "Featured Themes", value: "Temas em destaque"}
+    {_label: "Available Updates", value: "Atualizações disponíveis"}
   ]
   subSectionHeadings: [
-    {_label: "Invisible", value: "Invisible"}
-    {_label: "Community Packages", value: "Community Packages"}
-    {_label: "Core Packages", value: "Core Packages"}
-    {_label: "Development Packages", value: "Development Packages"}
-    {_label: "Git Packages", value: "Git Packages"}
-    {_label: "Community Themes", value: "Community Themes"}
-    {_label: "Core Themes", value: "Core Themes"}
-    {_label: "Development Themes", value: "Development Themes"}
-    {_label: "Git Themes", value: "Git Themes"}
+    {_label: "Invisible", value: "Invísivel"}
+    {_label: "Community Packages", value: "Pacotes da comunidade"}
+    {_label: "Core Packages", value: "Pacotes principais"}
+    {_label: "Development Packages", value: "Pacotes em desenvolvimento"}
+    {_label: "Git Packages", value: "Pacotes Git"}
+    {_label: "Community Themes", value: "Temas da comunidade"}
+    {_label: "Core Themes", value: "Temas principais"}
+    {_label: "Development Themes", value: "Temas em desenvolvimento"}
+    {_label: "Git Themes", value: "Temas Git"}
   ]
   settings: {
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'These are Atom\'s core settings which affect behavior
-               unrelated to text editing. Individual packages may have
-               their own additional settings found within their package
-               card in the <a class="link packages-open">Packages list</a>.'
+        html: 'Estas são as principais configurações do Atom que afetam o comportamento 
+               não relacionado à edição de texto. Pacotes individuais podem ter 
+               suas próprias configurações adicionais encontradas no cartão do 
+               pacote em <a class="link packages-open">Lista de pacotes</a>.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'These settings are related to text editing. Some of these
-               can be overriden on a per-language basis. Check language
-               settings by clicking its package card in the
-               <a class="link packages-open">Packages list</a>.'
+        html: 'Essas configurações estão relacionadas à edição de texto. Algumas delas 
+               podem ser substituídas em uma base por linguagem. Verifique a 
+               configuração da linguagem clicando no seu cartão de pacote em 
+               <a class="link packages-open">Lista de pacotes</a>.'
       }
     ]
     controls: [
@@ -87,33 +87,33 @@ Settings:
       {
         _id: 'core.audioBeep'
         title: "Audio Beep"
-        desc: "Trigger the system's beep sound when certain actions cannot be
-               executed or there are no results."
+        desc: "Disparar o beep do sistema quando certas ações não podem 
+               ser executadas ou não tiver resuldados."
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automatically Update"
-        desc: "Automatically update Atom when a new release is available."
+        title: "Atualizar automaticamente"
+        desc: "Atualizar automaticamente o Atom quando uma nova versão estiver disponível."
       }
       {
         _id: 'core.autoHideMenuBar'
-        title: "Auto Hide Menu Bar"
-        desc: "Automatically hide the menu bar and toggle it by pressing Alt. This is only supported on Windows &amp; Linux."
+        title: "Esconder automaticamente a barra de menu"
+        desc: "Esconder automaticamente a barra de menu e ativar quando pressionar Alt. Isto é suportado somente no &amp; Linux."
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
-        desc: "Close corresponding editors when a file is deleted outside Atom."
+        title: "Fechar aba de arquivos excluídos"
+        desc: "Fechar editores correspondentes quando um arquivo é excluído fora do Atom."
       }
       {
         _id: 'core.closeEmptyWindows'
-        title: "Close Empty Windows"
-        desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
+        title: "Fechar janelas vazias"
+        desc: "Quando uma janela sem abas ou painéis abertos receber o comando 'Fechar Aba', feche essa janela."
       }
       {
         _id: 'core.destroyEmptyPanes'
-        title: "Destroy Empty Panes"
-        desc: "When the last tab of a pane is closed, remove that pane as well."
+        title: "Destruir painéis vazios"
+        desc: "Quando a última aba de um painel é fechada, remova esse painel também."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
@@ -122,21 +122,21 @@ Settings:
       }
       {
         _id: 'core.fileEncoding'
-        title: "File Encoding"
-        desc: "Default character set encoding to use when reading and writing files."
+        title: "Codificação de arquivos"
+        desc: "Codificação do conjunto de caracteres padrão a ser usada ao ler e gravar arquivos."
       }
       {
         _id: 'core.fileSystemWatcher'
-        title: "File System Watcher"
-        desc: "Choose the underlying implementation used to watch for filesystem changes. Emulating changes will miss any events caused by applications other than Atom, but may help prevent crashes or freezes."
+        title: "Monitor do sistema de arquivos"
+        desc: "Escolha a implementação subjacente usada para observar alterações no sistema de arquivos. A emulação de alterações perderá todos os eventos causados por aplicativos diferentes do Atom, mas pode ajudar a evitar falhas ou congelamentos."
         select:
           native: "Native operating system APIs"
           atom: "Emulated with Atom events"
       }
       {
         _id: 'core.followSymlinks'
-        title: "Follow Symlinks"
-        desc: "Follow symbolic links when searching files and when opening files with the fuzzy finder."
+        title: "Seguir links simbólicos"
+        desc: "Seguir links simbólicos quando procurar por arquivos e quando abrir arquivos com o localizador difuso."
       }
       {
         _id: 'core.ignoredNames'
@@ -145,8 +145,8 @@ Settings:
       }
       {
         _id: 'core.openEmptyEditorOnStart'
-        title: "Open Empty Editor On Start"
-        desc: "Automatically open an empty editor on startup."
+        title: "Abrir Editor vazio ao iniciar"
+        desc: "Automaticamente abrir um editor vazio ao iniciar."
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
@@ -154,8 +154,8 @@ Settings:
       }
       {
         _id: 'core.projectHome'
-        title: "Project Home"
-        desc: "The directory where projects are assumed to be located. Packages created using the Package Generator will be stored here by default."
+        title: "Página inicial do projeto"
+        desc: "O diretório onde os projetos serão localizados. Pacotes criados usando o Gerador de Pacotes serão armazenados aqui por padrão."
       }
       {
         _id: 'core.reopenProjectMenuCount'
@@ -164,7 +164,7 @@ Settings:
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "Restore Previous Windows On Start"
+        title: "Restaurar janelas anteriores ao iniciar"
         desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
         select:
           no: "no"
@@ -173,27 +173,27 @@ Settings:
       }
       {
         _id: 'core.telemetryConsent'
-        title: "Send Telemetry to the Atom Team"
-        desc: "Allow usage statistics and exception reports to be sent to the Atom team to help improve the product."
+        title: "Enviar telemetria para a equipe Atom"
+        desc: "Permitir que estatísticas de uso e relatórios de exceção sejam enviados para a equipe Atom para ajudar a melhorar o produto."
         select:
-          limited: "Allow limited anonymous usage stats, exception and crash reporting"
-          no: "Do not send any telemetry data"
-          undecided: "Undecided (Atom will ask again next time it is launched)"
+          limited: "Permitir estatísticas de uso anônimo limitado, exceção e relatórios de falhas"
+          no: "Não enviar nenhum dado de telemetria"
+          undecided: "Indeciso (Atom perguntará novamente na próxima vez que for iniciado)"
       }
       {
         _id: 'core.titleBar'
-        title: "Title Bar"
+        title: "Barra de título"
         desc: "Experimental: A <code>custom</code> title bar adapts to theme colors. Choosing <code>custom-inset</code> adds a bit more padding. The title bar can also be completely <code>hidden</code>.<br>Note: Switching to a custom or hidden title bar will compromise some functionality.<br>This setting will require a relaunch of Atom to take effect."
         select:
-          native: "native"
-          custom: "custom"
+          native: "nativo"
+          custom: "personalizado"
           "custom-inset": "custom-inset"
           hidden: "hidden"
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use Proxy Settings When Calling APM"
-        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        title: "Usar configurações de proxy quando chamar APM"
+        desc: "Usar as configurações de proxy detectadas quando chamar a ferramenta de linha de comando <code>apm</code>."
       }
       {
         _id: 'core.versionPinnedPackages'
@@ -217,17 +217,17 @@ Settings:
       }
       {
         _id: 'editor.autoIndent'
-        title: "Auto Indent"
-        desc: "Automatically indent the cursor when inserting a newline."
+        title: "Auto Indentar"
+        desc: "Automaticamente indentar o cursor quando inserir uma nova linha."
       }
       {
         _id: 'editor.autoIndentOnPaste'
-        title: "Auto Indent On Paste"
-        desc: "Automatically indent pasted text based on the indentation of the previous line."
+        title: "Auto ao colar"
+        desc: "Automaticamente identar textos colados baseado na identação da linha anterior."
       }
       {
         _id: 'editor.backUpBeforeSaving'
-        title: "Back Up Before Saving"
+        title: "Back Up antes de salvar"
         desc: ""
       }
       {
@@ -242,8 +242,8 @@ Settings:
       }
       {
         _id: 'editor.fontSize'
-        title: "Font Size"
-        desc: "Height in pixels of editor text."
+        title: "Tamanho da fonte"
+        desc: "Altura em pixels do editor de texto."
       }
       {
         _id: 'editor.invisibles.cr'
@@ -272,8 +272,8 @@ Settings:
       }
       {
         _id: 'editor.lineHeight'
-        title: "Line Height"
-        desc: "Height of editor lines, as a multiplier of font size."
+        title: "Altura da linha"
+        desc: "Altura das linha do editor, como um multiplicador do tamanho da fonte."
       }
       {
         _id: 'editor.maxScreenLineLength'
@@ -321,8 +321,8 @@ Settings:
       }
       {
         _id: 'editor.showLineNumbers'
-        title: "Show Line Numbers"
-        desc: "Show line numbers in the editor's gutter."
+        title: "Exibir números de linha"
+        desc: "Exibir o número de linhas no rodapé do editor."
       }
       {
         _id: 'editor.softTabs'
@@ -403,29 +403,29 @@ Settings:
     ]
   }
   system: {
-    notes: "These settings determine how Atom integrates with your operating system."
+    notes: "Essas configurações determinam como o Atom se integra ao seu sistema operacional."
   }
   keymaps: {
     notes: {
-      text1: "You can override these keybindings by copying "
-      text2: "and pasting them into "
-      text3: "your keymap file"
+      text1: "Você pode substituir essas combinações de teclas copiando "
+      text2: "e colando em "
+      text3: "seu arquivo de mapa de teclas"
       text4: ""   # optional
       _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
     }
-    "search-bar-placeholder": "Search keybindings"
+    "search-bar-placeholder": "Pesquisar atalhos de teclado"
     "table-header-keystroke": "Keystroke"
-    "table-header-command": "Command"
-    "table-header-source": "Source"
+    "table-header-command": "Comando"
+    "table-header-source": "Origem"
     "table-header-selector": "Selector"
   }
   packages: {
-    searchBarText: 'Filter packages by name'
+    searchBarText: 'Filtrar pacotes por nome'
   }
   themes: {
     notes: {
-      text1: "You can also style Atom by editing "
-      text2: "your stylesheet"
+      text1: "Você também pode estilizar o Atom editando "
+      text2: "sua folha de estilo"
       text3: ""   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
@@ -436,27 +436,27 @@ Settings:
     searchBarText: 'Filter themes by name'
   }
   updates: {
-    "check-updates": "Check for Updates"
-    "update-all": "Update All"
-    "checking-updates": "Checking for updates..."
-    "all-updated-message": "All of your installed packages are up to date!"
+    "check-updates": "Verificar por atualizações"
+    "update-all": "Atualizar tudo"
+    "checking-updates": "Verificando por atualizações..."
+    "all-updated-message": "Todos o seus pacotes instalados estão atualizados!"
   }
   install: {
     notes: {
-      text1: "Packages are published to "
-      text2: " and are installed to "
+      text1: "Pactoes são publicados em "
+      text2: " e são instalados em "
       text3: ""   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
-    "searchbar-placeholder": "Search packages"
-    "btn-packages": "Packages"
-    "btn-themes": "Themes"
+    "searchbar-placeholder": "Procurar pacotes"
+    "btn-packages": "Pacotes"
+    "btn-themes": "Temas"
   }
   "control-btns":{
-    install: "Install"
-    update: "Update to"
-    setting: "Settings"
-    uninstall: "Uninstall"
-    disable: "Disable"
-    enable: "Enable"
+    install: "Instalar"
+    update: "Atualizar para"
+    setting: "Configurações"
+    uninstall: "Deinstalar"
+    disable: "Desativar"
+    enable: "Ativar"
   }
