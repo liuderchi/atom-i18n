@@ -3,7 +3,9 @@
 
 *   @liuderchi
 
-# def/ar/*.cson
+def/ar/*.cson        @AmrIKhudair
+
+def/be/*.cson        @antikruk
 
 def/de/*.cson        @Acer54 @socialmedialabs
 def/de/settings.cson @Acer54  @queenar  @socialmedialabs
@@ -23,12 +25,13 @@ def/it/*.cson       @francematt @LorenzoAncora
 def/ja/*.cson        @shingo-uzuki @Umoxfo
 
 def/ko/*.cson        @preco21  @chibichichi  @Riyeon  @nerhis
+def/ko/welcome.cson  @jonghyeok
 
 def/nl/*.cson        @laurensbrand
 
 def/pl/*.cson        @nolt
 
-def/pt-br/*.cson     @jsolisu
+def/pt-br/*.cson     @jsolisu @rclenzi
 
 def/ru/*.cson        @Anonym0uz  @Driglu4it
 

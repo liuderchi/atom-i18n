@@ -1,3 +1,10 @@
+## 0.15 - Arabic, Belarusian support
+* Arabic i18n #173
+* Belarusian i18n #179
+* translate Settings tab when reopen #169
+* Korean update #171
+* Portuguese (Brazil) update #174
+
 ## 0.14.1 - Polish, Japanese update
 * welcome page fixes (Thanks [Lorenzo Ancora](//github.com/LorenzoAncora)) #164 #168
 * Polish update (100%) #160

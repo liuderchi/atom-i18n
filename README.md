@@ -31,6 +31,7 @@ Community-driven translation. :family:
 | Language | code | status |
 | -------- |:----:|:-------|
 | Arabic | `ar` | :exclamation: [I can translate][ar-issue-filter] |
+| Belarusian | `be` | :white_check_mark: 100% |
 | German | `de` | :warning: 99% [I can translate][de-issue-filter] |
 | Spanish | `es` | :white_check_mark: 100% |
 | Finnish | `fi` | :white_check_mark: 100% |
@@ -66,11 +67,11 @@ Community-driven translation. :family:
 ## Thanks to Contributors
 
   - Chinese (Simplified): [trifirew](//github.com/trifirew)
-  - Korean: [preco21](//github.com/preco21) [chibichichi](//github.com/chibichichi) [Riyeon](//github.com/Riyeon) [nerhis](//github.com/nerhis)
+  - Korean: [preco21](//github.com/preco21) [chibichichi](//github.com/chibichichi) [Riyeon](//github.com/Riyeon) [nerhis](//github.com/nerhis) [jonghyeok](//github.com/jonghyeok)
   - Spanish: [stsewd](//github.com/stsewd)
   - German: [Acer54](//github.com/Acer54) [queenar](//github.com/queenar)
   - Russian: [Anonym0uz](//github.com/Anonym0uz) [Driglu4it](//github.com/Driglu4it)
-  - Portuguese (Brazilian): [jsolisu](//github.com/jsolisu)
+  - Portuguese (Brazilian): [jsolisu](//github.com/jsolisu) [rclenzi](//github.com/rclenzi)
   - Dutch: [laurensbrand](//github.com/laurensbrand)
   - Polish: [Jeplaa](//github.com/Jeplaa)
   - French: [chezyann](//github.com/chezyann) [Vivalzar](//github.com/Vivalzar) [DThought](//github.com/DThought)
@@ -80,6 +81,8 @@ Community-driven translation. :family:
   - Japanese: [shingo-uzuki](//github.com/shingo-uzuki) [Umoxfo](//github.com/Umoxfo)
   - Hungarian: [dominicus-75](//github.com/dominicus-75)
   - Finnish: [an7oine](//github.com/an7oine)
+  - Arabic: [AmrIKhudair](//github.com/AmrIKhudair)
+  - Belarusian: [antikruk](//github.com/antikruk)
 
 
 ## Reference
@@ -135,6 +138,7 @@ Community-driven translation. :family:
 [demo-ko]: https://cloud.githubusercontent.com/assets/4994705/23652303/54ee6fd0-0363-11e7-9b34-da9e23181be7.png "demo-ko"
 
 [ar-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ar%22 "ar-issue-filter"
+[be-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20be%22 "be-issue-filter"
 [es-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20es%22 "es-issue-filter"
 [de-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20de%22 "de-issue-filter"
 [fi-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fi%22 "fi-issue-filter"

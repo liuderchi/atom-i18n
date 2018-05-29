@@ -46,6 +46,10 @@
           "description": "اللغة العربية (ar)"
         },
         {
+          "value": "be",
+          "description": "Беларуская мова (be)"
+        },
+        {
           "value": "de",
           "description": "Deutsch (de)"
         },
