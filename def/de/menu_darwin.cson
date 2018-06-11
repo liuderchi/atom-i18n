@@ -206,13 +206,13 @@ Menu:
         value: "Entwickler"
         submenu:
           "Open In Dev Mode…":
-            value: "Öffnen im Dev Modus..."
+            value: "Öffnen im Entwicklermodus..."
           "Reload Window":
             value: "Fenster neu laden"
           "Run Package Specs":
             value: "Paket Spezifikationen ausführen"
           "Run Benchmarks":
-            value: "Run Benchmarks"
+            value: "Benchmarks ausführen"
           "Toggle Developer Tools":
             value: "Entwickler Tools ein-/ausschalten"
       "Increase Font Size":
