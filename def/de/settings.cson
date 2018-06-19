@@ -19,7 +19,7 @@ Settings:
     }
     {
       _label: "Packages"
-      value: "Pakete"
+      value: "Plugins"
     }
     {
       _label: "Themes"
@@ -40,21 +40,21 @@ Settings:
     {_label: "Editor Settings", value: "Editor-Einstellungen"}
     {_label: "System Settings", value: "Systemeinstellungen"}
     {_label: "Keybindings", value: "Tastenkürzel"}
-    {_label: "Installed Packages", value: "Installierte Pakete"}
+    {_label: "Installed Packages", value: "Installierte Plugins"}
     {_label: "Choose a Theme", value: "Ein Theme auswählen"}
     {_label: "Installed Themes", value: "Installierte Themes"}
-    {_label: "Install Packages", value: "Paket installieren"}
-    {_label: "Featured Packages", value: "Vorgestellte Pakete"}
+    {_label: "Install Packages", value: "Plugin installieren"}
+    {_label: "Featured Packages", value: "Vorgestellte Plugins"}
     {_label: "Install Themes", value: "Themes installieren"}
     {_label: "Featured Themes", value: "Vorgestellte Themes"}
     {_label: "Available Updates", value: "Verfügbare Aktualisierungen"}
   ]
   subSectionHeadings: [
     {_label: "Invisible", value: "Unsichtbar"}
-    {_label: "Community Packages", value: "Community-Pakete"}
-    {_label: "Core Packages", value: "Core-Pakete"}
-    {_label: "Development Packages", value: "Entwicklungs-Pakete"}
-    {_label: "Git Packages", value: "Git-Pakete"}
+    {_label: "Community Packages", value: "Community-Plugins"}
+    {_label: "Core Packages", value: "Core-Plugins"}
+    {_label: "Development Packages", value: "Entwicklungs-Plugins"}
+    {_label: "Git Packages", value: "Git-Plugins"}
     {_label: "Community Themes", value: "Community-Themes"}
     {_label: "Core Themes", value: "Core-Themes"}
     {_label: "Development Themes", value: "Entwickler-Themes"}
@@ -64,11 +64,11 @@ Settings:
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'Dies sind Atoms Core-Einstellungen, welche aber nicht das Verhalten zum Bearbeiten von Texten beeinflussen (zu finden unter Editor). Individuelle Pakete können eigene Einstellungen haben, welche auf der jeweiligen Package-Einstellungsseite in der <a class="link packages-open">Liste aller installierten Pakete</a> zu finden sind.'
+        html: 'Dies sind Atoms Core-Einstellungen, welche aber nicht das Verhalten zum Bearbeiten von Texten beeinflussen (zu finden unter Editor). Individuelle Plugins können eigene Einstellungen haben, welche auf der jeweiligen Package-Einstellungsseite in der <a class="link packages-open">Liste aller installierten Plugins</a> zu finden sind.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'Diese Einstellungen hängen mit dem Bearbeiten von Text zusammen. Einige davon können auf Basis der jeweiligen Sprache übergangen werden. Prüfe die jeweiligen Spracheinstellungen auf der jeweiligen Package-Einstellungsseite in der <a class="link packages-open">Liste aller installierten Pakete</a>.'
+        html: 'Diese Einstellungen hängen mit dem Bearbeiten von Text zusammen. Einige davon können auf Basis der jeweiligen Sprache übergangen werden. Prüfe die jeweiligen Spracheinstellungen auf der jeweiligen Package-Einstellungsseite in der <a class="link packages-open">Liste aller installierten Plugins</a>.'
       }
     ]
     controls: [
@@ -110,7 +110,7 @@ Settings:
       {
         _id: 'core.excludeVcsIgnoredPaths'
         title: "Von VCS ignorierte Pfade ausschließen"
-        desc: "Dateien und Pfade welche durch das VCS eines Projektes ignoriert werden, werden auch von einigen Packagesn wie fuzzy Finder sowie Suchen/Ersetzen ignoriert. Zum Beispiel, wenn Projekte welche Git benutzen gewisse Pfade in .gitignore definiert haben. Individuelle Pakete könnten auch zusätzliche Einstellungen bzgl. ignorieren von VCS ignorierten Dateien oder Ordnern enthalten."
+        desc: "Dateien und Pfade welche durch das VCS eines Projektes ignoriert werden, werden auch von einigen Packagesn wie fuzzy Finder sowie Suchen/Ersetzen ignoriert. Zum Beispiel, wenn Projekte welche Git benutzen gewisse Pfade in .gitignore definiert haben. Individuelle Plugins könnten auch zusätzliche Einstellungen bzgl. ignorieren von VCS ignorierten Dateien oder Ordnern enthalten."
       }
       {
         _id: 'core.fileEncoding'
@@ -133,7 +133,7 @@ Settings:
       {
         _id: 'core.ignoredNames'
         title: "Ignorierte Namen"
-        desc: "Liste von <code>glob patterns</code>. Dateien und Ordner, welche diesen Mustern entsprechen werden von einigen Packagesn ignoriert, z. B. fuzzy Finder und Baumansicht. Individuelle Pakete könnten zusätzliche Einstellungen zum Ignorieren von Namen in deren jeweiligen Einstellungen enthalten."
+        desc: "Liste von <code>glob patterns</code>. Dateien und Ordner, welche diesen Mustern entsprechen werden von einigen Packagesn ignoriert, z. B. fuzzy Finder und Baumansicht. Individuelle Plugins könnten zusätzliche Einstellungen zum Ignorieren von Namen in deren jeweiligen Einstellungen enthalten."
       }
       {
         _id: 'core.openEmptyEditorOnStart'
@@ -142,12 +142,12 @@ Settings:
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Pakete mit deaktivierten Tastaturkürzeln"
+        title: "Plugins mit deaktivierten Tastaturkürzeln"
       }
       {
         _id: 'core.projectHome'
         title: "Projekt-Heimverzeichnis"
-        desc: "Verzeichnis, in dem Projekte gespeichert werden. Pakete, welche mittels dem Packages-Generator erstellt werden, werden dort standardmäßig abgelegt."
+        desc: "Verzeichnis, in dem Projekte gespeichert werden. Plugins, welche mittels dem Plugin-Generator erstellt werden, werden dort standardmäßig abgelegt."
       }
       {
         _id: 'core.reopenProjectMenuCount'
@@ -320,7 +320,7 @@ Settings:
       {
         _id: 'editor.softWrapAtPreferredLineLength'
         title: "Soft-Wrap anhand bevorzugter Zeilenlänge"
-        desc: "Anstelle eines Zeilenumbruches an der Fensterbreite, wird die Zeile bei der Anzahl der Zeichen umgebrochen, welche in <code>Bevorzugte Zeilenlänge</code> Einstellung defininiert ist. Dies hat nur einen Effekt, wenn die Soft Wrap Einstellung global oder für die aktuelle Sprache aktiviert ist. <strong>Beachte:</strong> Wenn du die Wrap-Hilfe (vertikale Linie) verbergen willst kannst du das Paket <code>wrap-guide</code> deaktivieren."
+        desc: "Anstelle eines Zeilenumbruches an der Fensterbreite, wird die Zeile bei der Anzahl der Zeichen umgebrochen, welche in <code>Bevorzugte Zeilenlänge</code> Einstellung defininiert ist. Dies hat nur einen Effekt, wenn die Soft Wrap Einstellung global oder für die aktuelle Sprache aktiviert ist. <strong>Beachte:</strong> Wenn du die Wrap-Hilfe (vertikale Linie) verbergen willst kannst du das Plugin <code>wrap-guide</code> deaktivieren."
       }
       {
         _id: 'editor.softWrapHangingIndent'
@@ -382,7 +382,7 @@ Settings:
     "table-header-selector": "Selektor"
   }
   packages: {
-    searchBarText: 'Pakete nach Namen filtern'
+    searchBarText: 'Plugins nach Namen filtern'
   }
   themes: {
     notes: {
@@ -401,17 +401,17 @@ Settings:
     "check-updates": "Suche nach Aktualisierungen"
     "update-all": "Alle aktualisieren"
     "checking-updates": "Suche nach Aktualisierungen..."
-    "all-updated-message": "Alle deine installierten Pakete sind aktuell!"
+    "all-updated-message": "Alle deine installierten Plugins sind aktuell!"
   }
   install: {
     notes: {
-      text1: "Pakete sind veröffentlicht "
-      text2: " und wurden installiert nach "
-      text3: ""   # optional
+      text1: "Plugins sind auf "
+      text2: " veröffentlicht und wurden in "
+      text3: " installiert"   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
-    "searchbar-placeholder": "Suche Pakete"
-    "btn-packages": "Pakete"
+    "searchbar-placeholder": "Durchsuche Plugins"
+    "btn-packages": "Plugins"
     "btn-themes": "Themes"
   }
   "control-btns":{
