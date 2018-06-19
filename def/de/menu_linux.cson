@@ -133,11 +133,11 @@ Menu:
       "Init Script…":
         value: "Startscript..."
       "Keymap…":
-        value: "Tastaturbelegung..."
+        value: "Keymap..."
       "Snippets…":
         value: "Vorlagen..."
       "Stylesheet…":
-        value: "Formatvorlage..."
+        value: "Stylesheet..."
       "Reflow Selection":
         value: "Umformatieren der Auswahl"
       Bookmark:

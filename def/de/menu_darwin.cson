@@ -15,11 +15,11 @@ Menu:
       "Init Script…":
         value: "Startscript..."
       "Keymap…":
-        value: "Tastaturbelegung..."
+        value: "Keymap..."
       "Snippets…":
         value: "Vorlagen..."
       "Stylesheet…":
-        value: "Formatvorlage..."
+        value: "Stylesheet..."
       "Install Shell Commands":
         value: "Shell-Kommandos installieren"
       "Hide Atom":
