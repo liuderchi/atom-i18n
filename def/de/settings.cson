@@ -320,7 +320,7 @@ Settings:
       {
         _id: 'editor.softWrapAtPreferredLineLength'
         title: "Soft-Wrap anhand bevorzugter Zeilenlänge"
-        desc: "Anstelle eines Zeilenumbruches an der Fensterbreite, wird die Zeile bei der Anzahl der Zeichen umgebrochen, welche in <code>Bevorzugte Zeilenlänge</code> Einstellung defininiert ist. Dies hat nur einen Effekt, wenn die Soft Wrap Einstellung global oder für die aktuelle Sprache aktiviert ist. <strong>Beachte:</strong> Wenn du die Wrap-Hilfe (vertikale Linie) verbergen willst kannst du das Plugin <code>wrap-guide</code> de-aktivieren."
+        desc: "Anstelle eines Zeilenumbruches an der Fensterbreite, wird die Zeile bei der Anzahl der Zeichen umgebrochen, welche in <code>Bevorzugte Zeilenlänge</code> Einstellung defininiert ist. Dies hat nur einen Effekt, wenn die Soft Wrap Einstellung global oder für die aktuelle Sprache aktiviert ist. <strong>Beachte:</strong> Wenn du die Wrap-Hilfe (vertikale Linie) verbergen willst kannst du das Plugin <code>wrap-guide</code> deaktivieren."
       }
       {
         _id: 'editor.softWrapHangingIndent'
@@ -386,7 +386,7 @@ Settings:
   }
   themes: {
     notes: {
-      text1: "Atom kann durch editieren "
+      text1: "Atom kann durch Editieren "
       text2: "deines Stylesheets"
       text3: " angepasst werden"   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
