@@ -24,13 +24,13 @@ Menu:
       "Config…":
         value: "Konfiguration..."
       "Init Script…":
-        value: "Init Script..."
+        value: "Startscript..."
       "Keymap…":
-        value: "Keymap..."
+        value: "Tastaturbelegung..."
       "Snippets…":
-        value: "Snippets..."
+        value: "Vorlagen..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Formatvorlage..."
       "&Save":
         value: "&Speichern"
       "Save &As…":
@@ -63,7 +63,7 @@ Menu:
       "&Paste":
         value: "Einfügen(&P)"
       "Paste Without Reformatting":
-        value: "Paste Without Reformatting"
+        value: "Einfügen ohne umformatierung"
       "Select &All":
         value: "&Alles auswählen"
       "&Toggle Comments":
@@ -141,7 +141,7 @@ Menu:
           "Fold Level 9":
             value: "Zuklappen Level 9"
       "Reflow Selection":
-        value: "Reflow der Auswahl"
+        value: "Umformatieren der Auswahl"
       Bookmark:
         value: "Lesezeichen"
         submenu:
@@ -154,9 +154,9 @@ Menu:
           "Jump to Previous Bookmark":
             value: "Zum vorhergehenden Lesezeichen springen"
           "Select to Next Bookmark":
-            value: "Select to Next Bookmark"
+            value: "Nächstes Lesezeichen auswählen"
           "Select to Previous Bookmark":
-            value: "Select to Previous Bookmark"
+            value: "Vorheriges Lesezeichen auswählen"
       "Select Encoding":
         value: "Codierung auswählen"
       "Go to Line":
@@ -269,7 +269,7 @@ Menu:
       "Toggle Find in Project":
         value: "Projektsuche ein-/ausschalten"
       "Find All":
-        value: "Find All"
+        value: "Alle suchen"
       "Find Next":
         value: "Nächstes suchen"
       "Find Previous":
@@ -296,13 +296,13 @@ Menu:
       "View &License":
         value: "&Lizenzbedingungen anzeigen"
       "Restart and Install Update":
-        value: "Restart and Install Update"
+        value: "Installieren und Neustarten"
       "Check for Update":
-        value: "Check for Update"
+        value: "Nach Aktualisierungen suchen"
       "Checking for Update":
-        value: "Checking for Update"
+        value: "Prüfe auf Aktualisierungen..."
       "Downloading Update":
-        value: "Downloading Update"
+        value: "Lade Aktualisierung herunter"
       "&Documentation":
         value: "&Dokumentation"
       "Frequently Asked Questions":

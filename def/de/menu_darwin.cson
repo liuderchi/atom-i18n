@@ -13,13 +13,13 @@ Menu:
       "Config…":
         value: "Konfiguration..."
       "Init Script…":
-        value: "Script initialisieren..."
+        value: "Startscript..."
       "Keymap…":
-        value: "Keymap..."
+        value: "Tastaturbelegung..."
       "Snippets…":
-        value: "Snippets..."
+        value: "Vorlagen..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Formatvorlage..."
       "Install Shell Commands":
         value: "Shell-Kommandos installieren"
       "Hide Atom":
@@ -154,7 +154,7 @@ Menu:
           "Fold Level 9":
             value: "Zuklappen Level 9"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Umformatieren der Auswahl"
       Bookmark:
         value: "Lesezeichen"
         submenu:
@@ -276,7 +276,7 @@ Menu:
       "Toggle Find in Project":
         value: "Projektsuche ein-/ausschalten"
       "Find All":
-        value: "Find All"
+        value: "Alle suchen"
       "Find Next":
         value: "Nächstes suchen"
       "Find Previous":

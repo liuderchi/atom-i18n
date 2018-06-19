@@ -6,7 +6,7 @@ Welcome:
     text2: " Jahrhundert"
   }
   help: {
-    forHelpVisit: "Für Hilfe bemühe bitte"
+    forHelpVisit: "Für Hilfe besuche bitte"
     atomDocs: {
       text1: "Die "
       link: "Atom-Doku"
