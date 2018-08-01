@@ -131,15 +131,15 @@ Menu:
       "Config…":
         value: "Config..."
       "Init Script…":
-        value: "Init Script..."
+        value: "Startscript..."
       "Keymap…":
         value: "Keymap..."
       "Snippets…":
-        value: "Snippets..."
+        value: "Vorlagen..."
       "Stylesheet…":
         value: "Stylesheet..."
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Umformatieren der Auswahl"
       Bookmark:
         value: "Lesezeichen"
         submenu:
@@ -263,7 +263,7 @@ Menu:
       "Toggle Find in Project":
         value: "Projektsuche ein-/ausschalten"
       "Find All":
-        value: "Find All"
+        value: "Alle suchen"
       "Find Next":
         value: "Nächstes suchen"
       "Find Previous":
