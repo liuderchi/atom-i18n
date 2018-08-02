@@ -50,6 +50,10 @@
           "description": "Беларуская мова (be)"
         },
         {
+          "value": "cz",
+          "description": "Čeština (cz)"
+        },
+        {
           "value": "de",
           "description": "Deutsch (de)"
         },
@@ -112,10 +116,6 @@
         {
           "value": "zh-tw",
           "description": "繁體中文 (zh-tw)"
-        },
-        {
-          "value": "cz",
-          "description": "Čeština (cz)"
         },
         {
           "value": "template",

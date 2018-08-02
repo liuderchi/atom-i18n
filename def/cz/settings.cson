@@ -83,34 +83,33 @@ Settings:
       }
       {
         _id: 'core.audioBeep'
-        title: "Audio Beep"
-        desc: "Trigger the system's beep sound when certain actions cannot be
-               executed or there are no results."
+        title: "Pípnutí"
+        desc: "Spustí zvukové upozornění, když nemůže být provedena určitá akce nebo nejsou žádné výsledky."
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automatically Update"
-        desc: "Automatically update Atom when a new release is available."
+        title: "Automaticky aktualizovat"
+        desc: "Automaticky aktualizovat Atom, když je k dispozici nová verze."
       }
       {
         _id: 'core.autoHideMenuBar'
-        title: "Auto Hide Menu Bar"
-        desc: "Automatically hide the menu bar and toggle it by pressing Alt. This is only supported on Windows &amp; Linux."
+        title: "Automatický skrývat menu"
+        desc: "Automaticy skryje menu a zobrazíte ho kliknutím Alt. Toto nastavení je podporované pouze na Windows a Linux."
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
-        desc: "Close corresponding editors when a file is deleted outside Atom."
+        title: "Zavřít záložky smazaných souborů"
+        desc: "Zavře záložky, když je jejich soubor smazán mimo Atom."
       }
       {
         _id: 'core.closeEmptyWindows'
-        title: "Close Empty Windows"
-        desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
+        title: "Zavřít prázdná okna"
+        desc: "Když je okno bez záložek nebo se zavřou panely, okno se zavře."
       }
       {
         _id: 'core.destroyEmptyPanes'
-        title: "Destroy Empty Panes"
-        desc: "When the last tab of a pane is closed, remove that pane as well."
+        title: "Zavřít prázdný panel"
+        desc: "Jakmile se zavře poslední záložka panelu, zavře se i panel."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
@@ -119,8 +118,8 @@ Settings:
       }
       {
         _id: 'core.fileEncoding'
-        title: "File Encoding"
-        desc: "Default character set encoding to use when reading and writing files."
+        title: "Kódování souboru"
+        desc: "Základní znakové kódování, které se použije při čtení nebo zapisování do souboru."
       }
       {
         _id: 'core.fileSystemWatcher'
@@ -142,16 +141,16 @@ Settings:
       }
       {
         _id: 'core.openEmptyEditorOnStart'
-        title: "Open Empty Editor On Start"
-        desc: "Automatically open an empty editor on startup."
+        title: "Otevřít prázdný editor při spuštění"
+        desc: "Automaticky otevřít prázdný editor při spuštění."
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Packages With Keymaps Disabled"
+        title: "Pluginy s deaktivovanými klávesovými zkratkami"
       }
       {
         _id: 'core.projectHome'
-        title: "Project Home"
+        title: "Domovský adresář projektu"
         desc: "The directory where projects are assumed to be located. Packages created using the Package Generator will be stored here by default."
       }
       {
@@ -161,12 +160,12 @@ Settings:
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "Restore Previous Windows On Start"
-        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
+        title: "Obnovit při spuštění předchozí okna"
+        desc: "Obnoví okna Atomu do původního stavu při spuštění z ikony nebo <code>atom</code> z příkazového řádku; jinak bude načteno prázdné prostředí."
         select:
-          no: "no"
-          yes: "yes"
-          always: "always"
+          no: "ne"
+          yes: "ano"
+          always: "vždy"
       }
       {
         _id: 'core.telemetryConsent'
