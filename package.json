@@ -114,6 +114,10 @@
           "description": "繁體中文 (zh-tw)"
         },
         {
+          "value": "cz",
+          "description": "Čeština (cz)"
+        },
+        {
           "value": "template",
           "description": "English (en)"
         }
