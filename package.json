@@ -7,7 +7,7 @@
     "prettier:markdown": "prettier **/*.md --parser markdown --write",
     "prettier:js": "prettier **/*.js --ignore-path **/node_mofules --write",
     "test": "npm run lint && npm run validation",
-    "lint": "eslint def lib spec",
+    "lint": "eslint lib spec",
     "validation": "mocha spec/validation.js"
   },
   "description": "Localize Atom for your locale. One i18n package for any language. Community-driven translation.",
