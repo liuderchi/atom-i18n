@@ -6,11 +6,11 @@ const CSON_FILES = [
   'settings.cson',
   'about.cson',
   'welcome.cson',
-]
+];
 
-const ATOM_VERSION = 'v1.22.0-beta0'
+const ATOM_VERSION = 'v1.22.0-beta0';
 
 module.exports = {
   CSON_FILES,
   ATOM_VERSION,
-}
+};

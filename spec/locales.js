@@ -19,6 +19,6 @@ const LOCALES = [
   'zh-cn',
   'zh-tw',
   'template',
-]
+];
 
-module.exports = LOCALES
+module.exports = LOCALES;
