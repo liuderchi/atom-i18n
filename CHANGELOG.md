@@ -1,3 +1,8 @@
+## 0.16 - Czech support, German update
+* Czech i18n #189
+* German update #181 #184 #185
+
+
 ## 0.15 - Arabic, Belarusian support
 * Arabic i18n #173
 * Belarusian i18n #179

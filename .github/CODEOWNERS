@@ -7,10 +7,18 @@ def/ar/*.cson        @AmrIKhudair
 
 def/be/*.cson        @antikruk
 
+def/cz/*.cson        @Heroyt
+
 def/de/*.cson        @Acer54 @socialmedialabs
 def/de/settings.cson @Acer54  @queenar  @socialmedialabs
 
 def/es/*.cson        @stsewd
+def/de/about.cson    @Tz3r0  @polynoman
+def/de/menu_darwin.cson     @Tz3r0  @polynoman
+def/de/menu_linux.cson      @polynoman
+def/de/menu_win32.cson      @polynoman
+def/de/settings.cson @Tz3r0  @silas229
+def/de/welcome.cson  @Tz3r0  @polynoman
 
 def/fi/*.cson        @an7oine
 
