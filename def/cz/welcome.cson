@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "Vítejte"
+  subtitle: {
+    text1: "Modifikovatelný editor pro 21"
+    superscript: ""
+    text2: " století"
+  }
+  help: {
+    forHelpVisit: "Pro pomoc prosím navštivte"
+    atomDocs: {
+      text1: ""
+      link: "Dokumentaci atomu"
+      text2: " pro Návody a API REFERENCE."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "Fórum atomu na: "
+      link: "discuss.atom.io"
+      text2: ""   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: ""
+      link: "Atom org"
+      text2: ". Tady najdete všechny pluginy z GitHubu pro Atom."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "Zobrazit obrazovku \"Vítejte\" při spuštění Atomu"

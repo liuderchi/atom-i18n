@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Prozkoumat prvek"
+  "atom-text-editor":
+    "color-picker:open": "Výběr barvy"
+    "minimap:toggle": "Přepnout Minimapu"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Zpět"
+    "core:redo": "Vrátit"
+    "core:cut": "Vyjmout"
+    "core:copy": "Kopírovat"
+    "core:paste": "Vložit"
+    "core:delete": "Smazat"
+    "core:select-all": "Vybrat vše"
+    "pane:split-up-and-copy-active-item": "Rozdělit Nahoru"
+    "pane:split-down-and-copy-active-item": "Rozdělit Dolů"
+    "pane:split-left-and-copy-active-item": "Rozdělit Vlevo"
+    "pane:split-right-and-copy-active-item": "Rozdělit Vpravo"
+    "pane:close": "Zavřít Panel"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Rozdělit Nahoru"
+    "pane:split-down-and-copy-active-item": "Rozdělit Dolů"
+    "pane:split-left-and-copy-active-item": "Rozdělit Vlevo"
+    "pane:split-right-and-copy-active-item": "Rozdělit Vpravo"
+    "pane:close": "Zavřít Panel"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Změnit kódování"
+    "spell-check:correct-misspelling": "Opravit gramatiku"
+    "symbols-view:go-to-declaration": "Jít do deklarace"
+  ".overlayer":
+    "grammar-selector:show": "Změnit gramatiku"
+  ".image-view":
+    "image-view:reload": "Znovu načíst obrázek"
+  ".tab":
+    "tabs:close-tab": "Zavřít záložku"
+    "tabs:close-other-tabs": "Zavřít ostatní záložky"
+    "tabs:close-tabs-to-right": "Zavřít záložky vpravo"
+    "tabs:close-tabs-to-left": "Zavřít záložky vlevo"
+    "tabs:close-saved-tabs": "Zavřít uložené záložky"
+    "tabs:close-all-tabs": "Zavřít všechny záložky"
+    "tabs:split-up": "Rozdělit Nahoru"
+    "tabs:split-down": "Rozdělit Dolů"
+    "tabs:split-left": "Rozdělit Vlevo"
+    "tabs:split-right": "Rozdělit Vpravo"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Otevřít v novém okně"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Nechat nedokončené záložky"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Znovu otevřít zavřené záložky"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "Nový soubor"
+    "tree-view:add-folder": "Nová složka"
+    "tree-view:move": "Přejmenovat"
+    "tree-view:duplicate": "Duplikovat"
+    "tree-view:remove": "Smazat"
+    "tree-view:copy": "Kopírovat"
+    "tree-view:cut": "Vyjmout"
+    "tree-view:paste": "Vložit"
+    "tree-view:open-selected-entry-up": "Rozdělit Nahoru"
+    "tree-view:open-selected-entry-down": "Rozdělit Dolů"
+    "tree-view:open-selected-entry-left": "Rozdělit Vlevo"
+    "tree-view:open-selected-entry-right": "Rozdělit Vpravo"
+    "application:add-project-folder": "Přidat složku projektu"
+    "tree-view:copy-full-path": "Kopírovat úplnou cestu"
+    "tree-view:copy-project-path": "Kopírovat cestu v projektu"
+    "tree-view:open-in-new-window": "Otevřít v novém okně"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Rozdělit Nahoru"
+    "tree-view:open-selected-entry-down": "Rozdělit Dolů"
+    "tree-view:open-selected-entry-left": "Rozdělit Vlevo"
+    "tree-view:open-selected-entry-right": "Rozdělit Vpravo"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "Nový soubot"
+    "tree-view:add-folder": "Nová složka"
+    "tree-view:move": "Přejmenovat"
+    "tree-view:duplicate": "Duplikovat"
+    "tree-view:remove": "Smazat"
+    "tree-view:copy": "Kopírovat"
+    "tree-view:cut": "Vyjmout"
+    "tree-view:paste": "Vložit"
+    "tree-view:open-selected-entry-up": "Rozdělit Nahoru"
+    "tree-view:open-selected-entry-down": "Rozdělit Dolů"
+    "tree-view:open-selected-entry-left": "Rozdělit Vlevo"
+    "tree-view:open-selected-entry-right": "Rozdělit Vpravo"
+    "application:add-project-folder": "Přidat složku projektu"
+    "tree-view:remove-project-folder": "Smazat složku projektu"
+    "tree-view:copy-full-path": "Kopírovat úplnou cestu"
+    "tree-view:copy-project-path": "Kopírovat cestu v projektu"
+    "tree-view:open-in-new-window": "Otevřít v novém okně"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Otevřít ve Finderu"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Otevřít v Průzkumníkovi souborů"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Otevřít v Průzkumníkovi souborů"
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Hledat v adresáři"
+  ".tree-view .multi-select":
+    "tree-view:remove": "Smazat"
+    "tree-view:copy": "Kopírovat"
+    "tree-view:cut": "Vyjmout"
+    "tree-view:paste": "Vložit"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Ukázat ve stromu souborů"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Přejmenovat"
+    "tree-view:reveal-active-file": "Ukázat ve stromu souborů"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Otevřít ve Finderu"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Otevřít v Průzkumníkovi souborů"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Otevřít v Průzkumníkovi souborů"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Otevřít ve Finderu"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Otevřít v Průzkumníkovi souborů"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Otevřít v Průzkumníkovi souborů"

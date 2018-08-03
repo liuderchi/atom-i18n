@@ -50,6 +50,10 @@
           "description": "Беларуская мова (be)"
         },
         {
+          "value": "cz",
+          "description": "Čeština (cz)"
+        },
+        {
           "value": "de",
           "description": "Deutsch (de)"
         },
