@@ -1,54 +1,54 @@
 Menu:
   "&File":
-    value: "Datei(&F)"
+    value: "(&D)atei"
     submenu:
       "New &Window":
-        value: "Neues Fenster(&W)"
+        value: "Neues (&F)enster"
       "&New File":
-        value: "&Neue Datei"
+        value: "(&N)eue Datei"
       "&Open File…":
-        value: "Datei öffnen...(&O)"
+        value: "(&D)atei öffnen…"
       "Open Folder…":
-        value: "Ordner öffnen..."
+        value: "Ordner öffnen…"
       "Add Project Folder…":
-        value: "Projektordner hinzufügen..."
+        value: "Projektordner hinzufügen…"
       "Reopen Project":
         value: "Projekt erneut öffnen"
         submenu:
           "Clear Project History":
             value: "Projekthistorie löschen"
       "Reopen Last &Item":
-        value: "Letzte Date&i nochmals öffnen"
+        value: "(&L)etzte Datei nochmals öffnen"
       "Se&ttings":
-        value: "Eins&tellungen..."
+        value: "Einstellungen…"
       "Config…":
-        value: "Konfiguration..."
+        value: "Konfiguration…"
       "Init Script…":
-        value: "Startscript..."
+        value: "Startscript…"
       "Keymap…":
-        value: "Keymap..."
+        value: "Keymap…"
       "Snippets…":
-        value: "Vorlagen..."
+        value: "Vorlagen…"
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Stylesheet…"
       "&Save":
         value: "&Speichern"
       "Save &As…":
-        value: "Speichern &als..."
+        value: "Speichern als…"
       "Save A&ll":
-        value: "A&lles Speichern"
+        value: "Alles Speichern"
       "&Close Tab":
-        value: "Tab schließen(&C)"
+        value: "Tab schließen"
       "Close &Pane":
-        value: "Fenster schließen(&P)"
-      "Clos&e Window":
-        value: "F&enster schließen"
+        value: "Fenster schließen"
+      "Close Window":
+        value: "Fenster schließen"
       "E&xit":
-        value: "Beenden(&X)"
+        value: "(&B)eenden"
       "Close All Tabs":
         value: "Alle Tabs schließen"
   "&Edit":
-    value: "B&earbeiten"
+    value: "(&B)earbeiten"
     submenu:
       "&Undo":
         value: "Rückgängig(&U)"
@@ -164,10 +164,10 @@ Menu:
       "Select Grammar":
         value: "Grammatik auswählen"
   "&View":
-    value: "Anzeige(&V)"
+    value: "(&A)nzeige"
     submenu:
       "Toggle &Full Screen":
-        value: "Vollbild ein-/ausschalten(&F)"
+        value: "(&V)ollbild ein-/ausschalten"
       "Toggle Menu Bar":
         value: "Menüleiste ein-/ausschalten"
       Panes:
@@ -199,7 +199,7 @@ Menu:
         value: "Entwickler"
         submenu:
           "Open In &Dev Mode…":
-            value: "Öffnen im Entwicklermodus...(&D)"
+            value: "Öffnen im Entwicklermodus…(&D)"
           "&Reload Window":
             value: "Fenste&r neu laden"
           "Run Package &Specs":
@@ -221,14 +221,14 @@ Menu:
       "Toggle Tree View":
         value: "Baumansicht ein-/ausschalten"
   "&Selection":
-    value: "Au&swahl"
+    value: "Aus(&w)ahl"
     submenu:
       "Add Selection &Above":
-        value: "&Auswahl darüber hinzufügen"
+        value: "(&A)uswahl darüber hinzufügen"
       "Add Selection &Below":
         value: "Auswahl darunter hinzufügen(&B)"
       "S&plit into Lines":
-        value: "In Zeilen aufteilen(&P)"
+        value: "In (&Z)eilen aufteilen(&P)"
       "Single Selection":
         value: "Einzelauswahl"
       "Select to &Top":
@@ -252,7 +252,7 @@ Menu:
       "Select Inside Brackets":
         value: "Klammerninhalt auswählen"
   "F&ind":
-    value: "Suchen(&I)"
+    value: "(&S)uchen"
     submenu:
       "Find in Buffer":
         value: "Suchen in aktueller Ansicht"
@@ -287,9 +287,11 @@ Menu:
       "Find Modified File":
         value: "Veränderte Datei suchen"
   "&Packages":
-    value: "&Packages"
+    value: "(&P)akete"
+    submenu:
+      "Bracket - Matcher"
   "&Help":
-    value: "&Hilfe"
+    value: "(&H)ilfe"
     submenu:
       "View &Terms of Use":
         value: "Nu&tzungsbedingungen anzeigen"
@@ -300,11 +302,11 @@ Menu:
       "Check for Update":
         value: "Nach Aktualisierungen suchen"
       "Checking for Update":
-        value: "Prüfe auf Aktualisierungen..."
+        value: "Prüfe auf Aktualisierungen…"
       "Downloading Update":
         value: "Lade Aktualisierung herunter"
       "&Documentation":
-        value: "&Dokumentation"
+        value: "(&D)okumentation"
       "Frequently Asked Questions":
         value: "Wiederkehrende Fragen (FAQ)"
       "Community Discussions":
@@ -316,4 +318,5 @@ Menu:
       "About Atom":
         value: "Über Atom"
       "Welcome Guide":
-        value: "Willkommens-Guide"
+        value: "Willkommens-Leitfaden"
+
