@@ -13,13 +13,13 @@ Menu:
       "Config…":
         value: "Configuração..."
       "Init Script…":
-        value: "Script inicial..."
+        value: "Script Inicial..."
       "Keymap…":
         value: "Mapa De Teclas..."
       "Snippets…":
         value: "Trechos..."
       "Stylesheet…":
-        value: "Folha de estilo..."
+        value: "Folha de Estilo..."
       "Install Shell Commands":
         value: "Instalar Comandos Do Shell"
       "Hide Atom":
@@ -40,18 +40,18 @@ Menu:
       "Open…":
         value: "Abri..."
       "Add Project Folder…":
-        value: "Adicionar pasta de projeto..."
+        value: "Adicionar Pasta de Projeto..."
       "Reopen Project":
-        value: "Reabrir projeto"
+        value: "Reabrir Projeto"
         submenu:
           "Clear Project History":
-            value: "Limpar histórico de projeto"
+            value: "Limpar Histórico de Projeto"
       "Reopen Last Item":
-        value: "Reabrir último item"
+        value: "Reabrir Último Item"
       Save:
         value: "Salvar"
       "Save As…":
-        value: "Salvar como..."
+        value: "Salvar Como..."
       "Save All":
         value: "Salvar Tudo"
       "Close Tab":
@@ -80,33 +80,33 @@ Menu:
       "Select All":
         value: "Selecionar Tudo"
       "Toggle Comments":
-        value: "Mostrar Comentários"
+        value: "Alternar Comentários"
       Lines:
         value: "Linhas"
         submenu:
           Indent:
-            value: "Identar"
+            value: "Indentar"
           Outdent:
             value: "Outdent"
           "Auto Indent":
-            value: "Auto Identar"
+            value: "Auto Indentar"
           "Move Line Up":
-            value: "Mover linha para cima"
+            value: "Mover Linha para Cima"
           "Move Line Down":
-            value: "Mover linha para baixo"
+            value: "Mover Linha para Baixo"
           "Duplicate Lines":
-            value: "Duplicar linhas"
+            value: "Duplicar Linhas"
           "Delete Line":
-            value: "Excluir linhas"
+            value: "Excluir Linhas"
           "Join Lines":
-            value: "Unir linhas"
+            value: "Unir Linhas"
       Columns:
         value: "Colunas"
         submenu:
           "Move Selection Left":
-            value: "Mover seleção para a esquerda"
+            value: "Mover Seleção para a Esquerda"
           "Move Selection Right":
-            value: "Mover seleção para a direita"
+            value: "Mover Seleção para a Direita"
       Text:
         value: "Texto"
         submenu:
@@ -115,15 +115,15 @@ Menu:
           "Lower Case":
             value: "Minúsculo"
           "Delete to End of Word":
-            value: "Apagar até o fim da palavra"
+            value: "Apagar até o Fim da Palavra"
           "Delete to Previous Word Boundary":
-            value: "Apagar até o início da palavra"
+            value: "Apagar até o Limite Anterior da Palavra"
           "Delete to Next Word Boundary":
-            value: "Apagar até a próximo palavra"
+            value: "Apagar Até o Próximo Limite da Palavra"
           "Delete Line":
             value: "Apagar linha"
           Transpose:
-            value: "Transpose"
+            value: "Transpor"
       Folding:
         value: "Folding"
         submenu:
@@ -161,138 +161,138 @@ Menu:
           "View All":
             value: "Ver tudo"
           "Toggle Bookmark":
-            value: "Marcar favorito"
+            value: "Alternar Favorito"
           "Jump to Next Bookmark":
-            value: "Ir para o próximo favorito"
+            value: "Ir para o Próximo Favorito"
           "Jump to Previous Bookmark":
-            value: "Ir para o favorito anterior"
+            value: "Ir para o Favorito Anterior"
       "Select Encoding":
-        value: "Selecionar codificação"
+        value: "Selecionar Codificação"
       "Go to Line":
-        value: "Ir para linha"
+        value: "Ir para Linha"
       "Select Grammar":
-        value: "Selecionar gramática"
+        value: "Selecionar Gramática"
   View:
     value: "Ver"
     submenu:
       "Toggle Full Screen":
-        value: "Ativar tela inteira"
+        value: "Alternar Tela Cheia"
       Panes:
         value: "Painéis"
         submenu:
           "Split Up":
-            value: "Dividir para cima"
+            value: "Dividir para Cima"
           "Split Down":
-            value: "Divir para baixo"
+            value: "Divir para Baixo"
           "Split Left":
-            value: "Dividir para a esquerda"
+            value: "Dividir para a Esquerda"
           "Split Right":
-            value: "Dividir para a direita"
+            value: "Dividir para a Direita"
           "Focus Next Pane":
-            value: "Focar próximo painel"
+            value: "Focar Próximo Painel"
           "Focus Previous Pane":
-            value: "Focar painel anterior"
+            value: "Focar Painel Anterior"
           "Focus Pane Above":
-            value: "Focar painel superior"
+            value: "Focar Painel Superior"
           "Focus Pane Below":
-            value: "Focar painel inferior"
+            value: "Focar Painel Inferior"
           "Focus Pane On Left":
-            value: "Focar painel da esquerda"
+            value: "Focar Painel na Esquerda"
           "Focus Pane On Right":
-            value: "Focar painel da direita"
+            value: "Focar Painel da Direita"
           "Close Pane":
-            value: "Fechar painel"
+            value: "Fechar Painel"
       Developer:
         value: "Desenvolvedor"
         submenu:
           "Open In Dev Mode…":
-            value: "Abrir no modo desenvolvedor..."
+            value: "Abrir em Modo Desenvolvedor..."
           "Reload Window":
-            value: "Reabrir janela"
+            value: "Reabrir Janela"
           "Run Package Specs":
-            value: "Run Package Specs"
+            value: "Executar Package Specs"
           "Run Benchmarks":
             value: "Executar Benchmarks"
           "Toggle Developer Tools":
-            value: "Ativar ferramentas de Desenvolvedor"
+            value: "Alternar Ferramentas de Desenvolvedor"
       "Increase Font Size":
-        value: "Aumentar tamanho da fonte"
+        value: "Aumentar Tamanho da Fonte"
       "Decrease Font Size":
-        value: "Diminuir tamanho da fonte"
+        value: "Diminuir Tamanho da Fonte"
       "Reset Font Size":
-        value: "Reiniciar tamanho da fonte"
+        value: "Reiniciar Tamanho da Fonte"
       "Toggle Soft Wrap":
-        value: "Ativar leve quebra de linha"
+        value: "Alternar Leve Quebra de Linha"
       "Toggle Command Palette":
-        value: "Ativar paleta de comandos"
+        value: "Alternar Paleta de Comandos"
       "Toggle Tree View":
-        value: "Ativar TreeView"
+        value: "Alternar Visualização em Árvore"
   Selection:
     value: "Seleção"
     submenu:
       "Add Selection Above":
-        value: "Adicionar seleção acima"
+        value: "Adicionar Seleção Acima"
       "Add Selection Below":
-        value: "Adicionar seleção abaixo"
+        value: "Adicionar Seleção Abaixo"
       "Single Selection":
-        value: "Seleção única"
+        value: "Seleção Única"
       "Split into Lines":
-        value: "Split into Lines"
+        value: "Dividir em Linhas"
       "Select to Top":
-        value: "Selcionar até o topo"
+        value: "Selecionar até o Topo"
       "Select to Bottom":
-        value: "Selcionar até embaixo"
+        value: "Selecionar até o Fim"
       "Select Line":
-        value: "Selecionar linha"
+        value: "Selecionar Linha"
       "Select Word":
         value: "Selecionar palavra"
       "Select to Beginning of Word":
-        value: "Selecionar até o ínicio da palavra"
+        value: "Selecionar até o Início da Palavra"
       "Select to Beginning of Line":
-        value: "Selecionar até o íncio da linha"
+        value: "Selecionar até o Início da Linha"
       "Select to First Character of Line":
-        value: "Selecionar até o primeiro carácter da linha"
+        value: "Selecionar até o Primeiro Caractere da Linha"
       "Select to End of Word":
-        value: "Selecionar até o fim da palavra"
+        value: "Selecionar até o Fim da Palavra"
       "Select to End of Line":
-        value: "Selecionar até o fim da linha"
+        value: "Selecionar até o Fim da Linha"
       "Select Inside Brackets":
-        value: "Selecionar dentro dos parêntesis"
+        value: "Selecionar Dentro dos Colchetes"
   Find:
     value: "Procurar"
     submenu:
       "Find in Buffer":
-        value: "Procurar no Buffer"
+        value: "Localizar no Buffer"
       "Replace in Buffer":
         value: "Substituir no Buffer"
       "Select Next":
-        value: "Selecionar próximo"
+        value: "Selecionar Próximo"
       "Select All":
-        value: "Selecionar tudo"
+        value: "Selecionar Tudo"
       "Toggle Find in Buffer":
-        value: "Ativar procura no Buffer"
+        value: "Alternar Localizar no Buffer"
       "Find in Project":
-        value: "Procurar no projeto"
+        value: "Localizar no Projeto"
       "Toggle Find in Project":
-        value: "Ativar procura no projeto"
+        value: "Alternar Localizar no Projeto"
       "Find All":
-        value: "Procurar tudo"
+        value: "Localizar Tudo"
       "Find Next":
-        value: "Procurar próximo"
+        value: "Localizar Próximo"
       "Find Previous":
-        value: "Procurar anterior"
+        value: "Localizar Anterior"
       "Replace Next":
-        value: "Substituir próximo"
+        value: "Substituir Próximo"
       "Replace All":
-        value: "Substituir tudo"
+        value: "Substituir Tudo"
       "Clear History":
-        value: "Limpar histórico"
+        value: "Limpar Histórico"
       "Find Buffer":
-        value: "Procurar Buffer"
+        value: "Localizar Buffer"
       "Find File":
-        value: "Procurar arquivo"
+        value: "Localizar Arquivo"
       "Find Modified File":
-        value: "Procurar arquivo modificado"
+        value: "Localizar Arquivo Modificado"
   Packages:
     value: "Pacotes"
   Window:
@@ -303,23 +303,23 @@ Menu:
       Zoom:
         value: "Zoom"
       "Bring All to Front":
-        value: "Trazer todos para frente"
+        value: "Trazer Todos para Frente"
   Help:
     value: "Help"
     submenu:
       "Terms of Use":
-        value: "Termos de uso"
+        value: "Termos de Uso"
       Documentation:
         value: "Documentação"
       Roadmap:
         value: "Roadmap"
       "Frequently Asked Questions":
-        value: "Perguntas frequentes"
+        value: "Perguntas Frequentes"
       "Community Discussions":
-        value: "Discussão da comunidade"
+        value: "Discussão da Comunidade"
       "Report Issue":
-        value: "Reportar problema"
+        value: "Reportar Problema"
       "Search Issues":
-        value: "Procurar problemas"
+        value: "Procurar Problemas"
       "Welcome Guide":
-        value: "Guia de boas vindas"
+        value: "Guia de Boas Vindas"
