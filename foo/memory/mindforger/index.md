@@ -1,4 +1,4 @@
-# MindForger <!-- Metadata: type: Outline; tags: read-this-first; created: 2018-02-23 10:57:35; reads: 216; read: 2018-07-10 07:12:15; revision: 216; modified: 2018-07-10 07:12:15; importance: 5/5; urgency: 3/5; -->
+# MindForger <!-- Metadata: type: Outline; tags: read-this-first,xxx; created: 2018-02-23 10:57:35; reads: 218; read: 2018-11-18 20:18:21; revision: 218; modified: 2018-11-18 20:18:21; importance: 5/5; urgency: 3/5; -->
 
 MindForger is **personal thinking notebook** and **Markdown IDE**:
 
@@ -43,7 +43,9 @@ documentation repository.
 
 _Made with passion for personal pleasure._
 
-# User Documentation <!-- Metadata: type: Note; created: 2018-02-23 10:57:35; reads: 25; read: 2018-05-29 22:42:54; revision: 5; modified: 2018-05-29 22:42:54; -->
+# User Documentation <!-- Metadata: type: Note; tags: user-docu; created: 2018-02-23 10:57:35; reads: 27; read: 2018-11-18 20:18:21; revision: 6; modified: 2018-11-18 20:18:21; -->
+
+
 Understand motivation, install, configure and use:
 
 * [Why MindForger?](why-mindforger.md)
