@@ -7,11 +7,11 @@ Menu:
       "&New File":
         value: "&Neue Datei"
       "&Open File…":
-        value: "Datei öffnen...(&O)"
+        value: "Datei öffnen…(&O)"
       "Open Folder…":
-        value: "Ordner öffnen..."
+        value: "Ordner öffnen…"
       "Add Project Folder…":
-        value: "Projekt-Ordner hinzufügen..."
+        value: "Projekt-Ordner hinzufügen…"
       "Reopen Project":
         value: "Projekt erneut öffnen"
         submenu:
@@ -22,7 +22,7 @@ Menu:
       "&Save":
         value: "&Speichern"
       "Save &As…":
-        value: "Speichern &als..."
+        value: "Speichern &als…"
       "Save A&ll":
         value: "A&lles speichern"
       "&Close Tab":
@@ -129,15 +129,15 @@ Menu:
       "&Preferences":
         value: "Einstellungen(&P)"
       "Config…":
-        value: "Config..."
+        value: "Config…"
       "Init Script…":
-        value: "Startscript..."
+        value: "Startscript…"
       "Keymap…":
-        value: "Keymap..."
+        value: "Tastenbelegung…"
       "Snippets…":
-        value: "Vorlagen..."
+        value: "Vorlagen…"
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Stylesheet…"
       "Reflow Selection":
         value: "Umformatieren der Auswahl"
       Bookmark:
@@ -193,7 +193,7 @@ Menu:
         value: "Entwickler"
         submenu:
           "Open In &Dev Mode…":
-            value: "Öffnen im Entwicklermodus...(&D)"
+            value: "Öffnen im Entwicklermodus…(&D)"
           "&Reload Window":
             value: "Fenste&r neu laden"
           "Run Package &Specs":
