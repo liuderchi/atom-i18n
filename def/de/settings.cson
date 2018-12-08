@@ -3,7 +3,7 @@ Settings:
   menu: [
     {
       _label: "Core"
-      value: "Core"
+      value: "Kern"
     }
     {
       _label: "Editor"
@@ -36,17 +36,17 @@ Settings:
   ]
   "btn-open-config-folder": "Öffne Konfigurations-Ordner"
   sectionHeadings: [
-    {_label: "Core Settings", value: "Core-Einstellungen"}
+    {_label: "Core Settings", value: "Kern-Einstellungen"}
     {_label: "Editor Settings", value: "Editor-Einstellungen"}
     {_label: "System Settings", value: "Systemeinstellungen"}
     {_label: "Keybindings", value: "Tastenkürzel"}
     {_label: "Installed Packages", value: "Installierte Plugins"}
-    {_label: "Choose a Theme", value: "Ein Theme auswählen"}
-    {_label: "Installed Themes", value: "Installierte Themes"}
+    {_label: "Choose a Theme", value: "Ein Thema auswählen"}
+    {_label: "Installed Themes", value: "Installierte Themen"}
     {_label: "Install Packages", value: "Plugin installieren"}
     {_label: "Featured Packages", value: "Vorgestellte Plugins"}
-    {_label: "Install Themes", value: "Themes installieren"}
-    {_label: "Featured Themes", value: "Vorgestellte Themes"}
+    {_label: "Install Themes", value: "Themen installieren"}
+    {_label: "Featured Themes", value: "Vorgestellte Themen}
     {_label: "Available Updates", value: "Verfügbare Aktualisierungen"}
   ]
   subSectionHeadings: [
@@ -55,10 +55,10 @@ Settings:
     {_label: "Core Packages", value: "Core-Plugins"}
     {_label: "Development Packages", value: "Entwicklungs-Plugins"}
     {_label: "Git Packages", value: "Git-Plugins"}
-    {_label: "Community Themes", value: "Community-Themes"}
-    {_label: "Core Themes", value: "Core-Themes"}
-    {_label: "Development Themes", value: "Entwickler-Themes"}
-    {_label: "Git Themes", value: "Git-Themes"}
+    {_label: "Community Themes", value: "Community-Themen"}
+    {_label: "Core Themes", value: "Kern-Themen"}
+    {_label: "Development Themes", value: "Entwickler-Themen"}
+    {_label: "Git Themes", value: "Git-Themen"}
   ]
   settings: {
     notes: [
@@ -400,7 +400,7 @@ Settings:
   updates: {
     "check-updates": "Suche nach Aktualisierungen"
     "update-all": "Alle aktualisieren"
-    "checking-updates": "Suche nach Aktualisierungen..."
+    "checking-updates": "Suche nach Aktualisierungen…"
     "all-updated-message": "Alle deine installierten Plugins sind aktuell!"
   }
   install: {
