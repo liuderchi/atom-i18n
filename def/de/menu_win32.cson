@@ -7,11 +7,11 @@ Menu:
       "&New File":
         value: "&Neue Datei"
       "&Open File…":
-        value: "Datei öffnen...(&O)"
+        value: "Datei öffnen…(&O)"
       "Open Folder…":
-        value: "Ordner öffnen..."
+        value: "Ordner öffnen…"
       "Add Project Folder…":
-        value: "Projektordner hinzufügen..."
+        value: "Projektordner hinzufügen…"
       "Reopen Project":
         value: "Projekt erneut öffnen"
         submenu:
@@ -20,21 +20,21 @@ Menu:
       "Reopen Last &Item":
         value: "Letzte Date&i nochmals öffnen"
       "Se&ttings":
-        value: "Eins&tellungen..."
+        value: "Eins&tellungen…"
       "Config…":
-        value: "Konfiguration..."
+        value: "Konfiguration…"
       "Init Script…":
-        value: "Startscript..."
+        value: "Startscript…"
       "Keymap…":
-        value: "Keymap..."
+        value: "Tastaturbelegung…"
       "Snippets…":
-        value: "Vorlagen..."
+        value: "Vorlagen…"
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Formatvorlagen…"
       "&Save":
         value: "&Speichern"
       "Save &As…":
-        value: "Speichern &als..."
+        value: "Speichern &als…"
       "Save A&ll":
         value: "A&lles Speichern"
       "&Close Tab":
@@ -63,7 +63,7 @@ Menu:
       "&Paste":
         value: "Einfügen(&P)"
       "Paste Without Reformatting":
-        value: "Einfügen ohne umformatierung"
+        value: "Einfügen ohne Umformatierung"
       "Select &All":
         value: "&Alles auswählen"
       "&Toggle Comments":
@@ -199,7 +199,7 @@ Menu:
         value: "Entwickler"
         submenu:
           "Open In &Dev Mode…":
-            value: "Öffnen im Entwicklermodus...(&D)"
+            value: "Öffnen im Entwicklermodus…(&D)"
           "&Reload Window":
             value: "Fenste&r neu laden"
           "Run Package &Specs":
@@ -279,7 +279,7 @@ Menu:
       "Replace All":
         value: "Alle ersetzen"
       "Clear History":
-        value: "Historie löschen"
+        value: "Verlauf löschen"
       "Find Buffer":
         value: "In Ansicht suchen"
       "Find File":
@@ -287,7 +287,7 @@ Menu:
       "Find Modified File":
         value: "Veränderte Datei suchen"
   "&Packages":
-    value: "&Packages"
+    value: "&Pakete"
   "&Help":
     value: "&Hilfe"
     submenu:
@@ -300,7 +300,7 @@ Menu:
       "Check for Update":
         value: "Nach Aktualisierungen suchen"
       "Checking for Update":
-        value: "Prüfe auf Aktualisierungen..."
+        value: "Prüfe auf Aktualisierungen…"
       "Downloading Update":
         value: "Lade Aktualisierung herunter"
       "&Documentation":
