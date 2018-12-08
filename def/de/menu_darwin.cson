@@ -9,17 +9,17 @@ Menu:
       "Check for Update":
         value: "Nach Aktualisierungen suchen"
       "Preferences…":
-        value: "Einstellungen..."
+        value: "Einstellungen…"
       "Config…":
-        value: "Konfiguration..."
+        value: "Konfiguration…"
       "Init Script…":
-        value: "Startscript..."
+        value: "Startscript…"
       "Keymap…":
-        value: "Keymap..."
+        value: "Keymap…"
       "Snippets…":
-        value: "Vorlagen..."
+        value: "Vorlagen…"
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Formatvorlage…"
       "Install Shell Commands":
         value: "Shell-Kommandos installieren"
       "Hide Atom":
@@ -38,9 +38,9 @@ Menu:
       "New File":
         value: "Neue Datei"
       "Open…":
-        value: "Öffnen..."
+        value: "Öffnen…"
       "Add Project Folder…":
-        value: "Projekt-Ordner hinzufügen..."
+        value: "Projekt-Ordner hinzufügen…"
       "Reopen Project":
         value: "Projekt erneut öffnen"
         submenu:
@@ -51,7 +51,7 @@ Menu:
       Save:
         value: "Speichern"
       "Save As…":
-        value: "Speichern unter..."
+        value: "Speichern unter…"
       "Save All":
         value: "Alles speichern"
       "Close Tab":
@@ -63,7 +63,7 @@ Menu:
       "Close All Tabs":
         value: "Alle Tabs schließen"
   Edit:
-    value: "Edit"
+    value: "Bearbeiten"
     submenu:
       Undo:
         value: "Rückgängig"
@@ -206,7 +206,7 @@ Menu:
         value: "Entwickler"
         submenu:
           "Open In Dev Mode…":
-            value: "Öffnen im Entwicklermodus..."
+            value: "Öffnen im Entwicklermodus…"
           "Reload Window":
             value: "Fenster neu laden"
           "Run Package Specs":
