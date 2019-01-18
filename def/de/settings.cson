@@ -46,7 +46,7 @@ Settings:
     {_label: "Install Packages", value: "Plugin installieren"}
     {_label: "Featured Packages", value: "Vorgestellte Plugins"}
     {_label: "Install Themes", value: "Themen installieren"}
-    {_label: "Featured Themes", value: "Vorgestellte Themen}
+    {_label: "Featured Themes", value: "Vorgestellte Themen"}
     {_label: "Available Updates", value: "Verfügbare Aktualisierungen"}
   ]
   subSectionHeadings: [
