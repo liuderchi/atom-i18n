@@ -49,8 +49,8 @@ Context:
   ".tab-bar":
     "pane:reopen-closed-item": "Reopen Closed Tab"
   ".tree-view .full-menu":
-    "tree-view:add-file": "New File"
-    "tree-view:add-folder": "New Folder"
+    "tree-view:add-file": "Nova Dosiero"
+    "tree-view:add-folder": "Nova Dosierujo"
     "tree-view:move": "Rename"
     "tree-view:duplicate": "Duplicate"
     "tree-view:remove": "Delete"
