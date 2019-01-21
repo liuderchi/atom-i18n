@@ -3,6 +3,7 @@ const LOCALES = [
   'be',
   'cz',
   'de',
+  'eo',
   'es',
   'fi',
   'fr',
