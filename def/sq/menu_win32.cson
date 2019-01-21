@@ -62,6 +62,8 @@ Menu:
         value: "Kopjoji Shte&gun"
       "&Paste":
         value: "&Ngjite"
+      "Paste Without Reformatting":
+        value: "Ngjite Pa e Formatuar"
       "Select &All":
         value: "Përzgjidhi &Krejt"
       "&Toggle Comments":
