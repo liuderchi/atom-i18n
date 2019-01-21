@@ -62,6 +62,10 @@
           "description": "Español (es)"
         },
         {
+          "value": "eo",
+          "description": "Esperanto (eo)"
+        },
+        {
           "value": "fi",
           "description": "suomi (fi)"
         },
