@@ -48,7 +48,7 @@ Context:
     "tabs:keep-pending-tab": "Mbaje Skedën Pezull"
   ".tab-bar":
     "pane:reopen-closed-item": "Rihape Skedën e Mbyllur"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "Kartelë e Re"
     "tree-view:add-folder": "Dosje e Re"
     "tree-view:move": "Riemërtojeni"
@@ -65,7 +65,7 @@ Context:
     "tree-view:copy-full-path": "Kopjoji Shtegun e Plotë"
     "tree-view:copy-project-path": "Kopjo Shteg Projekti"
     "tree-view:open-in-new-window": "Hape Në Dritare të Re"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "Ndaje Përsipër"
     "tree-view:open-selected-entry-down": "Ndaje Përposhtë"
     "tree-view:open-selected-entry-left": "Ndaje Majtas"
@@ -88,15 +88,15 @@ Context:
     "tree-view:copy-full-path": "Kopjoji Shtegun e Plotë"
     "tree-view:copy-project-path": "Kopjo Shteg Projekti"
     "tree-view:open-in-new-window": "Hape Në Dritare të Re"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Shfaqe në Gjetës"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Shfaqe në Eksplorues"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Shfaqe në Përgjegjës Kartelash"
-  ".tree-view > li.directory":
+  ".tree-view li.directory":
     "project-find:show-in-current-directory": "Kërko në Drejtori"
-  ".tree-view.multi-select":
+  ".tree-view .multi-select":
     "tree-view:remove": "Fshije"
     "tree-view:copy": "Kopjoje"
     "tree-view:cut": "Prije"
