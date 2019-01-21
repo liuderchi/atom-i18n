@@ -2,8 +2,8 @@ Welcome:
   tabTitle: "Mirë se vini"
   subtitle: {
     text1: "Një përpunues tekstesh i hack-ueshëm për"
-    text2: "shekullin e 21"
     superscript: "të"
+    text2: "shekullin e 21"
   }
   help: {
     forHelpVisit: "Për ndihmë, ju lutemi, vizitoni"
