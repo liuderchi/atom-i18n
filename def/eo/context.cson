@@ -1,6 +1,6 @@
 Context:
   "atom-workspace":
-    "application:inspect": "Inspect Element"
+    "application:inspect": "Inspekti Elementon"
   "atom-text-editor":
     "color-picker:open": "Color Picker"
     "minimap:toggle": "Toggle Minimap"
