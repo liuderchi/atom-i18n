@@ -28,27 +28,28 @@ Community-driven translation. :family:
 
 ## Language Support
 
-| Language | code | status |
-| -------- |:----:|:-------|
-| Arabic | `ar` | :exclamation: [I can translate][ar-issue-filter] |
-| Belarusian | `be` | :white_check_mark: 100% |
-| Czech | `cz` | :warning: 30% [I can translate][cz-issue-filter] |
-| German | `de` | :warning: 99% [I can translate][de-issue-filter] |
-| Spanish | `es` | :white_check_mark: 100% |
-| Finnish | `fi` | :white_check_mark: 100% |
-| French | `fr` | :white_check_mark: 100% |
-| Hindi | `hi` | :exclamation: [I can translate][hi-issue-filter] |
-| Hungarian | `hu` | :white_check_mark: 100% |
-| Italian| `it` | :white_check_mark: 100% |
-| Japanese | `ja` | :white_check_mark: 100% |
-| Korean | `ko` | :white_check_mark: 100% |
-| Dutch | `nl` | :warning: 80% [I can translate][nl-issue-filter] |
-| Polish | `pl` | :white_check_mark: 100% |
-| Portuguese(Brazil) | `pt-br` | :warning: 80% [I can translate][pt-br-issue-filter] |
-| Russian | `ru` | :warning: 99% [I can translate][ru-issue-filter] |
-| Thai | `th` | :warning: 80% [I can translate][th-issue-filter] |
-| Chinese(Simplified) |  `zh-cn` | :white_check_mark: 100% |
-| Chinese(Traditional) | `zh-tw` | :white_check_mark: 100% |
+| Language             |  code   | status                                              |
+|----------------------|:-------:|:----------------------------------------------------|
+| Arabic               |  `ar`   | :exclamation: [I can translate][ar-issue-filter]    |
+| Belarusian           |  `be`   | :white_check_mark: 100%                             |
+| Czech                |  `cz`   | :warning: 30% [I can translate][cz-issue-filter]    |
+| German               |  `de`   | :warning: 99% [I can translate][de-issue-filter]    |
+| Spanish              |  `es`   | :white_check_mark: 100%                             |
+| Finnish              |  `fi`   | :white_check_mark: 100%                             |
+| French               |  `fr`   | :white_check_mark: 100%                             |
+| Hindi                |  `hi`   | :exclamation: [I can translate][hi-issue-filter]    |
+| Hungarian            |  `hu`   | :white_check_mark: 100%                             |
+| Italian              |  `it`   | :white_check_mark: 100%                             |
+| Japanese             |  `ja`   | :white_check_mark: 100%                             |
+| Korean               |  `ko`   | :white_check_mark: 100%                             |
+| Dutch                |  `nl`   | :warning: 80% [I can translate][nl-issue-filter]    |
+| Polish               |  `pl`   | :white_check_mark: 100%                             |
+| Portuguese(Brazil)   | `pt-br` | :warning: 80% [I can translate][pt-br-issue-filter] |
+| Russian              |  `ru`   | :warning: 99% [I can translate][ru-issue-filter]    |
+| Albanian             |  `sq`   | :white_check_mark: 100%                             |
+| Thai                 |  `th`   | :warning: 80% [I can translate][th-issue-filter]    |
+| Chinese(Simplified)  | `zh-cn` | :white_check_mark: 100%                             |
+| Chinese(Traditional) | `zh-tw` | :white_check_mark: 100%                             |
 
 
  Welcome to :heavy_plus_sign: [Propose new translation for *your locale*][Create Issue] :memo:
@@ -70,9 +71,9 @@ Community-driven translation. :family:
   - Chinese (Simplified): [trifirew](//github.com/trifirew)
   - Korean: [preco21](//github.com/preco21) [chibichichi](//github.com/chibichichi) [Riyeon](//github.com/Riyeon) [nerhis](//github.com/nerhis) [jonghyeok](//github.com/jonghyeok)
   - Spanish: [stsewd](//github.com/stsewd)
-  - German: [Acer54](//github.com/Acer54) [queenar](//github.com/queenar) [Tz3r0](//github.com/Tz3r0) [silas229](//github.com/silas229) [polynoman](https://github.com/polynoman)
+  - German: [Acer54](//github.com/Acer54) [queenar](//github.com/queenar) [Tz3r0](//github.com/Tz3r0) [silas229](//github.com/silas229) [polynoman](https://github.com/polynoman) [Henry2o1o](//github.com/Henry2o1o)
   - Russian: [Anonym0uz](//github.com/Anonym0uz) [Driglu4it](//github.com/Driglu4it)
-  - Portuguese (Brazilian): [jsolisu](//github.com/jsolisu) [rclenzi](//github.com/rclenzi)
+  - Portuguese (Brazilian): [jsolisu](//github.com/jsolisu) [rclenzi](//github.com/rclenzi) [thiagomneves](//github.com/thiagomneves)
   - Dutch: [laurensbrand](//github.com/laurensbrand)
   - Polish: [Jeplaa](//github.com/Jeplaa)
   - French: [chezyann](//github.com/chezyann) [Vivalzar](//github.com/Vivalzar) [DThought](//github.com/DThought)
@@ -85,6 +86,7 @@ Community-driven translation. :family:
   - Arabic: [AmrIKhudair](//github.com/AmrIKhudair)
   - Belarusian: [antikruk](//github.com/antikruk)
   - Czech: [Heroyt](//github.com/Heroyt)
+  - Albanian: [ujdhesa](//github.com/ujdhesa)
 
 
 ## Reference
@@ -155,6 +157,7 @@ Community-driven translation. :family:
 [pl-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20pl%22 "pl-issue-filter"
 [pt-br-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20pt-br%22 "pt-br-issue-filter"
 [ru-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ru%22 "ru-issue-filter"
+[sq-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20sq%22 "sq-issue-filter"
 [th-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20th%22 "th-issue-filter"
 [zh-cn-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20zh-cn%22 "zh-cn-issue-filter"
 [zh-tw-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20zh-tw%22 "zh-tw-issue-filter"

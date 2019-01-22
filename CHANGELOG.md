@@ -1,3 +1,16 @@
+## 0.17.0 - Albanian support
+
+- Albanian i18n #210
+- German update #206
+
+## 0.16.3 - fix about page
+
+- Fix TypeError in About Page #207
+
+## 0.16.2 - Portuguese (Brazilian) fix
+
+- Portuguese (Brazilian) #200
+
 ## 0.16.1 - Fix Japanese, Polish
 
 - Polish i18n #195
