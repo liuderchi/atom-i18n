@@ -58,12 +58,12 @@
           "description": "Deutsch (de)"
         },
         {
-          "value": "es",
-          "description": "Español (es)"
-        },
-        {
           "value": "eo",
           "description": "Esperanto (eo)"
+        },
+        {
+          "value": "es",
+          "description": "Español (es)"
         },
         {
           "value": "fi",
