@@ -22,7 +22,7 @@ Welcome:
     atomOrg: {
       text1: ""
       link: "Atom org"
-      text2: ". Здесь находятся все плагины, созданные на GitHub."
+      text2: ". Здесь находятся все расширения, созданные на GitHub."
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
