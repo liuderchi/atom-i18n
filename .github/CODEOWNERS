@@ -11,14 +11,16 @@ def/cz/*.cson        @Heroyt
 
 def/de/*.cson        @Acer54 @socialmedialabs
 def/de/settings.cson @Acer54  @queenar  @socialmedialabs
-
-def/es/*.cson        @stsewd
 def/de/about.cson    @Tz3r0  @polynoman
 def/de/menu_darwin.cson     @Tz3r0  @polynoman
 def/de/menu_linux.cson      @polynoman
 def/de/menu_win32.cson      @polynoman
 def/de/settings.cson @Tz3r0  @silas229 @Henry2o1o
 def/de/welcome.cson  @Tz3r0  @polynoman
+
+def/eo/*.cson        @p2635
+
+def/es/*.cson        @stsewd
 
 def/fi/*.cson        @an7oine
 
@@ -41,7 +43,7 @@ def/pl/*.cson        @nolt
 
 def/pt-br/*.cson     @jsolisu @rclenzi @thiagomneves
 
-def/ru/*.cson        @Anonym0uz  @Driglu4it
+def/ru/*.cson        @Anonym0uz  @Driglu4it  @sabinich
 
 def/sq/*.cson        @ujdhesa
 

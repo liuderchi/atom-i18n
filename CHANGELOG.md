@@ -1,3 +1,7 @@
+## 0.18.0 - Esperanto support
+- Esperanto i18n #213
+- Russian update #212
+
 ## 0.17.0 - Albanian support
 
 - Albanian i18n #210
