@@ -20,6 +20,7 @@ const LOCALES = [
   'th',
   'zh-cn',
   'zh-tw',
+  'uk',
   'template',
 ]
 

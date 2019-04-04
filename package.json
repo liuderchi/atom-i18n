@@ -126,6 +126,10 @@
           "description": "繁體中文 (zh-tw)"
         },
         {
+          "value": "uk",
+          "description": "Українська мова (uk)"
+        },
+        {
           "value": "template",
           "description": "English (en)"
         }
