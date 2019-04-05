@@ -118,16 +118,16 @@
           "description": "ภาษาไทย (th)"
         },
         {
+          "value": "uk",
+          "description": "Українська мова (uk)"
+        },
+        {
           "value": "zh-cn",
           "description": "简体中文 (zh-cn)"
         },
         {
           "value": "zh-tw",
           "description": "繁體中文 (zh-tw)"
-        },
-        {
-          "value": "uk",
-          "description": "Українська мова (uk)"
         },
         {
           "value": "template",
