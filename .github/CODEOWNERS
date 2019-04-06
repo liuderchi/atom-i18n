@@ -49,6 +49,8 @@ def/sq/*.cson        @ujdhesa
 
 def/th/*.cson        @sitdh
 
+def/uk/*.cson        @sashaoli
+
 def/zh-cn/*.cson     @trifirew
 
 def/zh-tw/*.cson     @liuderchi

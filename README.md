@@ -49,6 +49,7 @@ Community-driven translation. :family:
 | Russian              |  `ru`   | :warning: 99% [I can translate][ru-issue-filter]    |
 | Albanian             |  `sq`   | :white_check_mark: 100%                             |
 | Thai                 |  `th`   | :warning: 80% [I can translate][th-issue-filter]    |
+| Ukrainian            |  `uk`   | :white_check_mark: 100%                             |
 | Chinese(Simplified)  | `zh-cn` | :white_check_mark: 100%                             |
 | Chinese(Traditional) | `zh-tw` | :white_check_mark: 100%                             |
 
@@ -89,6 +90,7 @@ Community-driven translation. :family:
   - Czech: [Heroyt](//github.com/Heroyt)
   - Albanian: [ujdhesa](//github.com/ujdhesa)
   - Esperanto: [p2635](//github.com/p2635)
+  - Ukrainian: [sashaoli](//github.com/sashaoli)
 
 
 ## Reference
@@ -162,6 +164,7 @@ Community-driven translation. :family:
 [ru-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ru%22 "ru-issue-filter"
 [sq-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20sq%22 "sq-issue-filter"
 [th-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20th%22 "th-issue-filter"
+[uk-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20uk%22 "uk-issue-filter"
 [zh-cn-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20zh-cn%22 "zh-cn-issue-filter"
 [zh-tw-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20zh-tw%22 "zh-tw-issue-filter"
 

@@ -1,3 +1,6 @@
+## 0.19.0 - Ukrainian support
+- Ukrainian i18n #222
+
 ## 0.18.0 - Esperanto support
 - Esperanto i18n #213
 - Russian update #212
