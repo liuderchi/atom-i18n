@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "Вітаємо"
+  subtitle: {
+    text1: "Просунутий текстовий редактор для 21"
+    superscript: "st"
+    text2: " століття"
+  }
+  help: {
+    forHelpVisit: "Для отримання допомоги, будь ласка, відвідайте"
+    atomDocs: {
+      text1: " "
+      link: "Atom docs"
+      text2: " за посібниками та API документацією."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "Форум Atom на "
+      link: "discuss.atom.io"
+      text2: ""   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: "The "
+      link: "Atom org"
+      text2: ". Тут знаходяться усі пакунки Atom, створені на GitHub."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "Показувати привітання при відкриті Atom"
