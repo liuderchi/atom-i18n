@@ -1,13 +1,13 @@
 Menu:
   "&File":
-    value: "&קובץ"
+    value: "קובץ (&F)"
     submenu:
       "New &Window":
-        value: "חלון &חדש"
+        value: "חלון חדש (&W)"
       "&New File":
-        value: "קובץ &חדש"
+        value: "קובץ חדש (&N)"
       "&Open File…":
-        value: "&פתח קובץ"
+        value: "פתח קובץ (&O)"
       "Open Folder…":
         value: "פתח תיקייה"
       "Add Project Folder…":
@@ -18,96 +18,96 @@ Menu:
           "Clear Project History":
             value: "נקה היסטוריית פרוייקט"
       "Reopen Last &Item":
-        value: "פתח מחדש &פריט אחרון"
+        value: "פתח מחדש פריט אחרון (&I)"
       "&Save":
-        value: "&שמור"
+        value: "שמור (&S)"
       "Save &As…":
-        value: "שמור &בשם"
+        value: "שמור בשם (&A)"
       "Save A&ll":
-        value: "שמור &הכל"
+        value: "שמור הכל (&L)"
       "&Close Tab":
-        value: "&סגור לשונית"
+        value: "סגור לשונית (&C)"
       "Close &Pane":
-        value: "סגור &חלונית"
+        value: "סגור חלונית (&P)"
       "Clos&e Window":
-        value: "סגור &חלון"
+        value: "סגור חלון (&E)"
       "Quit":
         value: "צא"
       "Close All Tabs":
         value: "סגור את כל הכרטיסיות"
   "&Edit":
-    value: "&Edit"
+    value: "ערוך (&E)"
     submenu:
       "&Undo":
-        value: "&בטל"
+        value: "בטל (&U)"
       "&Redo":
-        value: "&בצע מחדש"
+        value: "בצע מחדש (&R)"
       "&Cut":
-        value: "גז&ור"
+        value: "גזור (&C)"
       "C&opy":
-        value: "&העתק"
+        value: "העתק (&O)"
       "Copy Pat&h":
-        value: "העתק נ&תיב"
+        value: "העתק נתיב (&H)"
       "&Paste":
-        value:"&הדבק"
+        value: "הדבק (&P)"
       "Select &All":
-        value: "בחר &הכל"
+        value: "בחר הכל (&A)"
       "&Toggle Comments":
-        value: "&הפעל/כבה תגובות"
+        value: "הפעל/כבה תגובות (&T)"
       Lines:
         value: "שורות"
         submenu:
           "&Indent":
-            value: "&הזחה"
+            value: "הזחה (&I)"
           "&Outdent":
-            value: "&הזחה החוצה"
+            value: "הזחה החוצה (&O)"
           "&Auto Indent":
-            value: "&הזחה אוטומטית"
+            value: "הזחה אוטומטית (&A)"
           "Move Line &Up":
-            value: "העבר שורה &מעלה"
+            value: "העבר שורה מעלה (&U)"
           "Move Line &Down":
-            value: "העבר שורה &מטה"
+            value: "העבר שורה מטה (&D)"
           "Du&plicate Lines":
-            value: "&שכפל שורות"
+            value: "שכפל שורות (&P)"
           "D&elete Line":
-            value: "&מחק שורה"
+            value: "מחק שורה (&E)"
           "&Join Lines":
-            value: "&חבר שורות יחד"
+            value: "חבר שורות יחד (&J)"
       Columns:
         value: "עמודות"
         submenu:
           "Move Selection &Left":
-            value: "הזז בחירה &שמאלה"
+            value: "הזז בחירה שמאלה (&L)"
           "Move Selection &Right":
-            value: "הזז בחירה &ימינה"
+            value: "הזז בחירה ימינה (&R)"
       Text:
         value: "טקסט"
         submenu:
           "&Upper Case":
-            value: "&אותיות גדולות"
+            value: "אותיות גדולות (&U)"
           "&Lower Case":
-            value: "&אותיות קטנות"
+            value: "אותיות קטנות (&L)"
           "Delete to End of &Word":
-            value: "מחק עד סוף &המילה"
+            value: "מחק עד סוף המילה (&W)"
           "Delete to Previous Word Boundary":
             value: "מחק עד סוף המילה הקודמת"
           "Delete to Next Word Boundary":
             value: "מחק עד סוף המילה הבאה"
           "&Delete Line":
-            value: "&מחק שורה"
+            value: "מחק שורה (&D)"
           "&Transpose":
-            value: "&שנה"
+            value: "שנה (&T)"
       Folding:
         value: "קיפול"
         submenu:
           "&Fold":
-            value: "&קפל"
+            value: "קפל (&F)"
           "&Unfold":
-            value: "&בטל קיפול"
+            value: "בטל קיפול (&U)"
           "Unfold &All":
-            value: "בטל קיפול &להכל"
+            value: "בטל קיפול להכל (&A)"
           "Fol&d All":
-            value: "קפל &הכל"
+            value: "קפל הכל (&D)"
           "Fold Level 1":
             value: "קיפול שלב 1"
           "Fold Level 2":
@@ -127,7 +127,7 @@ Menu:
           "Fold Level 9":
             value: "קיפול שלב 9"
       "&Preferences":
-        value: "&העדפות"
+        value: "העדפות (&P)"
       "Config…":
         value: "הגדר"
       "Init Script…":
@@ -158,10 +158,10 @@ Menu:
       "Select Grammar":
         value: "בחר דקדוק"
   "&View":
-    value: "&מראה"
+    value: "מראה (&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "הפעל/כבה &מסך מלא"
+        value: "הפעל/כבה מסך מלא (&F)"
       "Toggle Menu Bar":
         value: "הפעל/כבה שורת תפריט"
       Panes:
@@ -193,60 +193,60 @@ Menu:
         value: "מפתח"
         submenu:
           "Open In &Dev Mode…":
-            value: "פתח במצב &פיתוח"
+            value: "פתח במצב פיתוח (&D)"
           "&Reload Window":
-            value: "&טען חלון מחדש"
+            value: "טען חלון מחדש (&R)"
           "Run Package &Specs":
-            value: "הרץ &מפרט חבילות"
+            value: "הרץ מפרט חבילות (&S)"
           "Run &Benchmarks":
-            value: "הרץ &בדיקות"
+            value: "הרץ בדיקות (&B)"
           "Toggle Developer &Tools":
-            value: "הפעל/כבה &אפשרויות פיתוח"
+            value: "הפעל/כבה אפשרויות פיתוח (&T)"
       "&Increase Font Size":
-        value: "&הגדל גודל גופן"
+        value: "הגדל גודל גופן (&I)"
       "&Decrease Font Size":
-        value: "&הקטן גודל גופן"
+        value: "הקטן גודל גופן (&D)"
       "Re&set Font Size":
-        value: "&אפס את גודל הגופן"
+        value: "אפס את גודל הגופן (&S)"
       "Toggle Soft &Wrap":
-        value: "הפעל/כבה גלישת טקסט רכה"
+        value: "הפעל/כבה גלישת טקסט רכה (&W)"
       "Toggle Command Palette":
         value: "הפעל/כבה לוח בקרה"
       "Toggle Tree View":
         value: "הפעל/כבה תצוגת עץ"
   "&Selection":
-    value: "&Selection"
+    value: "בחירה (&S)"
     submenu:
       "Add Selection &Above":
-        value: "הוסף סימון &מלמעלה"
+        value: "הוסף סימון מלמעלה (&A)"
       "Add Selection &Below":
-        value: "הוסף סימון &מלמטה"
+        value: "הוסף סימון מלמטה (&B)"
       "S&plit into Lines":
-        value: "&פצל סימון לשורות"
+        value: "פצל סימון לשורות (&P)"
       "Single Selection":
         value: "בחירה יחידה"
       "Select to &Top":
-        value: "בחר עד החלק &העליון"
+        value: "בחר עד החלק העליון (&T)"
       "Select to Botto&m":
-        value: "בחר עד החלק &התחתון"
+        value: "בחר עד החלק התחתון (&M)"
       "Select &Line":
-        value: "בחר &שורה"
+        value: "בחר שורה (&L)"
       "Select &Word":
-        value: "בחר &מילה"
+        value: "בחר מילה (&W)"
       "Select to Beginning of W&ord":
-        value: "בחר עד תחילת &המילה"
+        value: "בחר עד תחילת המילה (&O)"
       "Select to Beginning of L&ine":
-        value: "בחר עד תחילת &השורה"
+        value: "בחר עד תחילת השורה (&I)"
       "Select to First &Character of Line":
-        value: "בחר עד &התו הראשון בשורה"
+        value: "בחר עד התו הראשון בשורה (&C)"
       "Select to End of Wor&d":
-        value: "בחר עד סוף &המילה"
+        value: "בחר עד סוף המילה (&D)"
       "Select to End of Lin&e":
-        value: "בחר עד סוף &השורה"
+        value: "בחר עד סוף השורה (&E)"
       "Select Inside Brackets":
         value: "בחר בתוך סוגריים"
   "F&ind":
-    value: "מ&צא"
+    value: "מצא (&I)"
     submenu:
       "Find in Buffer":
         value: "מצא במאגר"
@@ -281,16 +281,16 @@ Menu:
       "Find Modified File":
         value: "מצא קובץ ששונה"
   "&Packages":
-    value: "&חבילות"
+    value: "חבילות (&P)"
   "&Help":
-    value: "&עזרה"
+    value: "עזרה (&H)"
     submenu:
       "View &Terms of Use":
-        value: "הצג &תנאי שימוש"
+        value: "הצג תנאי שימוש (&T)"
       "View &License":
-        value: "הצג &רישיון"
+        value: "הצג רישיון (&L)"
       "&Documentation":
-        value: "&תיעוד"
+        value: "תיעוד (&D)"
       "Frequently Asked Questions":
         value: "שאלות נפוצות"
       "Community Discussions":
