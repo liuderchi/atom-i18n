@@ -26,7 +26,7 @@ Menu:
       "Init Script…":
         value: "סקריפט התחלתי"
       "Keymap…":
-        value: "קובץ קיצור המקלדת"
+        value: "קובץ קיצורי המקלדת"
       "Snippets…":
         value: "תגזירים"
       "Stylesheet…":
@@ -110,7 +110,7 @@ Menu:
           "&Delete Line":
             value: "&מחק שורה"
           "&Transpose":
-            value: "&Transpose"
+            value: "&שנה"
       Folding:
         value: "קיפול"
         submenu:

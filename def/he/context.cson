@@ -3,7 +3,7 @@ Context:
     "application:inspect": "בדוק אלמנט"
   "atom-text-editor":
     "color-picker:open": "בוחר צבע"
-    "minimap:toggle": "הפעל או כבה minimap"
+    "minimap:toggle": "הפעל/כבה Minimap"
   "atom-text-editor, .overlayer":
     "core:undo": "בטל"
     "core:redo": "בצע שוב"
