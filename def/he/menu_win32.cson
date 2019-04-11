@@ -1,0 +1,319 @@
+Menu:
+  "&File":
+    value: "קובץ (&F)"
+    submenu:
+      "New &Window":
+        value: "חלון חדש (&W)"
+      "&New File":
+        value: "קובץ חדש (&N)"
+      "&Open File…":
+        value: "פתח קובץ (&O)"
+      "Open Folder…":
+        value: "פתח תיקייה"
+      "Add Project Folder…":
+        value: "הוסף תיקיית פרוייקט"
+      "Reopen Project":
+        value: "פתח פרוייקט מחדש"
+        submenu:
+          "Clear Project History":
+            value: "נקה היסטוריית פרוייקט"
+      "Reopen Last &Item":
+        value: "פתח מחדש פריט אחרון (&I)"
+      "Se&ttings":
+        value: "הגדרות (&T)"
+      "Config…":
+        value: "הגדר"
+      "Init Script…":
+        value: "סקריפט התחלתי"
+      "Keymap…":
+        value: "קובץ קיצורי המקלדת"
+      "Snippets…":
+        value: "תגזירים"
+      "Stylesheet…":
+        value: "גליון סגנונות"
+      "&Save":
+        value: "שמור (&S)"
+      "Save &As…":
+        value: "שמור בשם (&A)"
+      "Save A&ll":
+        value: "שמור הכל (&L)"
+      "&Close Tab":
+        value: "סגור לשונית (&C)"
+      "Close &Pane":
+        value: "סגור חלונית (&P)"
+      "Clos&e Window":
+        value: "סגור חלון (&E)"
+      "E&xit":
+        value: "צא (&X)"
+      "Close All Tabs":
+        value: "סגור את כל הכרטיסיות"
+  "&Edit":
+    value: "ערוך (&E)"
+    submenu:
+      "&Undo":
+        value: "בטל (&U)"
+      "&Redo":
+        value: "בצע מחדש (&R)"
+      "Cu&t":
+        value: "גזור (&T)"
+      "&Copy":
+        value: "העתק (&C)"
+      "Copy Pat&h":
+        value: "העתק נתיב (&H)"
+      "&Paste":
+        value: "הדבק (&P)"
+      "Paste Without Reformatting":
+        value: "הדבק ללא עיצוב מחדש"
+      "Select &All":
+        value: "בחר הכל (&A)"
+      "&Toggle Comments":
+        value: "הפעל/כבה תגובות (&T)"
+      Lines:
+        value: "שורות"
+        submenu:
+          "&Indent":
+            value: "הזחה (&I)"
+          "&Outdent":
+            value: "הזחה החוצה (&O)"
+          "&Auto Indent":
+            value: "הזחה אוטומטית (&A)"
+          "Move Line &Up":
+            value: "העבר שורה מעלה (&U)"
+          "Move Line &Down":
+            value: "העבר שורה מטה (&D)"
+          "Du&plicate Lines":
+            value: "שכפל שורות (&P)"
+          "D&elete Line":
+            value: "מחק שורה (&E)"
+          "&Join Lines":
+            value: "חבר שורות יחד (&J)"
+      Columns:
+        value: "עמודות"
+        submenu:
+          "Move Selection &Left":
+            value: "הזז בחירה שמאלה (&L)"
+          "Move Selection &Right":
+            value: "הזז בחירה ימינה (&R)"
+      Text:
+        value: "טקסט"
+        submenu:
+          "&Upper Case":
+            value: "אותיות גדולות (&U)"
+          "&Lower Case":
+            value: "אותיות קטנות (&L)"
+          "Delete to End of &Word":
+            value: "מחק עד סוף המילה (&W)"
+          "Delete to Previous Word Boundary":
+            value: "מחק עד סוף המילה הקודמת"
+          "Delete to Next Word Boundary":
+            value: "מחק עד סוף המילה הבאה"
+          "&Delete Line":
+            value: "מחק שורה (&D)"
+          "&Transpose":
+            value: "שנה (&T)"
+      Folding:
+        value: "קיפול"
+        submenu:
+          "&Fold":
+            value: "קפל (&F)"
+          "&Unfold":
+            value: "בטל קיפול (&U)"
+          "Unfold &All":
+            value: "בטל קיפול להכל (&A)"
+          "Fol&d All":
+            value: "קפל הכל (&D)"
+          "Fold Level 1":
+            value: "קיפול שלב 1"
+          "Fold Level 2":
+            value: "קיפול שלב 2"
+          "Fold Level 3":
+            value: "קיפול שלב 3"
+          "Fold Level 4":
+            value: "קיפול שלב 4"
+          "Fold Level 5":
+            value: "קיפול שלב 5"
+          "Fold Level 6":
+            value: "קיפול שלב 6"
+          "Fold Level 7":
+            value: "קיפול שלב 7"
+          "Fold Level 8":
+            value: "קיפול שלב 8"
+          "Fold Level 9":
+            value: "קיפול שלב 9"
+      "Reflow Selection":
+        value: "בחר מחדש"
+      Bookmark:
+        value: "סימניה"
+        submenu:
+          "View All":
+            value: "הצג הכל"
+          "Toggle Bookmark":
+            value: "הפעל/כבה סימניה"
+          "Jump to Next Bookmark":
+            value: "קפוץ לסימניה הבאה"
+          "Jump to Previous Bookmark":
+            value: "קפוץ לסימניה הקודמת"
+          "Select to Next Bookmark":
+            value: "בחר עד הסימנייה הבאה"
+          "Select to Previous Bookmark":
+            value: "בחר עד הסימניה הקודמת"
+      "Select Encoding":
+        value: "בחר קידוד"
+      "Go to Line":
+        value: "לך לשורה"
+      "Select Grammar":
+        value: "בחר דקדוק"
+  "&View":
+    value: "מראה (&V)"
+    submenu:
+      "Toggle &Full Screen":
+        value: "הפעל/כבה מסך מלא (&F)"
+      "Toggle Menu Bar":
+        value: "הפעל/כבה שורת תפריט"
+      Panes:
+        value: "חלוניות"
+        submenu:
+          "Split Up":
+            value: "פצל מעלה"
+          "Split Down":
+            value: "פצל מטה"
+          "Split Left":
+            value: "פצל שמאלה"
+          "Split Right":
+            value: "פצל ימינה"
+          "Focus Next Pane":
+            value: "התפקס על החלונית הבאה"
+          "Focus Previous Pane":
+            value: "התפקס על החלונית הקודמת"
+          "Focus Pane Above":
+            value: "התפקס על החלונית מלמעלה"
+          "Focus Pane Below":
+            value: "התפקס על החלונית מלמטה"
+          "Focus Pane On Left":
+            value: "התפקס על החלונית משמאל"
+          "Focus Pane On Right":
+            value: "התפקס על החלונית מימין"
+          "Close Pane":
+            value: "סגור חלונית"
+      Developer:
+        value: "מפתח"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "פתח במצב פיתוח (&D)"
+          "&Reload Window":
+            value: "טען חלון מחדש (&R)"
+          "Run Package &Specs":
+            value: "הרץ מפרט חבילות (&S)"
+          "Run &Benchmarks":
+            value: "הרץ בדיקות (&B)"
+          "Toggle Developer &Tools":
+            value: "הפעל/כבה אפשרויות פיתוח (&T)"
+      "&Increase Font Size":
+        value: "הגדל גודל גופן (&I)"
+      "&Decrease Font Size":
+        value: "הקטן גודל גופן (&D)"
+      "Re&set Font Size":
+        value: "אפס את גודל הגופן (&S)"
+      "Toggle Soft &Wrap":
+        value: "הפעל/כבה גלישת טקסט רכה (&W)"
+      "Toggle Command Palette":
+        value: "הפעל/כבה לוח בקרה"
+      "Toggle Tree View":
+        value: "הפעל/כבה תצוגת עץ"
+  "&Selection":
+    value: "בחירה (&S)"
+    submenu:
+      "Add Selection &Above":
+        value: "הוסף סימון מלמעלה (&A)"
+      "Add Selection &Below":
+        value: "הוסף סימון מלמטה (&B)"
+      "S&plit into Lines":
+        value: "פצל סימון לשורות (&P)"
+      "Single Selection":
+        value: "בחירה יחידה"
+      "Select to &Top":
+        value: "בחר עד החלק העליון (&T)"
+      "Select to Botto&m":
+        value: "בחר עד החלק התחתון (&M)"
+      "Select &Line":
+        value: "בחר שורה (&L)"
+      "Select &Word":
+        value: "בחר מילה (&W)"
+      "Select to Beginning of W&ord":
+        value: "בחר עד תחילת המילה (&O)"
+      "Select to Beginning of L&ine":
+        value: "בחר עד תחילת השורה (&I)"
+      "Select to First &Character of Line":
+        value: "בחר עד התו הראשון בשורה (&C)"
+      "Select to End of Wor&d":
+        value: "בחר עד סוף המילה (&D)"
+      "Select to End of Lin&e":
+        value: "בחר עד סוף השורה (&E)"
+      "Select Inside Brackets":
+        value: "בחר בתוך סוגריים"
+  "F&ind":
+    value: "מצא (&I)"
+    submenu:
+      "Find in Buffer":
+        value: "מצא במאגר"
+      "Replace in Buffer":
+        value: "החלף במאגר"
+      "Select Next":
+        value: "בחר הבא"
+      "Select All":
+        value: "בחר הכל"
+      "Toggle Find in Buffer":
+        value: "הפעל/כבה מציאה במאגר"
+      "Find in Project":
+        value: "מצא בפרוייקט"
+      "Toggle Find in Project":
+        value: "הפעל/כבה מציאה בפרוייקט"
+      "Find All":
+        value: "מצא הכל"
+      "Find Next":
+        value: "מצא הבא"
+      "Find Previous":
+        value: "מצא קודם"
+      "Replace Next":
+        value: "החלף הבא"
+      "Replace All":
+        value: "החלף הכל"
+      "Clear History":
+        value: "נקה היסטוריה"
+      "Find Buffer":
+        value: "מצא מאגר"
+      "Find File":
+        value: "מצא קובץ"
+      "Find Modified File":
+        value: "מצא קובץ ששונה"
+  "&Packages":
+    value: "חבילות (&P)"
+  "&Help":
+    value: "עזרה (&H)"
+    submenu:
+      "View &Terms of Use":
+        value: "הצג תנאי שימוש (&T)"
+      "View &License":
+        value: "הצג רישיון (&L)"
+      "Restart and Install Update":
+        value: "הפעל מחדש והתקן עדכון"
+      "Check for Update":
+        value: "סרוק עבור עדכונים"
+      "Checking for Update":
+        value: "סורק עבור עדכונים"
+      "Downloading Update":
+        value: "מוריד עדכון"
+      "&Documentation":
+        value: "תיעוד (&D)"
+      "Frequently Asked Questions":
+        value: "שאלות נפוצות"
+      "Community Discussions":
+        value: "דיונים קהילתיים"
+      "Report Issue":
+        value: "דווח על בעיה"
+      "Search Issues":
+        value: "חפש בעיות"
+      "About Atom":
+        value: "אודות אטום"
+      "Welcome Guide":
+        value: "מדריך למשתמש מתחיל"

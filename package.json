@@ -74,6 +74,10 @@
           "description": "Français (fr)"
         },
         {
+          "value": "he",
+          "description": "עברית (he)"
+        },
+        {
           "value": "hi",
           "description": "हिन्दी (hi)"
         },

@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "בדוק אלמנט"
+  "atom-text-editor":
+    "color-picker:open": "בוחר צבע"
+    "minimap:toggle": "הפעל/כבה Minimap"
+  "atom-text-editor, .overlayer":
+    "core:undo": "בטל"
+    "core:redo": "בצע שוב"
+    "core:cut": "חתוך"
+    "core:copy": "העתק"
+    "core:paste": "הדבק"
+    "core:delete": "מחק"
+    "core:select-all": "בחר הכל"
+    "pane:split-up-and-copy-active-item": "פצל מעלה"
+    "pane:split-down-and-copy-active-item": "פצל מטה"
+    "pane:split-left-and-copy-active-item": "פצל שמאלה"
+    "pane:split-right-and-copy-active-item": "פצל ימינה"
+    "pane:close": "סגור חלונית"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "פצל מעלה"
+    "pane:split-down-and-copy-active-item": "פצל מטה"
+    "pane:split-left-and-copy-active-item": "פצל שמאלה"
+    "pane:split-right-and-copy-active-item": "פצל ימינה"
+    "pane:close": "סגור חלונית"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "שנה קידוד"
+    "spell-check:correct-misspelling": "תקן שגיאת כתיב"
+    "symbols-view:go-to-declaration": "עבר אל הגדרה"
+  ".overlayer":
+    "grammar-selector:show": "שנה דקדוק"
+  ".image-view":
+    "image-view:reload": "טען תמונה מחדש"
+  ".tab":
+    "tabs:close-tab": "סגור כרטיסייה"
+    "tabs:close-other-tabs": "סגור את שאר הכרטיסיות"
+    "tabs:close-tabs-to-right": "סגור כרטיסיות לימין"
+    "tabs:close-tabs-to-left": "סגור כרטיסיות לשמאל"
+    "tabs:close-saved-tabs": "סגור כרטיסיות שמורות"
+    "tabs:close-all-tabs": "סגור את כל הכרטיסיות"
+    "tabs:split-up": "פצל מעלה"
+    "tabs:split-down": "פצל מטה"
+    "tabs:split-left": "פצל שמאלה"
+    "tabs:split-right": "פצל ימינה"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "פתח בחלון חדש"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "שמור כרטיסייה בהמתנה"
+  ".tab-bar":
+    "pane:reopen-closed-item": "פתח מחדש כרטיסייה סגורה"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "קובץ חדש"
+    "tree-view:add-folder": "תייקיה חדשה"
+    "tree-view:move": "שנה שם"
+    "tree-view:duplicate": "שכפל"
+    "tree-view:remove": "מחק"
+    "tree-view:copy": "העתק"
+    "tree-view:cut": "חתוך"
+    "tree-view:paste": "הדבק"
+    "tree-view:open-selected-entry-up": "פצל מעלה"
+    "tree-view:open-selected-entry-down": "פצל מטה"
+    "tree-view:open-selected-entry-left": "פצל שמאלה"
+    "tree-view:open-selected-entry-right": "פצל ימינה"
+    "application:add-project-folder": "הוסף תיקיית פרוייקט"
+    "tree-view:copy-full-path": "העתק נתיב מלא"
+    "tree-view:copy-project-path": "העתק נתיב ביחס לפרוייקט"
+    "tree-view:open-in-new-window": "פתח בחלון חדש"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "פצל מעלה"
+    "tree-view:open-selected-entry-down": "פצל מטה"
+    "tree-view:open-selected-entry-left": "פצל שמאלה"
+    "tree-view:open-selected-entry-right": "פצל ימינה"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "קובץ חדש"
+    "tree-view:add-folder": "תייקיה חדשה"
+    "tree-view:move": "שנה שם"
+    "tree-view:duplicate": "שכפל"
+    "tree-view:remove": "מחק"
+    "tree-view:copy": "העתק"
+    "tree-view:cut": "חתוך"
+    "tree-view:paste": "הדבק"
+    "tree-view:open-selected-entry-up": "פצל מעלה"
+    "tree-view:open-selected-entry-down": "פצל מטה"
+    "tree-view:open-selected-entry-left": "פצל שמאלה"
+    "tree-view:open-selected-entry-right": "פצל ימינה"
+    "application:add-project-folder": "הוסף תיקיית פרוייקט"
+    "tree-view:remove-project-folder": "הסר תיקיית פרוייקט"
+    "tree-view:copy-full-path": "העתק נתיב מלא"
+    "tree-view:copy-project-path": "העתק נתיב ביחס לפרוייקט"
+    "tree-view:open-in-new-window": "פתח בחלון חדש"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "הצג במנהל הקבצים"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "הצג במנהל הקבצים"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "הצג במנהל הקבצים"
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "חפש בתייקיה"
+  ".tree-view .multi-select":
+    "tree-view:remove": "מחק"
+    "tree-view:copy": "העתק"
+    "tree-view:cut": "חתוך"
+    "tree-view:paste": "הדבק"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "חשוף בתצוגת עץ"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "שנה שם"
+    "tree-view:reveal-active-file": "חשוף בתצוגת עץ"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "הצג במנהל הקבצים"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "הצג במנהל הקבצים"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "הצג במנהל הקבצים"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "הצג במנהל הקבצים"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "הצג במנהל הקבצים"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "הצג במנהל הקבצים"
