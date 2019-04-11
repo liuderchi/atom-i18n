@@ -39,7 +39,6 @@
                 "description": "Polski (pl)"  # menu item displayed
               },
               ```
-          - add your locale code to the array in [`spec/locales.js`](//github.com/liuderchi/atom-i18n/blob/master/spec/locales.js)
 
   6. please read [translation guide](#translation-guide) before translation
 
