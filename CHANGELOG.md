@@ -1,3 +1,6 @@
+## 0.20.0 - Hebrew support
+- Hebrew i18n #225
+
 ## 0.19.0 - Ukrainian support
 - Ukrainian i18n #222
 
