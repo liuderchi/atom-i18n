@@ -74,6 +74,10 @@
           "description": "Français (fr)"
         },
         {
+          "value": "he",
+          "description": "עברית (he)"
+        },
+        {
           "value": "hi",
           "description": "हिन्दी (hi)"
         },
@@ -128,10 +132,6 @@
         {
           "value": "zh-tw",
           "description": "繁體中文 (zh-tw)"
-        },
-        {
-          "value": "he",
-          "description": "עברית (he)"
         },
         {
           "value": "template",
