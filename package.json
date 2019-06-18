@@ -114,6 +114,10 @@
           "description": "Ру́сский (ru)"
         },
         {
+          "value": "sk",  
+          "description": "Slovenčina (sk)"
+        },
+        {
           "value": "sq",
           "description": "Shqipe (sq)"
         },
