@@ -286,11 +286,11 @@ Menu:
     value: "&Pomoc"
     submenu:
       "View &Terms of Use":
-        value: "Podmienky používania"
+        value: "Podmie&nky používania"
       "View &License":
-        value: "Zobraziť Licenciu"
+        value: "Zobraziť &Licenciu"
       "&Documentation":
-        value: "Dokumentácia"
+        value: "&Dokumentácia"
       "Frequently Asked Questions":
         value: "Často kladdené otázky"
       "Community Discussions":
