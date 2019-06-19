@@ -20,73 +20,75 @@ Menu:
       "Reopen Last &Item":
         value: "Znovu otvoriť poslednú &položku"
       "&Save":
-        value: "&Uložiť"
+        value: "Uložiť"
       "Save &As…":
-        value: "Uložiť &ako…"
+        value: "Uložiť ako…"
       "Save A&ll":
-        value: "U&ložiť všetko"
+        value: "Uložiť všetko"
       "&Close Tab":
         value: "Zatvoriť záložku"
       "Close &Pane":
-        value: "Zatvoriť &panel"
+        value: "Zatvoriť panel"
       "Clos&e Window":
-        value: "Zatvoriť ok&no"
+        value: "Zatvoriť okno"
       "Quit":
         value: "Ukončiť"
       "Close All Tabs":
         value: "Zatvoriť všetky záložky"
   "&Edit":
-    value: "&Upraviť"
+    value: "Upraviť"
     submenu:
       "&Undo":
-        value: "&Späť"
+        value: "Späť"
       "&Redo":
-        value: "&Znovu"
+        value: "Znovu"
       "&Cut":
-        value: "&Vystrihnúť"
+        value: "Vystrihnúť"
       "C&opy":
-        value: "&Kopírovať"
+        value: "Kopírovať"
       "Copy Pat&h":
-        value: "Kopírovať ces&tu"
+        value: "Kopírovať cestu"
       "&Paste":
-        value: "&Vložiť"
+        value: "Vložiť"
       "Select &All":
-        value: "Vybr&ať všetko"
+        value: "Vybrať všetko"
+      "Paste Without Reformatting":
+        value: "Vložiť bez preformátovania"
       "&Toggle Comments":
-        value: "Prepnúť ko&mentáre"
+        value: "Prepnúť komentáre"
       Lines:
         value: "Riadky"
         submenu:
           "&Indent":
-            value: "O&dsadiť"
+            value: "Odsadiť"
           "&Outdent":
-            value: "&Zmenšiť odsadenie"
+            value: "Zmenšiť odsadenie"
           "&Auto Indent":
-            value: "&Automatické odsadenie"
+            value: "Automatické odsadenie"
           "Move Line &Up":
-            value: "Presunúť riadok na&hor"
+            value: "Presunúť riadok nahor"
           "Move Line &Down":
-            value: "Presunúť riadok na&dol"
+            value: "Presunúť riadok nadol"
           "Du&plicate Lines":
             value: "Duplikovať riadky"
           "D&elete Line":
-            value: "&Zmazať riadok"
+            value: "Zmazať riadok"
           "&Join Lines":
-            value: "Spo&jiť riadky"
+            value: "Spojiť riadky"
       Columns:
         value: "Stĺpce"
         submenu:
           "Move Selection &Left":
-            value: "Posunúť výber vľa&vo"
+            value: "Posunúť výber vľavo"
           "Move Selection &Right":
-            value: "Posunúť výber vp&ravo"
+            value: "Posunúť výber vpravo"
       Text:
         value: "Text"
         submenu:
           "&Upper Case":
-            value: "&Veľké písmena"
+            value: "Veľké písmena"
           "&Lower Case":
-            value: "&Malé písmena"
+            value: "Malé písmena"
           "Delete to End of &Word":
             value: "Zmazať do konca slova"
           "Delete to Previous Word Boundary":
@@ -94,20 +96,20 @@ Menu:
           "Delete to Next Word Boundary":
             value: "Zmazať k nasledujúcej hranici slova"
           "&Delete Line":
-            value: "Vyma&zať riadok"
+            value: "Vymazať riadok"
           "&Transpose":
-            value: "&Premiestniť"
+            value: "Premiestniť"
       Folding:
         value: "Skladanie"
         submenu:
           "&Fold":
-            value: "&Zložiť"
+            value: "Zložiť"
           "&Unfold":
             value: "Rozložiť"
           "Unfold &All":
-            value: "Rozl&ožiť všetko"
+            value: "Rozložiť všetko"
           "Fol&d All":
-            value: "Zložiť vš&etko"
+            value: "Zložiť všetko"
           "Fold Level 1":
             value: "Zložiť úroveň 1"
           "Fold Level 2":
@@ -127,7 +129,7 @@ Menu:
           "Fold Level 9":
             value: "Zložiť úroveň 9"
       "&Preferences":
-        value: "&Nastavenia"
+        value: "Nastavenia"
       "Config…":
         value: "Config…"
       "Init Script…":
@@ -158,10 +160,10 @@ Menu:
       "Select Grammar":
         value: "Vybrať gramatiku"
   "&View":
-    value: "&Zobraziť"
+    value: "Zobraziť"
     submenu:
       "Toggle &Full Screen":
-        value: "Spusťiť režim &celej obrazovky"
+        value: "Spusťiť režim celej obrazovky"
       "Toggle Menu Bar":
         value: "Prepnúť Menu"
       Panes:
@@ -193,60 +195,60 @@ Menu:
         value: "Vývojár"
         submenu:
           "Open In &Dev Mode…":
-            value: "Otvoriť v mó&de pre vývojárov..."
+            value: "Otvoriť v móde pre vývojárov..."
           "&Reload Window":
-            value: "Znovu načítať &okno"
+            value: "Znovu načítať okno"
           "Run Package &Specs":
-            value: "&Spustiť špecifikáciu balíka"
+            value: "Spustiť špecifikáciu balíka"
           "Run &Benchmarks":
-            value: "Spustiť &Benchmarks"
+            value: "Spustiť Benchmarks"
           "Toggle Developer &Tools":
-            value: "Prepnúť nás&troje pre vývojárov"
+            value: "Prepnúť nástroje pre vývojárov"
       "&Increase Font Size":
-        value: "Zväčš&iť veľkosť písma"
+        value: "Zväčšiť veľkosť písma"
       "&Decrease Font Size":
-        value: "Z&menšiť veľkosť písma"
+        value: "Zmenšiť veľkosť písma"
       "Re&set Font Size":
-        value: "Obnoviť veľko&sť písma"
+        value: "Obnoviť veľkosť písma"
       "Toggle Soft &Wrap":
-        value: "Prepnúť Soft &Wrap"
+        value: "Prepnúť Soft Wrap"
       "Toggle Command Palette":
         value: "Spustiť príkazový riadok"
       "Toggle Tree View":
         value: "Prepnúť strom súboru"
   "&Selection":
-    value: "Výb&er"
+    value: "Výber"
     submenu:
       "Add Selection &Above":
-        value: "Pridať výber &nad"
+        value: "Pridať výber nad"
       "Add Selection &Below":
-        value: "Pridať výber po&d"
+        value: "Pridať výber pod"
       "S&plit into Lines":
-        value: "Rozdeliť na riadk&y"
+        value: "Rozdeliť na riadky"
       "Single Selection":
         value: "Jeden výber"
       "Select to &Top":
-        value: "Vybrať až na&hor"
+        value: "Vybrať až nahor"
       "Select to Botto&m":
-        value: "Vybrať až na&dol"
+        value: "Vybrať až nadol"
       "Select &Line":
-        value: "Vybrať &riadok"
+        value: "Vybrať riadok"
       "Select &Word":
-        value: "Vy&brať slovo"
+        value: "Vybrať slovo"
       "Select to Beginning of W&ord":
-        value: "Vybrať začiatok sl&ova"
+        value: "Vybrať začiatok slova"
       "Select to Beginning of L&ine":
-        value: "Vybrať zač&iatok riadku"
+        value: "Vybrať začiatok riadku"
       "Select to First &Character of Line":
-        value: "Vybrať prvý zna&k riadku"
+        value: "Vybrať prvý znak riadku"
       "Select to End of Wor&d":
-        value: "Vybrať do konca &slova"
+        value: "Vybrať do konca slova"
       "Select to End of Lin&e":
-        value: "Vybrať do konca &riadku"
+        value: "Vybrať do konca riadku"
       "Select Inside Brackets":
         value: "Vybrať vnútro zátvoriek"
   "F&ind":
-    value: "Hľa&dať"
+    value: "Hľadať"
     submenu:
       "Find in Buffer":
         value: "Hľadať v schránke"
@@ -281,9 +283,9 @@ Menu:
       "Find Modified File":
         value: "Nájsť upravený súbor"
   "&Packages":
-    value: "P&luginy"
+    value: "Pluginy"
   "&Help":
-    value: "&Pomoc"
+    value: "Pomoc"
     submenu:
       "View &Terms of Use":
         value: "Podmienky používania"
