@@ -68,7 +68,7 @@ Menu:
           "Move Line &Down":
             value: "Presunúť riadok na&dol"
           "Du&plicate Lines":
-            value: "Duplikovať riadky"
+            value: "&Duplikovať riadky"
           "D&elete Line":
             value: "&Zmazať riadok"
           "&Join Lines":
