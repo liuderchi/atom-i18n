@@ -88,7 +88,7 @@ Menu:
           "&Lower Case":
             value: "&Malé písmena"
           "Delete to End of &Word":
-            value: "Zmazať do konca &slova"
+            value: "Zmazať do konca slova"
           "Delete to Previous Word Boundary":
             value: "Zmazať k predchádzajúcej hranici slova"
           "Delete to Next Word Boundary":
@@ -103,7 +103,7 @@ Menu:
           "&Fold":
             value: "&Zložiť"
           "&Unfold":
-            value: "Rozlož&iť"
+            value: "Rozložiť"
           "Unfold &All":
             value: "Rozl&ožiť všetko"
           "Fol&d All":
