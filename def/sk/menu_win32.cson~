@@ -3,7 +3,7 @@ Menu:
     value: "&File"
     submenu:
       "New &Window":
-        value: "Nové &okno"
+        value: "New &Window"
       "&New File":
         value: "&New File"
       "&Open File…":
