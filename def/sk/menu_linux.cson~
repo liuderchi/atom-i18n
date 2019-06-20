@@ -1,0 +1,305 @@
+Menu:
+  "&File":
+    value: "&Súbor"
+    submenu:
+      "New &Window":
+        value: "Nové &okno"
+      "&New File":
+        value: "&Nový súbor"
+      "&Open File…":
+        value: "&Otvorť súbor…"
+      "Open Folder…":
+        value: "Otvoriť zložku…"
+      "Add Project Folder…":
+        value: "Pridať zložku projektu…"
+      "Reopen Project":
+        value: "Znovu otvoriť projekt"
+        submenu:
+          "Clear Project History":
+            value: "Vymazať históriu projektu"
+      "Reopen Last &Item":
+        value: "Znovu otvoriť poslednú &položku"
+      "&Save":
+        value: "&Uložiť"
+      "Save &As…":
+        value: "Uložiť &ako…"
+      "Save A&ll":
+        value: "U&ložiť všetko"
+      "&Close Tab":
+        value: "Zatvoriť záložk&u"
+      "Close &Pane":
+        value: "Zatvoriť &panel"
+      "Clos&e Window":
+        value: "Zatvoriť ok&no"
+      "Quit":
+        value: "Ukončiť"
+      "Close All Tabs":
+        value: "Zatvoriť všetky záložky"
+  "&Edit":
+    value: "&Upraviť"
+    submenu:
+      "&Undo":
+        value: "&Späť"
+      "&Redo":
+        value: "&Znovu"
+      "&Cut":
+        value: "&Vystrihnúť"
+      "C&opy":
+        value: "&Kopírovať"
+      "Copy Pat&h":
+        value: "Kopírovať ces&tu"
+      "&Paste":
+        value: "&Vložiť"
+      "Select &All":
+        value: "Vybr&ať všetko"
+      "&Toggle Comments":
+        value: "Prepnúť ko&mentáre"
+      Lines:
+        value: "Riadky"
+        submenu:
+          "&Indent":
+            value: "O&dsadiť"
+          "&Outdent":
+            value: "&Zmenšiť odsadenie"
+          "&Auto Indent":
+            value: "&Automatické odsadenie"
+          "Move Line &Up":
+            value: "Presunúť riadok na&hor"
+          "Move Line &Down":
+            value: "Presunúť riadok na&dol"
+          "Du&plicate Lines":
+            value: "&Duplikovať riadky"
+          "D&elete Line":
+            value: "&Zmazať riadok"
+          "&Join Lines":
+            value: "Spo&jiť riadky"
+      Columns:
+        value: "Stĺpce"
+        submenu:
+          "Move Selection &Left":
+            value: "Posunúť výber vľa&vo"
+          "Move Selection &Right":
+            value: "Posunúť výber vp&ravo"
+      Text:
+        value: "Text"
+        submenu:
+          "&Upper Case":
+            value: "&Veľké písmena"
+          "&Lower Case":
+            value: "&Malé písmena"
+          "Delete to End of &Word":
+            value: "Zmazať do konca slova"
+          "Delete to Previous Word Boundary":
+            value: "Zmazať k predchádzajúcej hranici slova"
+          "Delete to Next Word Boundary":
+            value: "Zmazať k nasledujúcej hranici slova"
+          "&Delete Line":
+            value: "Vyma&zať riadok"
+          "&Transpose":
+            value: "&Premiestniť"
+      Folding:
+        value: "Skladanie"
+        submenu:
+          "&Fold":
+            value: "&Zložiť"
+          "&Unfold":
+            value: "Rozložiť"
+          "Unfold &All":
+            value: "Rozl&ožiť všetko"
+          "Fol&d All":
+            value: "Zložiť vš&etko"
+          "Fold Level 1":
+            value: "Zložiť úroveň 1"
+          "Fold Level 2":
+            value: "Zložiť úroveň 2"
+          "Fold Level 3":
+            value: "Zložiť úroveň 3"
+          "Fold Level 4":
+            value: "Zložiť úroveň 4"
+          "Fold Level 5":
+            value: "Zložiť úroveň 5"
+          "Fold Level 6":
+            value: "Zložiť úroveň 6"
+          "Fold Level 7":
+            value: "Zložiť úroveň 7"
+          "Fold Level 8":
+            value: "Zložiť úroveň 8"
+          "Fold Level 9":
+            value: "Zložiť úroveň 9"
+      "&Preferences":
+        value: "&Nastavenia"
+      "Config…":
+        value: "Config…"
+      "Init Script…":
+        value: "Spúšťací Script.."
+      "Keymap…":
+        value: "Klávesové skratky..."
+      "Snippets…":
+        value: "Skratky..."
+      "Stylesheet…":
+        value: "Štýly..."
+      "Reflow Selection":
+        value: "Preformátovať výber"
+      Bookmark:
+        value: "Záložky"
+        submenu:
+          "View All":
+            value: "Zobraziť všetko"
+          "Toggle Bookmark":
+            value: "Prepnúť záložky"
+          "Jump to Next Bookmark":
+            value: "Skočiť na ďaľšiu záložku"
+          "Jump to Previous Bookmark":
+            value: "Skočiť na predchádzajúcu záložku"
+      "Select Encoding":
+        value: "Vybrať kódovanie"
+      "Go to Line":
+        value: "Ísť na riadok"
+      "Select Grammar":
+        value: "Vybrať gramatiku"
+  "&View":
+    value: "&Zobraziť"
+    submenu:
+      "Toggle &Full Screen":
+        value: "Spusťiť režim &celej obrazovky"
+      "Toggle Menu Bar":
+        value: "Prepnúť Menu"
+      Panes:
+        value: "Panely"
+        submenu:
+          "Split Up":
+            value: "Rozdeliť Nahor"
+          "Split Down":
+            value: "Rozdeliť Nadol"
+          "Split Left":
+            value: "Rozdeliť Vľavo"
+          "Split Right":
+            value: "Rozdeliť Vpravo"
+          "Focus Next Pane":
+            value: "Zamerať sa na ďaľší panel"
+          "Focus Previous Pane":
+            value: "Zamerať sa na predchádzajúci panel"
+          "Focus Pane Above":
+            value: "Zamerať sa na horný panel"
+          "Focus Pane Below":
+            value: "Zamerať sa na dolný panel"
+          "Focus Pane On Left":
+            value: "Zamerať sa na panel vľavo"
+          "Focus Pane On Right":
+            value: "Zamerať sa na panel vpravo"
+          "Close Pane":
+            value: "Zatvoriť panel"
+      Developer:
+        value: "Vývojár"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "Otvoriť v mó&de pre vývojárov..."
+          "&Reload Window":
+            value: "Znovu načítať &okno"
+          "Run Package &Specs":
+            value: "&Spustiť špecifikáciu balíka"
+          "Run &Benchmarks":
+            value: "Spustiť &Benchmarks"
+          "Toggle Developer &Tools":
+            value: "Prepnúť nás&troje pre vývojárov"
+      "&Increase Font Size":
+        value: "Zväčš&iť veľkosť písma"
+      "&Decrease Font Size":
+        value: "Z&menšiť veľkosť písma"
+      "Re&set Font Size":
+        value: "Obnoviť veľko&sť písma"
+      "Toggle Soft &Wrap":
+        value: "Prepnúť Soft &Wrap"
+      "Toggle Command Palette":
+        value: "Spustiť príkazový riadok"
+      "Toggle Tree View":
+        value: "Prepnúť strom súboru"
+  "&Selection":
+    value: "Výb&er"
+    submenu:
+      "Add Selection &Above":
+        value: "Pridať výber &nad"
+      "Add Selection &Below":
+        value: "Pridať výber po&d"
+      "S&plit into Lines":
+        value: "Rozdeliť na riadk&y"
+      "Single Selection":
+        value: "Jeden výber"
+      "Select to &Top":
+        value: "Vybrať až na&hor"
+      "Select to Botto&m":
+        value: "Vybrať až na&dol"
+      "Select &Line":
+        value: "Vybrať &riadok"
+      "Select &Word":
+        value: "Vy&brať slovo"
+      "Select to Beginning of W&ord":
+        value: "Vybrať začiatok sl&ova"
+      "Select to Beginning of L&ine":
+        value: "Vybrať zač&iatok riadku"
+      "Select to First &Character of Line":
+        value: "Vybrať prvý zna&k riadku"
+      "Select to End of Wor&d":
+        value: "Vybrať do konca &slova"
+      "Select to End of Lin&e":
+        value: "Vybrať do konca &riadku"
+      "Select Inside Brackets":
+        value: "Vybrať vnútro zátvoriek"
+  "F&ind":
+    value: "Hľa&dať"
+    submenu:
+      "Find in Buffer":
+        value: "Hľadať v schránke"
+      "Replace in Buffer":
+        value: "Nahradiť v schránke"
+      "Select Next":
+        value: "Vybrať daľší"
+      "Select All":
+        value: "Vybrať všetko"
+      "Toggle Find in Buffer":
+        value: "Zapnúť hľadanie zo schránky"
+      "Find in Project":
+        value: "Hľadať v projekte"
+      "Toggle Find in Project":
+        value: "Zapnúť hľadanie v projekte"
+      "Find All":
+        value: "Nájsť všetko"
+      "Find Next":
+        value: "Nájsť ďalší"
+      "Find Previous":
+        value: "Nájsť predchádzajúci"
+      "Replace Next":
+        value: "Nahradiť ďaľší"
+      "Replace All":
+        value: "Nahradiť všetko"
+      "Clear History":
+        value: "Vymazať históriu"
+      "Find Buffer":
+        value: "Hľadať zo schránky"
+      "Find File":
+        value: "Nájsť súbor"
+      "Find Modified File":
+        value: "Nájsť upravený súbor"
+  "&Packages":
+    value: "P&luginy"
+  "&Help":
+    value: "&Pomoc"
+    submenu:
+      "View &Terms of Use":
+        value: "Podmienky používania"
+      "View &License":
+        value: "Zobraziť Licenciu"
+      "&Documentation":
+        value: "Dokumentácia"
+      "Frequently Asked Questions":
+        value: "Často kladdené otázky"
+      "Community Discussions":
+        value: "Komunitná diskusia"
+      "Report Issue":
+        value: "Nahlásiť problém"
+      "Search Issues":
+        value: "Hľadať problémy"
+      "About Atom":
+        value: "O Atome"
+      "Welcome Guide":
+        value: "Vitajte"
