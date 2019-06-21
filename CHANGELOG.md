@@ -1,3 +1,6 @@
+## 0.21.0 - Slovak support
+- Slovak i18n #230
+
 ## 0.20.0 - Hebrew support
 - Hebrew i18n #225
 
