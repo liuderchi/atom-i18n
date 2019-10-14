@@ -149,7 +149,7 @@ Settings:
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Packages With Keymaps Disabled"
+        title: "Pacotes com Keymaps desativados"
       }
       {
         _id: 'core.projectHome'
@@ -361,8 +361,8 @@ Settings:
       {
         _id: 'editor.softWrapHangingIndent'
         title: "Soft Wrap Hanging Indent"
-        desc: "When soft wrap is enabled, defines length of additional
-               indentation applied to wrapped lines, in number of characters."
+        desc: "Quando soft wrap está habilitado, define o comprimento do recuo adicional 
+               aplicado às linhas quebradas, em número de caracteres."
       }
       {
         _id: 'editor.tabLength'
@@ -373,7 +373,7 @@ Settings:
         _id: 'editor.tabType'
         title: "Tipo de Tab"
         desc: "Determina o caractere inserido quando a tecla Tab for pressionada.
-               Possibeis valores: \"auto\", \"soft\" e \"hard\". Quando definido
+               Possiveis valores: \"auto\", \"soft\" e \"hard\". Quando definido
                como \"soft\" ou \"hard\", soft tabs (espaços) ou hard tabs (caracteres tab)
                são usados. Quando definido como \"auto\", o editor detecta automaticamente
                o tipo de tab baseado no conteúdo do buffer (ele usa o primeiro
@@ -382,7 +382,7 @@ Settings:
       }
       {
         _id: 'editor.undoGroupingInterval'
-        title: "Intevalo de Agrupamento do Desfazer"
+        title: "Intervalo de Agrupamento do Desfazer"
         desc: "Intervalo de tempo em milissegundos no qual a edição de texto
                as operações serão agrupadas no histórico de desfazer."
       }
@@ -394,13 +394,13 @@ Settings:
       }
       {
         _id: 'system.windows.file-handler'
-        title: "Register as file handler"
-        desc: "Mostrar Atom na lista de aplicativos \"Abrir com\" para fácil associação com os tipos de arquivos."
+        title: "Registrar como manipulador de arquivos"
+        desc: "Mostra Atom na lista de aplicativos \"Abrir com\" para fácil associação com os tipos de arquivos."
       }
       {
         _id: 'system.windows.shell-menu-files'
-        title: "Show in file context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
+        title: "Mostra nos menus de contexto do arquivo"
+        desc: "Adiciona \"Abrir com Atom\" para o menu de contexto do explorador de arquivos para arquivos."
       }
       {
         _id: 'system.windows.shell-menu-folders'
@@ -436,21 +436,21 @@ Settings:
       text3: ""   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
-    title1: "UI Theme"
-    description1: "This styles the tabs, status bar, tree view, and dropdowns"
-    title2: "Syntax Theme"
-    description2: "This styles the text inside the editor"
-    searchBarText: 'Filter themes by name'
+    title1: "Tema UI"
+    description1: "Isso estiliza as guias, barra de status, exibição em árvore e menus suspensos"
+    title2: "Tema da sintaxe"
+    description2: "Isso estiliza o texto dentro do editor"
+    searchBarText: 'Filtrar temas por nome'
   }
   updates: {
-    "check-updates": "Verificar por atualizações"
+    "check-updates": "Verificar atualizações"
     "update-all": "Atualizar tudo"
-    "checking-updates": "Verificando por atualizações..."
+    "checking-updates": "Verificando atualizações..."
     "all-updated-message": "Todos o seus pacotes instalados estão atualizados!"
   }
   install: {
     notes: {
-      text1: "Pactoes são publicados em "
+      text1: "Pacotes são publicados em "
       text2: " e são instalados em "
       text3: ""   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
@@ -463,7 +463,7 @@ Settings:
     install: "Instalar"
     update: "Atualizar para"
     setting: "Configurações"
-    uninstall: "Deinstalar"
+    uninstall: "Desinstalar"
     disable: "Desativar"
     enable: "Ativar"
   }
