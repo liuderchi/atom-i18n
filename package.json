@@ -24,7 +24,7 @@
     "atom": ">=1.16.0 <2.0.0"
   },
   "dependencies": {
-    "cson": "^5.1.0"
+    "cson": "^6.0.0"
   },
   "devDependencies": {
     "axios": "^0.19.0",
