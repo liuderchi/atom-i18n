@@ -154,9 +154,9 @@ Menu:
           "Jump to Previous Bookmark":
             value: "Ir para o Favorito Anterior"
           "Select to Next Bookmark":
-            value: "Selectionar o Próximo Favorito"
+            value: "Selecionar o Próximo Favorito"
           "Select to Previous Bookmark":
-            value: "Selectionar o Favorito Anterior"
+            value: "Selecionar o Favorito Anterior"
       "Select Encoding":
         value: "Selcionar Codificação"
       "Go to Line":
@@ -314,6 +314,6 @@ Menu:
       "Search Issues":
         value: "Procurar Problemas"
       "About Atom":
-        value: "Sobre Atom"
+        value: "Sobre o Atom"
       "Welcome Guide":
         value: "Guia de Boas Vindas"

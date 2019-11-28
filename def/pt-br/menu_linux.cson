@@ -16,7 +16,7 @@ Menu:
         value: "Reabrir Projeto"
         submenu:
           "Clear Project History":
-            value: "Limpar Histórico de Projeto"
+            value: "Limpar Histórico do Projeto"
       "Reopen Last &Item":
         value: "Reabrir Último Item(&I)"
       "&Save":
@@ -176,17 +176,17 @@ Menu:
           "Split Right":
             value: "Dividir para a Direita"
           "Focus Next Pane":
-            value: "Focar Próximo Painel"
+            value: "Focar no Próximo Painel"
           "Focus Previous Pane":
-            value: "Focar Painel Anterior"
+            value: "Focar no Painel Anterior"
           "Focus Pane Above":
-            value: "Focar Painel Superior"
+            value: "Focar no Painel Superior"
           "Focus Pane Below":
-            value: "Focar Painel Inferior"
+            value: "Focar no Painel Inferior"
           "Focus Pane On Left":
-            value: "Focar Painel na Esquerda"
+            value: "Focar no Painel na Esquerda"
           "Focus Pane On Right":
-            value: "Focar Painel na Direita"
+            value: "Focar no Painel na Direita"
           "Close Pane":
             value: "Fechar Painel"
       Developer:
@@ -300,6 +300,6 @@ Menu:
       "Search Issues":
         value: "Procurar Problemas"
       "About Atom":
-        value: "Sobre Atom"
+        value: "Sobre o Atom"
       "Welcome Guide":
         value: "Guia de Boas Vindas"

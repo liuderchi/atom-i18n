@@ -38,7 +38,7 @@ Menu:
       "New File":
         value: "Novo Arquivo"
       "Open…":
-        value: "Abri..."
+        value: "Abrir..."
       "Add Project Folder…":
         value: "Adicionar Pasta de Projeto..."
       "Reopen Project":
