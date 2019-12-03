@@ -196,7 +196,7 @@ Menu:
             value: "Сфокусироваться на панели выше"
           "Focus Pane Below":
             value: "Сфокусироваться на панели ниже"
-          "Focus Pane On Left"
+          "Focus Pane On Left":
             value: "Сфокусироваться на панели слева"
           "Focus Pane On Right":
             value: "Сфокусироваться на панели справа"
