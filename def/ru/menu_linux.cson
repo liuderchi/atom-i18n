@@ -176,17 +176,17 @@ Menu:
           "Split Right":
             value: "Разделить справа"
           "Focus Next Pane":
-            value: "Сфокусироваться на следующей панеле"
+            value: "Сфокусироваться на следующей панели"
           "Focus Previous Pane":
-            value: "Сфокусироваться на предыдущей панеле"
+            value: "Сфокусироваться на предыдущей панели"
           "Focus Pane Above":
-            value: "Сфокусироваться на панеле выше"
+            value: "Сфокусироваться на панели выше"
           "Focus Pane Below":
-            value: "Сфокусироваться на панеле ниже"
+            value: "Сфокусироваться на панели ниже"
           "Focus Pane On Left":
-            value: "Сфокусироваться на панеле слева"
+            value: "Сфокусироваться на панели слева"
           "Focus Pane On Right":
-            value: "Сфокусироваться на панеле справа"
+            value: "Сфокусироваться на панели справа"
           "Close Pane":
             value: "Закрыть панель"
       Developer:
@@ -300,6 +300,6 @@ Menu:
       "Search Issues":
         value: "Найти проблему"
       "About Atom":
-        value: "О Atom"
+        value: "Об Atom"
       "Welcome Guide":
         value: "Добро пожаловать!"
