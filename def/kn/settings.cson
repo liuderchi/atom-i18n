@@ -1,53 +1,53 @@
 Settings:
-  "tab-title": "Settings"
+  "tab-title": "ಸಂಯೋಜನೆಗಳು"
   menu: [
     {
       _label: "Core"
-      value: "Core"
+      value: "ಮೂಲ"
     }
     {
       _label: "Editor"
-      value: "Editor"
+      value: "ಸಂಪಾದಕ"
     }
     {
       _label: "System"
-      value: "System"
+      value: "ಸಿಸ್ಟಮ್"
     }
     {
       _label: "Keybindings"
-      value: "Keybindings"
+      value: "ಕೀಲಿ ಬಂಧನಕಾರಕ"
     }
     {
       _label: "Packages"
-      value: "Packages"
+      value: "ಪ್ಯಾಕೇಜುಗಳು"
     }
     {
       _label: "Themes"
-      value: "Themes"
+      value: "ಥೀಮ್ಗಳು"
     }
     {
       _label: "Updates"
-      value: "Updates"
+      value: "ನವೀಕರಣಗಳು"
     }
     {
       _label: "Install"
-      value: "Install"
+      value: "ಸ್ಥಾಪಿಸಿ"
     }
   ]
   "btn-open-config-folder": "Open Config Folder"
   sectionHeadings: [
-    {_label: "Core Settings", value: "Core Settings"}
-    {_label: "Editor Settings", value: "Editor Settings"}
-    {_label: "System Settings", value: "System Settings"}
-    {_label: "Keybindings", value: "Keybindings"}
-    {_label: "Installed Packages", value: "Installed Packages"}
-    {_label: "Choose a Theme", value: "Choose a Theme"}
-    {_label: "Installed Themes", value: "Installed Themes"}
-    {_label: "Install Packages", value: "Install Packages"}
-    {_label: "Featured Packages", value: "Featured Packages"}
-    {_label: "Install Themes", value: "Install Themes"}
-    {_label: "Featured Themes", value: "Featured Themes"}
-    {_label: "Available Updates", value: "Available Updates"}
+    {_label: "Core Settings", value: "ಮೂಲ ಸಂಯೋಜನೆಗಳು"}
+    {_label: "Editor Settings", value: "ಸಂಪಾದಕ ಸಂಯೋಜನೆಗಳು"}
+    {_label: "System Settings", value: "ಸಿಸ್ಟಮ್ ಸಂಯೋಜನೆಗಳು"}
+    {_label: "Keybindings", value: "ಕೀಲಿ ಬಂಧನಕಾರಕ"}
+    {_label: "Installed Packages", value: "ಸ್ಥಾಪಿಸಿದ  ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Choose a Theme", value: "ಥೀಮ್ ಆಯ್ಕೆಮಾಡಿ "}
+    {_label: "Installed Themes", value: "ಸ್ಥಾಪಿಸಿದ ಥೀಮ್ಗಳು"}
+    {_label: "Install Packages", value: "ಸ್ಥಾಪಿಸಿ ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Featured Packages", value: "ವೈಶಿಷ್ಟ್ಯವಾದ ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Install Themes", value: "ಸ್ಥಾಪಿಸಿ ಥೀಮ್ಗಳು"}
+    {_label: "Featured Themes", value: "ವೈಶಿಷ್ಟ್ಯವಾದ ಥೀಮ್ಗಳು"}
+    {_label: "Available Updates", value: "ಲಭ್ಯವಿರುವ ನವೀಕರಣಗಳು"}
   ]
   subSectionHeadings: [
     {_label: "Invisible", value: "Invisible"}
