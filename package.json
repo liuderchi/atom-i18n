@@ -94,6 +94,10 @@
           "description": "日本語 (ja)"
         },
         {
+          "value": "kn",
+          "description": "ಕನ್ನಡ (kn)"
+        },
+        {
           "value": "ko",
           "description": "한국어 (ko)"
         },
