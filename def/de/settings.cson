@@ -64,23 +64,31 @@ Settings:
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'Dies sind Atoms Core-Einstellungen, welche aber nicht das Verhalten zum Bearbeiten von Texten beeinflussen (zu finden unter Editor). Individuelle Plugins können eigene Einstellungen haben, welche auf der jeweiligen Package-Einstellungsseite in der <a class="link packages-open">Liste aller installierten Plugins</a> zu finden sind.'
+        html: 'Dies sind Atoms Core-Einstellungen, welche aber nicht das Verhalten zum Bearbeiten 
+        von Texten beeinflussen (zu finden unter Editor). Individuelle Plugins können eigene 
+        Einstellungen haben, welche auf der jeweiligen Package-Einstellungsseite in der 
+        <a class="link packages-open">Liste aller installierten Plugins</a> zu finden sind.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'Diese Einstellungen hängen mit dem Bearbeiten von Text zusammen. Einige davon können auf Basis der jeweiligen Sprache übergangen werden. Prüfe die jeweiligen Spracheinstellungen auf der jeweiligen Package-Einstellungsseite in der <a class="link packages-open">Liste aller installierten Plugins</a>.'
+        html: 'Diese Einstellungen hängen mit dem Bearbeiten von Text zusammen. 
+        Einige davon können auf Basis der jeweiligen Sprache übergangen werden. 
+        Prüfe die jeweiligen Spracheinstellungen auf der jeweiligen
+        Package-Einstellungsseite in der <a class="link packages-open">Liste aller installierten Plugins</a>.
       }
     ]
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
         title: "Erlaube schwebende Datei-Inhalte"
-        desc: "Erlaube Vorschau von Objekten ohne dass diese dauerhaft zum Arbeitsbereich hinzugefügt werden, z.B. durch Einzelklick auf Dateien in der Baumansicht."
+        desc: "Erlaube Vorschau von Objekten ohne dass diese dauerhaft zum Arbeitsbereich
+        hinzugefügt werden, z.B. durch Einzelklick auf Dateien in der Baumansicht."
       }
       {
         _id: 'core.audioBeep'
         title: "Systemton abspielen"
-        desc: "Den Systemton (System-Beep) abspielen, sofern eine bestimmte Aktion nicht ausgeführt werden kann oder keine Ergebnisse existieren."
+        desc: "Den Systemton (System-Beep) abspielen, sofern eine bestimmte Aktion
+        nicht ausgeführt werden kann oder keine Ergebnisse existieren."
       }
       {
         _id: 'core.automaticallyUpdate'
@@ -240,22 +248,26 @@ Settings:
       {
         _id: 'editor.invisibles.cr'
         title: "Unsichtbare Zeilenumbrüche"
-        desc: "Zeichen welches verwendet wird, um Zeilenumbrüche darzustellen, (für Microsoft-Zeilenenden) wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
+        desc: "Zeichen welches verwendet wird, um Zeilenumbrüche darzustellen, (für Microsoft-Zeilenenden)
+        wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
       }
       {
         _id: 'editor.invisibles.eol'
         title: "Unsichtbare Zeilenumbrüche"
-        desc: "Zeichen welches verwendet wird, um newline Zeichen (\n) darzustellen, wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
+        desc: "Zeichen welches verwendet wird, um newline Zeichen (\n) darzustellen, 
+        wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
       }
       {
         _id: 'editor.invisibles.space'
         title: "Unsichtbare Leerzeichen"
-        desc: "Zeichen welches verwendet wird, um führende und folgende Leerzeichen darzustellen, wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
+        desc: "Zeichen welches verwendet wird, um führende und folgende Leerzeichen darzustellen,
+        wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
       }
       {
         _id: 'editor.invisibles.tab'
         title: "Unsichtbare Tabs"
-        desc: "Zeichen welches verwendet wird, um Tabulatorsprünge (\t) darzustellen, wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
+        desc: "Zeichen welches verwendet wird, um Tabulatorsprünge (\t) darzustellen,
+        wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
       }
       {
         _id: 'editor.lineHeight'
@@ -275,7 +287,9 @@ Settings:
       {
         _id: 'editor.preferredLineLength'
         title: "Bevorzugte Zeilenlänge"
-        desc: "Gibt die Zeichenlänge einer Zeile an, die verwendet wird, bevor Text umbrochen wird, sofern die Einstellung <code>Soft-Wrap anhand bevorzugter Zeilenlänge</code> aktiviert ist, in der Anzahl der Zeichen an."
+        desc: "Gibt die Zeichenlänge einer Zeile an, die verwendet wird, bevor 
+        Text umbrochen wird, sofern die Einstellung <code>Soft-Wrap anhand 
+        bevorzugter Zeilenlänge</code> aktiviert ist, in der Anzahl der Zeichen an."
       }
       {
         _id: 'editor.scrollPastEnd'
@@ -285,7 +299,8 @@ Settings:
       {
         _id: 'editor.scrollSensitivity'
         title: "Scroll-Sensibilität"
-        desc: "Legt fest, wie schnell der Editor per Maus oder Trackpad scrollt."
+        desc: "Legt fest, wie schnell der Editor per Maus oder 
+        Trackpad scrollt."
       }
       {
         _id: 'editor.showCursorOnSelection'
@@ -300,7 +315,8 @@ Settings:
       {
         _id: 'editor.showInvisibles'
         title: "Zeige unsichtbare Zeichen"
-        desc: "Zeige Platzhalter für unsichtbare Zeichen wie Tabulatorsprünge, Leerzeichen oder Zeilenumbrüche."
+        desc: "Zeige Platzhalter für unsichtbare Zeichen wie 
+        Tabulatorsprünge, Leerzeichen oder Zeilenumbrüche."
       }
       {
         _id: 'editor.showLineNumbers'
@@ -310,22 +326,32 @@ Settings:
       {
         _id: 'editor.softTabs'
         title: "Soft-Tabs"
-        desc: "Wenn die Einstellung <code>Tabulator-Typ</code> auf \"auto\" gestellt ist und die Autoerkennung des Tabulator-Typs anhand des Inhalts fehlschlägt, wird diese Einstellung verwendet um zu entscheiden, ob ein Soft-Tab oder ein Hard-Tab eingefügt wird, sobald die Tabulator-Taste gedrückt wird."
+        desc: "Wenn die Einstellung <code>Tabulator-Typ</code> auf \"auto\" 
+        gestellt ist und die Autoerkennung des Tabulator-Typs anhand des Inhalts
+        fehlschlägt, wird diese Einstellung verwendet um zu entscheiden, ob ein 
+        Soft-Tab oder ein Hard-Tab eingefügt wird, sobald die Tabulator-Taste gedrückt wird."
       }
       {
         _id: 'editor.softWrap'
         title: "Soft-Wrap"
-        desc: "Bricht Zeilen um, welche die Breite des Fensters überschreiten wird. Wenn <code>Soft-Wrap anhand bevorzugter Zeilenlänge</code> aktiviert ist, wird die Zeile anhand der definierten maximalen Anzahl an Zeichen in der Einstellung <code>Bevorzugten Zeilenlänge</code> umgebrochen."
+        desc: "Bricht Zeilen um, welche die Breite des Fensters überschreiten wird. Wenn <code>
+        Soft-Wrap anhand bevorzugter Zeilenlänge</code> aktiviert ist, wird die Zeile anhand der 
+        definierten maximalen Anzahl an Zeichen in der Einstellung <code>Bevorzugten Zeilenlänge</code> umgebrochen."
       }
       {
         _id: 'editor.softWrapAtPreferredLineLength'
         title: "Soft-Wrap anhand bevorzugter Zeilenlänge"
-        desc: "Anstelle eines Zeilenumbruches an der Fensterbreite, wird die Zeile bei der Anzahl der Zeichen umgebrochen, welche in <code>Bevorzugte Zeilenlänge</code> Einstellung defininiert ist. Dies hat nur einen Effekt, wenn die Soft Wrap Einstellung global oder für die aktuelle Sprache aktiviert ist. <strong>Beachte:</strong> Wenn du die Wrap-Hilfe (vertikale Linie) verbergen willst kannst du das Plugin <code>wrap-guide</code> deaktivieren."
+        desc: "Anstelle eines Zeilenumbruches an der Fensterbreite, wird die Zeile bei der Anzahl der 
+        Zeichen umgebrochen, welche in <code>Bevorzugte Zeilenlänge</code> Einstellung defininiert 
+        ist. Dies hat nur einen Effekt, wenn die Soft Wrap Einstellung global oder für die aktuelle 
+        Sprache aktiviert ist. <strong>Beachte:</strong> Wenn du die Wrap-Hilfe (vertikale Linie) 
+        verbergen willst kannst du das Plugin <code>wrap-guide</code> deaktivieren."
       }
       {
         _id: 'editor.softWrapHangingIndent'
         title: "Soft-Wrap fliegende Einrückung"
-        desc: "Wenn Soft-Wrap aktiviert ist, definiert dies die Anzahl an Zeichen, die als zusätzliche Einrückung verwendet wird."
+        desc: "Wenn Soft-Wrap aktiviert ist, definiert dies die Anzahl an 
+        Zeichen, die als zusätzliche Einrückung verwendet wird."
       }
       {
         _id: 'editor.tabLength'
@@ -335,17 +361,24 @@ Settings:
       {
         _id: 'editor.tabType'
         title: "Tabulator-Typ"
-        desc: "Legt fest, welches Zeichen eingefügt wird, wenn die Tab-Taste gedrückt wird. Mögliche Werte: \"auto\", \"soft\" und \"hard\". Wenn diese auf \"soft\" oder \"hard\" festgelegt sind, werden Soft-Tabs (Leerzeichen) oder Hard-Tabs (Tabulatorzeichen) verwendet. Wenn es auf \"auto\" gestellt ist, versucht der Editor den Typ der Tabs automatisch anhand der Inhalte zu erkennen (er untersucht die ersten führenden Leerzeichen einer inhaltslosen Zeile) oder benutzt den Wert der Soft-Tabs Einstellung, wenn die automatische Erkennung fehlschlägt."
+        desc: "Legt fest, welches Zeichen eingefügt wird, wenn die Tab-Taste gedrückt wird. 
+        Mögliche Werte: \"auto\", \"soft\" und \"hard\". Wenn diese auf \"soft\" oder \"hard\" 
+        festgelegt sind, werden Soft-Tabs (Leerzeichen) oder Hard-Tabs (Tabulatorzeichen) verwendet. 
+        Wenn es auf \"auto\" gestellt ist, versucht der Editor den Typ der Tabs automatisch 
+        anhand der Inhalte zu erkennen (er untersucht die ersten führenden Leerzeichen einer inhaltslosen Zeile) 
+        oder benutzt den Wert der Soft-Tabs Einstellung, wenn die automatische Erkennung fehlschlägt."
       }
       {
         _id: 'editor.undoGroupingInterval'
         title: "Rückgängig Gruppierungsintervall"
-        desc: "Zeitintervall in Millisekunden, in dem der Text-Editor Operationen zu einem Rückgängig-Schritt zusammenfasst."
+        desc: "Zeitintervall in Millisekunden, in dem der Text-Editor 
+        Operationen zu einem Rückgängig-Schritt zusammenfasst."
       }
       {
         _id: 'editor.zoomFontWhenCtrlScrolling'
         title: "Ändere die Schriftgröße, wenn mit Strg + Mausrad gescrollt wird"
-        desc: "Ändere die Schriftgröße wenn bei gedrückter Strg-Taste mit der Maus nach oben oder unten gescrollt wird."
+        desc: "Ändere die Schriftgröße wenn bei gedrückter Strg-Taste mit der 
+        Maus nach oben oder unten gescrollt wird."
       }
       {
         _id: 'system.windows.file-handler'
