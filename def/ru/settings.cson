@@ -229,8 +229,8 @@ Settings:
       }
       {
         _id: 'editor.confirmCheckoutHeadRevision'
-        title: "Confirm Checkout HEAD Revision"
-        desc: "Show confirmation dialog when checking out the HEAD revision and discarding changes to current file since last commit."
+        title: "Подтверждение, при загрузке HEAD ревизии"
+        desc: "Показывать диалог подтверждения при загрузке HEAD ревизии с отменой всех существующий изменений в локальных файлах в момента последнего commit."
       }
       {
         _id: 'editor.fontFamily'
