@@ -63,7 +63,7 @@ Menu:
       "&Paste":
         value: "Вставить(&P)"
       "Paste Without Reformatting":
-        value: "Paste Without Reformatting"
+        value: "Вставить без форматирования"
       "Select &All":
         value: "Выделить всё(&A)"
       "&Toggle Comments":
@@ -154,9 +154,9 @@ Menu:
           "Jump to Previous Bookmark":
             value: "Перейти на предыдущую закладку"
           "Select to Next Bookmark":
-            value: "Select to Next Bookmark"
+            value: "Выбрать до следующей закладки"
           "Select to Previous Bookmark":
-            value: "Select to Previous Bookmark"
+            value: "Выбрать до предыдущей закладки"
       "Select Encoding":
         value: "Выбрать кодировку"
       "Go to Line":
