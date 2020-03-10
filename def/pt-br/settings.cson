@@ -15,7 +15,7 @@ Settings:
     }
     {
       _label: "Keybindings"
-      value: "Keybindings"
+      value: "Atalhos"
     }
     {
       _label: "Packages"
@@ -39,7 +39,7 @@ Settings:
     {_label: "Core Settings", value: "Configurações principais"}
     {_label: "Editor Settings", value: "Configurações do editor"}
     {_label: "System Settings", value: "Configurações do sistema"}
-    {_label: "Keybindings", value: "Keybindings"}
+    {_label: "Keybindings", value: "Atalhos"}
     {_label: "Installed Packages", value: "Pacotes instalados"}
     {_label: "Choose a Theme", value: "Escolher um tema"}
     {_label: "Installed Themes", value: "Tema instalado"}
@@ -81,7 +81,8 @@ Settings:
       {
         _id: 'core.allowPendingPaneItems'
         title: "Permitir Itens de Painel Pendentes"
-        desc: "Permitir que os itens sejam visualizados sem adicioná-los permanentemente a um painel, como quando você clica um único arquivo na visualização em árvore."
+        desc: "Permitir que os itens sejam visualizados sem adicioná-los permanentemente
+          a um painel, como quando você clica um único arquivo na visualização em árvore."
       }
       {
         _id: 'core.audioBeep'
@@ -129,8 +130,8 @@ Settings:
         title: "Monitor do sistema de arquivos"
         desc: "Escolha a implementação subjacente usada para observar alterações no sistema de arquivos. A emulação de alterações perderá todos os eventos causados por aplicativos diferentes do Atom, mas pode ajudar a evitar falhas ou congelamentos."
         select:
-          native: "Native operating system APIs"
-          atom: "Emulated with Atom events"
+          native: "APIs nativas dos sistemas operacionais"
+          atom: "Emulado com Eventos Atom"
       }
       {
         _id: 'core.followSymlinks'
@@ -341,27 +342,19 @@ Settings:
       }
       {
         _id: 'editor.softWrapAtPreferredLineLength'
-        title: "Soft Wrap At Preferred Line Length"
+        title: "Soft Wrap no Tamanho Preferido de Linha"
         desc: "Em vez de envolver linhas na largura da janela, envolva linhas
                o número de caracteres definido pela linha preferida <code>Preferred Line
                Length</code>. Isso só terá efeito quando o soft
                configuração wrap config está habilitada globalmente ou para o atual
                língua. <strong> Nota: </ strong> se você quiser ocultar o envoltório
                guia (a linha vertical) você pode desabilitar o
-               pacote <code> wrap-guide </ code>. "
-        title: "Soft Wrap At Preferred Line Length"
-        desc: "Instead of wrapping lines to the window's width, wrap lines to
-               the number of characters defined by the <code>Preferred Line
-               Length</code> setting. This will only take effect when the soft
-               wrap config setting is enabled globally or for the current
-               language. <strong>Note:</strong> If you want to hide the wrap
-               guide (the vertical line) you can disable the
-               <code>wrap-guide</code> package."
+               pacote <code> wrap-guide </ code>."
       }
       {
         _id: 'editor.softWrapHangingIndent'
         title: "Soft Wrap Hanging Indent"
-        desc: "Quando soft wrap está habilitado, define o comprimento do recuo adicional 
+        desc: "Quando soft wrap está habilitado, define o comprimento do recuo adicional
                aplicado às linhas quebradas, em número de caracteres."
       }
       {
@@ -421,7 +414,7 @@ Settings:
       _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
     }
     "search-bar-placeholder": "Pesquisar atalhos de teclado"
-    "table-header-keystroke": "Keystroke"
+    "table-header-keystroke": "Tecla"
     "table-header-command": "Comando"
     "table-header-source": "Origem"
     "table-header-selector": "Selector"
