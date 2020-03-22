@@ -44,6 +44,7 @@ Community-driven translation. :family:
 | Italian              |  `it`   | :white_check_mark: 100%                             |
 | Japanese             |  `ja`   | :white_check_mark: 100%                             |
 | Korean               |  `ko`   | :white_check_mark: 100%                             |
+| Kannada              |  `kn`   | :white_check_mark: 100%                             |
 | Dutch                |  `nl`   | :warning: 80% [I can translate][nl-issue-filter]    |
 | Polish               |  `pl`   | :white_check_mark: 100%                             |
 | Portuguese(Brazil)   | `pt-br` | :warning: 80% [I can translate][pt-br-issue-filter] |
@@ -76,11 +77,11 @@ Community-driven translation. :family:
   - Korean: [preco21](//github.com/preco21) [chibichichi](//github.com/chibichichi) [Riyeon](//github.com/Riyeon) [nerhis](//github.com/nerhis) [jonghyeok](//github.com/jonghyeok)
   - Spanish: [stsewd](//github.com/stsewd)
   - German: [Acer54](//github.com/Acer54) [queenar](//github.com/queenar) [Tz3r0](//github.com/Tz3r0) [silas229](//github.com/silas229) [polynoman](https://github.com/polynoman) [Henry2o1o](//github.com/Henry2o1o)
-  - Russian: [Anonym0uz](//github.com/Anonym0uz) [Driglu4it](//github.com/Driglu4it) [sabinich](//github.com/sabinich)
-  - Portuguese (Brazilian): [jsolisu](//github.com/jsolisu) [rclenzi](//github.com/rclenzi) [thiagomneves](//github.com/thiagomneves)
+  - Russian: [Anonym0uz](//github.com/Anonym0uz) [Driglu4it](//github.com/Driglu4it) [sabinich](//github.com/sabinich) [Dr-Yukon](//github.com/Dr-Yukon) [pleshkovpa](//github.com/pleshkovpa)
+  - Portuguese (Brazilian): [jsolisu](//github.com/jsolisu) [rclenzi](//github.com/rclenzi) [thiagomneves](//github.com/thiagomneves) [joaopaulonsoares](//github.com/joaopaulonsoares) [adriel83](//github.com/adriel83)
   - Dutch: [laurensbrand](//github.com/laurensbrand)
   - Polish: [Jeplaa](//github.com/Jeplaa)
-  - French: [chezyann](//github.com/chezyann) [Vivalzar](//github.com/Vivalzar) [DThought](//github.com/DThought)
+  - French: [chezyann](//github.com/chezyann) [Vivalzar](//github.com/Vivalzar) [DThought](//github.com/DThought) [lamboley](//github.com/lamboley)
   - Polish: [nolt](//github.com/nolt)
   - Italian: [francematt](//github.com/francematt) [Lorenzo Ancora](//github.com/LorenzoAncora)
   - Thai: [sitdh](//github.com/sitdh)
@@ -95,6 +96,7 @@ Community-driven translation. :family:
   - Ukrainian: [sashaoli](//github.com/sashaoli)
   - Hebrew: [RealA10N](//github.com/RealA10N)
   - Slovak: [majko96](//github.com/majko96)
+  - Kannada: [sachinsshetty](//github.com/sachinsshetty)
 
 
 ## Reference
@@ -163,6 +165,7 @@ Community-driven translation. :family:
 [it-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20it%22 "it-issue-filter"
 [ja-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ja%22 "ja-issue-filter"
 [ko-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ko%22 "ko-issue-filter"
+[kn-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20kn%22 "kn-issue-filter"
 [nl-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20nl%22 "nl-issue-filter"
 [pl-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20pl%22 "pl-issue-filter"
 [pt-br-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20pt-br%22 "pt-br-issue-filter"

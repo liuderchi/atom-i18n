@@ -1,3 +1,15 @@
+## 0.22.1 - ru, pt-br fix
+- ru i18n #262
+- pt-br i18n #263
+
+## 0.22.0 - Kannada support
+- kn i18n #255
+
+## 0.21.1 - ru, pt-br, fr fix
+- pt-br i18n #243
+- fr i18n #253
+- ru i18n #244 #245 #246 #247 #248 #249
+
 ## 0.21.0 - Slovak support
 - Slovak i18n #230
 
