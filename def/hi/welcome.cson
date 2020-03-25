@@ -2,15 +2,15 @@ Welcome:
   tabTitle: "नमसते"
   subtitle: {
     text1: "21 के लिए एक हैक करने योग्य पाठ संपादक"
-    superscript: "वीं"
-    text2: " सदी"
+    superscript: ""
+    text2: " "
   }
   help: {
     forHelpVisit: "मदद के लिए, कृपया देखें"
     atomDocs: {
-      text1: "ध "
+      text1: ""
       link: "Atom docs"
-      text2: " गाइड तथा API संदर्भ के लिये."
+      text2: " गाइड तथा API संदर्भ के लिये "
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {
@@ -20,10 +20,10 @@ Welcome:
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomOrg: {
-      text1: "ध "
+      text1: ""
       link: "Atom org"
-      text2: ". यह वह जगह है जहाँ सभी GitHub निर्मित एटम पैकेज मिल सकते हैं।"
+      text2: ". यह वह जगह है जहाँ सभी GitHub निर्मित एटम पैकेज मिल सकते हैं "
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
-  showWelcomeGuide: "Show Welcome Guide when opening Atom"
+  showWelcomeGuide: "एटम खोलते समय वेलकम गाइड दिखाएं"
