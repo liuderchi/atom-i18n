@@ -1,325 +1,325 @@
 Menu:
   Atom:
-    value: "Atom"
+    value: "एटोम"
     submenu:
       "About Atom":
-        value: "About Atom"
+        value: "एटोम के बारे में"
       "View License":
-        value: "View License"
+        value: "लाइसेंस देखें"
       "Check for Update":
-        value: "Check for Update"
+        value: "अपडेट के लिये जांचें"
       "Preferences…":
-        value: "Preferences..."
+        value: "पसंद..."
       "Config…":
-        value: "Config..."
+        value: "कॉन्फ़िग..."
       "Init Script…":
-        value: "Init Script..."
+        value: "ईनीट लिपि..."
       "Keymap…":
-        value: "Keymap..."
+        value: "कीमैप..."
       "Snippets…":
-        value: "Snippets..."
+        value: "स्निपेट्स..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "शैली पत्रक..."
       "Install Shell Commands":
-        value: "Install Shell Commands"
+        value: "शेल कमांड स्थापित करें"
       "Hide Atom":
-        value: "Hide Atom"
+        value: "एटम छिपाओ"
       "Hide Others":
-        value: "Hide Others"
+        value: "दूसरों को छिपाओ"
       "Show All":
-        value: "Show All"
+        value: "सब दिखाओ"
       Quit:
-        value: "Quit"
+        value: "छोड़ना"
   File:
-    value: "File"
+    value: "फ़ाइल"
     submenu:
       "New Window":
-        value: "New Window"
+        value: "नयी विंडो"
       "New File":
-        value: "New File"
+        value: "नई फ़ाइल"
       "Open…":
-        value: "Open..."
+        value: "खुला हुआ..."
       "Add Project Folder…":
-        value: "Add Project Folder..."
+        value: "प्रोजेक्ट फ़ोल्डर जोड़ें..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "रोपेन प्रोजेक्ट"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "प्रोजेक्ट इतिहास साफ़ करें"
       "Reopen Last Item":
-        value: "Reopen Last Item"
+        value: "अंतिम आइटम फिर से खोलें"
       Save:
-        value: "Save"
+        value: "सहेजें"
       "Save As…":
-        value: "Save As..."
+        value: "के रूप रक्षित करें..."
       "Save All":
-        value: "Save All"
+        value: "सभी को सुरक्षित करें"
       "Close Tab":
-        value: "Close Tab"
+        value: "टैब बंद करें"
       "Close Pane":
-        value: "Close Pane"
+        value: "फलक बंद करें"
       "Close Window":
-        value: "Close Window"
+        value: "विंडो बंद करें"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "सभी टैब को बंद करें"
   Edit:
-    value: "Edit"
+    value: "संपादित करें"
     submenu:
       Undo:
-        value: "Undo"
+        value: "पूर्ववत करें"
       Redo:
-        value: "Redo"
+        value: "फिर से करें"
       Cut:
-        value: "Cut"
+        value: "कट गया"
       Copy:
-        value: "Copy"
+        value: "प्रतिलिपि"
       "Copy Path":
-        value: "Copy Path"
+        value: "पथ कापी"
       Paste:
-        value: "Paste"
+        value: "पेस्ट करें"
       "Select All":
-        value: "Select All"
+        value: "सभी का चयन करे"
       "Toggle Comments":
-        value: "Toggle Comments"
+        value: "टिप्पणियाँ टॉगल करें"
       Lines:
-        value: "Lines"
+        value: "पंक्तियां"
         submenu:
           Indent:
-            value: "Indent"
+            value: "इंडेंट"
           Outdent:
-            value: "Outdent"
+            value: "आउटडेंट"
           "Auto Indent":
-            value: "Auto Indent"
+            value: "ऑटो इंडेंट"
           "Move Line Up":
-            value: "Move Line Up"
+            value: "लाइन अप ले जाएँ"
           "Move Line Down":
-            value: "Move Line Down"
+            value: "लाइन डाउन करें"
           "Duplicate Lines":
-            value: "Duplicate Lines"
+            value: "डुप्लीकेट लाइनें"
           "Delete Line":
-            value: "Delete Line"
+            value: "डिलीट लाइन"
           "Join Lines":
-            value: "Join Lines"
+            value: "लाइनों में शामिल हों"
       Columns:
-        value: "Columns"
+        value: "कॉलम"
         submenu:
           "Move Selection Left":
-            value: "Move Selection Left"
+            value: "लेफ्ट सेलेक्शन ले जाएं"
           "Move Selection Right":
-            value: "Move Selection Right"
+            value: "सही चयन करें"
       Text:
-        value: "Text"
+        value: "टेक्स्ट"
         submenu:
           "Upper Case":
-            value: "Upper Case"
+            value: "अपरकेस"
           "Lower Case":
-            value: "Lower Case"
+            value: "लोअर केस"
           "Delete to End of Word":
-            value: "Delete to End of Word"
+            value: "शब्द के अंत तक हटाएं"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "पिछले शब्द सीमा तक हटाएं"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "अगला शब्द सीमा तक हटाएं"
           "Delete Line":
-            value: "Delete Line"
+            value: "डिलीट लाइन"
           Transpose:
-            value: "Transpose"
+            value: "खिसकाना"
       Folding:
-        value: "Folding"
+        value: "तह"
         submenu:
           Fold:
-            value: "Fold"
+            value: "तह"
           Unfold:
-            value: "Unfold"
+            value: "उधेड़ना"
           "Unfold All":
-            value: "Unfold All"
+            value: "सब अनकहा"
           "Fold All":
-            value: "Fold All"
+            value: "सभी को मोड़ो"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "तह स्तर 1"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "तह स्तर 2"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "तह स्तर 3"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "तह स्तर 4"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "तह स्तर 5"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "तह स्तर 6"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "तह स्तर 7"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "तह स्तर 8"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "तह स्तर 9"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "रीफ़्लो चयन"
       Bookmark:
-        value: "Bookmark"
+        value: "बुकमार्क"
         submenu:
           "View All":
-            value: "View All"
+            value: "सभी देखें"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "बुकमार्क टॉगल करें"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "अगले बुकमार्क पर जाएं"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "पिछले बुकमार्क करने के लिए कूदो"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "एनकोडिंग का चयन करें"
       "Go to Line":
-        value: "Go to Line"
+        value: "लाइन पर जाएं"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "व्याकरण का चयन करें"
   View:
-    value: "View"
+    value: "वीय़ू"
     submenu:
       "Toggle Full Screen":
-        value: "Toggle Full Screen"
+        value: "पूर्णस्क्रीन चालू करें"
       Panes:
-        value: "Panes"
+        value: "फलक"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "अलग होना"
           "Split Down":
-            value: "Split Down"
+            value: "नीचे विभाजित करें"
           "Split Left":
-            value: "Split Left"
+            value: "बाएं तरफ विभाजित करें"
           "Split Right":
-            value: "Split Right"
+            value: "दायी तरफ विभाजित करें"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "फ़ोकस अगला फलक"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "फ़ोकस पिछला फलक"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "फोकस फलक के ऊपर"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "फोकस फलक के नीचे"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "बाईं ओर ध्यान केंद्रित करें"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "फोकस ऑन राइट"
           "Close Pane":
-            value: "Close Pane"
+            value: "फलक बंद करें"
       Developer:
-        value: "Developer"
+        value: "डेवलपर"
         submenu:
           "Open In Dev Mode…":
-            value: "Open In Dev Mode..."
+            value: "देव मोड में खोलें..."
           "Reload Window":
-            value: "Reload Window"
+            value: "रिलोड विंडो"
           "Run Package Specs":
-            value: "Run Package Specs"
+            value: "पैकेज स्पेक्स चलाएं"
           "Run Benchmarks":
-            value: "Run Benchmarks"
+            value: "बेंचमार्क चलाएं"
           "Toggle Developer Tools":
-            value: "Toggle Developer Tools"
+            value: "डेवलपर टूल टॉगल करें"
       "Increase Font Size":
-        value: "Increase Font Size"
+        value: "फ़ॉन्ट आकार बढ़ाएँ"
       "Decrease Font Size":
-        value: "Decrease Font Size"
+        value: "कमी फ़ॉन्ट आकार"
       "Reset Font Size":
-        value: "Reset Font Size"
+        value: "फ़ॉन्ट आकार रीसेट करें"
       "Toggle Soft Wrap":
-        value: "Toggle Soft Wrap"
+        value: "नरम लपेटें टॉगल करें"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "टॉगल कमांड पैलेट"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "टॉगल ट्री व्यू"
   Selection:
-    value: "Selection"
+    value: "चयन"
     submenu:
       "Add Selection Above":
-        value: "Add Selection Above"
+        value: "ऊपर चयन जोड़ें"
       "Add Selection Below":
-        value: "Add Selection Below"
+        value: "नीचे चयन जोड़ें"
       "Single Selection":
-        value: "Single Selection"
+        value: "एकल चयन"
       "Split into Lines":
-        value: "Split into Lines"
+        value: "लाइनों में विभाजित"
       "Select to Top":
-        value: "Select to Top"
+        value: "ऊपर का चयन करें"
       "Select to Bottom":
-        value: "Select to Bottom"
+        value: "नीचे का चयन करें"
       "Select Line":
-        value: "Select Line"
+        value: "लाइन का चयन करें"
       "Select Word":
-        value: "Select Word"
+        value: "शब्द का चयन करें"
       "Select to Beginning of Word":
-        value: "Select to Beginning of Word"
+        value: "वर्ड की शुरुआत करने के लिए चयन करें"
       "Select to Beginning of Line":
-        value: "Select to Beginning of Line"
+        value: "लाइन की शुरुआत करने के लिए चयन करें"
       "Select to First Character of Line":
-        value: "Select to First Character of Line"
+        value: "लाइन के पहले अक्षर का चयन करें"
       "Select to End of Word":
-        value: "Select to End of Word"
+        value: "शब्द के अंत का चयन करें"
       "Select to End of Line":
-        value: "Select to End of Line"
+        value: "पंक्ति के अंत का चयन करें"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "ब्रैकेट के अंदर का चयन करें"
   Find:
-    value: "Find"
+    value: "खोज"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "बफर में खोजें"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "बफर में बदलें"
       "Select Next":
-        value: "Select Next"
+        value: "अगला चुनें"
       "Select All":
-        value: "Select All"
+        value: "सभी का चयन करे"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "बोगर में टॉगल फाइंड"
       "Find in Project":
-        value: "Find in Project"
+        value: "प्रोजेक्ट में खोजें"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "प्रोजेक्ट में टॉगल खोजें"
       "Find All":
-        value: "Find All"
+        value: "सब ढूँढ़ो"
       "Find Next":
-        value: "Find Next"
+        value: "अगला ढूंढो"
       "Find Previous":
-        value: "Find Previous"
+        value: "पिछला खोजें"
       "Replace Next":
-        value: "Replace Next"
+        value: "अगला बदलें"
       "Replace All":
-        value: "Replace All"
+        value: "सबको बदली करें"
       "Clear History":
-        value: "Clear History"
+        value: "इतिहास मिटा दें"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "बफर खोजें"
       "Find File":
-        value: "Find File"
+        value: "फ़ाइल ढूंढे"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "संशोधित फ़ाइल का पता लगाएं"
   Packages:
-    value: "Packages"
+    value: "संकुल"
   Window:
-    value: "Window"
+    value: "खिड़की"
     submenu:
       Minimize:
-        value: "Minimize"
+        value: "छोटा करना"
       Zoom:
-        value: "Zoom"
+        value: "ज़ूम"
       "Bring All to Front":
-        value: "Bring All to Front"
+        value: "सभी को सामने लाओ"
   Help:
-    value: "Help"
+    value: "मदद"
     submenu:
       "Terms of Use":
-        value: "Terms of Use"
+        value: "उपयोग की शर्तें"
       Documentation:
-        value: "Documentation"
+        value: "प्रलेखन"
       Roadmap:
-        value: "Roadmap"
+        value: "रोडमैप"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "अक्सर पूछे जाने वाले प्रश्न"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "सामुदायिक चर्चा"
       "Report Issue":
-        value: "Report Issue"
+        value: "रिपोर्ट जारी करना"
       "Search Issues":
-        value: "Search Issues"
+        value: "मुद्दे खोजें"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "वेलकम गाइड"
