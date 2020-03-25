@@ -1,7 +1,7 @@
 Welcome:
   tabTitle: "नमसते"
   subtitle: {
-    text1: "21 के लिए एक हैक करने योग्य पाठ संपादक"
+    text1: "२१ वी सदी के लिए एक हैक करने योग्य पाठ संपादक"
     superscript: ""
     text2: " "
   }
@@ -10,7 +10,7 @@ Welcome:
     atomDocs: {
       text1: ""
       link: "Atom docs"
-      text2: " गाइड तथा API संदर्भ के लिये "
+      text2: "गाइड तथा API संदर्भ के लिये "
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {
@@ -22,8 +22,8 @@ Welcome:
     atomOrg: {
       text1: ""
       link: "Atom org"
-      text2: ". यह वह जगह है जहाँ सभी GitHub निर्मित एटम पैकेज मिल सकते हैं "
+      text2: ".यह वह जगह है जहाँ सभी GitHub निर्मित एटम पैकेज मिल सकते हैं "
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
-  showWelcomeGuide: "एटम खोलते समय वेलकम गाइड दिखाएं"
+  showWelcomeGuide: "एटम खोलते समय ये वेलकम गाइड दिखाएं"
