@@ -1,305 +1,305 @@
 Menu:
   "&File":
-    value: "File(&F)"
+    value: "फ़ाइल (&F)"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "नयीं विंडो (&W)"
       "&New File":
-        value: "New File(&N)"
+        value: "नयीं फ़ाइल (&N)"
       "&Open File…":
-        value: "Open File(&O)..."
+        value: "ओपन फ़ाइल (&O)..."
       "Open Folder…":
-        value: "Open Folder..."
+        value: "ओपन फ़ोल्डर..."
       "Add Project Folder…":
-        value: "Add Project Folder..."
+        value: "ओपन प्रोजेक्ट फ़ोल्डर..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "रीओपेन प्रोजेक्ट"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "क्लीर प्रोजेक्ट हिस्ट्री"
       "Reopen Last &Item":
-        value: "Reopen Last Item(&I)"
+        value: "रीओपेन लास्ट आइटम (&I)"
       "&Save":
-        value: "Save(&S)"
+        value: "सेव (&S)"
       "Save &As…":
-        value: "Save As(&A)..."
+        value: "सेव एस (&A)..."
       "Save A&ll":
-        value: "Save All(&L)"
+        value: "सेव ऑल (&L)"
       "&Close Tab":
-        value: "Close Tab(&C)"
+        value: "क्लोस टैब (&C)"
       "Close &Pane":
-        value: "Close Pane(&P)"
+        value: "क्लोस पेन (&P)"
       "Clos&e Window":
-        value: "Close Window(&E)"
+        value: "क्लोस विंडो (&E)"
       "Quit":
-        value: "Quit"
+        value: "बंद"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "सब टैब बंद कारें"
   "&Edit":
     value: "Edit(&E)"
     submenu:
       "&Undo":
-        value: "Undo(&U)"
+        value: "अंडू (&U)"
       "&Redo":
-        value: "Redo(&R)"
+        value: "रीडू (&R)"
       "&Cut":
-        value: "Cut(&C)"
+        value: "कट (&C)"
       "C&opy":
-        value: "Copy(&O)"
+        value: "कॉपी (&O)"
       "Copy Pat&h":
-        value: "Copy Path(&H)"
+        value: "कॉपी पाथ (&H)"
       "&Paste":
-        value: "Paste(&P)"
+        value: "पेस्ट (&P)"
       "Select &All":
-        value: "Select All(&A)"
+        value: "सलेक्ट ऑल (&A)"
       "&Toggle Comments":
-        value: "Toggle Comments(&T)"
+        value: "टॉगल कॉमेंट (&T)"
       Lines:
-        value: "Lines"
+        value: "लाइंज़"
         submenu:
           "&Indent":
-            value: "Indent(&I)"
+            value: "इंडेंट (&I)"
           "&Outdent":
-            value: "Outdent(&O)"
+            value: "ओऊटडेंट (&O)"
           "&Auto Indent":
-            value: "Auto Indent(&A)"
+            value: "ऑटो इंडेंट (&A)"
           "Move Line &Up":
-            value: "Move Line Up(&U)"
+            value: "मूव लाइन अप (&U)"
           "Move Line &Down":
-            value: "Move Line Down(&D)"
+            value: "मूव लाइन डाउन (&D)"
           "Du&plicate Lines":
-            value: "Duplicate Lines(&P)"
+            value: "डूप्लिकेट लाइनस (&P)"
           "D&elete Line":
-            value: "Delete Line(&E)"
+            value: "डिलीट लाइन (&E)"
           "&Join Lines":
-            value: "Join Lines(&J)"
+            value: "जॉन लाइनस (&J)"
       Columns:
-        value: "Columns"
+        value: "कोलमस"
         submenu:
           "Move Selection &Left":
-            value: "Move Selection Left(&L)"
+            value: "मूव सिलेक्शन लेफ़्ट (&L)"
           "Move Selection &Right":
-            value: "Move Selection Right(&R)"
+            value: "मूव सिलेक्शन राइट (&R)"
       Text:
-        value: "Text"
+        value: "टेक्स्ट"
         submenu:
           "&Upper Case":
-            value: "Upper Case(&U)"
+            value: "अप्पर केस (&U)"
           "&Lower Case":
-            value: "Lower Case(&L)"
+            value: "लोअर केस (&L)"
           "Delete to End of &Word":
-            value: "Delete to End of Word(&W)"
+            value: "डिलीट टू एंड ओफ वोर्द (&W)"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "डिलीट टू प्रीवीयस वोर्द बाउंड्री"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "डिलीट टू नेक्स्ट वोर्द बाउंड्री"
           "&Delete Line":
-            value: "Delete Line(&D)"
+            value: "डिलीट लाइन (&D)"
           "&Transpose":
-            value: "Transpose(&T)"
+            value: "ट्रैन्स्पोज़ (&T)"
       Folding:
-        value: "Folding"
+        value: "फ़ोलदिंग"
         submenu:
           "&Fold":
-            value: "Fold(&F)"
+            value: "फ़ोल्ड (&F)"
           "&Unfold":
-            value: "Unfold(&U)"
+            value: "अनफ़ोल्ड (&U)"
           "Unfold &All":
-            value: "Unfold All(&A)"
+            value: "अनफ़ोल्ड ऑल (&A)"
           "Fol&d All":
-            value: "Fold All(&D)"
+            value: "फ़ोल्ड ऑल (&D)"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "फ़ोल्ड लेवल १"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "फ़ोल्ड लेवल २"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "फ़ोल्ड लेवल ३"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "फ़ोल्ड लेवल ४"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "फ़ोल्ड लेवल ५"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "फ़ोल्ड लेवल ६"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "फ़ोल्ड लेवल ७"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "फ़ोल्ड लेवल ८"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "फ़ोल्ड लेवल ९"
       "&Preferences":
-        value: "Preferences(&P)"
+        value: "प्रेफ़्रेनसीस (&P)"
       "Config…":
-        value: "Config..."
+        value: "कोनफ़िग ..."
       "Init Script…":
-        value: "Init Script..."
+        value: "इनिट स्क्रिप्ट ..."
       "Keymap…":
-        value: "Keymap..."
+        value: "कीमैप ..."
       "Snippets…":
-        value: "Snippets..."
+        value: "स्निपट ..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "स्टाइल शीत ..."
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "रिफ़्लो सिलेक्शन"
       Bookmark:
-        value: "Bookmark"
+        value: "बुक्मार्क"
         submenu:
           "View All":
-            value: "View All"
+            value: "व्यू ऑल"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "टॉगल बुक्मार्क"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "जम्प टू नेक्स्ट बुक्मार्क"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "जम्प टू प्रीवीयस बुक्मार्क"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "सलेक्ट एंकोंडिंग"
       "Go to Line":
-        value: "Go to Line"
+        value: "गो टू लाइन"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "सलेक्ट ग्रामर"
   "&View":
-    value: "View(&V)"
+    value: "व्यू (&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Toggle Full Screen(&F)"
+        value: "टॉगल फ़ुल स्क्रीन (&F)"
       "Toggle Menu Bar":
-        value: "Toggle Menu Bar"
+        value: "टॉगल मेनू बार"
       Panes:
-        value: "Panes"
+        value: "पेनस"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "स्प्लिट उप"
           "Split Down":
-            value: "Split Down"
+            value: "स्प्लिट डाउन"
           "Split Left":
-            value: "Split Left"
+            value: "स्प्लिट लेफ़्ट"
           "Split Right":
-            value: "Split Right"
+            value: "स्प्लिट राइट"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "फ़ोकस नेक्स्ट पेन"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "फ़ोकस प्रीवीयस पेन"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "फ़ोकस पेन अबोव"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "फ़ोकस पेन बिलो"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "फ़ोकस पेन ऑन लेफ़्ट"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "फ़ोकस पेन ऑन राइट"
           "Close Pane":
-            value: "Close Pane"
+            value: "क्लोस पेन"
       Developer:
-        value: "Developer"
+        value: "डिवेलपर"
         submenu:
           "Open In &Dev Mode…":
-            value: "Open In Dev Mode(&D)..."
+            value: "ओपन इन दएव मोड़ (&D)..."
           "&Reload Window":
-            value: "Reload Window(&R)"
+            value: "रीलोड विंडो (&R)"
           "Run Package &Specs":
-            value: "Run Package Specs(&S)"
+            value: "रन पैकिज स्पेक्स (&S)"
           "Run &Benchmarks":
-            value: "Run Benchmarks(&B)"
+            value: "रन बेंचमार्कस (&B)"
           "Toggle Developer &Tools":
-            value: "Toggle Developer Tools(&T)"
+            value: "टॉगल डिवेलपर टूलस (&T)"
       "&Increase Font Size":
-        value: "Increase Font Size(&I)"
+        value: "फ़ॉंट साइज़ बड़ा करें (&I)"
       "&Decrease Font Size":
-        value: "Decrease Font Size(&D)"
+        value: "फ़ॉंट साइज़ छोटा करें (&D)"
       "Re&set Font Size":
-        value: "Reset Font Size(&S)"
+        value: "फ़ॉंट साइज़ रीसेट करें (&S)"
       "Toggle Soft &Wrap":
-        value: "Toggle Soft Wrap(&W)"
+        value: "टॉगल सॉफ़्ट व्रेप (&W)"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "टॉगल कमांड पालेट"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "टॉगल ट्री व्यू"
   "&Selection":
-    value: "Selection(&S)"
+    value: "सिलेक्शन (&S)"
     submenu:
       "Add Selection &Above":
-        value: "Add Selection Above(&A)"
+        value: "ऐड सिलेक्शन अबव (&A)"
       "Add Selection &Below":
-        value: "Add Selection Below(&B)"
+        value: "ऐड सिलेक्शन बिलो (&B)"
       "S&plit into Lines":
-        value: "Split into Lines(&P)"
+        value: "स्प्लिट इंटू लाइंस (&P)"
       "Single Selection":
-        value: "Single Selection"
+        value: "सिंगल सिलेक्शन"
       "Select to &Top":
-        value: "Select to Top(&T)"
+        value: "सलेक्ट टू टॉप (&T)"
       "Select to Botto&m":
-        value: "Select to Bottom(&M)"
+        value: "सलेक्ट टू बॉटम (&M)"
       "Select &Line":
-        value: "Select Line(&L)"
+        value: "सलेक्ट लाइन (&L)"
       "Select &Word":
-        value: "Select Word(&W)"
+        value: "सलेक्ट वोर्द (&W)"
       "Select to Beginning of W&ord":
-        value: "Select to Beginning of Word(&O)"
+        value: "सलेक्ट टू बेगिनिंग ओफ वोर्द (&O)"
       "Select to Beginning of L&ine":
-        value: "Select to Beginning of Line(&I)"
+        value: "सलेक्ट टू बेगिनिंग ओफ लाइन (&I)"
       "Select to First &Character of Line":
-        value: "Select to First Character of Line(&C)"
+        value: "सलेक्ट टू फ़र्स्ट कैरिक्टर ओफ लाइन (&C)"
       "Select to End of Wor&d":
-        value: "Select to End of Word(&D)"
+        value: "सलेक्ट टू एंड ओफ वोर्द (&D)"
       "Select to End of Lin&e":
-        value: "Select to End of Line(&E)"
+        value: "सलेक्ट टू एंड ओफ लाइन (&E)"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "सलेक्ट इन्साइड ब्रैकेट्स"
   "F&ind":
-    value: "Find(&I)"
+    value: "फ़ाइंड (&I)"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "फ़ाइंड इन बफ़र"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "रिप्लेस इन बफ़र"
       "Select Next":
-        value: "Select Next"
+        value: "सलेक्ट नेक्स्ट"
       "Select All":
-        value: "Select All"
+        value: "सलेक्ट ऑल"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "टॉगल फ़ाइंड इन बफ़र"
       "Find in Project":
-        value: "Find in Project"
+        value: "फ़ाइंड इन प्रोजेक्ट"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "टॉगल फ़ाइंड इन प्रोजेक्ट"
       "Find All":
-        value: "Find All"
+        value: "फ़ाइंड ऑल"
       "Find Next":
-        value: "Find Next"
+        value: "फ़ाइंड नेक्स्ट"
       "Find Previous":
-        value: "Find Previous"
+        value: "फ़ाइंड प्रीवीयस"
       "Replace Next":
-        value: "Replace Next"
+        value: "रिप्लेस नेक्स्ट"
       "Replace All":
-        value: "Replace All"
+        value: "रिप्लेस ऑल"
       "Clear History":
-        value: "Clear History"
+        value: "क्लीर हिस्ट्री"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "फ़ाइंड बफ़र"
       "Find File":
-        value: "Find File"
+        value: "फ़ाइंड फ़ाइल"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "फ़ाइंड मॉडिफ़ायड फ़ाइल"
   "&Packages":
-    value: "Packages(&P)"
+    value: "पैकिजेस (&P)"
   "&Help":
-    value: "Help(&H)"
+    value: "हेल्प (&H)"
     submenu:
       "View &Terms of Use":
-        value: "View Terms of Use(&T)"
+        value: "व्यू टेर्मस ओफ यूज़ (&T)"
       "View &License":
-        value: "View License(&L)"
+        value: "व्यू लाइसेन्स (&L)"
       "&Documentation":
-        value: "Documentation(&D)"
+        value: "डोक्युमेंटेशन (&D)"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "फ़्रीक्वंट्ली पूछे गए सवाल"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "कम्यूनिटी के डिस्कशन"
       "Report Issue":
-        value: "Report Issue"
+        value: "रिपोर्ट इशू"
       "Search Issues":
-        value: "Search Issues"
+        value: "सर्च इशू"
       "About Atom":
-        value: "About Atom"
+        value: "अबाउट ऐटम"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "वेल्कम गाइड"
