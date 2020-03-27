@@ -1,3 +1,6 @@
+## 0.23.0 - Hindi support
+- hi i18n #265
+
 ## 0.22.1 - ru, pt-br fix
 - ru i18n #262
 - pt-br i18n #263

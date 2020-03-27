@@ -39,7 +39,7 @@ Community-driven translation. :family:
 | Finnish              |  `fi`   | :white_check_mark: 100%                             |
 | French               |  `fr`   | :white_check_mark: 100%                             |
 | Hebrew               |  `he`   | :white_check_mark: 100%                             |
-| Hindi                |  `hi`   | :exclamation: [I can translate][hi-issue-filter]    |
+| Hindi                |  `hi`   | :white_check_mark: 100%                             |
 | Hungarian            |  `hu`   | :white_check_mark: 100%                             |
 | Italian              |  `it`   | :white_check_mark: 100%                             |
 | Japanese             |  `ja`   | :white_check_mark: 100%                             |
@@ -97,6 +97,7 @@ Community-driven translation. :family:
   - Hebrew: [RealA10N](//github.com/RealA10N)
   - Slovak: [majko96](//github.com/majko96)
   - Kannada: [sachinsshetty](//github.com/sachinsshetty)
+  - Hindi: [themakerman](//github.com/themakerman) [ankitbulchandani](//github.com/ankitbulchandani)
 
 
 ## Reference
