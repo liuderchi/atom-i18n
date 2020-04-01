@@ -50,15 +50,15 @@ Settings:
     {_label: "Available Updates", value: "ಲಭ್ಯವಿರುವ ನವೀಕರಣಗಳು"}
   ]
   subSectionHeadings: [
-    {_label: "Invisible", value: "Invisible"}
-    {_label: "Community Packages", value: "Community Packages"}
-    {_label: "Core Packages", value: "Core Packages"}
-    {_label: "Development Packages", value: "Development Packages"}
-    {_label: "Git Packages", value: "Git Packages"}
-    {_label: "Community Themes", value: "Community Themes"}
-    {_label: "Core Themes", value: "Core Themes"}
-    {_label: "Development Themes", value: "Development Themes"}
-    {_label: "Git Themes", value: "Git Themes"}
+    {_label: "Invisible", value: "ಅಗೋಚರ"}
+    {_label: "Community Packages", value: "ಸಮುದಾಯ ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Core Packages", value: "ಕೋರ್ ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Development Packages", value: "ಅಭಿವೃದ್ಧಿ ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Git Packages", value: "Git ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Community Themes", value: "ಸಮುದಾಯ ಥೀಮ್‌ಗಳು"}
+    {_label: "Core Themes", value: "ಕೋರ್ ಥೀಮ್‌ಗಳು"}
+    {_label: "Development Themes", value: "ಅಭಿವೃದ್ಧಿ ಥೀಮ್ಗಳು"}
+    {_label: "Git Themes", value: "Git ಥೀಮ್ಗಳು"}
   ]
   settings: {
     notes: [
@@ -80,54 +80,54 @@ Settings:
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
-        title: "Allow Pending PaneItems"
+        title: "ಬಾಕಿ ಉಳಿದಿರುವ ಪೇನ್ ವಸ್ತುಗಳನ್ನು ಅನುಮತಿಸಿ"
         desc: "Allow items to be previewed without adding them to a pane
                permanently, such as when single clicking files in the tree view."
       }
       {
         _id: 'core.audioBeep'
-        title: "Audio Beep"
+        title: "ಆಡಿಯೋ ಬೀಪ್"
         desc: "Trigger the system's beep sound when certain actions cannot be
                executed or there are no results."
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automatically Update"
+        title: "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನವೀಕರಿಸಿ"
         desc: "Automatically update Atom when a new release is available."
       }
       {
         _id: 'core.autoHideMenuBar'
-        title: "Auto Hide Menu Bar"
+        title: "ಸ್ವಯಂ ಮರೆಮಾಡು ಮೆನು ಬಾರ್"
         desc: "Automatically hide the menu bar and toggle it by pressing Alt. This is only supported on Windows &amp; Linux."
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
+        title: "ಅಳಿಸಲಾದ ಫೈಲ್ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚಿ"
         desc: "Close corresponding editors when a file is deleted outside Atom."
       }
       {
         _id: 'core.closeEmptyWindows'
-        title: "Close Empty Windows"
+        title: "ಖಾಲಿ ವಿಂಡೋಸ್ ಮುಚ್ಚಿ"
         desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
       }
       {
         _id: 'core.destroyEmptyPanes'
-        title: "Destroy Empty Panes"
+        title: "ಖಾಲಿ ಫಲಕಗಳನ್ನು ನಾಶಮಾಡಿ"
         desc: "When the last tab of a pane is closed, remove that pane as well."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
-        title: "Exclude VCS Ignored Paths"
+        title: "ವಿಸಿಎಸ್ ನಿರ್ಲಕ್ಷಿತ ಮಾರ್ಗಗಳನ್ನು ಹೊರಗಿಡಿ"
         desc: "Files and directories ignored by the current project's VCS system will be ignored by some packages, such as the fuzzy finder and find and replace. For example, projects using Git have these paths defined in the .gitignore file. Individual packages might have additional config settings for ignoring VCS ignored files and folders."
       }
       {
         _id: 'core.fileEncoding'
-        title: "File Encoding"
+        title: "ಫೈಲ್ ಎನ್ಕೋಡಿಂಗ್"
         desc: "Default character set encoding to use when reading and writing files."
       }
       {
         _id: 'core.fileSystemWatcher'
-        title: "File System Watcher"
+        title: "ಫೈಲ್ ಸಿಸ್ಟಮ್ ವಾಚರ್"
         desc: "Choose the underlying implementation used to watch for filesystem changes. Emulating changes will miss any events caused by applications other than Atom, but may help prevent crashes or freezes."
         select:
           native: "Native operating system APIs"
@@ -140,7 +140,7 @@ Settings:
       }
       {
         _id: 'core.ignoredNames'
-        title: "Ignored Names"
+        title: "ಹೆಸರುಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸಲಾಗಿದೆ"
         desc: "List of <code>glob patterns</code>. Files and directories matching these patterns will be ignored by some packages, such as the fuzzy finder and tree view. Individual packages might have additional config settings for ignoring names."
       }
       {
@@ -424,8 +424,8 @@ Settings:
   }
   themes: {
     notes: {
-      text1: "You can also style Atom by editing "
-      text2: "your stylesheet"
+      text1: "ನೀವು ಸಂಪಾದಿಸುವ ಮೂಲಕ (Atom)ಆಟಮ್ ಅನ್ನು ಸಹ ವಿನ್ಯಾಸಗೊಳಿಸಬಹುದು "
+      text2: "ನಿಮ್ಮ ಸ್ಟೈಲ್‌ಶೀಟ್"
       text3: ""   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
@@ -436,27 +436,27 @@ Settings:
     searchBarText: 'Filter themes by name'
   }
   updates: {
-    "check-updates": "Check for Updates"
-    "update-all": "Update All"
-    "checking-updates": "Checking for updates..."
-    "all-updated-message": "All of your installed packages are up to date!"
+    "check-updates": "ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ"
+    "update-all": "ಎಲ್ಲವನ್ನು ಆಧುನೀಕರಿಸು"
+    "checking-updates": "ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ ...."
+    "all-updated-message": "ನಿಮ್ಮ ಸ್ಥಾಪಿಸಲಾದ ಎಲ್ಲಾ ಪ್ಯಾಕೇಜುಗಳು ನವೀಕೃತವಾಗಿವೆ!"
   }
   install: {
     notes: {
-      text1: "Packages are published to "
-      text2: " and are installed to "
+      text1: "ಪ್ಯಾಕೇಜುಗಳನ್ನು ಪ್ರಕಟಿಸಲಾಗಿದೆ "
+      text2: " ಮತ್ತು ಸ್ಥಾಪಿಸಲಾಗಿದೆ "
       text3: ""   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
-    "searchbar-placeholder": "Search packages"
-    "btn-packages": "Packages"
-    "btn-themes": "Themes"
+    "searchbar-placeholder": "ಪ್ಯಾಕೇಜುಗಳನ್ನು ಹುಡುಕಿ"
+    "btn-packages": "ಪ್ಯಾಕೇಜುಗಳು"
+    "btn-themes": "ಥೀಮ್ಗಳು"
   }
   "control-btns":{
-    install: "Install"
-    update: "Update to"
-    setting: "Settings"
-    uninstall: "Uninstall"
-    disable: "Disable"
-    enable: "Enable"
+    install: "ಸ್ಥಾಪಿಸಿ"
+    update: "ನವೀಕರಿಸಿ"
+    setting: "ಸಂಯೋಜನೆಗಳು"
+    uninstall: "ಅಸ್ಥಾಪಿಸು"
+    disable: "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+    enable: "ಸಕ್ರಿಯಗೊಳಿಸಿ"
   }

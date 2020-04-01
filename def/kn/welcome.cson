@@ -1,9 +1,9 @@
 Welcome:
   tabTitle: "ಸ್ವಾಗತ"
   subtitle: {
-    text1: "ಮುನ್ನಡೆಸುವ ಪಠ್ಯ ಸಂಪಾದಕ 21"
-    superscript: "ನೇ"
-    text2: " ಶತಮಾನ"
+    text1: "21 ನೇ ಶತಮಾನ "
+    superscript: " ಪಠ್ಯ"
+    text2: " ಸಂಪಾದಕ"
   }
   help: {
     forHelpVisit: "ಸಹಾಯಕ್ಕಾಗಿ, ದಯವಿಟ್ಟು ಭೇಟಿ ನೀಡಿ"
