@@ -135,7 +135,7 @@ Settings:
       }
       {
         _id: 'core.followSymlinks'
-        title: "Follow Symlinks"
+        title: "ಸಿಮ್‌ಲಿಂಕ್‌ಗಳನ್ನು ಅನುಸರಿಸಿ"
         desc: "Follow symbolic links when searching files and when opening files with the fuzzy finder."
       }
       {
@@ -145,26 +145,26 @@ Settings:
       }
       {
         _id: 'core.openEmptyEditorOnStart'
-        title: "Open Empty Editor On Start"
+        title: "ಪ್ರಾರಂಭದಲ್ಲಿ ಖಾಲಿ ಸಂಪಾದಕವನ್ನು ತೆರೆಯಿರಿ"
         desc: "Automatically open an empty editor on startup."
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Packages With Keymaps Disabled"
+        title: "ಕೀಮ್ಯಾಪ್ನೊಂದಿಗೆ ಪ್ಯಾಕೇಜುಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
       }
       {
         _id: 'core.projectHome'
-        title: "Project Home"
+        title: "ಪ್ರಾಜೆಕ್ಟ್ ಹೋಮ್"
         desc: "The directory where projects are assumed to be located. Packages created using the Package Generator will be stored here by default."
       }
       {
         _id: 'core.reopenProjectMenuCount'
-        title: "Reopen Project Menu Count"
+        title: "ಪ್ರಾಜೆಕ್ಟ್ ಮೆನು ಎಣಿಕೆ ಮತ್ತೆ ತೆರೆಯಿರಿ"
         desc: "How many recent projects to show in the Reopen Project menu."
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "Restore Previous Windows On Start"
+        title: "ಪ್ರಾರಂಭದಲ್ಲಿ ಹಿಂದಿನ ವಿಂಡೋಸ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
         desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
         select:
           no: "no"
@@ -173,7 +173,7 @@ Settings:
       }
       {
         _id: 'core.telemetryConsent'
-        title: "Send Telemetry to the Atom Team"
+        title: "ಟೆಲಿಮೆಟ್ರಿಯನ್ನು ಆಟಮ್ ತಂಡಕ್ಕೆ ಕಳುಹಿಸಿ"
         desc: "Allow usage statistics and exception reports to be sent to the Atom team to help improve the product."
         select:
           limited: "Allow limited anonymous usage stats, exception and crash reporting"
@@ -182,7 +182,7 @@ Settings:
       }
       {
         _id: 'core.titleBar'
-        title: "Title Bar"
+        title: "ಶೀರ್ಷಿಕೆ ಪಟ್ಟಿ"
         desc: "Experimental: A <code>custom</code> title bar adapts to theme colors. Choosing <code>custom-inset</code> adds a bit more padding. The title bar can also be completely <code>hidden</code>.<br>Note: Switching to a custom or hidden title bar will compromise some functionality.<br>This setting will require a relaunch of Atom to take effect."
         select:
           native: "native"
@@ -192,52 +192,52 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use Proxy Settings When Calling APM"
+        title: "ಎಪಿಎಂಗೆ ಕರೆ ಮಾಡುವಾಗ ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸಿ"
         desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
       }
       {
         _id: 'core.versionPinnedPackages'
-        title: "Version Pinned Packages"
+        title: "ಆವೃತ್ತಿ ಪಿನ್ ಮಾಡಿದ ಪ್ಯಾಕೇಜುಗಳು"
         desc: "List of names of installed packages which are not automatically updated."
       }
       {
         _id: 'core.useCustomTitleBar'
-        title: "Use Custom Title Bar"
+        title: "ಕಸ್ಟಮ್ ಶೀರ್ಷಿಕೆ ಪಟ್ಟಿಯನ್ನು ಬಳಸಿ"
         desc: "Use custom, theme-aware title bar.<br>Note: This currently does not include a proxy icon.<br>This setting will require a relaunch of Atom to take effect."
       }
       {
         _id: 'core.warnOnLargeFileLimit'
-        title: "Warn On Large File Limit"
+        title: "ದೊಡ್ಡ ಫೈಲ್ ಮಿತಿಯಲ್ಲಿ ಎಚ್ಚರಿಕೆ ನೀಡಿ"
         desc: "Warn before opening files larger than this number of megabytes."
       }
       {
         _id: 'editor.atomicSoftTabs'
-        title: "Atomic Soft Tabs"
+        title: "ಆಟಮ ಸಾಫ್ಟ್ ಟ್ಯಾಬ್‌ಗಳು"
         desc: "Skip over tab-length runs of leading whitespace when moving the cursor."
       }
       {
         _id: 'editor.autoIndent'
-        title: "Auto Indent"
+        title: "ಸ್ವಯಂ ಇಂಡೆಂಟ್"
         desc: "Automatically indent the cursor when inserting a newline."
       }
       {
         _id: 'editor.autoIndentOnPaste'
-        title: "Auto Indent On Paste"
+        title: "ಪೇಸ್ಟ್‌ನಲ್ಲಿ ಸ್ವಯಂ ಇಂಡೆಂಟ್"
         desc: "Automatically indent pasted text based on the indentation of the previous line."
       }
       {
         _id: 'editor.backUpBeforeSaving'
-        title: "Back Up Before Saving"
+        title: "ಉಳಿಸುವ ಮೊದಲು ಬ್ಯಾಕಪ್ ಮಾಡಿ"
         desc: ""
       }
       {
         _id: 'editor.confirmCheckoutHeadRevision'
-        title: "Confirm Checkout HEAD Revision"
+        title: "ದೃಡಪಡಿಸು ಬಿಡುಗಡೆ ಶಿರ ಪರಿಷ್ಕರಣೆ"
         desc: "Show confirmation dialog when checking out the HEAD revision and discarding changes to current file since last commit."
       }
       {
         _id: 'editor.fontFamily'
-        title: "Font Family"
+        title: "ಫಾಂಟ್ ಕುಟುಂಬ"
         desc: "The name of the font family used for editor text."
       }
       {
@@ -247,86 +247,86 @@ Settings:
       }
       {
         _id: 'editor.invisibles.cr'
-        title: "Invisibles Cr"
+        title: "ಇನ್ವಿಸಿಬಲ್ಸ್ ಸಿಆರ್"
         desc: "Character used to render carriage return characters
                (for Microsoft-style line endings) when the <code>Show
                Invisibles</code> setting is enabled."
       }
       {
         _id: 'editor.invisibles.eol'
-        title: "Invisibles Eol"
+        title: "ಇನ್ವಿಸಿಬಲ್ಸ್ ಇಯೋಲ್"
         desc: "Character used to render newline characters (\n) when the
                <code>Show Invisibles</code> setting is enabled."
       }
       {
         _id: 'editor.invisibles.space'
-        title: "Invisibles Space"
+        title: "ಇನ್ವಿಸಿಬಲ್ಸ್ ಸ್ಪೇಸ್"
         desc: "Character used to render leading and trailing space characters
                when the <code>Show Invisibles</code> setting is enabled."
       }
       {
         _id: 'editor.invisibles.tab'
-        title: "Invisibles Tab"
+        title: "ಇನ್ವಿಸಿಬಲ್ಸ್ ಟ್ಯಾಬ್"
         desc: "Character used to render hard tab characters (\t) when the
                <code>Show Invisibles</code> setting is enabled."
       }
       {
         _id: 'editor.lineHeight'
-        title: "Line Height"
+        title: "ಗೆರೆಯ ಎತ್ತರ"
         desc: "Height of editor lines, as a multiplier of font size."
       }
       {
         _id: 'editor.maxScreenLineLength'
-        title: "Max Screen Line Length"
+        title: "ಗರಿಷ್ಠ ಪರದೆ ರೇಖೆಯ ಉದ್ದ"
         desc: "Defines the maximum width of the editor window before soft wrapping is enforced, in number of characters."
       }
       {
         _id: 'editor.nonWordCharacters'
-        title: "Non Word Characters"
+        title: "ಪದವಲ್ಲದ ಅಕ್ಷರಗಳು"
         desc: "A string of non-word characters to define word boundaries."
       }
       {
         _id: 'editor.preferredLineLength'
-        title: "Preferred Line Length"
+        title: "ಆದ್ಯತೆಯ ಸಾಲಿನ ಉದ್ದ"
         desc: "Identifies the length of a line which is used when wrapping text
                with the <code>Soft Wrap At Preferred Line Length</code> setting
                enabled, in number of characters."
       }
       {
         _id: 'editor.scrollPastEnd'
-        title: "Scroll Past End"
+        title: "ಹಿಂದಿನ ಅಂತ್ಯವನ್ನು ಸ್ಕ್ರಾಲ್ ಮಾಡಿ"
         desc: "Allow the editor to be scrolled past the end of the last line."
       }
       {
         _id: 'editor.scrollSensitivity'
-        title: "Scroll Sensitivity"
+        title: "ಸ್ಕ್ರಾಲ್ ಸೂಕ್ಷ್ಮತೆ"
         desc: "Determines how fast the editor scrolls when using a mouse or
                trackpad."
       }
       {
         _id: 'editor.showCursorOnSelection'
-        title: "Show Cursor On Selection"
+        title: "ಆಯ್ಕೆಯಲ್ಲಿ ಕರ್ಸರ್ ತೋರಿಸಿ"
         desc: "Show cursor while there is a selection."
       }
       {
         _id: 'editor.showIndentGuide'
-        title: "Show Indent Guide"
+        title: "ಇಂಡೆಂಟ್ ಗೈಡ್ ತೋರಿಸಿ"
         desc: "Show indentation indicators in the editor."
       }
       {
         _id: 'editor.showInvisibles'
-        title: "Show Invisibles"
+        title: "ಅದೃಶ್ಯಗಳನ್ನು ತೋರಿಸಿ"
         desc: "Render placeholders for invisible characters, such as tabs,
                spaces and newlines."
       }
       {
         _id: 'editor.showLineNumbers'
-        title: "Show Line Numbers"
+        title: "ಸಾಲು ಸಂಖ್ಯೆಗಳನ್ನು ತೋರಿಸಿ"
         desc: "Show line numbers in the editor's gutter."
       }
       {
         _id: 'editor.softTabs'
-        title: "Soft Tabs"
+        title: "ಸಾಫ್ಟ್ ಟ್ಯಾಬ್‌ಗಳು"
         desc: "If the <code>Tab Type</code> config setting is set to \"auto\"
                and autodetection of tab type from buffer content fails, then
                this config setting determines whether a soft tab or a hard tab
@@ -334,7 +334,7 @@ Settings:
       }
       {
         _id: 'editor.softWrap'
-        title: "Soft Wrap"
+        title: "ಮೃದುವಾದ ಸುತ್ತು"
         desc: "Wraps lines that exceed the width of the window. When
                <code>Soft Wrap At Preferred Line Length</code> is set, it will
                wrap to the number of characters defined by the <code>Preferred
@@ -342,7 +342,7 @@ Settings:
       }
       {
         _id: 'editor.softWrapAtPreferredLineLength'
-        title: "Soft Wrap At Preferred Line Length"
+        title: "ಆದ್ಯತೆಯ ಸಾಲಿನ ಉದ್ದದಲ್ಲಿ ಮೃದುವಾದ ಸುತ್ತು"
         desc: "Instead of wrapping lines to the window's width, wrap lines to
                the number of characters defined by the <code>Preferred Line
                Length</code> setting. This will only take effect when the soft
@@ -353,18 +353,18 @@ Settings:
       }
       {
         _id: 'editor.softWrapHangingIndent'
-        title: "Soft Wrap Hanging Indent"
+        title: "ಸಾಫ್ಟ್ ರಾಪ್ ಹ್ಯಾಂಗಿಂಗ್ ಇಂಡೆಂಟ್"
         desc: "When soft wrap is enabled, defines length of additional
                indentation applied to wrapped lines, in number of characters."
       }
       {
         _id: 'editor.tabLength'
-        title: "Tab Length"
+        title: "ಟ್ಯಾಬ್ ಉದ್ದ"
         desc: "Number of spaces used to represent a tab."
       }
       {
         _id: 'editor.tabType'
-        title: "Tab Type"
+        title: "ಟ್ಯಾಬ್ ಪ್ರಕಾರ"
         desc: "Determine character inserted when Tab key is pressed. Possible
                values: \"auto\", \"soft\" and \"hard\". When set to \"soft\" or
                \"hard\", soft tabs (spaces) or hard tabs (tab characters) are
@@ -375,7 +375,7 @@ Settings:
       }
       {
         _id: 'editor.undoGroupingInterval'
-        title: "Undo Grouping Interval"
+        title: "ಗುಂಪು ಮಧ್ಯಂತರವನ್ನು ರದ್ದುಗೊಳಿಸಿ"
         desc: "Time interval in milliseconds within which text editing
                operations will be grouped together in the undo history."
       }
@@ -387,17 +387,17 @@ Settings:
       }
       {
         _id: 'system.windows.file-handler'
-        title: "Register as file handler"
+        title: "ಫೈಲ್ ಹ್ಯಾಂಡ್ಲರ್ ಆಗಿ ನೋಂದಾಯಿಸಿ"
         desc: "Show Atom in the \"Open with\" application list for easy association with file types."
       }
       {
         _id: 'system.windows.shell-menu-files'
-        title: "Show in file context menus"
+        title: "ಫೈಲ್ ಸಂದರ್ಭ ಮೆನುವಿನಲ್ಲಿ ತೋರಿಸಿ"
         desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
       }
       {
         _id: 'system.windows.shell-menu-folders'
-        title: "Show in folder context menus"
+        title: "ಫೋಲ್ಡರ್ ಸಂದರ್ಭ ಮೆನುಗಳಲ್ಲಿ ತೋರಿಸಿ"
         desc: "Add \"Open with Atom\" to the File Explorer context menu for folders."
       }
     ]
