@@ -2,7 +2,7 @@ Context:
   "atom-workspace":
     "application:inspect": "Inspecionar Elemento"
   "atom-text-editor":
-    "color-picker:open": "Selecionador Da Cores"
+    "color-picker:open": "Selecionador De Cores"
     "minimap:toggle": "Alternar Minimap"
   "atom-text-editor, .overlayer":
     "core:undo": "Desfazer"
@@ -45,7 +45,7 @@ Context:
   ".tab.texteditor":
     "tabs:open-in-new-window": "Abra Em Uma Nova Janela"
   ".tab.pending-tab":
-    "tabs:keep-pending-tab": "Guia Manter Pendente"
+    "tabs:keep-pending-tab": "Manter Guia Pendente"
   ".tab-bar":
     "pane:reopen-closed-item": "Abrir Novamente A Guia Fechada"
   ".tree-view .full-menu":

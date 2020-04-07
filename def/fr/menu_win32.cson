@@ -63,7 +63,7 @@ Menu:
       "&Paste":
         value: "C&oller"
       "Paste Without Reformatting":
-        value: "Paste Without Reformatting"
+        value: "Coller sans reformater"
       "Select &All":
         value: "&Sélectionner tout"
       "&Toggle Comments":

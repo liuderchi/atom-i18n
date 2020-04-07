@@ -1,0 +1,305 @@
+Menu:
+	"&File":
+		value: "Файл(&F)"
+		submenu:
+			"New &Window":
+				value: "Новае акно(&W)"
+			"&New File":
+				value: "Новы файл(&N)"
+			"&Open File…":
+				value: "Адкрыць файл(&O)..."
+			"Open Folder…":
+				value: "Адкрыць каталог..."
+			"Add Project Folder…":
+				value: "Дадаць каталог праекта..."
+			"Reopen Project":
+				value: "Нядаўнія"
+				submenu:
+					"Clear Project History":
+						value: "Ачысціць гісторыю"
+			"Reopen Last &Item":
+				value: "Адкрыць нядаўні файл(&I)"
+			"&Save":
+				value: "Захаваць(&S)"
+			"Save &As…":
+				value: "Захаваць як(&A)..."
+			"Save A&ll":
+				value: "Захаваць усе(&L)"
+			"&Close Tab":
+				value: "Закрыць укладку(&C)"
+			"Close &Pane":
+				value: "Закрыць панэль(&P)"
+			"Clos&e Window":
+				value: "Закрыць акно(&E)"
+			Quit:
+				value: "Выйсці"
+			"Close All Tabs":
+				value: "Закрыць усе ўкладкі"
+	"&Edit":
+		value: "Рэдагаванне(&E)"
+		submenu:
+			"&Undo":
+				value: "Адрабіць(&U)"
+			"&Redo":
+				value: "Паўтарыць(&R)"
+			"&Cut":
+				value: "Выразаць(&C)"
+			"C&opy":
+				value: "Скапіраваць(&O)"
+			"Copy Pat&h":
+				value: "Скапіраваць шлях(&H)"
+			"&Paste":
+				value: "Уставіць(&P)"
+			"Select &All":
+				value: "Вылучыць усё(&A)"
+			"&Toggle Comments":
+				value: "Стварыць каментар(&T)"
+			Lines:
+				value: "Радкі"
+				submenu:
+					"&Indent":
+						value: "Зрабіць водступ(&I)"
+					"&Outdent":
+						value: "Прыбраць водступ(&O)"
+					"&Auto Indent":
+						value: "Аўтаводступ(&A)"
+					"Move Line &Up":
+						value: "Перамясціць радок вышэй(&U)"
+					"Move Line &Down":
+						value: "Перамясціць радок ніжэй(&D)"
+					"Du&plicate Lines":
+						value: "Дубляваць радок(&P)"
+					"D&elete Line":
+						value: "Выдаліць радок(&E)"
+					"&Join Lines":
+						value: "Аб’яднаць радкі(&J)"
+			Columns:
+				value: "Слупкі"
+				submenu:
+					"Move Selection &Left":
+						value: "Перамясціць вылучанае ўлева(&L)"
+					"Move Selection &Right":
+						value: "Перамясціць вылучанае ўправа(&R)"
+			Text:
+				value: "Тэкст"
+				submenu:
+					"&Upper Case":
+						value: "Верхні рэгістр(&U)"
+					"&Lower Case":
+						value: "Ніжні рэгістр(&L)"
+					"Delete to End of &Word":
+						value: "Выдаліць у канцы слова(&W)"
+					"Delete to Previous Word Boundary":
+						value: "Выдаліць папярэдняе слова"
+					"Delete to Next Word Boundary":
+						value: "Выдаліць наступнае слова"
+					"&Delete Line":
+						value: "Выдаліць радок(&D)"
+					"&Transpose":
+						value: "Перамясціць(&T)"
+			Folding:
+				value: "Структура"
+				submenu:
+					"&Fold":
+						value: "Схаваць(&F)"
+					"&Unfold":
+						value: "Паказаць(&U)"
+					"Unfold &All":
+						value: "Паказаць усё(&A)"
+					"Fol&d All":
+						value: "Схаваць усё(&D)"
+					"Fold Level 1":
+						value: "Схаваць 1 узровень"
+					"Fold Level 2":
+						value: "Схаваць 2 узровень"
+					"Fold Level 3":
+						value: "Схаваць 3 узровень"
+					"Fold Level 4":
+						value: "Схаваць 4 узровень"
+					"Fold Level 5":
+						value: "Схаваць 5 узровень"
+					"Fold Level 6":
+						value: "Схаваць 6 узровень"
+					"Fold Level 7":
+						value: "Схаваць 7 узровень"
+					"Fold Level 8":
+						value: "Схаваць 8 узровень"
+					"Fold Level 9":
+						value: "Схаваць 9 узровень"
+			"&Preferences":
+				value: "Налады(&P)"
+			"Config…":
+				value: "Канфігурацыя..."
+			"Init Script…":
+				value: "Стварыць скрыпт..."
+			"Keymap…":
+				value: "Стварыць гарачую клавішу..."
+			"Snippets…":
+				value: "Стварыць урывак..."
+			"Stylesheet…":
+				value: "Стварыць табліцу стыляў..."
+			"Reflow Selection":
+				value: "Адвярнуць вылучанае"
+			Bookmark:
+				value: "Закладка"
+				submenu:
+					"View All":
+						value: "Паказаць усе"
+					"Toggle Bookmark":
+						value: "Стварыць закладку"
+					"Jump to Next Bookmark":
+						value: "Перайсці да наступнай закладкі"
+					"Jump to Previous Bookmark":
+						value: "Перайсці да папярэдняй закладкі"
+			"Select Encoding":
+				value: "Абраць кадаванне"
+			"Go to Line":
+				value: "Перайсці да радка"
+			"Select Grammar":
+				value: "Абраць сінтаксіс"
+	"&View":
+		value: "Выгляд(&V)"
+		submenu:
+			"Toggle &Full Screen":
+				value: "На ўвесь экран(&F)"
+			"Toggle Menu Bar":
+				value: "Паказаць панэль меню"
+			Panes:
+				value: "Панэлі"
+				submenu:
+					"Split Up":
+						value: "Падзяліць зверху"
+					"Split Down":
+						value: "Падзяліць знізу"
+					"Split Left":
+						value: "Падзяліць злева"
+					"Split Right":
+						value: "Падзяліць зправа"
+					"Focus Next Pane":
+						value: "Сфакусавацца на наступнай панэлі"
+					"Focus Previous Pane":
+						value: "Сфакусавацца на папярэдняй панэлі"
+					"Focus Pane Above":
+						value: "Сфакусавацца на панэлі вышэй"
+					"Focus Pane Below":
+						value: "Сфакусавацца на панэлі ніжэй"
+					"Focus Pane On Left":
+						value: "Сфакусавацца на панэлі злева"
+					"Focus Pane On Right":
+						value: "Сфакусавацца на панэлі зправа"
+					"Close Pane":
+						value: "Закрыць панэль"
+			Developer:
+				value: "Распрацоўшчык"
+				submenu:
+					"Open In &Dev Mode…":
+						value: "Адкрыць у рэжыме распрацоўшчыка(&D)..."
+					"&Reload Window":
+						value: "Перазагрузіць акно(&R)"
+					"Run Package &Specs":
+						value: "Запусціць налады пакунка(&S)"
+					"Run &Benchmarks":
+						value: "Запусціць тэсты(&B)"
+					"Toggle Developer &Tools":
+						value: "Паказаць прылады распрацоўшчыка(&T)"
+			"&Increase Font Size":
+				value: "Павялічыць шрыфт(&I)"
+			"&Decrease Font Size":
+				value: "Паменшыць шрыфт(&D)"
+			"Re&set Font Size":
+				value: "Скінуць памер шрыфту(&S)"
+			"Toggle Soft &Wrap":
+				value: "Мяккі перанос(&W)"
+			"Toggle Command Palette":
+				value: "Загадная палітра"
+			"Toggle Tree View":
+				value: "Дрэва файлаў"
+	"&Selection":
+		value: "Вылучэнне(&S)"
+		submenu:
+			"Add Selection &Above":
+				value: "Дадаць да вылучанага ніжэй(&A)"
+			"Add Selection &Below":
+				value: "Дадаць да вылучанага вышэй(&B)"
+			"S&plit into Lines":
+				value: "Падзяліць на радкі(&P)"
+			"Single Selection":
+				value: "Звычайнае вылучэнне"
+			"Select to &Top":
+				value: "Вылучыць верх(&T)"
+			"Select to Botto&m":
+				value: "Вылучыць ніз(&M)"
+			"Select &Line":
+				value: "Вылучыць радок(&L)"
+			"Select &Word":
+				value: "Вылучыць слова(&W)"
+			"Select to Beginning of W&ord":
+				value: "Вылучыць пачатак слова(&O)"
+			"Select to Beginning of L&ine":
+				value: "Вылучыць пачатак радка(&I)"
+			"Select to First &Character of Line":
+				value: "Вылучыць першы сімвал у радку(&C)"
+			"Select to End of Wor&d":
+				value: "Вылучыць канец слова(&D)"
+			"Select to End of Lin&e":
+				value: "Вылучыць канец радка(&E)"
+			"Select Inside Brackets":
+				value: "Вылучыць унутры дужак"
+	"F&ind":
+		value: "Пошук(&I)"
+		submenu:
+			"Find in Buffer":
+				value: "Шукаць у буферы"
+			"Replace in Buffer":
+				value: "Замяніць у буферы"
+			"Select Next":
+				value: "Шукаць наступнае"
+			"Select All":
+				value: "Вылучыць усё"
+			"Toggle Find in Buffer":
+				value: "Паказаць пошук у буферы"
+			"Find in Project":
+				value: "Шукаць у праекце"
+			"Toggle Find in Project":
+				value: "Паказаць пошук у праекце"
+			"Find All":
+				value: "Шукаць усё"
+			"Find Next":
+				value: "Шукаць наступнае"
+			"Find Previous":
+				value: "Шукаць папярэдняе"
+			"Replace Next":
+				value: "Замяніць наступнае"
+			"Replace All":
+				value: "Замяніць усё"
+			"Clear History":
+				value: "Ачысціць гісторыю"
+			"Find Buffer":
+				value: "Шукаць буфер"
+			"Find File":
+				value: "Шукаць файл"
+			"Find Modified File":
+				value: "Шукаць зменены файл"
+	"&Packages":
+		value: "Пакункі(&P)"
+	"&Help":
+		value: "Даведка(&H)"
+		submenu:
+			"View &Terms of Use":
+				value: "Умовы выкарыстання(&T)"
+			"View &License":
+				value: "Ліцэнзія(&L)"
+			"&Documentation":
+				value: "Дакументацыя(&D)"
+			"Frequently Asked Questions":
+				value: "FAQ"
+			"Community Discussions":
+				value: "Абмяркоўванне ў суполцы"
+			"Report Issue":
+				value: "Паведаміць пра праблему"
+			"Search Issues":
+				value: "Знайсці праблему"
+			"About Atom":
+				value: "Пра Atom"
+			"Welcome Guide":
+				value: "Вітаем!"

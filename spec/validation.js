@@ -14,24 +14,19 @@ const CSON = require('cson')
 const { expect } = require('chai')
 
 const { flattenObj } = require('./util.js')
-const LOCALES = require('./locales.js')
+const packageJson = require('../package.json')
+const LOCALES = packageJson.configSchema.locale.enum.map(opt => opt.value)
 const { CSON_FILES, ATOM_VERSION } = require('./config.js')
 
 describe('validation', () => {
 
   describe('package.json validation', () => {
-    let packageMeta = {}
-
-    it('loads package.json', () => {
-      const loading = () => {
-        packageMeta = JSON.parse(fs.readFileSync('./package.json'), 'utf8')
-      }
-      expect(loading).not.to.throw(Error, 'load package.json error')
-    })
-
     it('checks locale options list in configSchema in package.json', () => {
-      const locales = packageMeta.configSchema.locale.enum.map(opt => opt.value)
-      expect(locales).to.deep.equal(LOCALES, 'inconsistent locale options')
+      const defRootPath = path.join(__dirname, '../def')
+      const defPaths = fs.readdirSync(defRootPath)
+        .filter(p => fs.statSync(path.join(defRootPath, p)).isDirectory())
+
+      expect(defPaths.sort()).to.deep.equal(LOCALES.sort(), 'inconsistent locale options')
     })
   })
 

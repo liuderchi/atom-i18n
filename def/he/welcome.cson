@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "ברוך הבא!"
+  subtitle: {
+    text1: "עורך טקסט עדכני עבור המאה "
+    superscript: ""
+    text2: "העשרים ואחת"
+  }
+  help: {
+    forHelpVisit: "לקבלת עזרה, בבקשה בקר"
+    atomDocs: {
+      text1: "את "
+      link: "הדוקומנטציה הרשמית"
+      text2: " בשביל מדריכים והפנייה לממשק תכנות היישומים"
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: ""
+      link: "discuss.atom.io"
+      text2: "את הפורום של אטום ב"
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: "את "
+      link: "אטום אורג"
+      text2: ". זהו המקום שבו תמצא את כל התוספים הרשמיים של אטום"
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "הצג את המדריך הזה בכל הפעלה חדשה של אטום"

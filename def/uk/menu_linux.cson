@@ -1,0 +1,305 @@
+Menu:
+  "&File":
+    value: "Файл (&F)"
+    submenu:
+      "New &Window":
+        value: "Нове вікно (&W)"
+      "&New File":
+        value: "Новий файл (&N)"
+      "&Open File…":
+        value: "Відкрити файл (&O)..."
+      "Open Folder…":
+        value: "Відкрити теку..."
+      "Add Project Folder…":
+        value: "Додати теку до проекту..."
+      "Reopen Project":
+        value: "Нещодавно відкриванні"
+        submenu:
+          "Clear Project History":
+            value: "Очистити історію проектів"
+      "Reopen Last &Item":
+        value: "Відкрити останній файл (&I)"
+      "&Save":
+        value: "Зберегти (&S)"
+      "Save &As…":
+        value: "Зберегти як (&A)..."
+      "Save A&ll":
+        value: "Зберегти все (&L)"
+      "&Close Tab":
+        value: "Закрити вкладку (&C)"
+      "Close &Pane":
+        value: "Закрити панель (&P)"
+      "Clos&e Window":
+        value: "Закрити вікно (&E)"
+      "Quit":
+        value: "Вихід"
+      "Close All Tabs":
+        value: "Закрити всі вкладки"
+  "&Edit":
+    value: "Редагування (&E)"
+    submenu:
+      "&Undo":
+        value: "Відмінити (&U)"
+      "&Redo":
+        value: "Повернути (&R)"
+      "&Cut":
+        value: "Вирізати (&C)"
+      "C&opy":
+        value: "Копіювати (&O)"
+      "Copy Pat&h":
+        value: "Копіювати шлях (&H)"
+      "&Paste":
+        value: "Вставити (&P)"
+      "Select &All":
+        value: "Виділити все (&A)"
+      "&Toggle Comments":
+        value: "Перемкнути коментар (&T)"
+      Lines:
+        value: "Рядки"
+        submenu:
+          "&Indent":
+            value: "Зробити відступ (&I)"
+          "&Outdent":
+            value: "Прибрати відступ (&O)"
+          "&Auto Indent":
+            value: "Авто-відступ (&A)"
+          "Move Line &Up":
+            value: "Пересунути рядок вгору (&U)"
+          "Move Line &Down":
+            value: "Пересунути рядок вниз (&D)"
+          "Du&plicate Lines":
+            value: "Дублювати рядок (&P)"
+          "D&elete Line":
+            value: "Видалити рядок (&E)"
+          "&Join Lines":
+            value: "З'єднати рядки (&J)"
+      Columns:
+        value: "Стовпці"
+        submenu:
+          "Move Selection &Left":
+            value: "Пересунути виділене ліворуч (&L)"
+          "Move Selection &Right":
+            value: "Пересунути виділене праворуч (&R)"
+      Text:
+        value: "Текст"
+        submenu:
+          "&Upper Case":
+            value: "У верхній регістр (&U)"
+          "&Lower Case":
+            value: "У нижній регістр (&L)"
+          "Delete to End of &Word":
+            value: "Видалити до кінця слова (&W)"
+          "Delete to Previous Word Boundary":
+            value: "Видалити до межі попереднього слова"
+          "Delete to Next Word Boundary":
+            value: "Видалити до межі наступного слова"
+          "&Delete Line":
+            value: "Видалити рядок (&D)"
+          "&Transpose":
+            value: "Обернути (&T)"
+      Folding:
+        value: "Структура"
+        submenu:
+          "&Fold":
+            value: "Згорнути (&F)"
+          "&Unfold":
+            value: "Розгорнути (&U)"
+          "Unfold &All":
+            value: "Розгорнути все (&A)"
+          "Fol&d All":
+            value: "Згорнути все (&D)"
+          "Fold Level 1":
+            value: "Згорнути 1 рівень"
+          "Fold Level 2":
+            value: "Згорнути 2 рівень"
+          "Fold Level 3":
+            value: "Згорнути 3 рівень"
+          "Fold Level 4":
+            value: "Згорнути 4 рівень"
+          "Fold Level 5":
+            value: "Згорнути 5 рівень"
+          "Fold Level 6":
+            value: "Згорнути 6 рівень"
+          "Fold Level 7":
+            value: "Згорнути 7 рівень"
+          "Fold Level 8":
+            value: "Згорнути 8 рівень"
+          "Fold Level 9":
+            value: "Згорнути 9 рівень"
+      "&Preferences":
+        value: "Параметри (&P)"
+      "Config…":
+        value: "Створити конфігурацію..."
+      "Init Script…":
+        value: "Створити init-скрипт..."
+      "Keymap…":
+        value: "Створити гарячу клавішу..."
+      "Snippets…":
+        value: "Створити уривок коду (Snippet)..."
+      "Stylesheet…":
+        value: "Створити таблицю стилів..."
+      "Reflow Selection":
+        value: "Прибрати форматування"
+      Bookmark:
+        value: "Закладка"
+        submenu:
+          "View All":
+            value: "Показати всі"
+          "Toggle Bookmark":
+            value: "Перемкнути закладку"
+          "Jump to Next Bookmark":
+            value: "Перейти до наступної закладки"
+          "Jump to Previous Bookmark":
+            value: "Перейти до попередньої закладки"
+      "Select Encoding":
+        value: "Вибрати кодування"
+      "Go to Line":
+        value: "Перейти до рядка"
+      "Select Grammar":
+        value: "Вибрати синтаксис"
+  "&View":
+    value: "Вигляд (&V)"
+    submenu:
+      "Toggle &Full Screen":
+        value: "На весь екран (&F)"
+      "Toggle Menu Bar":
+        value: "Показувати меню"
+      Panes:
+        value: "Панелі"
+        submenu:
+          "Split Up":
+            value: "Розділити зверху"
+          "Split Down":
+            value: "Розділити знизу"
+          "Split Left":
+            value: "Розділити праворуч"
+          "Split Right":
+            value: "Розділити ліворуч"
+          "Focus Next Pane":
+            value: "Сфокусуватися на наступній панелі"
+          "Focus Previous Pane":
+            value: "Сфокусуватися на попередній панелі"
+          "Focus Pane Above":
+            value: "Сфокусуватися на панелі вище"
+          "Focus Pane Below":
+            value: "Сфокусуватися на панелі нижче"
+          "Focus Pane On Left":
+            value: "Сфокусуватися на панелі ліворуч"
+          "Focus Pane On Right":
+            value: "Сфокусуватися на панелі праворуч"
+          "Close Pane":
+            value: "Закрити панель"
+      Developer:
+        value: "Розробник"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "Відкрити у режимі розробника (&D)..."
+          "&Reload Window":
+            value: "Перезавантажити вікно (&R)"
+          "Run Package &Specs":
+            value: "Запустити налаштування пакета (&S)"
+          "Run &Benchmarks":
+            value: "Запустити тести (&B)"
+          "Toggle Developer &Tools":
+            value: "Показати інструменти розробника (&T)"
+      "&Increase Font Size":
+        value: "Збільшити шрифт (&I)"
+      "&Decrease Font Size":
+        value: "Зменшити шрифт (&D)"
+      "Re&set Font Size":
+        value: "Скинути розмір шрифту (&S)"
+      "Toggle Soft &Wrap":
+        value: "М'який перенос (&W)"
+      "Toggle Command Palette":
+        value: "Командна палітра"
+      "Toggle Tree View":
+        value: "Показувати дерево файлів"
+  "&Selection":
+    value: "Виділення (&S)"
+    submenu:
+      "Add Selection &Above":
+        value: "Додати до виділення вище (&A)"
+      "Add Selection &Below":
+        value: "Додати до виділення нижче (&B)"
+      "S&plit into Lines":
+        value: "Розділити по рядках (&P)"
+      "Single Selection":
+        value: "Одиничне виділення"
+      "Select to &Top":
+        value: "Виділити угору (&T)"
+      "Select to Botto&m":
+        value: "Виділити униз (&M)"
+      "Select &Line":
+        value: "Виділити рядок (&L)"
+      "Select &Word":
+        value: "Виділити слово (&W)"
+      "Select to Beginning of W&ord":
+        value: "Виділити до початку слова (&O)"
+      "Select to Beginning of L&ine":
+        value: "Виділити до початку рядка (&I)"
+      "Select to First &Character of Line":
+        value: "Виділити до першого символ у рядку (&C)"
+      "Select to End of Wor&d":
+        value: "Виділити до кінця слова (&D)"
+      "Select to End of Lin&e":
+        value: "Виділити до кінця рядка (&E)"
+      "Select Inside Brackets":
+        value: "Виділити всередині дужок"
+  "F&ind":
+    value: "Пошук (&I)"
+    submenu:
+      "Find in Buffer":
+        value: "Знайти - у буфер"
+      "Replace in Buffer":
+        value: "Замінити - у буфер"
+      "Select Next":
+        value: "Знайти і виділити далі"
+      "Select All":
+        value: "Знайти і виділити все"
+      "Toggle Find in Buffer":
+        value: "Показати буфер пошуку"
+      "Find in Project":
+        value: "Знайти текст у файлах проекту"
+      "Toggle Find in Project":
+        value: "Показати пошук у проекті"
+      "Find All":
+        value: "Знайти все"
+      "Find Next":
+        value: "Знайти наступне"
+      "Find Previous":
+        value: "Знайти попереднє"
+      "Replace Next":
+        value: "Замінити наступне"
+      "Replace All":
+        value: "Замінити все"
+      "Clear History":
+        value: "Очистити історію (буферу) пошуку"
+      "Find Buffer":
+        value: "Знайти файл у відкритих вкладках"
+      "Find File":
+        value: "Знайти файл у проекті"
+      "Find Modified File":
+        value: "Знайти змінений файл"
+  "&Packages":
+    value: "Пакунки (&P)"
+  "&Help":
+    value: "Довідка (&H)"
+    submenu:
+      "View &Terms of Use":
+        value: "Умови використання (&T)"
+      "View &License":
+        value: "Ліцензія (&L)"
+      "&Documentation":
+        value: "Документація (&D)"
+      "Frequently Asked Questions":
+        value: "Часті питання"
+      "Community Discussions":
+        value: "Обговорення у спільноті"
+      "Report Issue":
+        value: "Повідомити про проблему"
+      "Search Issues":
+        value: "Знайти відомості про проблему"
+      "About Atom":
+        value: "Про Atom"
+      "Welcome Guide":
+        value: "Початкове керівництво!"

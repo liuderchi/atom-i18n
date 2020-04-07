@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Inspektojeni Elementin"
+  "atom-text-editor":
+    "color-picker:open": "Zgjedhës Ngjyrash"
+    "minimap:toggle": "Shfaq/fshih Minimap-in"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Zhbëje"
+    "core:redo": "Ribëje"
+    "core:cut": "Prije"
+    "core:copy": "Kopjoje"
+    "core:paste": "Ngjite"
+    "core:delete": "Fshije"
+    "core:select-all": "Përzgjidhe Krejt"
+    "pane:split-up-and-copy-active-item": "Ndaje Përsipër"
+    "pane:split-down-and-copy-active-item": "Ndaje Përposhtë"
+    "pane:split-left-and-copy-active-item": "Ndaje Majtas"
+    "pane:split-right-and-copy-active-item": "Ndaje Djathtas"
+    "pane:close": "Mbylle Kuadratin"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Ndaje Përsipër"
+    "pane:split-down-and-copy-active-item": "Ndaje Përposhtë"
+    "pane:split-left-and-copy-active-item": "Ndaje Majtas"
+    "pane:split-right-and-copy-active-item": "Ndaje Djathtas"
+    "pane:close": "Mbylle Kuadratin"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Ndryshoji Kodimin"
+    "spell-check:correct-misspelling": "Ndreqi Drejtshkrimin"
+    "symbols-view:go-to-declaration": "Shko te Pohimi"
+  ".overlayer":
+    "grammar-selector:show": "Ndryshoni Gramatikën"
+  ".image-view":
+    "image-view:reload": "Ringarko Figurën"
+  ".tab":
+    "tabs:close-tab": "Mbylle Skedën"
+    "tabs:close-other-tabs": "Mbylli Skedat e Tjera"
+    "tabs:close-tabs-to-right": "Mbylli Skedat Në të Djathtë"
+    "tabs:close-tabs-to-left": "Mbylli Skedat Në të Majtë"
+    "tabs:close-saved-tabs": "Mbylli Skedat e Ruajtura"
+    "tabs:close-all-tabs": "Mbylli Krejt Skedat"
+    "tabs:split-up": "Ndaje Përsipër"
+    "tabs:split-down": "Ndaje Përposhtë"
+    "tabs:split-left": "Ndaje Majtas"
+    "tabs:split-right": "Ndaje Djathtas"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Hape në Dritare të Re"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Mbaje Skedën Pezull"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Rihape Skedën e Mbyllur"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "Kartelë e Re"
+    "tree-view:add-folder": "Dosje e Re"
+    "tree-view:move": "Riemërtojeni"
+    "tree-view:duplicate": "Përsëdyte"
+    "tree-view:remove": "Fshije"
+    "tree-view:copy": "Kopjoje"
+    "tree-view:cut": "Prije"
+    "tree-view:paste": "Ngjite"
+    "tree-view:open-selected-entry-up": "Ndaje Përsipër"
+    "tree-view:open-selected-entry-down": "Ndaje Përposhtë"
+    "tree-view:open-selected-entry-left": "Ndaje Majtas"
+    "tree-view:open-selected-entry-right": "Ndaje Djathtas"
+    "application:add-project-folder": "Shtoni Dosje Projekti"
+    "tree-view:copy-full-path": "Kopjoji Shtegun e Plotë"
+    "tree-view:copy-project-path": "Kopjo Shteg Projekti"
+    "tree-view:open-in-new-window": "Hape Në Dritare të Re"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Ndaje Përsipër"
+    "tree-view:open-selected-entry-down": "Ndaje Përposhtë"
+    "tree-view:open-selected-entry-left": "Ndaje Majtas"
+    "tree-view:open-selected-entry-right": "Ndaje Djathtas"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "Kartelë e Re"
+    "tree-view:add-folder": "Dosje e Re"
+    "tree-view:move": "Riemërtojeni"
+    "tree-view:duplicate": "Përsëdyte"
+    "tree-view:remove": "Fshije"
+    "tree-view:copy": "Kopjoje"
+    "tree-view:cut": "Prije"
+    "tree-view:paste": "Ngjite"
+    "tree-view:open-selected-entry-up": "Ndaje Përsipër"
+    "tree-view:open-selected-entry-down": "Ndaje Përposhtë"
+    "tree-view:open-selected-entry-left": "Ndaje Majtas"
+    "tree-view:open-selected-entry-right": "Ndaje Djathtas"
+    "application:add-project-folder": "Shto Dosje Projekti"
+    "tree-view:remove-project-folder": "Hiq Dosje Projekti"
+    "tree-view:copy-full-path": "Kopjoji Shtegun e Plotë"
+    "tree-view:copy-project-path": "Kopjo Shteg Projekti"
+    "tree-view:open-in-new-window": "Hape Në Dritare të Re"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Shfaqe në Gjetës"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Shfaqe në Eksplorues"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Shfaqe në Përgjegjës Kartelash"
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Kërko në Drejtori"
+  ".tree-view .multi-select":
+    "tree-view:remove": "Fshije"
+    "tree-view:copy": "Kopjoje"
+    "tree-view:cut": "Prije"
+    "tree-view:paste": "Ngjite"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Shfaqe në Pamjen Pemë"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Riemërtojeni"
+    "tree-view:reveal-active-file": "Shfaqe në Pamjen Pemë"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Shfaqe Në Gjetës"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Shfaqe Në Eksplorues"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Shfaqe Në Përgjegjës Kartelash"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Shfaqe Në Gjetës"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Shfaqe Në Eksplorues"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Shfaqe Në Përgjegjës Kartelash"

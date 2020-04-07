@@ -63,7 +63,7 @@ Menu:
       "&Paste":
         value: "Wklej(&P)"
       "Paste Without Reformatting":
-        value: "Paste Without Reformatting"
+        value: "Wklej bez formatowania"
       "Select &All":
         value: "Zaznacz wszystko(&A)"
       "&Toggle Comments":
@@ -154,9 +154,9 @@ Menu:
           "Jump to Previous Bookmark":
             value: "Skocz do poprzedniej zakładki"
           "Select to Next Bookmark":
-            value: "Select to Next Bookmark"
+            value: "Wybierz następną zakładkęmark"
           "Select to Previous Bookmark":
-            value: "Select to Previous Bookmark"
+            value: "Wybierz poprzednią zakładkę"
       "Select Encoding":
         value: "Wybierz kodowanie"
       "Go to Line":
@@ -296,13 +296,13 @@ Menu:
       "View &License":
         value: "Pokaż &licencję"
       "Restart and Install Update":
-        value: "Restart and Install Update"
+        value: "Zrestartuj i zainstaluj aktualizacje"
       "Check for Update":
         value: "Sprawdź aktualizacje"
       "Checking for Update":
-        value: "Checking for Update"
+        value: "Sprawdzanie aktualizacji"
       "Downloading Update":
-        value: "Downloading Update"
+        value: "Pobieranie aktualizacji"
       "&Documentation":
         value: "Dokumentacja(&D)"
       "Frequently Asked Questions":

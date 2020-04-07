@@ -407,8 +407,8 @@ Settings:
     searchBarText: 'テーマを名前でフィルタリング'
   }
   updates: {
-    "check-updates": "すべてアップデート"
-    "update-all": "アップデートをチェック"
+    "check-updates": "アップデートをチェック"
+    "update-all": "すべてアップデート"
     "checking-updates": "アップデートを確認中..."
     "all-updated-message": "インストールしたパッケージはすべて最新です！"
   }
