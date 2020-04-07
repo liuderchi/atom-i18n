@@ -1,0 +1,443 @@
+Settings:
+  "tab-title": "Rregullime"
+  menu: [
+    {
+      _label: "Core"
+      value: "Baza"
+    }
+    {
+      _label: "Editor"
+      value: "Përpunues"
+    }
+    {
+      _label: "System"
+      value: "Sistem"
+    }
+    {
+      _label: "Keybindings"
+      value: "Shkurtore"
+    }
+    {
+      _label: "Packages"
+      value: "Paketa"
+    }
+    {
+      _label: "Themes"
+      value: "Tema"
+    }
+    {
+      _label: "Updates"
+      value: "Përditësime"
+    }
+    {
+      _label: "Install"
+      value: "Instaloje"
+    }
+  ]
+  "btn-open-config-folder": "Hapni Dosje Formësimesh"
+  sectionHeadings: [
+    {_label: "Core Settings", value: "Rregullime Baze"}
+    {_label: "Editor Settings", value: "Rregullime Përpunuesi"}
+    {_label: "System Settings", value: "Rregullime Sistemi"}
+    {_label: "Keybindings", value: "Shkurtore"}
+    {_label: "Installed Packages", value: "Paketa të Instaluara"}
+    {_label: "Choose a Theme", value: "Zgjidhni një Temë"}
+    {_label: "Installed Themes", value: "Tema të Instaluara"}
+    {_label: "Install Packages", value: "Paketa të Instaluara"}
+    {_label: "Featured Packages", value: "Paketa të Zgjedhura"}
+    {_label: "Install Themes", value: "Instaloni Tema"}
+    {_label: "Featured Themes", value: "Tema të Zgjedhura"}
+    {_label: "Available Updates", value: "Përditësime të Gatshme"}
+  ]
+  subSectionHeadings: [
+    {_label: "Invisible", value: "Të padukshme"}
+    {_label: "Community Packages", value: "Paketa Nga Bashkësia"}
+    {_label: "Core Packages", value: "Paketa Baze"}
+    {_label: "Development Packages", value: "Paketa Zhvillimi"}
+    {_label: "Git Packages", value: "Paketa Git"}
+    {_label: "Community Themes", value: "Tema Nga Bashkësia"}
+    {_label: "Core Themes", value: "Tema Baze"}
+    {_label: "Development Themes", value: "Tema Zhvillimi"}
+    {_label: "Git Themes", value: "Tema Git"}
+  ]
+  settings: {
+    notes: [
+      {
+        _id: 'core-settings-note'
+        html: 'Këto janë rregullime të bazës së Atom-it që prekin sjellje që
+               nuk ka të bëjë me përpunime teksti. Paketat individuale mund
+               të kenë rregullime të tyre shtesë, që gjenden brenda skedës së
+               paketës te <a class="link packages-open">lista e Paketave</a>.'
+      }
+      {
+        _id: 'editor-settings-note'
+        html: 'Këto rregullime lidhen me përpunime teksti. Disa nga këto mund
+               të anashkalohen me bazë gjuhën. Kontrolloni rregullimet për gjuhën
+               duke klikuar te skeda e paketës te <a class="link packages-open">lista e Paketave</a>.'
+      }
+    ]
+    controls: [
+      {
+        _id: 'core.allowPendingPaneItems'
+        title: "Lejo Objekte Kuadrati Pezull"
+        desc: "Lejo paraparje objektesh pa i shtuar përgjithmonë te një kuadrat,
+               f.v. kur njëklikohen kartela te pamja pemë."
+      }
+      {
+        _id: 'core.audioBeep'
+        title: "Bip Zanor"
+        desc: "Prodho tingullin bip të sistemit kur nuk mund të kryhen disa veprime ose kur nuk ka përfundime."
+      }
+      {
+        _id: 'core.automaticallyUpdate'
+        title: "Përditësim i Vetvetishëm"
+        desc: "Përditësoje vetvetiu Atom-in, kur ka version të ri të gatshëm."
+      }
+      {
+        _id: 'core.autoHideMenuBar'
+        title: "Vetëfshihe Shtyllën e Menuve"
+        desc: "Zgjidhni të fshihet vetvetiu shtylla e menuve dhe shfaqeni/fshiheni duke shtypur tastin Alt. Kjo mbulohet vetëm në Windows &amp; Linux."
+      }
+      {
+        _id: 'core.closeDeletedFileTabs'
+        title: "Mbyll Skeda Kartelash të Fshira"
+        desc: "Mbylle përpunuesin përkatës kur një kartelë fshihet jashtë Atom-it."
+      }
+      {
+        _id: 'core.closeEmptyWindows'
+        title: "Mbylli Dritaret e Zbrazëta"
+        desc: "Kur për një dritare pa skeda apo kuadrate të hapur i drejtohet urdhri 'Mbylle Skedën', mbyll atë dritare."
+      }
+      {
+        _id: 'core.destroyEmptyPanes'
+        title: "Asgjëso Kuadrate të Zbrazët"
+        desc: "Kur mbyllet skeda e fundit e një kuadrati, hiq edhe vetë kuadratin."
+      }
+      {
+        _id: 'core.excludeVcsIgnoredPaths'
+        title: "Përjashto Shtigje VCS të Shpërfillur"
+        desc: "Kartelat dhe drejtoritë e shpërfillura nga sistemi VCS i një projekti të dhënë do të shpërfillen nga disa paketa, të tilla si Fuzzy Finder dhe Gjej dhe Zëvendëso. Për shembull, projekte që përdorin Git këto shtigje i kanë të përcaktuar te kartela .gitignore. Paketa individuale mund të kenë rregullime shtesë formësimi për shpërfillje kartelash dhe dosjesh VCS të shpërfillura."
+      }
+      {
+        _id: 'core.fileEncoding'
+        title: "Kodim Kartelash"
+        desc: "Kodim parazgjedhje shkronjash për t’u përdorur kur lexohen dhe shkruhen kartela."
+      }
+      {
+        _id: 'core.fileSystemWatcher'
+        title: "Vëzhgues Sistemi Kartelash"
+        desc: "Zgjidhni mekanizmin mbi të cilin të bazohet vëzhgimi për ndryshime në sistemin e kartelave. Emulimi i ndryshimeve do shkaktojë moskapjen e çfarëdo akti të prodhuar nga aplikacione tjetër nga Atom-i, por mund të ndihmojë në parandalim vithisjesh apo ngrirjesh të sistemit."
+        select:
+          native: "API origjinale të sistemit operativ"
+          atom: "Emulim me akte Atom"
+      }
+      {
+        _id: 'core.followSymlinks'
+        title: "Ndiqi Simlidhjet"
+        desc: "Ndiqi lidhjet simbolike kur kërkohet për kartela dhe kur hapen kartela përmes Fuzzy Finder-it."
+      }
+      {
+        _id: 'core.ignoredNames'
+        title: "Shpërfillje emrash"
+        desc: "Listë <code>mostrash glob</code>. Kartela dhe drejtori që kanë përputhje me këto mostra do të shpërfillen nga disa paketa, të tilla si Fuzzy Finder dhe Pamja Pemë. Paketat individuale mund të kenë rregullime shtesë formësimi për shpërfillje emrash."
+      }
+      {
+        _id: 'core.openEmptyEditorOnStart'
+        title: "Gjatë Nisjes, Përpunuesin Hape të Zbrazët"
+        desc: "Hap vetvetiu gjatë nisjes një përpunues të zbrazët."
+      }
+      {
+        _id: 'core.packagesWithKeymapsDisabled'
+        title: "Paketa me Tastierë të Çaktivizuar"
+      }
+      {
+        _id: 'core.projectHome'
+        title: "Shtëpia e Projektit"
+        desc: "Drejtoria ku presupozohet se gjenden projektet. Paketat e krijuara përmes Prodhuesit të Paketave, si parazgjedhje do të depozitohen këtu."
+      }
+      {
+        _id: 'core.reopenProjectMenuCount'
+        title: "Numër Te Menuja Rihapni Projekte"
+        desc: "Sa projekte të freskëta të shfaqen te menuja Rihapni Projekte."
+      }
+      {
+        _id: 'core.restorePreviousWindowsOnStart'
+        title: "Rikthe Dritaret e Mëparshme Gjatë Nisjesh"
+        desc: "Kur i vihet shenjë, rikthen krejt dritaret Atom në gjendjen e fundit, nëse nisja bëhet nga ikona apo vetë <code>atom</code>-i përmes rreshti urdhrash; përndryshe ngarkohet një mjedis i zbrazët."
+        select:
+          no: "jo"
+          yes: "po"
+          always: "përherë"
+      }
+      {
+        _id: 'core.telemetryConsent'
+        title: "Dërgo të dhëna telemetrike te Ekipi i Atom-it"
+        desc: "Lejoni që t’i dërgohen ekipit të Atom-it statistika përdorimi dhe raporte përjashtimesh, për t’i ndihmuar të përmirësojnë produktin."
+        select:
+          limited: "Lejo statistika anonime, të kufizuara, përdorimi dhe raportimi përjashtimesh dhe vithisjesh"
+          no: "Mos dërgo ndonjë të dhënë telemetrike"
+          undecided: "S’di ç’të them (Atom-i do të pyesë sërish herën tjetër që do ta hapni)"
+      }
+      {
+        _id: 'core.titleBar'
+        title: "Shtyllë Titulli"
+        desc: "Eksperimentale: Një shtyllë titulli <code>vetjake</code> përshtatet me ngjyrën e temave. Zgjedhja e <code>custom-inset</code> shton pakëz mbushje. Titulli mund të bëhet edhe plotësisht <code>i fshehur</code>.<br>Shënim: Kalimi te një shtyllë titulli vetjake apo të fshehur do të komprometojë disa anë të funksionimit.<br>Që të hyjë në fuqi, ky rregullim lyp nisje të Atom-it."
+        select:
+          native: "të vetin"
+          custom: "vetjak"
+          "custom-inset": "custom-inset"
+          hidden: "të fshehur"
+      }
+      {
+        _id: 'core.useProxySettingsWhenCallingApm'
+        title: "Përdor Rregullime Ndërmjetësi Kur Thirret APM"
+        desc: "Përdor rregullime ndërmjetësi të pikasur, kur thirret mjeti rresht urdhrash <code>apm</code>."
+      }
+      {
+        _id: 'core.versionPinnedPackages'
+        title: "Paketa Me Version të Fiksuar"
+        desc: "Listë emrash e paketave të instaluara që nuk përditësohen vetvetiu."
+      }
+      {
+        _id: 'core.useCustomTitleBar'
+        title: "Përdor Shtyllë Vetjake Titulli"
+        desc: "Përdorni shtyllë titulli vetjake, që ndjek temën.<br>Shënim: Kjo hëpërhë nuk përfshin një ikonë ndërmjetësi.<br>Që të hyjë në fuqi, ky rregullim do të lypë rinisje të Atom-it."
+      }
+      {
+        _id: 'core.warnOnLargeFileLimit'
+        title: "Sinjalizdo Për Kartela të Mëdhza Tej Kufirit"
+        desc: "Sinjalizo përpara hapjes së kartelave më të mëdha se ky numër megabajtesh."
+      }
+      {
+        _id: 'editor.atomicSoftTabs'
+        title: "Tabulacion Soft Atom-ike"
+        desc: "Kur lëvizet kursori, anashkalo vargje hapësirash të zbrazëta me gjatësinë e një tabulacioni."
+      }
+      {
+        _id: 'editor.autoIndent'
+        title: "Shmangie Brendazi të Vetvetishme"
+        desc: "Shmange vetvetiu brendazi kursorin kur futet një rresht i ri."
+      }
+      {
+        _id: 'editor.autoIndentOnPaste'
+        title: "Shmangie Brendazi të Vetvetishme Gjatë Ngjitjesh"
+        desc: "Shmange vetvetiu brendazi tekstin që ngjitet, bazuar në shmangien e rreshtit të mëparshëm."
+      }
+      {
+        _id: 'editor.backUpBeforeSaving'
+        title: "Back Up Before Saving"
+        desc: "Kopjeruaje Përpara Ruajtjes"
+      }
+      {
+        _id: 'editor.confirmCheckoutHeadRevision'
+        title: "Confirm Checkout HEAD Revision"
+        desc: "Shfaq dialog ripohimi kur kryhet <em>check out</em> i rishikimit HEAD dhe hidhen tej ndryshimet e kartela e çastit që nga parashtrimi i fundit."
+      }
+      {
+        _id: 'editor.fontFamily'
+        title: "Familje Shkronjash"
+        desc: "Emri i familjes së shkronjave të përdorura nga përpunuesi për tekste."
+      }
+      {
+        _id: 'editor.fontSize'
+        title: "Madhësi Shkronjash"
+        desc: "Lartësi në piksel e tekstit në përpunues."
+      }
+      {
+        _id: 'editor.invisibles.cr'
+        title: "Shenja të Padukshme"
+        desc: "Shenja të përdorura për formim shenjash kthimi kursori në krye të rreshtit
+               (për mbarime rreshti në stil Microsoft-i), kur rregullimi <code>Shfaq të Padukshme</code> është i aktivizuar."
+      }
+      {
+        _id: 'editor.invisibles.eol'
+        title: "Eol të Padukshëm"
+        desc: "Shenjë e përdorur për formim shenja rreshtash të rinj (\n), kur rregullimi <code>Shfaq të Padukshme</code> është i aktivizuar."
+      }
+      {
+        _id: 'editor.invisibles.space'
+        title: "Invisibles Space"
+        desc: "Shenjë e përdorur për formim shenjash hapësire paraprijëse dhe hapësira <em>trailing</em>, kur rregullimi <code>Shfaq të Padukshme</code> është i aktivizuar."
+      }
+      {
+        _id: 'editor.invisibles.tab'
+        title: "Tabulacione të Padukshëm"
+        desc: "Shenjë e përdorur për formim shenjash tabulacioni (\t), kur rregullimi <code>Shfaq të Padukshme</code> është i aktivizuar."
+      }
+      {
+        _id: 'editor.lineHeight'
+        title: "Lartësi Rreshti"
+        desc: "Lartësi e rreshtave të përpunuesit, si një shumëfish i madhësisë së shkronjave."
+      }
+      {
+        _id: 'editor.maxScreenLineLength'
+        title: "Gjatësi Maksimum e Rreshtit Në Ekran"
+        desc: "Përcakton gjerësinë maksimum të dritares së përpunuesit përpara se të zbatohet forcërisht mbështjellja e butë, në numër shenjash."
+      }
+      {
+        _id: 'editor.nonWordCharacters'
+        title: "Shenja Jo Fjalësh"
+        desc: "Një varg shenjash jo fjalësh për përcaktim kufij fjalësh."
+      }
+      {
+        _id: 'editor.preferredLineLength'
+        title: "Gjatësi Rreshti e Parapëlqyer"
+        desc: "Identifikon gjatësinë e një rreshti që përdoret kur mbështillet tekst
+               përmes rregullimit <code>Mbështjellje e Butë Në Gjatësi të Parapëlqyer Rreshti</code>
+               të aktivizuar, në numër shenjash."
+      }
+      {
+        _id: 'editor.scrollPastEnd'
+        title: "Rrëshqit Më Tej Fundit"
+        desc: "Lejojini përpunuesit të vazhdojë rrëshqitjen tej fundit të rreshtit të fundit."
+      }
+      {
+        _id: 'editor.scrollSensitivity'
+        title: "Ndjeshmëri Rrëshqitjeje"
+        desc: "Përcakton se sa shpejt rrëshqitet në përpunues kur përdoret miu ose <em>trackpad</em>-i."
+      }
+      {
+        _id: 'editor.showCursorOnSelection'
+        title: "Shfaqe Kursorin Në Përzgjedhje"
+        desc: "Shfaqe kursorin kur ka diçka të përzgjedhur."
+      }
+      {
+        _id: 'editor.showIndentGuide'
+        title: "Shfaq Udhëzues Shmangiesh"
+        desc: "Shfaq te përpunuesi tregues shmangiesh."
+      }
+      {
+        _id: 'editor.showInvisibles'
+        title: "Shfaq të Padukshmet"
+        desc: "Paraqiti vendmbajtëset për shenja të padukshme, b.f., tabulacione, hapësira dhe shenja rreshti të ri."
+      }
+      {
+        _id: 'editor.showLineNumbers'
+        title: "Shfaq Numra Rreshtash"
+        desc: "Shfaq numra rreshtash në anë të përpunuesit."
+      }
+      {
+        _id: 'editor.softTabs'
+        title: "Tabulacione Soft"
+        desc: "Nëse për formësimin <code>Lloj Tabulacioni</code> është zgjedhur \"auto\"
+               dhe vetëzbulimi i llojit të tabulacionit sipas lëndës së atij çasti dështon, atëherë ky parametër formësimi përcakton nëse futet një tabulacion soft apo hard, kur shtypet tasti Tab."
+      }
+      {
+        _id: 'editor.softWrap'
+        title: "Mbështjellje e Butë"
+        desc: "Mbështjell rreshtat që dalin jashtë gjerësisë së dritares. Kur
+               <code>Mbështjellje të Butë Tek Gjatësia e Parapëlqyer e Rreshtave</code> është e rregulluar, mbështjella do të kryhet kur mbërrihet te numri i shenjave i përcaktuar nga rregullimi <code>Gjatësi e Parapëlqyer Rreshtash</code>."
+      }
+      {
+        _id: 'editor.softWrapAtPreferredLineLength'
+        title: "Soft Wrap At Preferred Line Length"
+        desc: "Në vend se rreshtat të mbështillen sa gjerësia e dritares,
+               mbështillini kur mbërrihet te numri i shenjave i përcaktuar nga
+               rregullimi <code>Gjatësi e Parapëlqyer Rreshtash</code>. Kjo
+               do të ketë efekt vetëm kur parametri i formësimit për
+               mbështjelljen të jetë aktivizuar globalisht, ose për gjuhën
+               e përdorur atë çast. <strong>Shënim:</strong> Nëse doni
+               të fshihni udhëzuesit e mbështjelljes (vija vertikale), mund
+               të çaktivizoni paketën <code>wrap-guide</code>."
+      }
+      {
+        _id: 'editor.softWrapHangingIndent'
+        title: "Shmangie Hanging Për Mbështjellje të Butë"
+        desc: "Kur mbështjellja e butë është e aktivizuar, përcakton gjatësinë e shmangies shtesë që duhet zbatuar mbi rreshta të mbështjellë, në numër shenjash."
+      }
+      {
+        _id: 'editor.tabLength'
+        title: "Gjatësi Tabulacioni"
+        desc: "Numër hapësirash për t’u përdorur për përfaqësimin e një tabulacioni."
+      }
+      {
+        _id: 'editor.tabType'
+        title: "Lloj Tabulacioni"
+        desc: "Përcaktoni shenjën që përdoret kur shtypet tasti Tab. Vlera të mundshme: \"auto\", \"soft\" dhe \"hard\". Kur caktohet \"soft\" ose
+               \"hard\", përdoren tabulacione <em>soft</em> (hapësira) ose tabulacione <em>hard</em> (shenja tabulacioni). Kur zgjidhet \"auto\", përpunuesi vetëzbulon llojin e tabulacionit bazuar në lëndën që përpunohet (përdor shenjën e parë paraprirëse hapësirë të zbrazët të një rreshti që s’është koment), ose përdor parametrin e formësuar për Tabulacione <em>Soft</em>, nëse vetëzbulimi dështon."
+      }
+      {
+        _id: 'editor.undoGroupingInterval'
+        title: "Interval Grupimi Aktesh Zhbërjesh"
+        desc: "Interval kohor në milisekonda brenda të cilit krejt veprimet përpunimi teksti do të konsiderohen një grup nga historiku i akteve të zhbërjeve."
+      }
+      {
+        _id: 'editor.zoomFontWhenCtrlScrolling'
+        title: "Zmadho/Zvogëlo Madhësi Shkronjash Kur Kryhet Ctrl + Rrëshqitje"
+        desc: "Ndryshoni madhësi shkronjash te përpunuesi, kur shtypet tasti Ctrl dhe rrotullohet rrotëza e miut për lart/për poshtë."
+      }
+      {
+        _id: 'system.windows.file-handler'
+        title: "Register as file handler"
+        desc: "Shfaqe Atom-in te lista e aplikacioneve për \"Hape me\", për përshoqërim të lehtë me lloje kartelash."
+      }
+      {
+        _id: 'system.windows.shell-menu-files'
+        title: "Shfaqe në menu konteksti për veprime mbi kartela"
+        desc: "Shtojeni \"Hape me Atom\" te menu konteksti e Eksploruesit të Kartelave, për kartela."
+      }
+      {
+        _id: 'system.windows.shell-menu-folders'
+        title: "Shfaqe në menu konteksti për veprime mbi dosje"
+        desc: "Shtojeni \"Hape me Atom\" te menu konteksti e Eksploruesit të Kartelave, për dosje."
+      }
+    ]
+  }
+  system: {
+    notes: "Këto rregullime përcaktojnë se si integrohet Atom-i me sistemin tuaj operativ."
+  }
+  keymaps: {
+    notes: {
+      text1: "Këto shkurtore mund t’i anashkaloni duke kopjuar "
+      text2: "dhe duke e ngjitur te "
+      text3: "kartela juaj e përshoqërimit të tasteve"
+      text4: ""   # optional
+      _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
+    }
+    "search-bar-placeholder": "Kërkoni përshoqërime tastesh"
+    "table-header-keystroke": "Kombinim"
+    "table-header-command": "Urdhër"
+    "table-header-source": "Burim"
+    "table-header-selector": "Përzgjedhës"
+  }
+  packages: {
+    searchBarText: 'Filtroji paketat sipas emrash'
+  }
+  themes: {
+    notes: {
+      text1: "Mundeni ta stilizoni Atom-in duke përpunuar "
+      text2: "fletëstilin tuaj"
+      text3: ""   # optional
+      _template: "${text1} <a>${text2}</a> ${text3}"
+    }
+    title1: "Temë UI"
+    description1: "Me këtë stilizohen skedat, shtylla e gjendjeve, pamja pemë, dhe menutë hapmbyll"
+    title2: "Temë Sintakse"
+    description2: "Me këtë stilizohet teksti brenda përpunuesit"
+    searchBarText: 'Filtroji temat sipas emrash'
+  }
+  updates: {
+    "check-updates": "Kontrollo për përditësime"
+    "update-all": "Përditësoji Krejt"
+    "checking-updates": "Po kontrollohet për përditësime..."
+    "all-updated-message": "Krejt paketat tuaja të instaluara janë të përditësuara!"
+  }
+  install: {
+    notes: {
+      text1: "Paketat publikohen te "
+      text2: " dhe instalohen te "
+      text3: ""   # optional
+      _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
+    }
+    "searchbar-placeholder": "Kërkoni paketa"
+    "btn-packages": "Paketa"
+    "btn-themes": "Tema"
+  }
+  "control-btns":{
+    install: "Instaloje"
+    update: "Përditësoje te"
+    setting: "Rregullime"
+    uninstall: "Çinstaloje"
+    disable: "Çaktivizoje"
+    enable: "Aktivizoje"
+  }

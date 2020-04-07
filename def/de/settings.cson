@@ -3,7 +3,7 @@ Settings:
   menu: [
     {
       _label: "Core"
-      value: "Core"
+      value: "Kern"
     }
     {
       _label: "Editor"
@@ -19,7 +19,7 @@ Settings:
     }
     {
       _label: "Packages"
-      value: "Pakete"
+      value: "Plugins"
     }
     {
       _label: "Themes"
@@ -36,39 +36,39 @@ Settings:
   ]
   "btn-open-config-folder": "Öffne Konfigurations-Ordner"
   sectionHeadings: [
-    {_label: "Core Settings", value: "Core-Einstellungen"}
+    {_label: "Core Settings", value: "Kern-Einstellungen"}
     {_label: "Editor Settings", value: "Editor-Einstellungen"}
     {_label: "System Settings", value: "Systemeinstellungen"}
     {_label: "Keybindings", value: "Tastenkürzel"}
-    {_label: "Installed Packages", value: "Installierte Pakete"}
-    {_label: "Choose a Theme", value: "Ein Theme auswählen"}
-    {_label: "Installed Themes", value: "Installierte Themes"}
-    {_label: "Install Packages", value: "Paket installieren"}
-    {_label: "Featured Packages", value: "Vorgestellte Pakete"}
-    {_label: "Install Themes", value: "Themes installieren"}
-    {_label: "Featured Themes", value: "Vorgestellte Themes"}
+    {_label: "Installed Packages", value: "Installierte Plugins"}
+    {_label: "Choose a Theme", value: "Ein Thema auswählen"}
+    {_label: "Installed Themes", value: "Installierte Themen"}
+    {_label: "Install Packages", value: "Plugin installieren"}
+    {_label: "Featured Packages", value: "Vorgestellte Plugins"}
+    {_label: "Install Themes", value: "Themen installieren"}
+    {_label: "Featured Themes", value: "Vorgestellte Themen"}
     {_label: "Available Updates", value: "Verfügbare Aktualisierungen"}
   ]
   subSectionHeadings: [
     {_label: "Invisible", value: "Unsichtbar"}
-    {_label: "Community Packages", value: "Community-Pakete"}
-    {_label: "Core Packages", value: "Core-Pakete"}
-    {_label: "Development Packages", value: "Entwicklungs-Pakete"}
-    {_label: "Git Packages", value: "Git-Pakete"}
-    {_label: "Community Themes", value: "Community-Themes"}
-    {_label: "Core Themes", value: "Core-Themes"}
-    {_label: "Development Themes", value: "Entwickler-Themes"}
-    {_label: "Git Themes", value: "Git-Themes"}
+    {_label: "Community Packages", value: "Community-Plugins"}
+    {_label: "Core Packages", value: "Core-Plugins"}
+    {_label: "Development Packages", value: "Entwicklungs-Plugins"}
+    {_label: "Git Packages", value: "Git-Plugins"}
+    {_label: "Community Themes", value: "Community-Themen"}
+    {_label: "Core Themes", value: "Kern-Themen"}
+    {_label: "Development Themes", value: "Entwickler-Themen"}
+    {_label: "Git Themes", value: "Git-Themen"}
   ]
   settings: {
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'Dies sind Atoms Core-Einstellungen, welche aber nicht das Verhalten zum Bearbeiten von Texten beeinflussen (zu finden unter Editor). Individuelle Pakete können eigene Einstellungen haben, welche auf der jeweiligen Package-Einstellungsseite in der <a class="link packages-open">Liste aller installierten Pakete</a> zu finden sind.'
+        html: 'Dies sind Atoms Core-Einstellungen, welche aber nicht das Verhalten zum Bearbeiten von Texten beeinflussen (zu finden unter Editor). Individuelle Plugins können eigene Einstellungen haben, welche auf der jeweiligen Package-Einstellungsseite in der <a class="link packages-open">Liste aller installierten Plugins</a> zu finden sind.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'Diese Einstellungen hängen mit dem Bearbeiten von Text zusammen. Einige davon können auf Basis der jeweiligen Sprache übergangen werden. Prüfe die jeweiligen Spracheinstellungen auf der jeweiligen Package-Einstellungsseite in der <a class="link packages-open">Liste aller installierten Pakete</a>.'
+        html: 'Diese Einstellungen hängen mit dem Bearbeiten von Text zusammen. Einige davon können auf Basis der jeweiligen Sprache übergangen werden. Prüfe die jeweiligen Spracheinstellungen auf der jeweiligen Package-Einstellungsseite in der <a class="link packages-open">Liste aller installierten Plugins</a>.'
       }
     ]
     controls: [
@@ -109,8 +109,8 @@ Settings:
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
-        title: "Von VCS ignorierte Pfade ausschließen "
-        desc: "Dateien und Pfade welche durch das VCS eines Projektes ignoriert werden, werden auch von einigen Packagesn wie fuzzy Finder sowie Suchen/Ersetzen ignoriert. Zum Beispiel, wenn Projekte welche Git benutzen gewisse Pfade in .gitignore definiert haben. Individuelle Pakete könnten auch zusätzliche Einstellungen bzgl. ignorieren von VCS ignorierten Dateien oder Ordnern enthalten."
+        title: "Von VCS ignorierte Pfade ausschließen"
+        desc: "Dateien und Pfade welche durch das VCS eines Projektes ignoriert werden, werden auch von einigen Packagesn wie fuzzy Finder sowie Suchen/Ersetzen ignoriert. Zum Beispiel, wenn Projekte welche Git benutzen gewisse Pfade in .gitignore definiert haben. Individuelle Plugins könnten auch zusätzliche Einstellungen bzgl. ignorieren von VCS ignorierten Dateien oder Ordnern enthalten."
       }
       {
         _id: 'core.fileEncoding'
@@ -119,11 +119,11 @@ Settings:
       }
       {
         _id: 'core.fileSystemWatcher'
-        title: "File System Watcher"
-        desc: "Choose the underlying implementation used to watch for filesystem changes. Emulating changes will miss any events caused by applications other than Atom, but may help prevent crashes or freezes."
+        title: "Dateiänderungen"
+        desc: "Wählt die Methode zum Prüfen auf Dateisystemsänderungen aus. Die Option <code>Emuliert mit Atom-Events</code> verpasst eventuell ein paar durch andere Programme ausgelöste Events, hilft aber eventuell bei Abstürzen."
         select:
-          native: "Native operating system APIs"
-          atom: "Emulated with Atom events"
+          native: "Native Betriebssystem-API"
+          atom: "Emuliert mit Atom-Events"
       }
       {
         _id: 'core.followSymlinks'
@@ -133,7 +133,7 @@ Settings:
       {
         _id: 'core.ignoredNames'
         title: "Ignorierte Namen"
-        desc: "Liste von <code>glob patterns</code>. Dateien und Ordner, welche diesen Mustern entsprechen werden von einigen Packagesn ignoriert, z. B. fuzzy Finder und Baumansicht. Individuelle Pakete könnten zusätzliche Einstellungen zum Ignorieren von Namen in deren jeweiligen Einstellungen enthalten."
+        desc: "Liste von <code>glob patterns</code>. Dateien und Ordner, welche diesen Mustern entsprechen werden von einigen Packagesn ignoriert, z. B. fuzzy Finder und Baumansicht. Individuelle Plugins könnten zusätzliche Einstellungen zum Ignorieren von Namen in deren jeweiligen Einstellungen enthalten."
       }
       {
         _id: 'core.openEmptyEditorOnStart'
@@ -142,12 +142,12 @@ Settings:
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Pakete mit deaktivierten Tastaturkürzeln"
+        title: "Plugins mit deaktivierten Tastaturkürzeln"
       }
       {
         _id: 'core.projectHome'
         title: "Projekt-Heimverzeichnis"
-        desc: "Verzeichnis, in dem Projekte gespeichert werden. Pakete, welche mittels dem Packages-Generator erstellt werden, werden dort standardmäßig abgelegt."
+        desc: "Verzeichnis, in dem Projekte gespeichert werden. Plugins, welche mittels dem Plugin-Generator erstellt werden, werden dort standardmäßig abgelegt."
       }
       {
         _id: 'core.reopenProjectMenuCount'
@@ -170,17 +170,17 @@ Settings:
         select:
           limited: "Limitierte anonyme Nutzer-Statistiken, Ausnahmen und Fehlerberichte"
           no: "Keine Telemetrie-Daten senden"
-          undecided: "Weiß nicht (Atom fragt beim nächsten Start erneut nach)"
+          undecided: "Nicht jetzt (Atom fragt beim nächsten Start erneut)"
       }
       {
         _id: 'core.titleBar'
-        title: "Title Bar"
-        desc: "Experimental: A <code>custom</code> title bar adapts to theme colors. Choosing <code>custom-inset</code> adds a bit more padding. The title bar can also be completely <code>hidden</code>.<br>Note: Switching to a custom or hidden title bar will compromise some functionality.<br>This setting will require a relaunch of Atom to take effect."
+        title: "Titelleiste"
+        desc: "Experimentell: Bei der Einstellung <code>Custom</code> adaptiert die Titelleiste die Themefarben. Im Fall von <code>Custom-inset</code> wird ein etwas größerer Rand hinzugefügt. Die Titelleiste kann auch <code>Versteckt</code> werden.<br>Achtung: Eine <code>Versteckt</code> oder <code>Custom</code> Titelleiste kann die Funktionälität einschränken.<br>Damit diese Einstellung Wirkung hat, muss Atom neu gestartet werden."
         select:
-          native: "native"
-          custom: "custom"
+          native: "Nativ"
+          custom: "Custom"
           "custom-inset": "custom-inset"
-          hidden: "hidden"
+          hidden: "Versteckt"
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
@@ -189,13 +189,13 @@ Settings:
       }
       {
         _id: 'core.versionPinnedPackages'
-        title: "Version Pinned Packages"
-        desc: "List of names of installed packages which are not automatically updated."
+        title: "Pakete mit festgesetzten Versionen"
+        desc: "Liste mit den Namen von Paketen, welche nicht automatisch aktualisiert werden sollen."
       }
       {
         _id: 'core.useCustomTitleBar'
-        title: "Benutze benutzerspezifische Titel-Leiste"
-        desc: "Nutze eigene, Theme-gebundene Titel-Leiste.<br>Hinweis: Das Proxy-Icon ist davon ausgenommen.<br>Damit diese Einstellung Wirkung hat, muss Atom neu gestartet werden."
+        title: "Benutze benutzerspezifische Titelleiste"
+        desc: "Nutze eigene, Theme-gebundene Titelleiste.<br>Hinweis: Das Proxy-Icon ist davon ausgenommen.<br>Damit diese Einstellung Wirkung hat, muss Atom neu gestartet werden."
       }
       {
         _id: 'core.warnOnLargeFileLimit'
@@ -215,7 +215,7 @@ Settings:
       {
         _id: 'editor.autoIndentOnPaste'
         title: "Automatisches Einrücken beim Einfügen"
-        desc: "Automatisch eingefügten Text einrücken, basierend auf der Einrückung der vorausgehenden Zeile."
+        desc: "Eingefügten Text automatisch einrücken, basierend auf der Einrückung der vorausgehenden Zeile."
       }
       {
         _id: 'editor.backUpBeforeSaving'
@@ -224,8 +224,8 @@ Settings:
       }
       {
         _id: 'editor.confirmCheckoutHeadRevision'
-        title: "Bestätigung beim Checkout HEAD Revision"
-        desc: "Zeige Bestätigungs-Dialog beim Checkout der HEAD Revision, und beim Verwerfen von Änderungen an der momentanen bearbeiteten Datei seit dem letzten Commit."
+        title: "Bestätigung bei der Checkout HEAD Revision"
+        desc: "Zeige Bestätigungs-Dialog beim Checkout der HEAD Revision, und beim Verwerfen von Änderungen an der momentan bearbeiteten Datei seit dem letzten Commit."
       }
       {
         _id: 'editor.fontFamily'
@@ -240,22 +240,22 @@ Settings:
       {
         _id: 'editor.invisibles.cr'
         title: "Unsichtbare Zeilenumbrüche"
-        desc: "Zeichen welches verwendet wird, um Zeilenumbrüche darzustellen, (für Microsoft-Zeilenenden) wenn die Einstellung <code>Zeige Unsichtbare</code> aktiviert ist."
+        desc: "Zeichen welches verwendet wird, um Zeilenumbrüche darzustellen, (für Microsoft-Zeilenenden) wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
       }
       {
         _id: 'editor.invisibles.eol'
-        title: "Unsichtbare EOL"
-        desc: "Zeichen welches verwendet wird, um newline Zeichen (\n) darzustellen, wenn die Einstellung <code>Zeige Unsichtbare</code> aktiviert ist."
+        title: "Unsichtbare Zeilenumbrüche"
+        desc: "Zeichen welches verwendet wird, um newline Zeichen (\n) darzustellen, wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
       }
       {
         _id: 'editor.invisibles.space'
         title: "Unsichtbare Leerzeichen"
-        desc: "Zeichen welches verwendet wird, um führende und folgende Leerzeichen darzustellen, wenn die Einstellung <code>Zeige Unsichtbare</code> aktiviert ist."
+        desc: "Zeichen welches verwendet wird, um führende und folgende Leerzeichen darzustellen, wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
       }
       {
         _id: 'editor.invisibles.tab'
         title: "Unsichtbare Tabs"
-        desc: "Zeichen welches verwendet wird, um Tabulatorsprünge (\t) darzustellen, wenn die Einstellung <code>Zeige Unsichtbare</code> aktiviert ist."
+        desc: "Zeichen welches verwendet wird, um Tabulatorsprünge (\t) darzustellen, wenn die Einstellung <code>Zeige unsichtbare Zeichen</code> aktiviert ist."
       }
       {
         _id: 'editor.lineHeight'
@@ -264,8 +264,8 @@ Settings:
       }
       {
         _id: 'editor.maxScreenLineLength'
-        title: "Max Screen Line Length"
-        desc: "Defines the maximum width of the editor window before soft wrapping is enforced, in number of characters."
+        title: "Maximale Bildschirmbreite"
+        desc: "Gibt die maximale Breite des Editor-Fensters in Zeichen an, bevor Soft-Wrapping aktiviert wird."
       }
       {
         _id: 'editor.nonWordCharacters'
@@ -275,7 +275,7 @@ Settings:
       {
         _id: 'editor.preferredLineLength'
         title: "Bevorzugte Zeilenlänge"
-        desc: "Gibt die Zeichenlänge einer Zeile an, die verwendet wird, bevor Text umbrochen wird, sofern die Einstellung <code>Soft Wrap anhand bevorzugter Zeilenlänge</code> aktiviert ist, in der Anzahl der Zeichen an."
+        desc: "Gibt die Zeichenlänge einer Zeile an, die verwendet wird, bevor Text umbrochen wird, sofern die Einstellung <code>Soft-Wrap anhand bevorzugter Zeilenlänge</code> aktiviert ist, in der Anzahl der Zeichen an."
       }
       {
         _id: 'editor.scrollPastEnd'
@@ -285,7 +285,7 @@ Settings:
       {
         _id: 'editor.scrollSensitivity'
         title: "Scroll-Sensibilität"
-        desc: "Legt fest wie schnell der Editor per Maus oder Trackpad scrollt."
+        desc: "Legt fest, wie schnell der Editor per Maus oder Trackpad scrollt."
       }
       {
         _id: 'editor.showCursorOnSelection'
@@ -305,42 +305,42 @@ Settings:
       {
         _id: 'editor.showLineNumbers'
         title: "Zeige Zeilennummern"
-        desc: "Zeige Zeilennummern im Editor-Spaltenzwischenraum."
+        desc: "Zeige Zeilennummern auf der rechten Seite des Editors."
       }
       {
         _id: 'editor.softTabs'
-        title: "Soft Tabs"
-        desc: "Wenn die Einstellung <code>Tabulator-Typ</code> auf \"auto\" gestellt ist, und die Autoerkennung des Tabulator-Typs vom Inhalt fehl schlägt, wird diese Einstellung verwendet, um zu entscheiden, ob ein Soft Tab oder ein Hard Tab eingefügt wird, sobald die Tabulator-Taste gedrückt wird."
+        title: "Soft-Tabs"
+        desc: "Wenn die Einstellung <code>Tabulator-Typ</code> auf \"auto\" gestellt ist und die Autoerkennung des Tabulator-Typs anhand des Inhalts fehlschlägt, wird diese Einstellung verwendet um zu entscheiden, ob ein Soft-Tab oder ein Hard-Tab eingefügt wird, sobald die Tabulator-Taste gedrückt wird."
       }
       {
         _id: 'editor.softWrap'
-        title: "Soft Wrap"
-        desc: "Bricht Zeilen um, welche die Breite des Fensters überschreiten wird. Wenn <code>Soft Wrap anhand bevorzugter Zeilenlänge</code> aktiviert ist, wird die Zeile anhand der definierten maximalen Anzahl an Zeichen in der Einstellung <code>Bevorzugten Zeilenlänge</code> umgebrochen."
+        title: "Soft-Wrap"
+        desc: "Bricht Zeilen um, welche die Breite des Fensters überschreiten wird. Wenn <code>Soft-Wrap anhand bevorzugter Zeilenlänge</code> aktiviert ist, wird die Zeile anhand der definierten maximalen Anzahl an Zeichen in der Einstellung <code>Bevorzugten Zeilenlänge</code> umgebrochen."
       }
       {
         _id: 'editor.softWrapAtPreferredLineLength'
-        title: "Soft Wrap anhand bevorzugter Zeilenlänge"
-        desc: "Anstelle eines Zeilenumbruches an der Fensterbreite, wird die Zeile bei der Anzahl der Zeichen umgebrochen, welche in <code>Bevorzugte Zeilenlänge</code> Einstellung defininiert ist. Dies hat nur einen Effekt, wenn die Soft Wrap Einstellung global oder für die aktuelle Sprache aktiviert ist. <strong>Beachte:</strong> Wenn du die Wrap-Hilfe (vertikale Linie) verbergen willst kannst du das Paket <code>wrap-guide</code> de-aktivieren."
+        title: "Soft-Wrap anhand bevorzugter Zeilenlänge"
+        desc: "Anstelle eines Zeilenumbruches an der Fensterbreite, wird die Zeile bei der Anzahl der Zeichen umgebrochen, welche in <code>Bevorzugte Zeilenlänge</code> Einstellung defininiert ist. Dies hat nur einen Effekt, wenn die Soft Wrap Einstellung global oder für die aktuelle Sprache aktiviert ist. <strong>Beachte:</strong> Wenn du die Wrap-Hilfe (vertikale Linie) verbergen willst kannst du das Plugin <code>wrap-guide</code> deaktivieren."
       }
       {
         _id: 'editor.softWrapHangingIndent'
-        title: "Soft Wrap fliegende Einrückung"
-        desc: "Wenn Soft Wrap aktiviert ist, definiert dies die Anzahl an Zeichen, die als zusätzliche Einrückung verwendet wird."
+        title: "Soft-Wrap fliegende Einrückung"
+        desc: "Wenn Soft-Wrap aktiviert ist, definiert dies die Anzahl an Zeichen, die als zusätzliche Einrückung verwendet wird."
       }
       {
         _id: 'editor.tabLength'
-        title: "Tab Länge"
+        title: "Tabulator-Länge"
         desc: "Anzahl von Leerzeichen, welche verwendet werden, um einen Tab darzustellen."
       }
       {
         _id: 'editor.tabType'
-        title: "Tab Typ"
-        desc: "Legt fest, welches Zeichen eingefügt wird, wenn die Tab-Taste gedrückt wird. Mögliche Werte: \"auto\", \"soft\" und \"hard\". Wenn diese festgelegt sind auf \"soft\" oder \"hard\", werden soft tabs (Leerzeichen) oder hard tabs (Tab Zeichen) verwendet. Wenn auf \"auto\" gestellt ist, versucht der Editor den Typ der Tabs automatisch anhand der Inhalte zu erkennen (er untersucht die ersten führenden Leerzeichen einer Inhaltslosen Zeile), oder benutzt den Wert der Soft Tabs Einstellung, wenn die automatische Erkennung fehlschlägt."
+        title: "Tabulator-Typ"
+        desc: "Legt fest, welches Zeichen eingefügt wird, wenn die Tab-Taste gedrückt wird. Mögliche Werte: \"auto\", \"soft\" und \"hard\". Wenn diese auf \"soft\" oder \"hard\" festgelegt sind, werden Soft-Tabs (Leerzeichen) oder Hard-Tabs (Tabulatorzeichen) verwendet. Wenn es auf \"auto\" gestellt ist, versucht der Editor den Typ der Tabs automatisch anhand der Inhalte zu erkennen (er untersucht die ersten führenden Leerzeichen einer inhaltslosen Zeile) oder benutzt den Wert der Soft-Tabs Einstellung, wenn die automatische Erkennung fehlschlägt."
       }
       {
         _id: 'editor.undoGroupingInterval'
-        title: "Rückgängig Gruppierungsinterval"
-        desc: "Zeitinterval in millisekunden in dem der Text-Editor Operationen zu einem Rückgängig-Schritt zusammengefasst werden."
+        title: "Rückgängig Gruppierungsintervall"
+        desc: "Zeitintervall in Millisekunden, in dem der Text-Editor Operationen zu einem Rückgängig-Schritt zusammenfasst."
       }
       {
         _id: 'editor.zoomFontWhenCtrlScrolling'
@@ -382,12 +382,12 @@ Settings:
     "table-header-selector": "Selektor"
   }
   packages: {
-    searchBarText: 'Pakete nach Namen filtern'
+    searchBarText: 'Plugins nach Namen filtern'
   }
   themes: {
     notes: {
-      text1: "Atom kann durch editieren "
-      text2: "Deines Stylesheets"
+      text1: "Atom kann durch Editieren "
+      text2: "deines Stylesheets"
       text3: " angepasst werden"   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
@@ -399,26 +399,26 @@ Settings:
   }
   updates: {
     "check-updates": "Suche nach Aktualisierungen"
-    "update-all": "Alles aktualisieren"
-    "checking-updates": "Suche nach Aktualisierungen..."
-    "all-updated-message": "Alle deine installierten Pakete sind aktuell!"
+    "update-all": "Alle aktualisieren"
+    "checking-updates": "Suche nach Aktualisierungen…"
+    "all-updated-message": "Alle deine installierten Plugins sind aktuell!"
   }
   install: {
     notes: {
-      text1: "Pakete sind veröffentlicht "
-      text2: " und wurden installiert nach "
-      text3: ""   # optional
+      text1: "Plugins sind auf "
+      text2: " veröffentlicht und wurden in "
+      text3: " installiert"   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
-    "searchbar-placeholder": "Suche Pakete"
-    "btn-packages": "Pakete"
+    "searchbar-placeholder": "Durchsuche Plugins"
+    "btn-packages": "Plugins"
     "btn-themes": "Themes"
   }
   "control-btns":{
     install: "Installieren"
     update: "Aktualisieren"
     setting: "Einstellungen"
-    uninstall: "Uninstall"
+    uninstall: "Deinstallieren"
     disable: "Deaktivieren"
     enable: "Aktivieren"
   }

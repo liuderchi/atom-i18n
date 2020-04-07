@@ -1,12 +1,12 @@
 Welcome:
   tabTitle: "Welcome"
   subtitle: {
-    text1: "Ein hackbarer Texteditor für das 21"
-    superscript: "."
+    text1: "Ein hackbarer Texteditor für das 21."
+    superscript: ""
     text2: " Jahrhundert"
   }
   help: {
-    forHelpVisit: "Für Hilfe bemühe bitte"
+    forHelpVisit: "Für Hilfe besuche bitte"
     atomDocs: {
       text1: "Die "
       link: "Atom-Doku"
@@ -21,7 +21,7 @@ Welcome:
     }
     atomOrg: {
       text1: "Die Seite "
-      link: "Atom org"
+      link: "Atom"
       text2: ". Hier sind alle über GitHub erzeugten Atom-Packages zu finden."
       _template: "${text1}<a>${link}</a>${text2}"
     }

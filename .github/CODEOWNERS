@@ -3,10 +3,22 @@
 
 *   @liuderchi
 
-# def/ar/*.cson
+def/ar/*.cson        @AmrIKhudair
+
+def/be/*.cson        @antikruk
+
+def/cz/*.cson        @Heroyt
 
 def/de/*.cson        @Acer54 @socialmedialabs
 def/de/settings.cson @Acer54  @queenar  @socialmedialabs
+def/de/about.cson    @Tz3r0  @polynoman
+def/de/menu_darwin.cson     @Tz3r0  @polynoman
+def/de/menu_linux.cson      @polynoman
+def/de/menu_win32.cson      @polynoman
+def/de/settings.cson @Tz3r0  @silas229 @Henry2o1o
+def/de/welcome.cson  @Tz3r0  @polynoman
+
+def/eo/*.cson        @p2635
 
 def/es/*.cson        @stsewd
 
@@ -14,25 +26,36 @@ def/fi/*.cson        @an7oine
 
 def/fr/*.cson        @chezyann  @Vivalzar  @DThought
 
-# def/hi/*.cson
+def/he/*.cson        @RealA10N
+
+def/hi/*.cson       @themakerman @ankitbulchandani
 
 def/hu/*.cson       @dominicus-75
 
 def/it/*.cson       @francematt @LorenzoAncora
 
-def/ja/*.cson        @shingo-uzuki @Umoxfo
+def/ja/*.cson        @shingo-uzuki @Umoxfo @ibuki2003
 
 def/ko/*.cson        @preco21  @chibichichi  @Riyeon  @nerhis
+def/ko/welcome.cson  @jonghyeok
+
+def/kn/.cson        @sachinsshetty
 
 def/nl/*.cson        @laurensbrand
 
 def/pl/*.cson        @nolt
 
-def/pt-br/*.cson     @jsolisu
+def/pt-br/*.cson     @jsolisu @rclenzi @thiagomneves
 
-def/ru/*.cson        @Anonym0uz  @Driglu4it
+def/ru/*.cson        @Anonym0uz  @Driglu4it  @sabinich
+
+def/sk/*.cson        @majko96
+
+def/sq/*.cson        @ujdhesa
 
 def/th/*.cson        @sitdh
+
+def/uk/*.cson        @sashaoli
 
 def/zh-cn/*.cson     @trifirew
 

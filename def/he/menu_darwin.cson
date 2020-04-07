@@ -1,0 +1,325 @@
+Menu:
+  Atom:
+    value: "אטום"
+    submenu:
+      "About Atom":
+        value: "אודות אטום"
+      "View License":
+        value: "הצג רישיון"
+      "Check for Update":
+        value: "סרוק עבור עדכונים"
+      "Preferences…":
+        value: "העדפות"
+      "Config…":
+        value: "הגדר"
+      "Init Script…":
+        value: "סקריפט התחלתי"
+      "Keymap…":
+        value: "קובץ קיצורי המקלדת"
+      "Snippets…":
+        value: "תגזירים"
+      "Stylesheet…":
+        value: "גליון סגנונות"
+      "Install Shell Commands":
+        value: "התקן פקודות"
+      "Hide Atom":
+        value: "הסתר אטום"
+      "Hide Others":
+        value: "הסתר את השאר"
+      "Show All":
+        value: "הצג הכל"
+      Quit:
+        value: "צא"
+  File:
+    value: "קובץ"
+    submenu:
+      "New Window":
+        value: "חלון חדש"
+      "New File":
+        value: "קובץ חדש"
+      "Open…":
+        value: "פתח"
+      "Add Project Folder…":
+        value: "הוסף תיקיית פרוייקט"
+      "Reopen Project":
+        value: "פתח פרוייקט מחדש"
+        submenu:
+          "Clear Project History":
+            value: "נקה היסטוריית פרוייקט"
+      "Reopen Last Item":
+        value: "פתח מחדש פריט אחרון"
+      Save:
+        value: "שמור"
+      "Save As…":
+        value: "שמור בשם"
+      "Save All":
+        value: "שמור הכל"
+      "Close Tab":
+        value: "סגור לשונית"
+      "Close Pane":
+        value: "סגור חלונית"
+      "Close Window":
+        value: "סגור חלון"
+      "Close All Tabs":
+        value: "סגור את כל הכרטיסיות"
+  Edit:
+    value: "ערוך"
+    submenu:
+      Undo:
+        value: "בטל"
+      Redo:
+        value: "בצע מחדש"
+      Cut:
+        value: "גזור"
+      Copy:
+        value: "העתק"
+      "Copy Path":
+        value: "העתק נתיב"
+      Paste:
+        value: "הדבק"
+      "Select All":
+        value: "בחר הכל"
+      "Toggle Comments":
+        value: "הפעל/כבה תגובות"
+      Lines:
+        value: "שורות"
+        submenu:
+          Indent:
+            value: "הזחה"
+          Outdent:
+            value: "הזחה החוצה"
+          "Auto Indent":
+            value: "הזחה אוטומטית"
+          "Move Line Up":
+            value: "העבר שורה מעלה"
+          "Move Line Down":
+            value: "העבר שורה מטה"
+          "Duplicate Lines":
+            value: "שכפל שורות"
+          "Delete Line":
+            value: "מחק שורה"
+          "Join Lines":
+            value: "חבר שורות יחד"
+      Columns:
+        value: "עמודות"
+        submenu:
+          "Move Selection Left":
+            value: "הזז בחירה שמאלה"
+          "Move Selection Right":
+            value: "הזז בחירה ימינה"
+      Text:
+        value: "טקסט"
+        submenu:
+          "Upper Case":
+            value: "אותיות גדולות"
+          "Lower Case":
+            value: "אותיות קטנות"
+          "Delete to End of Word":
+            value: "מחק עד סוף המילה"
+          "Delete to Previous Word Boundary":
+            value: "מחק עד סוף המילה הקודמת"
+          "Delete to Next Word Boundary":
+            value: "מחק עד סוף המילה הבאה"
+          "Delete Line":
+            value: "מחק שורה"
+          Transpose:
+            value: "שנה"
+      Folding:
+        value: "קיפול"
+        submenu:
+          Fold:
+            value: "קפל"
+          Unfold:
+            value: "בטל קיפול"
+          "Unfold All":
+            value: "בטל קיפול להכל"
+          "Fold All":
+            value: "קפל הכל"
+          "Fold Level 1":
+            value: "קיפול שלב 1"
+          "Fold Level 2":
+            value: "קיפול שלב 2"
+          "Fold Level 3":
+            value: "קיפול שלב 3"
+          "Fold Level 4":
+            value: "קיפול שלב 4"
+          "Fold Level 5":
+            value: "קיפול שלב 5"
+          "Fold Level 6":
+            value: "קיפול שלב 6"
+          "Fold Level 7":
+            value: "קיפול שלב 7"
+          "Fold Level 8":
+            value: "קיפול שלב 8"
+          "Fold Level 9":
+            value: "קיפול שלב 9"
+      "Reflow Selection":
+        value: "בחר מחדש"
+      Bookmark:
+        value: "סימניה"
+        submenu:
+          "View All":
+            value: "הצג הכל"
+          "Toggle Bookmark":
+            value: "הפעל/כבה סימניה"
+          "Jump to Next Bookmark":
+            value: "קפוץ לסימניה הבאה"
+          "Jump to Previous Bookmark":
+            value: "קפוץ לסימניה הקודמת"
+      "Select Encoding":
+        value: "בחר קידוד"
+      "Go to Line":
+        value: "לך לשורה"
+      "Select Grammar":
+        value: "בחר דקדוק"
+  View:
+    value: "מראה"
+    submenu:
+      "Toggle Full Screen":
+        value: "הפעל/כבה מסך מלא"
+      Panes:
+        value: "חלוניות"
+        submenu:
+          "Split Up":
+            value: "פצל מעלה"
+          "Split Down":
+            value: "פצל מטה"
+          "Split Left":
+            value: "פצל שמאלה"
+          "Split Right":
+            value: "פצל ימינה"
+          "Focus Next Pane":
+            value: "התפקס על החלונית הבאה"
+          "Focus Previous Pane":
+            value: "התפקס על החלונית הקודמת"
+          "Focus Pane Above":
+            value: "התפקס על החלונית מלמעלה"
+          "Focus Pane Below":
+            value: "התפקס על החלונית מלמטה"
+          "Focus Pane On Left":
+            value: "התפקס על החלונית משמאל"
+          "Focus Pane On Right":
+            value: "התפקס על החלונית מימין"
+          "Close Pane":
+            value: "סגור חלונית"
+      Developer:
+        value: "מפתח"
+        submenu:
+          "Open In Dev Mode…":
+            value: "פתח במצב פיתוח"
+          "Reload Window":
+            value: "טען חלון מחדש"
+          "Run Package Specs":
+            value: "הרץ מפרט חבילות"
+          "Run Benchmarks":
+            value: "הרץ בדיקות"
+          "Toggle Developer Tools":
+            value: "הפעל/כבה אפשרויות פיתוח"
+      "Increase Font Size":
+        value: "הגדל גודל גופן"
+      "Decrease Font Size":
+        value: "הקטן גודל גופן"
+      "Reset Font Size":
+        value: "אפס את גודל הגופן"
+      "Toggle Soft Wrap":
+        value: "הפעל/כבה גלישת טקסט רכה"
+      "Toggle Command Palette":
+        value: "הפעל/כבה לוח בקרה"
+      "Toggle Tree View":
+        value: "הפעל/כבה תצוגת עץ"
+  Selection:
+    value: "בחירה"
+    submenu:
+      "Add Selection Above":
+        value: "הוסף סימון מלמעלה"
+      "Add Selection Below":
+        value: "הוסף סימון מלמטה"
+      "Single Selection":
+        value: "בחירה יחידה"
+      "Split into Lines":
+        value: "פצל סימון לשורות"
+      "Select to Top":
+        value: "בחר עד החלק העליון"
+      "Select to Bottom":
+        value: "בחר עד החלק התחתון"
+      "Select Line":
+        value: "בחר שורה"
+      "Select Word":
+        value: "בחר מילה"
+      "Select to Beginning of Word":
+        value: "בחר עד תחילת המילה"
+      "Select to Beginning of Line":
+        value: "בחר עד תחילת השורה"
+      "Select to First Character of Line":
+        value: "בחר עד התו הראשון בשורה"
+      "Select to End of Word":
+        value: "בחר עד סוף המילה"
+      "Select to End of Line":
+        value: "בחר עד סוף השורה"
+      "Select Inside Brackets":
+        value: "בחר בתוך סוגריים"
+  Find:
+    value: "מצא"
+    submenu:
+      "Find in Buffer":
+        value: "מצא במאגר"
+      "Replace in Buffer":
+        value: "החלף במאגר"
+      "Select Next":
+        value: "בחר הבא"
+      "Select All":
+        value: "בחר הכל"
+      "Toggle Find in Buffer":
+        value: "הפעל/כבה מציאה במאגר"
+      "Find in Project":
+        value: "מצא בפרוייקט"
+      "Toggle Find in Project":
+        value: "הפעל/כבה מציאה בפרוייקט"
+      "Find All":
+        value: "מצא הכל"
+      "Find Next":
+        value: "מצא הבא"
+      "Find Previous":
+        value: "מצא קודם"
+      "Replace Next":
+        value: "החלף הבא"
+      "Replace All":
+        value: "החלף הכל"
+      "Clear History":
+        value: "נקה היסטוריה"
+      "Find Buffer":
+        value: "מצא מאגר"
+      "Find File":
+        value: "מצא קובץ"
+      "Find Modified File":
+        value: "מצא קובץ ששונה"
+  Packages:
+    value: "חבילות"
+  Window:
+    value: "חלון"
+    submenu:
+      Minimize:
+        value: "מזער"
+      Zoom:
+        value: "זום"
+      "Bring All to Front":
+        value: "תביא את הכל לחזית"
+  Help:
+    value: "עזרה"
+    submenu:
+      "Terms of Use":
+        value: "תנאי שימוש"
+      Documentation:
+        value: "תיעוד"
+      Roadmap:
+        value: "מפת דרכים"
+      "Frequently Asked Questions":
+        value: "שאלות נפוצות"
+      "Community Discussions":
+        value: "דיונים קהילתיים"
+      "Report Issue":
+        value: "דווח על בעיה"
+      "Search Issues":
+        value: "חפש בעיות"
+      "Welcome Guide":
+        value: "מדריך למשתמש מתחיל"

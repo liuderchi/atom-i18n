@@ -1,462 +1,462 @@
 Settings:
-  "tab-title": "Settings"
+  "tab-title": "الإعدادات"
   menu: [
     {
       _label: "Core"
-      value: "Core"
+      value: "النواة"
     }
     {
       _label: "Editor"
-      value: "Editor"
+      value: "المحرر"
     }
     {
       _label: "System"
-      value: "System"
+      value: "النظام"
     }
     {
       _label: "Keybindings"
-      value: "Keybindings"
+      value: "روابط المفاتيح"
     }
     {
       _label: "Packages"
-      value: "Packages"
+      value: "الحزم"
     }
     {
       _label: "Themes"
-      value: "Themes"
+      value: "السمات"
     }
     {
       _label: "Updates"
-      value: "Updates"
+      value: "التحديثات"
     }
     {
       _label: "Install"
-      value: "Install"
+      value: "التثبيت"
     }
   ]
-  "btn-open-config-folder": "Open Config Folder"
+  "btn-open-config-folder": "إفتح مجلد التهيئة"
   sectionHeadings: [
-    {_label: "Core Settings", value: "Core Settings"}
-    {_label: "Editor Settings", value: "Editor Settings"}
-    {_label: "System Settings", value: "System Settings"}
-    {_label: "Keybindings", value: "Keybindings"}
-    {_label: "Installed Packages", value: "Installed Packages"}
-    {_label: "Choose a Theme", value: "Choose a Theme"}
-    {_label: "Installed Themes", value: "Installed Themes"}
-    {_label: "Install Packages", value: "Install Packages"}
-    {_label: "Featured Packages", value: "Featured Packages"}
-    {_label: "Install Themes", value: "Install Themes"}
-    {_label: "Featured Themes", value: "Featured Themes"}
-    {_label: "Available Updates", value: "Available Updates"}
+    {_label: "Core Settings", value: "إعدادات النواة"}
+    {_label: "Editor Settings", value: "إعدادات المحرر"}
+    {_label: "System Settings", value: "إعدادات النظام"}
+    {_label: "Keybindings", value: "روابط المفاتيح"}
+    {_label: "Installed Packages", value: "الحزم المثبتة"}
+    {_label: "Choose a Theme", value: "إختر سمة"}
+    {_label: "Installed Themes", value: "السمات المثبتة"}
+    {_label: "Install Packages", value: "ثبت حزما"}
+    {_label: "Featured Packages", value: "الحزم المميزة"}
+    {_label: "Install Themes", value: "ثبت سمات"}
+    {_label: "Featured Themes", value: "السمات المميزة"}
+    {_label: "Available Updates", value: "التحديثات المتاحة"}
   ]
   subSectionHeadings: [
-    {_label: "Invisible", value: "Invisible"}
-    {_label: "Community Packages", value: "Community Packages"}
-    {_label: "Core Packages", value: "Core Packages"}
-    {_label: "Development Packages", value: "Development Packages"}
-    {_label: "Git Packages", value: "Git Packages"}
-    {_label: "Community Themes", value: "Community Themes"}
-    {_label: "Core Themes", value: "Core Themes"}
-    {_label: "Development Themes", value: "Development Themes"}
-    {_label: "Git Themes", value: "Git Themes"}
+    {_label: "Invisible", value: "خفي"}
+    {_label: "Community Packages", value: "حزم المجتمع"}
+    {_label: "Core Packages", value: "حزم النواة"}
+    {_label: "Development Packages", value: "حزم التطوير"}
+    {_label: "Git Packages", value: "حزم جيت"}
+    {_label: "Community Themes", value: "سمات المجتمع"}
+    {_label: "Core Themes", value: "سمات النواة"}
+    {_label: "Development Themes", value: "سمات التطوير"}
+    {_label: "Git Themes", value: "سمات جيت"}
   ]
   settings: {
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'These are Atom\'s core settings which affect behavior
-               unrelated to text editing. Individual packages may have
-               their own additional settings found within their package
-               card in the <a class="link packages-open">Packages list</a>.'
+        html: 'هذه هي إعدادات نواة أتوم واللي تؤثر في سلوك
+               لا علاقة له بتحرير النص. قد يكون لكل حزمة
+               إعداداتها الإضافية الخاصة الموجودة خلال بطاقتها
+               في <a class="link packages-open">قائمة الحزم</a>.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'These settings are related to text editing. Some of these
-               can be overriden on a per-language basis. Check language
-               settings by clicking its package card in the
-               <a class="link packages-open">Packages list</a>.'
+        html: 'هذه الإعدادات متعلقة بتحرير النص. يمكن نخطي
+               بناءا على اللغة. تحقق من إعدادات
+               اللغة عبر نقر بطاقة حزمتها في
+               <a class="link packages-open">قائمة الحزم</a>.'
       }
     ]
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
-        title: "Allow Pending PaneItems"
-        desc: "Allow items to be previewed without adding them to a pane
-               permanently, such as when single clicking files in the tree view."
+        title: "إسمح بعناصر الجانب الجارية"
+        desc: "إسمخ لعرض العناصر بدون إضافتهم إلى جانب ما
+               بصورة دائمة، كعندما تنقر الملفات نقرة واحدة في العرض الشجري."
       }
       {
         _id: 'core.audioBeep'
-        title: "Audio Beep"
-        desc: "Trigger the system's beep sound when certain actions cannot be
-               executed or there are no results."
+        title: "الصفير"
+        desc: "أثر صوت صفير النظام عندما يتعذر تنفيذ إجراءات
+               معينة أو لا تسفر عن نتائج."
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automatically Update"
-        desc: "Automatically update Atom when a new release is available."
+        title: "حدث آليا"
+        desc: "حدث أتوم آليا عندما يتاح إصدار جديد."
       }
       {
         _id: 'core.autoHideMenuBar'
-        title: "Auto Hide Menu Bar"
-        desc: "Automatically hide the menu bar and toggle it by pressing Alt. This is only supported on Windows &amp; Linux."
+        title: "إخف شريط القائمة آليا"
+        desc: "إخف شريط القائمة آليا وبدله عبر الضغط على مفتاح التبديل. إنما يدعم هذا في النوافذ ولينيكس."
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Close Deleted File Tabs"
-        desc: "Close corresponding editors when a file is deleted outside Atom."
+        title: "أغلق ألسنة الملفات المحذوفة"
+        desc: "أغلق المحررات المقابلة عندما يحذف ملف خارج أتوم."
       }
       {
         _id: 'core.closeEmptyWindows'
-        title: "Close Empty Windows"
-        desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
+        title: "أغلق النوافذ الفارغة"
+        desc: "عندما تمنح نافذة ليس لها ألسنة أو جوانب مفتوحة - امر 'أغلق اللسان'، أغلق تلك النافذة."
       }
       {
         _id: 'core.destroyEmptyPanes'
-        title: "Destroy Empty Panes"
-        desc: "When the last tab of a pane is closed, remove that pane as well."
+        title: "دمر الجوانب الفارغة"
+        desc: "عندما يغلق آخر لسان في جانب ما، أغلق هذا الجانب بالتبعية."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
-        title: "Exclude VCS Ignored Paths"
-        desc: "Files and directories ignored by the current project's VCS system will be ignored by some packages, such as the fuzzy finder and find and replace. For example, projects using Git have these paths defined in the .gitignore file. Individual packages might have additional config settings for ignoring VCS ignored files and folders."
+        title: "استثن المسارات المتجاهلة من قبل أنظمة التحكم في الإصدارات"
+        desc: "بعض الحزم، كالموجد الزغبي وجد واستبدل، ستتجاهل الملفات والأدلة المتجاهلة من قبل نظام التحكم في إصدارات المشروع الحالي. على سبيل المثال، المشاريع التي تستخدم جيت تعرف هذه المسارات في ملف .gitignore. قد يكون لكل حزمة إعدادات تهيئة إضافية لتجاهل الملفات والمجلدات المتجاهلة من قبل أنظمة التحكم في الإصدارات."
       }
       {
         _id: 'core.fileEncoding'
-        title: "File Encoding"
-        desc: "Default character set encoding to use when reading and writing files."
+        title: "ترميز الملف"
+        desc: "ترميز عدة الأحرف الافتراضي المستخدم عند قراءة وكتابة الملفات."
       }
       {
         _id: 'core.fileSystemWatcher'
-        title: "File System Watcher"
-        desc: "Choose the underlying implementation used to watch for filesystem changes. Emulating changes will miss any events caused by applications other than Atom, but may help prevent crashes or freezes."
+        title: "مراقب نظام الملفات"
+        desc: "إختر التنفيذ الورائي المستخدم لمراقبة تغيرات نظام الملفات. ستضيع مماثلة التغيرات أي أحداث ناتجة عن التطبيقات عدا أتوم، ولكنها قد تساعد على منع الإنهيارات أو التجمدات."
         select:
-          native: "Native operating system APIs"
-          atom: "Emulated with Atom events"
+          native: "واجهات برمجة التطبيقات الأصلية الخاصة بنظام التشغيل"
+          atom: "مماثلة بواسطة أحداث أتوم"
       }
       {
         _id: 'core.followSymlinks'
-        title: "Follow Symlinks"
-        desc: "Follow symbolic links when searching files and when opening files with the fuzzy finder."
+        title: "إتبع الروابط الرمزية"
+        desc: "إتبع الروابط الرمزية عند البحث في الملفات أو عند فتح الملفات بواسطة الموجد الزغبي."
       }
       {
         _id: 'core.ignoredNames'
-        title: "Ignored Names"
-        desc: "List of <code>glob patterns</code>. Files and directories matching these patterns will be ignored by some packages, such as the fuzzy finder and tree view. Individual packages might have additional config settings for ignoring names."
+        title: "الأسماء المتجاهلة"
+        desc: "قائمة من <code>أنماط جلوب</code>. بعض الحزم ستتجاهل الملفات والأدلة المطابقة لهذه الأنماط، كالموجد الزغبي والعرض الشجري. قد يكون لكل حزمة إعدادات تهيئة إضافية لتجاهل الأسماء."
       }
       {
         _id: 'core.openEmptyEditorOnStart'
-        title: "Open Empty Editor On Start"
-        desc: "Automatically open an empty editor on startup."
+        title: "إفتح محرر فارغ عند البدء"
+        desc: "إفتح محرر فارغ آليا عند البدء."
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Packages With Keymaps Disabled"
+        title: "الحزم التي عطلت خارطات مفاتيحها"
       }
       {
         _id: 'core.projectHome'
-        title: "Project Home"
-        desc: "The directory where projects are assumed to be located. Packages created using the Package Generator will be stored here by default."
+        title: "موطن المشاريع"
+        desc: "الدليل الذي يفترض تواجد المشاريع فيه. سيتم تحزين الحزم المخلقة بواسطة مولد الحزم هنا افتراضيا."
       }
       {
         _id: 'core.reopenProjectMenuCount'
-        title: "Reopen Project Menu Count"
-        desc: "How many recent projects to show in the Reopen Project menu."
+        title: "عدد قائمة أعد فتح المشروع"
+        desc: "عدد المشاريع الأخيرة المعروضة في قائمة أعد فتح المشروع."
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "Restore Previous Windows On Start"
-        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
+        title: "استعد النوافذ السابقة عند البدء"
+        desc: "عند اختياره يستعيد الحالة الأخيرة لكل نوافذ أتوم عندما يبتدأ من الاختصار أو <code>atom</code> نفسه من سطر الأوامر؛ وإلا يحمل بيئة فضاء."
         select:
-          no: "no"
-          yes: "yes"
-          always: "always"
+          no: "لا"
+          yes: "نعم"
+          always: "دائما"
       }
       {
         _id: 'core.telemetryConsent'
-        title: "Send Telemetry to the Atom Team"
-        desc: "Allow usage statistics and exception reports to be sent to the Atom team to help improve the product."
+        title: "إرسال قياسات بعادية لفريق أتوم"
+        desc: "إسمح بإرسال إحصاءات الاستخدام والتقارير الاستثنائية لفريق أتوم لمساعدة تحسين المنتج."
         select:
-          limited: "Allow limited anonymous usage stats, exception and crash reporting"
-          no: "Do not send any telemetry data"
-          undecided: "Undecided (Atom will ask again next time it is launched)"
+          limited: "إسمح بإحصائات استخدام مجهولة الهوية ومحدودة، وتخابر الإنهيارات والاستثناءات"
+          no: "لا ترسل أي بيانات قياس بعادية"
+          undecided: "غير مقرر (سيسأل أتوم ثانية عندما يعاد إطلاقه)"
       }
       {
         _id: 'core.titleBar'
-        title: "Title Bar"
-        desc: "Experimental: A <code>custom</code> title bar adapts to theme colors. Choosing <code>custom-inset</code> adds a bit more padding. The title bar can also be completely <code>hidden</code>.<br>Note: Switching to a custom or hidden title bar will compromise some functionality.<br>This setting will require a relaunch of Atom to take effect."
+        title: "شريط العنوان"
+        desc: "اختباري: شريط عنوان <code>مخصص</code> يتلائم مع ألوان السمة. اختيار <code>مخصص-مدرج</code> يضيف بطانة أكثر بقليل. يمكن لشريط العنوان أيضا أن يكون <code>مخفيـ</code>ـا.<br>لاحظ: التبديل لشريط عنوان مخصص أو مخفي سيتفهم بعض الوظيفيةy.<br> سيتطلب هذا الإعداد إعادة إطلاق أتوم كي يحدث تأثيره."
         select:
-          native: "native"
-          custom: "custom"
-          "custom-inset": "custom-inset"
-          hidden: "hidden"
+          native: "أصلي"
+          custom: "مخصص"
+          "custom-inset": "مخصص-مدرج"
+          hidden: "مخفي"
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use Proxy Settings When Calling APM"
-        desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
+        title: "استخدم إعدادات الوكالة عند استدعاء مدير حزم أتوم"
+        desc: "استخدم إعدادات الوكالة المكتشفة عند استدعاء أداة سطر الأوامر <code>apm</code>."
       }
       {
         _id: 'core.versionPinnedPackages'
-        title: "Version Pinned Packages"
-        desc: "List of names of installed packages which are not automatically updated."
+        title: "الحزم المثبتة إصداراتها"
+        desc: "قائمة بأسماء الحزم المثبتة التي لا تحدث آليا."
       }
       {
         _id: 'core.useCustomTitleBar'
-        title: "Use Custom Title Bar"
-        desc: "Use custom, theme-aware title bar.<br>Note: This currently does not include a proxy icon.<br>This setting will require a relaunch of Atom to take effect."
+        title: "إعرض شريط العنوان المخضضUse Custom Title Bar"
+        desc: "إعرض شريط عنوان مخصص، واع بالسمة.<br>لاحظ: لا يتضمن هذا حاليا أيقونة وكالة.<br>سيتطلب هذا الإعداد إعادة إطلاق أتوم كي يحدث تأثيره."
       }
       {
         _id: 'core.warnOnLargeFileLimit'
-        title: "Warn On Large File Limit"
-        desc: "Warn before opening files larger than this number of megabytes."
+        title: "حذر من حد الملفات الكبيرة"
+        desc: "حذر قبيل فتح الملفات الأكبر من هذا العدد من الميجابايتات."
       }
       {
         _id: 'editor.atomicSoftTabs'
-        title: "Atomic Soft Tabs"
-        desc: "Skip over tab-length runs of leading whitespace when moving the cursor."
+        title: "جداول لينة من أتوم"
+        desc: "تخط عبر مسافات الجدول من الفراغات البادئة عند تحريك المؤشر."
       }
       {
         _id: 'editor.autoIndent'
-        title: "Auto Indent"
-        desc: "Automatically indent the cursor when inserting a newline."
+        title: "ضع مسافات بادئة آليا"
+        desc: "ضع مسافات بادئة قبل المؤشر آليا عند إدراج سطر جديد."
       }
       {
         _id: 'editor.autoIndentOnPaste'
-        title: "Auto Indent On Paste"
-        desc: "Automatically indent pasted text based on the indentation of the previous line."
+        title: "ضع مسافات بادئة آليا عند اللصق"
+        desc: "ضع مسافات بادئة تلقائيا قبل النص الملصق بناءا على السطر السابق."
       }
       {
         _id: 'editor.backUpBeforeSaving'
-        title: "Back Up Before Saving"
+        title: "إحطط قبل الحفظ"
         desc: ""
       }
       {
         _id: 'editor.confirmCheckoutHeadRevision'
-        title: "Confirm Checkout HEAD Revision"
-        desc: "Show confirmation dialog when checking out the HEAD revision and discarding changes to current file since last commit."
+        title: "أكد استرجاع مراجعة HEAD"
+        desc: "إعرض حوار التأكيد عند استرجاع مراجعة HEAD وتجاهل التغيرات في الملف الحالي منذ آخر تسليم."
       }
       {
         _id: 'editor.fontFamily'
-        title: "Font Family"
-        desc: "The name of the font family used for editor text."
+        title: "عائلة الخط"
+        desc: "إسم عائلة الخط المستخدمة لنص المحرر."
       }
       {
         _id: 'editor.fontSize'
-        title: "Font Size"
-        desc: "Height in pixels of editor text."
+        title: "حجم الخط"
+        desc: "ارتفاع نص المحرر بالبكسل."
       }
       {
         _id: 'editor.invisibles.cr'
-        title: "Invisibles Cr"
-        desc: "Character used to render carriage return characters
-               (for Microsoft-style line endings) when the <code>Show
-               Invisibles</code> setting is enabled."
+        title: "الخفايا: عودة الحامل"
+        desc: "الحرف المستخدم لتصيير حروف عودة الحامل
+               (من أجل نهايات الأسطر على شاكلة مايكروسوفت) عندما
+               يمكن إعداد <code>عرض الخفايا</code>."
       }
       {
         _id: 'editor.invisibles.eol'
-        title: "Invisibles Eol"
-        desc: "Character used to render newline characters (\n) when the
-               <code>Show Invisibles</code> setting is enabled."
+        title: "الخفايا: نهاية السطر"
+        desc: "الحرف المستخدم لتصيير حروف سطر جديد (\n) عندما
+               يمكن إعداد <code>عرض الخفايا</code>."
       }
       {
         _id: 'editor.invisibles.space'
-        title: "Invisibles Space"
-        desc: "Character used to render leading and trailing space characters
-               when the <code>Show Invisibles</code> setting is enabled."
+        title: "الخفايا: المسافة"
+        desc: "الحرف المستخدم لتصيير حروف مسافات البدء والتذييل
+               عندمل يمكن إعداد<code>عرض الخفايا</code>."
       }
       {
         _id: 'editor.invisibles.tab'
-        title: "Invisibles Tab"
-        desc: "Character used to render hard tab characters (\t) when the
-               <code>Show Invisibles</code> setting is enabled."
+        title: "الخفايا: الجدول"
+        desc: "الحرف المستخدم لتصيير حروف الجدول الصلب (\t) عندما
+               يمكن إعداد <code>عرض الخفايا</code>."
       }
       {
         _id: 'editor.lineHeight'
-        title: "Line Height"
-        desc: "Height of editor lines, as a multiplier of font size."
+        title: "ارتفاع السطر"
+        desc: "ارتفاع سطور المحرر، كمضاعف حجم الخط."
       }
       {
         _id: 'editor.maxScreenLineLength'
-        title: "Max Screen Line Length"
-        desc: "Defines the maximum width of the editor window before soft wrapping is enforced, in number of characters."
+        title: "أقصى طول لأسطر الشاشة"
+        desc: "يعرف أصى عرض لنافذة المحرر قبل فرض اللف السلس، مقاسا بعدد الحروف."
       }
       {
         _id: 'editor.nonWordCharacters'
-        title: "Non Word Characters"
-        desc: "A string of non-word characters to define word boundaries."
+        title: "الحروف اللالفظية"
+        desc: "سلسلة من الحروف التي لا تكون جزءا من كلمة وتعرف حدي الكلمة."
       }
       {
         _id: 'editor.preferredLineLength'
-        title: "Preferred Line Length"
-        desc: "Identifies the length of a line which is used when wrapping text
-               with the <code>Soft Wrap At Preferred Line Length</code> setting
-               enabled, in number of characters."
+        title: "طول السطر المفضل"
+        desc: "يعرف طول السطر الذي يستخدم عند لف النص
+               عند تمكين إعداد <code>اللف السلس عند طول السطر المفضل</code>،
+               مقاسا بعدد الأحرف."
       }
       {
         _id: 'editor.scrollPastEnd'
-        title: "Scroll Past End"
-        desc: "Allow the editor to be scrolled past the end of the last line."
+        title: "تمرير بعد النهاية"
+        desc: "يسمح بتمرير المحرر بعد نهاية آخر سطر."
       }
       {
         _id: 'editor.scrollSensitivity'
-        title: "Scroll Sensitivity"
-        desc: "Determines how fast the editor scrolls when using a mouse or
-               trackpad."
+        title: "حساسية التمرير"
+        desc: "يحدد سرعة تمرير المحرر عند استخدم فأرة أو
+               لوحة التتبع."
       }
       {
         _id: 'editor.showCursorOnSelection'
-        title: "Show Cursor On Selection"
-        desc: "Show cursor while there is a selection."
+        title: "إعرض مؤشرا عند التحديد"
+        desc: "يعرض مؤشرا حيث يوجد تحديد."
       }
       {
         _id: 'editor.showIndentGuide'
-        title: "Show Indent Guide"
-        desc: "Show indentation indicators in the editor."
+        title: "إعرض دليل البادئة"
+        desc: "يعرض محددات البادئة في المحرر."
       }
       {
         _id: 'editor.showInvisibles'
-        title: "Show Invisibles"
-        desc: "Render placeholders for invisible characters, such as tabs,
-               spaces and newlines."
+        title: "إعرض الخفايا"
+        desc: "يصير مواضع للحروف الخفية، كالجداول
+               والمسافات والأسطر الجديدة."
       }
       {
         _id: 'editor.showLineNumbers'
-        title: "Show Line Numbers"
-        desc: "Show line numbers in the editor's gutter."
+        title: "إعرض أرقام الأسطر"
+        desc: "إعرض أرقام الأسطر في مجرى المحرر."
       }
       {
         _id: 'editor.softTabs'
-        title: "Soft Tabs"
-        desc: "If the <code>Tab Type</code> config setting is set to \"auto\"
-               and autodetection of tab type from buffer content fails, then
-               this config setting determines whether a soft tab or a hard tab
-               will be inserted when the Tab key is pressed."
+        title: "جداول لينة"
+        desc: "إذا كان إعداد التهيئة <code>نوع الجدول</code> معين إلى \"آلي\"
+               وفشل الاكتشاف الالي لنوع الجدول من المحمل،
+               فسيحدد اعداد التهيئة هذا ما إذا سيتم إدراج جدول لين أو
+               جدول صلب إذا ما ضغط زر الجدول."
       }
       {
         _id: 'editor.softWrap'
-        title: "Soft Wrap"
-        desc: "Wraps lines that exceed the width of the window. When
-               <code>Soft Wrap At Preferred Line Length</code> is set, it will
-               wrap to the number of characters defined by the <code>Preferred
-               Line Length</code> setting."
+        title: "اللف السلس"
+        desc: "يلف الأسطر التي تتعدى عرض النافذة. عند
+               تعيين <code>اللف السلس عند طول السطر المفضل</code>، سيلف
+               بعد عدد الأحرف المعرفة بواسطة إعداد
+               <code>طول السطر المفضل</code>."
       }
       {
         _id: 'editor.softWrapAtPreferredLineLength'
-        title: "Soft Wrap At Preferred Line Length"
-        desc: "Instead of wrapping lines to the window's width, wrap lines to
-               the number of characters defined by the <code>Preferred Line
-               Length</code> setting. This will only take effect when the soft
-               wrap config setting is enabled globally or for the current
-               language. <strong>Note:</strong> If you want to hide the wrap
-               guide (the vertical line) you can disable the
-               <code>wrap-guide</code> package."
+        title: "اللف السلس عند طول السطر المفضل"
+        desc: "بدلا من لف الأسطر لعرض النافذة، لف الأسطر بعد
+               عدد الأسطر المعرف بواسطة إعداد <code>طول النص
+               المفضل</code>. لن يحدث هذا تأثيره حتى يمكن إعداد
+               التهيئة اللف السلس إما عالميا أو للغة
+               الحالية. <strong>لاحظ:</strong> إذا أردت إخفاء دليل
+               اللف (الخط الرأسي) يمكنك تعطيل
+               حزمة <code>wrap-guide</code>."
       }
       {
         _id: 'editor.softWrapHangingIndent'
-        title: "Soft Wrap Hanging Indent"
-        desc: "When soft wrap is enabled, defines length of additional
-               indentation applied to wrapped lines, in number of characters."
+        title: "البادئة المعلقة للف السلس"
+        desc: "عند تمكين اللف السلس، يحدد طول البادئة
+               الإضافية المطبقة على الأسطر الملفوفة، مقاسة بعدد الأحرف."
       }
       {
         _id: 'editor.tabLength'
-        title: "Tab Length"
-        desc: "Number of spaces used to represent a tab."
+        title: "طول الجدول"
+        desc: "عدد المسافات المستخدمة لتمثيل جدول."
       }
       {
         _id: 'editor.tabType'
-        title: "Tab Type"
-        desc: "Determine character inserted when Tab key is pressed. Possible
-               values: \"auto\", \"soft\" and \"hard\". When set to \"soft\" or
-               \"hard\", soft tabs (spaces) or hard tabs (tab characters) are
-               used. When set to \"auto\", the editor auto-detects the tab type
-               based on the contents of the buffer (it uses the first leading
-               whitespace on a non-comment line), or uses the value of the Soft
-               Tabs config setting if auto-detection fails."
+        title: "نوع الجدول"
+        desc: "يحدد الحرف المدرج عند ضغط مفتاح الجدول. القيم
+               الممكنة: \"آلي\", \"لين\" and \"صلب\". عندما يعين إلى \"لين\" أو
+               \"صلب\"، تستخدم الجداول اللينة (المسافات) أو الجداول الصلبة (أجرف الجدول).
+               عندما تعين إلى \"آلي\"، يكتشف المحرر آليا نوع الجدول
+               بناءا على محتويات المحمل (يستخدم أول مسافة
+               بادئة في غير أسطر التسليم)، أو يستخدم قيمة إعداد تهيئة
+               الجداول اللينة عند فشل الاكتشاف التلقائي."
       }
       {
         _id: 'editor.undoGroupingInterval'
-        title: "Undo Grouping Interval"
-        desc: "Time interval in milliseconds within which text editing
-               operations will be grouped together in the undo history."
+        title: "مدة جمع التراجع"
+        desc: "المدة الزمنية مقاسة بالملليثواني والتي خلالها تجمع
+               عمليات تحرير النص معا في تأريخ التراجع."
       }
       {
         _id: 'editor.zoomFontWhenCtrlScrolling'
-        title: "Zoom Font When Ctrl Scrolling"
-        desc: "Change the editor font size when pressing the Ctrl key and
-               scrolling the mouse up/down."
+        title: "كبر الخط عند التمرير مع زر التحكم"
+        desc: "غير حجم خط المحرر عنج ضغط مفتاح التحكم
+               وتمرير الفأرة لأعلى/أسفل."
       }
       {
         _id: 'system.windows.file-handler'
-        title: "Register as file handler"
-        desc: "Show Atom in the \"Open with\" application list for easy association with file types."
+        title: "سجل كمتعامل مع الملفات"
+        desc: "إعرض أتوم في قائمة تطبيقات \"إفتح بواسطة\" لسهولة الربط بأنواع الملفات."
       }
       {
         _id: 'system.windows.shell-menu-files'
-        title: "Show in file context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
+        title: "إعرض في قوائم سياق الملفات"
+        desc: "أضف \"إفتح بواسطة أتوم\" لقائمة سياق مستكشف الملفات للملفات."
       }
       {
         _id: 'system.windows.shell-menu-folders'
-        title: "Show in folder context menus"
-        desc: "Add \"Open with Atom\" to the File Explorer context menu for folders."
+        title: "إعرض في قوائم سياق المجلداتShow in folder context menus"
+        desc: "أضف \"إفتح بواسطة أتوم\" في قائمة سياق مستكشف الملفات للمجلدات."
       }
     ]
   }
   system: {
-    notes: "These settings determine how Atom integrates with your operating system."
+    notes: "تحدد هذه الاعدادات كيفية تكامل أتوم مع نظام تشغيلك."
   }
   keymaps: {
     notes: {
-      text1: "You can override these keybindings by copying "
-      text2: "and pasting them into "
-      text3: "your keymap file"
+      text1: "يمكنك تخط روابط المفاتيح هذه بنسخ "
+      text2: "ولصقهم في "
+      text3: "ملف خارطة المفاتيح الخاص بك"
       text4: ""   # optional
       _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
     }
-    "search-bar-placeholder": "Search keybindings"
-    "table-header-keystroke": "Keystroke"
-    "table-header-command": "Command"
-    "table-header-source": "Source"
-    "table-header-selector": "Selector"
+    "search-bar-placeholder": "روابط مفاتيح البحث"
+    "table-header-keystroke": "الضغطة"
+    "table-header-command": "الأمر"
+    "table-header-source": "المصدر"
+    "table-header-selector": "المحدد"
   }
   packages: {
-    searchBarText: 'Filter packages by name'
+    searchBarText: "رشح الحزم بواسطة الاسم"
   }
   themes: {
     notes: {
-      text1: "You can also style Atom by editing "
-      text2: "your stylesheet"
+      text1: "يمكنك أيضا تنميط أتوم بتحرير "
+      text2: "ورقة الأنماط الخاصة بك"
       text3: ""   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
-    title1: "UI Theme"
-    description1: "This styles the tabs, status bar, tree view, and dropdowns"
-    title2: "Syntax Theme"
-    description2: "This styles the text inside the editor"
-    searchBarText: 'Filter themes by name'
+    title1: "سمة واجهة المستخدم"
+    description1: "ينمط هذا الألسنة وشريط الحالة والعرض الشجري والمسقطات"
+    title2: "سمة التراكيب"
+    description2: "ينمط هذا النص بداخل المحرر"
+    searchBarText: "رشح الحزم بواسطة الاسم"
   }
   updates: {
-    "check-updates": "Check for Updates"
-    "update-all": "Update All"
-    "checking-updates": "Checking for updates..."
-    "all-updated-message": "All of your installed packages are up to date!"
+    "check-updates": "تحقق من التحديثات"
+    "update-all": "حدث الكل"
+    "checking-updates": "جار التحقق من التحديثات..."
+    "all-updated-message": "جميع حزمك المثبتة محدثة!"
   }
   install: {
     notes: {
-      text1: "Packages are published to "
-      text2: " and are installed to "
+      text1: "تنشر الحزم في "
+      text2: " وتثبت في "
       text3: ""   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
-    "searchbar-placeholder": "Search packages"
-    "btn-packages": "Packages"
-    "btn-themes": "Themes"
+    "searchbar-placeholder": "البحث في الحزم"
+    "btn-packages": "الحزم"
+    "btn-themes": "السمات"
   }
   "control-btns":{
-    install: "Install"
-    update: "Update to"
-    setting: "Settings"
-    uninstall: "Uninstall"
-    disable: "Disable"
-    enable: "Enable"
+    install: "ثبت"
+    update: "حدث إلى"
+    setting: "الإعدادات"
+    uninstall: "إلغ التثبيت"
+    disable: "عطل"
+    enable: "فعل"
   }

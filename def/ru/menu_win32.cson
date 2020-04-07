@@ -13,7 +13,7 @@ Menu:
       "Add Project Folder…":
         value: "Добавить папку с проектом..."
       "Reopen Project":
-        value: "Открыть заного проект"
+        value: "Открыть проект заново"
         submenu:
           "Clear Project History":
             value: "Очистить историю проектов"
@@ -24,7 +24,7 @@ Menu:
       "Config…":
         value: "Созд. конфиг..."
       "Init Script…":
-        value: "Созд. скипт..."
+        value: "Созд. скрипт..."
       "Keymap…":
         value: "Созд. гор. клавишу..."
       "Snippets…":
@@ -63,7 +63,7 @@ Menu:
       "&Paste":
         value: "Вставить(&P)"
       "Paste Without Reformatting":
-        value: "Paste Without Reformatting"
+        value: "Вставить без форматирования"
       "Select &All":
         value: "Выделить всё(&A)"
       "&Toggle Comments":
@@ -154,9 +154,9 @@ Menu:
           "Jump to Previous Bookmark":
             value: "Перейти на предыдущую закладку"
           "Select to Next Bookmark":
-            value: "Select to Next Bookmark"
+            value: "Выбрать до следующей закладки"
           "Select to Previous Bookmark":
-            value: "Select to Previous Bookmark"
+            value: "Выбрать до предыдущей закладки"
       "Select Encoding":
         value: "Выбрать кодировку"
       "Go to Line":
@@ -182,17 +182,17 @@ Menu:
           "Split Right":
             value: "Разделить справа"
           "Focus Next Pane":
-            value: "Сфокусироваться на следующей панеле"
+            value: "Сфокусироваться на следующей панели"
           "Focus Previous Pane":
-            value: "Сфокусироваться на предыдущей панеле"
+            value: "Сфокусироваться на предыдущей панели"
           "Focus Pane Above":
-            value: "Сфокусироваться на панеле выше"
+            value: "Сфокусироваться на панели выше"
           "Focus Pane Below":
-            value: "Сфокусироваться на панеле ниже"
+            value: "Сфокусироваться на панели ниже"
           "Focus Pane On Left":
-            value: "Сфокусироваться на панеле слева"
+            value: "Сфокусироваться на панели слева"
           "Focus Pane On Right":
-            value: "Сфокусироваться на панеле справа"
+            value: "Сфокусироваться на панели справа"
           "Close Pane":
             value: "Закрыть панель"
       Developer:
@@ -296,13 +296,13 @@ Menu:
       "View &License":
         value: "Лицензия(&L)"
       "Restart and Install Update":
-        value: "Restart and Install Update"
+        value: "Обновить и перезапустить"
       "Check for Update":
         value: "Проверить обновления"
       "Checking for Update":
-        value: "Checking for Update"
+        value: "Проверка обновления"
       "Downloading Update":
-        value: "Downloading Update"
+        value: "Скачивание обновления"
       "&Documentation":
         value: "Документация(&D)"
       "Frequently Asked Questions":
@@ -314,6 +314,6 @@ Menu:
       "Search Issues":
         value: "Найти проблему"
       "About Atom":
-        value: "О Atom"
+        value: "Об Atom"
       "Welcome Guide":
         value: "Добро пожаловать!"

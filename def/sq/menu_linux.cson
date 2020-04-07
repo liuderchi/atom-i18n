@@ -1,0 +1,305 @@
+Menu:
+  "&File":
+    value: "&Kartelë"
+    submenu:
+      "New &Window":
+        value: "&Dritare e Re"
+      "&New File":
+        value: "Karte&lë e Re"
+      "&Open File…":
+        value: "&Hapni Kartelë…"
+      "Open Folder…":
+        value: "Hapni Dosje…"
+      "Add Project Folder…":
+        value: "Shtoni Dosje Projekti…"
+      "Reopen Project":
+        value: "Rihape Projektin"
+        submenu:
+          "Clear Project History":
+            value: "Pastro Historik Projekti"
+      "Reopen Last &Item":
+        value: "Rihap &Objektin e Fundit"
+      "&Save":
+        value: "&Ruaje"
+      "Save &As…":
+        value: "Ruajeni &Si…"
+      "Save A&ll":
+        value: "Ruaji &Krejt"
+      "&Close Tab":
+        value: "&Mbylle Skedën"
+      "Close &Pane":
+        value: "Mbylle K&uadratin"
+      "Clos&e Window":
+        value: "Mbylle &Dritaren"
+      "Quit":
+        value: "Dil"
+      "Close All Tabs":
+        value: "Mbylli Krejt Skedat"
+  "&Edit":
+    value: "&Përpunoni"
+    submenu:
+      "&Undo":
+        value: "&Zhbëje"
+      "&Redo":
+        value: "&Ribëje"
+      "&Cut":
+        value: "&Prije"
+      "C&opy":
+        value: "&Kopjoje"
+      "Copy Pat&h":
+        value: "Kopjoji Shte&gun"
+      "&Paste":
+        value: "&Ngjite"
+      "Select &All":
+        value: "Përzgjidhi &Krejt"
+      "&Toggle Comments":
+        value: "Sh&faqi/Fshihi Komentet"
+      Lines:
+        value: "Rreshta"
+        submenu:
+          "&Indent":
+            value: "&Brendazi"
+          "&Outdent":
+            value: "&Jashtazi"
+          "&Auto Indent":
+            value: "Shmangie &Automatike"
+          "Move Line &Up":
+            value: "Ngjite Rreshtin &Sipër"
+          "Move Line &Down":
+            value: "Zbrite Rreshtin &Poshtë"
+          "Du&plicate Lines":
+            value: "Sh&umëfisho Rreshta"
+          "D&elete Line":
+            value: "&Fshije Rreshtin"
+          "&Join Lines":
+            value: "&Bashkoji Rreshtat"
+      Columns:
+        value: "Shtylla"
+        submenu:
+          "Move Selection &Left":
+            value: "Kaloje Përzgjedhjen &Majtas"
+          "Move Selection &Right":
+            value: "Kaloje Përzgjedhjen &Djathtas"
+      Text:
+        value: "Tekst"
+        submenu:
+          "&Upper Case":
+            value: "Me të &Madhe"
+          "&Lower Case":
+            value: "Me të &Vogël"
+          "Delete to End of &Word":
+            value: "Fshije deri te F&undi i Fjalës"
+          "Delete to Previous Word Boundary":
+            value: "Fshije deri te Kufiri i Fjalës së Mëparshme"
+          "Delete to Next Word Boundary":
+            value: "Fshije deri te Kufiri i Fjalës Pasuese"
+          "&Delete Line":
+            value: "&Fshije Rreshtin"
+          "&Transpose":
+            value: "Ktheji Fjalët Së &Prapthi"
+      Folding:
+        value: "Palosje"
+        submenu:
+          "&Fold":
+            value: "&Palosi"
+          "&Unfold":
+            value: "&Shpalosi"
+          "Unfold &All":
+            value: "Shpalosi &Krejt"
+          "Fol&d All":
+            value: "Pa&losi Krejt"
+          "Fold Level 1":
+            value: "Palos Nivelin 1"
+          "Fold Level 2":
+            value: "Palos Nivelin 2"
+          "Fold Level 3":
+            value: "Palos Nivelin 3"
+          "Fold Level 4":
+            value: "Palos Nivelin 4"
+          "Fold Level 5":
+            value: "Palos Nivelin 5"
+          "Fold Level 6":
+            value: "Palos Nivelin 6"
+          "Fold Level 7":
+            value: "Palos Nivelin 7"
+          "Fold Level 8":
+            value: "Palos Nivelin 8"
+          "Fold Level 9":
+            value: "Palos Nivelin 9"
+      "&Preferences":
+        value: "&Parapëlqime"
+      "Config…":
+        value: "Formësim…"
+      "Init Script…":
+        value: "Programth Init…"
+      "Keymap…":
+        value: "Tastierë…"
+      "Snippets…":
+        value: "Copëza…"
+      "Stylesheet…":
+        value: "Fletëstil…"
+      "Reflow Selection":
+        value: "Reflow Selection"
+      Bookmark:
+        value: "Faqerojtës"
+        submenu:
+          "View All":
+            value: "Shihini Krejt"
+          "Toggle Bookmark":
+            value: "Shfaq/Fshih Faqerojtës"
+          "Jump to Next Bookmark":
+            value: "Hidhu te Faqerojtësi Pasues"
+          "Jump to Previous Bookmark":
+            value: "Hidhu te Faqerojtësi i Mëparshëm"
+      "Select Encoding":
+        value: "Përzgjidhni Kodim"
+      "Go to Line":
+        value: "Shko te Rreshti"
+      "Select Grammar":
+        value: "Përzgjidhni Gramatikë"
+  "&View":
+    value: "&Parje"
+    submenu:
+      "Toggle &Full Screen":
+        value: "Aktivizo/Çaktivizo Mënyrën Sa Krejt &Ekrani"
+      "Toggle Menu Bar":
+        value: "Shfaq/Fshih Shtyllë Menush"
+      Panes:
+        value: "Kuadrate"
+        submenu:
+          "Split Up":
+            value: "Ndaje Për Sipër"
+          "Split Down":
+            value: "Ndaje Për Poshtë"
+          "Split Left":
+            value: "Ndaje Majtas"
+          "Split Right":
+            value: "Ndaje Djathtas"
+          "Focus Next Pane":
+            value: "Fokusi Te Kuadrati Pasues"
+          "Focus Previous Pane":
+            value: "Fokusi Te Kuadrati i Mëparshëm"
+          "Focus Pane Above":
+            value: "Fokusi Te Kuadrati Sipër"
+          "Focus Pane Below":
+            value: "Fokusi Te Kuadrati Poshtë"
+          "Focus Pane On Left":
+            value: "Fokusi Te Kuadrati Në të Majtë"
+          "Focus Pane On Right":
+            value: "Fokusi Te Kuadrati Në të Djathtë"
+          "Close Pane":
+            value: "Mbylle Kuadratin"
+      Developer:
+        value: "Zhvillues"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "Hapeni Nën Mënyrën &Dev…"
+          "&Reload Window":
+            value: "&Ringarkoje Dritaren"
+          "Run Package &Specs":
+            value: "Xhironi &Specifikime Pakete"
+          "Run &Benchmarks":
+            value: "Xhironi Prova &Bankëprove"
+          "Toggle Developer &Tools":
+            value: "Aktivizo/Çaktivizo &Mjete Zhvilluesi"
+      "&Increase Font Size":
+        value: "&Rrite Madhësinë e Shkronjave"
+      "&Decrease Font Size":
+        value: "&Zvogëloje Madhësinë e Shkronjave"
+      "Re&set Font Size":
+        value: "Ktheje Madhësinë e Shkronjave Te &Parazgjedhja"
+      "Toggle Soft &Wrap":
+        value: "Aktivizo/Çaktivizo &Mbështjellje të Butë"
+      "Toggle Command Palette":
+        value: "Aktivizo/Çaktivizo Paletë Urdhrash"
+      "Toggle Tree View":
+        value: "Aktivizo/Çaktivizo Pamjen Pemë"
+  "&Selection":
+    value: "Për&zgjedhje"
+    submenu:
+      "Add Selection &Above":
+        value: "Shtoje Përzgjedhjen &Sipër"
+      "Add Selection &Below":
+        value: "Shtoje Përzgjedhjen &Poshtë"
+      "S&plit into Lines":
+        value: "Ndaje në &Rreshta"
+      "Single Selection":
+        value: "Përzgjedhje Njëshe"
+      "Select to &Top":
+        value: "Përzgjidh nga aty e &Sipër"
+      "Select to Botto&m":
+        value: "Përzgjidh nga aty e &Poshtë"
+      "Select &Line":
+        value: "Përzgjidh &Rreshtin"
+      "Select &Word":
+        value: "Përzgjidh &Fjalën"
+      "Select to Beginning of W&ord":
+        value: "Përzgjidh nga aty e te Fillimi i Fj&alës"
+      "Select to Beginning of L&ine":
+        value: "Përzgjidh nga aty e te Fillimi i Rr&eshtit"
+      "Select to First &Character of Line":
+        value: "Përzgjidh nga aty e te She&nja e Parë e Rreshtit"
+      "Select to End of Wor&d":
+        value: "Përzgjidh nga aty e te F&undi i Fjalës"
+      "Select to End of Lin&e":
+        value: "Përzgjidh nga aty e te Fun&di i Rreshtit"
+      "Select Inside Brackets":
+        value: "Përzgjidh Brenda Kllapash"
+  "F&ind":
+    value: "&Gjeni"
+    submenu:
+      "Find in Buffer":
+        value: "Gjej në Lëndën e Tanishme"
+      "Replace in Buffer":
+        value: "Zëvendëso në Lëndën e Tanishme"
+      "Select Next":
+        value: "Përzgjidh Pasuesen"
+      "Select All":
+        value: "Përzgjidhi Krejt"
+      "Toggle Find in Buffer":
+        value: "Aktivizo/Çaktivizo Gjetje në Lëndën e Tanishme"
+      "Find in Project":
+        value: "Gjej në Projekt"
+      "Toggle Find in Project":
+        value: "Aktivizo/Çaktivizo Gjetjen në Projekt"
+      "Find All":
+        value: "Gjeji të Tëra"
+      "Find Next":
+        value: "Gjej Pasuesin"
+      "Find Previous":
+        value: "Gjej të Mëparshmin"
+      "Replace Next":
+        value: "Zëvendëso Pasuesin"
+      "Replace All":
+        value: "Zëvendësoji Krejt"
+      "Clear History":
+        value: "Pastroje Historikun"
+      "Find Buffer":
+        value: "Gjeni <em>Buffer</em>"
+      "Find File":
+        value: "Gjeni Kartelë"
+      "Find Modified File":
+        value: "Gjeni Kartelë të Modifikuar"
+  "&Packages":
+    value: "&Paketa"
+  "&Help":
+    value: "&Ndihmë"
+    submenu:
+      "View &Terms of Use":
+        value: "Shihni &Kushtet e Përdorimit"
+      "View &License":
+        value: "Shihni &Licencën"
+      "&Documentation":
+        value: "&Dokumentim"
+      "Frequently Asked Questions":
+        value: "Pyetje të Bëra Shpesh"
+      "Community Discussions":
+        value: "Diskutime Në Bashkësi"
+      "Report Issue":
+        value: "Njoftoni Një Problem"
+      "Search Issues":
+        value: "Kërkoni Te Problemet"
+      "About Atom":
+        value: "Mbi Atom-in"
+      "Welcome Guide":
+        value: "Turi i Mirëseardhjes"

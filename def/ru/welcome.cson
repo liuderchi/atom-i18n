@@ -1,7 +1,7 @@
 Welcome:
   tabTitle: "Добро пожаловать"
   subtitle: {
-    text1: "Хакабельный текстовый редактор 21"
+    text1: "Хакабельный текстовый редактор XXI"
     superscript: ""
     text2: " века"
   }
@@ -22,7 +22,7 @@ Welcome:
     atomOrg: {
       text1: ""
       link: "Atom org"
-      text2: ". Здесь находятся все плагины, созданные на GitHub."
+      text2: ". Здесь находятся все расширения, созданные на GitHub."
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
