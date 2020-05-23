@@ -1,3 +1,7 @@
+## 0.23.1 - kn, ru fix
+- kn i18n #268
+- ru i18n #272
+
 ## 0.23.0 - Hindi support
 - hi i18n #265
 

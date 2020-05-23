@@ -77,7 +77,7 @@ Community-driven translation. :family:
   - Korean: [preco21](//github.com/preco21) [chibichichi](//github.com/chibichichi) [Riyeon](//github.com/Riyeon) [nerhis](//github.com/nerhis) [jonghyeok](//github.com/jonghyeok)
   - Spanish: [stsewd](//github.com/stsewd)
   - German: [Acer54](//github.com/Acer54) [queenar](//github.com/queenar) [Tz3r0](//github.com/Tz3r0) [silas229](//github.com/silas229) [polynoman](https://github.com/polynoman) [Henry2o1o](//github.com/Henry2o1o)
-  - Russian: [Anonym0uz](//github.com/Anonym0uz) [Driglu4it](//github.com/Driglu4it) [sabinich](//github.com/sabinich) [Dr-Yukon](//github.com/Dr-Yukon) [pleshkovpa](//github.com/pleshkovpa)
+  - Russian: [Anonym0uz](//github.com/Anonym0uz) [Driglu4it](//github.com/Driglu4it) [sabinich](//github.com/sabinich) [Dr-Yukon](//github.com/Dr-Yukon) [pleshkovpa](//github.com/pleshkovpa) [Glazami](//github.com/Glazami)
   - Portuguese (Brazilian): [jsolisu](//github.com/jsolisu) [rclenzi](//github.com/rclenzi) [thiagomneves](//github.com/thiagomneves) [joaopaulonsoares](//github.com/joaopaulonsoares) [adriel83](//github.com/adriel83)
   - Dutch: [laurensbrand](//github.com/laurensbrand)
   - Polish: [Jeplaa](//github.com/Jeplaa)
