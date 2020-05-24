@@ -87,7 +87,7 @@ Menu:
           Indent:
             value: "Indentar"
           Outdent:
-            value: "Outdent"
+            value: "Indentar Invertido"
           "Auto Indent":
             value: "Auto Indentar"
           "Move Line Up":
@@ -305,14 +305,14 @@ Menu:
       "Bring All to Front":
         value: "Trazer Todos para Frente"
   Help:
-    value: "Help"
+    value: "Ajuda"
     submenu:
       "Terms of Use":
         value: "Termos de Uso"
       Documentation:
         value: "Documentação"
       Roadmap:
-        value: "Roadmap"
+        value: "Mapa de Desenvolvimento"
       "Frequently Asked Questions":
         value: "Perguntas Frequentes"
       "Community Discussions":

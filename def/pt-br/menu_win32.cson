@@ -24,7 +24,7 @@ Menu:
       "Config…":
         value: "Configuração..."
       "Init Script…":
-        value: "Script Inicial..."
+        value: "Roteiro Inicial..."
       "Keymap…":
         value: "Mapa De Teclas..."
       "Snippets…":
@@ -74,7 +74,7 @@ Menu:
           "&Indent":
             value: "Indentar(&I)"
           "&Outdent":
-            value: "Outdent(&O)"
+            value: "Indentar Invertido(&O)"
           "&Auto Indent":
             value: "Auto Indentar(&A)"
           "Move Line &Up":
@@ -292,9 +292,9 @@ Menu:
     value: "Ajuda(&H)"
     submenu:
       "View &Terms of Use":
-        value: "Ver &Termos de Uso"
+        value: "Ver Termos de Uso(&T)"
       "View &License":
-        value: "Ver &Licença"
+        value: "Ver Licença(&L)"
       "Restart and Install Update":
         value: "Reiniciar e Instalar Atualização"
       "Check for Update":

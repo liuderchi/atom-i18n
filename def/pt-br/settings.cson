@@ -3,7 +3,7 @@ Settings:
   menu: [
     {
       _label: "Core"
-      value: "Core"
+      value: "Principais"
     }
     {
       _label: "Editor"
@@ -86,8 +86,8 @@ Settings:
       }
       {
         _id: 'core.audioBeep'
-        title: "Audio Beep"
-        desc: "Disparar o beep do sistema quando certas ações não podem
+        title: "Áudio Bip"
+        desc: "Disparar o bip do sistema quando certas ações não podem
                ser executadas ou não tiver resuldados."
       }
       {
@@ -232,7 +232,7 @@ Settings:
       }
       {
         _id: 'editor.confirmCheckoutHeadRevision'
-        title: "Confirmar Checkout Revisão HEAD "
+        title: "Confirmar Verificação de Saída Revisão HEAD "
         desc: "Mostra a caixa de diálogo de confirmação ao verificar a revisão HEAD e descartar as alterações no arquivo atual desde o último commit."
       }
       {
