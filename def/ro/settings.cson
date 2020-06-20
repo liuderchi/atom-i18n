@@ -1,0 +1,462 @@
+Settings:
+  "tab-title": "Configurări"
+  menu: [
+    {
+      _label: "Core"
+      value: "Principale"
+    }
+    {
+      _label: "Editor"
+      value: "Editor"
+    }
+    {
+      _label: "System"
+      value: "Sistem"
+    }
+    {
+      _label: "Keybindings"
+      value: "Scurtături"
+    }
+    {
+      _label: "Packages"
+      value: "Pachete"
+    }
+    {
+      _label: "Themes"
+      value: "Teme"
+    }
+    {
+      _label: "Updates"
+      value: "Actualizări"
+    }
+    {
+      _label: "Install"
+      value: "Instalare"
+    }
+  ]
+  "btn-open-config-folder": "Deschide dosarul de configurare"
+  sectionHeadings: [
+    {_label: "Core Settings", value: "Setări principale"}
+    {_label: "Editor Settings", value: "Setări ale editorului"}
+    {_label: "System Settings", value: "Setări de sistem"}
+    {_label: "Keybindings", value: "Scurtături"}
+    {_label: "Installed Packages", value: "Pachete instalate"}
+    {_label: "Choose a Theme", value: "Alege o temă"}
+    {_label: "Installed Themes", value: "Teme instalate"}
+    {_label: "Install Packages", value: "Instalează pachete"}
+    {_label: "Featured Packages", value: "Pachete recomandate"}
+    {_label: "Install Themes", value: "Instalează teme"}
+    {_label: "Featured Themes", value: "Teme recomandate"}
+    {_label: "Available Updates", value: "Actualizări disponibile"}
+  ]
+  subSectionHeadings: [
+    {_label: "Invisible", value: "Caractere invizibile"}
+    {_label: "Community Packages", value: "Pachete de la comunitate"}
+    {_label: "Core Packages", value: "Pachete principale"}
+    {_label: "Development Packages", value: "Pachete în dezvoltare"}
+    {_label: "Git Packages", value: "Pachete Git"}
+    {_label: "Community Themes", value: "Teme de la comunitate"}
+    {_label: "Core Themes", value: "Teme principale"}
+    {_label: "Development Themes", value: "Teme în dezvoltare"}
+    {_label: "Git Themes", value: "Teme Git"}
+  ]
+  settings: {
+    notes: [
+      {
+        _id: 'core-settings-note'
+        html: 'Aici sunt setările principale ale Atom care nu afectează
+               editarea textului. Pachetele pot avea propriile lor configurări
+               adiționale disponibile în <a class="link packages-open">lista
+               de pachete</a>.'
+      }
+      {
+        _id: 'editor-settings-note'
+        html: 'Aceste setări sunt legate de editarea textului. Unele pot fi
+               definite separat pentru limbaje de programare specifice. Verificați
+               în <a class="link packages-open">lista de pachete</a>. pentru a găsi
+               configurările fiecărui limbaj.'
+      }
+    ]
+    controls: [
+      {
+        _id: 'core.allowPendingPaneItems'
+        title: "Permite elementele panourilor provizorii"
+        desc: "Permite previzualizarea fișierelor fără adăugarea lor permanentă
+               la un panou, ca atunci când se apasă pe fișiere în vederea arborescentă."
+      }
+      {
+        _id: 'core.audioBeep'
+        title: "Bip audio"
+        desc: "Declanșează sunetul de bip al sistemului atunci când anumite
+               acțiuni nu pot fi executate sau când nu există niciun rezultat."
+      }
+      {
+        _id: 'core.automaticallyUpdate'
+        title: "Actualizare automată"
+        desc: "Actualizează automat Atom atunci când este disponibilă o versiune nouă."
+      }
+      {
+        _id: 'core.autoHideMenuBar'
+        title: "Ascunde automat bara de meniu"
+        desc: "Ascunde automat bara de meniu și afișeaz-o la apăsarea tastei Alt. Aceasta funcționează doar pe Windows și Linux."
+      }
+      {
+        _id: 'core.closeDeletedFileTabs'
+        title: "Închide filele fișierelor șterse"
+        desc: "Închide filele fișierelor corespunzătoare atunci când sunt șterse din afara Atom."
+      }
+      {
+        _id: 'core.closeEmptyWindows'
+        title: "Închide ferestrele goale"
+        desc: "Când o fereastră fără file sau panouri primește comanda „Închide fila”, închide fereasta cu totul."
+      }
+      {
+        _id: 'core.destroyEmptyPanes'
+        title: "Distruge panourile goale"
+        desc: "Atunci când ultima filă dintr-un panou este închisă, închide și panoul respectiv."
+      }
+      {
+        _id: 'core.excludeVcsIgnoredPaths'
+        title: "Exclude căile ignorate de sistemele de control ale versiunilor (VCS)"
+        desc: "Fișierele și dosarele ignorate de sistemul de control al versiunilor al proiectului curent vor fi ignorate de anumite pachete, cum ar fi fuzzy-finder sau găsire/înlocuire. De exemplu, proiectele care folosesc Git au aceste căi definite în fișierul .gitignore. Anumite pachete pot avea configurări suplimentare pentru a ignora dosarele și fișierele ignorate de sistemul de control al versiunilor."
+      }
+      {
+        _id: 'core.fileEncoding'
+        title: "Codificarea fișierelor"
+        desc: "Setul de codificare al caracterelor implicit folosit la scrierea și citirea fișierelor."
+      }
+      {
+        _id: 'core.fileSystemWatcher'
+        title: "Urmăritor al sistemului de fișiere"
+        desc: "Alege tipul de implementare folosit pentru a urmări schimbările în sistemul de fișiere. Schimbările emulate vor rata orice evenimente cauzate de alte aplicații decât Atom, dar ar putea să prevină blocări și închideri bruște ale aplicației."
+        select:
+          native: "API-ul nativ al sistemului de operare"
+          atom: "Emulat cu evenimente Atom"
+      }
+      {
+        _id: 'core.followSymlinks'
+        title: "Urmează legăturile simbolice"
+        desc: "Urmează legăturile simbolice atunci când se caută fișiere și când se deschid fișiere cu fuzzy-finder."
+      }
+      {
+        _id: 'core.ignoredNames'
+        title: "Nume ignorate"
+        desc: "Listă de <code>filtre de fișiere</code>. Fișierele și dosarele care se potrivesc acestor filtre vor fi ignorate de anumite pachete, precum fuzzy-finder și vederea arborescentă. Anumite pachete pot avea configurări adiționale pentru ignorarea numelor."
+      }
+      {
+        _id: 'core.openEmptyEditorOnStart'
+        title: "Deschide o filă de editare goală la pornire"
+        desc: "Deschide automat o filă de editare goală la pornirea programului."
+      }
+      {
+        _id: 'core.packagesWithKeymapsDisabled'
+        title: "Pachete cu scurtături dezactivate"
+      }
+      {
+        _id: 'core.projectHome'
+        title: "Directorul implicit al proiectelor"
+        desc: "Directorul unde se presupune că proiectele sunt localizate. Pachetele create cu generatorul de pachete vor fi stocate aici în mod implicit."
+      }
+      {
+        _id: 'core.reopenProjectMenuCount'
+        title: "Numărul de proiecte vizibile în meniul Proiecte recente"
+        desc: "Câte proiecte să fie afișate atunci când se apasă pe Proiecte recente."
+      }
+      {
+        _id: 'core.restorePreviousWindowsOnStart'
+        title: "Restaurează ferestrele deschide anterior la pornire"
+        desc: "Atunci când este selectat <code>Da</code>, se restaurează ultima stare a tuturor ferestrelor Atom la pornirea prin apăsarea iconiței sau din terminal cu comanda <code>atom</code>; altminteri, se deschide o fereastră goală."
+        select:
+          no: "Nu"
+          yes: "Da"
+          always: "Mereu"
+      }
+      {
+        _id: 'core.telemetryConsent'
+        title: "Trimite date telemetrice echipei Atom"
+        desc: "Permite trimiterea statisticilor de utilizare și rapoartelor de erori echipei Atom pentru a ajuta la îmbunătățirea produsului."
+        select:
+          limited: "Permite trimiterea statisticilor de utilizare anonime și raportarea erorilor"
+          no: "Nu trimite date telemetrice"
+          undecided: "Sunt indecis (Atom va întreba din nou la următoarea pornire)"
+      }
+      {
+        _id: 'core.titleBar'
+        title: "Bara de titlu"
+        desc: "Experimental: O bară de titlu <code>personalizată</code> care se adaptează la culorile temei. Dacă alegeți <code>personalizată-cu-spațiere</code> se adaugă mai muly spațiu împrejur. Bara de titlu poate fi și complet <code>ascunsă</code><br/>Notă: schimarea la o bară de titlu personalizată sau ascunsă va compromite anumite funcționalități. Trebuie să reporniți atom pentru ca modificarea să fie aplicată."
+        select:
+          native: "nativă"
+          custom: "personalizată"
+          "custom-inset": "personalizată-cu-spațiere"
+          hidden: "ascunsă"
+      }
+      {
+        _id: 'core.useProxySettingsWhenCallingApm'
+        title: "Folosește setările proxy atunci când se invocă comanda APM"
+        desc: "Folosește setările proxy detectate atunci când este invocată comanda <code>apm</code> în terminal."
+      }
+      {
+        _id: 'core.versionPinnedPackages'
+        title: "Pachete cu versiune fixă"
+        desc: "Listă de pachete instalate care nu se actualizează automat."
+      }
+      {
+        _id: 'core.useCustomTitleBar'
+        title: "Folosește o bară de titlu personalizată"
+        desc: "Folosește o bară de titlu personalizată bazată pe tema actuală.<br/>Notă: Aceasta nu include în prezent o iconiță proxy<br>Trebuie să reporniți atom pentru ca modificarea să fie aplicată."
+      }
+      {
+        _id: 'core.warnOnLargeFileLimit'
+        title: "Avertizează atunci când fișierele sunt foarte mari"
+        desc: "Avertizează la deschiderea fișierelor mai mari decât acest număr de megaocteți."
+      }
+      {
+        _id: 'editor.atomicSoftTabs'
+        title: "Tabulatori relativi atomici"
+        desc: "Se trece peste tabulatori relativi (serii de spații) atunci când se deplasează cursorul."
+      }
+      {
+        _id: 'editor.autoIndent'
+        title: "Indentare automată"
+        desc: "Indentează cursorul automat atunci când se introduce o linie nouă."
+      }
+      {
+        _id: 'editor.autoIndentOnPaste'
+        title: "Indentare automată la lipire"
+        desc: "Indentează automat textul lipit bazat pe indentarea rândului precedent."
+      }
+      {
+        _id: 'editor.backUpBeforeSaving'
+        title: "Efectuează o copie de rezervă înaintea salvării"
+        desc: ""
+      }
+      {
+        _id: 'editor.confirmCheckoutHeadRevision'
+        title: "Confirmă un checkout HEAD"
+        desc: "Cere o confirmare în momentul unui checkout HEAD și anulează modificările fișierului curent petrecute de la ultimul său commit."
+      }
+      {
+        _id: 'editor.fontFamily'
+        title: "Familia fontului"
+        desc: "Numele familiei fontului utilizat pentru editorul de text."
+      }
+      {
+        _id: 'editor.fontSize'
+        title: "Dimensiunea fontului"
+        desc: "Înălțimea în pixeli a fontului din editorul de text."
+      }
+      {
+        _id: 'editor.invisibles.cr'
+        title: "Retururi de car invizibile"
+        desc: "Caracter utilizat pentru a afișa returul de car
+               (pentru sfârșituri de linie în stil Microsoft)
+               atunci când setarea <code>Arată caracterele invizibile</code>
+               este activată."
+      }
+      {
+        _id: 'editor.invisibles.eol'
+        title: "Sfârșituri de linie invizibile"
+        desc: "Caracter utilizat pentru a afișa o linie nouă (\n) atunci când
+               setarea <code>Arată caracterele invizibile</code> este activată."
+      }
+      {
+        _id: 'editor.invisibles.space'
+        title: "Spații invizibile"
+        desc: "Caracter utilizat pentru a afișa spațiile atunci când
+               setarea <code>Arată caracterele invizibile</code> este activată."
+      }
+      {
+        _id: 'editor.invisibles.tab'
+        title: "Tabulatori invizibili"
+        desc: "Caracter utilizat pentru a afișa tabulatorii absoluți (\t) atunci când
+               setarea <code>Arată caracterele invizibile</code> este activată."
+      }
+      {
+        _id: 'editor.lineHeight'
+        title: "Înălțimea rândului"
+        desc: "Înălțimea rândurilor din editor, ca un multiplu al dimensiunii fontului."
+      }
+      {
+        _id: 'editor.maxScreenLineLength'
+        title: "Lungimea maximă de afișare a rândului"
+        desc: "Definește lățimea maximă a ferestrei editoului în număr de caractere, înainte ca încadrarea forțată a textului să fie aplicată."
+      }
+      {
+        _id: 'editor.nonWordCharacters'
+        title: "Caractere nealfanumerice"
+        desc: "Un șir de caractere care ajută la delimitarea corectă a începuturilor și a sfârșiturilor cuvintelor."
+      }
+      {
+        _id: 'editor.preferredLineLength'
+        title: "Lungimea preferată a rândului"
+        desc: "Identifică lungimea unui rând, în număr de caractere, folosită atunci când se încadrează
+               textul cu configurarea <code>Încadrare relativă cu o lungime preferată</code>
+               activată."
+      }
+      {
+        _id: 'editor.scrollPastEnd'
+        title: "Derulează dincolo de sfârșit"
+        desc: "Permite editorului să deruleze dincolo de sfârșitul celei mai lungi linii."
+      }
+      {
+        _id: 'editor.scrollSensitivity'
+        title: "Sensibilitatea derulării"
+        desc: "Determină cât de repede derulează editorul atunci când se folosește un mouse sau un trackpad."
+      }
+      {
+        _id: 'editor.showCursorOnSelection'
+        title: "Arată cursorul atunci când se selectează"
+        desc: "Arată cursorul atatunci când o parte de text este selectată."
+      }
+      {
+        _id: 'editor.showIndentGuide'
+        title: "Arată ghidul de indentare"
+        desc: "Arată indicatoare de indentare în editor."
+      }
+      {
+        _id: 'editor.showInvisibles'
+        title: "Arată caractere invizibile"
+        desc: "Utilizează caractere înlocuitoare pentru caracterele invizibile (tabulatori,
+        spații, linii noi ș.a.)."
+      }
+      {
+        _id: 'editor.showLineNumbers'
+        title: "Arată numerele liniilor"
+        desc: "Arată numerele liniilor în marginea stângă a editorului."
+      }
+      {
+        _id: 'editor.softTabs'
+        title: "Tabulatori relativi"
+        desc: "Dacă configurarea <code>Tipul tabulatorilor</code> este setată pe „automat”
+               și autodetectarea tipului de tabulatori din buffer eșuează, atunci
+               această configurare determină dacă va fin introdus un tabulator relativ
+               sau absolut atunci când este apăsată tasta Tab."
+      }
+      {
+        _id: 'editor.softWrap'
+        title: "Încadrare relativă"
+        desc: "Încadrează rândurile care depășesc lățimea ferestrei. Atunci când
+               <code>Încadrare relativă cu o lungime preferată</code> este setată,
+               va încadra până la numărul de caractere definit în configurarea
+               <code>Lungimea preferată a rândului</code>."
+      }
+      {
+        _id: 'editor.softWrapAtPreferredLineLength'
+        title: "Încadrare relativă cu o lungime preferată"
+        desc: "În loc de a încadra rândurile la lățimea ferestrei, se încadrează
+               la numărul de caractere definit de configurarea <code>Lungimea preferată
+               a rândului</code>. Aceasta va avea efect doar atunci când încadrarea
+               relativă este activată global sau pentru limbajul actual. <strong>Notă:
+               </strong> dacă vrei să dezactivezi ghidul de încadrare (linia verticală)
+               poți dezactiva pachetul <code>wrap-guide</code>."
+      }
+      {
+        _id: 'editor.softWrapHangingIndent'
+        title: "Indentarea la încadrarea relativă a textului"
+        desc: "Atunci când încadrarea relativă este activată, această configurare
+               stabiliește lungimea indentării adiționale aplicate rândurilor încadrate
+               pe rândul următor, în număr de caractere."
+      }
+      {
+        _id: 'editor.tabLength'
+        title: "Lungimea tabulatorilor"
+        desc: "Număr de spații pentru a reprezenta  un tabulator."
+      }
+      {
+        _id: 'editor.tabType'
+        title: "Tipuri de tabulatori"
+        desc: "Determină caracterul introdus la apăsarea tastei Tab. Valori posibile:
+              „auto”, „soft” (relativ) și „hard” (absolut). Atunci când este setat pe
+              „soft” se folosesc tabulatori relativi, iar pe „hard” tabulatori absoluți.
+              Când este setat pe „auto”, editorul detectează automat tipul tabulatorilor
+              bazat pe conținutul fișierului curent (folosește primul tabulator de pe
+              un rând necomentat), sau folosește tabulatori relativi dacă detectarea
+              eșuează."
+      }
+      {
+        _id: 'editor.undoGroupingInterval'
+        title: "Interval de timp de grupare a acțiunii de anulare"
+        desc: "Interval de timp în milisecunde în care operațiunile de editare
+               text vor fi grupate împreună în istoricul funcției „Anulare”."
+      }
+      {
+        _id: 'editor.zoomFontWhenCtrlScrolling'
+        title: "Mărește dimensiunea fontului cu Control + derulare"
+        desc: "Schimbă dimensiunea fontului din editor atunci când se apasă
+               tasta Control și se derulează rotița mausului."
+      }
+      {
+        _id: 'system.windows.file-handler'
+        title: "Înregistrează ca gestionar de fișiere"
+        desc: "Arată Atom în lista de aplicații „Deschide cu” pentru asocierea mai ușoară a unor tipuri de fișiere."
+      }
+      {
+        _id: 'system.windows.shell-menu-files'
+        title: "Afișează în meniul contextual al fișierelor"
+        desc: "Adaugă „Deschide cu Atom” la meniul contextual al fișierelor din Explorer."
+      }
+      {
+        _id: 'system.windows.shell-menu-folders'
+        title: "Afișează în meniul contextual al dosarelor"
+        desc: "Adaugă „Deschide cu Atom” la meniul contextual al dosarelor din Explorer."
+      }
+    ]
+  }
+  system: {
+    notes: "Aceste configurări determină felul în care Atom se integrează cu sistemul de operare."
+  }
+  keymaps: {
+    notes: {
+      text1: "Puteți suprascrie aceste scurtături de tastatură prin copierea "
+      text2: "și lipirea lor în "
+      text3: "fișierul tău de scurtături"
+      text4: "."   # optional
+      _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
+    }
+    "search-bar-placeholder": "Caută printre scurtături"
+    "table-header-keystroke": "Taste apăsate"
+    "table-header-command": "Comandă"
+    "table-header-source": "Sursă"
+    "table-header-selector": "Selector"
+  }
+  packages: {
+    searchBarText: 'Filtrează pachetele după nume'
+  }
+  themes: {
+    notes: {
+      text1: "Poți de asemenea să modifici stilul Atom în "
+      text2: "foaia ta de stil"
+      text3: ""   # optional
+      _template: "${text1} <a>${text2}</a> ${text3}"
+    }
+    title1: "Tema interfeței utilizatorului"
+    description1: "Aceasta modifică stilul filelor, barei de stare, vederii arborescente și meniurilor"
+    title2: "Temă pentru sintaxă"
+    description2: "Aceasta modifică stilul textului în editor"
+    searchBarText: 'Filtrează temele după nume'
+  }
+  updates: {
+    "check-updates": "Caută actualizări"
+    "update-all": "Actualizează tot"
+    "checking-updates": "Se caută actualizări..."
+    "all-updated-message": "Toate pachetele instalate sunt actualizate!"
+  }
+  install: {
+    notes: {
+      text1: "Pachetele sunt publicate pe "
+      text2: " și sunt instalate în "
+      text3: ""   # optional
+      _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
+    }
+    "searchbar-placeholder": "Caută pachete"
+    "btn-packages": "Pachete"
+    "btn-themes": "Teme"
+  }
+  "control-btns":{
+    install: "Instalează"
+    update: "Actualizează la"
+    setting: "Configurări"
+    uninstall: "Dezinstalează"
+    disable: "Dezactivează"
+    enable: "Activează"
+  }
