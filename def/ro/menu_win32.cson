@@ -1,319 +1,319 @@
 Menu:
   "&File":
-    value: "&File"
+    value: "&Fișier"
     submenu:
       "New &Window":
-        value: "New &Window"
+        value: "Fereastră nouă (&W)"
       "&New File":
-        value: "&New File"
+        value: "Filă &nouă"
       "&Open File…":
-        value: "&Open File…"
+        value: "Deschide fișier… (&O)"
       "Open Folder…":
-        value: "Open Folder…"
+        value: "Deschide dosar…"
       "Add Project Folder…":
-        value: "Add Project Folder…"
+        value: "Adaugă dosar la proiect…"
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Redeschide proiectul"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "Ștegre istoricul proiectelor"
       "Reopen Last &Item":
-        value: "Reopen Last &Item"
+        value: "Redeschide ult&imul element"
       "Se&ttings":
-        value: "Se&ttings…"
+        value: "Se&tări…"
       "Config…":
-        value: "Config…"
+        value: "Configurări…"
       "Init Script…":
-        value: "Init Script…"
+        value: "Script de inițializare…"
       "Keymap…":
-        value: "Keymap…"
+        value: "Scurtături tastatură…"
       "Snippets…":
-        value: "Snippets…"
+        value: "Fragmente de cod…"
       "Stylesheet…":
-        value: "Stylesheet…"
+        value: "Foaie de stil…"
       "&Save":
-        value: "&Save"
+        value: "&Salvează"
       "Save &As…":
-        value: "Save &As…"
+        value: "Salvează c&a…"
       "Save A&ll":
-        value: "Save A&ll"
+        value: "Salvează tot (&L)"
       "&Close Tab":
-        value: "&Close Tab"
+        value: "În&chide fila"
       "Close &Pane":
-        value: "Close &Pane"
+        value: "Închide &panoul"
       "Clos&e Window":
-        value: "Clos&e Window"
+        value: "Închid&e fereastra"
       "E&xit":
-        value: "E&xit"
+        value: "Ieși (&X)"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "Închide toate filele"
   "&Edit":
-    value: "&Edit"
+    value: "&Editare"
     submenu:
       "&Undo":
-        value: "&Undo"
+        value: "An&ulează"
       "&Redo":
-        value: "&Redo"
+        value: "&Refă"
       "Cu&t":
-        value: "Cu&t"
+        value: "&Taie"
       "&Copy":
-        value: "&Copy"
+        value: "&Copiază"
       "Copy Pat&h":
-        value: "Copy Pat&h"
+        value: "Copiază calea (&h)"
       "&Paste":
-        value: "&Paste"
+        value: "Li&pește"
       "Paste Without Reformatting":
-        value: "Paste Without Reformatting"
+        value: "Lipește fără reformatare"
       "Select &All":
-        value: "Select &All"
+        value: "Selecte&ază tot"
       "&Toggle Comments":
-        value: "&Toggle Comments"
+        value: "Comen&tează/decomentează"
       Lines:
-        value: "Lines"
+        value: "Rânduri"
         submenu:
           "&Indent":
-            value: "&Indent"
+            value: "&Indentare"
           "&Outdent":
-            value: "&Outdent"
+            value: "Dezindentare (&O)"
           "&Auto Indent":
-            value: "&Auto Indent"
+            value: "Indentare &automată"
           "Move Line &Up":
-            value: "Move Line &Up"
+            value: "Mută rândul în s&us"
           "Move Line &Down":
-            value: "Move Line &Down"
+            value: "Mută rândul în jos (&D)"
           "Du&plicate Lines":
-            value: "Du&plicate Lines"
+            value: "Du&plică rândul"
           "D&elete Line":
-            value: "D&elete Line"
+            value: "Șt&erge rândul"
           "&Join Lines":
-            value: "&Join Lines"
+            value: "Unește rândurile (&J)"
       Columns:
-        value: "Columns"
+        value: "Coloane"
         submenu:
           "Move Selection &Left":
-            value: "Move Selection &Left"
+            value: "Mută se&lecția în stânga"
           "Move Selection &Right":
-            value: "Move Selection &Right"
+            value: "Mută selecția în d&reapta"
       Text:
         value: "Text"
         submenu:
           "&Upper Case":
-            value: "&Upper Case"
+            value: "Transformă în majuscule (&U)"
           "&Lower Case":
-            value: "&Lower Case"
+            value: "Transformă în minuscu&le"
           "Delete to End of &Word":
-            value: "Delete to End of &Word"
+            value: "Șterge până la capătul cuvântului (&W)"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "Șterge până la începutul cuvântului"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "Șterge până la următorul cuvânt"
           "&Delete Line":
-            value: "&Delete Line"
+            value: "Șterge rân&dul"
           "&Transpose":
-            value: "&Transpose"
+            value: "Inversează carac&terele"
       Folding:
-        value: "Folding"
+        value: "Pliaj"
         submenu:
           "&Fold":
-            value: "&Fold"
+            value: "Pliază (&F)"
           "&Unfold":
-            value: "&Unfold"
+            value: "Depliază (&U)"
           "Unfold &All":
-            value: "Unfold &All"
+            value: "Depli&ază totul"
           "Fol&d All":
-            value: "Fol&d All"
+            value: "Pliază totul (&D)"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Pliază la nivelul 1"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Pliază la nivelul 2"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Pliază la nivelul 3"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Pliază la nivelul 4"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Pliază la nivelul 5"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Pliază la nivelul 6"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Pliază la nivelul 7"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Pliază la nivelul 8"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Pliază la nivelul 9"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Redistribuie selecția"
       Bookmark:
-        value: "Bookmark"
+        value: "Semn de carte"
         submenu:
           "View All":
-            value: "View All"
+            value: "Afișează tot"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "Adaugă/elimină un semn de carte"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "Mergi la semnul de carte următor"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "Mergi la semnul de carte anterior"
           "Select to Next Bookmark":
-            value: "Select to Next Bookmark"
+            value: "Selectează până la semnul de carte următor"
           "Select to Previous Bookmark":
-            value: "Select to Previous Bookmark"
+            value: "Selectează până la semnul de carte anterior"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "Alege codificarea"
       "Go to Line":
-        value: "Go to Line"
+        value: "Mergi la rândul"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "Alege limbajul"
   "&View":
-    value: "&View"
+    value: "&Vizualizare"
     submenu:
       "Toggle &Full Screen":
-        value: "Toggle &Full Screen"
+        value: "Activează/dezactivează modul ecran complet (&F)"
       "Toggle Menu Bar":
-        value: "Toggle Menu Bar"
+        value: "Afișează/ascunde bara de meniu"
       Panes:
-        value: "Panes"
+        value: "Panouri"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "Dedublează în sus"
           "Split Down":
-            value: "Split Down"
+            value: "Dedublează în jos"
           "Split Left":
-            value: "Split Left"
+            value: "Dedublează în stânga"
           "Split Right":
-            value: "Split Right"
+            value: "Dedublează în dreapta"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "Treci la panoul următor"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "Revino la panoul anterior"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "Treci la panoul de deasupra"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "Treci la panoul de dedesubt"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "Treci la panoul din dreapta"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "Treci la panoul din stânga"
           "Close Pane":
-            value: "Close Pane"
+            value: "Închide panoul"
       Developer:
-        value: "Developer"
+        value: "Dezvoltator"
         submenu:
           "Open In &Dev Mode…":
-            value: "Open In &Dev Mode…"
+            value: "Deschide în modul &dezvoltator…"
           "&Reload Window":
-            value: "&Reload Window"
+            value: "&Reîncarcă fereastra"
           "Run Package &Specs":
-            value: "Run Package &Specs"
+            value: "Lan&sează testele unitare ale pachetului"
           "Run &Benchmarks":
-            value: "Run &Benchmarks"
+            value: "Lansează testele de performanță (&B)"
           "Toggle Developer &Tools":
-            value: "Toggle Developer &Tools"
+            value: "Afișează/ascunde unel&tele de dezvoltator"
       "&Increase Font Size":
-        value: "&Increase Font Size"
+        value: "Mărește d&imensiunea fontului"
       "&Decrease Font Size":
-        value: "&Decrease Font Size"
+        value: "Micșorează &dimensiunea fontului"
       "Re&set Font Size":
-        value: "Re&set Font Size"
+        value: "Re&setează dimensiunea fontului"
       "Toggle Soft &Wrap":
-        value: "Toggle Soft &Wrap"
+        value: "Activează/dezactivează încadrarea relativă (&W)"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "Afișează/ascunde lista de comenzi"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "Afișează/ascunde vederea arborescentă"
   "&Selection":
-    value: "&Selection"
+    value: "&Selecție"
     submenu:
       "Add Selection &Above":
-        value: "Add Selection &Above"
+        value: "Întinde selecția și de&asupra"
       "Add Selection &Below":
-        value: "Add Selection &Below"
+        value: "Întinde selecția și dedesu&bt"
       "S&plit into Lines":
-        value: "S&plit into Lines"
+        value: "Îm&parte în rânduri"
       "Single Selection":
-        value: "Single Selection"
+        value: "Selecție unică"
       "Select to &Top":
-        value: "Select to &Top"
+        value: "Întinde selecția până la începu&t"
       "Select to Botto&m":
-        value: "Select to Botto&m"
+        value: "Întinde selecția până la sfârșit (&M)"
       "Select &Line":
-        value: "Select &Line"
+        value: "Se&lectează tot rândul"
       "Select &Word":
-        value: "Select &Word"
+        value: "Selectează cuvântul (&W)"
       "Select to Beginning of W&ord":
-        value: "Select to Beginning of W&ord"
+        value: "Întinde selecția până la începutul cuvântului (&O)"
       "Select to Beginning of L&ine":
-        value: "Select to Beginning of L&ine"
+        value: "Înt&inde selecția până la începutul rândului"
       "Select to First &Character of Line":
-        value: "Select to First &Character of Line"
+        value: "Întinde selecția până la primul &caracter din rând"
       "Select to End of Wor&d":
-        value: "Select to End of Wor&d"
+        value: "Întin&de selecția până la sfârșitul cuvântului"
       "Select to End of Lin&e":
-        value: "Select to End of Lin&e"
+        value: "Întind&e selecția până la capătul rândului"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "Selectează interiorul parantezelor"
   "F&ind":
-    value: "F&ind"
+    value: "Găs&ire"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "Găsește în fișierul curent"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "Înlocuiește în fișierul curent"
       "Select Next":
-        value: "Select Next"
+        value: "Selectează apariția următoare"
       "Select All":
-        value: "Select All"
+        value: "Selectează toate aparițiile"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "Afișează/ascunde căutarea în fișierul curent"
       "Find in Project":
-        value: "Find in Project"
+        value: "Găsește în proiect"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "Afișează/ascunde căutarea în proiect"
       "Find All":
-        value: "Find All"
+        value: "Găsește toate aparițiile"
       "Find Next":
-        value: "Find Next"
+        value: "Găsește următorul"
       "Find Previous":
-        value: "Find Previous"
+        value: "Găsește anteriorul"
       "Replace Next":
-        value: "Replace Next"
+        value: "Înlocuiește următorul"
       "Replace All":
-        value: "Replace All"
+        value: "Înlocuiește totul"
       "Clear History":
-        value: "Clear History"
+        value: "Șterge istoricul"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "Găsește un fișier deschis"
       "Find File":
-        value: "Find File"
+        value: "Găsește un fișier"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "Găsește un fișier modificat"
   "&Packages":
-    value: "&Packages"
+    value: "&Pachete"
   "&Help":
-    value: "&Help"
+    value: "&Ajutor"
     submenu:
       "View &Terms of Use":
-        value: "View &Terms of Use"
+        value: "Vezi &termenii de utilizare"
       "View &License":
-        value: "View &License"
+        value: "Vezi &licența"
       "Restart and Install Update":
-        value: "Restart and Install Update"
+        value: "Repornește și instalează actualizarea"
       "Check for Update":
-        value: "Check for Update"
+        value: "Caută actuazlizări"
       "Checking for Update":
-        value: "Checking for Update"
+        value: "Se caută actualizări"
       "Downloading Update":
-        value: "Downloading Update"
+        value: "Se descarcă actualizarea"
       "&Documentation":
-        value: "&Documentation"
+        value: "&Documentație"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "Întrebări frecvente"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Forum comunitar"
       "Report Issue":
-        value: "Report Issue"
+        value: "Semnalează o problemă"
       "Search Issues":
-        value: "Search Issues"
+        value: "Caută printre probleme"
       "About Atom":
-        value: "About Atom"
+        value: "Despre Atom"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "Ghid de bun venit"
