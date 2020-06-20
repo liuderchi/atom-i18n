@@ -222,7 +222,7 @@ Menu:
       "Reset Font Size":
         value: "Resetează dimensiunea fontului"
       "Toggle Soft Wrap":
-        value: "Activează/dezactivează terminarea liniei la sfârșitul de rând"
+        value: "Activează/dezactivează încadrarea relativă"
       "Toggle Command Palette":
         value: "Afișează/ascunde lista de comenzi"
       "Toggle Tree View":

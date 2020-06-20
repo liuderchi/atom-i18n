@@ -209,7 +209,7 @@ Menu:
       "Re&set Font Size":
         value: "Re&setează dimensiunea fontului"
       "Toggle Soft &Wrap":
-        value: "Activează/dezactivează terminarea liniei la sfârșitul de rând (&W)"
+        value: "Activează/dezactivează încadrarea relativă (&W)"
       "Toggle Command Palette":
         value: "Afișează/ascunde lista de comenzi"
       "Toggle Tree View":

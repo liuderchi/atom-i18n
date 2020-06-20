@@ -3,7 +3,7 @@ About:
   releaseNotes: "Note de lansare"
   newUpdate: "Actualizare nouă"
   upToDate: "Atom este actualizat!"
-  checkingForUpdates: "Se verifică dacă există actualizări..."
+  checkingForUpdates: "Se caută actualizări..."
   checkUpdatesNow: "Verifică acum"
   automaticDownloadUpdates: "Descarcă actualizări automat"
   restartInstall: "Repornește și instalează"

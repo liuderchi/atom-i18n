@@ -114,6 +114,10 @@
           "description": "Português(Brazil) (pt-br)"
         },
         {
+          "value": "ro",
+          "description": "Română (ro)"
+        },
+        {
           "value": "ru",
           "description": "Ру́сский (ru)"
         },
