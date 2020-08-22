@@ -60,7 +60,7 @@ Menu:
           "&Indent":
             value: "Indentar(&I)"
           "&Outdent":
-            value: "Outdentar(&O)"
+            value: "Indentar Invertido(&O)"
           "&Auto Indent":
             value: "Auto Indentar(&A)"
           "Move Line &Up":
