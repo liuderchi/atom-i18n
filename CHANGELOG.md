@@ -1,3 +1,9 @@
+## 0.24.0 - Romanian support
+- ro i18n #277
+- pt-br i18n #275
+- ar i18n #279
+- chore: deprecate greenkeeper
+
 ## 0.23.1 - kn, ru fix
 - kn i18n #268
 - ru i18n #272
