@@ -30,7 +30,7 @@
     "axios": "^0.20.0",
     "chai": "^4.2.0",
     "eslint": "^7.0.0",
-    "mocha": "^7.0.0",
+    "mocha": "^8.0.0",
     "yargs": "^15.4.1"
   },
   "configSchema": {
