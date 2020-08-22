@@ -3,7 +3,7 @@
 
 *   @liuderchi
 
-def/ar/*.cson        @AmrIKhudair
+def/ar/*.cson        @AmrIKhudair @atefBB
 
 def/be/*.cson        @antikruk
 
@@ -45,7 +45,9 @@ def/nl/*.cson        @laurensbrand
 
 def/pl/*.cson        @nolt
 
-def/pt-br/*.cson     @jsolisu @rclenzi @thiagomneves
+def/pt-br/*.cson     @jsolisu @rclenzi @thiagomneves @GabrielBdeC
+
+def/ro/*.cson        @tiberiufrat
 
 def/ru/*.cson        @Anonym0uz  @Driglu4it  @sabinich  @Glazami
 
