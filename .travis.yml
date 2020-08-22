@@ -1,16 +1,14 @@
 language: node_js
 
 node_js:
-- '12'
+- '14'
 
 branches:
   only:
   - master
-  - /^greenkeeper/.*$/
 
 before_install:
-- npm install -g npm@5
-- npm install -g greenkeeper-lockfile@1
+- npm install -g npm@6
 
 install:
 - npm install
@@ -22,8 +20,4 @@ notifications:
     on_success: never
     on_failure: change
 
-before_script: greenkeeper-lockfile-update
-
 script: npm run validation
-
-after_script: greenkeeper-lockfile-upload
