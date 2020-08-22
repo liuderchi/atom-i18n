@@ -20,4 +20,4 @@ notifications:
     on_success: never
     on_failure: change
 
-script: npm run validation
+script: npm run ci:test

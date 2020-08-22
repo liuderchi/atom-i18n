@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "version": "0.23.1",
   "scripts": {
-    "test": "npm run lint && npm run validation",
+    "ci:test": "npm run lint && npm run validation",
     "lint": "eslint lib spec",
     "validation": "mocha spec/validation.js"
   },
