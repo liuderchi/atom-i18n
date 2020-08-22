@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Inspectează elementul"
+  "atom-text-editor":
+    "color-picker:open": "Selector de culoare"
+    "minimap:toggle": "Afișează miniharta"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Anulează"
+    "core:redo": "Refă"
+    "core:cut": "Taie"
+    "core:copy": "Copiază"
+    "core:paste": "Lipește"
+    "core:delete": "Șterge"
+    "core:select-all": "Selectează tot"
+    "pane:split-up-and-copy-active-item": "Împarte în sus"
+    "pane:split-down-and-copy-active-item": "Împarte în jos"
+    "pane:split-left-and-copy-active-item": "Împarte în stânga"
+    "pane:split-right-and-copy-active-item": "Împarte în dreapta"
+    "pane:close": "Închide panoul"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Dedublează în sus"
+    "pane:split-down-and-copy-active-item": "Dedublează în jos"
+    "pane:split-left-and-copy-active-item": "Dedublează în stânga"
+    "pane:split-right-and-copy-active-item": "Dedublează în dreapta"
+    "pane:close": "Închide panoul"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Schimbă codificarea"
+    "spell-check:correct-misspelling": "Corectează ortografia"
+    "symbols-view:go-to-declaration": "Mergi la declarație"
+  ".overlayer":
+    "grammar-selector:show": "Schimbă limbajul"
+  ".image-view":
+    "image-view:reload": "Reîncarcă imaginea"
+  ".tab":
+    "tabs:close-tab": "Închide fila"
+    "tabs:close-other-tabs": "Închide celelalte file"
+    "tabs:close-tabs-to-right": "Închide filele din dreapta acesteia"
+    "tabs:close-tabs-to-left": "Închide filele din stânga acesteia"
+    "tabs:close-saved-tabs": "Închide filele deja salvate"
+    "tabs:close-all-tabs": "Închide toate filele"
+    "tabs:split-up": "Dedublează în sus"
+    "tabs:split-down": "Dedublează în jos"
+    "tabs:split-left": "Dedublează în stânga"
+    "tabs:split-right": "Dedublează în dreapta"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Deschide în fereastră nouă"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Păstrează filele provizorii"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Redeschide fila închisă"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "Fișier nou"
+    "tree-view:add-folder": "Dosar nou"
+    "tree-view:move": "Redenumește"
+    "tree-view:duplicate": "Duplică"
+    "tree-view:remove": "Șterge"
+    "tree-view:copy": "Copiază"
+    "tree-view:cut": "Taie"
+    "tree-view:paste": "Lipește"
+    "tree-view:open-selected-entry-up": "Dedublează în sus"
+    "tree-view:open-selected-entry-down": "Dedublează în jos"
+    "tree-view:open-selected-entry-left": "Dedublează în stânga"
+    "tree-view:open-selected-entry-right": "Dedublează în dreapta"
+    "application:add-project-folder": "Adaugă un dosar la proiect"
+    "tree-view:copy-full-path": "Copiază calea completă"
+    "tree-view:copy-project-path": "Copiază calea proiectului"
+    "tree-view:open-in-new-window": "Deschide în fereastră nouă"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Dedublează în sus"
+    "tree-view:open-selected-entry-down": "Dedublează în jos"
+    "tree-view:open-selected-entry-left": "Dedublează în stânga"
+    "tree-view:open-selected-entry-right": "Dedublează în dreapta"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "Fișier nou"
+    "tree-view:add-folder": "Dosar nou"
+    "tree-view:move": "Redenumește"
+    "tree-view:duplicate": "Duplică"
+    "tree-view:remove": "Șterge"
+    "tree-view:copy": "Copiază"
+    "tree-view:cut": "Taie"
+    "tree-view:paste": "Lipește"
+    "tree-view:open-selected-entry-up": "Dedublează în sus"
+    "tree-view:open-selected-entry-down": "Dedublează în jos"
+    "tree-view:open-selected-entry-left": "Dedublează în stânga"
+    "tree-view:open-selected-entry-right": "Dedublează în dreapta"
+    "application:add-project-folder": "Adaugă un dosar la proiect"
+    "tree-view:remove-project-folder": "Elimină dosarul din proiect"
+    "tree-view:copy-full-path": "Copiază calea completă"
+    "tree-view:copy-project-path": "Copiază calea proiectului"
+    "tree-view:open-in-new-window": "Deschide în fereastră nouă"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Arată în Finder"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Arată în Explorer"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Arată în gestionarul de fișiere"
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Caută în dosar"
+  ".tree-view .multi-select":
+    "tree-view:remove": "Șterge"
+    "tree-view:copy": "Copiază"
+    "tree-view:cut": "Taie"
+    "tree-view:paste": "Lipește"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Arată în structura arborescentă"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Redenumește"
+    "tree-view:reveal-active-file": "Arată în structura arborescentă"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Arată în Finder"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Arată în Explorer"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Arată în gestionarul de fișiere"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Arată în Finder"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Arată în Explorer"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Arată în gestionarul de fișiere"

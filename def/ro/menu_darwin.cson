@@ -1,0 +1,325 @@
+Menu:
+  Atom:
+    value: "Atom"
+    submenu:
+      "About Atom":
+        value: "Despre Atom"
+      "View License":
+        value: "Vezi licența"
+      "Check for Update":
+        value: "Verifică pentru actualizări"
+      "Preferences…":
+        value: "Preferințe..."
+      "Config…":
+        value: "Configurări..."
+      "Init Script…":
+        value: "Script de inițializare..."
+      "Keymap…":
+        value: "Scurtături tastatură..."
+      "Snippets…":
+        value: "Fragmente de cod..."
+      "Stylesheet…":
+        value: "Foaie de stil..."
+      "Install Shell Commands":
+        value: "Instalează comenzile pentru terminal"
+      "Hide Atom":
+        value: "Ascunde Atom"
+      "Hide Others":
+        value: "Ascunde celelalte"
+      "Show All":
+        value: "Arată totul"
+      Quit:
+        value: "Termină"
+  File:
+    value: "Fișier"
+    submenu:
+      "New Window":
+        value: "Fereastră nouă"
+      "New File":
+        value: "Filă nouă"
+      "Open…":
+        value: "Deschide..."
+      "Add Project Folder…":
+        value: "Adaugă un dosar la proiect..."
+      "Reopen Project":
+        value: "Dechide un proiect recent"
+        submenu:
+          "Clear Project History":
+            value: "Șterge istoricul proiectelor"
+      "Reopen Last Item":
+        value: "Redeschide ultimul element"
+      Save:
+        value: "Salvează"
+      "Save As…":
+        value: "Salvează ca..."
+      "Save All":
+        value: "Salvează totul"
+      "Close Tab":
+        value: "Închide fila"
+      "Close Pane":
+        value: "Închide panoul"
+      "Close Window":
+        value: "Închide fereastra"
+      "Close All Tabs":
+        value: "Închide toate filele"
+  Edit:
+    value: "Editare"
+    submenu:
+      Undo:
+        value: "Anulează"
+      Redo:
+        value: "Refă"
+      Cut:
+        value: "Taie"
+      Copy:
+        value: "Copiază"
+      "Copy Path":
+        value: "Copiază calea"
+      Paste:
+        value: "Lipește"
+      "Select All":
+        value: "Selectează totul"
+      "Toggle Comments":
+        value: "Comentează/decomentează"
+      Lines:
+        value: "Rânduri"
+        submenu:
+          Indent:
+            value: "Indentează"
+          Outdent:
+            value: "Dezindentează"
+          "Auto Indent":
+            value: "Indentare automată"
+          "Move Line Up":
+            value: "Mută rândul în sus"
+          "Move Line Down":
+            value: "Mută rândul în jos"
+          "Duplicate Lines":
+            value: "Duplică rândul"
+          "Delete Line":
+            value: "Șterge rândul"
+          "Join Lines":
+            value: "Undește rândurile"
+      Columns:
+        value: "Coloane"
+        submenu:
+          "Move Selection Left":
+            value: "Mută selecția în stânga"
+          "Move Selection Right":
+            value: "Mută selecția în dreapta"
+      Text:
+        value: "Text"
+        submenu:
+          "Upper Case":
+            value: "Transformă în majuscule"
+          "Lower Case":
+            value: "Transformă în minuscule"
+          "Delete to End of Word":
+            value: "Șterge până la capătul cuvântului"
+          "Delete to Previous Word Boundary":
+            value: "Șterge până la începutul cuvântului"
+          "Delete to Next Word Boundary":
+            value: "Șterge până la următorul cuvânt"
+          "Delete Line":
+            value: "Șterge rândul"
+          Transpose:
+            value: "Inversează caracterele"
+      Folding:
+        value: "Pliaj"
+        submenu:
+          Fold:
+            value: "Pliază"
+          Unfold:
+            value: "Depliază"
+          "Unfold All":
+            value: "Depliază totul"
+          "Fold All":
+            value: "Pliază totul"
+          "Fold Level 1":
+            value: "Pliază la nivelul 1"
+          "Fold Level 2":
+            value: "Pliază la nivelul 2"
+          "Fold Level 3":
+            value: "Pliază la nivelul 3"
+          "Fold Level 4":
+            value: "Pliază la nivelul 4"
+          "Fold Level 5":
+            value: "Pliază la nivelul 5"
+          "Fold Level 6":
+            value: "Pliază la nivelul 6"
+          "Fold Level 7":
+            value: "Pliază la nivelul 7"
+          "Fold Level 8":
+            value: "Pliază la nivelul 8"
+          "Fold Level 9":
+            value: "Pliază la nivelul 9"
+      "Reflow Selection":
+        value: "Redistribuie selecția"
+      Bookmark:
+        value: "Semn de carte"
+        submenu:
+          "View All":
+            value: "Afișează tot"
+          "Toggle Bookmark":
+            value: "Adaugă/elimină un semn de carte"
+          "Jump to Next Bookmark":
+            value: "Mergi la semnul de carte următor"
+          "Jump to Previous Bookmark":
+            value: "Mergi la semnul de carte anterior"
+      "Select Encoding":
+        value: "Alege codificarea"
+      "Go to Line":
+        value: "Mergi la rândul"
+      "Select Grammar":
+        value: "Alege limbajul"
+  View:
+    value: "Vizualizare"
+    submenu:
+      "Toggle Full Screen":
+        value: "Activează/dezactivează modul ecran complet"
+      Panes:
+        value: "Panouri"
+        submenu:
+          "Split Up":
+            value: "Dedublează în sus"
+          "Split Down":
+            value: "Dedublează în jos"
+          "Split Left":
+            value: "Dedublează în stânga"
+          "Split Right":
+            value: "Dedublează în dreapta"
+          "Focus Next Pane":
+            value: "Treci la panoul următor"
+          "Focus Previous Pane":
+            value: "Revino la panoul anterior"
+          "Focus Pane Above":
+            value: "Treci la panoul de deasupra"
+          "Focus Pane Below":
+            value: "Treci la panoul de dedesubt"
+          "Focus Pane On Left":
+            value: "Treci la panoul din dreapta"
+          "Focus Pane On Right":
+            value: "Treci la panoul din stânga"
+          "Close Pane":
+            value: "Închide panoul"
+      Developer:
+        value: "Dezvoltator"
+        submenu:
+          "Open In Dev Mode…":
+            value: "Deschide în modul dezvoltator..."
+          "Reload Window":
+            value: "Reîncarcă fereastra"
+          "Run Package Specs":
+            value: "Lansează testele unitare ale pachetului"
+          "Run Benchmarks":
+            value: "Lansează testele de performanță"
+          "Toggle Developer Tools":
+            value: "Afișează/ascunde uneltele de dezvoltator"
+      "Increase Font Size":
+        value: "Mărește dimensiunea fontului"
+      "Decrease Font Size":
+        value: "Micșorează dimensiunea fontului"
+      "Reset Font Size":
+        value: "Resetează dimensiunea fontului"
+      "Toggle Soft Wrap":
+        value: "Activează/dezactivează încadrarea relativă"
+      "Toggle Command Palette":
+        value: "Afișează/ascunde lista de comenzi"
+      "Toggle Tree View":
+        value: "Afișează/ascunde vederea arborescentă"
+  Selection:
+    value: "Selecție"
+    submenu:
+      "Add Selection Above":
+        value: "Întinde selecția și deasupra"
+      "Add Selection Below":
+        value: "Întinde selecția și dedesubt"
+      "Single Selection":
+        value: "Selecție unică"
+      "Split into Lines":
+        value: "Împarte în rânduri"
+      "Select to Top":
+        value: "Întinde selecția până la început"
+      "Select to Bottom":
+        value: "Întinde selecția până la sfârșit"
+      "Select Line":
+        value: "Selectează tot rândul"
+      "Select Word":
+        value: "Selectează cuvântul"
+      "Select to Beginning of Word":
+        value: "Întinde selecția până la începutul cuvântului"
+      "Select to Beginning of Line":
+        value: "Întinde selecția până la începutul rândului"
+      "Select to First Character of Line":
+        value: "Întinde selecția până la primul caracter din rând"
+      "Select to End of Word":
+        value: "Întinde selecția până la sfârșitul cuvântului"
+      "Select to End of Line":
+        value: "Întinde selecția până la capătul rândului"
+      "Select Inside Brackets":
+        value: "Selectează interiorul parantezelor"
+  Find:
+    value: "Găsire"
+    submenu:
+      "Find in Buffer":
+        value: "Găsește în fișierul curent"
+      "Replace in Buffer":
+        value: "Înlocuiește în fișierul curent"
+      "Select Next":
+        value: "Selectează apariția următoare"
+      "Select All":
+        value: "Selectează toate aparițiile"
+      "Toggle Find in Buffer":
+        value: "Afișează/ascunde căutarea în fișierul curent"
+      "Find in Project":
+        value: "Găsește în proiect"
+      "Toggle Find in Project":
+        value: "Afișează/ascunde căutarea în proiect"
+      "Find All":
+        value: "Găsește toate aparițiile"
+      "Find Next":
+        value: "Găsește următorul"
+      "Find Previous":
+        value: "Găsește anteriorul"
+      "Replace Next":
+        value: "Înlocuiește următorul"
+      "Replace All":
+        value: "Înlocuiește totul"
+      "Clear History":
+        value: "Șterge istoricul"
+      "Find Buffer":
+        value: "Găsește un fișier deschis"
+      "Find File":
+        value: "Găsește un fișier"
+      "Find Modified File":
+        value: "Găsește un fișier modificat"
+  Packages:
+    value: "Pachete"
+  Window:
+    value: "Fereastră"
+    submenu:
+      Minimize:
+        value: "Minimizează"
+      Zoom:
+        value: "Zoom"
+      "Bring All to Front":
+        value: "Adu tot în față"
+  Help:
+    value: "Ajutor"
+    submenu:
+      "Terms of Use":
+        value: "Termeni de utilizare"
+      Documentation:
+        value: "Documentație"
+      Roadmap:
+        value: "Foaie de traseu"
+      "Frequently Asked Questions":
+        value: "Întrebări frecvente"
+      "Community Discussions":
+        value: "Forum comunitar"
+      "Report Issue":
+        value: "Semnalează o problemă"
+      "Search Issues":
+        value: "Caută printre probleme"
+      "Welcome Guide":
+        value: "Ghid de bun venit"
