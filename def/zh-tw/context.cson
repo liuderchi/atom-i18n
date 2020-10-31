@@ -49,7 +49,7 @@ Context:
   ".tab-bar":
     "pane:reopen-closed-item": "重新開啟關閉分頁"
   ".tree-view .full-menu":
-    "tree-view:add-file": "新增文件"
+    "tree-view:add-file": "新增檔案"
     "tree-view:add-folder": "新增資料夾"
     "tree-view:move": "移動/重新命名"
     "tree-view:duplicate": "建立副本"
@@ -71,7 +71,7 @@ Context:
     "tree-view:open-selected-entry-left": "向左分割窗格並開啟 ←"
     "tree-view:open-selected-entry-right": "向右分割窗格並開啟 →"
   ".tree-view .full-menu .project-root > .header":
-    "tree-view:add-file": "新增文件"
+    "tree-view:add-file": "新增檔案"
     "tree-view:add-folder": "新增資料夾"
     "tree-view:move": "移動/重新命名"
     "tree-view:duplicate": "建立副本"
