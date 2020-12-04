@@ -74,6 +74,7 @@ Community-driven translation. :family:
 
 ## Thanks to Contributors
 
+  - Chinese (Traditional): [WinstonSung](//github.com/WinstonSung)
   - Chinese (Simplified): [trifirew](//github.com/trifirew)
   - Korean: [preco21](//github.com/preco21) [chibichichi](//github.com/chibichichi) [Riyeon](//github.com/Riyeon) [nerhis](//github.com/nerhis) [jonghyeok](//github.com/jonghyeok)
   - Spanish: [stsewd](//github.com/stsewd)
