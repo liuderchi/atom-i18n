@@ -65,6 +65,10 @@
           "description": "Español (es)"
         },
         {
+          "value": "fa",
+          "description": "زبان فارسی (fa)"
+        },
+        {
           "value": "fi",
           "description": "suomi (fi)"
         },
