@@ -101,6 +101,10 @@
           "description": "한국어 (ko)"
         },
         {
+          "value": "ms",
+          "description": "Bahasa Melayu (ms)"
+        },
+        {
           "value": "nl",
           "description": "Nederlands (nl)"
         },
