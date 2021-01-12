@@ -28,7 +28,7 @@ Context:
     "spell-check:correct-misspelling": "Pembetulan Ejaan"
     "symbols-view:go-to-declaration": "Pergi ke Pengisytiharan"
   ".overlayer":
-    "grammar-selector:show": "Tukar Tatabahasa"
+    "grammar-selector:show": "Tukar Tatabahasa Aturcara"
   ".image-view":
     "image-view:reload": "Muat Semula Gambar"
   ".tab":
