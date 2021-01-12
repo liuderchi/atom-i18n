@@ -1,32 +1,32 @@
 Menu:
   "&File":
-    value: "&File"
+    value: "&Fail"
     submenu:
       "New &Window":
-        value: "New &Window"
+        value: "Tetingkap Baharu (&W)"
       "&New File":
-        value: "&New File"
+        value: "Fail Baharu (&N)"
       "&Open File…":
-        value: "&Open File…"
+        value: "Buka Fail… (&O)"
       "Open Folder…":
-        value: "Open Folder…"
+        value: "Buka Folder…"
       "Add Project Folder…":
-        value: "Add Project Folder…"
+        value: "Tambah Folder Projek…"
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Buka Semula Projek"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "Buang Sejarah Projek"
       "Reopen Last &Item":
-        value: "Reopen Last &Item"
+        value: "Buka Semula &Item Terakhir"
       "Se&ttings":
-        value: "Se&ttings…"
+        value: "&Tetapan…"
       "Config…":
-        value: "Config…"
+        value: "Konfig…"
       "Init Script…":
-        value: "Init Script…"
+        value: "Skrip Init…"
       "Keymap…":
-        value: "Keymap…"
+        value: "Peta Kekunci…"
       "Snippets…":
         value: "Snippets…"
       "Stylesheet…":
