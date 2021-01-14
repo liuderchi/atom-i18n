@@ -27,7 +27,7 @@
     "cson": "^7.0.0"
   },
   "devDependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "chai": "^4.2.0",
     "eslint": "^7.0.0",
     "mocha": "^8.0.0",
