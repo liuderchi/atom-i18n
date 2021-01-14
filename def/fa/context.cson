@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "بازرسی عنصر"
+  "atom-text-editor":
+    "color-picker:open": "انتخاب کننده رنگ"
+    "minimap:toggle": "تغییر وضعیت نقشه-مینیاتوری"
+  "atom-text-editor, .overlayer":
+    "core:undo": "بازگشت به قبل"
+    "core:redo": "جلو رفتن"
+    "core:cut": "بریدن"
+    "core:copy": "کپی کردن"
+    "core:paste": "چسباندن"
+    "core:delete": "حذف کردن"
+    "core:select-all": "انتخاب همه"
+    "pane:split-up-and-copy-active-item": "بخش کردن قاب به بالا"
+    "pane:split-down-and-copy-active-item": "بخش کردن قاب به پایین"
+    "pane:split-left-and-copy-active-item": "بخش کردن قاب به چپ"
+    "pane:split-right-and-copy-active-item": "بخش کردن قاب به راست"
+    "pane:close": "بستن صفحه"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "بخش کردن قاب به بالا"
+    "pane:split-down-and-copy-active-item": "بخش کردن قاب به پایین"
+    "pane:split-left-and-copy-active-item": "بخش کردن قاب به چپ"
+    "pane:split-right-and-copy-active-item": "بخش کردن قاب به راست"
+    "pane:close": "بستن صفحه"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "تغییر روش کدگذاری متن"
+    "spell-check:correct-misspelling": "اصلاح املا"
+    "symbols-view:go-to-declaration": "برو به تعریفش"
+  ".overlayer":
+    "grammar-selector:show": "تغییر دستور زبان"
+  ".image-view":
+    "image-view:reload": "بارگذاری مجدد تصویر"
+  ".tab":
+    "tabs:close-tab": "بستن زبانه"
+    "tabs:close-other-tabs": "بستن بقیه زبانه ها"
+    "tabs:close-tabs-to-right": "بستن زبانه های راستی"
+    "tabs:close-tabs-to-left": "بستن زبانه های چپی"
+    "tabs:close-saved-tabs": "بستن زبانه های ذخیره شده"
+    "tabs:close-all-tabs": "بستن همه زبانه ها"
+    "tabs:split-up": "بخش کردن قاب به بالا"
+    "tabs:split-down": "بخش کردن قاب به پایین"
+    "tabs:split-left": "بخش کردن قاب به چپ"
+    "tabs:split-right": "بخش کردن قاب به راست"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "باز کردن زبانه در پنجره جدید"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "نگه داشتن زبانه های معلق (ذخیره نشده)"
+  ".tab-bar":
+    "pane:reopen-closed-item": "بازکردن مجدد زبانه های بسته شده"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "پرونده جدید"
+    "tree-view:add-folder": "پوشه جدید"
+    "tree-view:move": "تغییر نام"
+    "tree-view:duplicate": "ساختن یک کپی"
+    "tree-view:remove": "حذف"
+    "tree-view:copy": "کپی"
+    "tree-view:cut": "بریدن"
+    "tree-view:paste": "چسباندن"
+    "tree-view:open-selected-entry-up": "بخش کردن قاب به بالا"
+    "tree-view:open-selected-entry-down": "بخش کردن قاب به پایین"
+    "tree-view:open-selected-entry-left": "بخش کردن قاب به چپ"
+    "tree-view:open-selected-entry-right": "بخش کردن قاب به راست"
+    "application:add-project-folder": "Add Project Folder"
+    "tree-view:copy-full-path": "کپی مسیر کامل"
+    "tree-view:copy-project-path": "کپی مسیر نسبی از ریشه پروژه"
+    "tree-view:open-in-new-window": "بازکردن در پنجره جدید"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "بخش کردن قاب به بالا"
+    "tree-view:open-selected-entry-down": "بخش کردن قاب به پایین"
+    "tree-view:open-selected-entry-left": "بخش کردن قاب به چپ"
+    "tree-view:open-selected-entry-right": "بخش کردن قاب به راست"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "پرونده جدید"
+    "tree-view:add-folder": "پوشه جدید"
+    "tree-view:move": "تغییر نام"
+    "tree-view:duplicate": "ساختن یک کپی"
+    "tree-view:remove": "حذف"
+    "tree-view:copy": "کپی"
+    "tree-view:cut": "بریدن"
+    "tree-view:paste": "چسباندن"
+    "tree-view:open-selected-entry-up": "بخش کردن قاب به بالا"
+    "tree-view:open-selected-entry-down": "بخش کردن قاب به پایین"
+    "tree-view:open-selected-entry-left": "بخش کردن قاب به چپ"
+    "tree-view:open-selected-entry-right": "بخش کردن قاب به راست"
+    "application:add-project-folder": "اضافه کردن پوشه پروژه"
+    "tree-view:remove-project-folder": "حذف کردن پوشه پروژه"
+    "tree-view:copy-full-path": "کپی مسیر کامل"
+    "tree-view:copy-project-path": "کپی مسیر نسبی از ریشه پروژه"
+    "tree-view:open-in-new-window": "بازکردن در پنجره جدید"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": " نشان دادن در Finder"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "نشان دادن در Explorer"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "نشان دادن در File Manager"
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "جستجو در این مسیر"
+  ".tree-view .multi-select":
+    "tree-view:remove": "حذفشان"
+    "tree-view:copy": "کپی کردن شان"
+    "tree-view:cut": "بریدنشان"
+    "tree-view:paste": "چسباندنشان"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "نشان دادن در نمایش درختی"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "تغییر نام"
+    "tree-view:reveal-active-file": "نشان دادن در نمایش درختی"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": " نشان دادن در Finder"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "نشان دادن در Explorer"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "نشان دادن در File Manager"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": " نشان دادن در Finder"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "نشان دادن در Explorer"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "نشان دادن در File Manager"
