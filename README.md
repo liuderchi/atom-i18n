@@ -5,11 +5,10 @@
 [![contribute-welcome-badge][contribute-welcome-badge]][CONTRIBUTING.md]
 [![issues-count][issues-count]][issues]
 
+[![latest version][latest-version]][apm-download-link]
 [![Build Status][travis-status]][travis-project]
 [![Renovate enabled][renovate-badge]][renovate-link]
-[![Dependency Status][david-status]][david-project]
-[![DevDependency Status][david-dev-status]][david-dev-project]
-[![PeerDependency Status][david-peer-status]][david-peer-project]
+[![dependency status][dep-status]][pkg-json]
 [![license][license-badge]][license]
 
 Localize [Atom][atom] :atom: for your locale.
@@ -36,6 +35,7 @@ Community-driven translation. :family:
 | German               |  `de`   | :warning: 99% [I can translate][de-issue-filter]    |
 | Esperanto            |  `eo`   | :warning:  5% [I can translate][eo-issue-filter]    |
 | Spanish              |  `es`   | :white_check_mark: 100%                             |
+| Persian              |  `fa`   | :white_check_mark: 100%                             |
 | Finnish              |  `fi`   | :white_check_mark: 100%                             |
 | French               |  `fr`   | :white_check_mark: 100%                             |
 | Hebrew               |  `he`   | :white_check_mark: 100%                             |
@@ -100,6 +100,7 @@ Community-driven translation. :family:
   - Slovak: [majko96](//github.com/majko96)
   - Kannada: [sachinsshetty](//github.com/sachinsshetty)
   - Hindi: [themakerman](//github.com/themakerman) [ankitbulchandani](//github.com/ankitbulchandani)
+  - Persian [abilogos](//github.com/abilogos)
 
 
 ## Reference
@@ -135,16 +136,14 @@ Community-driven translation. :family:
 [CONTRIBUTING.md]: https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md "CONTRIBUTING.md"
 [issues-count]: https://img.shields.io/github/issues/liuderchi/atom-i18n.svg "issues-count"
 [issues]: https://github.com/liuderchi/atom-i18n/issues "issues"
+
+[latest-version]: https://img.shields.io/apm/v/atom-i18n?label=latest "latest-version"
 [travis-status]: https://travis-ci.org/liuderchi/atom-i18n.svg?branch=master "travis-status"
 [travis-project]: https://travis-ci.org/liuderchi/atom-i18n "travis-project"
 [renovate-badge]: https://img.shields.io/badge/renovate-enabled-brightgreen.svg "renovate-badge"
 [renovate-link]: https://renovateapp.com
-[david-status]: https://david-dm.org/liuderchi/atom-i18n/status.svg "david-status"
-[david-project]: https://david-dm.org/liuderchi/atom-i18n "david-project"
-[david-dev-status]: https://david-dm.org/liuderchi/atom-i18n/dev-status.svg "david-dev-status"
-[david-dev-project]: https://david-dm.org/liuderchi/atom-i18n#info=devDependencies "david-dev-project"
-[david-peer-status]: https://david-dm.org/liuderchi/atom-i18n/peer-status.svg "david-peer-status"
-[david-peer-project]: https://david-dm.org/liuderchi/atom-i18n#info=peerDependencies "david-peer-project"
+[dep-status]: https://img.shields.io/librariesio/github/liuderchi/atom-i18n "dep-status"
+[pkg-json]: https://github.com/liuderchi/atom-i18n/blob/master/package.json "pkg-json"
 [license-badge]: https://img.shields.io/github/license/liuderchi/atom-i18n.svg "license-badge"
 [license]: http://liuderchi.mit-license.org/ "license"
 
@@ -159,6 +158,7 @@ Community-driven translation. :family:
 [cz-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20cz%22 "cz-issue-filter"
 [eo-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20eo%22 "eo-issue-filter"
 [es-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20es%22 "es-issue-filter"
+[fa-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fa%22 "fa-issue-filter"
 [de-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20de%22 "de-issue-filter"
 [fi-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fi%22 "fi-issue-filter"
 [fr-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fr%22 "fr-issue-filter"

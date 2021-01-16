@@ -1,3 +1,6 @@
+## 0.25.0 - Persian support
+- fa #292
+
 ## 0.24.1 - Chinese (Traditional) fix
 - zh-tw i18n #289 #290
 
