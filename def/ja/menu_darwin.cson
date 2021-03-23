@@ -13,7 +13,7 @@ Menu:
       "Config…":
         value: "個人設定..."
       "Init Script…":
-        value: "起動スクリプト..."
+        value: "初期化スクリプト..."
       "Keymap…":
         value: "キーマップ..."
       "Snippets…":
@@ -34,7 +34,7 @@ Menu:
     value: "ファイル"
     submenu:
       "New Window":
-        value: "新規ウインドウ"
+        value: "新規ウィンドウ"
       "New File":
         value: "新規ファイル"
       "Open…":
@@ -42,12 +42,12 @@ Menu:
       "Add Project Folder…":
         value: "プロジェクトフォルダを追加..."
       "Reopen Project":
-        value: "最近使用したプロジェクトを開く"
+        value: "最近使用したプロジェクト"
         submenu:
           "Clear Project History":
             value: "プロジェクト履歴をクリア"
       "Reopen Last Item":
-        value: "最後に使用したファイルを開く..."
+        value: "最近使用したファイル"
       Save:
         value: "保存"
       "Save As…":
@@ -59,24 +59,24 @@ Menu:
       "Close Pane":
         value: "ペインを閉じる"
       "Close Window":
-        value: "ウインドウを閉じる"
+        value: "ウィンドウを閉じる"
       "Close All Tabs":
         value: "タブをすべて閉じる"
   Edit:
     value: "編集"
     submenu:
       Undo:
-        value: "取り消す"
+        value: "元に戻す"
       Redo:
         value: "やり直す"
       Cut:
-        value: "カット"
+        value: "切り取り"
       Copy:
         value: "コピー"
       "Copy Path":
         value: "パスをコピー"
       Paste:
-        value: "ペースト"
+        value: "貼り付け"
       "Select All":
         value: "すべて選択"
       "Toggle Comments":
@@ -130,11 +130,11 @@ Menu:
           Fold:
             value: "折りたたむ"
           Unfold:
-            value: "折りたたみを戻す"
-          "Unfold All":
-            value: "すべての折りたたみを戻す"
+            value: "展開"
           "Fold All":
             value: "すべて折りたたむ"
+          "Unfold All":
+            value: "すべて展開"
           "Fold Level 1":
             value: "1段階折りたたむ"
           "Fold Level 2":
@@ -166,6 +166,10 @@ Menu:
             value: "次のブックマークへ"
           "Jump to Previous Bookmark":
             value: "前のブックマークへ"
+          "Select to Next Bookmark":
+            value: "次のブックマークまで選択"
+          "Select to Previous Bookmark":
+            value: "前のブックマークまで選択"
       "Select Encoding":
         value: "エンコーディング選択"
       "Go to Line":
@@ -203,18 +207,18 @@ Menu:
           "Close Pane":
             value: "ペインを閉じる"
       Developer:
-        value: "開発"
+        value: "デベロッパー"
         submenu:
           "Open In Dev Mode…":
-            value: "開発モードで開く..."
+            value: "デベロッパーモードで開く..."
           "Reload Window":
             value: "ウィンドウの再読み込み"
           "Run Package Specs":
-            value: "パッケージ Specs を実行"
+            value: "パッケージスペックの実行"
           "Run Benchmarks":
-            value: "Run Benchmarks"
+            value: "ベンチマークの実行"
           "Toggle Developer Tools":
-            value: "デベロッパー ツール"
+            value: "デベロッパー ツールの切替"
       "Increase Font Size":
         value: "フォントサイズの拡大"
       "Decrease Font Size":
@@ -225,8 +229,16 @@ Menu:
         value: "自動折り返しの切替"
       "Toggle Command Palette":
         value: "コマンドパレット"
+      # added the following menus, which are just the same menus with "Packages"->"GitHub".
+      "Toggle Git Tab":
+        value: "Git タブの切替"
+      "Toggle GitHub Tab":
+        value: "GitHub タブの切替"
+      "Open Reviews Tab":
+        value: "レビュータブを開く"
+      #
       "Toggle Tree View":
-        value: "ツリービュー"
+        value: "ツリービューの切替"
   Selection:
     value: "選択"
     submenu:
@@ -257,7 +269,7 @@ Menu:
       "Select to End of Line":
         value: "行末まで選択"
       "Select Inside Brackets":
-        value: "カッコ内を選択"
+        value: "括弧内を選択"
   Find:
     value: "検索"
     submenu:
@@ -270,13 +282,13 @@ Menu:
       "Select All":
         value: "一致をすべて選択"
       "Toggle Find in Buffer":
-        value: "検索パネル切替"
+        value: "検索パネルの切替"
       "Find in Project":
         value: "プロジェクト内検索..."
       "Toggle Find in Project":
-        value: "プロジェクト内検索パネル切替"
+        value: "プロジェクト内検索パネルの切替"
       "Find All":
-        value: "Find All"
+        value: "すべて検索"
       "Find Next":
         value: "次を検索"
       "Find Previous":
@@ -296,25 +308,25 @@ Menu:
   Packages:
     value: "パッケージ"
   Window:
-    value: "ウインドウ"
+    value: "ウィンドウ"
     submenu:
       Minimize:
         value: "最小化"
       Zoom:
-        value: "拡大／縮小"
+        value: "ズーム"
       "Bring All to Front":
         value: "すべてを手前に移動"
   Help:
     value: "ヘルプ"
     submenu:
       "Terms of Use":
-        value: "利用条件"
+        value: "利用規約"
       Documentation:
-        value: "ドキュメント"
+        value: "オフィシャルドキュメント"
       Roadmap:
         value: "ロードマップ"
       "Frequently Asked Questions":
-        value: "よくあるご質問"
+        value: "よくある質問 : FAQ"
       "Community Discussions":
         value: "コミュニティ ディスカッション"
       "Report Issue":

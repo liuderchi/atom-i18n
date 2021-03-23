@@ -104,10 +104,10 @@ Menu:
             value: "&Fold"
           "&Unfold":
             value: "&Unfold"
-          "Unfold &All":
-            value: "Unfold &All"
           "Fol&d All":
             value: "Fol&d All"
+          "Unfold &All":
+            value: "Unfold &All"
           "Fold Level 1":
             value: "Fold Level 1"
           "Fold Level 2":
@@ -151,6 +151,10 @@ Menu:
             value: "Jump to Next Bookmark"
           "Jump to Previous Bookmark":
             value: "Jump to Previous Bookmark"
+          "Select to Next Bookmark":
+            value: "Select to Next Bookmark"
+          "Select to Previous Bookmark":
+            value: "Select to Previous Bookmark"
       "Select Encoding":
         value: "Select Encoding"
       "Go to Line":
@@ -212,6 +216,14 @@ Menu:
         value: "Toggle Soft &Wrap"
       "Toggle Command Palette":
         value: "Toggle Command Palette"
+      # added the following menus, which are just the same menus with "Packages"->"GitHub".
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+      value: "Open Reviews Tab"
+      #
       "Toggle Tree View":
         value: "Toggle Tree View"
   "&Selection":
