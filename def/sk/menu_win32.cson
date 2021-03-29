@@ -1,319 +1,489 @@
 Menu:
   "&File":
-    value: "&File"
+    value: "Súbor(&F)"
     submenu:
       "New &Window":
-        value: "Nové &okno"
+        value: "Nové okno(&W)"
       "&New File":
-        value: "&New File"
+        value: "&Nový súbor"
       "&Open File…":
-        value: "&Open File…"
+        value: "&Otvorť súbor..."
       "Open Folder…":
-        value: "Open Folder…"
+        value: "Otvoriť zložku..."
       "Add Project Folder…":
-        value: "Add Project Folder…"
+        value: "Pridať zložku projektu..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Znovu otvoriť projekt"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "Vymazať históriu projektu"
       "Reopen Last &Item":
-        value: "Reopen Last &Item"
+        value: "Znovu otvoriť poslednú položku(&I)"
       "Se&ttings":
-        value: "Se&ttings…"
+        value: "Se&ttings..."
       "Config…":
-        value: "Config…"
+        value: "Config..."
       "Init Script…":
-        value: "Init Script…"
+        value: "Spúšťací Script..."
       "Keymap…":
-        value: "Keymap…"
+        value: "Klávesové skratky..."
       "Snippets…":
-        value: "Snippets…"
+        value: "Skratky..."
       "Stylesheet…":
-        value: "Stylesheet…"
+        value: "Štýly..."
       "&Save":
-        value: "&Save"
+        value: "&Uložiť(&S)"
       "Save &As…":
-        value: "Save &As…"
+        value: "Uložiť &ako..."
       "Save A&ll":
-        value: "Save A&ll"
+        value: "U&ložiť všetko"
       "&Close Tab":
-        value: "&Close Tab"
+        value: "Zatvoriť záložku(&C)"
       "Close &Pane":
-        value: "Close &Pane"
+        value: "Zatvoriť &panel"
       "Clos&e Window":
-        value: "Clos&e Window"
+        value: "Zatvoriť okno(&E)"
       "E&xit":
         value: "E&xit"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "Zatvoriť všetky záložky"
   "&Edit":
-    value: "&Edit"
+    value: "Upraviť(&E)"
     submenu:
       "&Undo":
-        value: "&Undo"
+        value: "Späť(&U)"
       "&Redo":
-        value: "&Redo"
+        value: "Znovu(&R)"
       "Cu&t":
-        value: "Cu&t"
+        value: "Vystrihnúť(&T)"
       "&Copy":
-        value: "&Copy"
+        value: "Kopírovať(&C)"
       "Copy Pat&h":
-        value: "Copy Pat&h"
+        value: "Kopírovať cestu(&H)"
       "&Paste":
-        value: "&Paste"
+        value: "Vložiť(&P)"
       "Paste Without Reformatting":
         value: "Paste Without Reformatting"
       "Select &All":
-        value: "Select &All"
+        value: "Vybr&ať všetko"
       "&Toggle Comments":
-        value: "&Toggle Comments"
+        value: "Prepnúť komen&táre"
       Lines:
-        value: "Lines"
+        value: "Riadky"
         submenu:
           "&Indent":
-            value: "&Indent"
+            value: "Odsad&iť"
           "&Outdent":
-            value: "&Outdent"
+            value: "Zmenšiť &odsadenie"
           "&Auto Indent":
-            value: "&Auto Indent"
+            value: "&Automatické odsadenie"
           "Move Line &Up":
-            value: "Move Line &Up"
+            value: "Presunúť riadok nahor(&U)"
           "Move Line &Down":
-            value: "Move Line &Down"
+            value: "Presunúť riadok nadol(&D)"
           "Du&plicate Lines":
-            value: "Du&plicate Lines"
+            value: "Du&plikovať riadky"
           "D&elete Line":
-            value: "D&elete Line"
+            value: "Zmazať riadok(&E)"
           "&Join Lines":
-            value: "&Join Lines"
+            value: "Spo&jiť riadky"
       Columns:
-        value: "Columns"
+        value: "Stĺpce"
         submenu:
           "Move Selection &Left":
-            value: "Move Selection &Left"
+            value: "Posunúť výber vľavo(&L)"
           "Move Selection &Right":
-            value: "Move Selection &Right"
+            value: "Posunúť výber vpravo(&R)"
       Text:
         value: "Text"
         submenu:
           "&Upper Case":
-            value: "&Upper Case"
+            value: "Veľké písmena(&U)"
           "&Lower Case":
-            value: "&Lower Case"
+            value: "Malé písmena(&L)"
           "Delete to End of &Word":
-            value: "Delete to End of &Word"
+            value: "Zmazať do konca slova(&W)"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "Zmazať k predchádzajúcej hranici slova"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "Zmazať k nasledujúcej hranici slova"
           "&Delete Line":
-            value: "&Delete Line"
+            value: "Vymazať ria&dok"
           "&Transpose":
-            value: "&Transpose"
+            value: "Premies&tniť"
       Folding:
-        value: "Folding"
+        value: "Skladanie"
         submenu:
           "&Fold":
-            value: "&Fold"
+            value: "Zložiť(&F)"
           "&Unfold":
-            value: "&Unfold"
-          "Unfold &All":
-            value: "Unfold &All"
+            value: "Rozložiť(&U)"
           "Fol&d All":
-            value: "Fol&d All"
+            value: "Zložiť všetko(&D)"
+          "Unfold &All":
+            value: "Rozložiť všetko(&A)"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Zložiť úroveň 1"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Zložiť úroveň 2"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Zložiť úroveň 3"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Zložiť úroveň 4"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Zložiť úroveň 5"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Zložiť úroveň 6"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Zložiť úroveň 7"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Zložiť úroveň 8"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Zložiť úroveň 9"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Preformátovať výber"
       Bookmark:
-        value: "Bookmark"
+        value: "Záložky"
         submenu:
           "View All":
-            value: "View All"
+            value: "Zobraziť všetko"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "Prepnúť záložky"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "Skočiť na ďaľšiu záložku"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "Skočiť na predchádzajúcu záložku"
           "Select to Next Bookmark":
             value: "Select to Next Bookmark"
           "Select to Previous Bookmark":
             value: "Select to Previous Bookmark"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "Vybrať kódovanie"
       "Go to Line":
-        value: "Go to Line"
+        value: "Ísť na riadok"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "Vybrať gramatiku"
   "&View":
-    value: "&View"
+    value: "Zobraziť(&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Toggle &Full Screen"
+        value: "Spusťiť režim celej obrazovky(&F)"
       "Toggle Menu Bar":
-        value: "Toggle Menu Bar"
+        value: "Prepnúť Menu"
       Panes:
-        value: "Panes"
+        value: "Panely"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "Rozdeliť Nahor"
           "Split Down":
-            value: "Split Down"
+            value: "Rozdeliť Nadol"
           "Split Left":
-            value: "Split Left"
+            value: "Rozdeliť Vľavo"
           "Split Right":
-            value: "Split Right"
+            value: "Rozdeliť Vpravo"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "Zamerať sa na ďaľší panel"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "Zamerať sa na predchádzajúci panel"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "Zamerať sa na horný panel"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "Zamerať sa na dolný panel"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "Zamerať sa na panel vľavo"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "Zamerať sa na panel vpravo"
           "Close Pane":
-            value: "Close Pane"
+            value: "Zatvoriť panel"
       Developer:
-        value: "Developer"
+        value: "Vývojár"
         submenu:
           "Open In &Dev Mode…":
-            value: "Open In &Dev Mode…"
+            value: "Otvoriť v mó&de pre vývojárov..."
           "&Reload Window":
-            value: "&Reload Window"
+            value: "Znovu načítať okno(&R)"
           "Run Package &Specs":
-            value: "Run Package &Specs"
+            value: "&Spustiť špecifikáciu balíka"
           "Run &Benchmarks":
-            value: "Run &Benchmarks"
+            value: "Spustiť &Benchmarks"
           "Toggle Developer &Tools":
-            value: "Toggle Developer &Tools"
+            value: "Prepnúť nás&troje pre vývojárov"
       "&Increase Font Size":
-        value: "&Increase Font Size"
+        value: "Zväčš&iť veľkosť písma"
       "&Decrease Font Size":
-        value: "&Decrease Font Size"
+        value: "Z&menšiť veľkosť písma"
       "Re&set Font Size":
-        value: "Re&set Font Size"
+        value: "Obnoviť veľko&sť písma"
       "Toggle Soft &Wrap":
-        value: "Toggle Soft &Wrap"
+        value: "Prepnúť Soft &Wrap"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "Spustiť príkazový riadok"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+        value: "Open Reviews Tab"
+      #
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "Prepnúť strom súboru"
   "&Selection":
-    value: "&Selection"
+    value: "Výber(&S)"
     submenu:
       "Add Selection &Above":
-        value: "Add Selection &Above"
+        value: "Pridať výber &nad"
       "Add Selection &Below":
-        value: "Add Selection &Below"
+        value: "Pridať výber po&d"
       "S&plit into Lines":
-        value: "S&plit into Lines"
+        value: "Rozdeliť na riadk&y"
       "Single Selection":
-        value: "Single Selection"
+        value: "Jeden výber"
       "Select to &Top":
-        value: "Select to &Top"
+        value: "Vybrať až na&hor"
       "Select to Botto&m":
-        value: "Select to Botto&m"
+        value: "Vybrať až na&dol"
       "Select &Line":
-        value: "Select &Line"
+        value: "Vybrať &riadok"
       "Select &Word":
-        value: "Select &Word"
+        value: "Vy&brať slovo"
       "Select to Beginning of W&ord":
-        value: "Select to Beginning of W&ord"
+        value: "Vybrať začiatok sl&ova"
       "Select to Beginning of L&ine":
-        value: "Select to Beginning of L&ine"
+        value: "Vybrať zač&iatok riadku"
       "Select to First &Character of Line":
-        value: "Select to First &Character of Line"
+        value: "Vybrať prvý zna&k riadku"
       "Select to End of Wor&d":
-        value: "Select to End of Wor&d"
+        value: "Vybrať do konca &slova"
       "Select to End of Lin&e":
-        value: "Select to End of Lin&e"
+        value: "Vybrať do konca &riadku"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "Vybrať vnútro zátvoriek"
   "F&ind":
-    value: "F&ind"
+    value: "Hľadať(&I)"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "Hľadať v schránke"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "Nahradiť v schránke"
       "Select Next":
-        value: "Select Next"
+        value: "Vybrať daľší"
       "Select All":
-        value: "Select All"
+        value: "Vybrať všetko"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "Zapnúť hľadanie zo schránky"
       "Find in Project":
-        value: "Find in Project"
+        value: "Hľadať v projekte"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "Zapnúť hľadanie v projekte"
       "Find All":
-        value: "Find All"
+        value: "Nájsť všetko"
       "Find Next":
-        value: "Find Next"
+        value: "Nájsť ďalší"
       "Find Previous":
-        value: "Find Previous"
+        value: "Nájsť predchádzajúci"
       "Replace Next":
-        value: "Replace Next"
+        value: "Nahradiť ďaľší"
       "Replace All":
-        value: "Replace All"
+        value: "Nahradiť všetko"
       "Clear History":
-        value: "Clear History"
+        value: "Vymazať históriu"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "Hľadať zo schránky"
       "Find File":
-        value: "Find File"
+        value: "Nájsť súbor"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "Nájsť upravený súbor"
   "&Packages":
-    value: "&Packages"
+    value: "&Pluginy"
+    submenu:
+      "Bracket Matcher":
+        value: "Bracket Matcher"
+        submenu:
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+          "Select Inside Brackets":
+            value: "Select Inside Brackets"
+          "Remove Brackets From Selection":
+            value: "Remove Brackets From Selection"
+          "Close Current Tag":
+            value: "Close Current Tag"
+          "Remove Matching Brackets":
+            value: "Remove Matching Brackets"
+          "Select Matching Brackets":
+            value: "Select Matching Brackets"
+      "Command Palette":
+        value: "Command Palette"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Dev Live Reload":
+        value: "Dev Live Reload"
+        submenu:
+          "Reload All Styles":
+            value: "Reload All Styles"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "Move to Next Diff"
+          "Move to Previous Diff":
+            value: "Move to Previous Diff"
+          "Toggle Diff List":
+            value: "Toggle Diff List"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Toggle Git Tab"
+          "Toggle GitHub Tab":
+            value: "Toggle GitHub Tab"
+          "Open Reviews Tab":
+            value: "Open Reviews Tab"
+      "Keybinding Resolver":
+        value: "Keybinding Resolver"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+      "Markdown Preview":
+        value: "Markdown Preview"
+        submenu:
+          "Toggle Preview":
+            value: "Toggle Preview"
+          "Toggle Break on Single Newline":
+            value: "Toggle Break on Single Newline"
+          "Toggle GitHub Style":
+            value: "Toggle GitHub Style"
+      "Open On GitHub":
+        value: "Open On GitHub"
+        submenu:
+          "Blame":
+            value: "Blame"
+          "Branch Compare":
+            value: "Branch Compare"
+          "Copy URL":
+            value: "Copy URL"
+          "File":
+            value: "File"
+          "File on Master":
+            value: "File on Master"
+          "History":
+            value: "History"
+          "Issues":
+            value: "Issues"
+          "Pull Requests":
+            value: "Pull Requests"
+          "Repository":
+            value: "Repository"
+      "Package Generator":
+        value: "Package Generator"
+        submenu:
+          "Generate Atom Package":
+            value: "Generate Atom Package"
+          "Generate Atom Syntax Theme":
+            value: "Generate Atom Syntax Theme"
+      "Settings View":
+        value: "Settings View"
+        submenu:
+          "Open":
+            value: "Open"
+          "Show Keybindings":
+            value: "Show Keybindings"
+          "Install Packages/Themes":
+            value: "Install Packages/Themes"
+          "Update Packages/Themes":
+            value: "Update Packages/Themes"
+          "Manage Packages":
+            value: "Manage Packages"
+          "Manage Themes":
+            value: "Manage Themes"
+      "Snippets":
+        value: "Snippets"
+        submenu:
+          "Expand":
+            value: "Expand"
+          "Next Stop":
+            value: "Next Stop"
+          "Previous Stop":
+            value: "Previous Stop"
+          "Available":
+            value: "Available"
+      "Spell Check":
+        value: "Spell Check"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Styleguide":
+        value: "Styleguide"
+        submenu:
+          "Show":
+            value: "Show"
+      "Symbols":
+        value: "Symbols"
+        submenu:
+          "File Symbols":
+            value: "File Symbols"
+          "Project Symbols":
+            value: "File Symbols"
+      "Timecop":
+        value: "Timecop"
+        submenu:
+          "Show":
+            value: "Show"
+      "Tree View":
+        value: "Tree View"
+        submenu:
+          "Focus":
+            value: "Focus"
+          "Toggle":
+            value: "Toggle"
+          "Reveal Active File":
+            value: "Reveal Active File"
+          "Toggle Tree Side":
+            value: "Toggle Tree Side"
+      "Whitespace":
+        value: "Whitespace"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "Remove Trailing Whitespace"
+          "Save With Trailing Whitespace":
+            value: "Save With Trailing Whitespace"
+          "Save Without Trailing Whitespace":
+            value: "Save Without Trailing Whitespace"
+          "Convert Tabs To Spaces":
+            value: "Convert Tabs To Spaces"
+          "Convert Spaces To Tabs":
+            value: "Convert Spaces To Tabs"
+          "Convert All Tabs To Spaces":
+            value: "Convert All Tabs To Spaces"
   "&Help":
-    value: "&Help"
+    value: "Pomoc(&H)"
     submenu:
       "View &Terms of Use":
-        value: "View &Terms of Use"
+        value: "Podmienky používania(&T)"
       "View &License":
-        value: "View &License"
+        value: "Zobraziť &Licenciu"
       "Restart and Install Update":
         value: "Restart and Install Update"
       "Check for Update":
-        value: "Check for Update"
+        value: "Skontrolovať aktualizácie"
       "Checking for Update":
         value: "Checking for Update"
       "Downloading Update":
         value: "Downloading Update"
       "&Documentation":
-        value: "&Documentation"
+        value: "&Dokumentácia"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "Často kladdené otázky"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Komunitná diskusia"
       "Report Issue":
-        value: "Report Issue"
+        value: "Nahlásiť problém"
       "Search Issues":
-        value: "Search Issues"
+        value: "Hľadať problémy"
       "About Atom":
-        value: "About Atom"
+        value: "O Atome"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "Vitajte"

@@ -13,18 +13,18 @@ Menu:
       "Add Project Folder…":
         value: "プロジェクトフォルダを追加..."
       "Reopen Project":
-        value: "最近使用したプロジェクトを開く"
+        value: "最近使用したプロジェクト"
         submenu:
           "Clear Project History":
             value: "プロジェクト履歴をクリア"
       "Reopen Last &Item":
-        value: "最後に使用したファイルを開く(&I)"
+        value: "最近使用したファイル(&I)"
       "Se&ttings":
         value: "環境設定(&T)..."
       "Config…":
         value: "個人設定..."
       "Init Script…":
-        value: "起動スクリプト..."
+        value: "初期化スクリプト..."
       "Keymap…":
         value: "キーマップ..."
       "Snippets…":
@@ -51,19 +51,19 @@ Menu:
     value: "編集(&E)"
     submenu:
       "&Undo":
-        value: "取り消す(&U)"
+        value: "元に戻す(&U)"
       "&Redo":
         value: "やり直す(&R)"
       "Cu&t":
-        value: "カット(&T)"
+        value: "切り取り(&C)"
       "&Copy":
         value: "コピー(&C)"
       "Copy Pat&h":
         value: "パスをコピー(&H)"
       "&Paste":
-        value: "ペースト(&P)"
+        value: "貼り付け(&P)"
       "Paste Without Reformatting":
-        value: "書式設定なしで貼り付け"
+        value: "書式なしで貼り付け"
       "Select &All":
         value: "すべて選択(&A)"
       "&Toggle Comments":
@@ -117,11 +117,11 @@ Menu:
           "&Fold":
             value: "折りたたむ(&F)"
           "&Unfold":
-            value: "折りたたみを戻す(&U)"
-          "Unfold &All":
-            value: "すべての折りたたみを戻す(&A)"
+            value: "展開(&U)"
           "Fol&d All":
             value: "すべて折りたたむ(&D)"
+          "Unfold &All":
+            value: "すべて展開(&A)"
           "Fold Level 1":
             value: "1段階折りたたむ"
           "Fold Level 2":
@@ -154,22 +154,22 @@ Menu:
           "Jump to Previous Bookmark":
             value: "前のブックマークへ"
           "Select to Next Bookmark":
-            value: "次のブックマークまで選択する"
+            value: "次のブックマークまで選択"
           "Select to Previous Bookmark":
-            value: "前のブックマークまで選択する"
+            value: "前のブックマークまで選択"
       "Select Encoding":
-        value: "エンコーディング選択"
+        value: "エンコードの選択"
       "Go to Line":
         value: "指定行に移動"
       "Select Grammar":
-        value: "文法を選択"
+        value: "Grammar：言語ハイライトの変更"
   "&View":
     value: "表示(&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "フルスクリーン切替(&F)"
+        value: "フルスクリーンの切替(&F)"
       "Toggle Menu Bar":
-        value: "メニューバー切替"
+        value: "メニューバーの切替"
       Panes:
         value: "ペイン"
         submenu:
@@ -196,18 +196,18 @@ Menu:
           "Close Pane":
             value: "ペインを閉じる"
       Developer:
-        value: "開発"
+        value: "デベロッパー"
         submenu:
           "Open In &Dev Mode…":
-            value: "開発モードで開く(&D)"
+            value: "デベロッパーモードで開く(&D)"
           "&Reload Window":
             value: "ウィンドウの再読み込み(&R)"
           "Run Package &Specs":
-            value: "パッケージスペックを実行(&S)"
+            value: "パッケージスペックの実行(&S)"
           "Run &Benchmarks":
-            value: "ベンチマークを実行(&B)"
+            value: "ベンチマークの実行(&B)"
           "Toggle Developer &Tools":
-            value: "デベロッパー ツール(&T)"
+            value: "デベロッパー ツールの切替(&T)"
       "&Increase Font Size":
         value: "フォントサイズの拡大(&I)"
       "&Decrease Font Size":
@@ -218,8 +218,16 @@ Menu:
         value: "自動折り返しの切替(&W)"
       "Toggle Command Palette":
         value: "コマンドパレット"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Git タブの切替"
+      "Toggle GitHub Tab":
+        value: "GitHub タブの切替"
+      "Open Reviews Tab":
+        value: "レビュータブを開く"
+      #
       "Toggle Tree View":
-        value: "ツリービュー"
+        value: "ツリービューの切替"
   "&Selection":
     value: "選択(&S)"
     submenu:
@@ -250,7 +258,7 @@ Menu:
       "Select to End of Lin&e":
         value: "行末まで選択(&E)"
       "Select Inside Brackets":
-        value: "カッコ内を選択"
+        value: "括弧内を選択"
   "F&ind":
     value: "検索(&I)"
     submenu:
@@ -263,11 +271,11 @@ Menu:
       "Select All":
         value: "一致をすべて選択"
       "Toggle Find in Buffer":
-        value: "検索パネル切替"
+        value: "検索パネルの切替"
       "Find in Project":
         value: "プロジェクト内検索..."
       "Toggle Find in Project":
-        value: "プロジェクト内検索パネル切替"
+        value: "プロジェクト内検索パネルの切替"
       "Find All":
         value: "すべて検索"
       "Find Next":
@@ -288,11 +296,173 @@ Menu:
         value: "修正されたファイルを検索"
   "&Packages":
     value: "パッケージ(&P)"
+    submenu:
+      "Bracket Matcher":
+        value: "括弧の対応"
+        submenu:
+          "Go To Matching Bracket":
+            value: "対応する括弧に移動"
+          "Select Inside Brackets":
+            value: "内側の括弧を選択"
+          "Remove Brackets From Selection":
+            value: "選択から括弧を削除"
+          "Close Current Tag":
+            value: "現在のタグを閉じる"
+          "Remove Matching Brackets":
+            value: "対応する括弧を削除"
+          "Select Matching Brackets":
+            value: "対応する括弧を選択"
+      "Command Palette":
+        value: "コマンドパレット"
+        submenu:
+          "Toggle":
+            value: "切替"
+      "Dev Live Reload":
+        value: "デベロッパーモードの自動リロード"
+        submenu:
+          "Reload All Styles":
+            value: "すべてのスタイルをリロード"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "次の Diff に移動"
+          "Move to Previous Diff":
+            value: "前の Diff に移動"
+          "Toggle Diff List":
+            value: "Diff リストの切替"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Git タブの切替"
+          "Toggle GitHub Tab":
+            value: "GitHub タブの切替"
+          "Open Reviews Tab":
+            value: "レビュータブを開く"
+      "Keybinding Resolver":
+        value: "キーバインド リゾルバ"
+        submenu:
+          "Toggle":
+            value: "切替"
+          "Go To Matching Bracket":
+            value: "対応する括弧に移動"
+      "Markdown Preview":
+        value: "Markdown プレビュー"
+        submenu:
+          "Toggle Preview":
+            value: "プレビューの切替"
+          "Toggle Break on Single Newline":
+            value: "通常の改行でプレビューに反映"
+          "Toggle GitHub Style":
+            value: "GitHub スタイルの切替"
+      "Open On GitHub":
+        value: "GitHub で開く"
+        submenu:
+          "Blame":
+            value: "Blame : 作成者メタデータの表示"
+          "Branch Compare":
+            value: "ブランチの比較"
+          "Copy URL":
+            value: "URL のコピー"
+          "File":
+            value: "ファイル"
+          "File on Master":
+            value: "master ブランチのファイル"
+          "History":
+            value: "コミット履歴"
+          "Issues":
+            value: "イシュー"
+          "Pull Requests":
+            value: "プルリクエスト"
+          "Repository":
+            value: "リポジトリ"
+      "Package Generator":
+        value: "パッケージ ジェネレータ"
+        submenu:
+          "Generate Atom Package":
+            value: "Atom パッケージの生成"
+          "Generate Atom Syntax Theme":
+            value: "Atom シンタックス テーマの生成"
+      "Settings View":
+        value: "設定ビュー"
+        submenu:
+          "Open":
+            value: "開く"
+          "Show Keybindings":
+            value: "キーバインドの表示"
+          "Install Packages/Themes":
+            value: "パッケージ/テーマのインストール"
+          "Update Packages/Themes":
+            value: "パッケージ/テーマの更新"
+          "Manage Packages":
+            value: "パッケージの管理"
+          "Manage Themes":
+            value: "テーマの管理"
+      "Snippets":
+        value: "スニペット"
+        submenu:
+          "Expand":
+            value: "展開"
+          "Next Stop":
+            value: "次のタブストップに移動"
+          "Previous Stop":
+            value: "前のタブストップに移動"
+          "Available":
+            value: "登録済み"
+      "Spell Check":
+        value: "スペルチェック"
+        submenu:
+          "Toggle":
+            value: "切替"
+      "Styleguide":
+        value: "スタイルガイド"
+        submenu:
+          "Show":
+            value: "表示"
+      "Symbols":
+        value: "シンボル"
+        submenu:
+          "File Symbols":
+            value: "ファイル シンボル"
+          "Project Symbols":
+            value: "プロジェクト シンボル"
+      "Timecop":
+        value: "タイムコップ"
+        submenu:
+          "Show":
+            value: "表示"
+      "Tree View":
+        value: "ツリービュー"
+        submenu:
+          "Focus":
+            value: "フォーカス"
+          "Toggle":
+            value: "切替"
+          "Reveal Active File":
+            value: "アクティブファイルの表示"
+          "Toggle Tree Side":
+            value: "ツリーサイドの切替"
+      "Whitespace":
+        value: "空白文字"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "末尾の空白文字を削除"
+          "Save With Trailing Whitespace":
+            value: "末尾の空白文字を付けて保存"
+          "Save Without Trailing Whitespace":
+            value: "末尾の空白文字を削除して保存"
+          "Convert Tabs To Spaces":
+            value: "タブを空白文字に変換"
+          "Convert Spaces To Tabs":
+            value: "空白文字をタブに変換"
+          "Convert All Tabs To Spaces":
+            value: "すべてのタブを空白文字に変換"
   "&Help":
     value: "ヘルプ(&H)"
     submenu:
       "View &Terms of Use":
-        value: "利用条件(&T)"
+        value: "利用規約(&T)"
       "View &License":
         value: "ライセンス(&L)"
       "Restart and Install Update":
@@ -304,9 +474,9 @@ Menu:
       "Downloading Update":
         value: "アップデートをダウンロード中"
       "&Documentation":
-        value: "ドキュメント(&D)"
+        value: "オフィシャルドキュメント(&D)"
       "Frequently Asked Questions":
-        value: "よくあるご質問"
+        value: "よくある質問 : FAQ"
       "Community Discussions":
         value: "コミュニティ ディスカッション"
       "Report Issue":
