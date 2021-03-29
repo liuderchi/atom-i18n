@@ -118,10 +118,10 @@ Menu:
             value: "Скрыть(&F)"
           "&Unfold":
             value: "Раскрыть(&U)"
-          "Unfold &All":
-            value: "Раскрыть всё(&A)"
           "Fol&d All":
             value: "Скрыть всё(&D)"
+          "Unfold &All":
+            value: "Раскрыть всё(&A)"
           "Unfold &All":
             value: "Раскрыть всё(&A)"
           "Fold Level 1":

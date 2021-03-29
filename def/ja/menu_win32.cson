@@ -158,11 +158,11 @@ Menu:
           "Select to Previous Bookmark":
             value: "前のブックマークまで選択"
       "Select Encoding":
-        value: "エンコーディング選択"
+        value: "エンコードの選択"
       "Go to Line":
         value: "指定行に移動"
       "Select Grammar":
-        value: "文法を選択"
+        value: "Grammar：言語ハイライトの変更"
   "&View":
     value: "表示(&V)"
     submenu:
@@ -318,7 +318,7 @@ Menu:
           "Toggle":
             value: "切替"
       "Dev Live Reload":
-        value: "Dev Live のリロード"
+        value: "デベロッパーモードの自動リロード"
         submenu:
           "Reload All Styles":
             value: "すべてのスタイルをリロード"
@@ -360,7 +360,7 @@ Menu:
         value: "GitHub で開く"
         submenu:
           "Blame":
-            value: "Blame"
+            value: "Blame : 作成者メタデータの表示"
           "Branch Compare":
             value: "ブランチの比較"
           "Copy URL":
@@ -368,7 +368,7 @@ Menu:
           "File":
             value: "ファイル"
           "File on Master":
-            value: "master でファイル"
+            value: "master ブランチのファイル"
           "History":
             value: "コミット履歴"
           "Issues":

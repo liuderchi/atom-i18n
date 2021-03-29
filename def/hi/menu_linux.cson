@@ -36,7 +36,7 @@ Menu:
       "Close All Tabs":
         value: "सब टैब बंद कारें"
   "&Edit":
-    value: "Edit(&E)"
+    value: "संपादित करे (&E)"
     submenu:
       "&Undo":
         value: "अंडू (&U)"
