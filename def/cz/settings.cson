@@ -19,7 +19,7 @@ Settings:
     }
     {
       _label: "Packages"
-      value: "Pluginy"
+      value: "Balíčky"
     }
     {
       _label: "Themes"
@@ -40,22 +40,22 @@ Settings:
     {_label: "Editor Settings", value: "Nastavení editoru"}
     {_label: "System Settings", value: "Nastavení systému"}
     {_label: "Keybindings", value: "Klávesové zkratky"}
-    {_label: "Installed Packages", value: "Nainstalované pluginy"}
+    {_label: "Installed Packages", value: "Nainstalované balíčky"}
     {_label: "Choose a Theme", value: "Vybrat téma"}
     {_label: "Installed Themes", value: "Nainstalovaná témata"}
-    {_label: "Install Packages", value: "Instalovat pluginy"}
-    {_label: "Featured Packages", value: "Vybrané pluginy"}
+    {_label: "Install Packages", value: "Instalovat balíčky"}
+    {_label: "Featured Packages", value: "Doporučené balíčky"}
     {_label: "Install Themes", value: "Instalovat témata"}
-    {_label: "Featured Themes", value: "Vybraná témata"}
-    {_label: "Available Updates", value: "Mozné aktualizace"}
+    {_label: "Featured Themes", value: "Doporučená témata"}
+    {_label: "Available Updates", value: "Dostupné aktualizace"}
   ]
   subSectionHeadings: [
     {_label: "Invisible", value: "Neviditelné"}
-    {_label: "Community Packages", value: "Pluginy komunity"}
-    {_label: "Core Packages", value: "Základní pluginy"}
-    {_label: "Development Packages", value: "Pluginy ve vývoji"}
-    {_label: "Git Packages", value: "Git pluginy"}
-    {_label: "Community Themes", value: "Komunitní témata"}
+    {_label: "Community Packages", value: "Balíčky komunity"}
+    {_label: "Core Packages", value: "Základní balíčky"}
+    {_label: "Development Packages", value: "Balíčky ve vývoji"}
+    {_label: "Git Packages", value: "Git balíčky"}
+    {_label: "Community Themes", value: "Témata komunity"}
     {_label: "Core Themes", value: "Základní témata"}
     {_label: "Development Themes", value: "Témata ve vývoji"}
     {_label: "Git Themes", value: "Git témata"}
@@ -64,22 +64,18 @@ Settings:
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'Tohle základní nastavení Atomu ovlivňuje chování
-							nesouvisející s úpravou textu. Samotné pluginy můžou mít
-							vlastní dodatečné nastavení, které najdete v jejich kartě
-							v <a class="link packages-open">Seznamu pluginů</a>.'
+        html: 'Toto nastavení ovlivňuje chování nesouvisející s úpravou textu. Samotné balíčky můžou mít vlastní dodatečné nastavení, které najdete v jejich kartě v <a class="link packages-open">Seznamu balíčků</a>.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'Tohle nastavení souvisí s úpravou textu. Některá nastavení můžou být přepsána na základě jazyka. Zkontrolujte si nastavení jazyka kliknutím na jeho kartu v <a class="link packages-open">Seznamu pluginů</a>.'
+        html: 'Toto nastavení souvisí s úpravou textu. Některá nastavení můžou být přepsána na základě jazyka. Zkontrolujte si nastavení jazyka kliknutím na jeho kartu v <a class="link packages-open">Seznamu balíčků</a>.'
       }
     ]
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
         title: "Allow Pending PaneItems"
-        desc: "Allow items to be previewed without adding them to a pane
-               permanently, such as when single clicking files in the tree view."
+        desc: "Allow items to be previewed without adding them to a pane permanently, such as when single clicking files in the tree view."
       }
       {
         _id: 'core.audioBeep'
@@ -88,13 +84,13 @@ Settings:
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automaticky aktualizovat"
+        title: "Automatické aktualizace"
         desc: "Automaticky aktualizovat Atom, když je k dispozici nová verze."
       }
       {
         _id: 'core.autoHideMenuBar'
         title: "Automatický skrývat menu"
-        desc: "Automaticy skryje menu a zobrazíte ho kliknutím Alt. Toto nastavení je podporované pouze na Windows a Linux."
+        desc: "Automaticy skryje menu a zobrazíte ho kliknutím Alt. Toto nastavení je podporované pouze na Windows a Linuxu."
       }
       {
         _id: 'core.closeDeletedFileTabs'
@@ -146,7 +142,7 @@ Settings:
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Pluginy s deaktivovanými klávesovými zkratkami"
+        title: "Balíčky s deaktivovanými klávesovými zkratkami"
       }
       {
         _id: 'core.projectHome'

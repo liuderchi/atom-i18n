@@ -5,15 +5,15 @@ Menu:
       "About Atom":
         value: "O Atomu"
       "View License":
-        value: "Zobrazit Licenci"
+        value: "Zobrazit licenci"
       "Check for Update":
         value: "Zkontrolovat aktualizace"
       "Preferences…":
         value: "Nastavení..."
       "Config…":
-        value: "Config..."
+        value: "Konfigurace..."
       "Init Script…":
-        value: "Spuštěcí Script..."
+        value: "Spuštěcí script..."
       "Keymap…":
         value: "Klávesové zkratky..."
       "Snippets…":
@@ -21,11 +21,11 @@ Menu:
       "Stylesheet…":
         value: "Styly..."
       "Install Shell Commands":
-        value: "Nainstalovat Shell Příkazy"
+        value: "Nainstalovat příkazy příkazové řádky"
       "Hide Atom":
         value: "Skrýt Atom"
       "Hide Others":
-        value: "Skrýt Ostatní"
+        value: "Skrýt ostatní"
       "Show All":
         value: "Zobrazit vše"
       Quit:
@@ -61,14 +61,14 @@ Menu:
       "Close Window":
         value: "Zavřít okno"
       "Close All Tabs":
-        value: "Zavřít všechny panely"
+        value: "Zavřít všechny záložky"
   Edit:
     value: "Upravit"
     submenu:
       Undo:
         value: "Zpět"
       Redo:
-        value: "Znovu"
+        value: "Dopředu"
       Cut:
         value: "Vyjmout"
       Copy:
@@ -134,25 +134,25 @@ Menu:
           "Unfold All":
             value: "Rozložit vše"
           "Fold All":
-            value: "Složit"
+            value: "Složit vše"
           "Fold Level 1":
-            value: "Složit úroveň 1"
+            value: "Složit 1. úroveň"
           "Fold Level 2":
-            value: "Složit úroveň 2"
+            value: "Složit 2. úroveň"
           "Fold Level 3":
-            value: "Složit úroveň 3"
+            value: "Složit 3. úroveň"
           "Fold Level 4":
-            value: "Složit úroveň 4"
+            value: "Složit 4. úroveň"
           "Fold Level 5":
-            value: "Složit úroveň 5"
+            value: "Složit 5. úroveň"
           "Fold Level 6":
-            value: "Složit úroveň 6"
+            value: "Složit 6. úroveň"
           "Fold Level 7":
-            value: "Složit úroveň 7"
+            value: "Složit 7. úroveň"
           "Fold Level 8":
-            value: "Složit úroveň 8"
+            value: "Složit 8. úroveň"
           "Fold Level 9":
-            value: "Složit úroveň 9"
+            value: "Složit 9. úroveň"
       "Reflow Selection":
         value: "Přeformátovat výběr"
       Bookmark:
@@ -171,23 +171,23 @@ Menu:
       "Go to Line":
         value: "Skočit na řádek"
       "Select Grammar":
-        value: "Vybrat gramatiku"
+        value: "Vybrat režim zvýrazňování"
   View:
     value: "Zobrazit"
     submenu:
       "Toggle Full Screen":
-        value: "Spustit řežim celé obrazovky"
+        value: "Přepnout řežim celé obrazovky"
       Panes:
         value: "Panely"
         submenu:
           "Split Up":
-            value: "Rozdělit Nahoru"
+            value: "Rozdělit nahoru"
           "Split Down":
-            value: "Rozdělit Dolů"
+            value: "Rozdělit nolů"
           "Split Left":
-            value: "Rozdělit Vlevo"
+            value: "Rozdělit vlevo"
           "Split Right":
-            value: "Rozdělit Vpravo"
+            value: "Rozdělit vpravo"
           "Focus Next Pane":
             value: "Zaměřit se na další panel"
           "Focus Previous Pane":
@@ -206,13 +206,13 @@ Menu:
         value: "Vývojář"
         submenu:
           "Open In Dev Mode…":
-            value: "Otevřít v módu pro vývojáře..."
+            value: "Otevřít v režimu pro vývojáře..."
           "Reload Window":
             value: "Znovu načíst okno"
           "Run Package Specs":
             value: "Spustit specifikace balíku"
           "Run Benchmarks":
-            value: "Spustit Benchmarks"
+            value: "Spustit srovnávací hodnoty"
           "Toggle Developer Tools":
             value: "Přepnout nástroje pro vývojáře"
       "Increase Font Size":
@@ -222,7 +222,7 @@ Menu:
       "Reset Font Size":
         value: "Obnovit vlikost písma"
       "Toggle Soft Wrap":
-        value: "Přepnout Soft Wrap"
+        value: "Přepnout měkké zalomení"
       "Toggle Command Palette":
         value: "Spustit příkazovou konzoli"
       "Toggle Tree View":
@@ -257,7 +257,7 @@ Menu:
       "Select to End of Line":
         value: "Vybrat konec řádku"
       "Select Inside Brackets":
-        value: "Vybrat vnitřek závorek"
+        value: "Vybrat obsah závorek"
   Find:
     value: "Hledat"
     submenu:
@@ -268,11 +268,11 @@ Menu:
       "Select Next":
         value: "Vybrat další"
       "Select All":
-        value: "Vybrat všechno"
+        value: "Vybrat vše"
       "Toggle Find in Buffer":
         value: "Zapnout hledání ze schránky"
       "Find in Project":
-        value: "Hledat v Projektu"
+        value: "Hledat v projektu"
       "Toggle Find in Project":
         value: "Přepnout hledání v projektu"
       "Find All":
@@ -286,7 +286,7 @@ Menu:
       "Replace All":
         value: "Nahradit všechno"
       "Clear History":
-        value: "Zmazat historii"
+        value: "Smazat historii"
       "Find Buffer":
         value: "Hledat ze schránky"
       "Find File":
@@ -301,7 +301,7 @@ Menu:
       Minimize:
         value: "Skrýt"
       Zoom:
-        value: "Zvětšit/Zmenšit"
+        value: "Přiblížení"
       "Bring All to Front":
         value: "Přenést vše do popředí"
   Help:
@@ -322,4 +322,4 @@ Menu:
       "Search Issues":
         value: "Hledat problémy"
       "Welcome Guide":
-        value: "Vítejte"
+        value: "Uvítací průvodce"
