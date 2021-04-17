@@ -31,7 +31,7 @@ Community-driven translation. :family:
 |----------------------|:-------:|:----------------------------------------------------|
 | Arabic               |  `ar`   | :white_check_mark: 100%                             |
 | Belarusian           |  `be`   | :white_check_mark: 100%                             |
-| Czech                |  `cz`   | :warning: 30% [I can translate][cz-issue-filter]    |
+| Czech                |  `cs`   | :warning: 30% [I can translate][cs-issue-filter]    |
 | German               |  `de`   | :warning: 99% [I can translate][de-issue-filter]    |
 | Esperanto            |  `eo`   | :warning:  5% [I can translate][eo-issue-filter]    |
 | Spanish              |  `es`   | :white_check_mark: 100%                             |
@@ -155,7 +155,7 @@ Community-driven translation. :family:
 
 [ar-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ar%22 "ar-issue-filter"
 [be-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20be%22 "be-issue-filter"
-[cz-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20cz%22 "cz-issue-filter"
+[cs-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20cs%22 "cs-issue-filter"
 [eo-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20eo%22 "eo-issue-filter"
 [es-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20es%22 "es-issue-filter"
 [fa-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fa%22 "fa-issue-filter"

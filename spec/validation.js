@@ -13,10 +13,12 @@ const path = require('path')
 const CSON = require('cson')
 const { expect } = require('chai')
 
-const { flattenObj } = require('./util.js')
+const { flattenObj } = require('./util')
+const { CSON_FILES, ATOM_VERSION, LEGACY_LOCALES } = require('./config')
 const packageJson = require('../package.json')
-const LOCALES = packageJson.configSchema.locale.enum.map(opt => opt.value)
-const { CSON_FILES, ATOM_VERSION } = require('./config.js')
+const LOCALES = packageJson.configSchema.locale.enum
+  .filter((opt) => !LEGACY_LOCALES.find((locale) => locale.prev === opt.value))
+  .map((opt) => opt.value)
 
 describe('validation', () => {
 
