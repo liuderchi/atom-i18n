@@ -31,7 +31,7 @@ Community-driven translation. :family:
 |----------------------|:-------:|:----------------------------------------------------|
 | Arabic               |  `ar`   | :white_check_mark: 100%                             |
 | Belarusian           |  `be`   | :white_check_mark: 100%                             |
-| Czech                |  `cs`   | :warning: 30% [I can translate][cs-issue-filter]    |
+| Czech                |  `cs`   | :warning: 40% [I can translate][cs-issue-filter]    |
 | German               |  `de`   | :warning: 99% [I can translate][de-issue-filter]    |
 | Esperanto            |  `eo`   | :warning:  5% [I can translate][eo-issue-filter]    |
 | Spanish              |  `es`   | :white_check_mark: 100%                             |
@@ -78,21 +78,21 @@ Community-driven translation. :family:
   - Chinese (Simplified): [trifirew](//github.com/trifirew)
   - Korean: [preco21](//github.com/preco21) [chibichichi](//github.com/chibichichi) [Riyeon](//github.com/Riyeon) [nerhis](//github.com/nerhis) [jonghyeok](//github.com/jonghyeok)
   - Spanish: [stsewd](//github.com/stsewd)
-  - German: [Acer54](//github.com/Acer54) [queenar](//github.com/queenar) [Tz3r0](//github.com/Tz3r0) [silas229](//github.com/silas229) [polynoman](https://github.com/polynoman) [Henry2o1o](//github.com/Henry2o1o)
+  - German: [Acer54](//github.com/Acer54) [queenar](//github.com/queenar) [Tz3r0](//github.com/Tz3r0) [silas229](//github.com/silas229) [polynoman](https://github.com/polynoman) [Henry2o1o](//github.com/Henry2o1o) [socialmedialabs](//github.com/socialmedialabs)
   - Russian: [Anonym0uz](//github.com/Anonym0uz) [Driglu4it](//github.com/Driglu4it) [sabinich](//github.com/sabinich) [Dr-Yukon](//github.com/Dr-Yukon) [pleshkovpa](//github.com/pleshkovpa) [Glazami](//github.com/Glazami)
-  - Portuguese (Brazilian): [jsolisu](//github.com/jsolisu) [rclenzi](//github.com/rclenzi) [thiagomneves](//github.com/thiagomneves) [joaopaulonsoares](//github.com/joaopaulonsoares) [adriel83](//github.com/adriel83)
+  - Portuguese (Brazilian): [jsolisu](//github.com/jsolisu) [rclenzi](//github.com/rclenzi) [thiagomneves](//github.com/thiagomneves) [joaopaulonsoares](//github.com/joaopaulonsoares) [adriel83](//github.com/adriel83) [GabrielBdeC](//github.com/GabrielBdeC)
   - Dutch: [laurensbrand](//github.com/laurensbrand)
   - Polish: [Jeplaa](//github.com/Jeplaa)
   - French: [chezyann](//github.com/chezyann) [Vivalzar](//github.com/Vivalzar) [DThought](//github.com/DThought) [lamboley](//github.com/lamboley)
   - Polish: [nolt](//github.com/nolt)
   - Italian: [francematt](//github.com/francematt) [Lorenzo Ancora](//github.com/LorenzoAncora)
   - Thai: [sitdh](//github.com/sitdh)
-  - Japanese: [shingo-uzuki](//github.com/shingo-uzuki) [Umoxfo](//github.com/Umoxfo) [ibuki2003](//github.com/ibuki2003)
+  - Japanese: [shingo-uzuki](//github.com/shingo-uzuki) [Umoxfo](//github.com/Umoxfo) [ibuki2003](//github.com/ibuki2003) [juggernautjp](//github.com/juggernautjp)
   - Hungarian: [dominicus-75](//github.com/dominicus-75)
   - Finnish: [an7oine](//github.com/an7oine)
-  - Arabic: [AmrIKhudair](//github.com/AmrIKhudair)
+  - Arabic: [AmrIKhudair](//github.com/AmrIKhudair) [atefBB](//github.com/atefBB)
   - Belarusian: [antikruk](//github.com/antikruk)
-  - Czech: [Heroyt](//github.com/Heroyt)
+  - Czech: [Heroyt](//github.com/Heroyt) [pervoj](//github.com/pervoj)
   - Albanian: [ujdhesa](//github.com/ujdhesa)
   - Esperanto: [p2635](//github.com/p2635)
   - Ukrainian: [sashaoli](//github.com/sashaoli)
@@ -101,6 +101,7 @@ Community-driven translation. :family:
   - Kannada: [sachinsshetty](//github.com/sachinsshetty)
   - Hindi: [themakerman](//github.com/themakerman) [ankitbulchandani](//github.com/ankitbulchandani)
   - Persian [abilogos](//github.com/abilogos)
+  - Romanian [tiberiufrat](//github.com/tiberiufrat)
 
 
 ## Reference

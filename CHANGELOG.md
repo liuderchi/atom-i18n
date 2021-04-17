@@ -1,3 +1,11 @@
+## 0.25.2 - Czech update, bug fix
+- cs i18n #296
+- fix about view #302
+- use cs for Czech lang code #306
+
+## 0.25.1 - bug fix
+- fix welcome view #298
+
 ## 0.25.0 - Persian support
 - fa #292
 

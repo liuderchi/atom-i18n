@@ -7,7 +7,7 @@ def/ar/*.cson        @AmrIKhudair @atefBB
 
 def/be/*.cson        @antikruk
 
-def/cs/*.cson        @Heroyt
+def/cs/*.cson        @Heroyt @pervoj
 
 def/de/*.cson        @Acer54 @socialmedialabs
 def/de/settings.cson @Acer54  @queenar  @socialmedialabs
@@ -36,7 +36,7 @@ def/hu/*.cson       @dominicus-75
 
 def/it/*.cson       @francematt @LorenzoAncora
 
-def/ja/*.cson        @shingo-uzuki @Umoxfo @ibuki2003
+def/ja/*.cson        @shingo-uzuki @Umoxfo @ibuki2003 @juggernautjp
 
 def/ko/*.cson        @preco21  @chibichichi  @Riyeon  @nerhis
 def/ko/welcome.cson  @jonghyeok
