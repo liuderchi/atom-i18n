@@ -49,8 +49,12 @@
           "description": "Беларуская мова (be)"
         },
         {
+          "value": "cs",
+          "description": "Čeština (cs)"
+        },
+        {
           "value": "cz",
-          "description": "Čeština (cz)"
+          "description": "Čeština (cs)"
         },
         {
           "value": "de",

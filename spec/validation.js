@@ -15,7 +15,12 @@ const { expect } = require('chai')
 
 const { flattenObj } = require('./util.js')
 const packageJson = require('../package.json')
-const LOCALES = packageJson.configSchema.locale.enum.map(opt => opt.value)
+const LOCALES = packageJson.configSchema.locale.enum
+  .filter((opt) => {
+    const LEGACY_LOCALES = ['cz'];
+    return !LEGACY_LOCALES.includes(opt.value);
+  })
+  .map((opt) => opt.value)
 const { CSON_FILES, ATOM_VERSION } = require('./config.js')
 
 describe('validation', () => {
