@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /* Parse Atom source code to get list of config keys and description
   as a reference to settings.cson
   usage: $ node parseConfigSchema.js path/to/atom/src/config-schema.js
@@ -35,3 +37,5 @@ const res = [].concat(
 res.sort((a, b) => a.id.localeCompare(b.id))
 
 console.log(res)
+
+process.exit(0);

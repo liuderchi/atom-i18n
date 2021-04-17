@@ -1,7 +1,4 @@
-'use strict'
-
-
-module.exports.flattenObj = function flattenObj(data) {
+export function flattenObj(data) {
   var result = {}
   function recurse (cur, prop) {
     if (Object(cur) !== cur) {

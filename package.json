@@ -5,7 +5,7 @@
   "scripts": {
     "ci:test": "npm run lint && npm run validation",
     "lint": "eslint lib spec",
-    "validation": "mocha spec/validation.js"
+    "validation": "mocha --require @babel/register spec/validation.js"
   },
   "description": "Localize Atom for your locale. One i18n package for any language. Community-driven translation.",
   "keywords": [
@@ -27,10 +27,15 @@
     "cson": "^7.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/register": "^7.13.14",
     "axios": "^0.21.1",
     "chai": "^4.2.0",
+    "core-js": "^3.10.1",
     "eslint": "^7.0.0",
-    "mocha": "^8.0.0",
+    "mocha": "^8.3.2",
+    "regenerator-runtime": "^0.13.7",
     "yargs": "^16.0.0"
   },
   "configSchema": {

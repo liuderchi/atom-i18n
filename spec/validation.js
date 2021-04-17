@@ -1,6 +1,18 @@
-'use strict'
+// polyfill as of babel 7.4; https://babeljs.io/docs/en/babel-polyfill
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
 
-const argv = require('yargs')
+import fs from 'fs'
+import path from 'path'
+import CSON from 'cson'
+import { expect } from 'chai'
+import yargs from 'yargs'
+
+import { flattenObj } from './util'
+import { CSON_FILES, ATOM_VERSION } from './config'
+import packageJson from '../package.json'
+
+const argv = yargs
   .example('$ npm run validation', 'validate cson of all locales')
   .example('$ npm run validation -- --locale fr zh-tw', 'validate cson in fr/* and zh-tw/*')
   .array('locale')
@@ -8,14 +20,6 @@ const argv = require('yargs')
   .help('h')
   .argv
 
-const fs = require('fs')
-const path = require('path')
-const CSON = require('cson')
-const { expect } = require('chai')
-
-const { flattenObj } = require('./util')
-const { CSON_FILES, ATOM_VERSION } = require('./config')
-const packageJson = require('../package.json')
 const LOCALES = packageJson.configSchema.locale.enum
   .map((opt) => opt.value)
 
