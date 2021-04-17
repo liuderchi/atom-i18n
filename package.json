@@ -3,6 +3,7 @@
   "main": "./lib/main",
   "version": "0.25.2",
   "scripts": {
+    "prettier:write": "prettier --write .",
     "ci:test": "npm run lint && npm run validation",
     "lint": "eslint lib spec",
     "validation": "mocha --require @babel/register spec/validation.js"
@@ -30,13 +31,20 @@
     "@babel/core": "^7.13.15",
     "@babel/preset-env": "^7.13.15",
     "@babel/register": "^7.13.14",
-    "axios": "^0.21.1",
     "chai": "^4.2.0",
     "core-js": "^3.10.1",
     "eslint": "^7.0.0",
+    "eslint-config-prettier": "^8.2.0",
+    "husky": "^6.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "lint-staged": "^10.5.4",
     "mocha": "^8.3.2",
+    "prettier": "^2.2.1",
     "regenerator-runtime": "^0.13.7",
     "yargs": "^16.0.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "configSchema": {
     "locale": {
