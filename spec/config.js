@@ -10,10 +10,7 @@ const CSON_FILES = [
 
 const ATOM_VERSION = 'v1.22.0-beta0'
 
-const LEGACY_LOCALES = [{ prev: 'cz', next: 'cs' }]
-
 module.exports = {
   CSON_FILES,
   ATOM_VERSION,
-  LEGACY_LOCALES,
 }
