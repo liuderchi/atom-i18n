@@ -28,27 +28,27 @@ Menu:
       "Keymap…":
         value: "Peta Kekunci…"
       "Snippets…":
-        value: "Snippets…"
+        value: "Potongan Kod…"
       "Stylesheet…":
-        value: "Stylesheet…"
+        value: "CSS…"
       "&Save":
-        value: "&Save"
+        value: "&Simpan"
       "Save &As…":
-        value: "Save &As…"
+        value: "Simpan Seb&agai…"
       "Save A&ll":
-        value: "Save A&ll"
+        value: "Simpan Semu&a"
       "&Close Tab":
-        value: "&Close Tab"
+        value: "Tutup Tab"
       "Close &Pane":
-        value: "Close &Pane"
+        value: "Tutup Anak Tetingkap"
       "Clos&e Window":
-        value: "Clos&e Window"
+        value: "Tutup Tetingkap"
       "E&xit":
-        value: "E&xit"
+        value: "Keluar"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "Tutup Semua Tab"
   "&Edit":
-    value: "&Edit"
+    value: "Suntingan (&E)"
     submenu:
       "&Undo":
         value: "&Undo"
