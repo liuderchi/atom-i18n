@@ -28,118 +28,118 @@ Menu:
       "Keymap…":
         value: "Peta Kekunci…"
       "Snippets…":
-        value: "Snippets…"
+        value: "Potongan Kod…"
       "Stylesheet…":
-        value: "Stylesheet…"
+        value: "Fail CSS…"
       "&Save":
-        value: "&Save"
+        value: "&Simpan"
       "Save &As…":
-        value: "Save &As…"
+        value: "Simpan Seb&agai…"
       "Save A&ll":
-        value: "Save A&ll"
+        value: "Simpan Semua"
       "&Close Tab":
-        value: "&Close Tab"
+        value: "Tutup Tab"
       "Close &Pane":
-        value: "Close &Pane"
+        value: "Tutup Anak Tingkap"
       "Clos&e Window":
-        value: "Clos&e Window"
+        value: "Tutup Tetingkap"
       "E&xit":
-        value: "E&xit"
+        value: "Keluar"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "Tutup Semua Tab"
   "&Edit":
     value: "&Edit"
     submenu:
       "&Undo":
-        value: "&Undo"
+        value: "&Undur"
       "&Redo":
-        value: "&Redo"
+        value: "Maju"
       "Cu&t":
-        value: "Cu&t"
+        value: "Potong"
       "&Copy":
-        value: "&Copy"
+        value: "Salin"
       "Copy Pat&h":
-        value: "Copy Pat&h"
+        value: "Salin Laluan Fail"
       "&Paste":
-        value: "&Paste"
+        value: "Tam&pal"
       "Paste Without Reformatting":
-        value: "Paste Without Reformatting"
+        value: "Tampal Tanpa Tukar Format"
       "Select &All":
-        value: "Select &All"
+        value: "Pilih Semu&a"
       "&Toggle Comments":
-        value: "&Toggle Comments"
+        value: "Silihkan Komen"
       Lines:
-        value: "Lines"
+        value: "Baris"
         submenu:
           "&Indent":
-            value: "&Indent"
+            value: "Engsot Masuk"
           "&Outdent":
-            value: "&Outdent"
+            value: "Engsot Keluar"
           "&Auto Indent":
-            value: "&Auto Indent"
+            value: "Autoengsot"
           "Move Line &Up":
-            value: "Move Line &Up"
+            value: "Naikkan Baris"
           "Move Line &Down":
-            value: "Move Line &Down"
+            value: "Turunkan Baris"
           "Du&plicate Lines":
-            value: "Du&plicate Lines"
+            value: "Duakan Baris"
           "D&elete Line":
-            value: "D&elete Line"
+            value: "Padam Baris"
           "&Join Lines":
-            value: "&Join Lines"
+            value: "Sambungkan Baris"
       Columns:
-        value: "Columns"
+        value: "Lajur"
         submenu:
           "Move Selection &Left":
-            value: "Move Selection &Left"
+            value: "Gerakkan Pilihan Ke Kiri"
           "Move Selection &Right":
-            value: "Move Selection &Right"
+            value: "Gerakkan Pilihan Ke Kanan"
       Text:
-        value: "Text"
+        value: "Teks"
         submenu:
           "&Upper Case":
-            value: "&Upper Case"
+            value: "H&uruf Besar"
           "&Lower Case":
-            value: "&Lower Case"
+            value: "Huruf Keci&l"
           "Delete to End of &Word":
-            value: "Delete to End of &Word"
+            value: "Padam Sehingga Hujung Kata"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "Padam Ke Batas Kata Sebelumnya"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "Padam Ke Batas Kata Selepasnya"
           "&Delete Line":
-            value: "&Delete Line"
+            value: "Pa&dam Baris"
           "&Transpose":
-            value: "&Transpose"
+            value: "&Transposisi"
       Folding:
-        value: "Folding"
+        value: "Melipat Kod"
         submenu:
           "&Fold":
-            value: "&Fold"
+            value: "Lipat Kod"
           "&Unfold":
-            value: "&Unfold"
+            value: "B&uka Lipatan"
           "Unfold &All":
-            value: "Unfold &All"
+            value: "Buka Semu&a Lipatan"
           "Fol&d All":
-            value: "Fol&d All"
+            value: "Lipat Semua Kod"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Lipat Darjah Pertama"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Lipat Darjah Ke-2"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Lipat Darjah Ke-3"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Lipat Darjah Ke-4"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Lipat Darjah Ke-5"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Lipat Darjah Ke-6"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Lipat Darjah Ke-7"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Lipat Darjah Ke-8"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Lipat Darjah Ke-9"
       "Reflow Selection":
         value: "Reflow Selection"
       Bookmark:
