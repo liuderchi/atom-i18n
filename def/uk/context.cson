@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Інспектор елементу"
+  "atom-text-editor":
+    "color-picker:open": "Вибрати колір"
+    "minimap:toggle": "Міні-мапа"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Скасувати"
+    "core:redo": "Повторити"
+    "core:cut": "Вирізати"
+    "core:copy": "Копіювати"
+    "core:paste": "Вставити"
+    "core:delete": "Видалити"
+    "core:select-all": "Виділити все"
+    "pane:split-up-and-copy-active-item": "Розділити панель зверху"
+    "pane:split-down-and-copy-active-item": "Розділити панель знизу"
+    "pane:split-left-and-copy-active-item": "Розділити панель ліворуч"
+    "pane:split-right-and-copy-active-item": "Розділити панель праворуч"
+    "pane:close": "Закрити панель"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Розділити панель зверху"
+    "pane:split-down-and-copy-active-item": "Розділити панель знизу"
+    "pane:split-left-and-copy-active-item": "Розділити панель ліворуч"
+    "pane:split-right-and-copy-active-item": "Розділити панель праворуч"
+    "pane:close": "Закрити панель"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Змінити кодування"
+    "spell-check:correct-misspelling": "Скоригувати правопис"
+    "symbols-view:go-to-declaration": "Перейти до оголошення"
+  ".overlayer":
+    "grammar-selector:show": "Змінити синтаксис"
+  ".image-view":
+    "image-view:reload": "Перезавантажити зображення"
+  ".tab":
+    "tabs:close-tab": "Закрити вкладку"
+    "tabs:close-other-tabs": "Закрити інші вкладки"
+    "tabs:close-tabs-to-right": "Закрити вкладки праворуч"
+    "tabs:close-tabs-to-left": "Закрити вкладки ліворуч"
+    "tabs:close-saved-tabs": "Закрити збережені вкладки"
+    "tabs:close-all-tabs": "Закрити всі вкладки"
+    "tabs:split-up": "Розділити вкладку зверху"
+    "tabs:split-down": "Розділити вкладку знизу"
+    "tabs:split-left": "Розділити вкладку ліворуч"
+    "tabs:split-right": "Розділити вкладку праворуч"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Відкрити у новому вікні"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Закріпити вкладку"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Відкрити закриті вкладки"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "Новий файл"
+    "tree-view:add-folder": "Нова тека"
+    "tree-view:move": "Перейменувати"
+    "tree-view:duplicate": "Дублювати"
+    "tree-view:remove": "Видалити"
+    "tree-view:copy": "Копіювати"
+    "tree-view:cut": "Вирізати"
+    "tree-view:paste": "Вставити"
+    "tree-view:open-selected-entry-up": "Відкрити угорі"
+    "tree-view:open-selected-entry-down": "Відкрити знизу"
+    "tree-view:open-selected-entry-left": "Відкрити ліворуч"
+    "tree-view:open-selected-entry-right": "Відкрити праворуч"
+    "application:add-project-folder": "Додати теку до проекту"
+    "tree-view:copy-full-path": "Копіювати повний шлях"
+    "tree-view:copy-project-path": "Копіювати шлях проекту"
+    "tree-view:open-in-new-window": "Відкрити у новому вікні"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Відкрити угорі"
+    "tree-view:open-selected-entry-down": "Відкрити знизу"
+    "tree-view:open-selected-entry-left": "Відкрити ліворуч"
+    "tree-view:open-selected-entry-right": "Відкрити праворуч"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "Новий файл"
+    "tree-view:add-folder": "Нова тека"
+    "tree-view:move": "Перейменувати"
+    "tree-view:duplicate": "Дублювати"
+    "tree-view:remove": "Видалити"
+    "tree-view:copy": "Копіювати"
+    "tree-view:cut": "Вирізати"
+    "tree-view:paste": "Вставити"
+    "tree-view:open-selected-entry-up": "Відкрити угорі"
+    "tree-view:open-selected-entry-down": "Відкрити знизу"
+    "tree-view:open-selected-entry-left": "Відкрити ліворуч"
+    "tree-view:open-selected-entry-right": "Відкрити праворуч"
+    "application:add-project-folder": "Додати теку до проекту"
+    "tree-view:remove-project-folder": "Видалити теку з проекту"
+    "tree-view:copy-full-path": "Копіювати повний шлях"
+    "tree-view:copy-project-path": "Копіювати шлях проекту"
+    "tree-view:open-in-new-window": "Відкрити у новому вікні"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Показати у Finder"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Показати у Провіднику"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Показати у Менеджері файлів"
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Пошук у цій теці"
+  ".tree-view .multi-select":
+    "tree-view:remove": "Видалити"
+    "tree-view:copy": "Копіювати"
+    "tree-view:cut": "Вирізати"
+    "tree-view:paste": "Вставити"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Показати у дереві файлів"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Перейменувати"
+    "tree-view:reveal-active-file": "Показати у дереві файлів"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Показати у Finder"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Показати у Провіднику"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Показати у Менеджері файлів"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Показати у Finder"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Показати у Провіднику"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Показати у Менеджері файлів"

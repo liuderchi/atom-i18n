@@ -1,0 +1,325 @@
+Menu:
+  Atom:
+    value: "اتم"
+    submenu:
+      "About Atom":
+        value: "درباره اتم"
+      "View License":
+        value: "مشاهده مجوز"
+      "Check for Update":
+        value: "جستجو برای به روز رسانی"
+      "Preferences…":
+        value: "تنظیمات..."
+      "Config…":
+        value: "پیکربندی..."
+      "Init Script…":
+        value: "اسکریپت آغازین..."
+      "Keymap…":
+        value: "نقشه کلیدها..."
+      "Snippets…":
+        value: "قطعه کدها..."
+      "Stylesheet…":
+        value: "صفحه آرایی..."
+      "Install Shell Commands":
+        value: "نصب دستورات پوسته"
+      "Hide Atom":
+        value: "مخفی کردن اتم"
+      "Hide Others":
+        value: "مخفی کردن بقیه"
+      "Show All":
+        value: "نمایش همگی"
+      Quit:
+        value: "خروج از برنامه"
+  File:
+    value: "File"
+    submenu:
+      "New Window":
+        value: "پنجره جدید"
+      "New File":
+        value: "پرونده جدید"
+      "Open…":
+        value: "باز کردن..."
+      "Add Project Folder…":
+        value: "اضافه کردن پوشه پروژه..."
+      "Reopen Project":
+        value: "بازکردن مجدد پروژه"
+        submenu:
+          "Clear Project History":
+            value: "پاکسازی تاریخچه پروژه"
+      "Reopen Last Item":
+        value: "باز کردن مجدد آخرین مورد"
+      Save:
+        value: "ذخیره"
+      "Save As…":
+        value: "ذخیره به عنوان..."
+      "Save All":
+        value: "ذخیره همه"
+      "Close Tab":
+        value: "بستن زبانه"
+      "Close Pane":
+        value: "بستن قاب"
+      "Close Window":
+        value: "بستن پنجره"
+      "Close All Tabs":
+        value: "بستن همه زبانه ها"
+  Edit:
+    value: "ویرایش"
+    submenu:
+      Undo:
+        value: "بازگشت به قبل"
+      Redo:
+        value: "رفتن به جلو"
+      Cut:
+        value: "بریدن"
+      Copy:
+        value: "کپی"
+      "Copy Path":
+        value: "کپی کردن مسیر"
+      Paste:
+        value: "چسباندن"
+      "Select All":
+        value: "انتخاب همه"
+      "Toggle Comments":
+        value: "تغییر وضعیت بین کامنت و کد"
+      Lines:
+        value: "خطوط"
+        submenu:
+          Indent:
+            value: "فرو رفتن"
+          Outdent:
+            value: "بیرون زدن"
+          "Auto Indent":
+            value: "فرو رفتن خودکار"
+          "Move Line Up":
+            value: "انتقال خط به بالا"
+          "Move Line Down":
+            value: "انتقال خط به پایین"
+          "Duplicate Lines":
+            value: "ساختن یک کپی از خطوط"
+          "Delete Line":
+            value: "حذف خطوط"
+          "Join Lines":
+            value: "پیوستن خطوط"
+      Columns:
+        value: "ستون ها"
+        submenu:
+          "Move Selection Left":
+            value: "انتقال قسمت انتخاب شده به چپ"
+          "Move Selection Right":
+            value: "انتقال قسمت انتخاب شدخ به راست"
+      Text:
+        value: "متن"
+        submenu:
+          "Upper Case":
+            value: "حروف بزرگ"
+          "Lower Case":
+            value: "حروف کوچک"
+          "Delete to End of Word":
+            value: "حذف تا آخر کلمه"
+          "Delete to Previous Word Boundary":
+            value: "حذف تا کلمه پیشین"
+          "Delete to Next Word Boundary":
+            value: "حذف تا کلمه پسین"
+          "Delete Line":
+            value: "حذف خطوط"
+          Transpose:
+            value: "جا به جایی دو نوشته"
+      Folding:
+        value: "تا کردن"
+        submenu:
+          Fold:
+            value: "تا زدن"
+          Unfold:
+            value: "تا باز کردن"
+          "Unfold All":
+            value: "تا از همه باز کردن"
+          "Fold All":
+            value: "همه را تا زدن"
+          "Fold Level 1":
+            value: "تا زدن مرحله ۱"
+          "Fold Level 2":
+            value: "تا زدن مرحله ۲"
+          "Fold Level 3":
+            value: "تا زدن مرحله ۳"
+          "Fold Level 4":
+            value: "تا زدن مرحله ۴"
+          "Fold Level 5":
+            value: "تا زدن مرحله ۵"
+          "Fold Level 6":
+            value: "تا زدن مرحله ۶"
+          "Fold Level 7":
+            value: "تا زدن مرحله ۷"
+          "Fold Level 8":
+            value: "تا زدن مرحله ۸"
+          "Fold Level 9":
+            value: "تا زدن مرحله ۹"
+      "Reflow Selection":
+        value: "روان سازی دوباره متن"
+      Bookmark:
+        value: "نشان کردن"
+        submenu:
+          "View All":
+            value: "نمایش همه"
+          "Toggle Bookmark":
+            value: "تغییر وضعیت نشان"
+          "Jump to Next Bookmark":
+            value: "پریدن به نشان بعدی"
+          "Jump to Previous Bookmark":
+            value: "پریدن به نشان قبلی"
+      "Select Encoding":
+        value: "انتخاب روش کدگذاری"
+      "Go to Line":
+        value: "برو به خط"
+      "Select Grammar":
+        value: "انتخاب دستور زبان"
+  View:
+    value: "نمایش"
+    submenu:
+      "Toggle Full Screen":
+        value: "تغییر وضعییت تمام صفحه"
+      Panes:
+        value: "قاب های نمایش"
+        submenu:
+          "Split Up":
+            value: "بخش کردن قاب به بالا"
+          "Split Down":
+            value: "بخش کردن قاب به پایین"
+          "Split Left":
+            value: "بخش کردن قاب به چپ"
+          "Split Right":
+            value: "بخش کردن قاب به راست"
+          "Focus Next Pane":
+            value: "تمرکز بر قاب بعدی"
+          "Focus Previous Pane":
+            value: "تمرکز بر قاب قبلی"
+          "Focus Pane Above":
+            value: "تمرکز بر قاب بالایی"
+          "Focus Pane Below":
+            value: "تمرکز بر قاب پایینی"
+          "Focus Pane On Left":
+            value: "تمرکز بر قاب چپی"
+          "Focus Pane On Right":
+            value: "تمرکز بر قاب راستی"
+          "Close Pane":
+            value: "بستن قاب"
+      Developer:
+        value: "توسعه دهنده"
+        submenu:
+          "Open In Dev Mode…":
+            value: "...باز کردن در حالت توسعه دهندگی"
+          "Reload Window":
+            value: "بارگذاری مجدد پنجره"
+          "Run Package Specs":
+            value: "اجرای Specs برای پکیج ها"
+          "Run Benchmarks":
+            value: "اجرای محک ها"
+          "Toggle Developer Tools":
+            value: "تغییر وضعیت ابزارهای توسعه دهنده"
+      "Increase Font Size":
+        value: "افزایش اندازه قلم"
+      "Decrease Font Size":
+        value: "کاهش اندازه قلم"
+      "Reset Font Size":
+        value: "تنظیم مجدد اندازه قلم"
+      "Toggle Soft Wrap":
+        value: "تغییر وضعیت خطکشی نرم متن"
+      "Toggle Command Palette":
+        value: "تغییر وضعییت تخته دستورات"
+      "Toggle Tree View":
+        value: "تغییر وضعیت نمایش درختی"
+  Selection:
+    value: "انتخاب"
+    submenu:
+      "Add Selection Above":
+        value: "اضافه کردن بالای قسمت انتخاب شد"
+      "Add Selection Below":
+        value: "اضافه کردن پایین قسمت انتخاب شده"
+      "Single Selection":
+        value: "انتخاب تکی"
+      "Split into Lines":
+        value: "تقسیم به خطوط"
+      "Select to Top":
+        value: "انتخاب تا بالا"
+      "Select to Bottom":
+        value: "انتخاب تا پایین"
+      "Select Line":
+        value: "انتخاب خط"
+      "Select Word":
+        value: "انتخاب کلمه"
+      "Select to Beginning of Word":
+        value: "انتخاب تا آغاز کلمه"
+      "Select to Beginning of Line":
+        value: "انتخاب تا آغاز خط"
+      "Select to First Character of Line":
+        value: "انتخاب تا آغازین کاراکتر خط"
+      "Select to End of Word":
+        value: "انتخاب تا پایان کلمه"
+      "Select to End of Line":
+        value: "انتخاب تا پایان خط"
+      "Select Inside Brackets":
+        value: "انتخاب داخل براکت"
+  Find:
+    value: "یافتن"
+    submenu:
+      "Find in Buffer":
+        value: "یافتن در بافر"
+      "Replace in Buffer":
+        value: "جایگزینی در بافر"
+      "Select Next":
+        value: "انتخاب بعدی"
+      "Select All":
+        value: "انتخاب همه"
+      "Toggle Find in Buffer":
+        value: "تغییر وضعیت یافتن در بافر"
+      "Find in Project":
+        value: "یافتن در پروژه"
+      "Toggle Find in Project":
+        value: "تغییر وضعیت یافتن در پروژه"
+      "Find All":
+        value: "یافتن همه"
+      "Find Next":
+        value: "یافتن بعدی"
+      "Find Previous":
+        value: "یافتن قبلی"
+      "Replace Next":
+        value: "جایگزینی بعدی"
+      "Replace All":
+        value: "جایگزینی همه"
+      "Clear History":
+        value: "پاکسازی تاریخچه"
+      "Find Buffer":
+        value: "یافتن بافر"
+      "Find File":
+        value: "یافتن پرونده"
+      "Find Modified File":
+        value: "یافتن پرونده تغییر یافته"
+  Packages:
+    value: "پکیج ها"
+  Window:
+    value: "پنجره"
+    submenu:
+      Minimize:
+        value: "به زیر کشیدن پنجره"
+      Zoom:
+        value: "بزرگنمایی"
+      "Bring All to Front":
+        value: "همه را به روی صفحه آوردن"
+  Help:
+    value: "راهنما"
+    submenu:
+      "Terms of Use":
+        value: "شرایط استفاده"
+      Documentation:
+        value: "مستندات"
+      Roadmap:
+        value: "نقشه مسیر راه"
+      "Frequently Asked Questions":
+        value: "پرسش و پاسخ های رایج"
+      "Community Discussions":
+        value: "گفتگوهای انجمن"
+      "Report Issue":
+        value: "گزارش مساله"
+      "Search Issues":
+        value: "جستجو برای مسایل"
+      "Welcome Guide":
+        value: "راهنما خوش آمدگویی"

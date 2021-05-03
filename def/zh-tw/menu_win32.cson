@@ -5,7 +5,7 @@ Menu:
       "New &Window":
         value: "開新視窗(&W)"
       "&New File":
-        value: "新增文件(&N)"
+        value: "新增檔案(&N)"
       "&Open File…":
         value: "開啟(&O)..."
       "Open Folder…":
@@ -36,7 +36,7 @@ Menu:
       "Save &As…":
         value: "另存新檔(&A)..."
       "Save A&ll":
-        value: "儲存所有文件(&L)"
+        value: "儲存所有檔案(&L)"
       "&Close Tab":
         value: "關閉分頁(&C)"
       "Close &Pane":
@@ -259,9 +259,9 @@ Menu:
       "Replace in Buffer":
         value: "在文件中取代"
       "Select Next":
-        value: "選擇下一個項目"
+        value: "選取下一個項目"
       "Select All":
-        value: "選擇所有項目"
+        value: "選取所有項目"
       "Toggle Find in Buffer":
         value: "切換文件中尋找面板"
       "Find in Project":
@@ -289,7 +289,7 @@ Menu:
   "&Packages":
     value: "擴充套件(&P)"
   "&Help":
-    value: "幫助(&H)"
+    value: "說明(&H)"
     submenu:
       "View &Terms of Use":
         value: "檢視使用條款(&T)"
@@ -300,9 +300,9 @@ Menu:
       "Check for Update":
         value: "檢查更新"
       "Checking for Update":
-        value: "Checking for Update"
+        value: "正在檢查更新"
       "Downloading Update":
-        value: "Downloading Update"
+        value: "正在下載更新"
       "&Documentation":
         value: "說明文件(&D)"
       "Frequently Asked Questions":

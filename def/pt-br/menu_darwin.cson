@@ -38,7 +38,7 @@ Menu:
       "New File":
         value: "Novo Arquivo"
       "Open…":
-        value: "Abri..."
+        value: "Abrir..."
       "Add Project Folder…":
         value: "Adicionar Pasta de Projeto..."
       "Reopen Project":
@@ -87,7 +87,7 @@ Menu:
           Indent:
             value: "Indentar"
           Outdent:
-            value: "Outdent"
+            value: "Indentar Invertido"
           "Auto Indent":
             value: "Auto Indentar"
           "Move Line Up":
@@ -125,36 +125,36 @@ Menu:
           Transpose:
             value: "Transpor"
       Folding:
-        value: "Folding"
+        value: "Dobragem"
         submenu:
           Fold:
-            value: "Fold"
+            value: "Dobrar"
           Unfold:
-            value: "Unfold"
+            value: "Desdobrar"
           "Unfold All":
-            value: "Unfold All"
+            value: "Desdobrar Tudo"
           "Fold All":
-            value: "Fold All"
+            value: "Dobrar Tudo"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Dobra Nível 1"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Dobra Nível 2"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Dobra Nível 3"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Dobra Nível 4"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Dobra Nível 5"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Dobra Nível 6"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Dobra Nível 7"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Dobra Nível 8"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Dobra Nível 9"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Restruturar Seleção"
       Bookmark:
         value: "Favoritos"
         submenu:
@@ -305,14 +305,14 @@ Menu:
       "Bring All to Front":
         value: "Trazer Todos para Frente"
   Help:
-    value: "Help"
+    value: "Ajuda"
     submenu:
       "Terms of Use":
         value: "Termos de Uso"
       Documentation:
         value: "Documentação"
       Roadmap:
-        value: "Roadmap"
+        value: "Mapa de Desenvolvimento"
       "Frequently Asked Questions":
         value: "Perguntas Frequentes"
       "Community Discussions":

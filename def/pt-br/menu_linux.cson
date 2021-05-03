@@ -16,7 +16,7 @@ Menu:
         value: "Reabrir Projeto"
         submenu:
           "Clear Project History":
-            value: "Limpar Histórico de Projeto"
+            value: "Limpar Histórico do Projeto"
       "Reopen Last &Item":
         value: "Reabrir Último Item(&I)"
       "&Save":
@@ -60,7 +60,7 @@ Menu:
           "&Indent":
             value: "Indentar(&I)"
           "&Outdent":
-            value: "Outdent(&O)"
+            value: "Indentar Invertido(&O)"
           "&Auto Indent":
             value: "Auto Indentar(&A)"
           "Move Line &Up":
@@ -98,34 +98,34 @@ Menu:
           "&Transpose":
             value: "Transpor(&T)"
       Folding:
-        value: "Folding"
+        value: "Dobragem"
         submenu:
           "&Fold":
-            value: "Fold(&F)"
+            value: "Dobrar(&F)"
           "&Unfold":
-            value: "Unfold(&U)"
+            value: "Desdobrar(&U)"
           "Unfold &All":
-            value: "Unfold All(&A)"
+            value: "Desdobrar Tudo(&A)"
           "Fol&d All":
-            value: "Fold All(&D)"
+            value: "Dobrar Tudo(&D)"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Dobra Nível 1"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Dobra Nível 2"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Dobra Nível 3"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Dobra Nível 4"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Dobra Nível 5"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Dobra Nível 6"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Dobra Nível 7"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Dobra Nível 8"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Dobra Nível 9"
       "&Preferences":
         value: "Preferências(&P)"
       "Config…":
@@ -139,7 +139,7 @@ Menu:
       "Stylesheet…":
         value: "Folha de Estilo..."
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Restruturar Seleção"
       Bookmark:
         value: "Favoritos"
         submenu:
@@ -152,7 +152,7 @@ Menu:
           "Jump to Previous Bookmark":
             value: "Ir para o Favorito Anterior"
       "Select Encoding":
-        value: "Selcionar Codificação"
+        value: "Selecionar Codificação"
       "Go to Line":
         value: "Ir para Linha"
       "Select Grammar":
@@ -176,17 +176,17 @@ Menu:
           "Split Right":
             value: "Dividir para a Direita"
           "Focus Next Pane":
-            value: "Focar Próximo Painel"
+            value: "Focar no Próximo Painel"
           "Focus Previous Pane":
-            value: "Focar Painel Anterior"
+            value: "Focar no Painel Anterior"
           "Focus Pane Above":
-            value: "Focar Painel Superior"
+            value: "Focar no Painel Superior"
           "Focus Pane Below":
-            value: "Focar Painel Inferior"
+            value: "Focar no Painel Inferior"
           "Focus Pane On Left":
-            value: "Focar Painel na Esquerda"
+            value: "Focar no Painel na Esquerda"
           "Focus Pane On Right":
-            value: "Focar Painel na Direita"
+            value: "Focar no Painel na Direita"
           "Close Pane":
             value: "Fechar Painel"
       Developer:
@@ -300,6 +300,6 @@ Menu:
       "Search Issues":
         value: "Procurar Problemas"
       "About Atom":
-        value: "Sobre Atom"
+        value: "Sobre o Atom"
       "Welcome Guide":
         value: "Guia de Boas Vindas"

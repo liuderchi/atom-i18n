@@ -1,29 +1,29 @@
 Welcome:
-  tabTitle: "Welcome"
+  tabTitle: "नमसते"
   subtitle: {
-    text1: "A hackable text editor for the 21"
-    superscript: "st"
-    text2: " Century"
+    text1: "२१ वी सदी के लिए एक हैक करने योग्य पाठ संपादक"
+    superscript: ""
+    text2: " "
   }
   help: {
-    forHelpVisit: "For help, please visit"
+    forHelpVisit: "मदद के लिए, कृपया देखें"
     atomDocs: {
-      text1: "The "
+      text1: ""
       link: "Atom docs"
-      text2: " for Guides and the API reference."
+      text2: "गाइड तथा API संदर्भ के लिये "
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {
-      text1: "The Atom forum at "
+      text1: "एटोम मंच पर "
       link: "discuss.atom.io"
       text2: ""   # optional
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomOrg: {
-      text1: "The "
+      text1: ""
       link: "Atom org"
-      text2: ". This is where all GitHub-created Atom packages can be found."
+      text2: ".यह वह जगह है जहाँ सभी GitHub निर्मित एटम पैकेज मिल सकते हैं "
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
-  showWelcomeGuide: "Show Welcome Guide when opening Atom"
+  showWelcomeGuide: "एटम खोलते समय ये वेलकम गाइड दिखाएं"

@@ -5,7 +5,7 @@ Menu:
       "About Atom":
         value: "عن أتوم"
       "View License":
-        value: "إعرض الرخصة"
+        value: "اعرض الرخصة"
       "Check for Update":
         value: "تحقق من التحديثات"
       "Preferences…":
@@ -23,13 +23,13 @@ Menu:
       "Install Shell Commands":
         value: "ثبت أوامر الصدفة"
       "Hide Atom":
-        value: "إخف أتوم"
+        value: "أخف أتوم"
       "Hide Others":
-        value: "إخف الآخرين"
+        value: "أخف الآخرين"
       "Show All":
         value: "أظهر الكل"
       Quit:
-        value: "أترك"
+        value: "اترك"
   File:
     value: "ملف"
     submenu:
@@ -38,22 +38,22 @@ Menu:
       "New File":
         value: "ملف جديد"
       "Open…":
-        value: "إفتح..."
+        value: "افتح..."
       "Add Project Folder…":
         value: "أضف مجلد مشروع..."
       "Reopen Project":
         value: "أعد فتح المشروع"
         submenu:
           "Clear Project History":
-            value: "إمسح تأريخ المشاريع"
+            value: "امسح تأريخ المشاريع"
       "Reopen Last Item":
         value: "أعد فتح العنصر الأخير"
       Save:
-        value: "إحفظ"
+        value: "احفظ"
       "Save As…":
-        value: "إحفظ كـ..."
+        value: "احفظ كـ..."
       "Save All":
-        value: "إحفظ الكل"
+        value: "احفظ الكل"
       "Close Tab":
         value: "أغلق اللسان"
       "Close Pane":
@@ -72,11 +72,11 @@ Menu:
       Cut:
         value: "قص"
       Copy:
-        value: "إنسخ"
+        value: "انسخ"
       "Copy Path":
-        value: "إنسخ المسار"
+        value: "انسخ المسار"
       Paste:
-        value: "إلصق"
+        value: "ألصق"
       "Select All":
         value: "حدد الكل"
       "Toggle Comments":
@@ -89,15 +89,15 @@ Menu:
           Outdent:
             value: "الخاتمة"
           "Auto Indent":
-            value: "إبدأ آليا"
+            value: "ابدأ آليا"
           "Move Line Up":
-            value: "حرك السطر لأعلى"
+            value: "حرك السطر للأعلى"
           "Move Line Down":
-            value: "حرك النص لأسفل"
+            value: "حرك النص للأسفل"
           "Duplicate Lines":
             value: "ضاعف الأسطر"
           "Delete Line":
-            value: "إحذف السطر"
+            value: "احذف السطر"
           "Join Lines":
             value: "ضم الأسطر"
       Columns:
@@ -111,48 +111,48 @@ Menu:
         value: "النص"
         submenu:
           "Upper Case":
-            value: "إرفع الحالة"
+            value: "ارفع الحالة"
           "Lower Case":
             value: "أخفض الحالة"
           "Delete to End of Word":
-            value: "إخذف حتى نهاية الكلمة"
+            value: "اخذف حتى نهاية الكلمة"
           "Delete to Previous Word Boundary":
-            value: "إخذف حتى حد الكلمة السابق"
+            value: "اخذف حتى حد الكلمة السابق"
           "Delete to Next Word Boundary":
-            value: "إحذف حتى حد الكلمة التالي"
+            value: "احذف حتى حد الكلمة التالي"
           "Delete Line":
-            value: "إحذف السطر"
+            value: "احذف السطر"
           Transpose:
-            value: "إقلب"
+            value: "اقلب"
       Folding:
         value: "الطي"
         submenu:
           Fold:
-            value: "إطو"
+            value: "اطو"
           Unfold:
-            value: "إبسط"
+            value: "ابسط"
           "Unfold All":
-            value: "إطو الكل"
+            value: "اطو الكل"
           "Fold All":
-            value: "إبسط الكل"
+            value: "ابسط الكل"
           "Fold Level 1":
-            value: "إطو المستوى 1"
+            value: "اطو المستوى 1"
           "Fold Level 2":
-            value: "إطو المستوى 2"
+            value: "اطو المستوى 2"
           "Fold Level 3":
-            value: "إطو المستوى"
+            value: "اطو المستوى"
           "Fold Level 4":
-            value: "إطو المستوى 4"
+            value: "اطو المستوى 4"
           "Fold Level 5":
-            value: "إطو المستوى 5"
+            value: "اطو المستوى 5"
           "Fold Level 6":
-            value: "إطو المستوى 6"
+            value: "اطو المستوى 6"
           "Fold Level 7":
-            value: "إطو المستوى 7"
+            value: "اطو المستوى 7"
           "Fold Level 8":
-            value: "إطو المستوى 8"
+            value: "اطو المستوى 8"
           "Fold Level 9":
-            value: "إطو المستوى 9"
+            value: "اطو المستوى 9"
       "Reflow Selection":
         value: "أعد دفق المحدد"
       Bookmark:
@@ -163,13 +163,13 @@ Menu:
           "Toggle Bookmark":
             value: "بدل التعليم"
           "Jump to Next Bookmark":
-            value: "إنتقل للعلامة التالية"
+            value: "انتقل إلى العلامة التالية"
           "Jump to Previous Bookmark":
-            value: "إنتقل للعلامة السابقة"
+            value: "انتقل إلى العلامة السابقة"
       "Select Encoding":
         value: "حدد الترميز"
       "Go to Line":
-        value: "إذهب للسطر"
+        value: "اذهب إلى السطر"
       "Select Grammar":
         value: "حدد النحو"
   View:
@@ -181,13 +181,13 @@ Menu:
         value: "الجوانب"
         submenu:
           "Split Up":
-            value: "إقسم لأعلى"
+            value: "اقسم للأعلى"
           "Split Down":
-            value: "إقسم لأسفل"
+            value: "اقسم للأسفل"
           "Split Left":
-            value: "إقسم يسارا"
+            value: "اقسم يسارا"
           "Split Right":
-            value: "إقسم يمينا"
+            value: "اقسم يمينا"
           "Focus Next Pane":
             value: "ركز على الجانب التالي"
           "Focus Previous Pane":
@@ -206,7 +206,7 @@ Menu:
         value: "المطور"
         submenu:
           "Open In Dev Mode…":
-            value: "إفتح في وضع المطور..."
+            value: "افتح في وضع المطور..."
           "Reload Window":
             value: "أعد تحميل النافذة"
           "Run Package Specs":
@@ -218,7 +218,7 @@ Menu:
       "Increase Font Size":
         value: "زد حجم النص"
       "Decrease Font Size":
-        value: "أنقص حجم النص"
+        value: "انقص حجم النص"
       "Reset Font Size":
         value: "أعد تعيين حجم النص"
       "Toggle Soft Wrap":
@@ -237,11 +237,11 @@ Menu:
       "Single Selection":
         value: "تحديد فردي"
       "Split into Lines":
-        value: "إقسم لأسطر"
+        value: "اقسم إلى أسطر"
       "Select to Top":
         value: "حدد حتى القمة"
       "Select to Bottom":
-        value: "جدد حتى القاع"
+        value: "حدد حتى القاع"
       "Select Line":
         value: "حدد السطر"
       "Select Word":
@@ -259,10 +259,10 @@ Menu:
       "Select Inside Brackets":
         value: "حدد ما بين الأقواس"
   Find:
-    value: "الإيجاد"
+    value: "البحث"
     submenu:
       "Find in Buffer":
-        value: "جد في المحمل"
+        value: "بحث في المحمل"
       "Replace in Buffer":
         value: "استبدل في المحمل"
       "Select Next":
@@ -270,29 +270,29 @@ Menu:
       "Select All":
         value: "حدد الكل"
       "Toggle Find in Buffer":
-        value: "بدل الإيجاد في المحمل"
+        value: "بدل البحث في المحمل"
       "Find in Project":
-        value: "جد في المشروع"
+        value: "ابحث في المشروع"
       "Toggle Find in Project":
-        value: "بدل الإيجاد في المشروع"
+        value: "بدل البحث في المشروع"
       "Find All":
-        value: "جد الكل"
+        value: "ابحث غن الكل"
       "Find Next":
-        value: "جد التالي"
+        value: "ابحث عن التالي"
       "Find Previous":
-        value: "جد السابق"
+        value: "ابحث عن السابق"
       "Replace Next":
         value: "استبدل التالي"
       "Replace All":
-        value: "إستبدل الكل"
+        value: "استبدل الكل"
       "Clear History":
-        value: "إمسح التأريخ"
+        value: "امسح التأريخ"
       "Find Buffer":
-        value: "جد محمل"
+        value: "ابحث عن محمل"
       "Find File":
-        value: "جد ملف"
+        value: "ابحث عن ملف"
       "Find Modified File":
-        value: "جد ملف معدل"
+        value: "ابحث عن ملف معدل"
   Packages:
     value: "الحزم"
   Window:
@@ -303,7 +303,7 @@ Menu:
       Zoom:
         value: "كبر"
       "Bring All to Front":
-        value: "أحضر الكل للمقدمة"
+        value: "احضر الكل للمقدمة"
   Help:
     value: "المساعدة"
     submenu:
@@ -320,6 +320,6 @@ Menu:
       "Report Issue":
         value: "أبلغ عن مشكلة"
       "Search Issues":
-        value: "إبحث في المشاكل"
+        value: "ابحث في المشاكل"
       "Welcome Guide":
         value: "دليل الترحيب"

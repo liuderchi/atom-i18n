@@ -6,7 +6,7 @@ Welcome:
     text2: ""
   }
   help: {
-    forHelpVisit: "若需要幫助，請拜訪"
+    forHelpVisit: "若需要協助，請造訪"
     atomDocs: {
       text1: ""
       link: "Atom 文件"
@@ -21,7 +21,7 @@ Welcome:
     }
     atomOrg: {
       text1: ""
-      link: "Atom 組織"
+      link: "Atom 網站"
       text2: "。這裡包含所有 GitHub 所開發的 Atom 擴充套件。"
       _template: "${text1}<a>${link}</a>${text2}"
     }

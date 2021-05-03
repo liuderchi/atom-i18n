@@ -1,16 +1,16 @@
 Welcome:
   tabTitle: "Mirë se vini"
   subtitle: {
-    text1: "Një përpunues tekstesh i hack-ueshëm për"
-    text2: "shekullin e 21-të"
+    text1: "Një përpunues tekstesh i hack-ueshëm, për shekullin e"
     superscript: ""
+    text2: " 21-të"
   }
   help: {
     forHelpVisit: "Për ndihmë, ju lutemi, vizitoni"
     atomDocs: {
       text1: ""
       link: "dokumentimin e Atom-it"
-      text2: " përr Udhërrëfyes dhe referencë të API-t."
+      text2: " për Udhërrëfyes dhe referencë të API-t."
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {

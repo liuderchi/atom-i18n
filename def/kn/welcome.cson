@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "ಸ್ವಾಗತ"
+  subtitle: {
+    text1: "21 ನೇ ಶತಮಾನ "
+    superscript: " ಪಠ್ಯ"
+    text2: " ಸಂಪಾದಕ"
+  }
+  help: {
+    forHelpVisit: "ಸಹಾಯಕ್ಕಾಗಿ, ದಯವಿಟ್ಟು ಭೇಟಿ ನೀಡಿ"
+    atomDocs: {
+      text1: " "
+      link: "ಅಣು(Atom) ದಾಖಲೆ"
+      text2: " ಮಾರ್ಗದರ್ಶಿಗಳು ಮತ್ತು API ಉಲ್ಲೇಖಕ್ಕಾಗಿ."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "ಅಣು(Atom) ವೇದಿಕೆ"
+      link: "discuss.atom.io"
+      text2: ""   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: " "
+      link: "ಅಣು(Atom) ಸಂಸ್ಥೆ"
+      text2: ". GitHub- ರಚಿಸಿದ ಎಲ್ಲಾ ಆಯ್ಟಮ್ ಪ್ಯಾಕೇಜ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಕಾಣಬಹುದು."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "ಅಣು(Atom) ತೆರೆಯುವಾಗ ಸ್ವಾಗತ ಮಾರ್ಗದರ್ಶಿ ತೋರಿಸಿ"

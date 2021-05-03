@@ -1,16 +1,16 @@
 Welcome:
-  tabTitle: "Vítejte"
+  tabTitle: "Vitajte"
   subtitle: {
-    text1: "Modifikovatelný editor pro 21"
+    text1: "Modifikovateľný editor pre 21"
     superscript: ""
-    text2: " století"
+    text2: " storočie"
   }
   help: {
-    forHelpVisit: "Pro pomoc prosím navštivte"
+    forHelpVisit: "Pre pomoc prosím navštívte"
     atomDocs: {
       text1: ""
-      link: "Dokumentaci atomu"
-      text2: " pro Návody a API REFERENCE."
+      link: "Dokumentáciu Atomu"
+      text2: " pre Návody a API REFERENCIE."
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {
@@ -22,8 +22,8 @@ Welcome:
     atomOrg: {
       text1: ""
       link: "Atom org"
-      text2: ". Tady najdete všechny pluginy z GitHubu pro Atom."
+      text2: ". Tuto nájdete všetky pluginy z Githubu pre Atom."
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
-  showWelcomeGuide: "Zobrazit obrazovku \"Vítejte\" při spuštění Atomu"
+  showWelcomeGuide: "Zobraziť obrazovku \"Vitajte\" pri spustení Atomu"

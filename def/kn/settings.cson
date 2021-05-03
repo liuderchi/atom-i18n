@@ -1,129 +1,133 @@
 Settings:
-  "tab-title": "Nastavení"
+  "tab-title": "ಸಂಯೋಜನೆಗಳು"
   menu: [
     {
       _label: "Core"
-      value: "Zálkadní"
+      value: "ಮೂಲ"
     }
     {
       _label: "Editor"
-      value: "Editor"
+      value: "ಸಂಪಾದಕ"
     }
     {
       _label: "System"
-      value: "Systém"
+      value: "ಸಿಸ್ಟಮ್"
     }
     {
       _label: "Keybindings"
-      value: "Klávesové zkratky"
+      value: "ಕೀಲಿ ಬಂಧನಕಾರಕ"
     }
     {
       _label: "Packages"
-      value: "Pluginy"
+      value: "ಪ್ಯಾಕೇಜುಗಳು"
     }
     {
       _label: "Themes"
-      value: "Témata"
+      value: "ಥೀಮ್ಗಳು"
     }
     {
       _label: "Updates"
-      value: "Aktualizace"
+      value: "ನವೀಕರಣಗಳು"
     }
     {
       _label: "Install"
-      value: "Instalovat"
+      value: "ಸ್ಥಾಪಿಸಿ"
     }
   ]
-  "btn-open-config-folder": "Otevřít složku nastavení"
+  "btn-open-config-folder": "Open Config Folder"
   sectionHeadings: [
-    {_label: "Core Settings", value: "Základní nastavení"}
-    {_label: "Editor Settings", value: "Nastavení editoru"}
-    {_label: "System Settings", value: "Nastavení systému"}
-    {_label: "Keybindings", value: "Klávesové zkratky"}
-    {_label: "Installed Packages", value: "Nainstalované pluginy"}
-    {_label: "Choose a Theme", value: "Vybrat téma"}
-    {_label: "Installed Themes", value: "Nainstalovaná témata"}
-    {_label: "Install Packages", value: "Instalovat pluginy"}
-    {_label: "Featured Packages", value: "Vybrané pluginy"}
-    {_label: "Install Themes", value: "Instalovat témata"}
-    {_label: "Featured Themes", value: "Vybraná témata"}
-    {_label: "Available Updates", value: "Mozné aktualizace"}
+    {_label: "Core Settings", value: "ಮೂಲ ಸಂಯೋಜನೆಗಳು"}
+    {_label: "Editor Settings", value: "ಸಂಪಾದಕ ಸಂಯೋಜನೆಗಳು"}
+    {_label: "System Settings", value: "ಸಿಸ್ಟಮ್ ಸಂಯೋಜನೆಗಳು"}
+    {_label: "Keybindings", value: "ಕೀಲಿ ಬಂಧನಕಾರಕ"}
+    {_label: "Installed Packages", value: "ಸ್ಥಾಪಿಸಿದ  ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Choose a Theme", value: "ಥೀಮ್ ಆಯ್ಕೆಮಾಡಿ "}
+    {_label: "Installed Themes", value: "ಸ್ಥಾಪಿಸಿದ ಥೀಮ್ಗಳು"}
+    {_label: "Install Packages", value: "ಸ್ಥಾಪಿಸಿ ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Featured Packages", value: "ವೈಶಿಷ್ಟ್ಯವಾದ ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Install Themes", value: "ಸ್ಥಾಪಿಸಿ ಥೀಮ್ಗಳು"}
+    {_label: "Featured Themes", value: "ವೈಶಿಷ್ಟ್ಯವಾದ ಥೀಮ್ಗಳು"}
+    {_label: "Available Updates", value: "ಲಭ್ಯವಿರುವ ನವೀಕರಣಗಳು"}
   ]
   subSectionHeadings: [
-    {_label: "Invisible", value: "Neviditelné"}
-    {_label: "Community Packages", value: "Pluginy komunity"}
-    {_label: "Core Packages", value: "Základní pluginy"}
-    {_label: "Development Packages", value: "Pluginy ve vývoji"}
-    {_label: "Git Packages", value: "Git pluginy"}
-    {_label: "Community Themes", value: "Komunitní témata"}
-    {_label: "Core Themes", value: "Základní témata"}
-    {_label: "Development Themes", value: "Témata ve vývoji"}
-    {_label: "Git Themes", value: "Git témata"}
+    {_label: "Invisible", value: "ಅಗೋಚರ"}
+    {_label: "Community Packages", value: "ಸಮುದಾಯ ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Core Packages", value: "ಕೋರ್ ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Development Packages", value: "ಅಭಿವೃದ್ಧಿ ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Git Packages", value: "Git ಪ್ಯಾಕೇಜುಗಳು"}
+    {_label: "Community Themes", value: "ಸಮುದಾಯ ಥೀಮ್‌ಗಳು"}
+    {_label: "Core Themes", value: "ಕೋರ್ ಥೀಮ್‌ಗಳು"}
+    {_label: "Development Themes", value: "ಅಭಿವೃದ್ಧಿ ಥೀಮ್ಗಳು"}
+    {_label: "Git Themes", value: "Git ಥೀಮ್ಗಳು"}
   ]
   settings: {
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'Tohle základní nastavení Atomu ovlivňuje chování
-							nesouvisející s úpravou textu. Samotné pluginy můžou mít
-							vlastní dodatečné nastavení, které najdete v jejich kartě
-							v <a class="link packages-open">Seznamu pluginů</a>.'
+        html: 'These are Atom\'s core settings which affect behavior
+               unrelated to text editing. Individual packages may have
+               their own additional settings found within their package
+               card in the <a class="link packages-open">Packages list</a>.'
       }
       {
         _id: 'editor-settings-note'
-        html: 'Tohle nastavení souvisí s úpravou textu. Některá nastavení můžou být přepsána na základě jazyka. Zkontrolujte si nastavení jazyka kliknutím na jeho kartu v <a class="link packages-open">Seznamu pluginů</a>.'
+        html: 'These settings are related to text editing. Some of these
+               can be overriden on a per-language basis. Check language
+               settings by clicking its package card in the
+               <a class="link packages-open">Packages list</a>.'
       }
     ]
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
-        title: "Allow Pending PaneItems"
+        title: "ಬಾಕಿ ಉಳಿದಿರುವ ಪೇನ್ ವಸ್ತುಗಳನ್ನು ಅನುಮತಿಸಿ"
         desc: "Allow items to be previewed without adding them to a pane
                permanently, such as when single clicking files in the tree view."
       }
       {
         _id: 'core.audioBeep'
-        title: "Pípnutí"
-        desc: "Spustí zvukové upozornění, když nemůže být provedena určitá akce nebo nejsou žádné výsledky."
+        title: "ಆಡಿಯೋ ಬೀಪ್"
+        desc: "Trigger the system's beep sound when certain actions cannot be
+               executed or there are no results."
       }
       {
         _id: 'core.automaticallyUpdate'
-        title: "Automaticky aktualizovat"
-        desc: "Automaticky aktualizovat Atom, když je k dispozici nová verze."
+        title: "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನವೀಕರಿಸಿ"
+        desc: "Automatically update Atom when a new release is available."
       }
       {
         _id: 'core.autoHideMenuBar'
-        title: "Automatický skrývat menu"
-        desc: "Automaticy skryje menu a zobrazíte ho kliknutím Alt. Toto nastavení je podporované pouze na Windows a Linux."
+        title: "ಸ್ವಯಂ ಮರೆಮಾಡು ಮೆನು ಬಾರ್"
+        desc: "Automatically hide the menu bar and toggle it by pressing Alt. This is only supported on Windows &amp; Linux."
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Zavřít záložky smazaných souborů"
-        desc: "Zavře záložky, když je jejich soubor smazán mimo Atom."
+        title: "ಅಳಿಸಲಾದ ಫೈಲ್ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚಿ"
+        desc: "Close corresponding editors when a file is deleted outside Atom."
       }
       {
         _id: 'core.closeEmptyWindows'
-        title: "Zavřít prázdná okna"
-        desc: "Když je okno bez záložek nebo se zavřou panely, okno se zavře."
+        title: "ಖಾಲಿ ವಿಂಡೋಸ್ ಮುಚ್ಚಿ"
+        desc: "When a window with no open tabs or panes is given the 'Close Tab' command, close that window."
       }
       {
         _id: 'core.destroyEmptyPanes'
-        title: "Zavřít prázdný panel"
-        desc: "Jakmile se zavře poslední záložka panelu, zavře se i panel."
+        title: "ಖಾಲಿ ಫಲಕಗಳನ್ನು ನಾಶಮಾಡಿ"
+        desc: "When the last tab of a pane is closed, remove that pane as well."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
-        title: "Exclude VCS Ignored Paths"
+        title: "ವಿಸಿಎಸ್ ನಿರ್ಲಕ್ಷಿತ ಮಾರ್ಗಗಳನ್ನು ಹೊರಗಿಡಿ"
         desc: "Files and directories ignored by the current project's VCS system will be ignored by some packages, such as the fuzzy finder and find and replace. For example, projects using Git have these paths defined in the .gitignore file. Individual packages might have additional config settings for ignoring VCS ignored files and folders."
       }
       {
         _id: 'core.fileEncoding'
-        title: "Kódování souboru"
-        desc: "Základní znakové kódování, které se použije při čtení nebo zapisování do souboru."
+        title: "ಫೈಲ್ ಎನ್ಕೋಡಿಂಗ್"
+        desc: "Default character set encoding to use when reading and writing files."
       }
       {
         _id: 'core.fileSystemWatcher'
-        title: "File System Watcher"
+        title: "ಫೈಲ್ ಸಿಸ್ಟಮ್ ವಾಚರ್"
         desc: "Choose the underlying implementation used to watch for filesystem changes. Emulating changes will miss any events caused by applications other than Atom, but may help prevent crashes or freezes."
         select:
           native: "Native operating system APIs"
@@ -131,45 +135,45 @@ Settings:
       }
       {
         _id: 'core.followSymlinks'
-        title: "Follow Symlinks"
+        title: "ಸಿಮ್‌ಲಿಂಕ್‌ಗಳನ್ನು ಅನುಸರಿಸಿ"
         desc: "Follow symbolic links when searching files and when opening files with the fuzzy finder."
       }
       {
         _id: 'core.ignoredNames'
-        title: "Ignored Names"
+        title: "ಹೆಸರುಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸಲಾಗಿದೆ"
         desc: "List of <code>glob patterns</code>. Files and directories matching these patterns will be ignored by some packages, such as the fuzzy finder and tree view. Individual packages might have additional config settings for ignoring names."
       }
       {
         _id: 'core.openEmptyEditorOnStart'
-        title: "Otevřít prázdný editor při spuštění"
-        desc: "Automaticky otevřít prázdný editor při spuštění."
+        title: "ಪ್ರಾರಂಭದಲ್ಲಿ ಖಾಲಿ ಸಂಪಾದಕವನ್ನು ತೆರೆಯಿರಿ"
+        desc: "Automatically open an empty editor on startup."
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
-        title: "Pluginy s deaktivovanými klávesovými zkratkami"
+        title: "ಕೀಮ್ಯಾಪ್ನೊಂದಿಗೆ ಪ್ಯಾಕೇಜುಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
       }
       {
         _id: 'core.projectHome'
-        title: "Domovský adresář projektu"
+        title: "ಪ್ರಾಜೆಕ್ಟ್ ಹೋಮ್"
         desc: "The directory where projects are assumed to be located. Packages created using the Package Generator will be stored here by default."
       }
       {
         _id: 'core.reopenProjectMenuCount'
-        title: "Reopen Project Menu Count"
+        title: "ಪ್ರಾಜೆಕ್ಟ್ ಮೆನು ಎಣಿಕೆ ಮತ್ತೆ ತೆರೆಯಿರಿ"
         desc: "How many recent projects to show in the Reopen Project menu."
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "Obnovit při spuštění předchozí okna"
-        desc: "Obnoví okna Atomu do původního stavu při spuštění z ikony nebo <code>atom</code> z příkazového řádku; jinak bude načteno prázdné prostředí."
+        title: "ಪ್ರಾರಂಭದಲ್ಲಿ ಹಿಂದಿನ ವಿಂಡೋಸ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+        desc: "When checked restores the last state of all Atom windows when started from the icon or <code>atom</code> by itself from the command line; otherwise a blank environment is loaded."
         select:
-          no: "ne"
-          yes: "ano"
-          always: "vždy"
+          no: "no"
+          yes: "yes"
+          always: "always"
       }
       {
         _id: 'core.telemetryConsent'
-        title: "Send Telemetry to the Atom Team"
+        title: "ಟೆಲಿಮೆಟ್ರಿಯನ್ನು ಆಟಮ್ ತಂಡಕ್ಕೆ ಕಳುಹಿಸಿ"
         desc: "Allow usage statistics and exception reports to be sent to the Atom team to help improve the product."
         select:
           limited: "Allow limited anonymous usage stats, exception and crash reporting"
@@ -178,7 +182,7 @@ Settings:
       }
       {
         _id: 'core.titleBar'
-        title: "Title Bar"
+        title: "ಶೀರ್ಷಿಕೆ ಪಟ್ಟಿ"
         desc: "Experimental: A <code>custom</code> title bar adapts to theme colors. Choosing <code>custom-inset</code> adds a bit more padding. The title bar can also be completely <code>hidden</code>.<br>Note: Switching to a custom or hidden title bar will compromise some functionality.<br>This setting will require a relaunch of Atom to take effect."
         select:
           native: "native"
@@ -188,52 +192,52 @@ Settings:
       }
       {
         _id: 'core.useProxySettingsWhenCallingApm'
-        title: "Use Proxy Settings When Calling APM"
+        title: "ಎಪಿಎಂಗೆ ಕರೆ ಮಾಡುವಾಗ ಪ್ರಾಕ್ಸಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸಿ"
         desc: "Use detected proxy settings when calling the <code>apm</code> command-line tool."
       }
       {
         _id: 'core.versionPinnedPackages'
-        title: "Version Pinned Packages"
+        title: "ಆವೃತ್ತಿ ಪಿನ್ ಮಾಡಿದ ಪ್ಯಾಕೇಜುಗಳು"
         desc: "List of names of installed packages which are not automatically updated."
       }
       {
         _id: 'core.useCustomTitleBar'
-        title: "Use Custom Title Bar"
+        title: "ಕಸ್ಟಮ್ ಶೀರ್ಷಿಕೆ ಪಟ್ಟಿಯನ್ನು ಬಳಸಿ"
         desc: "Use custom, theme-aware title bar.<br>Note: This currently does not include a proxy icon.<br>This setting will require a relaunch of Atom to take effect."
       }
       {
         _id: 'core.warnOnLargeFileLimit'
-        title: "Warn On Large File Limit"
+        title: "ದೊಡ್ಡ ಫೈಲ್ ಮಿತಿಯಲ್ಲಿ ಎಚ್ಚರಿಕೆ ನೀಡಿ"
         desc: "Warn before opening files larger than this number of megabytes."
       }
       {
         _id: 'editor.atomicSoftTabs'
-        title: "Atomic Soft Tabs"
+        title: "ಆಟಮ ಸಾಫ್ಟ್ ಟ್ಯಾಬ್‌ಗಳು"
         desc: "Skip over tab-length runs of leading whitespace when moving the cursor."
       }
       {
         _id: 'editor.autoIndent'
-        title: "Auto Indent"
+        title: "ಸ್ವಯಂ ಇಂಡೆಂಟ್"
         desc: "Automatically indent the cursor when inserting a newline."
       }
       {
         _id: 'editor.autoIndentOnPaste'
-        title: "Auto Indent On Paste"
+        title: "ಪೇಸ್ಟ್‌ನಲ್ಲಿ ಸ್ವಯಂ ಇಂಡೆಂಟ್"
         desc: "Automatically indent pasted text based on the indentation of the previous line."
       }
       {
         _id: 'editor.backUpBeforeSaving'
-        title: "Back Up Before Saving"
+        title: "ಉಳಿಸುವ ಮೊದಲು ಬ್ಯಾಕಪ್ ಮಾಡಿ"
         desc: ""
       }
       {
         _id: 'editor.confirmCheckoutHeadRevision'
-        title: "Confirm Checkout HEAD Revision"
+        title: "ದೃಡಪಡಿಸು ಬಿಡುಗಡೆ ಶಿರ ಪರಿಷ್ಕರಣೆ"
         desc: "Show confirmation dialog when checking out the HEAD revision and discarding changes to current file since last commit."
       }
       {
         _id: 'editor.fontFamily'
-        title: "Font Family"
+        title: "ಫಾಂಟ್ ಕುಟುಂಬ"
         desc: "The name of the font family used for editor text."
       }
       {
@@ -243,86 +247,86 @@ Settings:
       }
       {
         _id: 'editor.invisibles.cr'
-        title: "Invisibles Cr"
+        title: "ಇನ್ವಿಸಿಬಲ್ಸ್ ಸಿಆರ್"
         desc: "Character used to render carriage return characters
                (for Microsoft-style line endings) when the <code>Show
                Invisibles</code> setting is enabled."
       }
       {
         _id: 'editor.invisibles.eol'
-        title: "Invisibles Eol"
+        title: "ಇನ್ವಿಸಿಬಲ್ಸ್ ಇಯೋಲ್"
         desc: "Character used to render newline characters (\n) when the
                <code>Show Invisibles</code> setting is enabled."
       }
       {
         _id: 'editor.invisibles.space'
-        title: "Invisibles Space"
+        title: "ಇನ್ವಿಸಿಬಲ್ಸ್ ಸ್ಪೇಸ್"
         desc: "Character used to render leading and trailing space characters
                when the <code>Show Invisibles</code> setting is enabled."
       }
       {
         _id: 'editor.invisibles.tab'
-        title: "Invisibles Tab"
+        title: "ಇನ್ವಿಸಿಬಲ್ಸ್ ಟ್ಯಾಬ್"
         desc: "Character used to render hard tab characters (\t) when the
                <code>Show Invisibles</code> setting is enabled."
       }
       {
         _id: 'editor.lineHeight'
-        title: "Line Height"
+        title: "ಗೆರೆಯ ಎತ್ತರ"
         desc: "Height of editor lines, as a multiplier of font size."
       }
       {
         _id: 'editor.maxScreenLineLength'
-        title: "Max Screen Line Length"
+        title: "ಗರಿಷ್ಠ ಪರದೆ ರೇಖೆಯ ಉದ್ದ"
         desc: "Defines the maximum width of the editor window before soft wrapping is enforced, in number of characters."
       }
       {
         _id: 'editor.nonWordCharacters'
-        title: "Non Word Characters"
+        title: "ಪದವಲ್ಲದ ಅಕ್ಷರಗಳು"
         desc: "A string of non-word characters to define word boundaries."
       }
       {
         _id: 'editor.preferredLineLength'
-        title: "Preferred Line Length"
+        title: "ಆದ್ಯತೆಯ ಸಾಲಿನ ಉದ್ದ"
         desc: "Identifies the length of a line which is used when wrapping text
                with the <code>Soft Wrap At Preferred Line Length</code> setting
                enabled, in number of characters."
       }
       {
         _id: 'editor.scrollPastEnd'
-        title: "Scroll Past End"
+        title: "ಹಿಂದಿನ ಅಂತ್ಯವನ್ನು ಸ್ಕ್ರಾಲ್ ಮಾಡಿ"
         desc: "Allow the editor to be scrolled past the end of the last line."
       }
       {
         _id: 'editor.scrollSensitivity'
-        title: "Scroll Sensitivity"
+        title: "ಸ್ಕ್ರಾಲ್ ಸೂಕ್ಷ್ಮತೆ"
         desc: "Determines how fast the editor scrolls when using a mouse or
                trackpad."
       }
       {
         _id: 'editor.showCursorOnSelection'
-        title: "Show Cursor On Selection"
+        title: "ಆಯ್ಕೆಯಲ್ಲಿ ಕರ್ಸರ್ ತೋರಿಸಿ"
         desc: "Show cursor while there is a selection."
       }
       {
         _id: 'editor.showIndentGuide'
-        title: "Show Indent Guide"
+        title: "ಇಂಡೆಂಟ್ ಗೈಡ್ ತೋರಿಸಿ"
         desc: "Show indentation indicators in the editor."
       }
       {
         _id: 'editor.showInvisibles'
-        title: "Show Invisibles"
+        title: "ಅದೃಶ್ಯಗಳನ್ನು ತೋರಿಸಿ"
         desc: "Render placeholders for invisible characters, such as tabs,
                spaces and newlines."
       }
       {
         _id: 'editor.showLineNumbers'
-        title: "Show Line Numbers"
+        title: "ಸಾಲು ಸಂಖ್ಯೆಗಳನ್ನು ತೋರಿಸಿ"
         desc: "Show line numbers in the editor's gutter."
       }
       {
         _id: 'editor.softTabs'
-        title: "Soft Tabs"
+        title: "ಸಾಫ್ಟ್ ಟ್ಯಾಬ್‌ಗಳು"
         desc: "If the <code>Tab Type</code> config setting is set to \"auto\"
                and autodetection of tab type from buffer content fails, then
                this config setting determines whether a soft tab or a hard tab
@@ -330,7 +334,7 @@ Settings:
       }
       {
         _id: 'editor.softWrap'
-        title: "Soft Wrap"
+        title: "ಮೃದುವಾದ ಸುತ್ತು"
         desc: "Wraps lines that exceed the width of the window. When
                <code>Soft Wrap At Preferred Line Length</code> is set, it will
                wrap to the number of characters defined by the <code>Preferred
@@ -338,7 +342,7 @@ Settings:
       }
       {
         _id: 'editor.softWrapAtPreferredLineLength'
-        title: "Soft Wrap At Preferred Line Length"
+        title: "ಆದ್ಯತೆಯ ಸಾಲಿನ ಉದ್ದದಲ್ಲಿ ಮೃದುವಾದ ಸುತ್ತು"
         desc: "Instead of wrapping lines to the window's width, wrap lines to
                the number of characters defined by the <code>Preferred Line
                Length</code> setting. This will only take effect when the soft
@@ -349,18 +353,18 @@ Settings:
       }
       {
         _id: 'editor.softWrapHangingIndent'
-        title: "Soft Wrap Hanging Indent"
+        title: "ಸಾಫ್ಟ್ ರಾಪ್ ಹ್ಯಾಂಗಿಂಗ್ ಇಂಡೆಂಟ್"
         desc: "When soft wrap is enabled, defines length of additional
                indentation applied to wrapped lines, in number of characters."
       }
       {
         _id: 'editor.tabLength'
-        title: "Tab Length"
+        title: "ಟ್ಯಾಬ್ ಉದ್ದ"
         desc: "Number of spaces used to represent a tab."
       }
       {
         _id: 'editor.tabType'
-        title: "Tab Type"
+        title: "ಟ್ಯಾಬ್ ಪ್ರಕಾರ"
         desc: "Determine character inserted when Tab key is pressed. Possible
                values: \"auto\", \"soft\" and \"hard\". When set to \"soft\" or
                \"hard\", soft tabs (spaces) or hard tabs (tab characters) are
@@ -371,7 +375,7 @@ Settings:
       }
       {
         _id: 'editor.undoGroupingInterval'
-        title: "Undo Grouping Interval"
+        title: "ಗುಂಪು ಮಧ್ಯಂತರವನ್ನು ರದ್ದುಗೊಳಿಸಿ"
         desc: "Time interval in milliseconds within which text editing
                operations will be grouped together in the undo history."
       }
@@ -383,17 +387,17 @@ Settings:
       }
       {
         _id: 'system.windows.file-handler'
-        title: "Register as file handler"
+        title: "ಫೈಲ್ ಹ್ಯಾಂಡ್ಲರ್ ಆಗಿ ನೋಂದಾಯಿಸಿ"
         desc: "Show Atom in the \"Open with\" application list for easy association with file types."
       }
       {
         _id: 'system.windows.shell-menu-files'
-        title: "Show in file context menus"
+        title: "ಫೈಲ್ ಸಂದರ್ಭ ಮೆನುವಿನಲ್ಲಿ ತೋರಿಸಿ"
         desc: "Add \"Open with Atom\" to the File Explorer context menu for files."
       }
       {
         _id: 'system.windows.shell-menu-folders'
-        title: "Show in folder context menus"
+        title: "ಫೋಲ್ಡರ್ ಸಂದರ್ಭ ಮೆನುಗಳಲ್ಲಿ ತೋರಿಸಿ"
         desc: "Add \"Open with Atom\" to the File Explorer context menu for folders."
       }
     ]
@@ -420,8 +424,8 @@ Settings:
   }
   themes: {
     notes: {
-      text1: "You can also style Atom by editing "
-      text2: "your stylesheet"
+      text1: "ನೀವು ಸಂಪಾದಿಸುವ ಮೂಲಕ (Atom)ಆಟಮ್ ಅನ್ನು ಸಹ ವಿನ್ಯಾಸಗೊಳಿಸಬಹುದು "
+      text2: "ನಿಮ್ಮ ಸ್ಟೈಲ್‌ಶೀಟ್"
       text3: ""   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
@@ -432,27 +436,27 @@ Settings:
     searchBarText: 'Filter themes by name'
   }
   updates: {
-    "check-updates": "Check for Updates"
-    "update-all": "Update All"
-    "checking-updates": "Checking for updates..."
-    "all-updated-message": "All of your installed packages are up to date!"
+    "check-updates": "ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ"
+    "update-all": "ಎಲ್ಲವನ್ನು ಆಧುನೀಕರಿಸು"
+    "checking-updates": "ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ ...."
+    "all-updated-message": "ನಿಮ್ಮ ಸ್ಥಾಪಿಸಲಾದ ಎಲ್ಲಾ ಪ್ಯಾಕೇಜುಗಳು ನವೀಕೃತವಾಗಿವೆ!"
   }
   install: {
     notes: {
-      text1: "Packages are published to "
-      text2: " and are installed to "
+      text1: "ಪ್ಯಾಕೇಜುಗಳನ್ನು ಪ್ರಕಟಿಸಲಾಗಿದೆ "
+      text2: " ಮತ್ತು ಸ್ಥಾಪಿಸಲಾಗಿದೆ "
       text3: ""   # optional
       _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
     }
-    "searchbar-placeholder": "Search packages"
-    "btn-packages": "Packages"
-    "btn-themes": "Themes"
+    "searchbar-placeholder": "ಪ್ಯಾಕೇಜುಗಳನ್ನು ಹುಡುಕಿ"
+    "btn-packages": "ಪ್ಯಾಕೇಜುಗಳು"
+    "btn-themes": "ಥೀಮ್ಗಳು"
   }
   "control-btns":{
-    install: "Install"
-    update: "Update to"
-    setting: "Settings"
-    uninstall: "Uninstall"
-    disable: "Disable"
-    enable: "Enable"
+    install: "ಸ್ಥಾಪಿಸಿ"
+    update: "ನವೀಕರಿಸಿ"
+    setting: "ಸಂಯೋಜನೆಗಳು"
+    uninstall: "ಅಸ್ಥಾಪಿಸು"
+    disable: "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+    enable: "ಸಕ್ರಿಯಗೊಳಿಸಿ"
   }
