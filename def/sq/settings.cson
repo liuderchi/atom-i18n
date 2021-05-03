@@ -31,7 +31,7 @@ Settings:
     }
     {
       _label: "Install"
-      value: "Instaloje"
+      value: "Instalime"
     }
   ]
   "btn-open-config-folder": "Hapni Dosje Formësimesh"
@@ -64,9 +64,9 @@ Settings:
     notes: [
       {
         _id: 'core-settings-note'
-        html: 'Këto janë rregullime të bazës së Atom-it që prekin sjellje që
-               nuk ka të bëjë me përpunime teksti. Paketat individuale mund
-               të kenë rregullime të tyre shtesë, që gjenden brenda skedës së
+        html: 'Këto janë rregullime të bazës së Atom-it, që prekin sjellje
+               e cila s’ka të bëjë me përpunime teksti. Paketat individuale mund
+               të kenë rregullime të vetat shtesë, që gjenden brenda skedës së
                paketës te <a class="link packages-open">lista e Paketave</a>.'
       }
       {
@@ -81,12 +81,12 @@ Settings:
         _id: 'core.allowPendingPaneItems'
         title: "Lejo Objekte Kuadrati Pezull"
         desc: "Lejo paraparje objektesh pa i shtuar përgjithmonë te një kuadrat,
-               f.v. kur njëklikohen kartela te pamja pemë."
+               f.v., kur njëklikohen kartela te pamja pemë."
       }
       {
         _id: 'core.audioBeep'
         title: "Bip Zanor"
-        desc: "Prodho tingullin bip të sistemit kur nuk mund të kryhen disa veprime ose kur nuk ka përfundime."
+        desc: "Prodho tingullin bip të sistemit, kur s’mund të kryhen disa veprime ose kur s’ka përfundime."
       }
       {
         _id: 'core.automaticallyUpdate'
@@ -96,17 +96,17 @@ Settings:
       {
         _id: 'core.autoHideMenuBar'
         title: "Vetëfshihe Shtyllën e Menuve"
-        desc: "Zgjidhni të fshihet vetvetiu shtylla e menuve dhe shfaqeni/fshiheni duke shtypur tastin Alt. Kjo mbulohet vetëm në Windows &amp; Linux."
+        desc: "Zgjidhni fshehjen vetvetiu të shtyllës së menuve dhe shfaqeni/fshiheni duke shtypur tastin Alt. Kjo mbulohet vetëm në Windows &amp; Linux."
       }
       {
         _id: 'core.closeDeletedFileTabs'
         title: "Mbyll Skeda Kartelash të Fshira"
-        desc: "Mbylle përpunuesin përkatës kur një kartelë fshihet jashtë Atom-it."
+        desc: "Mbylle përpunuesin përkatës, kur një kartelë fshihet jashtë Atom-it."
       }
       {
         _id: 'core.closeEmptyWindows'
         title: "Mbylli Dritaret e Zbrazëta"
-        desc: "Kur për një dritare pa skeda apo kuadrate të hapur i drejtohet urdhri 'Mbylle Skedën', mbyll atë dritare."
+        desc: "Kur për një dritare pa skeda, apo kuadrate të hapur, jepet urdhri 'Mbylle Skedën', mbyll atë dritare."
       }
       {
         _id: 'core.destroyEmptyPanes'
@@ -116,7 +116,7 @@ Settings:
       {
         _id: 'core.excludeVcsIgnoredPaths'
         title: "Përjashto Shtigje VCS të Shpërfillur"
-        desc: "Kartelat dhe drejtoritë e shpërfillura nga sistemi VCS i një projekti të dhënë do të shpërfillen nga disa paketa, të tilla si Fuzzy Finder dhe Gjej dhe Zëvendëso. Për shembull, projekte që përdorin Git këto shtigje i kanë të përcaktuar te kartela .gitignore. Paketa individuale mund të kenë rregullime shtesë formësimi për shpërfillje kartelash dhe dosjesh VCS të shpërfillura."
+        desc: "Kartelat dhe drejtoritë e shpërfillura nga sistemi VCS i një projekti të dhënë do të shpërfillen nga disa paketa, të tilla si Fuzzy Finder dhe Gjej dhe Zëvendëso. Për shembull, projekte që përdorin Git, këto shtigje i kanë të përcaktuar te kartela .gitignore. Paketa individuale mund të kenë rregullime shtesë formësimi për shpërfillje kartelash dhe dosjesh VCS të shpërfillura."
       }
       {
         _id: 'core.fileEncoding'
@@ -134,12 +134,12 @@ Settings:
       {
         _id: 'core.followSymlinks'
         title: "Ndiqi Simlidhjet"
-        desc: "Ndiqi lidhjet simbolike kur kërkohet për kartela dhe kur hapen kartela përmes Fuzzy Finder-it."
+        desc: "Ndiqi lidhjet simbolike, kur kërkohet për kartela dhe kur hapen kartela përmes Fuzzy Finder-it."
       }
       {
         _id: 'core.ignoredNames'
         title: "Shpërfillje emrash"
-        desc: "Listë <code>mostrash glob</code>. Kartela dhe drejtori që kanë përputhje me këto mostra do të shpërfillen nga disa paketa, të tilla si Fuzzy Finder dhe Pamja Pemë. Paketat individuale mund të kenë rregullime shtesë formësimi për shpërfillje emrash."
+        desc: "Listë <code>rregullsish globale</code>. Kartela dhe drejtori që kanë përputhje me këto mostra do të shpërfillen nga disa paketa, të tilla si Fuzzy Finder dhe Pamja Pemë. Paketat individuale mund të kenë rregullime shtesë formësimi për shpërfillje emrash."
       }
       {
         _id: 'core.openEmptyEditorOnStart'
@@ -196,7 +196,7 @@ Settings:
       {
         _id: 'core.versionPinnedPackages'
         title: "Paketa Me Version të Fiksuar"
-        desc: "Listë emrash e paketave të instaluara që nuk përditësohen vetvetiu."
+        desc: "Listë emrash paketash të instaluara që s’përditësohen vetvetiu."
       }
       {
         _id: 'core.useCustomTitleBar'
@@ -205,18 +205,18 @@ Settings:
       }
       {
         _id: 'core.warnOnLargeFileLimit'
-        title: "Sinjalizdo Për Kartela të Mëdhza Tej Kufirit"
+        title: "Sinjalizo Për Kartela të Mëdha Tej Kufirit"
         desc: "Sinjalizo përpara hapjes së kartelave më të mëdha se ky numër megabajtesh."
       }
       {
         _id: 'editor.atomicSoftTabs'
-        title: "Tabulacion Soft Atom-ike"
+        title: "Tabulacion Soft Atom-ik"
         desc: "Kur lëvizet kursori, anashkalo vargje hapësirash të zbrazëta me gjatësinë e një tabulacioni."
       }
       {
         _id: 'editor.autoIndent'
         title: "Shmangie Brendazi të Vetvetishme"
-        desc: "Shmange vetvetiu brendazi kursorin kur futet një rresht i ri."
+        desc: "Shmange vetvetiu brendazi kursorin, kur futet një rresht i ri."
       }
       {
         _id: 'editor.autoIndentOnPaste'
@@ -225,13 +225,13 @@ Settings:
       }
       {
         _id: 'editor.backUpBeforeSaving'
-        title: "Back Up Before Saving"
+        title: "Kopjeruaje Përpara Ruajtjes"
         desc: "Kopjeruaje Përpara Ruajtjes"
       }
       {
         _id: 'editor.confirmCheckoutHeadRevision'
-        title: "Confirm Checkout HEAD Revision"
-        desc: "Shfaq dialog ripohimi kur kryhet <em>check out</em> i rishikimit HEAD dhe hidhen tej ndryshimet e kartela e çastit që nga parashtrimi i fundit."
+        title: "Ripoho Rishikim Marrjeje HEAD"
+        desc: "Shfaq dialog ripohimi, kur kryhet <em>check out</em> i rishikimit HEAD dhe hidhen tej ndryshimet e kartela e çastit që nga parashtrimi i fundit."
       }
       {
         _id: 'editor.fontFamily'
@@ -252,7 +252,7 @@ Settings:
       {
         _id: 'editor.invisibles.eol'
         title: "Eol të Padukshëm"
-        desc: "Shenjë e përdorur për formim shenja rreshtash të rinj (\n), kur rregullimi <code>Shfaq të Padukshme</code> është i aktivizuar."
+        desc: "Shenjë e përdorur për formim shenjash rreshtash të rinj (\n), kur rregullimi <code>Shfaq të Padukshme</code> është i aktivizuar."
       }
       {
         _id: 'editor.invisibles.space'
@@ -277,13 +277,13 @@ Settings:
       {
         _id: 'editor.nonWordCharacters'
         title: "Shenja Jo Fjalësh"
-        desc: "Një varg shenjash jo fjalësh për përcaktim kufij fjalësh."
+        desc: "Një varg shenjash jo fjalësh për përcaktim kufijsh fjalësh."
       }
       {
         _id: 'editor.preferredLineLength'
         title: "Gjatësi Rreshti e Parapëlqyer"
         desc: "Identifikon gjatësinë e një rreshti që përdoret kur mbështillet tekst
-               përmes rregullimit <code>Mbështjellje e Butë Në Gjatësi të Parapëlqyer Rreshti</code>
+               sipas rregullimit <code>Mbështjellje e Butë Në Gjatësi të Parapëlqyer Rreshti</code>
                të aktivizuar, në numër shenjash."
       }
       {
@@ -294,12 +294,12 @@ Settings:
       {
         _id: 'editor.scrollSensitivity'
         title: "Ndjeshmëri Rrëshqitjeje"
-        desc: "Përcakton se sa shpejt rrëshqitet në përpunues kur përdoret miu ose <em>trackpad</em>-i."
+        desc: "Përcakton se sa shpejt rrëshqitet në përpunues, kur përdoret miu ose <em>trackpad</em>-i."
       }
       {
         _id: 'editor.showCursorOnSelection'
         title: "Shfaqe Kursorin Në Përzgjedhje"
-        desc: "Shfaqe kursorin kur ka diçka të përzgjedhur."
+        desc: "Shfaqe kursorin, kur ka diçka të përzgjedhur."
       }
       {
         _id: 'editor.showIndentGuide'
@@ -326,11 +326,11 @@ Settings:
         _id: 'editor.softWrap'
         title: "Mbështjellje e Butë"
         desc: "Mbështjell rreshtat që dalin jashtë gjerësisë së dritares. Kur
-               <code>Mbështjellje të Butë Tek Gjatësia e Parapëlqyer e Rreshtave</code> është e rregulluar, mbështjella do të kryhet kur mbërrihet te numri i shenjave i përcaktuar nga rregullimi <code>Gjatësi e Parapëlqyer Rreshtash</code>."
+               <code>Mbështjellje të Butë Tek Gjatësia e Parapëlqyer e Rreshtave</code> është e rregulluar, mbështjellja do të kryhet kur mbërrihet te numri i shenjave i përcaktuar nga rregullimi <code>Gjatësi e Parapëlqyer Rreshtash</code>."
       }
       {
         _id: 'editor.softWrapAtPreferredLineLength'
-        title: "Soft Wrap At Preferred Line Length"
+        title: "Mbështjellje e Butë Në Gjatësinë e Parapëlqyer të Rreshtit"
         desc: "Në vend se rreshtat të mbështillen sa gjerësia e dritares,
                mbështillini kur mbërrihet te numri i shenjave i përcaktuar nga
                rregullimi <code>Gjatësi e Parapëlqyer Rreshtash</code>. Kjo

@@ -2,8 +2,8 @@ Welcome:
   tabTitle: "Mirë se vini"
   subtitle: {
     text1: "Një përpunues tekstesh i hack-ueshëm për"
-    text2: "shekullin e 21"
-    superscript: "të"
+    text2: "shekullin e 21-të"
+    superscript: ""
   }
   help: {
     forHelpVisit: "Për ndihmë, ju lutemi, vizitoni"
@@ -14,13 +14,13 @@ Welcome:
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {
-      text1: "Forumi për Atom-in te "
+      text1: "Forumin për Atom-in te "
       link: "discuss.atom.io"
       text2: ""   # optional
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomOrg: {
-      text1: "The "
+      text1: ""
       link: "Atom org"
       text2: ". Këtu mund të gjeni krejt paketat Atom të krijuara në GitHub."
       _template: "${text1}<a>${link}</a>${text2}"
