@@ -1,7 +1,7 @@
 Welcome:
   tabTitle: "Vítejte"
   subtitle: {
-    text1: "Modifikovatelný editor pro 21"
+    text1: "Modifikovatelný editor pro 21."
     superscript: ""
     text2: " století"
   }
@@ -10,7 +10,7 @@ Welcome:
     atomDocs: {
       text1: ""
       link: "Dokumentaci atomu"
-      text2: " pro Návody a API REFERENCE."
+      text2: " pro Návody a reference API."
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {
@@ -21,9 +21,9 @@ Welcome:
     }
     atomOrg: {
       text1: ""
-      link: "Atom org"
-      text2: ". Tady najdete všechny pluginy z GitHubu pro Atom."
+      link: "Organizaci Atom"
+      text2: ". Zde najdete všechny balíčky Atom na GitHubu."
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
-  showWelcomeGuide: "Zobrazit obrazovku \"Vítejte\" při spuštění Atomu"
+  showWelcomeGuide: "Zobrazit uvítacího průvodce při spuštění Atomu"

@@ -1,38 +1,66 @@
+## 0.25.2 - Czech update, bug fix
+
+- cs i18n #296
+- fix about view #302
+- use cs for Czech lang code #306
+
+## 0.25.1 - bug fix
+
+- fix welcome view #298
+
+## 0.25.0 - Persian support
+
+- fa #292
+
+## 0.24.1 - Chinese (Traditional) fix
+
+- zh-tw i18n #289 #290
+
 ## 0.24.0 - Romanian support
+
 - ro i18n #277
 - pt-br i18n #275
 - ar i18n #279
 - chore: deprecate greenkeeper
 
 ## 0.23.1 - kn, ru fix
+
 - kn i18n #268
 - ru i18n #272
 
 ## 0.23.0 - Hindi support
+
 - hi i18n #265
 
 ## 0.22.1 - ru, pt-br fix
+
 - ru i18n #262
 - pt-br i18n #263
 
 ## 0.22.0 - Kannada support
+
 - kn i18n #255
 
 ## 0.21.1 - ru, pt-br, fr fix
+
 - pt-br i18n #243
 - fr i18n #253
 - ru i18n #244 #245 #246 #247 #248 #249
 
 ## 0.21.0 - Slovak support
+
 - Slovak i18n #230
 
 ## 0.20.0 - Hebrew support
+
 - Hebrew i18n #225
 
 ## 0.19.0 - Ukrainian support
+
 - Ukrainian i18n #222
 
 ## 0.18.0 - Esperanto support
+
 - Esperanto i18n #213
 - Russian update #212
 

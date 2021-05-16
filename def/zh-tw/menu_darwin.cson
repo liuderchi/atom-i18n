@@ -36,7 +36,7 @@ Menu:
       "New Window":
         value: "開新視窗"
       "New File":
-        value: "新增文件"
+        value: "新增檔案"
       "Open…":
         value: "開啟..."
       "Add Project Folder…":
@@ -47,7 +47,7 @@ Menu:
           "Clear Project History":
             value: "清除專案歷史紀錄"
       "Reopen Last Item":
-        value: "重新開啟關閉的文件"
+        value: "重新開啟關閉的檔案"
       Save:
         value: "儲存"
       "Save As…":
@@ -305,7 +305,7 @@ Menu:
       "Bring All to Front":
         value: "全部移至最上層"
   Help:
-    value: "幫助"
+    value: "說明"
     submenu:
       "Terms of Use":
         value: "使用條款"
