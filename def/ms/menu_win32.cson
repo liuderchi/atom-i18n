@@ -51,95 +51,95 @@ Menu:
     value: "Suntingan (&E)"
     submenu:
       "&Undo":
-        value: "&Undo"
+        value: "&Undur Kerja"
       "&Redo":
-        value: "&Redo"
+        value: "Maju Ke&rja"
       "Cu&t":
-        value: "Cu&t"
+        value: "Po&tong"
       "&Copy":
-        value: "&Copy"
+        value: "Salin"
       "Copy Pat&h":
-        value: "Copy Pat&h"
+        value: "Salin Laluan Penuh"
       "&Paste":
-        value: "&Paste"
+        value: "Tam&pal"
       "Paste Without Reformatting":
-        value: "Paste Without Reformatting"
+        value: "Tampal Tanpa Format"
       "Select &All":
-        value: "Select &All"
+        value: "Pilih Semu&a"
       "&Toggle Comments":
-        value: "&Toggle Comments"
+        value: "Buka/Tutup Komen"
       Lines:
-        value: "Lines"
+        value: "Baris"
         submenu:
           "&Indent":
-            value: "&Indent"
+            value: "Engsot Masuk"
           "&Outdent":
-            value: "&Outdent"
+            value: "Engsot Keluar"
           "&Auto Indent":
-            value: "&Auto Indent"
+            value: "Autoengsot"
           "Move Line &Up":
-            value: "Move Line &Up"
+            value: "Bawa Baris Ke Atas"
           "Move Line &Down":
-            value: "Move Line &Down"
+            value: "Bawa Baris Ke Bawah"
           "Du&plicate Lines":
-            value: "Du&plicate Lines"
+            value: "Duakan Baris"
           "D&elete Line":
-            value: "D&elete Line"
+            value: "Padam Baris"
           "&Join Lines":
-            value: "&Join Lines"
+            value: "Lekatkan Baris"
       Columns:
-        value: "Columns"
+        value: "Lajur"
         submenu:
           "Move Selection &Left":
-            value: "Move Selection &Left"
+            value: "Bawa Pilihan Ke Kiri"
           "Move Selection &Right":
-            value: "Move Selection &Right"
+            value: "Bawa Pilihan Ke Kanan"
       Text:
-        value: "Text"
+        value: "Teks"
         submenu:
           "&Upper Case":
-            value: "&Upper Case"
+            value: "H&uruf Besar"
           "&Lower Case":
-            value: "&Lower Case"
+            value: "Huruf Keci&l"
           "Delete to End of &Word":
-            value: "Delete to End of &Word"
+            value: "Padam Ke Hujung Kata"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "Padam Ke Batas Kata Sebelumnya"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "Padam Ke Batas Kata Selepasnya"
           "&Delete Line":
-            value: "&Delete Line"
+            value: "Pa&dam Baris"
           "&Transpose":
-            value: "&Transpose"
+            value: "&Transposisi"
       Folding:
-        value: "Folding"
+        value: "Lipatan Kod"
         submenu:
           "&Fold":
-            value: "&Fold"
+            value: "Lipat Kod"
           "&Unfold":
-            value: "&Unfold"
+            value: "Buka Lipatan"
           "Unfold &All":
-            value: "Unfold &All"
+            value: "Buka Semua Lipatan"
           "Fol&d All":
-            value: "Fol&d All"
+            value: "Lipat Semua"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Lipat Tahap 1"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Lipat Tahap 2"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Lipat Tahap 3"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Lipat Tahap 4"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Lipat Tahap 5"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Lipat Tahap 6"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Lipat Tahap 7"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Lipat Tahap 8"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Lipat Tahap 9"
       "Reflow Selection":
         value: "Reflow Selection"
       Bookmark:
