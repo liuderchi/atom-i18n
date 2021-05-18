@@ -72,11 +72,11 @@ Menu:
         value: "Baris"
         submenu:
           "&Indent":
-            value: "Engsot Masuk"
+            value: "Santak Masuk"
           "&Outdent":
-            value: "Engsot Keluar"
+            value: "Santak Keluar"
           "&Auto Indent":
-            value: "Autoengsot"
+            value: "Autosantak"
           "Move Line &Up":
             value: "Bawa Baris Ke Atas"
           "Move Line &Down":
@@ -141,62 +141,62 @@ Menu:
           "Fold Level 9":
             value: "Lipat Tahap 9"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Searuskan Pilihan"
       Bookmark:
-        value: "Bookmark"
+        value: "Penanda Buku"
         submenu:
           "View All":
-            value: "View All"
+            value: "Lihat Semua"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "Buka/Tutup Penanda Buku"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "Lompat Ke Penanda Buku Seterusnya"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "Lompat Ke Penanda Buku Sebelumnya"
           "Select to Next Bookmark":
-            value: "Select to Next Bookmark"
+            value: "Pilih Sehingga Penanda Buku Seterusnya"
           "Select to Previous Bookmark":
-            value: "Select to Previous Bookmark"
+            value: "Pilih Sehingga Penanda Buku Sebelumnya"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "Pilih Pengekodan Aksara"
       "Go to Line":
-        value: "Go to Line"
+        value: "Pergi Ke Baris"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "Pilih Tatabahasa"
   "&View":
-    value: "&View"
+    value: "Paparan (&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Toggle &Full Screen"
+        value: "Buka/Tutup Skrin Penuh"
       "Toggle Menu Bar":
-        value: "Toggle Menu Bar"
+        value: "Buka/Tutup Palang Menu"
       Panes:
-        value: "Panes"
+        value: "Anak Tetingkap"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "Pisahkan Ke Atas"
           "Split Down":
-            value: "Split Down"
+            value: "Pisahkan Ke Bawah"
           "Split Left":
-            value: "Split Left"
+            value: "Pisahkan Ke Kiri"
           "Split Right":
-            value: "Split Right"
+            value: "Pisahkan Ke Kanan"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "Tumpu Anak Tetingkap Seterusnya"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "Tumpu Anak Tetingkap Sebelumnya"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "Tumpu Anak Tetingkap Atas"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "Tumpu Anak Tetingkap Bawah"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "Tumpu Anak Tetingkap Kiri"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "Tumpu Anak Tetingkap Kanan"
           "Close Pane":
-            value: "Close Pane"
+            value: "Tutup Anak Tetingkap"
       Developer:
-        value: "Developer"
+        value: "Pembangun"
         submenu:
           "Open In &Dev Mode…":
             value: "Open In &Dev Mode…"
