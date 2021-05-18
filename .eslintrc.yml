@@ -4,6 +4,7 @@
 #   - '2017-03-02: first edit'
 #   - '2017-07-12: port from json to yaml; port to unify my favorite style along with work env'
 #   - '2017-07-18': update with es6 style
+#   - '2021-04-17': integrate with prettier v2
 # _NOTE: copy this file to folder you want; rename it as .eslintrc.*; if possible reload text editor;
 root: true
 env:
@@ -15,7 +16,9 @@ globals:
   atom: true
   describe: true
   it: true
-extends: 'eslint:recommended'
+extends:
+  - 'eslint:recommended'
+  - 'prettier'
 parserOptions:
   ecmaVersion: 8
   sourceType: module
@@ -25,15 +28,3 @@ rules:
   - warn
   - vars: all
     args: after-used
-  indent:
-  - warn
-  - 2
-  linebreak-style:
-  - error
-  - unix
-  quotes:
-  - warn
-  - single
-  semi:
-  - error
-  - never

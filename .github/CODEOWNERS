@@ -7,7 +7,7 @@ def/ar/*.cson        @AmrIKhudair @atefBB
 
 def/be/*.cson        @antikruk
 
-def/cz/*.cson        @Heroyt
+def/cs/*.cson        @Heroyt @pervoj
 
 def/de/*.cson        @Acer54 @socialmedialabs
 def/de/settings.cson @Acer54  @queenar  @socialmedialabs
@@ -22,6 +22,8 @@ def/eo/*.cson        @p2635
 
 def/es/*.cson        @stsewd
 
+def/fa/*.cson        @abilogos
+
 def/fi/*.cson        @an7oine
 
 def/fr/*.cson        @chezyann  @Vivalzar  @DThought
@@ -34,7 +36,7 @@ def/hu/*.cson       @dominicus-75
 
 def/it/*.cson       @francematt @LorenzoAncora
 
-def/ja/*.cson        @shingo-uzuki @Umoxfo @ibuki2003
+def/ja/*.cson        @shingo-uzuki @Umoxfo @ibuki2003 @juggernautjp
 
 def/ko/*.cson        @preco21  @chibichichi  @Riyeon  @nerhis
 def/ko/welcome.cson  @jonghyeok
@@ -61,4 +63,4 @@ def/uk/*.cson        @sashaoli
 
 def/zh-cn/*.cson     @trifirew
 
-def/zh-tw/*.cson     @liuderchi
+def/zh-tw/*.cson     @liuderchi  @WinstonSung
