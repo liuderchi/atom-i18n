@@ -46,6 +46,7 @@ Community-driven translation. :family:
 | Korean               |  `ko`   | :white_check_mark: 100%                          |
 | Kannada              |  `kn`   | :white_check_mark: 100%                          |
 | Dutch                |  `nl`   | :warning: 80% [I can translate][nl-issue-filter] |
+| Malay                | `ms`    | :warning: 60% [I can translate][ms-issue-filter] |
 | Polish               |  `pl`   | :white_check_mark: 100%                          |
 | Portuguese(Brazil)   | `pt-br` | :white_check_mark: 100%                          |
 | Romanian             |  `ro`   | :white_check_mark: 100%                          |
@@ -98,6 +99,7 @@ Welcome to :heavy*plus_sign: [Propose new translation for \_your locale*][create
 - Hindi: [themakerman](//github.com/themakerman) [ankitbulchandani](//github.com/ankitbulchandani)
 - Persian [abilogos](//github.com/abilogos)
 - Romanian [tiberiufrat](//github.com/tiberiufrat)
+- Malay [Thaza-Kun](//github.com/Thaza-Kun)
 
 ## Reference
 
