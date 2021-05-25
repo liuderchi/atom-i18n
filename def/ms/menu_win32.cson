@@ -199,121 +199,121 @@ Menu:
         value: "Pembangun"
         submenu:
           "Open In &Dev Mode…":
-            value: "Open In &Dev Mode…"
+            value: "Buka dalam Mo&d Pembangun…"
           "&Reload Window":
-            value: "&Reload Window"
+            value: "Muat Semula Tetingkap"
           "Run Package &Specs":
-            value: "Run Package &Specs"
+            value: "Laksanakan Spek Pakej"
           "Run &Benchmarks":
-            value: "Run &Benchmarks"
+            value: "Laksanakan Penandaarasan"
           "Toggle Developer &Tools":
-            value: "Toggle Developer &Tools"
+            value: "Buka/Tutup Ala&tan Pembangun"
       "&Increase Font Size":
-        value: "&Increase Font Size"
+        value: "Besarkan Saiz Tul&isan"
       "&Decrease Font Size":
-        value: "&Decrease Font Size"
+        value: "Kecilkan Saiz Tulisan"
       "Re&set Font Size":
-        value: "Re&set Font Size"
+        value: "&Saiz Tulisan Asal"
       "Toggle Soft &Wrap":
-        value: "Toggle Soft &Wrap"
+        value: "Buka/Tutup Lilitan Lembut"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "Buka/Tutup Papan Arahan"
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "Buka/Tutup Rajah Pokok"
   "&Selection":
-    value: "&Selection"
+    value: "Pilihan (&S)"
     submenu:
       "Add Selection &Above":
-        value: "Add Selection &Above"
+        value: "Tambah Pilihan &Atas"
       "Add Selection &Below":
-        value: "Add Selection &Below"
+        value: "Tambah Pilihan &Bawah"
       "S&plit into Lines":
-        value: "S&plit into Lines"
+        value: "&Pisahkan Jadi Baris"
       "Single Selection":
-        value: "Single Selection"
+        value: "Pilihan Tunggal"
       "Select to &Top":
-        value: "Select to &Top"
+        value: "Pilih Sehingga Atas Sekali"
       "Select to Botto&m":
-        value: "Select to Botto&m"
+        value: "Pilih Sehingga Bawah Sekali"
       "Select &Line":
-        value: "Select &Line"
+        value: "Pilih Baris"
       "Select &Word":
-        value: "Select &Word"
+        value: "Pilih Kata"
       "Select to Beginning of W&ord":
-        value: "Select to Beginning of W&ord"
+        value: "Pilih Sehingga Mula Kata"
       "Select to Beginning of L&ine":
-        value: "Select to Beginning of L&ine"
+        value: "Pilih Sehingga Hujung Baris"
       "Select to First &Character of Line":
-        value: "Select to First &Character of Line"
+        value: "Pilih Sehingga Aksara Pertama Baris"
       "Select to End of Wor&d":
-        value: "Select to End of Wor&d"
+        value: "Pilih Sehingga Hujung Kata"
       "Select to End of Lin&e":
-        value: "Select to End of Lin&e"
+        value: "Pilih Sehingga Hujung Baris"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "Pilih Dalam Kurungan"
   "F&ind":
-    value: "F&ind"
+    value: "Car&i"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "Cari..."
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "Ganti..."
       "Select Next":
-        value: "Select Next"
+        value: "Pilih Seterusnya"
       "Select All":
-        value: "Select All"
+        value: "Pilih Semua"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "Buka/Tutup Carian"
       "Find in Project":
-        value: "Find in Project"
+        value: "Cari Dalam Projek"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "Buka/Tutup Carian Dalam Projek"
       "Find All":
-        value: "Find All"
+        value: "Cari Semua"
       "Find Next":
-        value: "Find Next"
+        value: "Cari Seterusnya"
       "Find Previous":
-        value: "Find Previous"
+        value: "Cari Sebelumnya"
       "Replace Next":
-        value: "Replace Next"
+        value: "Ganti Seterusnya"
       "Replace All":
-        value: "Replace All"
+        value: "Ganti Semua"
       "Clear History":
-        value: "Clear History"
+        value: "Bersihkan Sejarah"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "Cari Fail Yang Terbuka"
       "Find File":
-        value: "Find File"
+        value: "Cari Fail"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "Cari Fail Yang Diubah"
   "&Packages":
-    value: "&Packages"
+    value: "&Pakej"
   "&Help":
-    value: "&Help"
+    value: "Bantuan (&H)"
     submenu:
       "View &Terms of Use":
-        value: "View &Terms of Use"
+        value: "Lihat &Terma Penggunaan"
       "View &License":
-        value: "View &License"
+        value: "Lihat Lesen"
       "Restart and Install Update":
-        value: "Restart and Install Update"
+        value: "Tutup, Buka dan Pasang Kemaskini"
       "Check for Update":
-        value: "Check for Update"
+        value: "Cari Kemaskini"
       "Checking for Update":
-        value: "Checking for Update"
+        value: "Mencari Kemaskini"
       "Downloading Update":
-        value: "Downloading Update"
+        value: "Memuat turun Kemaskini"
       "&Documentation":
-        value: "&Documentation"
+        value: "&Dokumentasi"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "Soalan-Soalan Lazim"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Perbincangan Komuniti"
       "Report Issue":
-        value: "Report Issue"
+        value: "Laporkan Isu"
       "Search Issues":
-        value: "Search Issues"
+        value: "Cari Isu"
       "About Atom":
-        value: "About Atom"
+        value: "Berkenaan Atom"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "Panduan Pemula"
