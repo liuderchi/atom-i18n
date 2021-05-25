@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Selidik Elemen"
+  "atom-text-editor":
+    "color-picker:open": "Pemilih Warna"
+    "minimap:toggle": "Buka/Tutup Peta Mini"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Undur Kerja"
+    "core:redo": "Maju Kerja"
+    "core:cut": "Potong"
+    "core:copy": "Salin"
+    "core:paste": "Tampal"
+    "core:delete": "Padam"
+    "core:select-all": "Pilih Semua"
+    "pane:split-up-and-copy-active-item": "Pisah ke Atas"
+    "pane:split-down-and-copy-active-item": "Pisah ke Bawah"
+    "pane:split-left-and-copy-active-item": "Pisah ke Kiri"
+    "pane:split-right-and-copy-active-item": "Pisah ke Kanan"
+    "pane:close": "Tutuk Anak Tetingkap"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Pisah ke Atas"
+    "pane:split-down-and-copy-active-item": "Pisah ke Bawah"
+    "pane:split-left-and-copy-active-item": "Pisah ke Kiri"
+    "pane:split-right-and-copy-active-item": "Pisah ke Kanan"
+    "pane:close": "Tutup Anak Tetingkap"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Tukar Pengekodan Aksara"
+    "spell-check:correct-misspelling": "Pembetulan Ejaan"
+    "symbols-view:go-to-declaration": "Pergi ke Pengisytiharan"
+  ".overlayer":
+    "grammar-selector:show": "Tukar Tatabahasa Aturcara"
+  ".image-view":
+    "image-view:reload": "Muat Semula Gambar"
+  ".tab":
+    "tabs:close-tab": "Tutup Tab"
+    "tabs:close-other-tabs": "Tutup Tab-Tab yang Lain"
+    "tabs:close-tabs-to-right": "Tutup Semua Tab Belah Kanan"
+    "tabs:close-tabs-to-left": "Tutup Semua Tab Belah Kiri"
+    "tabs:close-saved-tabs": "Tutup Semua Tab yang Sudah Disimpan"
+    "tabs:close-all-tabs": "Tutup Semua Tab"
+    "tabs:split-up": "Pisah ke Atas"
+    "tabs:split-down": "Pisah ke Bawah"
+    "tabs:split-left": "Pisah ke Kiri"
+    "tabs:split-right": "Pisah ke Kanan"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Buka dalam Tetingkap Baharu"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Biarkan Tab yang Tergantung"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Buka Tab yang Ditutup"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "Fail Baharu"
+    "tree-view:add-folder": "Folder Baharu"
+    "tree-view:move": "Tukar Nama"
+    "tree-view:duplicate": "Kembarkan"
+    "tree-view:remove": "Padam"
+    "tree-view:copy": "Salin"
+    "tree-view:cut": "Potong"
+    "tree-view:paste": "Tampal"
+    "tree-view:open-selected-entry-up": "Pisah ke Atas"
+    "tree-view:open-selected-entry-down": "Pisah ke Bawah"
+    "tree-view:open-selected-entry-left": "Pisah ke Kiri"
+    "tree-view:open-selected-entry-right": "Pisah ke Kanan"
+    "application:add-project-folder": "Tambah Folder Projek"
+    "tree-view:copy-full-path": "Salin Laluan Penuh"
+    "tree-view:copy-project-path": "Salin Laluan Projek"
+    "tree-view:open-in-new-window": "Buka dalam Tetingkap Baharu"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Pisah ke Atas"
+    "tree-view:open-selected-entry-down": "Pisah ke Bawah"
+    "tree-view:open-selected-entry-left": "Pisah ke Kiri"
+    "tree-view:open-selected-entry-right": "Pisah ke Kanan"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "Fail Baharu"
+    "tree-view:add-folder": "Folder Baharu"
+    "tree-view:move": "Tukar Nama"
+    "tree-view:duplicate": "Kembarkan"
+    "tree-view:remove": "Padam"
+    "tree-view:copy": "Salin"
+    "tree-view:cut": "Potong"
+    "tree-view:paste": "Tampal"
+    "tree-view:open-selected-entry-up": "Pisah ke Atas"
+    "tree-view:open-selected-entry-down": "Pisah ke Bawah"
+    "tree-view:open-selected-entry-left": "Pisah ke Kiri"
+    "tree-view:open-selected-entry-right": "Pisah ke Kanan"
+    "application:add-project-folder": "Tambah Folder Projek"
+    "tree-view:remove-project-folder": "Padam Folder Projek"
+    "tree-view:copy-full-path": "Salin Laluan Penuh"
+    "tree-view:copy-project-path": "Salin Laluan Projek"
+    "tree-view:open-in-new-window": "Buka dalam Tetingkap Baharu"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Tunjuk dalam Pencari"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Tunjuk dalam Explorer"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Tunjuk dalam Pengurus Fail"
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Cari dalam Direktori"
+  ".tree-view .multi-select":
+    "tree-view:remove": "Padam"
+    "tree-view:copy": "Salin"
+    "tree-view:cut": "Potong"
+    "tree-view:paste": "Tampal"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Dedahkan Rajah Pokok"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Tukar Nama"
+    "tree-view:reveal-active-file": "Dedahkan Rajah Pokok"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Pencari"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Explorer"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Pengurus Fail"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Pencari"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Explorer"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Tunjuk dalam Pengurus Fail"

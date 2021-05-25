@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "Selamat Datang"
+  subtitle: {
+    text1: "Penyunting teks yang boleh digodam untuk"
+    superscript: ""
+    text2: " Abad Ke-21"
+  }
+  help: {
+    forHelpVisit: "Untuk bantuan, layari"
+    atomDocs: {
+      text1: ""
+      link: "Dokumen-dokumen Atom"
+      text2: " untuk Panduan Pengguna serta rujukan API."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "Forum berkaitan Atom di "
+      link: "discuss.atom.io"
+      text2: ""   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: "Laman "
+      link: "Atom org"
+      text2: ". Di sinilah tempat berkumpulnya pakej-pakej Atom yang dihasilkan dari Github."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "Tunjukkan tetingkap Selamat Datang ketika membuka Atom."

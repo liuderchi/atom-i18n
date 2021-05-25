@@ -1,0 +1,319 @@
+Menu:
+  "&File":
+    value: "&Fail"
+    submenu:
+      "New &Window":
+        value: "Tetingkap Baharu (&W)"
+      "&New File":
+        value: "Fail Baharu (&N)"
+      "&Open File…":
+        value: "Buka Fail… (&O)"
+      "Open Folder…":
+        value: "Buka Folder…"
+      "Add Project Folder…":
+        value: "Tambah Folder Projek…"
+      "Reopen Project":
+        value: "Buka Semula Projek"
+        submenu:
+          "Clear Project History":
+            value: "Buang Sejarah Projek"
+      "Reopen Last &Item":
+        value: "Buka Semula &Item Terakhir"
+      "Se&ttings":
+        value: "&Tetapan…"
+      "Config…":
+        value: "Konfig…"
+      "Init Script…":
+        value: "Skrip Init…"
+      "Keymap…":
+        value: "Peta Kekunci…"
+      "Snippets…":
+        value: "Potongan Kod…"
+      "Stylesheet…":
+        value: "CSS…"
+      "&Save":
+        value: "&Simpan"
+      "Save &As…":
+        value: "Simpan Seb&agai…"
+      "Save A&ll":
+        value: "Simpan Semu&a"
+      "&Close Tab":
+        value: "Tutup Tab (&C)"
+      "Close &Pane":
+        value: "Tutu&p Anak Tetingkap"
+      "Clos&e Window":
+        value: "Tutup T&etingkap"
+      "E&xit":
+        value: "Keluar (&X)"
+      "Close All Tabs":
+        value: "Tutup Semua Tab"
+  "&Edit":
+    value: "Suntingan (&E)"
+    submenu:
+      "&Undo":
+        value: "&Undur Kerja"
+      "&Redo":
+        value: "Maju Ke&rja"
+      "Cu&t":
+        value: "Po&tong"
+      "&Copy":
+        value: "Salin (&C)"
+      "Copy Pat&h":
+        value: "Salin Laluan Penu&h"
+      "&Paste":
+        value: "Tam&pal"
+      "Paste Without Reformatting":
+        value: "Tampal Tanpa Format"
+      "Select &All":
+        value: "Pilih Semu&a"
+      "&Toggle Comments":
+        value: "Buka/&Tutup Komen"
+      Lines:
+        value: "Baris"
+        submenu:
+          "&Indent":
+            value: "Santak Masuk (&I)"
+          "&Outdent":
+            value: "Santak Keluar (&O)"
+          "&Auto Indent":
+            value: "&Autosantak"
+          "Move Line &Up":
+            value: "Bawa Baris Ke Atas (&U)"
+          "Move Line &Down":
+            value: "Bawa Baris Ke Bawah (&D)"
+          "Du&plicate Lines":
+            value: "Duakan Baris (&P)"
+          "D&elete Line":
+            value: "Padam Baris (&E)"
+          "&Join Lines":
+            value: "Lekatkan Baris (&J)"
+      Columns:
+        value: "Lajur"
+        submenu:
+          "Move Selection &Left":
+            value: "Bawa Pilihan Ke Kiri (&L)"
+          "Move Selection &Right":
+            value: "Bawa Pilihan Ke Kanan (&R)"
+      Text:
+        value: "Teks"
+        submenu:
+          "&Upper Case":
+            value: "H&uruf Besar"
+          "&Lower Case":
+            value: "Huruf Keci&l"
+          "Delete to End of &Word":
+            value: "Padam Ke Hujung Kata (&W)"
+          "Delete to Previous Word Boundary":
+            value: "Padam Ke Batas Kata Sebelumnya"
+          "Delete to Next Word Boundary":
+            value: "Padam Ke Batas Kata Selepasnya"
+          "&Delete Line":
+            value: "Pa&dam Baris"
+          "&Transpose":
+            value: "&Transposisi"
+      Folding:
+        value: "Lipatan Kod"
+        submenu:
+          "&Fold":
+            value: "Lipat Kod (&F)"
+          "&Unfold":
+            value: "B&uka Lipatan"
+          "Unfold &All":
+            value: "Buka Semu&a Lipatan"
+          "Fol&d All":
+            value: "Lipat Semua (&D)"
+          "Fold Level 1":
+            value: "Lipat Tahap 1"
+          "Fold Level 2":
+            value: "Lipat Tahap 2"
+          "Fold Level 3":
+            value: "Lipat Tahap 3"
+          "Fold Level 4":
+            value: "Lipat Tahap 4"
+          "Fold Level 5":
+            value: "Lipat Tahap 5"
+          "Fold Level 6":
+            value: "Lipat Tahap 6"
+          "Fold Level 7":
+            value: "Lipat Tahap 7"
+          "Fold Level 8":
+            value: "Lipat Tahap 8"
+          "Fold Level 9":
+            value: "Lipat Tahap 9"
+      "Reflow Selection":
+        value: "Searuskan Pilihan"
+      Bookmark:
+        value: "Penanda Buku"
+        submenu:
+          "View All":
+            value: "Lihat Semua"
+          "Toggle Bookmark":
+            value: "Buka/Tutup Penanda Buku"
+          "Jump to Next Bookmark":
+            value: "Lompat Ke Penanda Buku Seterusnya"
+          "Jump to Previous Bookmark":
+            value: "Lompat Ke Penanda Buku Sebelumnya"
+          "Select to Next Bookmark":
+            value: "Pilih Sehingga Penanda Buku Seterusnya"
+          "Select to Previous Bookmark":
+            value: "Pilih Sehingga Penanda Buku Sebelumnya"
+      "Select Encoding":
+        value: "Pilih Pengekodan Aksara"
+      "Go to Line":
+        value: "Pergi Ke Baris"
+      "Select Grammar":
+        value: "Pilih Tatabahasa"
+  "&View":
+    value: "Paparan (&V)"
+    submenu:
+      "Toggle &Full Screen":
+        value: "Buka/Tutup Skrin Penuh (&F)"
+      "Toggle Menu Bar":
+        value: "Buka/Tutup Palang Menu"
+      Panes:
+        value: "Anak Tetingkap"
+        submenu:
+          "Split Up":
+            value: "Pisahkan Ke Atas"
+          "Split Down":
+            value: "Pisahkan Ke Bawah"
+          "Split Left":
+            value: "Pisahkan Ke Kiri"
+          "Split Right":
+            value: "Pisahkan Ke Kanan"
+          "Focus Next Pane":
+            value: "Tumpu Anak Tetingkap Seterusnya"
+          "Focus Previous Pane":
+            value: "Tumpu Anak Tetingkap Sebelumnya"
+          "Focus Pane Above":
+            value: "Tumpu Anak Tetingkap Atas"
+          "Focus Pane Below":
+            value: "Tumpu Anak Tetingkap Bawah"
+          "Focus Pane On Left":
+            value: "Tumpu Anak Tetingkap Kiri"
+          "Focus Pane On Right":
+            value: "Tumpu Anak Tetingkap Kanan"
+          "Close Pane":
+            value: "Tutup Anak Tetingkap"
+      Developer:
+        value: "Pembangun"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "Buka dalam Mo&d Pembangun…"
+          "&Reload Window":
+            value: "Muat Semula Tetingkap (&R)"
+          "Run Package &Specs":
+            value: "Laksanakan &Spek Pakej"
+          "Run &Benchmarks":
+            value: "Laksanakan Penandaarasan (&B)"
+          "Toggle Developer &Tools":
+            value: "Buka/Tutup Ala&tan Pembangun"
+      "&Increase Font Size":
+        value: "Besarkan Saiz Tul&isan"
+      "&Decrease Font Size":
+        value: "Kecilkan Saiz Tulisan (&D)"
+      "Re&set Font Size":
+        value: "&Saiz Tulisan Asal"
+      "Toggle Soft &Wrap":
+        value: "Buka/Tutup Lilitan Lembut (&W)"
+      "Toggle Command Palette":
+        value: "Buka/Tutup Papan Arahan"
+      "Toggle Tree View":
+        value: "Buka/Tutup Rajah Pokok"
+  "&Selection":
+    value: "Pilihan (&S)"
+    submenu:
+      "Add Selection &Above":
+        value: "Tambah Pilihan &Atas"
+      "Add Selection &Below":
+        value: "Tambah Pilihan &Bawah"
+      "S&plit into Lines":
+        value: "&Pisahkan Jadi Baris"
+      "Single Selection":
+        value: "Pilihan Tunggal"
+      "Select to &Top":
+        value: "Pilih Sehingga A&tas Sekali"
+      "Select to Botto&m":
+        value: "Pilih Sehingga Bawah Sekali (&M)"
+      "Select &Line":
+        value: "Pi&lih Baris"
+      "Select &Word":
+        value: "Pilih Kata (&W)"
+      "Select to Beginning of W&ord":
+        value: "Pilih Sehingga Mula Kata (&O)"
+      "Select to Beginning of L&ine":
+        value: "Pilih Sehingga Hujung Bar&is"
+      "Select to First &Character of Line":
+        value: "Pilih Sehingga Aksara Pertama Baris (&C)"
+      "Select to End of Wor&d":
+        value: "Pilih Sehingga Hujung Kata (&O)"
+      "Select to End of Lin&e":
+        value: "Pilih S&ehingga Hujung Baris"
+      "Select Inside Brackets":
+        value: "Pilih Dalam Kurungan"
+  "F&ind":
+    value: "Car&i"
+    submenu:
+      "Find in Buffer":
+        value: "Cari..."
+      "Replace in Buffer":
+        value: "Ganti..."
+      "Select Next":
+        value: "Pilih Seterusnya"
+      "Select All":
+        value: "Pilih Semua"
+      "Toggle Find in Buffer":
+        value: "Buka/Tutup Carian"
+      "Find in Project":
+        value: "Cari Dalam Projek"
+      "Toggle Find in Project":
+        value: "Buka/Tutup Carian Dalam Projek"
+      "Find All":
+        value: "Cari Semua"
+      "Find Next":
+        value: "Cari Seterusnya"
+      "Find Previous":
+        value: "Cari Sebelumnya"
+      "Replace Next":
+        value: "Ganti Seterusnya"
+      "Replace All":
+        value: "Ganti Semua"
+      "Clear History":
+        value: "Bersihkan Sejarah"
+      "Find Buffer":
+        value: "Cari Fail Yang Terbuka"
+      "Find File":
+        value: "Cari Fail"
+      "Find Modified File":
+        value: "Cari Fail Yang Diubah"
+  "&Packages":
+    value: "&Pakej"
+  "&Help":
+    value: "Bantuan (&H)"
+    submenu:
+      "View &Terms of Use":
+        value: "Lihat &Terma Penggunaan"
+      "View &License":
+        value: "Lihat &Lesen"
+      "Restart and Install Update":
+        value: "Tutup, Buka dan Pasang Kemaskini"
+      "Check for Update":
+        value: "Cari Kemaskini"
+      "Checking for Update":
+        value: "Mencari Kemaskini"
+      "Downloading Update":
+        value: "Memuat turun Kemaskini"
+      "&Documentation":
+        value: "&Dokumentasi"
+      "Frequently Asked Questions":
+        value: "Soalan-Soalan Lazim"
+      "Community Discussions":
+        value: "Perbincangan Komuniti"
+      "Report Issue":
+        value: "Laporkan Isu"
+      "Search Issues":
+        value: "Cari Isu"
+      "About Atom":
+        value: "Berkenaan Atom"
+      "Welcome Guide":
+        value: "Panduan Pemula"
