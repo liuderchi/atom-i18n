@@ -38,13 +38,13 @@ Menu:
       "Save A&ll":
         value: "Simpan Semu&a"
       "&Close Tab":
-        value: "Tutup Tab"
+        value: "Tutup Tab (&C)"
       "Close &Pane":
-        value: "Tutup Anak Tetingkap"
+        value: "Tutu&p Anak Tetingkap"
       "Clos&e Window":
-        value: "Tutup Tetingkap"
+        value: "Tutup T&etingkap"
       "E&xit":
-        value: "Keluar"
+        value: "Keluar (&X)"
       "Close All Tabs":
         value: "Tutup Semua Tab"
   "&Edit":
@@ -57,9 +57,9 @@ Menu:
       "Cu&t":
         value: "Po&tong"
       "&Copy":
-        value: "Salin"
+        value: "Salin (&C)"
       "Copy Pat&h":
-        value: "Salin Laluan Penuh"
+        value: "Salin Laluan Penu&h"
       "&Paste":
         value: "Tam&pal"
       "Paste Without Reformatting":
@@ -67,33 +67,33 @@ Menu:
       "Select &All":
         value: "Pilih Semu&a"
       "&Toggle Comments":
-        value: "Buka/Tutup Komen"
+        value: "Buka/&Tutup Komen"
       Lines:
         value: "Baris"
         submenu:
           "&Indent":
-            value: "Santak Masuk"
+            value: "Santak Masuk (&I)"
           "&Outdent":
-            value: "Santak Keluar"
+            value: "Santak Keluar (&O)"
           "&Auto Indent":
-            value: "Autosantak"
+            value: "&Autosantak"
           "Move Line &Up":
-            value: "Bawa Baris Ke Atas"
+            value: "Bawa Baris Ke Atas (&U)"
           "Move Line &Down":
-            value: "Bawa Baris Ke Bawah"
+            value: "Bawa Baris Ke Bawah (&D)"
           "Du&plicate Lines":
-            value: "Duakan Baris"
+            value: "Duakan Baris (&P)"
           "D&elete Line":
-            value: "Padam Baris"
+            value: "Padam Baris (&E)"
           "&Join Lines":
-            value: "Lekatkan Baris"
+            value: "Lekatkan Baris (&J)"
       Columns:
         value: "Lajur"
         submenu:
           "Move Selection &Left":
-            value: "Bawa Pilihan Ke Kiri"
+            value: "Bawa Pilihan Ke Kiri (&L)"
           "Move Selection &Right":
-            value: "Bawa Pilihan Ke Kanan"
+            value: "Bawa Pilihan Ke Kanan (&R)"
       Text:
         value: "Teks"
         submenu:
@@ -102,7 +102,7 @@ Menu:
           "&Lower Case":
             value: "Huruf Keci&l"
           "Delete to End of &Word":
-            value: "Padam Ke Hujung Kata"
+            value: "Padam Ke Hujung Kata (&W)"
           "Delete to Previous Word Boundary":
             value: "Padam Ke Batas Kata Sebelumnya"
           "Delete to Next Word Boundary":
@@ -115,13 +115,13 @@ Menu:
         value: "Lipatan Kod"
         submenu:
           "&Fold":
-            value: "Lipat Kod"
+            value: "Lipat Kod (&F)"
           "&Unfold":
-            value: "Buka Lipatan"
+            value: "B&uka Lipatan"
           "Unfold &All":
-            value: "Buka Semua Lipatan"
+            value: "Buka Semu&a Lipatan"
           "Fol&d All":
-            value: "Lipat Semua"
+            value: "Lipat Semua (&D)"
           "Fold Level 1":
             value: "Lipat Tahap 1"
           "Fold Level 2":
@@ -167,7 +167,7 @@ Menu:
     value: "Paparan (&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Buka/Tutup Skrin Penuh"
+        value: "Buka/Tutup Skrin Penuh (&F)"
       "Toggle Menu Bar":
         value: "Buka/Tutup Palang Menu"
       Panes:
@@ -201,21 +201,21 @@ Menu:
           "Open In &Dev Mode…":
             value: "Buka dalam Mo&d Pembangun…"
           "&Reload Window":
-            value: "Muat Semula Tetingkap"
+            value: "Muat Semula Tetingkap (&R)"
           "Run Package &Specs":
-            value: "Laksanakan Spek Pakej"
+            value: "Laksanakan &Spek Pakej"
           "Run &Benchmarks":
-            value: "Laksanakan Penandaarasan"
+            value: "Laksanakan Penandaarasan (&B)"
           "Toggle Developer &Tools":
             value: "Buka/Tutup Ala&tan Pembangun"
       "&Increase Font Size":
         value: "Besarkan Saiz Tul&isan"
       "&Decrease Font Size":
-        value: "Kecilkan Saiz Tulisan"
+        value: "Kecilkan Saiz Tulisan (&D)"
       "Re&set Font Size":
         value: "&Saiz Tulisan Asal"
       "Toggle Soft &Wrap":
-        value: "Buka/Tutup Lilitan Lembut"
+        value: "Buka/Tutup Lilitan Lembut (&W)"
       "Toggle Command Palette":
         value: "Buka/Tutup Papan Arahan"
       "Toggle Tree View":
@@ -232,23 +232,23 @@ Menu:
       "Single Selection":
         value: "Pilihan Tunggal"
       "Select to &Top":
-        value: "Pilih Sehingga Atas Sekali"
+        value: "Pilih Sehingga A&tas Sekali"
       "Select to Botto&m":
-        value: "Pilih Sehingga Bawah Sekali"
+        value: "Pilih Sehingga Bawah Sekali (&M)"
       "Select &Line":
-        value: "Pilih Baris"
+        value: "Pi&lih Baris"
       "Select &Word":
-        value: "Pilih Kata"
+        value: "Pilih Kata (&W)"
       "Select to Beginning of W&ord":
-        value: "Pilih Sehingga Mula Kata"
+        value: "Pilih Sehingga Mula Kata (&O)"
       "Select to Beginning of L&ine":
-        value: "Pilih Sehingga Hujung Baris"
+        value: "Pilih Sehingga Hujung Bar&is"
       "Select to First &Character of Line":
-        value: "Pilih Sehingga Aksara Pertama Baris"
+        value: "Pilih Sehingga Aksara Pertama Baris (&C)"
       "Select to End of Wor&d":
-        value: "Pilih Sehingga Hujung Kata"
+        value: "Pilih Sehingga Hujung Kata (&O)"
       "Select to End of Lin&e":
-        value: "Pilih Sehingga Hujung Baris"
+        value: "Pilih S&ehingga Hujung Baris"
       "Select Inside Brackets":
         value: "Pilih Dalam Kurungan"
   "F&ind":
@@ -294,7 +294,7 @@ Menu:
       "View &Terms of Use":
         value: "Lihat &Terma Penggunaan"
       "View &License":
-        value: "Lihat Lesen"
+        value: "Lihat &Lesen"
       "Restart and Install Update":
         value: "Tutup, Buka dan Pasang Kemaskini"
       "Check for Update":
