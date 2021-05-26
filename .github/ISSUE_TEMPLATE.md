@@ -13,4 +13,4 @@ files Required translation:
 - `def/ENTER_LOCALE_HERE/settings.cson`
 - `def/ENTER_LOCALE_HERE/welcome.cson`
 
-* for more info please checkout [CONTRIBUTING.md](https://github.com/liuderchi/atom-i18n/blob/master/CONTRIBUTING.md)
+* for more info please checkout [CONTRIBUTING.md](https://github.com/liuderchi/atom-i18n/blob/main/CONTRIBUTING.md)

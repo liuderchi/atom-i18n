@@ -4,7 +4,6 @@
   "version": "0.26.0",
   "scripts": {
     "prettier:write": "prettier --write .",
-    "ci:test": "npm run lint && npm run validation",
     "lint": "eslint lib spec",
     "validation": "mocha --require @babel/register spec/validation.js"
   },

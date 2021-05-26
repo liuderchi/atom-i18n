@@ -32,7 +32,7 @@
        ```shell
        cd def && cp -r template MY_LOCALE
        ```
-     - insert one menu item in [package.json](//github.com/liuderchi/atom-i18n/blob/master/package.json) under `configSchema.locale.enum` field
+     - insert one menu item in [package.json](//github.com/liuderchi/atom-i18n/blob/main/package.json) under `configSchema.locale.enum` field
        ```js
        {
          "value": "pl",  # your locale code
