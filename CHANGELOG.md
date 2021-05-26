@@ -1,3 +1,8 @@
+## 0.26.0 - Malay support
+
+- ms i18n #313
+- sq i18n #311
+
 ## 0.25.2 - Czech update, bug fix
 
 - cs i18n #296

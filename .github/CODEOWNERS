@@ -43,6 +43,8 @@ def/ko/welcome.cson  @jonghyeok
 
 def/kn/.cson        @sachinsshetty
 
+def/ms/*.cson        @Thaza-Kun
+
 def/nl/*.cson        @laurensbrand
 
 def/pl/*.cson        @nolt

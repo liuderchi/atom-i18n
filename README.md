@@ -43,10 +43,10 @@ Community-driven translation. :family:
 | Hungarian            |  `hu`   | :white_check_mark: 100%                          |
 | Italian              |  `it`   | :white_check_mark: 100%                          |
 | Japanese             |  `ja`   | :white_check_mark: 100%                          |
-| Korean               |  `ko`   | :white_check_mark: 100%                          |
 | Kannada              |  `kn`   | :white_check_mark: 100%                          |
+| Korean               |  `ko`   | :white_check_mark: 100%                          |
+| Malay                |  `ms`   | :warning: 60% [I can translate][ms-issue-filter] |
 | Dutch                |  `nl`   | :warning: 80% [I can translate][nl-issue-filter] |
-| Malay                | `ms`    | :warning: 60% [I can translate][ms-issue-filter] |
 | Polish               |  `pl`   | :white_check_mark: 100%                          |
 | Portuguese(Brazil)   | `pt-br` | :white_check_mark: 100%                          |
 | Romanian             |  `ro`   | :white_check_mark: 100%                          |
@@ -58,7 +58,7 @@ Community-driven translation. :family:
 | Chinese(Simplified)  | `zh-cn` | :white_check_mark: 100%                          |
 | Chinese(Traditional) | `zh-tw` | :white_check_mark: 100%                          |
 
-Welcome to :heavy*plus_sign: [Propose new translation for \_your locale*][create issue] :memo:
+Welcome to 📣. [Propose new translation for your locale][create issue]
 
 ## Who can Contribute?
 
@@ -160,10 +160,10 @@ Welcome to :heavy*plus_sign: [Propose new translation for \_your locale*][create
 [ar-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ar%22 "ar-issue-filter"
 [be-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20be%22 "be-issue-filter"
 [cs-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20cs%22 "cs-issue-filter"
+[de-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20de%22 "de-issue-filter"
 [eo-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20eo%22 "eo-issue-filter"
 [es-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20es%22 "es-issue-filter"
 [fa-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fa%22 "fa-issue-filter"
-[de-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20de%22 "de-issue-filter"
 [fi-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fi%22 "fi-issue-filter"
 [fr-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20fr%22 "fr-issue-filter"
 [he-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20he%22 "he-issue-filter"
@@ -171,8 +171,9 @@ Welcome to :heavy*plus_sign: [Propose new translation for \_your locale*][create
 [hu-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20hu%22 "hu-issue-filter"
 [it-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20it%22 "it-issue-filter"
 [ja-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ja%22 "ja-issue-filter"
-[ko-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ko%22 "ko-issue-filter"
 [kn-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20kn%22 "kn-issue-filter"
+[ko-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ko%22 "ko-issue-filter"
+[ms-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20ms%22 "ms-issue-filter"
 [nl-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20nl%22 "nl-issue-filter"
 [pl-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20pl%22 "pl-issue-filter"
 [pt-br-issue-filter]: https://github.com/liuderchi/atom-i18n/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22%20label%3A%22i18n%20pt-br%22 "pt-br-issue-filter"
