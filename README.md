@@ -6,7 +6,7 @@
 [![issues-count][issues-count]][issues]
 
 [![latest version][latest-version]][apm-download-link]
-[![Build Status][travis-status]][travis-project]
+[![Build Status][ci-status]][ci-link]
 [![Renovate enabled][renovate-badge]][renovate-link]
 [![dependency status][dep-status]][pkg-json]
 [![license][license-badge]][license]
@@ -138,8 +138,8 @@ Welcome to 📣. [Propose new translation for your locale][create issue]
 [issues-count]: https://img.shields.io/github/issues/liuderchi/atom-i18n.svg "issues-count"
 [issues]: https://github.com/liuderchi/atom-i18n/issues "issues"
 [latest-version]: https://img.shields.io/apm/v/atom-i18n?label=latest "latest-version"
-[travis-status]: https://travis-ci.org/liuderchi/atom-i18n.svg?branch=main "travis-status"
-[travis-project]: https://travis-ci.org/liuderchi/atom-i18n "travis-project"
+[ci-status]: https://github.com/liuderchi/atom-i18n/actions/workflows/validate.yml/badge.svg "ci-status"
+[ci-link]: https://github.com/liuderchi/atom-i18n/actions "ci-link"
 [renovate-badge]: https://img.shields.io/badge/renovate-enabled-brightgreen.svg "renovate-badge"
 [renovate-link]: https://renovateapp.com
 [dep-status]: https://img.shields.io/librariesio/github/liuderchi/atom-i18n "dep-status"
