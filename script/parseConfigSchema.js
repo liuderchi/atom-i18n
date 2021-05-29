@@ -9,7 +9,7 @@ const CONFIG_SCHEMA_JS_PATH = process.argv[2];
 
 if (!CONFIG_SCHEMA_JS_PATH) {
   console.log(
-    "usage:\n $ node parseConfigSchema.js path/to/atom/src/config-schema.js"
+    'usage:\n $ node parseConfigSchema.js path/to/atom/src/config-schema.js',
   );
   process.exit(-1);
 }
@@ -23,17 +23,17 @@ const res = [].concat(
   Object.keys(coreProps).map((k) => {
     const res = { id: `core.${k}` };
     if (coreProps[k].description) {
-      res["desc"] = coreProps[k].description;
+      res['desc'] = coreProps[k].description;
     }
     return res;
   }),
   Object.keys(editorProps).map((k) => {
     const res = { id: `editor.${k}` };
     if (editorProps[k].description) {
-      res["desc"] = editorProps[k].description;
+      res['desc'] = editorProps[k].description;
     }
     return res;
-  })
+  }),
 );
 
 res.sort((a, b) => a.id.localeCompare(b.id));

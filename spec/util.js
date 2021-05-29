@@ -5,7 +5,7 @@ export function flattenObj(data) {
       result[prop] = cur;
     } else if (Array.isArray(cur)) {
       for (var i = 0, l = cur.length; i < l; i++)
-        recurse(cur[i], prop + "[" + i + "]");
+        recurse(cur[i], prop + '[' + i + ']');
       if (l == 0) {
         result[prop] = [];
       }
@@ -13,13 +13,13 @@ export function flattenObj(data) {
       var isEmpty = true;
       for (var p in cur) {
         isEmpty = false;
-        recurse(cur[p], prop ? prop + "." + p : p);
+        recurse(cur[p], prop ? prop + '.' + p : p);
       }
       if (isEmpty && prop) {
         result[prop] = {};
       }
     }
   }
-  recurse(data, "");
+  recurse(data, '');
   return result;
 }

@@ -25,6 +25,6 @@ parserOptions:
 rules:
   no-console: off
   no-unused-vars:
-  - warn
-  - vars: all
-    args: after-used
+    - warn
+    - vars: all
+      args: after-used

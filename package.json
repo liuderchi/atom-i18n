@@ -28,10 +28,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
-    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-env": "^7.14.4",
     "@babel/register": "^7.13.16",
     "chai": "^4.3.4",
-    "core-js": "^3.13.0",
+    "core-js": "^3.13.1",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^6.0.0",
