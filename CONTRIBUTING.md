@@ -10,7 +10,7 @@
 - There are several
   [issues](//github.com/liuderchi/atom-i18n/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
   require your help.
-- NOTE: Currently the author do not review grammar of the translation.
+- NOTE: Currently the author does not review grammar of the translation.
 
 ## Steps to Contribute
 
