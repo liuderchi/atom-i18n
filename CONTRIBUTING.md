@@ -1,16 +1,22 @@
 # CONTRIBUTING
 
-:tada::tada: First of all, THANK YOU for taking time to contribute this package! :tada::tada:
+:tada::tada: First of all, THANK YOU for taking time to contribute this package!
+:tada::tada:
 
 ## Which Languages can I Contribute?
 
-- _Any language_ is welcomed. _Anyone_ is welcomed to contribute. :earth_asia: :earth_americas: :earth_africa:
-- There are several [issues](//github.com/liuderchi/atom-i18n/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) require your help.
-- NOTE: Currently the author do not review grammar of the translation.
+- _Any language_ is welcomed. _Anyone_ is welcomed to contribute. :earth_asia:
+  :earth_americas: :earth_africa:
+- There are several
+  [issues](//github.com/liuderchi/atom-i18n/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
+  require your help.
+- NOTE: Currently the author does not review grammar of the translation.
 
 ## Steps to Contribute
 
-1. please checkout [Issues Page](//github.com/liuderchi/atom-i18n/issues) and [Pull Request Page](//github.com/liuderchi/atom-i18n/pulls) first in case there is already someone being assigned or working on it.
+1. please checkout [Issues Page](//github.com/liuderchi/atom-i18n/issues) and
+   [Pull Request Page](//github.com/liuderchi/atom-i18n/pulls) first in case
+   there is already someone being assigned or working on it.
 2. fork this repo
 3. clone the repo you just forked to your disk
 
@@ -18,7 +24,8 @@
    git clone https://github.com/my-account/atom-i18n.git
    ```
 
-4. install npm dependencies then _create a branch_ named as the _locale you want to contribute_. For example:
+4. install npm dependencies then _create a branch_ named as the _locale you want
+   to contribute_. For example:
 
    ```shell
    cd atom-i18n && npm install && git checkout -b fr
@@ -28,11 +35,14 @@
 
    - NOTE: if your locale is missing, please do:
 
-     - copy `def/template` folder and rename it as [your locale](http://www.science.co.il/language/Codes.php)
+     - copy `def/template` folder and rename it as
+       [your locale](http://www.science.co.il/language/Codes.php)
        ```shell
        cd def && cp -r template MY_LOCALE
        ```
-     - insert one menu item in [package.json](//github.com/liuderchi/atom-i18n/blob/main/package.json) under `configSchema.locale.enum` field
+     - insert one menu item in
+       [package.json](//github.com/liuderchi/atom-i18n/blob/main/package.json)
+       under `configSchema.locale.enum` field
        ```js
        {
          "value": "pl",  # your locale code
@@ -42,7 +52,8 @@
 
 6. please read [translation guide](#translation-guide) before translation
 
-7. you may preview your translation by [enabling DEV mode](#how-to-preview-your-translation-in-development)
+7. you may preview your translation by
+   [enabling DEV mode](#how-to-preview-your-translation-in-development)
 
 8. you may validate syntax of your translation. For example:
 
@@ -76,7 +87,9 @@
 
    - in previous example, only string `"Inspect Element"` need to be translated
 
-2. in `settings.cson`, keys having **underscore prefix** (e.g. `_label`, `_id`) are **identifiers** for package execution whose values **WILL NOT be translated**
+2. in `settings.cson`, keys having **underscore prefix** (e.g. `_label`, `_id`)
+   are **identifiers** for package execution whose values **WILL NOT be
+   translated**
 
    ```coffee
    Settings:
@@ -93,7 +106,9 @@
        # more ...
    ```
 
-3. for the menu label containing **hotkey hint** `&`, we can **preserve it in the word** or **preserve it with braces** wrapped at the end. It's up to user experience.
+3. for the menu label containing **hotkey hint** `&`, we can **preserve it in
+   the word** or **preserve it with braces** wrapped at the end. It's up to user
+   experience.
 
    - let's look at `menu_win32.cson`:
 
