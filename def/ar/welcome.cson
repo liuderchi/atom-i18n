@@ -1,29 +1,24 @@
 Welcome:
   tabTitle: "مرحبا"
-  subtitle: {
+  subtitle:
     text1: "محرر ملفات قابل للإختراق من أجل القرن الحادي والعشرين"
     superscript: ""
     text2: ""
-  }
-  help: {
+  help:
     forHelpVisit: "للمساعدة، فضلا زر"
-    atomDocs: {
+    atomDocs:
       text1: ""
       link: "توثيقات أتوم"
       text2: " من أجل الإرشادات ومرجع واجهة برمجة التطبيق."
       _template: "${text1}<a>${link}</a>${text2}"
-    }
-    atomForum: {
+    atomForum:
       text1: "منتدى أتوم في "
       link: "discuss.atom.io"
       text2: ""   # optional
       _template: "${text1}<a>${link}</a>${text2}"
-    }
-    atomOrg: {
+    atomOrg:
       text1: ""
       link: "منظمة أتوم"
       text2: "حيث يمكن إيجاد كاقة حزم أتوم المصنعة بواسطة جيتهب."
       _template: "${text1}<a>${link}</a>${text2}"
-    }
-  }
   showWelcomeGuide: "إعرض دليل الترحيب عند فتح أتوم"

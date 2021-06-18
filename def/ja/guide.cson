@@ -1,0 +1,120 @@
+Guide:
+  tabTitle: "ウエルカム ガイド"
+  subTitle: "Atom を知ろう！"
+  project:
+    title:
+      text1: ""
+      text2: "プロジェクト"
+      text3: "を開く"        # optional
+      _template: "${text1}<span>${text2}</span>${text3}"
+    detail: "Atom では、個々のファイルまたはフォルダー全体をプロジェクトとして開くことができます。 
+             フォルダを開くと、エディターにツリービューが追加され、すべてのファイルを閲覧することができます。"
+    'open-project': "プロジェクトを開く"
+    note:
+      text1: "次回ヒント:"
+      text2: " メニューやキーボードショートカットからプロジェクトを開くこともできますし、Atomのドックアイコンにフォルダをドラッグして開くこともできます。"
+      _template: "<strong>${text1}</strong>${text2}"
+  git:
+    title:
+      text1: ""
+      text2: "Git と GitHub"
+      text3: " によるバージョン管理"        # optional
+      _template: "${text1}<span>${text2}</span>${text3}"
+    detail: "作業中にコードへの変更を追跡できます。 エディターにいながら、ブランチ、コミット、プッシュ、およびプルを行うことができます。
+             GitHub で他の開発者と共同作業を行います。"
+    'open-git': "Git パネルを開く"
+    'open-github': "GitHub パネルを開く"
+    note:
+      text1: "次回ヒント:"
+      text2: " ステータスバーの "
+      text3: " ボタンをクリックすると、Git タブを切り替えることができます。"
+      _template: "<strong>${text1}</strong>${text2}<span></span>${text3}"
+  teletype:
+    title:
+      text1: ""
+      text2: "テレタイプ"
+      text3: "でリアルタイムの共同作業"        # optional
+      _template: "${text1}<span>${text2}</span>${text3}"
+    detail: "ワークスペースをチームメンバーと共有し、リアルタイムでコードの共同作業をすることができます。"
+    'install-teletype': "Teletype for Atom のインストール"
+  packages:
+    title:
+      text1: ""
+      text2: "パッケージ"
+      text3: "のインストール"        # optional
+      _template: "${text1}<span>${text2}</span>${text3}"
+    detail: "Atom の優れた点のひとつに、パッケージのエコシステムがあります。
+             パッケージをインストールすると、新しい機能が追加され、自分のニーズに合ったエディタにすることができます。一つインストールしてみましょう。"
+    'install-package': "インストーラーを開く"
+    note:
+      text1: "次回ヒント:"
+      text2: " 設定から新しいパッケージをインストールできます。"
+      _template: "<strong>${text1}</strong>${text2}"
+  themes:
+    title:
+      text1: ""
+      text2: "テーマ"
+      text3: "の選択"        # optional
+      _template: "${text1}<span>${text2}</span>${text3}"
+    detail1: "Atom にはテーマがプリインストールされています。いくつか試してみましょう。"
+    'open-theme': "[テーマの選択] を開く"
+    detail2: "また、Atom コミュニティが作成したテーマをインストールすることもできます。 
+              新しいテーマをインストールするには、[インストール] をクリックして、トグルを [テーマ] に切り替えてください。"
+    note:
+      text1: "次回ヒント:"
+      text2: " 設定からテーマを切り替えることができます。"
+      _template: "<strong>${text1}</strong>${text2}"
+  styling:
+    title:
+      text1: ""
+      text2: "スタイル指定"
+      text3: "のカスタマイズ"        # optional
+      _template: "${text1}<span>${text2}</span>${text3}"
+    detail1: "独自の CSS/LESS を追加することで、ほとんどのカスタマイズが可能です。" 
+    'open-stylesheet': "スタイルシートを開く"
+    detail2: "ここで、いくつかの例のコメントを外すか、独自の例を試してください。" 
+    note:
+      text1: "次回ヒント:"
+      text2: " [ファイル] メニューからスタイルシートを開くことができます。"
+      _template: "<strong>${text1}</strong>${text2}"
+  'init-script':
+    title:
+      text1: ""
+      text2: "初期化スクリプト"
+      text3: "の設定"        # optional
+      _template: "${text1}<span>${text2}</span>${text3}"
+    detail1: "初期化スクリプトは、起動時に実行される JavaScript または CoffeeScript コードです。 これを使用して、Atom の動作をすばやく変更できます。"
+    'open-init-script': "初期化スクリプトを開く"
+    detail2: "いくつかの例のコメントを外すか、独自の例を試してください。" 
+    note:
+      text1: "次回ヒント:"
+      text2: " [ファイル] メニューから初期化スクリプトを開くことができます。"
+      _template: "<strong>${text1}</strong>${text2}"
+  snippets:
+    title:
+      text1: ""
+      text2: "スニペット"
+      text3: "の追加"        # optional
+      _template: "${text1}<span>${text2}</span>${text3}"
+    detail: "Atom スニペットを利用すると、エディタに簡単なプレフィックスを入力してタブを押すことにより、そのプレフィックスがテンプレート化された値を持つより大きなコードブロックに展開されます。"
+    'open-snippet': "スニペット設定を開く"
+    detail2: "スニペットファイルに <code>snip</code> と入力し、<code>tab</code> を押します。 <code>snip</code> スニペットが展開され、スニペットが作成されます。"
+    note:
+      text1: "次回ヒント:"
+      text2: " [ファイル] メニューからスニペットを開くことができます。"
+      _template: "<strong>${text1}</strong>${text2}"
+  shortcuts:
+    title:
+      text1: ""
+      text2: "キーボード ショートカット"
+      text3: "を学ぶ"        # optional
+      _template: "${text1}<span>${text2}</span>${text3}"
+    detail: 
+      text1: "キーボードショートカットを1つだけ覚えるとしたら、まず "
+      text2: " にしましょう。このキーストロークは、Atom のすべてのコマンドを一覧表示するコマンドパレットに切り替えます。
+              より多くのショートカットを学ぶことができます。では、今すぐ試してみましょう。"
+      text3: "このガイドを再表示したい場合は、コマンドパレット "
+      text4: " を使用して、"
+      text5: "Welcome"
+      text6: " を検索してください。"
+      _template: "<p>${text1}<kbd></kbd>${text2}</p><p>${text3}<kbd></kbd>${text4}<span>${text5}</span>${text6}</p>"

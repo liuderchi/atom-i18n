@@ -1,0 +1,19 @@
+Consent:
+  tabTitle: "Telemetry Consent"
+  desc:
+    text1: "Help improve Atom by sending your anonymous "
+    text2: "usage data"
+    text3: " to the Atom team. The resulting data plays a key role in deciding what we focus on next."
+    _template: "${text1}<strong>${text2}</strong>${text3}"
+  send:
+    "send-usage": "Yes, send my usage data"
+    notes:
+      text1: "Including exception and crash reports. See the "
+      text2: "atom/metrics package"
+      text3: " for more details."
+      _template: "${text1}<a>${text2}</a>${text3}"
+  unsend:
+    "unsend-usage": "No, do not send my usage data"
+    notes: "Note: We only register anonymously that you opted-out."
+  with: " with "
+  by: " by "
