@@ -1,9 +1,11 @@
 Context:
   "atom-workspace":
-    "application:inspect": "इन्स्पेक्ट  एलीमेंट" 
+    "application:inspect": "इन्स्पेक्ट  एलीमेंट"
   "atom-text-editor":
     "color-picker:open": "कलर पीकर "
     "minimap:toggle": "टोग्ल मिनीमप"
+    # added for atom/bookmarks
+    "bookmarks:toggle-bookmark": "Toggle Bookmark"
   "atom-text-editor, .overlayer":
     "core:undo": "अंडू"
     "core:redo": "रीडू"
@@ -28,7 +30,7 @@ Context:
     "spell-check:correct-misspelling": "स्पेलिंग ठीक करें"
     "symbols-view:go-to-declaration": "डीकलरेशन पर जाँए"
   ".overlayer":
-    "grammar-selector:show": "ग्रामर बदलें" 
+    "grammar-selector:show": "ग्रामर बदलें"
   ".image-view":
     "image-view:reload": "ईमेग रीलोड"
   ".tab":
@@ -45,7 +47,7 @@ Context:
   ".tab.texteditor":
     "tabs:open-in-new-window": "नईं विंडो में टैब खोलें"
   ".tab.pending-tab":
-    "tabs:keep-pending-tab": "पेनडिंग टैब खूला रकें" 
+    "tabs:keep-pending-tab": "पेनडिंग टैब खूला रकें"
   ".tab-bar":
     "pane:reopen-closed-item": "पिछला बंद टैब खोलें"
   ".tree-view .full-menu":
@@ -57,10 +59,10 @@ Context:
     "tree-view:copy": "क़ोपी"
     "tree-view:cut": "कट"
     "tree-view:paste": "पेस्ट"
-    "tree-view:open-selected-entry-up": "उपेर की पेन में खोलें"
-    "tree-view:open-selected-entry-down": "नीचे की पेन में खोलें"
-    "tree-view:open-selected-entry-left": "बाँए पेन में खोलें"
-    "tree-view:open-selected-entry-right": "दायें पेन में खोलें"
+#    "tree-view:open-selected-entry-up": "उपेर की पेन में खोलें"
+#    "tree-view:open-selected-entry-down": "नीचे की पेन में खोलें"
+#    "tree-view:open-selected-entry-left": "बाँए पेन में खोलें"
+#    "tree-view:open-selected-entry-right": "दायें पेन में खोलें"
     "application:add-project-folder": "प्रोजेक्ट फ़ोल्डर ऐड करें"
     "tree-view:copy-full-path": "पूरा पाथ क़ोपी करें"
     "tree-view:copy-project-path": "प्रोजेक्ट पाथ क़ोपी करें"
@@ -79,12 +81,14 @@ Context:
     "tree-view:copy": "क़ोपी"
     "tree-view:cut": "कट"
     "tree-view:paste": "पेस्ट"
-    "tree-view:open-selected-entry-up": "ऊपर स्पलित"
-    "tree-view:open-selected-entry-down": "नीचे स्पलित"
-    "tree-view:open-selected-entry-left": "बाँए स्पलित"
-    "tree-view:open-selected-entry-right": "दायें स्पलित"
+#    "tree-view:open-selected-entry-up": "ऊपर स्पलित"
+#    "tree-view:open-selected-entry-down": "नीचे स्पलित"
+#    "tree-view:open-selected-entry-left": "बाँए स्पलित"
+#    "tree-view:open-selected-entry-right": "दायें स्पलित"
     "application:add-project-folder": "प्रोजेक्ट फ़ोल्डर ऐड करें"
     "tree-view:remove-project-folder": "प्रोजेक्ट फ़ोल्डर निकालें"
+    # added for atom/tree-view
+    "tree-view:collapse-all": "Collapse All Project Folders"
     "tree-view:copy-full-path": "पूरा पाथ क़ोपी करें"
     "tree-view:copy-project-path": "प्रोजेक्ट पाथ क़ोपी करें"
     "tree-view:open-in-new-window": "नयीं विंडो में खोलें"
@@ -94,8 +98,8 @@ Context:
     "tree-view:show-in-file-manager": "इक्स्प्लॉरर में देखें"
   ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "फ़ाइल मैनेजर में देखें"
-  ".tree-view li.directory":
-    "project-find:show-in-current-directory": "डिरेक्टरी में कोज़िये"
+#  ".tree-view li.directory":
+#    "project-find:show-in-current-directory": "डिरेक्टरी में कोज़िये"
   ".tree-view .multi-select":
     "tree-view:remove": "डिलीट"
     "tree-view:copy": "क़ोपी"
@@ -118,3 +122,77 @@ Context:
     "tree-view:show-current-file-in-file-manager": "इक्स्प्लॉरर में देखें"
   ".platform-linux atom-text-editor:not([mini])":
     "tree-view:show-current-file-in-file-manager": "फ़ाइल मैनेजर में देखें"
+  # added for atom/find-and-replace
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "डिरेक्टरी में कोज़िये"
+  ".list-item.match-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "core:copy": "'Copy"
+    "find-and-replace:copy-path": "Copy Path"
+  ".list-item.path-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "find-and-replace:copy-path": "Copy Path"
+  # added for atom/github/menu/git.cson
+  ".github-FilePatchListView-item":
+    "github:jump-to-file": "Jump to File"
+  ".github-FilePatchView--staged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Unstage Selection"
+  ".github-FilePatchView--unstaged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Stage Selection"
+    "github:discard-selected-lines": "Discard Selection"
+  "github-DotComMarkdownHtml .issue-link":
+    "github:open-link-in-new-tab": "Open in New Tab"
+    "github:open-link-in-this-tab": "Open in This Tab"
+    "github:open-link-in-browser": "Open in Browser"
+  ".github-CommitView":
+    "github:toggle-expanded-commit-message-editor": "Toggle Expanded Commit Message Editor"
+  ".item-views > atom-text-editor":
+    "github:view-unstaged-changes-for-current-file": "View Unstaged Changes"
+    "github:view-staged-changes-for-current-file": "View Staged Changes"
+  ".github-PushPull":
+    "github:fetch": "Fetch"
+    "github:pull": "Pull"
+    "github:push": "Push"
+    "github:force-push": "Force Push"
+  ".most-recent":
+    "github:amend-last-commit": "Amend"
+  ".github-RecentCommit":
+    "github:copy-commit-sha": "Copy Commit SHA"
+    "github:copy-commit-subject": "Copy Commit Subject"
+  # added for atom/github/lib/github-package.js
+  ".github-UnstagedChanges .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:discard-changes-in-selected-files": "Discard Changes"
+  ".github-StagedChanges .github-FilePatchListView":
+    "core:confirm": "Unstage"
+  ".github-MergeConflictPaths .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:resolve-file-as-ours": "Resolve File As Ours"
+    "github:resolve-file-as-theirs": "Resolve File As Theirs"
+  # added for packages/link
+  "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
+    "link:open": "Open link"
+  # added for atom/markdown-preview
+  ".markdown-preview":
+    "markdown-preview:select-all": "Select All"
+    "core:save-as": "Save As HTML\u2026"
+  ".markdown-preview.has-selection":
+    "core:copy": "Copy"
+  ".markdown-preview:not(.has-selection)":
+    "core:copy": "Copy As HTML"
+  ".tree-view .file .name[data-name$=\\.markdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.md]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkd]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.ron]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.txt]":
+    "markdown-preview:preview-file": "Markdown Preview"
