@@ -4,6 +4,8 @@ Context:
   "atom-text-editor":
     "color-picker:open": "בוחר צבע"
     "minimap:toggle": "הפעל/כבה Minimap"
+    # added for atom/bookmarks
+    "bookmarks:toggle-bookmark": "Toggle Bookmark"
   "atom-text-editor, .overlayer":
     "core:undo": "בטל"
     "core:redo": "בצע שוב"
@@ -57,10 +59,10 @@ Context:
     "tree-view:copy": "העתק"
     "tree-view:cut": "חתוך"
     "tree-view:paste": "הדבק"
-    "tree-view:open-selected-entry-up": "פצל מעלה"
-    "tree-view:open-selected-entry-down": "פצל מטה"
-    "tree-view:open-selected-entry-left": "פצל שמאלה"
-    "tree-view:open-selected-entry-right": "פצל ימינה"
+#    "tree-view:open-selected-entry-up": "פצל מעלה"
+#    "tree-view:open-selected-entry-down": "פצל מטה"
+#    "tree-view:open-selected-entry-left": "פצל שמאלה"
+#    "tree-view:open-selected-entry-right": "פצל ימינה"
     "application:add-project-folder": "הוסף תיקיית פרוייקט"
     "tree-view:copy-full-path": "העתק נתיב מלא"
     "tree-view:copy-project-path": "העתק נתיב ביחס לפרוייקט"
@@ -79,12 +81,14 @@ Context:
     "tree-view:copy": "העתק"
     "tree-view:cut": "חתוך"
     "tree-view:paste": "הדבק"
-    "tree-view:open-selected-entry-up": "פצל מעלה"
-    "tree-view:open-selected-entry-down": "פצל מטה"
-    "tree-view:open-selected-entry-left": "פצל שמאלה"
-    "tree-view:open-selected-entry-right": "פצל ימינה"
+#    "tree-view:open-selected-entry-up": "פצל מעלה"
+#    "tree-view:open-selected-entry-down": "פצל מטה"
+#    "tree-view:open-selected-entry-left": "פצל שמאלה"
+#    "tree-view:open-selected-entry-right": "פצל ימינה"
     "application:add-project-folder": "הוסף תיקיית פרוייקט"
     "tree-view:remove-project-folder": "הסר תיקיית פרוייקט"
+    # added for atom/tree-view
+    "tree-view:collapse-all": "Collapse All Project Folders"
     "tree-view:copy-full-path": "העתק נתיב מלא"
     "tree-view:copy-project-path": "העתק נתיב ביחס לפרוייקט"
     "tree-view:open-in-new-window": "פתח בחלון חדש"
@@ -94,8 +98,8 @@ Context:
     "tree-view:show-in-file-manager": "הצג במנהל הקבצים"
   ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "הצג במנהל הקבצים"
-  ".tree-view li.directory":
-    "project-find:show-in-current-directory": "חפש בתייקיה"
+#  ".tree-view li.directory":
+#    "project-find:show-in-current-directory": "חפש בתייקיה"
   ".tree-view .multi-select":
     "tree-view:remove": "מחק"
     "tree-view:copy": "העתק"
@@ -118,3 +122,77 @@ Context:
     "tree-view:show-current-file-in-file-manager": "הצג במנהל הקבצים"
   ".platform-linux atom-text-editor:not([mini])":
     "tree-view:show-current-file-in-file-manager": "הצג במנהל הקבצים"
+  # added for atom/find-and-replace
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "חפש בתייקיה"
+  ".list-item.match-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "core:copy": "'Copy"
+    "find-and-replace:copy-path": "Copy Path"
+  ".list-item.path-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "find-and-replace:copy-path": "Copy Path"
+  # added for atom/github/menu/git.cson
+  ".github-FilePatchListView-item":
+    "github:jump-to-file": "Jump to File"
+  ".github-FilePatchView--staged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Unstage Selection"
+  ".github-FilePatchView--unstaged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Stage Selection"
+    "github:discard-selected-lines": "Discard Selection"
+  "github-DotComMarkdownHtml .issue-link":
+    "github:open-link-in-new-tab": "Open in New Tab"
+    "github:open-link-in-this-tab": "Open in This Tab"
+    "github:open-link-in-browser": "Open in Browser"
+  ".github-CommitView":
+    "github:toggle-expanded-commit-message-editor": "Toggle Expanded Commit Message Editor"
+  ".item-views > atom-text-editor":
+    "github:view-unstaged-changes-for-current-file": "View Unstaged Changes"
+    "github:view-staged-changes-for-current-file": "View Staged Changes"
+  ".github-PushPull":
+    "github:fetch": "Fetch"
+    "github:pull": "Pull"
+    "github:push": "Push"
+    "github:force-push": "Force Push"
+  ".most-recent":
+    "github:amend-last-commit": "Amend"
+  ".github-RecentCommit":
+    "github:copy-commit-sha": "Copy Commit SHA"
+    "github:copy-commit-subject": "Copy Commit Subject"
+  # added for atom/github/lib/github-package.js
+  ".github-UnstagedChanges .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:discard-changes-in-selected-files": "Discard Changes"
+  ".github-StagedChanges .github-FilePatchListView":
+    "core:confirm": "Unstage"
+  ".github-MergeConflictPaths .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:resolve-file-as-ours": "Resolve File As Ours"
+    "github:resolve-file-as-theirs": "Resolve File As Theirs"
+  # added for packages/link
+  "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
+    "link:open": "Open link"
+  # added for atom/markdown-preview
+  ".markdown-preview":
+    "markdown-preview:select-all": "Select All"
+    "core:save-as": "Save As HTML\u2026"
+  ".markdown-preview.has-selection":
+    "core:copy": "Copy"
+  ".markdown-preview:not(.has-selection)":
+    "core:copy": "Copy As HTML"
+  ".tree-view .file .name[data-name$=\\.markdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.md]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkd]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.ron]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.txt]":
+    "markdown-preview:preview-file": "Markdown Preview"

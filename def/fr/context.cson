@@ -4,6 +4,8 @@ Context:
   "atom-text-editor":
     "color-picker:open": "Sélecteur de couleurs"
     "minimap:toggle": "Activer la Minimap"
+    # added for atom/bookmarks
+    "bookmarks:toggle-bookmark": "Toggle Bookmark"
   "atom-text-editor, .overlayer":
     "core:undo": "Annuler"
     "core:redo": "Refaire"
@@ -57,10 +59,10 @@ Context:
     "tree-view:copy": "Copier"
     "tree-view:cut": "Couper"
     "tree-view:paste": "Coller"
-    "tree-view:open-selected-entry-up": "Dédoubler en haut"
-    "tree-view:open-selected-entry-down": "Dédoubler en bas"
-    "tree-view:open-selected-entry-left": "Dédoubler à gauche"
-    "tree-view:open-selected-entry-right": "Dédoubler à droite"
+#    "tree-view:open-selected-entry-up": "Dédoubler en haut"
+#    "tree-view:open-selected-entry-down": "Dédoubler en bas"
+#    "tree-view:open-selected-entry-left": "Dédoubler à gauche"
+#    "tree-view:open-selected-entry-right": "Dédoubler à droite"
     "application:add-project-folder": "Ajouter un dossier au projet"
     "tree-view:copy-full-path": "Copier le chemin complet"
     "tree-view:copy-project-path": "Copier le chemin du projet"
@@ -79,12 +81,14 @@ Context:
     "tree-view:copy": "Copier"
     "tree-view:cut": "Couper"
     "tree-view:paste": "Coller"
-    "tree-view:open-selected-entry-up": "Dédoubler en haut"
-    "tree-view:open-selected-entry-down": "Dédoubler en bas"
-    "tree-view:open-selected-entry-left": "Dédoubler à gauche"
-    "tree-view:open-selected-entry-right": "Dédoubler à droite"
+#    "tree-view:open-selected-entry-up": "Dédoubler en haut"
+#    "tree-view:open-selected-entry-down": "Dédoubler en bas"
+#    "tree-view:open-selected-entry-left": "Dédoubler à gauche"
+#    "tree-view:open-selected-entry-right": "Dédoubler à droite"
     "application:add-project-folder": "Ajouter un dossier au projet"
     "tree-view:remove-project-folder": "Retirer un dossier du projet"
+    # added for atom/tree-view
+    "tree-view:collapse-all": "Collapse All Project Folders"
     "tree-view:copy-full-path": "Copier le chemin complet"
     "tree-view:copy-project-path": "Copier le chemin du projet"
     "tree-view:open-in-new-window": "Ouvrir dans une nouvelle fenêtre"
@@ -94,8 +98,8 @@ Context:
     "tree-view:show-in-file-manager": "Afficher dans l'Explorateur"
   ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Afficher dans le gestionnaire de fichiers"
-  ".tree-view li.directory":
-    "project-find:show-in-current-directory": "Chercher dans le dossier"
+#  ".tree-view li.directory":
+#    "project-find:show-in-current-directory": "Chercher dans le dossier"
   ".tree-view .multi-select":
     "tree-view:remove": "Supprimer"
     "tree-view:copy": "Copier"
@@ -118,3 +122,77 @@ Context:
     "tree-view:show-current-file-in-file-manager": "Afficher dans l'Explorateur"
   ".platform-linux atom-text-editor:not([mini])":
     "tree-view:show-current-file-in-file-manager": "Afficher dans le gestionnaire de fichiers"
+  # added for atom/find-and-replace
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Chercher dans le dossier"
+  ".list-item.match-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "core:copy": "'Copy"
+    "find-and-replace:copy-path": "Copy Path"
+  ".list-item.path-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "find-and-replace:copy-path": "Copy Path"
+  # added for atom/github/menu/git.cson
+  ".github-FilePatchListView-item":
+    "github:jump-to-file": "Jump to File"
+  ".github-FilePatchView--staged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Unstage Selection"
+  ".github-FilePatchView--unstaged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Stage Selection"
+    "github:discard-selected-lines": "Discard Selection"
+  "github-DotComMarkdownHtml .issue-link":
+    "github:open-link-in-new-tab": "Open in New Tab"
+    "github:open-link-in-this-tab": "Open in This Tab"
+    "github:open-link-in-browser": "Open in Browser"
+  ".github-CommitView":
+    "github:toggle-expanded-commit-message-editor": "Toggle Expanded Commit Message Editor"
+  ".item-views > atom-text-editor":
+    "github:view-unstaged-changes-for-current-file": "View Unstaged Changes"
+    "github:view-staged-changes-for-current-file": "View Staged Changes"
+  ".github-PushPull":
+    "github:fetch": "Fetch"
+    "github:pull": "Pull"
+    "github:push": "Push"
+    "github:force-push": "Force Push"
+  ".most-recent":
+    "github:amend-last-commit": "Amend"
+  ".github-RecentCommit":
+    "github:copy-commit-sha": "Copy Commit SHA"
+    "github:copy-commit-subject": "Copy Commit Subject"
+  # added for atom/github/lib/github-package.js
+  ".github-UnstagedChanges .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:discard-changes-in-selected-files": "Discard Changes"
+  ".github-StagedChanges .github-FilePatchListView":
+    "core:confirm": "Unstage"
+  ".github-MergeConflictPaths .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:resolve-file-as-ours": "Resolve File As Ours"
+    "github:resolve-file-as-theirs": "Resolve File As Theirs"
+  # added for packages/link
+  "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
+    "link:open": "Open link"
+  # added for atom/markdown-preview
+  ".markdown-preview":
+    "markdown-preview:select-all": "Select All"
+    "core:save-as": "Save As HTML\u2026"
+  ".markdown-preview.has-selection":
+    "core:copy": "Copy"
+  ".markdown-preview:not(.has-selection)":
+    "core:copy": "Copy As HTML"
+  ".tree-view .file .name[data-name$=\\.markdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.md]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkd]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.ron]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.txt]":
+    "markdown-preview:preview-file": "Markdown Preview"

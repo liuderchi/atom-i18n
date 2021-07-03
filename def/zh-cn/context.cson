@@ -4,6 +4,8 @@ Context:
   "atom-text-editor":
     "color-picker:open": "颜色选择器"
     "minimap:toggle": "切换代码地图"
+    # added for atom/bookmarks
+    "bookmarks:toggle-bookmark": "Toggle Bookmark"
   "atom-text-editor, .overlayer":
     "core:undo": "撤销"
     "core:redo": "恢复"
@@ -57,10 +59,10 @@ Context:
     "tree-view:copy": "复制"
     "tree-view:cut": "剪切"
     "tree-view:paste": "粘贴"
-    "tree-view:open-selected-entry-up": "向上分割窗格 ↑"
-    "tree-view:open-selected-entry-down": "向下分割窗格 ↓"
-    "tree-view:open-selected-entry-left": "向左分割窗格 ←"
-    "tree-view:open-selected-entry-right": "向右分割窗格 →"
+#    "tree-view:open-selected-entry-up": "向上分割窗格 ↑"
+#    "tree-view:open-selected-entry-down": "向下分割窗格 ↓"
+#    "tree-view:open-selected-entry-left": "向左分割窗格 ←"
+#    "tree-view:open-selected-entry-right": "向右分割窗格 →"
     "application:add-project-folder": "添加项目文件夹"
     "tree-view:copy-full-path": "复制文件路径到剪切板"
     "tree-view:copy-project-path": "复制项目路径到剪切板"
@@ -79,12 +81,14 @@ Context:
     "tree-view:copy": "复制"
     "tree-view:cut": "剪切"
     "tree-view:paste": "粘贴"
-    "tree-view:open-selected-entry-up": "向上分割窗格 ↑"
-    "tree-view:open-selected-entry-down": "向下分割窗格 ↓"
-    "tree-view:open-selected-entry-left": "向左分割窗格 ←"
-    "tree-view:open-selected-entry-right": "向右分割窗格 →"
+#    "tree-view:open-selected-entry-up": "向上分割窗格 ↑"
+#    "tree-view:open-selected-entry-down": "向下分割窗格 ↓"
+#    "tree-view:open-selected-entry-left": "向左分割窗格 ←"
+#    "tree-view:open-selected-entry-right": "向右分割窗格 →"
     "application:add-project-folder": "添加项目文件夹"
     "tree-view:remove-project-folder": "移除项目文件夹"
+    # added for atom/tree-view
+    "tree-view:collapse-all": "Collapse All Project Folders"
     "tree-view:copy-full-path": "复制文件路径到剪切板"
     "tree-view:copy-project-path": "复制项目路径到剪切板"
     "tree-view:open-in-new-window": "在新窗口中打开"
@@ -94,8 +98,8 @@ Context:
     "tree-view:show-in-file-manager": "在文件资源管理器中显示"
   ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "在文件管理器中显示"
-  ".tree-view li.directory":
-    "project-find:show-in-current-directory": "在目录中搜索"
+#  ".tree-view li.directory":
+#    "project-find:show-in-current-directory": "在目录中搜索"
   ".tree-view .multi-select":
     "tree-view:remove": "删除"
     "tree-view:copy": "复制"
@@ -118,3 +122,77 @@ Context:
     "tree-view:show-current-file-in-file-manager": "在文件资源管理器中显示"
   ".platform-linux atom-text-editor:not([mini])":
     "tree-view:show-current-file-in-file-manager": "在文件管理器中显示"
+  # added for atom/find-and-replace
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "在目录中搜索"
+  ".list-item.match-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "core:copy": "'Copy"
+    "find-and-replace:copy-path": "Copy Path"
+  ".list-item.path-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "find-and-replace:copy-path": "Copy Path"
+  # added for atom/github/menu/git.cson
+  ".github-FilePatchListView-item":
+    "github:jump-to-file": "Jump to File"
+  ".github-FilePatchView--staged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Unstage Selection"
+  ".github-FilePatchView--unstaged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Stage Selection"
+    "github:discard-selected-lines": "Discard Selection"
+  "github-DotComMarkdownHtml .issue-link":
+    "github:open-link-in-new-tab": "Open in New Tab"
+    "github:open-link-in-this-tab": "Open in This Tab"
+    "github:open-link-in-browser": "Open in Browser"
+  ".github-CommitView":
+    "github:toggle-expanded-commit-message-editor": "Toggle Expanded Commit Message Editor"
+  ".item-views > atom-text-editor":
+    "github:view-unstaged-changes-for-current-file": "View Unstaged Changes"
+    "github:view-staged-changes-for-current-file": "View Staged Changes"
+  ".github-PushPull":
+    "github:fetch": "Fetch"
+    "github:pull": "Pull"
+    "github:push": "Push"
+    "github:force-push": "Force Push"
+  ".most-recent":
+    "github:amend-last-commit": "Amend"
+  ".github-RecentCommit":
+    "github:copy-commit-sha": "Copy Commit SHA"
+    "github:copy-commit-subject": "Copy Commit Subject"
+  # added for atom/github/lib/github-package.js
+  ".github-UnstagedChanges .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:discard-changes-in-selected-files": "Discard Changes"
+  ".github-StagedChanges .github-FilePatchListView":
+    "core:confirm": "Unstage"
+  ".github-MergeConflictPaths .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:resolve-file-as-ours": "Resolve File As Ours"
+    "github:resolve-file-as-theirs": "Resolve File As Theirs"
+  # added for packages/link
+  "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
+    "link:open": "Open link"
+  # added for atom/markdown-preview
+  ".markdown-preview":
+    "markdown-preview:select-all": "Select All"
+    "core:save-as": "Save As HTML\u2026"
+  ".markdown-preview.has-selection":
+    "core:copy": "Copy"
+  ".markdown-preview:not(.has-selection)":
+    "core:copy": "Copy As HTML"
+  ".tree-view .file .name[data-name$=\\.markdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.md]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkd]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.ron]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.txt]":
+    "markdown-preview:preview-file": "Markdown Preview"

@@ -1,300 +1,470 @@
 Menu:
   "&File":
-    value: "File(&F)"
+    value: "Bestand(&F)"
     submenu:
       "New &Window":
-        value: "New Window(&W)"
+        value: "Nieuw venster(&W)"
       "&New File":
-        value: "New File(&N)"
+        value: "Nieuw bestand(&N)"
       "&Open File…":
         value: "Open File(&O)..."
       "Open Folder…":
         value: "Open Folder..."
       "Add Project Folder…":
-        value: "Add Project Folder..."
+        value: "Voeg project folder toe..."
       "Reopen Project":
-        value: "Reopen Project"
+        value: "Heropen project"
         submenu:
           "Clear Project History":
-            value: "Clear Project History"
+            value: "Verwijder project historie"
       "Reopen Last &Item":
-        value: "Reopen Last Item(&I)"
+        value: "Heropen laatste bestand(&I)"
       "Se&ttings":
         value: "Settings(&T)..."
       "Config…":
         value: "Config..."
       "Init Script…":
-        value: "Init Script..."
+        value: "Initialiseer script..."
       "Keymap…":
         value: "Keymap..."
       "Snippets…":
         value: "Snippets..."
       "Stylesheet…":
-        value: "Stylesheet..."
+        value: "Stijlbladen..."
       "&Save":
-        value: "Save(&S)"
+        value: "Opslaan(&S)"
       "Save &As…":
-        value: "Save As(&A)..."
+        value: "Opslaan als(&A)..."
       "Save A&ll":
-        value: "Save All(&L)"
+        value: "Alles opslaan(&L)"
       "&Close Tab":
-        value: "Close Tab(&C)"
+        value: "Sluit blad(&C)"
       "Close &Pane":
-        value: "Close Pane(&P)"
+        value: "Sluit paneel(&P)"
       "Clos&e Window":
-        value: "Close Window(&E)"
+        value: "Sluit venster(&E)"
       "E&xit":
-        value: "Exit(&X)"
+        value: "Stop Atom(&X)"
       "Close All Tabs":
-        value: "Close All Tabs"
+        value: "Sluit alle bladen"
   "&Edit":
-    value: "Edit(&E)"
+    value: "Wijzig(&E)"
     submenu:
       "&Undo":
-        value: "Undo(&U)"
+        value: "Maak ongedaan(&U)"
       "&Redo":
-        value: "Redo(&R)"
+        value: "Opnieuw(&R)"
       "Cu&t":
-        value: "Cut(&T)"
+        value: "Knip(&T)"
       "&Copy":
-        value: "Copy(&C)"
+        value: "Kopieer(&C)"
       "Copy Pat&h":
-        value: "Copy Path(&H)"
+        value: "Kopieer pad(&H)"
       "&Paste":
-        value: "Paste(&P)"
+        value: "Plak(&P)"
       "Paste Without Reformatting":
         value: "Paste Without Reformatting"
       "Select &All":
-        value: "Select All(&A)"
+        value: "Selecteer alles(&A)"
       "&Toggle Comments":
-        value: "Toggle Comments(&T)"
+        value: "Uitcommentariëren Aan/Uit(&T)"
       Lines:
-        value: "Lines"
+        value: "Regels"
         submenu:
           "&Indent":
-            value: "Indent(&I)"
+            value: "Inspringen(&I)"
           "&Outdent":
-            value: "Outdent(&O)"
+            value: "Inspringing verkleinen(&O)"
           "&Auto Indent":
-            value: "Auto Indent(&A)"
+            value: "Automatisch inspringen(&A)"
           "Move Line &Up":
-            value: "Move Line Up(&U)"
+            value: "Regel opschuiven(&U)"
           "Move Line &Down":
-            value: "Move Line Down(&D)"
+            value: "Verplaats regel naar beneden(&D)"
           "Du&plicate Lines":
-            value: "Duplicate Lines(&P)"
+            value: "Duplicateer regels(&P)"
           "D&elete Line":
-            value: "Delete Line(&E)"
+            value: "Verwijder regel(&E)"
           "&Join Lines":
-            value: "Join Lines(&J)"
+            value: "Voeg regels samen(&J)"
       Columns:
-        value: "Columns"
+        value: "Kolommen"
         submenu:
           "Move Selection &Left":
-            value: "Move Selection Left(&L)"
+            value: "Verplaats selectie naar links(&L)"
           "Move Selection &Right":
-            value: "Move Selection Right(&R)"
+            value: "Verplaats selectie naar rechts(&R)"
       Text:
-        value: "Text"
+        value: "Tekst"
         submenu:
           "&Upper Case":
-            value: "Upper Case(&U)"
+            value: "Hoofdletters(&U)"
           "&Lower Case":
-            value: "Lower Case(&L)"
+            value: "Kleine letters(&L)"
           "Delete to End of &Word":
-            value: "Delete to End of Word(&W)"
+            value: "Verwijder tot einde van het woord(&W)"
           "Delete to Previous Word Boundary":
-            value: "Delete to Previous Word Boundary"
+            value: "Verwijder tot het vorige woordeinde"
           "Delete to Next Word Boundary":
-            value: "Delete to Next Word Boundary"
+            value: "Verwijder tot het volgende woordeinde"
           "&Delete Line":
-            value: "Delete Line(&D)"
+            value: "Verwijder regel(&D)"
           "&Transpose":
-            value: "Transpose(&T)"
+            value: "Transposeren(&T)"
       Folding:
-        value: "Folding"
+        value: "Vouwen"
         submenu:
           "&Fold":
-            value: "Fold(&F)"
+            value: "Invouwen(&F)"
           "&Unfold":
-            value: "Unfold(&U)"
-          "Unfold &All":
-            value: "Unfold All(&A)"
+            value: "Uitvouwen(&U)"
           "Fol&d All":
-            value: "Fold All(&D)"
+            value: "Alles invouwen(&D)"
+          "Unfold &All":
+            value: "Alles uitvouwen(&A)"
           "Fold Level 1":
-            value: "Fold Level 1"
+            value: "Niveau 1 invouwen"
           "Fold Level 2":
-            value: "Fold Level 2"
+            value: "Niveau 2 invouwen"
           "Fold Level 3":
-            value: "Fold Level 3"
+            value: "Niveau 3 invouwen"
           "Fold Level 4":
-            value: "Fold Level 4"
+            value: "Niveau 4 invouwen"
           "Fold Level 5":
-            value: "Fold Level 5"
+            value: "Niveau 5 invouwen"
           "Fold Level 6":
-            value: "Fold Level 6"
+            value: "Niveau 6 invouwen"
           "Fold Level 7":
-            value: "Fold Level 7"
+            value: "Niveau 7 invouwen"
           "Fold Level 8":
-            value: "Fold Level 8"
+            value: "Niveau 8 invouwen"
           "Fold Level 9":
-            value: "Fold Level 9"
+            value: "Niveau 9 invouwen"
       "Reflow Selection":
-        value: "Reflow Selection"
+        value: "Transposeren"
       Bookmark:
-        value: "Bookmark"
+        value: "Bladwijzer"
         submenu:
           "View All":
-            value: "View All"
+            value: "Toon bladwijzers"
           "Toggle Bookmark":
-            value: "Toggle Bookmark"
+            value: "Bladwijzer Aan/Uit"
           "Jump to Next Bookmark":
-            value: "Jump to Next Bookmark"
+            value: "Volgende bladwijzer"
           "Jump to Previous Bookmark":
-            value: "Jump to Previous Bookmark"
+            value: "Vorige bladwijzer"
           "Select to Next Bookmark":
             value: "Select to Next Bookmark"
           "Select to Previous Bookmark":
             value: "Select to Previous Bookmark"
       "Select Encoding":
-        value: "Select Encoding"
+        value: "Selecteer codering"
       "Go to Line":
-        value: "Go to Line"
+        value: "Ga naar regel"
       "Select Grammar":
-        value: "Select Grammar"
+        value: "Selecteer programmeertaal"
   "&View":
-    value: "View(&V)"
+    value: "Weergave(&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Toggle Full Screen(&F)"
+        value: "Schermvullende weergave Aan/Uit(&F)"
       "Toggle Menu Bar":
         value: "Toggle Menu Bar"
       Panes:
-        value: "Panes"
+        value: "Paneel"
         submenu:
           "Split Up":
-            value: "Split Up"
+            value: "Naar boven splitsen"
           "Split Down":
-            value: "Split Down"
+            value: "Naar beneden splitsen"
           "Split Left":
-            value: "Split Left"
+            value: "Naar links splitsen"
           "Split Right":
-            value: "Split Right"
+            value: "Naar rechts splitsen"
           "Focus Next Pane":
-            value: "Focus Next Pane"
+            value: "Focus naar volgende paneel"
           "Focus Previous Pane":
-            value: "Focus Previous Pane"
+            value: "Focus naar vorige paneel"
           "Focus Pane Above":
-            value: "Focus Pane Above"
+            value: "Focus naar paneel boven"
           "Focus Pane Below":
-            value: "Focus Pane Below"
+            value: "Focus naar paneel beneden"
           "Focus Pane On Left":
-            value: "Focus Pane On Left"
+            value: "Focus naar linker paneel"
           "Focus Pane On Right":
-            value: "Focus Pane On Right"
+            value: "Focus naar rechter paneel"
           "Close Pane":
-            value: "Close Pane"
+            value: "Sluit paneel"
       Developer:
-        value: "Developer"
+        value: "Ontwikkelaar"
         submenu:
           "Open In &Dev Mode…":
-            value: "Open In Dev Mode(&D)..."
+            value: "Open in dev modus(&D)..."
           "&Reload Window":
-            value: "Reload Window(&R)"
+            value: "Venster herladen(&R)"
           "Run Package &Specs":
-            value: "Run Package Specs(&S)"
+            value: "Pakket specs uitvoeren(&S)"
           "Run &Benchmarks":
-            value: "Run Benchmarks(&B)"
+            value: "Benchmarks uitvoeren(&B)"
           "Toggle Developer &Tools":
-            value: "Toggle Developer Tools(&T)"
+            value: "Ontwikkelhulpprogramma's Aan/Uit(&T)"
       "&Increase Font Size":
-        value: "Increase Font Size(&I)"
+        value: "Vergroot Lettergrootte(&I)"
       "&Decrease Font Size":
-        value: "Decrease Font Size(&D)"
+        value: "Verklein Lettergrootte(&D)"
       "Re&set Font Size":
-        value: "Reset Font Size(&S)"
+        value: "Lettergrootte opnieuw instellen(&S)"
       "Toggle Soft &Wrap":
-        value: "Toggle Soft Wrap(&W)"
+        value: "Tekstomhaal Aan/Uit(&W)"
       "Toggle Command Palette":
-        value: "Toggle Command Palette"
+        value: "Commando palet Aan/Uit"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+        value: "Open Reviews Tab"
+      #
       "Toggle Tree View":
-        value: "Toggle Tree View"
+        value: "Boomstructuur Aan/Uit"
   "&Selection":
-    value: "Selection(&S)"
+    value: "Selectie(&S)"
     submenu:
       "Add Selection &Above":
-        value: "Add Selection Above(&A)"
+        value: "Voeg selectie boven toe(&A)"
       "Add Selection &Below":
-        value: "Add Selection Below(&B)"
+        value: "Voeg selectie beneden toe(&B)"
       "S&plit into Lines":
-        value: "Split into Lines(&P)"
+        value: "Splits in meerdere regels(&P)"
       "Single Selection":
-        value: "Single Selection"
+        value: "Single selection"
       "Select to &Top":
-        value: "Select to Top(&T)"
+        value: "Selecteer alles naar boven(&T)"
       "Select to Botto&m":
-        value: "Select to Bottom(&M)"
+        value: "Selecteer alles naar beneden(&M)"
       "Select &Line":
-        value: "Select Line(&L)"
+        value: "Selecteer regel(&L)"
       "Select &Word":
-        value: "Select Word(&W)"
+        value: "Selecteer woord(&W)"
       "Select to Beginning of W&ord":
-        value: "Select to Beginning of Word(&O)"
+        value: "Selecteer tot het begin van het woord(&O)"
       "Select to Beginning of L&ine":
-        value: "Select to Beginning of Line(&I)"
+        value: "Selecteer tot het einde van de regel(&I)"
       "Select to First &Character of Line":
-        value: "Select to First Character of Line(&C)"
+        value: "Selecteer tot de eerste character van de regel(&C)"
       "Select to End of Wor&d":
-        value: "Select to End of Word(&D)"
+        value: "Selecteer tot het einde van het woord(&D)"
       "Select to End of Lin&e":
-        value: "Select to End of Line(&E)"
+        value: "Selecteer tot het einde van de regel(&E)"
       "Select Inside Brackets":
-        value: "Select Inside Brackets"
+        value: "Selecteer alles binnen de haken"
   "F&ind":
-    value: "Find(&I)"
+    value: "Zoek(&I)"
     submenu:
       "Find in Buffer":
-        value: "Find in Buffer"
+        value: "In buffer zoeken"
       "Replace in Buffer":
-        value: "Replace in Buffer"
+        value: "In buffer vervangen"
       "Select Next":
-        value: "Select Next"
+        value: "Volgende selecteren"
       "Select All":
-        value: "Select All"
+        value: "Selecteer alles"
       "Toggle Find in Buffer":
-        value: "Toggle Find in Buffer"
+        value: "Zoek in buffer Aan/Uit"
       "Find in Project":
-        value: "Find in Project"
+        value: "In project zoeken"
       "Toggle Find in Project":
-        value: "Toggle Find in Project"
+        value: "In project zoeken Aan/Uit"
       "Find All":
-        value: "Find All"
+        value: "In alles zoeken"
       "Find Next":
-        value: "Find Next"
+        value: "Volgende zoeken"
       "Find Previous":
-        value: "Find Previous"
+        value: "Vorige zoeken"
       "Replace Next":
-        value: "Replace Next"
+        value: "Volgende vervangen"
       "Replace All":
-        value: "Replace All"
+        value: "Alles vervangen"
       "Clear History":
-        value: "Clear History"
+        value: "Verwijder historie"
       "Find Buffer":
-        value: "Find Buffer"
+        value: "Buffer zoeken"
       "Find File":
-        value: "Find File"
+        value: "Bestand zoeken"
       "Find Modified File":
-        value: "Find Modified File"
+        value: "Gewijzigd bestand zoeken"
   "&Packages":
-    value: "Packages(&P)"
+    value: "Pakketten(&P)"
+    submenu:
+      "Bracket Matcher":
+        value: "Bracket Matcher"
+        submenu:
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+          "Select Inside Brackets":
+            value: "Select Inside Brackets"
+          "Remove Brackets From Selection":
+            value: "Remove Brackets From Selection"
+          "Close Current Tag":
+            value: "Close Current Tag"
+          "Remove Matching Brackets":
+            value: "Remove Matching Brackets"
+          "Select Matching Brackets":
+            value: "Select Matching Brackets"
+      "Command Palette":
+        value: "Command Palette"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Dev Live Reload":
+        value: "Dev Live Reload"
+        submenu:
+          "Reload All Styles":
+            value: "Reload All Styles"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "Move to Next Diff"
+          "Move to Previous Diff":
+            value: "Move to Previous Diff"
+          "Toggle Diff List":
+            value: "Toggle Diff List"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Toggle Git Tab"
+          "Toggle GitHub Tab":
+            value: "Toggle GitHub Tab"
+          "Open Reviews Tab":
+            value: "Open Reviews Tab"
+      "Keybinding Resolver":
+        value: "Keybinding Resolver"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+      "Markdown Preview":
+        value: "Markdown Preview"
+        submenu:
+          "Toggle Preview":
+            value: "Toggle Preview"
+          "Toggle Break on Single Newline":
+            value: "Toggle Break on Single Newline"
+          "Toggle GitHub Style":
+            value: "Toggle GitHub Style"
+      "Open On GitHub":
+        value: "Open On GitHub"
+        submenu:
+          "Blame":
+            value: "Blame"
+          "Branch Compare":
+            value: "Branch Compare"
+          "Copy URL":
+            value: "Copy URL"
+          "File":
+            value: "File"
+          "File on Master":
+            value: "File on Master"
+          "History":
+            value: "History"
+          "Issues":
+            value: "Issues"
+          "Pull Requests":
+            value: "Pull Requests"
+          "Repository":
+            value: "Repository"
+      "Package Generator":
+        value: "Package Generator"
+        submenu:
+          "Generate Atom Package":
+            value: "Generate Atom Package"
+          "Generate Atom Syntax Theme":
+            value: "Generate Atom Syntax Theme"
+      "Settings View":
+        value: "Settings View"
+        submenu:
+          "Open":
+            value: "Open"
+          "Show Keybindings":
+            value: "Show Keybindings"
+          "Install Packages/Themes":
+            value: "Install Packages/Themes"
+          "Update Packages/Themes":
+            value: "Update Packages/Themes"
+          "Manage Packages":
+            value: "Manage Packages"
+          "Manage Themes":
+            value: "Manage Themes"
+      "Snippets":
+        value: "Snippets"
+        submenu:
+          "Expand":
+            value: "Expand"
+          "Next Stop":
+            value: "Next Stop"
+          "Previous Stop":
+            value: "Previous Stop"
+          "Available":
+            value: "Available"
+      "Spell Check":
+        value: "Spell Check"
+        submenu:
+          "Toggle":
+            value: "Toggle"
+      "Styleguide":
+        value: "Styleguide"
+        submenu:
+          "Show":
+            value: "Show"
+      "Symbols":
+        value: "Symbols"
+        submenu:
+          "File Symbols":
+            value: "File Symbols"
+          "Project Symbols":
+            value: "File Symbols"
+      "Timecop":
+        value: "Timecop"
+        submenu:
+          "Show":
+            value: "Show"
+      "Tree View":
+        value: "Tree View"
+        submenu:
+          "Focus":
+            value: "Focus"
+          "Toggle":
+            value: "Toggle"
+          "Reveal Active File":
+            value: "Reveal Active File"
+          "Toggle Tree Side":
+            value: "Toggle Tree Side"
+      "Whitespace":
+        value: "Whitespace"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "Remove Trailing Whitespace"
+          "Save With Trailing Whitespace":
+            value: "Save With Trailing Whitespace"
+          "Save Without Trailing Whitespace":
+            value: "Save Without Trailing Whitespace"
+          "Convert Tabs To Spaces":
+            value: "Convert Tabs To Spaces"
+          "Convert Spaces To Tabs":
+            value: "Convert Spaces To Tabs"
+          "Convert All Tabs To Spaces":
+            value: "Convert All Tabs To Spaces"
   "&Help":
     value: "Help(&H)"
     submenu:
       "View &Terms of Use":
-        value: "View &Terms of Use"
+        value: "Terms of Use(&T)"
       "View &License":
-        value: "View &License"
+        value: "Bekijk &licentie"
       "Restart and Install Update":
         value: "Restart and Install Update"
       "Check for Update":
@@ -304,16 +474,16 @@ Menu:
       "Downloading Update":
         value: "Downloading Update"
       "&Documentation":
-        value: "Documentation(&D)"
+        value: "Documentatie(&D)"
       "Frequently Asked Questions":
-        value: "Frequently Asked Questions"
+        value: "Veelgestelde Vragen"
       "Community Discussions":
-        value: "Community Discussions"
+        value: "Community Discussies"
       "Report Issue":
-        value: "Report Issue"
+        value: "Een Probleem Melden"
       "Search Issues":
-        value: "Search Issues"
+        value: "Zoeken In Bekende Problemen"
       "About Atom":
-        value: "About Atom"
+        value: "Over Atom"
       "Welcome Guide":
-        value: "Welcome Guide"
+        value: "Welkom Gids"

@@ -1,120 +1,198 @@
 Context:
-	"atom-workspace":
-		"application:inspect": "Інспектар элемента"
-	"atom-text-editor":
-		"color-picker:open": "Абраць колер"
-		"minimap:toggle": "Паказаць мінімапу"
-	"atom-text-editor, .overlayer":
-		"core:undo": "Адрабіць"
-		"core:redo": "Паўтарыць"
-		"core:cut": "Выразаць"
-		"core:copy": "Капіраваць"
-		"core:paste": "Уставіць"
-		"core:delete": "Выдаліць"
-		"core:select-all": "Вылучыць усё"
-		"pane:split-up-and-copy-active-item": "Падзяліць зверху"
-		"pane:split-down-and-copy-active-item": "Падзяліць знізу"
-		"pane:split-left-and-copy-active-item": "Падзяліць злева"
-		"pane:split-right-and-copy-active-item": "Падзяліць зправа"
-		"pane:close": "Закрыць панэль"
-	"atom-pane":
-		"pane:split-up-and-copy-active-item": "Падзяліць зверху"
-		"pane:split-down-and-copy-active-item": "Падзяліць знізу"
-		"pane:split-left-and-copy-active-item": "Падзяліць злева"
-		"pane:split-right-and-copy-active-item": "Падзяліць зправа"
-		"pane:close": "Закрыць панэль"
-	"atom-text-editor:not([mini])":
-		"encoding-selector:show": "Змяніць кадаванне"
-		"spell-check:correct-misspelling": "Карэктны правапіс"
-		"symbols-view:go-to-declaration": "Перайсці да аб'явы"
-	".overlayer":
-		"grammar-selector:show": "Змяніць сінтаксіс"
-	".image-view":
-		"image-view:reload": "Перазагрузіць выявы"
-	".tab":
-		"tabs:close-tab": "Закрыць укладку"
-		"tabs:close-other-tabs": "Закрыць іншыя ўкладкі"
-		"tabs:close-tabs-to-right": "Закрыць укладкі зправа"
-		"tabs:close-tabs-to-left": "Закрыць укладкі злева"
-		"tabs:close-saved-tabs": "Закрыць захаваныя ўкладкі"
-		"tabs:close-all-tabs": "Закрыць усе ўкладкі"
-		"tabs:split-up": "Падзяліць зверху"
-		"tabs:split-down": "Падзяліць знізу"
-		"tabs:split-left": "Падзяліць злева"
-		"tabs:split-right": "Падзяліць зправа"
-	".tab.texteditor":
-		"tabs:open-in-new-window": "Адкрыць у новым акне"
-	".tab.pending-tab":
-		"tabs:keep-pending-tab": "Пакінуць укладку чакаць"
-	".tab-bar":
-		"pane:reopen-closed-item": "Адкрыць закрытыя ўкладкі"
-	".tree-view .full-menu":
-		"tree-view:add-file": "Новы файл"
-		"tree-view:add-folder": "Новы каталог"
-		"tree-view:move": "Змяніць назву"
-		"tree-view:duplicate": "Дубляваць"
-		"tree-view:remove": "Выдаліць"
-		"tree-view:copy": "Капіраваць"
-		"tree-view:cut": "Выразаць"
-		"tree-view:paste": "Уставіць"
-		"tree-view:open-selected-entry-up": "Падзяліць зверху"
-		"tree-view:open-selected-entry-down": "Падзяліць знізу"
-		"tree-view:open-selected-entry-left": "Падзяліць злева"
-		"tree-view:open-selected-entry-right": "Падзяліць зправа"
-		"application:add-project-folder": "Дадаць каталог праекта"
-		"tree-view:copy-full-path": "Скапіраваць увесь шлях"
-		"tree-view:copy-project-path": "Скапіраваць шлях праекта"
-		"tree-view:open-in-new-window": "Адкрыць у новым акне"
-	".tree-view .full-menu [is=\"tree-view-file\"]":
-		"tree-view:open-selected-entry-up": "Падзяліць зверху"
-		"tree-view:open-selected-entry-down": "Падзяліць знізу"
-		"tree-view:open-selected-entry-left": "Падзяліць злева"
-		"tree-view:open-selected-entry-right": "Падзяліць зправа"
-	".tree-view .full-menu .project-root > .header":
-		"tree-view:add-file": "Новы файл"
-		"tree-view:add-folder": "Новы каталог"
-		"tree-view:move": "Змяніць назву"
-		"tree-view:duplicate": "Дубляваць"
-		"tree-view:remove": "Выдаліць"
-		"tree-view:copy": "Капіраваць"
-		"tree-view:cut": "Выразаць"
-		"tree-view:paste": "Уставіць"
-		"tree-view:open-selected-entry-up": "Падзяліць зверху"
-		"tree-view:open-selected-entry-down": "Падзяліць знізу"
-		"tree-view:open-selected-entry-left": "Падзяліць злева"
-		"tree-view:open-selected-entry-right": "Падзяліць зправа"
-		"application:add-project-folder": "Дадаць каталог праекта"
-		"tree-view:remove-project-folder": "Выдаліць каталог праекта"
-		"tree-view:copy-full-path": "Скапіраваць увесь шлях"
-		"tree-view:copy-project-path": "Скапіраваць шлях праекта"
-		"tree-view:open-in-new-window": "Адкрыць у новым акне"
-	".platform-darwin .tree-view .full-menu":
-		"tree-view:show-in-file-manager": "Паказаць у пошукаўцы"
-	".platform-win32 .tree-view .full-menu":
-		"tree-view:show-in-file-manager": "Паказаць у правадніку"
-	".platform-linux .tree-view .full-menu":
-		"tree-view:show-in-file-manager": "Паказаць у кіраўніку файлаў"
-	".tree-view li.directory":
-		"project-find:show-in-current-directory": "Шукаць у каталозе"
-	".tree-view .multi-select":
-		"tree-view:remove": "Выдаліць"
-		"tree-view:copy": "Капіраваць"
-		"tree-view:cut": "Выразаць"
-		"tree-view:paste": "Уставіць"
-	"atom-pane[data-active-item-path] .item-views":
-		"tree-view:reveal-active-file": "Паказаць у выглядзе дрэва"
-	"atom-pane[data-active-item-path] .tab.active":
-		"tree-view:rename": "Змяніць назву"
-		"tree-view:reveal-active-file": "Паказаць у выглядзе дрэва"
-	".platform-darwin atom-pane[data-active-item-path] .tab.active":
-		"tree-view:show-current-file-in-file-manager": "Паказаць у пошукаўцы"
-	".platform-win32 atom-pane[data-active-item-path] .tab.active":
-		"tree-view:show-current-file-in-file-manager": "Паказаць у правадніку"
-	".platform-linux atom-pane[data-active-item-path] .tab.active":
-		"tree-view:show-current-file-in-file-manager": "Паказаць у кіраўніку файлаў"
-	".platform-darwin atom-text-editor:not([mini])":
-		"tree-view:show-current-file-in-file-manager": "Паказаць у пошукаўцы"
-	".platform-win32 atom-text-editor:not([mini])":
-		"tree-view:show-current-file-in-file-manager": "Паказаць у правадніку"
-	".platform-linux atom-text-editor:not([mini])":
-		"tree-view:show-current-file-in-file-manager": "Паказаць у кіраўніку файлаў"
+  "atom-workspace":
+    "application:inspect": "Інспектар элемента"
+  "atom-text-editor":
+    "color-picker:open": "Абраць колер"
+    "minimap:toggle": "Паказаць мінімапу"
+    # added for atom/bookmarks
+    "bookmarks:toggle-bookmark": "Toggle Bookmark"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Адрабіць"
+    "core:redo": "Паўтарыць"
+    "core:cut": "Выразаць"
+    "core:copy": "Капіраваць"
+    "core:paste": "Уставіць"
+    "core:delete": "Выдаліць"
+    "core:select-all": "Вылучыць усё"
+    "pane:split-up-and-copy-active-item": "Падзяліць зверху"
+    "pane:split-down-and-copy-active-item": "Падзяліць знізу"
+    "pane:split-left-and-copy-active-item": "Падзяліць злева"
+    "pane:split-right-and-copy-active-item": "Падзяліць зправа"
+    "pane:close": "Закрыць панэль"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Падзяліць зверху"
+    "pane:split-down-and-copy-active-item": "Падзяліць знізу"
+    "pane:split-left-and-copy-active-item": "Падзяліць злева"
+    "pane:split-right-and-copy-active-item": "Падзяліць зправа"
+    "pane:close": "Закрыць панэль"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Змяніць кадаванне"
+    "spell-check:correct-misspelling": "Карэктны правапіс"
+    "symbols-view:go-to-declaration": "Перайсці да аб'явы"
+  ".overlayer":
+    "grammar-selector:show": "Змяніць сінтаксіс"
+  ".image-view":
+    "image-view:reload": "Перазагрузіць выявы"
+  ".tab":
+    "tabs:close-tab": "Закрыць укладку"
+    "tabs:close-other-tabs": "Закрыць іншыя ўкладкі"
+    "tabs:close-tabs-to-right": "Закрыць укладкі зправа"
+    "tabs:close-tabs-to-left": "Закрыць укладкі злева"
+    "tabs:close-saved-tabs": "Закрыць захаваныя ўкладкі"
+    "tabs:close-all-tabs": "Закрыць усе ўкладкі"
+    "tabs:split-up": "Падзяліць зверху"
+    "tabs:split-down": "Падзяліць знізу"
+    "tabs:split-left": "Падзяліць злева"
+    "tabs:split-right": "Падзяліць зправа"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Адкрыць у новым акне"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Пакінуць укладку чакаць"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Адкрыць закрытыя ўкладкі"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "Новы файл"
+    "tree-view:add-folder": "Новы каталог"
+    "tree-view:move": "Змяніць назву"
+    "tree-view:duplicate": "Дубляваць"
+    "tree-view:remove": "Выдаліць"
+    "tree-view:copy": "Капіраваць"
+    "tree-view:cut": "Выразаць"
+    "tree-view:paste": "Уставіць"
+#    "tree-view:open-selected-entry-up": "Падзяліць зверху"
+#    "tree-view:open-selected-entry-down": "Падзяліць знізу"
+#    "tree-view:open-selected-entry-left": "Падзяліць злева"
+#    "tree-view:open-selected-entry-right": "Падзяліць зправа"
+    "application:add-project-folder": "Дадаць каталог праекта"
+    "tree-view:copy-full-path": "Скапіраваць увесь шлях"
+    "tree-view:copy-project-path": "Скапіраваць шлях праекта"
+    "tree-view:open-in-new-window": "Адкрыць у новым акне"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Падзяліць зверху"
+    "tree-view:open-selected-entry-down": "Падзяліць знізу"
+    "tree-view:open-selected-entry-left": "Падзяліць злева"
+    "tree-view:open-selected-entry-right": "Падзяліць зправа"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "Новы файл"
+    "tree-view:add-folder": "Новы каталог"
+    "tree-view:move": "Змяніць назву"
+    "tree-view:duplicate": "Дубляваць"
+    "tree-view:remove": "Выдаліць"
+    "tree-view:copy": "Капіраваць"
+    "tree-view:cut": "Выразаць"
+    "tree-view:paste": "Уставіць"
+#    "tree-view:open-selected-entry-up": "Падзяліць зверху"
+#    "tree-view:open-selected-entry-down": "Падзяліць знізу"
+#    "tree-view:open-selected-entry-left": "Падзяліць злева"
+#    "tree-view:open-selected-entry-right": "Падзяліць зправа"
+    "application:add-project-folder": "Дадаць каталог праекта"
+    "tree-view:remove-project-folder": "Выдаліць каталог праекта"
+    # added for atom/tree-view
+    "tree-view:collapse-all": "Collapse All Project Folders"
+    "tree-view:copy-full-path": "Скапіраваць увесь шлях"
+    "tree-view:copy-project-path": "Скапіраваць шлях праекта"
+    "tree-view:open-in-new-window": "Адкрыць у новым акне"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Паказаць у пошукаўцы"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Паказаць у правадніку"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Паказаць у кіраўніку файлаў"
+#  ".tree-view li.directory":
+#    "project-find:show-in-current-directory": "Шукаць у каталозе"
+  ".tree-view .multi-select":
+    "tree-view:remove": "Выдаліць"
+    "tree-view:copy": "Капіраваць"
+    "tree-view:cut": "Выразаць"
+    "tree-view:paste": "Уставіць"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Паказаць у выглядзе дрэва"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Змяніць назву"
+    "tree-view:reveal-active-file": "Паказаць у выглядзе дрэва"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Паказаць у пошукаўцы"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Паказаць у правадніку"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Паказаць у кіраўніку файлаў"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Паказаць у пошукаўцы"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Паказаць у правадніку"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Паказаць у кіраўніку файлаў"
+  # added for atom/find-and-replace
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Шукаць у каталозе"
+  ".list-item.match-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "core:copy": "'Copy"
+    "find-and-replace:copy-path": "Copy Path"
+  ".list-item.path-row":
+    "find-and-replace:open-in-new-tab": "Open in New Tab"
+    "find-and-replace:copy-path": "Copy Path"
+  # added for atom/github/menu/git.cson
+  ".github-FilePatchListView-item":
+    "github:jump-to-file": "Jump to File"
+  ".github-FilePatchView--staged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Unstage Selection"
+  ".github-FilePatchView--unstaged":
+    "github:jump-to-file": "Jump to File"
+    "core:confirm": "Stage Selection"
+    "github:discard-selected-lines": "Discard Selection"
+  "github-DotComMarkdownHtml .issue-link":
+    "github:open-link-in-new-tab": "Open in New Tab"
+    "github:open-link-in-this-tab": "Open in This Tab"
+    "github:open-link-in-browser": "Open in Browser"
+  ".github-CommitView":
+    "github:toggle-expanded-commit-message-editor": "Toggle Expanded Commit Message Editor"
+  ".item-views > atom-text-editor":
+    "github:view-unstaged-changes-for-current-file": "View Unstaged Changes"
+    "github:view-staged-changes-for-current-file": "View Staged Changes"
+  ".github-PushPull":
+    "github:fetch": "Fetch"
+    "github:pull": "Pull"
+    "github:push": "Push"
+    "github:force-push": "Force Push"
+  ".most-recent":
+    "github:amend-last-commit": "Amend"
+  ".github-RecentCommit":
+    "github:copy-commit-sha": "Copy Commit SHA"
+    "github:copy-commit-subject": "Copy Commit Subject"
+  # added for atom/github/lib/github-package.js
+  ".github-UnstagedChanges .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:discard-changes-in-selected-files": "Discard Changes"
+  ".github-StagedChanges .github-FilePatchListView":
+    "core:confirm": "Unstage"
+  ".github-MergeConflictPaths .github-FilePatchListView":
+    "core:confirm": "Stage"
+    "github:resolve-file-as-ours": "Resolve File As Ours"
+    "github:resolve-file-as-theirs": "Resolve File As Theirs"
+  # added for packages/link
+  "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
+    "link:open": "Open link"
+  # added for atom/markdown-preview
+  ".markdown-preview":
+    "markdown-preview:select-all": "Select All"
+    "core:save-as": "Save As HTML\u2026"
+  ".markdown-preview.has-selection":
+    "core:copy": "Copy"
+  ".markdown-preview:not(.has-selection)":
+    "core:copy": "Copy As HTML"
+  ".tree-view .file .name[data-name$=\\.markdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.md]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkd]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.mkdown]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.ron]":
+    "markdown-preview:preview-file": "Markdown Preview"
+  ".tree-view .file .name[data-name$=\\.txt]":
+    "markdown-preview:preview-file": "Markdown Preview"

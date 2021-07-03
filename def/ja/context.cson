@@ -3,19 +3,21 @@ Context:
     "application:inspect": "要素の検証"
   "atom-text-editor":
     "color-picker:open": "カラーピッカー"
-    "minimap:toggle": "ミニマップ切替"
+    "minimap:toggle": "ミニマップの切替"
+    # added for atom/bookmarks
+    "bookmarks:toggle-bookmark": "ブックマークの切替"
   "atom-text-editor, .overlayer":
-    "core:undo": "取り消す"
+    "core:undo": "元に戻す"
     "core:redo": "やり直す"
-    "core:cut": "カット"
+    "core:cut": "切り取り"
     "core:copy": "コピー"
-    "core:paste": "ペースト"
+    "core:paste": "貼り付け"
     "core:delete": "削除"
     "core:select-all": "すべて選択"
-    "pane:split-up-and-copy-active-item": "ペイン分割･複製 ↑"
-    "pane:split-down-and-copy-active-item": "ペイン分割･複製 ↓"
-    "pane:split-left-and-copy-active-item": "ペイン分割･複製 ←"
-    "pane:split-right-and-copy-active-item": "ペイン分割･複製 →"
+    "pane:split-up-and-copy-active-item": "ペイン分割 ↑"
+    "pane:split-down-and-copy-active-item": "ペイン分割 ↓"
+    "pane:split-left-and-copy-active-item": "ペイン分割 ←"
+    "pane:split-right-and-copy-active-item": "ペイン分割 →"
     "pane:close": "ペインを閉じる"
   "atom-pane":
     "pane:split-up-and-copy-active-item": "ペイン分割 ↑"
@@ -24,13 +26,13 @@ Context:
     "pane:split-right-and-copy-active-item": "ペイン分割 →"
     "pane:close": "ペインを閉じる"
   "atom-text-editor:not([mini])":
-    "encoding-selector:show": "エンコーディング選択"
-    "spell-check:correct-misspelling": "スペル修正"
+    "encoding-selector:show": "エンコードの選択"
+    "spell-check:correct-misspelling": "スペルチェックと文章校正"
     "symbols-view:go-to-declaration": "宣言に移動"
   ".overlayer":
-    "grammar-selector:show": "文法を選択"
+    "grammar-selector:show": "Grammar：言語ハイライトの変更"
   ".image-view":
-    "image-view:reload": "画像をリロード"
+    "image-view:reload": "画像のリロード"
   ".tab":
     "tabs:close-tab": "タブを閉じる"
     "tabs:close-other-tabs": "他のタブをすべて閉じる"
@@ -43,28 +45,28 @@ Context:
     "tabs:split-left": "ペイン分割 ←"
     "tabs:split-right": "ペイン分割 →"
   ".tab.texteditor":
-    "tabs:open-in-new-window": "新規ウインドウで開く"
+    "tabs:open-in-new-window": "新規ウィンドウで開く"
   ".tab.pending-tab":
-    "tabs:keep-pending-tab": "プレビュー状態を解除"
+    "tabs:keep-pending-tab": "プレビュー中のタブを永続状態にする"
   ".tab-bar":
     "pane:reopen-closed-item": "閉じたタブを開く"
   ".tree-view .full-menu":
     "tree-view:add-file": "新規ファイル"
     "tree-view:add-folder": "新規フォルダ"
-    "tree-view:move": "移動・名前を変更..."
+    "tree-view:move": "名前の変更"
     "tree-view:duplicate": "複製"
     "tree-view:remove": "削除"
     "tree-view:copy": "コピー"
-    "tree-view:cut": "カット"
-    "tree-view:paste": "ペースト"
-    "tree-view:open-selected-entry-up": "ペイン分割 ↑"
-    "tree-view:open-selected-entry-down": "ペイン分割 ↓"
-    "tree-view:open-selected-entry-left": "ペイン分割 ←"
-    "tree-view:open-selected-entry-right": "ペイン分割 →"
-    "application:add-project-folder": "プロジェクトフォルダを追加..."
-    "tree-view:copy-full-path": "フルパスをコピー"
-    "tree-view:copy-project-path": "プロジェクトパスをコピー"
-    "tree-view:open-in-new-window": "新規ウインドウで開く"
+    "tree-view:cut": "切り取り"
+    "tree-view:paste": "貼り付け"
+#    "tree-view:open-selected-entry-up": "Split Up"
+#    "tree-view:open-selected-entry-down": "Split Down"
+#    "tree-view:open-selected-entry-left": "Split Left"
+#    "tree-view:open-selected-entry-right": "Split Right"
+    "application:add-project-folder": "プロジェクトフォルダの追加"
+    "tree-view:copy-full-path": "フルパスのコピー"
+    "tree-view:copy-project-path": "プロジェクトパスのコピー"
+    "tree-view:open-in-new-window": "新規ウィンドウで開く"
   '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "ペイン分割 ↑"
     "tree-view:open-selected-entry-down": "ペイン分割 ↓"
@@ -73,48 +75,124 @@ Context:
   ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "新規ファイル"
     "tree-view:add-folder": "新規フォルダ"
-    "tree-view:move": "移動・名前を変更..."
+    "tree-view:move": "名前の変更"
     "tree-view:duplicate": "複製"
     "tree-view:remove": "削除"
     "tree-view:copy": "コピー"
-    "tree-view:cut": "カット"
-    "tree-view:paste": "ペースト"
-    "tree-view:open-selected-entry-up": "ペイン分割 ↑"
-    "tree-view:open-selected-entry-down": "ペイン分割 ↓"
-    "tree-view:open-selected-entry-left": "ペイン分割 ←"
-    "tree-view:open-selected-entry-right": "ペイン分割 →"
+    "tree-view:cut": "切り取り"
+    "tree-view:paste": "貼り付け"
+#    "tree-view:open-selected-entry-up": "Split Up"
+#    "tree-view:open-selected-entry-down": "Split Down"
+#    "tree-view:open-selected-entry-left": "Split Left"
+#    "tree-view:open-selected-entry-right": "Split Right"
     "application:add-project-folder": "プロジェクトフォルダを追加..."
-    "tree-view:remove-project-folder": "プロジェクトフォルダを除去"
-    "tree-view:copy-full-path": "フルパスをコピー"
-    "tree-view:copy-project-path": "プロジェクトパスをコピー"
-    "tree-view:open-in-new-window": "新規ウインドウで開く"
+    "tree-view:remove-project-folder": "プロジェクトフォルダの削除"
+    # added for atom/tree-view
+    "tree-view:collapse-all": "プロジェクトフォルダをすべて折りたたむ"
+    "tree-view:copy-full-path": "フルパスのコピー"
+    "tree-view:copy-project-path": "プロジェクトパスのコピー"
+    "tree-view:open-in-new-window": "新規ウィンドウで開く"
   ".platform-darwin .tree-view .full-menu":
-    "tree-view:show-in-file-manager": "Finder で表示"
+    "tree-view:show-in-file-manager": "Finder で開く"
   ".platform-win32 .tree-view .full-menu":
-    "tree-view:show-in-file-manager": "エクスプローラで表示"
+    "tree-view:show-in-file-manager": "エクスプローラーで開く"
   ".platform-linux .tree-view .full-menu":
-    "tree-view:show-in-file-manager": "ファイルマネージャで表示"
-  ".tree-view li.directory":
-    "project-find:show-in-current-directory": "ディレクトリ内を検索"
+    "tree-view:show-in-file-manager": "ファイルマネージャーで開く"
+#  ".tree-view li.directory":
+#    "project-find:show-in-current-directory": "Search in Directory"
   ".tree-view .multi-select":
     "tree-view:remove": "削除"
     "tree-view:copy": "コピー"
-    "tree-view:cut": "カット"
-    "tree-view:paste": "ペースト"
+    "tree-view:cut": "切り取り"
+    "tree-view:paste": "貼り付け"
   "atom-pane[data-active-item-path] .item-views":
     "tree-view:reveal-active-file": "ツリービューに表示"
   "atom-pane[data-active-item-path] .tab.active":
-    "tree-view:rename": "移動・名前を変更..."
+    "tree-view:rename": "名前の変更"
     "tree-view:reveal-active-file": "ツリービューに表示"
   ".platform-darwin atom-pane[data-active-item-path] .tab.active":
-    "tree-view:show-current-file-in-file-manager": "Finder で表示"
+    "tree-view:show-current-file-in-file-manager": "Finder で開く"
   ".platform-win32 atom-pane[data-active-item-path] .tab.active":
-    "tree-view:show-current-file-in-file-manager": "エクスプローラで表示"
+    "tree-view:show-current-file-in-file-manager": "エクスプローラーで開く"
   ".platform-linux atom-pane[data-active-item-path] .tab.active":
-    "tree-view:show-current-file-in-file-manager": "ファイルマネージャで表示"
+    "tree-view:show-current-file-in-file-manager": "ファイルマネージャーで開く"
   ".platform-darwin atom-text-editor:not([mini])":
-    "tree-view:show-current-file-in-file-manager": "Finder で表示"
+    "tree-view:show-current-file-in-file-manager": "Finder で開く"
   ".platform-win32 atom-text-editor:not([mini])":
-    "tree-view:show-current-file-in-file-manager": "エクスプローラで表示"
+    "tree-view:show-current-file-in-file-manager": "エクスプローラーで開く"
   ".platform-linux atom-text-editor:not([mini])":
-    "tree-view:show-current-file-in-file-manager": "ファイルマネージャで表示"
+    "tree-view:show-current-file-in-file-manager": "ファイルマネージャーで開く"
+  # added for atom/find-and-replace
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "フォルダーを検索"
+  ".list-item.match-row":
+    "find-and-replace:open-in-new-tab": "新規タブで開く"
+    "core:copy": "コピー"
+    "find-and-replace:copy-path": "パスのコピー"
+  ".list-item.path-row":
+    "find-and-replace:open-in-new-tab": "新規タブで開く"
+    "find-and-replace:copy-path": "パスのコピー"
+  # added for atom/github/menu/git.cson
+  ".github-FilePatchListView-item":
+    "github:jump-to-file": "ファイルにジャンプ"
+  ".github-FilePatchView--staged":
+    "github:jump-to-file": "ファイルにジャンプ"
+    "core:confirm": "選択のステージを取り消す"
+  ".github-FilePatchView--unstaged":
+    "github:jump-to-file": "ファイルにジャンプ"
+    "core:confirm": "選択をステージする"
+    "github:discard-selected-lines": "選択を破棄する"
+  "github-DotComMarkdownHtml .issue-link":
+    "github:open-link-in-new-tab": "新規タブで開く"
+    "github:open-link-in-this-tab": "現在のタブで開く"
+    "github:open-link-in-browser": "ブラウザで開く"
+  ".github-CommitView":
+    "github:toggle-expanded-commit-message-editor": "拡張コミットメッセージ エディタの切替"
+  ".item-views > atom-text-editor":
+    "github:view-unstaged-changes-for-current-file": "ステージされていない変更を表示"
+    "github:view-staged-changes-for-current-file": "ステージされている変更を表示"
+  ".github-PushPull":
+    "github:fetch": "フェッチ"
+    "github:pull": "プル"
+    "github:push": "プッシュ"
+    "github:force-push": "強制プッシュ"
+  ".most-recent":
+    "github:amend-last-commit": "Amend：直近のコミットメッセージの書き換え"
+  ".github-RecentCommit":
+    "github:copy-commit-sha": "コミット SHA のコピー"
+    "github:copy-commit-subject": "コミットサブジェクトのコピー"
+  # added for atom/github/lib/github-package.js
+  ".github-UnstagedChanges .github-FilePatchListView":
+    "core:confirm": "ステージする"
+    "github:discard-changes-in-selected-files": "変更を破棄する"
+  ".github-StagedChanges .github-FilePatchListView":
+    "core:confirm": "ステージを取り消す"
+  ".github-MergeConflictPaths .github-FilePatchListView":
+    "core:confirm": "ステージする"
+    "github:resolve-file-as-ours": "自分の変更内容で競合を解決"
+    "github:resolve-file-as-theirs": "相手の変更内容で競合を解決"
+  # added for packages/link
+  "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
+    "link:open": "リンクを開く"
+  # added for atom/markdown-preview
+  ".markdown-preview":
+    "markdown-preview:select-all": "すべて選択"
+    "core:save-as": "HTML として保存..."
+  ".markdown-preview.has-selection":
+    "core:copy": "コピー"
+  ".markdown-preview:not(.has-selection)":
+    "core:copy": "HTML としてコピー"
+  ".tree-view .file .name[data-name$=\\.markdown]":
+    "markdown-preview:preview-file": "Markdown プレビュー"
+  ".tree-view .file .name[data-name$=\\.md]":
+    "markdown-preview:preview-file": "Markdown プレビュー"
+  ".tree-view .file .name[data-name$=\\.mdown]":
+    "markdown-preview:preview-file": "Markdown プレビュー"
+  ".tree-view .file .name[data-name$=\\.mkd]":
+    "markdown-preview:preview-file": "Markdown プレビュー"
+  ".tree-view .file .name[data-name$=\\.mkdown]":
+    "markdown-preview:preview-file": "Markdown プレビュー"
+  ".tree-view .file .name[data-name$=\\.ron]":
+    "markdown-preview:preview-file": "Markdown プレビュー"
+  ".tree-view .file .name[data-name$=\\.txt]":
+    "markdown-preview:preview-file": "Markdown プレビュー"
