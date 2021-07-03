@@ -6,6 +6,8 @@ export const CSON_FILES = [
   'settings.cson',
   'about.cson',
   'welcome.cson',
+  'consent.cson',
+  'guide.cson'
 ];
 
 export const ATOM_VERSION = 'v1.22.0-beta0';

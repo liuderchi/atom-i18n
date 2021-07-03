@@ -1,0 +1,19 @@
+Consent:
+  tabTitle: "使用状況データの送信"
+  desc:
+    text1: "匿名の "
+    text2: "使用状況データ"
+    text3: " を Atomチームに送信して、Atom の改善にご協力ください。送信されたデータは、今後の機能強化を決定する上で重要な役割を果たします。"
+    _template: "${text1}<strong>${text2}</strong>${text3}"
+  send:
+    "send-usage": "はい、使用状況データ送信します"
+    notes:
+      text1: "例外およびクラッシュレポートを含みます。 詳細については、"
+      text2: "atomic/metrics パッケージ"
+      text3: " を参照してください。"
+      _template: "${text1}<a>${text2}</a>${text3}"
+  unsend:
+    "unsend-usage": "いいえ、送信しないでください"
+    notes: "注: オプトアウト (送信拒否) したことのみを匿名で登録します。"
+  with: " に "
+  by: " を込めて "
