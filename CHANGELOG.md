@@ -1,3 +1,8 @@
+## 0.26.1 - Bug fix, chores
+
+- Not localized Menu Context-Menu #322
+- bump deps
+
 ## 0.26.0 - Malay support
 
 - ms i18n #313
