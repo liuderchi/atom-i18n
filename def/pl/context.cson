@@ -2,10 +2,10 @@ Context:
   "atom-workspace":
     "application:inspect": "Zbadaj element"
   "atom-text-editor":
-    "color-picker:open": "Wybór koloru"
+    "color-picker:open": "Próbnik koloru"
     "minimap:toggle": "Przełącz minimapę"
     # added for atom/bookmarks
-    "bookmarks:toggle-bookmark": "Toggle Bookmark"
+    "bookmarks:toggle-bookmark": "Przełącz zakładkę"
   "atom-text-editor, .overlayer":
     "core:undo": "Cofnij"
     "core:redo": "Ponów"
@@ -30,16 +30,16 @@ Context:
     "spell-check:correct-misspelling": "Popraw pisownię"
     "symbols-view:go-to-declaration": "Idź do deklaracji"
   ".overlayer":
-    "grammar-selector:show": "Zmień gramatykę"
+    "grammar-selector:show": "Zmień składnię"
   ".image-view":
     "image-view:reload": "Przeładuj obraz"
   ".tab":
-    "tabs:close-tab": "Zamknij zakładkę"
-    "tabs:close-other-tabs": "Zamknij inne zakładki"
-    "tabs:close-tabs-to-right": "Zamknij zakładki po prawej"
-    "tabs:close-tabs-to-left": "Zamknij zakładki po lewej"
-    "tabs:close-saved-tabs": "Zamknij zapisane zakładki"
-    "tabs:close-all-tabs": "Zamknij wszystkie zakładki"
+    "tabs:close-tab": "Zamknij kartę"
+    "tabs:close-other-tabs": "Zamknij inne karty"
+    "tabs:close-tabs-to-right": "Zamknij karty po prawej"
+    "tabs:close-tabs-to-left": "Zamknij karty po lewej"
+    "tabs:close-saved-tabs": "Zamknij zapisane karty"
+    "tabs:close-all-tabs": "Zamknij wszystkie karty"
     "tabs:split-up": "Podziel na górze"
     "tabs:split-down": "Podziel na dole"
     "tabs:split-left": "Podziel po lewej"
@@ -47,15 +47,15 @@ Context:
   ".tab.texteditor":
     "tabs:open-in-new-window": "Otwórz w nowym oknie"
   ".tab.pending-tab":
-    "tabs:keep-pending-tab": "Zachowaj oczekującą zakładkę"
+    "tabs:keep-pending-tab": "Zachowaj oczekującą kartę"
   ".tab-bar":
-    "pane:reopen-closed-item": "Otwórz zamkniętą zakładkę"
+    "pane:reopen-closed-item": "Otwórz zamkniętą kartę"
   ".tree-view .full-menu":
     "tree-view:add-file": "Nowy plik"
     "tree-view:add-folder": "Nowy folder"
     "tree-view:move": "Zmień nazwę"
-    "tree-view:duplicate": "Duplikuj"
-    "tree-view:remove": "Skasuj"
+    "tree-view:duplicate": "Powiel"
+    "tree-view:remove": "Usuń"
     "tree-view:copy": "Kopiuj"
     "tree-view:cut": "Wytnij"
     "tree-view:paste": "Wklej"
@@ -76,8 +76,8 @@ Context:
     "tree-view:add-file": "Nowy plik"
     "tree-view:add-folder": "Nowy folder"
     "tree-view:move": "Zmień nazwę"
-    "tree-view:duplicate": "Duplikuj"
-    "tree-view:remove": "Skasuj"
+    "tree-view:duplicate": "Powiel"
+    "tree-view:remove": "Usuń"
     "tree-view:copy": "Kopiuj"
     "tree-view:cut": "Wytnij"
     "tree-view:paste": "Wklej"
@@ -88,20 +88,20 @@ Context:
     "application:add-project-folder": "Dodaj folder projektu"
     "tree-view:remove-project-folder": "Usuń folder projektu"
     # added for atom/tree-view
-    "tree-view:collapse-all": "Collapse All Project Folders"
+    "tree-view:collapse-all": "Zwiń wszystkie foldery projektów"
     "tree-view:copy-full-path": "Skopiuj pełną ścieżkę"
     "tree-view:copy-project-path": "Skopiuj ścieżkę projektu"
     "tree-view:open-in-new-window": "Otwórz w nowym oknie"
   ".platform-darwin .tree-view .full-menu":
-    "tree-view:show-in-file-manager": "Pokaż w folderze"
+    "tree-view:show-in-file-manager": "Pokaż w Finderze"
   ".platform-win32 .tree-view .full-menu":
-    "tree-view:show-in-file-manager": "Pokaż w eksplorerze"
+    "tree-view:show-in-file-manager": "Pokaż w Eksploratorze"
   ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "Pokaż w menedżerze plików"
 #  ".tree-view li.directory":
 #    "project-find:show-in-current-directory": "Szukaj w katalogu"
   ".tree-view .multi-select":
-    "tree-view:remove": "Skasuj"
+    "tree-view:remove": "Usuń"
     "tree-view:copy": "Kopiuj"
     "tree-view:cut": "Wytnij"
     "tree-view:paste": "Wklej"
@@ -111,88 +111,88 @@ Context:
     "tree-view:rename": "Zmień nazwę"
     "tree-view:reveal-active-file": "Pokaż w widoku drzewa"
   ".platform-darwin atom-pane[data-active-item-path] .tab.active":
-    "tree-view:show-current-file-in-file-manager": "Pokaż w wyszukiwarce"
+    "tree-view:show-current-file-in-file-manager": "Pokaż w Finderze"
   ".platform-win32 atom-pane[data-active-item-path] .tab.active":
-    "tree-view:show-current-file-in-file-manager": "Pokaż w eksploratorze"
+    "tree-view:show-current-file-in-file-manager": "Pokaż w Eksploratorze"
   ".platform-linux atom-pane[data-active-item-path] .tab.active":
     "tree-view:show-current-file-in-file-manager": "Pokaż w menedżerze plików"
   ".platform-darwin atom-text-editor:not([mini])":
-    "tree-view:show-current-file-in-file-manager": "Pokaż w wyszukiwarce"
+    "tree-view:show-current-file-in-file-manager": "Pokaż w Finderze"
   ".platform-win32 atom-text-editor:not([mini])":
-    "tree-view:show-current-file-in-file-manager": "Pokaż w eksploratorze"
+    "tree-view:show-current-file-in-file-manager": "Pokaż w Eksploratorze"
   ".platform-linux atom-text-editor:not([mini])":
     "tree-view:show-current-file-in-file-manager": "Pokaż w menedżerze plików"
   # added for atom/find-and-replace
   ".tree-view li.directory":
-    "project-find:show-in-current-directory": "Search in Folder"
+    "project-find:show-in-current-directory": "Szukaj w folderze"
   ".list-item.match-row":
-    "find-and-replace:open-in-new-tab": "Open in New Tab"
-    "core:copy": "'Copy"
-    "find-and-replace:copy-path": "Copy Path"
+    "find-and-replace:open-in-new-tab": "Otwórz w nowej karcie"
+    "core:copy": "'Kopiuj"
+    "find-and-replace:copy-path": "Kopiuj ścieżkę"
   ".list-item.path-row":
-    "find-and-replace:open-in-new-tab": "Open in New Tab"
-    "find-and-replace:copy-path": "Copy Path"
+    "find-and-replace:open-in-new-tab": "Otwórz w nowej karcie"
+    "find-and-replace:copy-path": "Kopiuj ścieżkę"
   # added for atom/github/menu/git.cson
   ".github-FilePatchListView-item":
-    "github:jump-to-file": "Jump to File"
+    "github:jump-to-file": "Przejdź do pliku"
   ".github-FilePatchView--staged":
-    "github:jump-to-file": "Jump to File"
-    "core:confirm": "Unstage Selection"
+    "github:jump-to-file": "Przejdź do pliku"
+    "core:confirm": "Przenieś zaznaczone do przechowalni"
   ".github-FilePatchView--unstaged":
-    "github:jump-to-file": "Jump to File"
-    "core:confirm": "Stage Selection"
-    "github:discard-selected-lines": "Discard Selection"
+    "github:jump-to-file": "Przejdź do pliku"
+    "core:confirm": "Przenieś zaznaczone do przechowalni"
+    "github:discard-selected-lines": "Odrzuć zaznaczone"
   "github-DotComMarkdownHtml .issue-link":
-    "github:open-link-in-new-tab": "Open in New Tab"
-    "github:open-link-in-this-tab": "Open in This Tab"
-    "github:open-link-in-browser": "Open in Browser"
+    "github:open-link-in-new-tab": "Otwórz w nowej karcie"
+    "github:open-link-in-this-tab": "Otwórz w tej karcie"
+    "github:open-link-in-browser": "Otwórz w przeglądarce"
   ".github-CommitView":
-    "github:toggle-expanded-commit-message-editor": "Toggle Expanded Commit Message Editor"
+    "github:toggle-expanded-commit-message-editor": "Przełącz rozszerzony edytor wiadomości zatwierdzenia"
   ".item-views > atom-text-editor":
-    "github:view-unstaged-changes-for-current-file": "View Unstaged Changes"
-    "github:view-staged-changes-for-current-file": "View Staged Changes"
+    "github:view-unstaged-changes-for-current-file": "Zobacz zmiany nieumieszczone w przechowalni"
+    "github:view-staged-changes-for-current-file": "Zobacz zmiany umieszczone w przechowalni"
   ".github-PushPull":
-    "github:fetch": "Fetch"
-    "github:pull": "Pull"
-    "github:push": "Push"
-    "github:force-push": "Force Push"
+    "github:fetch": "Pobierz"
+    "github:pull": "Pobierz i scal"
+    "github:push": "Wyślij"
+    "github:force-push": "Wymuś wysłanie"
   ".most-recent":
-    "github:amend-last-commit": "Amend"
+    "github:amend-last-commit": "Popraw"
   ".github-RecentCommit":
-    "github:copy-commit-sha": "Copy Commit SHA"
-    "github:copy-commit-subject": "Copy Commit Subject"
+    "github:copy-commit-sha": "Skopiuj SHA zatwierdzenia"
+    "github:copy-commit-subject": "Skopiuj wiadomość zatwierdzenia"
   # added for atom/github/lib/github-package.js
   ".github-UnstagedChanges .github-FilePatchListView":
-    "core:confirm": "Stage"
-    "github:discard-changes-in-selected-files": "Discard Changes"
+    "core:confirm": "Umieść w poczekalni"
+    "github:discard-changes-in-selected-files": "Odrzuć zmiany"
   ".github-StagedChanges .github-FilePatchListView":
-    "core:confirm": "Unstage"
+    "core:confirm": "Usuń z poczekalni"
   ".github-MergeConflictPaths .github-FilePatchListView":
-    "core:confirm": "Stage"
-    "github:resolve-file-as-ours": "Resolve File As Ours"
-    "github:resolve-file-as-theirs": "Resolve File As Theirs"
+    "core:confirm": "Umieść w poczekalni"
+    "github:resolve-file-as-ours": "Rozwiąż konflikt na swoją korzyść"
+    "github:resolve-file-as-theirs": "Rozwiąż konflikt na ich korzyść"
   # added for packages/link
   "atom-text-editor .syntax--markup.syntax--underline.syntax--link":
-    "link:open": "Open link"
+    "link:open": "Otwórz łącze"
   # added for atom/markdown-preview
   ".markdown-preview":
-    "markdown-preview:select-all": "Select All"
-    "core:save-as": "Save As HTML\u2026"
+    "markdown-preview:select-all": "Zaznacz wszystko"
+    "core:save-as": "Zapisz jako HTML\u2026"
   ".markdown-preview.has-selection":
-    "core:copy": "Copy"
+    "core:copy": "Kopiuj"
   ".markdown-preview:not(.has-selection)":
-    "core:copy": "Copy As HTML"
+    "core:copy": "Kopiuj jako HTML"
   ".tree-view .file .name[data-name$=\\.markdown]":
-    "markdown-preview:preview-file": "Markdown Preview"
+    "markdown-preview:preview-file": "Podgląd Markdown"
   ".tree-view .file .name[data-name$=\\.md]":
-    "markdown-preview:preview-file": "Markdown Preview"
+    "markdown-preview:preview-file": "Podgląd Markdown"
   ".tree-view .file .name[data-name$=\\.mdown]":
-    "markdown-preview:preview-file": "Markdown Preview"
+    "markdown-preview:preview-file": "Podgląd Markdown"
   ".tree-view .file .name[data-name$=\\.mkd]":
-    "markdown-preview:preview-file": "Markdown Preview"
+    "markdown-preview:preview-file": "Podgląd Markdown"
   ".tree-view .file .name[data-name$=\\.mkdown]":
-    "markdown-preview:preview-file": "Markdown Preview"
+    "markdown-preview:preview-file": "Podgląd Markdown"
   ".tree-view .file .name[data-name$=\\.ron]":
-    "markdown-preview:preview-file": "Markdown Preview"
+    "markdown-preview:preview-file": "Podgląd Markdown"
   ".tree-view .file .name[data-name$=\\.txt]":
-    "markdown-preview:preview-file": "Markdown Preview"
+    "markdown-preview:preview-file": "Podgląd Markdown"

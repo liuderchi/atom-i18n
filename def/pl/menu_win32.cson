@@ -1,147 +1,147 @@
 Menu:
   "&File":
-    value: "Plik(&F)"
+    value: "Plik (&F)"
     submenu:
       "New &Window":
-        value: "Nowe okno(&W)"
+        value: "Nowe okno (&W)"
       "&New File":
-        value: "Nowy plik(&N)"
+        value: "Nowy plik (&N)"
       "&Open File…":
-        value: "Otwórz plik(&O)..."
+        value: "Otwórz plik… (&O)"
       "Open Folder…":
-        value: "Otwórz folder..."
+        value: "Otwórz folder…"
       "Add Project Folder…":
-        value: "Dodaj folder projektu..."
+        value: "Dodaj folder projektu…"
       "Reopen Project":
         value: "Ponownie otwórz projekt"
         submenu:
           "Clear Project History":
             value: "Wyczyść historię projektu"
       "Reopen Last &Item":
-        value: "Otwórz ponownie plik(&I)"
+        value: "Otwórz ponownie plik (&I)"
       "Se&ttings":
-        value: "Ustawienia(&T)..."
+        value: "Ustawienia… (&T)"
       "Config…":
-        value: "Konfiguracja..."
+        value: "Konfiguracja…"
       "Init Script…":
-        value: "Skrypt Init..."
+        value: "Skrypt Init…"
       "Keymap…":
-        value: "Mapowanie klawiszy..."
+        value: "Mapowanie klawiszy…"
       "Snippets…":
-        value: "Wycinki..."
+        value: "Snippety…"
       "Stylesheet…":
-        value: "Arkusz stylów..."
+        value: "Arkusz stylów…"
       "&Save":
-        value: "Zapisz(&S)"
+        value: "Zapisz (&S)"
       "Save &As…":
-        value: "Zapisz jako(&A)..."
+        value: "Zapisz jako… (&A)"
       "Save A&ll":
-        value: "Zapisz wszystko(&L)"
+        value: "Zapisz wszystko (&L)"
       "&Close Tab":
-        value: "Zamknij zakładkę(&C)"
+        value: "Zamknij kartę (&C)"
       "Close &Pane":
-        value: "Zamknij panel(&P)"
+        value: "Zamknij panel (&P)"
       "Clos&e Window":
-        value: "Zamknij okno(&E)"
+        value: "Zamknij okno (&E)"
       "E&xit":
-        value: "Wyjdź(&X)"
+        value: "Wyjdź (&X)"
       "Close All Tabs":
-        value: "Zamknij wszystkie zakładki"
+        value: "Zamknij wszystkie karty"
   "&Edit":
-    value: "Edytuj(&E)"
+    value: "Edytuj (&E)"
     submenu:
       "&Undo":
-        value: "Cofnij(&U)"
+        value: "Cofnij (&U)"
       "&Redo":
-        value: "Ponów(&R)"
+        value: "Ponów (&R)"
       "Cu&t":
-        value: "Wytnij(&T)"
+        value: "Wytnij (&T)"
       "&Copy":
-        value: "Kopiuj(&C)"
+        value: "Kopiuj (&C)"
       "Copy Pat&h":
-        value: "Kopiuj ścieżkę(&H)"
+        value: "Kopiuj ścieżkę (&H)"
       "&Paste":
-        value: "Wklej(&P)"
+        value: "Wklej (&P)"
       "Paste Without Reformatting":
         value: "Wklej bez formatowania"
       "Select &All":
-        value: "Zaznacz wszystko(&A)"
+        value: "Zaznacz wszystko (&A)"
       "&Toggle Comments":
-        value: "Przełącz na komentarz(&T)"
+        value: "Przełącz komentarze (&T)"
       Lines:
         value: "Linie"
         submenu:
           "&Indent":
-            value: "Zwiększ wcięcie(&I)"
+            value: "Zwiększ wcięcie (&I)"
           "&Outdent":
-            value: "Zmniejsz wcięcie(&O)"
+            value: "Zmniejsz wcięcie (&O)"
           "&Auto Indent":
-            value: "Automatyczne wcięcie(&A)"
+            value: "Automatyczne wcięcie (&A)"
           "Move Line &Up":
-            value: "Przenieś linię do góry(&U)"
+            value: "Przenieś linię wyżej (&U)"
           "Move Line &Down":
-            value: "Przenieś linię do dołu(&D)"
+            value: "Przenieś linię niżej (&D)"
           "Du&plicate Lines":
-            value: "Duplikuj linię(&P)"
+            value: "Powiel linię (&P)"
           "D&elete Line":
-            value: "Skasuj linię(&E)"
+            value: "Usuń linię (&E)"
           "&Join Lines":
-            value: "Połącz linię(&J)"
+            value: "Połącz linie (&J)"
       Columns:
         value: "Kolumny"
         submenu:
           "Move Selection &Left":
-            value: "Przenieś zaznaczenie na lewo(&L)"
+            value: "Przenieś zaznaczenie na lewo (&L)"
           "Move Selection &Right":
-            value: "Przenieś zaznaczenie na prawo(&R)"
+            value: "Przenieś zaznaczenie na prawo (&R)"
       Text:
         value: "Tekst"
         submenu:
           "&Upper Case":
-            value: "Wielkie litery(&U)"
+            value: "Wielkie litery (&U)"
           "&Lower Case":
-            value: "Małe litery(&L)"
+            value: "Małe litery (&L)"
           "Delete to End of &Word":
-            value: "Skasuj do końca słowa(&W)"
+            value: "Usuń do końca słowa (&W)"
           "Delete to Previous Word Boundary":
-            value: "Skasuj do granicy poprzedniego słowa"
+            value: "Usuń do granicy poprzedniego słowa"
           "Delete to Next Word Boundary":
-            value: "Skasuj do granicy następnego słowa"
+            value: "Usuń do granicy następnego słowa"
           "&Delete Line":
-            value: "Skasuj linię(&D)"
+            value: "Usuń linię (&D)"
           "&Transpose":
-            value: "Transponuj(&T)"
+            value: "Przestaw (&T)"
       Folding:
         value: "Zwijanie kodu"
         submenu:
           "&Fold":
-            value: "Zwiń(&F)"
+            value: "Zwiń (&F)"
           "&Unfold":
-            value: "Rozwiń(&U)"
+            value: "Rozwiń (&U)"
           "Fol&d All":
-            value: "Zwiń wszystko(&D)"
+            value: "Zwiń wszystko (&D)"
           "Unfold &All":
-            value: "Rozwiń wszystko(&A)"
+            value: "Rozwiń wszystko (&A)"
           "Fold Level 1":
-            value: "Zwijanie poziom 1"
+            value: "Zwiń do poziomu 1"
           "Fold Level 2":
-            value: "Zwijanie poziom 2"
+            value: "Zwiń do poziomu 2"
           "Fold Level 3":
-            value: "Zwijanie poziom 3"
+            value: "Zwiń do poziomu 3"
           "Fold Level 4":
-            value: "Zwijanie poziom 4"
+            value: "Zwiń do poziomu 4"
           "Fold Level 5":
-            value: "Zwijanie poziom 5"
+            value: "Zwiń do poziomu 5"
           "Fold Level 6":
-            value: "Zwijanie poziom 6"
+            value: "Zwiń do poziomu 6"
           "Fold Level 7":
-            value: "Zwijanie poziom 7"
+            value: "Zwiń do poziomu 7"
           "Fold Level 8":
-            value: "Zwijanie poziom 8"
+            value: "Zwiń do poziomu 8"
           "Fold Level 9":
-            value: "Zwijanie poziom 9"
+            value: "Zwiń do poziomu 9"
       "Reflow Selection":
-        value: "Usuń formatowanie"
+        value: "Zmień zaznaczenie w jedną linię"
       Bookmark:
         value: "Zakładki"
         submenu:
@@ -150,26 +150,26 @@ Menu:
           "Toggle Bookmark":
             value: "Przełącz zakładkę"
           "Jump to Next Bookmark":
-            value: "Skocz do następnej zakładki"
+            value: "Przejdź do następnej zakładki"
           "Jump to Previous Bookmark":
-            value: "Skocz do poprzedniej zakładki"
+            value: "Przejdź do poprzedniej zakładki"
           "Select to Next Bookmark":
-            value: "Wybierz następną zakładkęmark"
+            value: "Zaznacz do następnej zakładki"
           "Select to Previous Bookmark":
-            value: "Wybierz poprzednią zakładkę"
+            value: "Zaznacz do poprzedniej zakładki"
       "Select Encoding":
         value: "Wybierz kodowanie"
       "Go to Line":
         value: "Idź do linii"
       "Select Grammar":
-        value: "Sprawdź gramatykę składni"
+        value: "Wybierz składnię"
   "&View":
-    value: "Widok(&V)"
+    value: "Widok (&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "Przełącz na pełny ekran(&F)"
+        value: "Przełącz pełny ekran (&F)"
       "Toggle Menu Bar":
-        value: "Wyłącz pasek menu"
+        value: "Przełącz pasek menu"
       Panes:
         value: "Panele"
         submenu:
@@ -182,100 +182,100 @@ Menu:
           "Split Right":
             value: "Podziel po prawej"
           "Focus Next Pane":
-            value: "Ustaw się na następnym panelu"
+            value: "Uaktywnij następny panel"
           "Focus Previous Pane":
-            value: "Ustaw się na poprzednim panelu"
+            value: "Uaktywnij poprzedni panel"
           "Focus Pane Above":
-            value: "Ustaw się na górnym panelu"
+            value: "Uaktywnij górny panel"
           "Focus Pane Below":
-            value: "Ustaw się na dolnym panelu"
+            value: "Uaktywnij dolny panel"
           "Focus Pane On Left":
-            value: "Ustaw się na lewym panelu"
+            value: "Uaktywnij lewy panel"
           "Focus Pane On Right":
-            value: "Ustaw się na prawym panelu"
+            value: "Uaktywnij prawy panel"
           "Close Pane":
             value: "Zamknij panel"
       Developer:
         value: "Opcje programistyczne"
         submenu:
           "Open In &Dev Mode…":
-            value: "Otwórz w trybie programistycznym(&D)..."
+            value: "Otwórz w trybie programistycznym… (&D)"
           "&Reload Window":
-            value: "Przeładuj okno(&R)"
+            value: "Przeładuj okno (&R)"
           "Run Package &Specs":
-            value: "Uruchom specyfikację pakietu(&S)"
+            value: "Uruchom specyfikację pakietu (&S)"
           "Run &Benchmarks":
-            value: "Uruchom benchmark(&B)"
+            value: "Uruchom benchmarki (&B)"
           "Toggle Developer &Tools":
-            value: "Narzędzia programistyczne(&T)"
+            value: "Narzędzia programistyczne (&T)"
       "&Increase Font Size":
-        value: "Zwiększ rozmiar czcionki(&I)"
+        value: "Zwiększ rozmiar czcionki (&I)"
       "&Decrease Font Size":
-        value: "Zmniejsz rozmiar czcionki(&D)"
+        value: "Zmniejsz rozmiar czcionki (&D)"
       "Re&set Font Size":
-        value: "Zresetuj rozmiar czcionki(&S)"
+        value: "Zresetuj rozmiar czcionki (&S)"
       "Toggle Soft &Wrap":
-        value: "Przełącz na miękkie zawijanie(&W)"
+        value: "Przełącz miękkie zawijanie (&W)"
       "Toggle Command Palette":
-        value: "Przełącz na linię poleceń"
+        value: "Przełącz panel poleceń"
       # added the following menus, for "Packages"->"GitHub"
       "Toggle Git Tab":
-        value: "Toggle Git Tab"
+        value: "Przełącz kartę Git"
       "Toggle GitHub Tab":
-        value: "Toggle GitHub Tab"
+        value: "Przełącz kartę GitHun"
       "Open Reviews Tab":
-        value: "Open Reviews Tab"
+        value: "Otwórz kartę recenzji"
       #
       "Toggle Tree View":
-        value: "Przełącz na widok drzewa"
+        value: "Przełącz widok drzewa"
   "&Selection":
-    value: "Zaznaczenia(&S)"
+    value: "Zaznaczenie (&S)"
     submenu:
       "Add Selection &Above":
-        value: "Dodaj zaznaczenie powyżej(&A)"
+        value: "Dodaj zaznaczenie powyżej (&A)"
       "Add Selection &Below":
-        value: "Dodaj zaznaczenie poniżej(&B)"
+        value: "Dodaj zaznaczenie poniżej (&B)"
       "S&plit into Lines":
-        value: "Podziel na linie(&P)"
+        value: "Podziel na linie (&P)"
       "Single Selection":
         value: "Pojedyncze zaznaczenie"
       "Select to &Top":
-        value: "Zaznacz do góry(&T)"
+        value: "Zaznacz do góry (&T)"
       "Select to Botto&m":
-        value: "Zaznacz do dołu(&M)"
+        value: "Zaznacz do dołu (&M)"
       "Select &Line":
-        value: "Zaznacz linię(&L)"
+        value: "Zaznacz linię (&L)"
       "Select &Word":
-        value: "Zaznacz słowo(&W)"
+        value: "Zaznacz słowo (&W)"
       "Select to Beginning of W&ord":
-        value: "Zaznacz do początku słowa(&O)"
+        value: "Zaznacz do początku słowa (&O)"
       "Select to Beginning of L&ine":
-        value: "Zaznacz do początku linii(&I)"
+        value: "Zaznacz do początku linii (&I)"
       "Select to First &Character of Line":
-        value: "Zaznacz do pierwszego znaku w linii(&C)"
+        value: "Zaznacz do pierwszego znaku w linii (&C)"
       "Select to End of Wor&d":
-        value: "Zaznacz do końca słowa(&D)"
+        value: "Zaznacz do końca słowa (&D)"
       "Select to End of Lin&e":
-        value: "Zaznacz do końca linii(&E)"
+        value: "Zaznacz do końca linii (&E)"
       "Select Inside Brackets":
         value: "Zaznacz wewnątrz nawiasów"
   "F&ind":
-    value: "Szukaj(&I)"
+    value: "Szukaj (&I)"
     submenu:
       "Find in Buffer":
         value: "Szukaj w buforze"
       "Replace in Buffer":
-        value: "Zmień w buforze"
+        value: "Zamień w buforze"
       "Select Next":
         value: "Zaznacz następny"
       "Select All":
         value: "Zaznacz wszystko"
       "Toggle Find in Buffer":
-        value: "Przełącz na szukanie w buforze"
+        value: "Przełącz szukanie w buforze"
       "Find in Project":
         value: "Szukaj w projekcie"
       "Toggle Find in Project":
-        value: "Przełącz na szukanie w projekcie"
+        value: "Przełącz szukanie w projekcie"
       "Find All":
         value: "Szukaj wszędzie"
       "Find Next":
@@ -283,186 +283,183 @@ Menu:
       "Find Previous":
         value: "Znajdź poprzedni"
       "Replace Next":
-        value: "Zastąp następny"
+        value: "Zamień następny"
       "Replace All":
-        value: "Zastąp wszystko"
+        value: "Zamień wszystko"
       "Clear History":
         value: "Wyczyść historię"
       "Find Buffer":
         value: "Przeszukaj bufor"
       "Find File":
-        value: "Szukaj pliku"
+        value: "Znajdź plik"
       "Find Modified File":
-        value: "Szukaj modyfikowanego pliku"
+        value: "Znajdź zmodyfikowany plik"
   "&Packages":
-    value: "Pakiety(&P)"
+    value: "Pakiety (&P)"
     submenu:
       "Bracket Matcher":
-        value: "Bracket Matcher"
+        value: "Swat nawiasów (Bracket Matcher)"
         submenu:
           "Go To Matching Bracket":
-            value: "Go To Matching Bracket"
+            value: "Przejdź do sparowanego nawiasu"
           "Select Inside Brackets":
-            value: "Select Inside Brackets"
+            value: "Zaznacz wewnątrz nawiasów"
           "Remove Brackets From Selection":
-            value: "Remove Brackets From Selection"
+            value: "Usuń nawiasy z zaznaczenia"
           "Close Current Tag":
-            value: "Close Current Tag"
+            value: "Zamknij bieżący znacznik"
           "Remove Matching Brackets":
-            value: "Remove Matching Brackets"
+            value: "Usuń sparowane nawiasy"
           "Select Matching Brackets":
-            value: "Select Matching Brackets"
+            value: "Zaznacz sparowane nawiasy"
       "Command Palette":
-        value: "Command Palette"
+        value: "Panel poleceń (Command Palette)"
         submenu:
           "Toggle":
-            value: "Toggle"
+            value: "Przełącz"
       "Dev Live Reload":
-        value: "Dev Live Reload"
+        value: "Przeładowanie na żywo (Dev Live Reload)"
         submenu:
           "Reload All Styles":
-            value: "Reload All Styles"
+            value: "Przeładuj wszystkie style"
       "Git Diff":
-        value: "Git Diff"
+        value: "Różnice wg gita (Git Diff)"
         submenu:
           "Move to Next Diff":
-            value: "Move to Next Diff"
+            value: "Przejdź do następnej zmiany"
           "Move to Previous Diff":
-            value: "Move to Previous Diff"
+            value: "Przejdź do poprzedniej zmiany"
           "Toggle Diff List":
-            value: "Toggle Diff List"
+            value: "Przełącz listę zmian"
       "GitHub":
         value: "GitHub"
         submenu:
           "Toggle Git Tab":
-            value: "Toggle Git Tab"
+            value: "Przełącz kartę Gita"
           "Toggle GitHub Tab":
-            value: "Toggle GitHub Tab"
+            value: "Przełącz kartę GitHuba"
           "Open Reviews Tab":
-            value: "Open Reviews Tab"
+            value: "Otwórz kartę recenzji"
       "Keybinding Resolver":
-        value: "Keybinding Resolver"
+        value: "Przypisania klawiszy (Keybinding Resolver)"
         submenu:
           "Toggle":
-            value: "Toggle"
-          "Go To Matching Bracket":
-            value: "Go To Matching Bracket"
+            value: "Przełącz"
       "Markdown Preview":
-        value: "Markdown Preview"
+        value: "Podgląd Markdown (Markdown Preview)"
         submenu:
           "Toggle Preview":
-            value: "Toggle Preview"
+            value: "Przełącz podgląd"
           "Toggle Break on Single Newline":
-            value: "Toggle Break on Single Newline"
+            value: "Przełącz nową linię przy pojedynczym znaku końca"
           "Toggle GitHub Style":
-            value: "Toggle GitHub Style"
+            value: "Przełącz styl GitHuba"
       "Open On GitHub":
-        value: "Open On GitHub"
+        value: "Otwórz w GitHubie (Open On GitHub)"
         submenu:
           "Blame":
-            value: "Blame"
+            value: "Widok „blame” pliku"
           "Branch Compare":
-            value: "Branch Compare"
+            value: "Porównanie gałęzi"
           "Copy URL":
-            value: "Copy URL"
+            value: "Kopiuj URL"
           "File":
-            value: "File"
+            value: "Plik"
           "File on Master":
-            value: "File on Master"
+            value: "Plik na gałęzi Master"
           "History":
-            value: "History"
+            value: "Widok historii pliku"
           "Issues":
-            value: "Issues"
+            value: "Widok „Issues” w repozytorium pliku"
           "Pull Requests":
-            value: "Pull Requests"
+            value: "Widok „Pull Requests” w repozytorium pliku"
           "Repository":
-            value: "Repository"
+            value: "Repozytorium pliku"
       "Package Generator":
-        value: "Package Generator"
+        value: "Generator pakietów (Package Generator)"
         submenu:
           "Generate Atom Package":
-            value: "Generate Atom Package"
+            value: "Wygeneruj pakiet programu Atom"
           "Generate Atom Syntax Theme":
-            value: "Generate Atom Syntax Theme"
-      "Settings View":
-        value: "Settings View"
+            value: "Wygeneruj motyw składni programu Atom":
+        value: "Widok ustawień (Settings View)"
         submenu:
           "Open":
-            value: "Open"
+            value: "Otwórz"
           "Show Keybindings":
-            value: "Show Keybindings"
+            value: "Pokaż przypisania klawiszy"
           "Install Packages/Themes":
-            value: "Install Packages/Themes"
+            value: "Zainstaluj pakiety/motywy"
           "Update Packages/Themes":
-            value: "Update Packages/Themes"
+            value: "Zaktualizuj pakiety/motywy"
           "Manage Packages":
-            value: "Manage Packages"
+            value: "Zarządzaj pakietami"
           "Manage Themes":
-            value: "Manage Themes"
+            value: "Zarządzaj motywami"
       "Snippets":
-        value: "Snippets"
+        value: "Snippety (Snippets)"
         submenu:
           "Expand":
-            value: "Expand"
+            value: "Rozwiń"
           "Next Stop":
-            value: "Next Stop"
+            value: "Następny"
           "Previous Stop":
-            value: "Previous Stop"
+            value: "Poprzedni"
           "Available":
-            value: "Available"
+            value: "Dostępne"
       "Spell Check":
-        value: "Spell Check"
+        value: "Sprawdzanie pisowni (Spell Check)"
         submenu:
           "Toggle":
-            value: "Toggle"
+            value: "Przełącz"
       "Styleguide":
-        value: "Styleguide"
+        value: "Przewodnik po stylach (Styleguide)"
         submenu:
           "Show":
-            value: "Show"
+            value: "Pokaż"
       "Symbols":
-        value: "Symbols"
+        value: "Symbole (Symbols)"
         submenu:
           "File Symbols":
-            value: "File Symbols"
+            value: "Symbole w bieżącym pliku"
           "Project Symbols":
-            value: "File Symbols"
+            value: "Symbole w bieżącym projekcie"
       "Timecop":
-        value: "Timecop"
+        value: "Strażnik czasu (Timecop)"
         submenu:
           "Show":
-            value: "Show"
+            value: "Pokaż czasy"
       "Tree View":
-        value: "Tree View"
+        value: "Widok drzewa (Tree View)"
         submenu:
           "Focus":
-            value: "Focus"
+            value: "Uaktywnij widok drzewa"
           "Toggle":
-            value: "Toggle"
+            value: "Przełącz"
           "Reveal Active File":
-            value: "Reveal Active File"
+            value: "Pokaż aktywny plik"
           "Toggle Tree Side":
-            value: "Toggle Tree Side"
+            value: "Przenieś drzewo na drugą stronę"
       "Whitespace":
-        value: "Whitespace"
+        value: "Spacje (Whitespace)"
         submenu:
           "Remove Trailing Whitespace":
-            value: "Remove Trailing Whitespace"
+            value: "Usuń końcowe spacje"
           "Save With Trailing Whitespace":
-            value: "Save With Trailing Whitespace"
+            value: "Zapisuj z końcowymi spacjami"
           "Save Without Trailing Whitespace":
-            value: "Save Without Trailing Whitespace"
+            value: "Zapisuj bez końcowych spacji"
           "Convert Tabs To Spaces":
-            value: "Convert Tabs To Spaces"
+            value: "Zamień tabulatory w spacje"
           "Convert Spaces To Tabs":
-            value: "Convert Spaces To Tabs"
+            value: "Zamień spacje w tabulatory"
           "Convert All Tabs To Spaces":
-            value: "Convert All Tabs To Spaces"
+            value: "Zamień wszystkie tabulatory w spacje"
   "&Help":
-    value: "Pomoc(&H)"
+    value: "Pomoc (&H)"
     submenu:
       "View &Terms of Use":
-        value: "Pokaż &warunki korzystania"
+        value: "Pokaż &Warunki użytkowania"
       "View &License":
         value: "Pokaż &licencję"
       "Restart and Install Update":
@@ -474,16 +471,16 @@ Menu:
       "Downloading Update":
         value: "Pobieranie aktualizacji"
       "&Documentation":
-        value: "Dokumentacja(&D)"
+        value: "&Dokumentacja"
       "Frequently Asked Questions":
         value: "Często zadawane pytania (FAQ)"
       "Community Discussions":
         value: "Dyskusje społeczności"
       "Report Issue":
-        value: "Zgłoś błąd"
+        value: "Zgłoś problem"
       "Search Issues":
-        value: "Szukaj błędów"
+        value: "Przeglądaj zgłoszenia"
       "About Atom":
-        value: "O Atom'ie"
+        value: "O programie Atom"
       "Welcome Guide":
         value: "Przewodnik powitalny"
