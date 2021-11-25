@@ -9,12 +9,12 @@ Welcome:
     forHelpVisit: "Jeżeli potrzebujesz pomocy, odwiedź:"
     atomDocs: {
       text1: ""
-      link: "Dokumentacja Atom'a"
-      text2: " zawiera przewodniki oraz dokumentację API."
+      link: "Dokumentację Atoma"
+      text2: " – zawiera przewodniki oraz dokumentację API."
       _template: "${text1}<a>${link}</a>${text2}"
     }
     atomForum: {
-      text1: "Forum Atom'a "
+      text1: "Forum Atoma: "
       link: "discuss.atom.io"
       text2: ""   # optional
       _template: "${text1}<a>${link}</a>${text2}"
@@ -22,8 +22,8 @@ Welcome:
     atomOrg: {
       text1: ""
       link: "Atom org"
-      text2: ". Tu znajdziesz wszystkie stworzone na GitHubi'e pakiety dla Atom'a."
+      text2: " – tu znajdziesz wszystkie stworzone na GitHubie pakiety dla Atoma."
       _template: "${text1}<a>${link}</a>${text2}"
     }
   }
-  showWelcomeGuide: "Pokaż ten ekran powitalny podczas uruchomienia Atom'a"
+  showWelcomeGuide: "Pokaż ten ekran powitalny podczas uruchomienia programu Atom"

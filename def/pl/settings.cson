@@ -23,7 +23,7 @@ Settings:
     }
     {
       _label: "Themes"
-      value: "Style"
+      value: "Motywy"
     }
     {
       _label: "Updates"
@@ -41,12 +41,12 @@ Settings:
     {_label: "System Settings", value: "Ustawienia systemowe"}
     {_label: "Keybindings", value: "Przypisanie klawiszy"}
     {_label: "Installed Packages", value: "Zainstalowane pakiety"}
-    {_label: "Choose a Theme", value: "Wybór wyglądu"}
-    {_label: "Installed Themes", value: "Zainstalowane style"}
+    {_label: "Choose a Theme", value: "Wybierz motyw"}
+    {_label: "Installed Themes", value: "Zainstalowane motywy"}
     {_label: "Install Packages", value: "Zainstaluj pakiety"}
     {_label: "Featured Packages", value: "Polecane pakiety"}
-    {_label: "Install Themes", value: "Zainstaluj style"}
-    {_label: "Featured Themes", value: "Polecane style"}
+    {_label: "Install Themes", value: "Zainstaluj motywy"}
+    {_label: "Featured Themes", value: "Polecane motywy"}
     {_label: "Available Updates", value: "Dostępne aktualizacje"}
   ]
   subSectionHeadings: [
@@ -54,106 +54,104 @@ Settings:
     {_label: "Community Packages", value: "Pakiety społeczności"}
     {_label: "Core Packages", value: "Pakiety główne"}
     {_label: "Development Packages", value: "Pakiety programistyczne"}
-    {_label: "Git Packages", value: "Pakiety Git'a"}
-    {_label: "Community Themes", value: "Style społeczności"}
-    {_label: "Core Themes", value: "Style główne"}
-    {_label: "Development Themes", value: "Style programistyczne"}
-    {_label: "Git Themes", value: "Style z Git'a"}
+    {_label: "Git Packages", value: "Pakiety Gita"}
+    {_label: "Community Themes", value: "Motywy społeczności"}
+    {_label: "Core Themes", value: "Motywy główne"}
+    {_label: "Development Themes", value: "Motywy programistyczne"}
+    {_label: "Git Themes", value: "Motywy z Gita"}
   ]
   settings: {
     notes: [
       {
         _id: 'core-settings-note'
         html: 'Główne ustawienia programu Atom, które nie są w żaden sposób związane
-               z edytowaniem tekstu. Zainstalowane pakiety mogą posiadać własne
+               z edytowaniem tekstu. Zainstalowane pakiety mogą mieć własne
                dodatkowe ustawienia, które znajdują się na karcie danego
                pakietu w <a class="link packages-open">liście pakietów</a>.'
       }
       {
         _id: 'editor-settings-note'
         html: 'Ustawienia zwiazane z edytowaniem tekstu. Niektóre z nich mogą być
-               nadpisane przez poszczególne języki. Sprawdź ustawienia jezyka
-               poprzez kliknięcie na jego pakiet na <a class="link packages-open">liście pakietów</a>.'
+               uchylone przez właściwości danego języka. Sprawdź ustawienia jezyka,
+               klikając kartę jego pakietu na <a class="link packages-open">liście pakietów</a>.'
       }
     ]
     controls: [
       {
         _id: 'core.allowPendingPaneItems'
         title: "Zezwól na oczekujące elementy panelu"
-        desc: "Zezwól na wyświetlenie elementu bez jego dodawania do panelu,
-               podobnie gdy klikamy na pliki wyświetlane w widoku drzewa."
+        desc: "Zezwól na wyświetlenie elementu bez dodawania go do panelu
+               jak przy jednokrotnym kliknięciu plików wyświetlanych w widoku drzewa."
       }
       {
         _id: 'core.audioBeep'
         title: "Syngał dźwiękowy"
-        desc: "Włącz sygnał dźwiękowy w sytuacji gdy dana akcja nie może zostać
+        desc: "Włącz sygnał dźwiękowy w sytuacji, gdy dana akcja nie może zostać
                wykonana lub nie ma żadnych wyników z nią związanych."
       }
       {
         _id: 'core.automaticallyUpdate'
         title: "Automatyczne aktualizacje"
-        desc: "Aktualizuj automatycznie Atom'a, gdy dostępna jest nowa wersja."
+        desc: "Automatycznie aktualizuj program, gdy dostępna jest nowa wersja."
       }
       {
         _id: 'core.autoHideMenuBar'
         title: "Autoukrywanie paska menu"
-        desc: "Automatycznie ukryj pasek menu lub go przywróć klikając klawisz Alt. Opcja wspierana tylko w Windows i Linux."
+        desc: "Automatycznie ukryj pasek menu i go przywracaj wciśnięciem klawisza Alt. Opcja wspierana tylko w Windows i Linux."
       }
       {
         _id: 'core.closeDeletedFileTabs'
-        title: "Zamknij zakładki skasowanych plików"
-        desc: "Zamknij zakładki edytowanych plików, jeżeli te zostały skasowane poza edytorem Atom."
+        title: "Zamknij karty skasowanych plików"
+        desc: "Zamknij karty edytowanych plików, jeżeli te zostały skasowane poza aplikacją Atom."
       }
       {
         _id: 'core.closeEmptyWindows'
         title: "Zamknij puste okna"
-        desc: "Gdy uruchomione jest okno bez otwartych zakładek lub paneli,
-               komenda 'Zamknij zakładkę' zamyka też to okno."
+        desc: "Gdy uruchomione jest okno bez otwartych kart lub paneli,
+               polecenie 'Zamknij kartę' zamyka też to okno."
       }
       {
         _id: 'core.destroyEmptyPanes'
         title: "Zamknij puste panele"
-        desc: "Gdy ostatni panel lub zakładka zostanie zamknięta, zamknij także panel."
+        desc: "Gdy ostatnia karta w panelu zostanie zamknięta, zamknij także ten panel."
       }
       {
         _id: 'core.excludeVcsIgnoredPaths'
         title: "Wyklucz ignorowane ścieżki VCS"
-        desc: "Ignorowane pliki i katalogi przez obecny system kontroli wersji (VCS) będą ignorowane przez niektóre pakiety,
-               takie jak wyszukiwarka lub opcja znajdź i zamień. Na przykład, projekty korzystające z Git'a mają te ścieżki
-               zdefiniowane w pliku .gitignore. Indywidualne pakiety mogą posiadać dodatkowe ustawienia konfiguracyjne,
-               które ignorują ścieżki ignorowanych plików i folderów przez dany system kontroli wersji."
+        desc: "Pliki i katalogi ignorowane przez system kontroli wersji (VCS) bieżącego projektu będą ignorowane przez niektóre pakiety
+               takie jak wyszukiwarka lub opcja znajdź i zamień. Na przykład, projekty korzystające z Gita bazują na informacjach zawartych w pliku .gitignore. Poszczególne pakiety mogą posiadać dodatkowe ustawienia konfiguracyjne,
+               które znoszą ignorowanie plików i folderów przez system kontroli wersji."
       }
       {
         _id: 'core.fileEncoding'
         title: "Kodowanie pliku"
-        desc: "Domyślne ustawienie kodowania znaków używane podczas czytania i zapisywania plików."
+        desc: "Domyślne ustawienie kodowania znaków używane podczas odczytu i zapisu plików."
       }
       {
         _id: 'core.fileSystemWatcher'
         title: "Systemowy monitor plików"
-        desc: "Wybierz podstawową implementację używaną do śledzenia zmian plików w systemie. Emulacja nie bierze
-               pod uwagę zmian powodowanych przez inne aplikacje niż Atom, ale może zapobiec w zawieszeniu
-               lub uszkodzeniu."
+        desc: "Wybierz warstwę używaną do śledzenia zmian plików w systemie. Emulacja zmian nie bierze
+               pod uwagę zdarzeń wywołanych przez inne aplikacje niż Atom, ale może zapobiec zamknięciom lub zawieszeniom."
         select:
-          native: "Natywne API systemu operacyjnego"
-          atom: "Emulowane zdarzeniami Atom'a"
+          native: "Wbudowane API systemu operacyjnego"
+          atom: "Emulacja zdarzeniami Atoma"
       }
       {
         _id: 'core.followSymlinks'
         title: "Podążaj za dowiązaniami symbolicznymi"
-        desc: "Podążaj za linkami symbolicznymi gdy pliki są wyszukiwane i otwierane przez wyszukiwarkę."
+        desc: "Podążaj za dowiązaniami symbolicznymi podczas wyszukiwania i otwierania plików przez wyszukiwarkę."
       }
       {
         _id: 'core.ignoredNames'
-        title: "Nazwy ignorowane"
-        desc: "Lista <code>wzorców globalnych</code>. Pliki i katalogi odpowiadające temu wzorcowi będą ingorowane przez
-               niektóre pakiety, takie jak wyszukiwarka i widok drzewa plików. Indywidualne pakiety mogą posiadać dodatkowo
-               konfigurację ustawień dla ignorowania nazw."
+        title: "Ignorowane nazwy"
+        desc: "Lista <code>wzorców globalnych</code>. Pliki i katalogi odpowiadające temu wzorcowi będą ignorowane przez
+               niektóre pakiety takie jak wyszukiwarka i widok drzewa plików. Poszczególne pakiety mogą posiadać dodatkowe
+               ustawienia konfiguracyjne do ignorowania nazw."
       }
       {
         _id: 'core.openEmptyEditorOnStart'
-        title: "Otwórz pusty edytor przy starcie"
-        desc: "Automatycznie otwiera pusty edytor przy stacie."
+        title: "Otwórz pusty edytor podczas startu"
+        desc: "Automatycznie otwiera pusty edytor podczas uruchamiania aplikacji."
       }
       {
         _id: 'core.packagesWithKeymapsDisabled'
@@ -161,20 +159,19 @@ Settings:
       }
       {
         _id: 'core.projectHome'
-        title: "Projekt domowy"
-        desc: "Katalog gdzie są ulokowane projekty. Pakiety tworzone używając generatora pakietów będą przechowywane
-               domyślnie w tym miejscu."
+        title: "Katalog domowy projektu"
+        desc: "Katalog, w którym projekty mają być umieszczane. Pakiety tworzone za pomocą generatora pakietów będą przechowywane
+               domyślnie w tym właśnie miejscu."
       }
       {
         _id: 'core.reopenProjectMenuCount'
-        title: "Otwórz ponownie menu z liczbą projektów"
-        desc: "Ile ostatnich projektów pokazać w menu ostatnich projektów."
+        title: "Liczba ostatnio otwartych projektów"
+        desc: "Ile ostatnich projektów pokazać w menu Ponownie otwórz projekt."
       }
       {
         _id: 'core.restorePreviousWindowsOnStart'
-        title: "Przywróc przy starcie poprzednie okna"
-        desc: "Gdy zaznaczone, przywraca ostatni stan wszystkich okien Atom'a gdy program został uruchomiony poprzez
-               kliknięcie w ikonę lub komendą <code>atom</code> w terminal; w innym przypadku ładowane jest puste środowisko."
+        title: "Przywróć poprzednie okna podczas startu"
+        desc: "W przypadku włączenia ostatni stan wszystkich okien Atoma zostanie przywrócony po uruchomieniu programu kliknięciem ikony lub poleceniem <code>atom</code> w terminalu; w innym przypadku ładowane jest puste środowisko."
         select:
           no: "nie"
           yes: "tak"
@@ -182,24 +179,21 @@ Settings:
       }
       {
         _id: 'core.telemetryConsent'
-        title: "Przesyłaj dane telemetryczne do twórców Atom'a"
-        desc: "Zezwól na zbieranie statystyk oraz wyjątkowych raportów oraz przesyłanie ich twórcom Atom'a w celu jego ulepszenia."
+        title: "Przesyłaj dane telemetryczne do twórców Atoma"
+        desc: "Zezwól na zbieranie statystyk i raportów wyjątków oraz przesyłanie ich twórcom Atoma w celu ulepszenia produktu."
         select:
           limited: "Zezwól na ograniczone anonimowe statystyki użytkowania, raportowanie wyjątków i awarii programu"
           no: "Nie wysyłaj żadnych danych telemetrycznych"
-          undecided: "Niezdecydowany (Atom zapyta Cię przy ponownym uruchomieniu)"
+          undecided: "Brak decyzji (Atom zapyta Cię przy ponownym uruchomieniu)"
       }
       {
         _id: 'core.titleBar'
-        title: "Pasek tytułowy"
-        desc: "Eksperymentalne: <code>Własny</code> pasek tytułowy adoptujący kolor. Wybierając <code>własne dodanie</code> powoduje
-               dodanie lekkiego wewnętrznego odstępu (padding). Pasek tytułowy może być całkowicie <code>ukryty</code>.<br>Uwaga: Ustawienie
-               własego lub ukrytego paska tytułu może zagrażać niektórym funkcjom.<br>Opcja ta wymaga ponownego uruchomienia
-               edytora Atom."
+        title: "Pasek tytułu"
+        desc: "Eksperymentalne: <code>własny</code> pasek tytułowy dopasowuje się do kolorów motywu. Wybranie <code>własny – okienko</code> powoduje dodanie niewielkiego odstępu (padding). Pasek tytułowy może też być całkowicie <code>ukryty</code>.<br>Uwaga: ustawienie własego lub ukrytego paska tytułu może nieco ograniczyć funkcjonalność.<br>Opcja ta wymaga ponownego uruchomienia edytora Atom."
         select:
-          native: "natywny"
+          native: "wbudowany"
           custom: "własny"
-          "custom-inset": "custom-inset"
+          "custom-inset": "własny – okienko"
           hidden: "ukryty"
       }
       {
@@ -209,48 +203,48 @@ Settings:
       }
       {
         _id: 'core.versionPinnedPackages'
-        title: "Wersje przypiętych pakietów"
+        title: "Pakiety o zablokowanych wersjach"
         desc: "Lista nazw zainstalowanych pakietów, które nie są automatycznie aktualizowane."
       }
       {
         _id: 'core.useCustomTitleBar'
-        title: "Użyj własnego paska tytułowego"
-        desc: "Użyj własnego paska tytułowego.<br>Uwaga: Obecnie nie zawiera ikony proxy.<br>Ustawienie wymaga ponownego urochomienia edytora Atom."
+        title: "Użyj własnego paska tytułu"
+        desc: "Użyj własnego paska tytułu dopasowanego do motywu.<br>Uwaga: obecnie nie zawiera ikony proxy.<br>Ustawienie wymaga ponownego uruchomienia edytora Atom."
       }
       {
         _id: 'core.warnOnLargeFileLimit'
-        title: "Ostrzeżenie przy otwarciu dużych plików"
+        title: "Ostrzeżenie podczas otwierania dużych plików"
         desc: "Ostrzegaj przed otwarciem dużych plików, większych niż podana liczba megabajtów."
       }
       {
         _id: 'editor.atomicSoftTabs'
-        title: "Atomic Soft Tabs"
-        desc: "Skip over tab-length runs of leading whitespace when moving the cursor."
+        title: "Atomowe miękkie tabulatory"
+        desc: "Przeskocz o odpowiadającą tabulatorowi liczbę spacji wiodących podczas przesuwania kursora."
       }
       {
         _id: 'editor.autoIndent'
-        title: "Automatyczny akapit"
-        desc: "Automatycznie dodaj aktapit zaczynając nową linię."
+        title: "Automatyczne wcięcie"
+        desc: "Automatycznie dodaj wcięcie akapitu podczas wstawiania nowej linii."
       }
       {
         _id: 'editor.autoIndentOnPaste'
-        title: "Automatyczny akapit przy wklejaniu"
-        desc: "Automatyczny akapit przy wklejaniu tekstu na podstawie akapitu użytego w poprzedniej linii."
+        title: "Automatyczne wcięcie podczas wklejania"
+        desc: "Automatycznie dodaj wcięcie akapitu podczas wklejania tekstu, dopasowując do wcięcia użytego w poprzedniej linii."
       }
       {
         _id: 'editor.backUpBeforeSaving'
-        title: "Kopia zapasowa przed zapisaniem"
+        title: "Twórz kopię zapasową przed zapisaniem"
         desc: ""
       }
       {
         _id: 'editor.confirmCheckoutHeadRevision'
-        title: "Potwierdź pobranie głównej (HEAD) rewizji"
-        desc: "Pokaż komunikat potwierdzający gdy pobierasz gówną rewizję i pomijasz zmiany w obecnych plikach od ostatniego commit'a."
+        title: "Potwierdź pobranie aktualnej gałęzi (HEAD)"
+        desc: "Zapytaj o zgodę w momencie pobierania aktualnej gałęzi (HEAD) i odrzucenia zmian w obecnym pliku dokonanych od ostatniego zatwierdzenia."
       }
       {
         _id: 'editor.fontFamily'
         title: "Czcionka"
-        desc: "Nazwa czcionki używana w edytorze tekstowym."
+        desc: "Nazwa czcionki używanej w edytorze tekstowym."
       }
       {
         _id: 'editor.fontSize'
@@ -259,74 +253,68 @@ Settings:
       }
       {
         _id: 'editor.invisibles.cr'
-        title: "Invisibles Cr"
-        desc: "Character used to render carriage return characters
-               (for Microsoft-style line endings) when the <code>Show
-               Invisibles</code> setting is enabled."
+        title: "Niewidoczne Cr"
+        desc: "Znak używany do reprezentacji znaków powrotu karetki (w przypadku zakończeń linii w stylu Microsoftu), gdy włączone jest ustawienie <code>Pokaż niewidoczne</code>."
       }
       {
         _id: 'editor.invisibles.eol'
-        title: "Niewidoczny koniec linii"
-        desc: "Znak użyty do renderowania znaku nowej linii (\n) gdy
-               ustawienie <code>Pokaż niewidoczne</code> jest włączone."
+        title: "Niewidoczne końce linii"
+        desc: "Znak używany do reprezentacji znaków nowej linii (\n), gdy włączone jest ustawienie <code>Pokaż niewidoczne</code>."
       }
       {
         _id: 'editor.invisibles.space'
         title: "Niewidoczne spacje"
-        desc: "Znak użyty do renderowania początku i końca znaku spacji
-               gdy ustawienie <code>Pokaż niewidoczne</code> jest włączone."
+        desc: "Znak używany do reprezentacji spacji wiodących i kończących, gdy włączone jest ustawienie <code>Pokaż niewidoczne</code>."
       }
       {
         _id: 'editor.invisibles.tab'
-        title: "Niewidoczna tabulacja"
-        desc: "Znak użyty do renderowania twardego znaku tabulacji (\t) gdy
-               ustawienie <code>Pokaż niewidoczne</code> jest włączone."
+        title: "Niewidoczne tabulatory"
+        desc: "Znak używany do reprezentacji znaków twardej tabulacji (\t), gdy włączone jest ustawienie <code>Pokaż niewidoczne</code>."
       }
       {
         _id: 'editor.lineHeight'
         title: "Wysokość linii"
-        desc: "Wysokość linii w edytorze, jako mnożnik rozmiaru czcionki."
+        desc: "Wysokość linii w edytorze jako mnożnik rozmiaru czcionki."
       }
       {
         _id: 'editor.maxScreenLineLength'
         title: "Maksymalna długość linii na ekranie"
-        desc: "Określa maksymalną szerokość liczby znaków okna edytora przed dodaniem miękkiego zawijania."
+        desc: "Określa maksymalną szerokość okna edytora wyrażoną w liczbie znaków przed włączeniem miękkiego zawijania wierszy."
       }
       {
         _id: 'editor.nonWordCharacters'
         title: "Non Word Characters"
-        desc: "A string of non-word characters to define word boundaries."
+        desc: "Łańcuch nieużywanych w słowach znaków, które definiują granice słowa."
       }
       {
         _id: 'editor.preferredLineLength'
         title: "Preferowana długość linii"
-        desc: "Włączając ustawienie <code>Miękkie zawijanie w preferowanej długości linii</code>.
-               Identyfikuje długość linii (określanych w ilości znaków), która jest użyta gdy tekst jest zawijany."
+        desc: "Określa długość linii (w liczbie znaków), która jest używana podczas zawijania tekstu po włączeniu opcji <code>Miękkie zawijanie w preferowanej długości linii</code>."
       }
       {
         _id: 'editor.scrollPastEnd'
-        title: "Przewijanie do końca"
-        desc: "Pozwala na przewijanie edytora do samego końca ostatniej linii."
+        title: "Przewijanie poza koniec"
+        desc: "Pozwala na przewijanie okna edytora poza koniec ostatniej linii."
       }
       {
         _id: 'editor.scrollSensitivity'
         title: "Czułość przewijania"
-        desc: "Określa jak szybko działa przewijanie w edytorze gdy korzystasz z myszu lub trackpada."
+        desc: "Określa, jak szybko działa przewijanie w edytorze, gdy korzystasz z myszy lub trackpada."
       }
       {
         _id: 'editor.showCursorOnSelection'
         title: "Pokaż kursor na zaznaczeniu"
-        desc: "Pokaż kursor gdy tekst jest zaznaczony."
+        desc: "Pokaż kursor, gdy tekst jest zaznaczony."
       }
       {
         _id: 'editor.showIndentGuide'
-        title: "Pokaż przewodnik akapitów"
-        desc: "Pokaż w edytorze wskaźniki akapitów."
+        title: "Pokaż linie wcięć"
+        desc: "Pokaż wskaźniki wcięć w edytorze."
       }
       {
         _id: 'editor.showInvisibles'
         title: "Pokaż niewidoczne"
-        desc: "Renderuje symbol zastępczy dla niewidocznych znaków, takich jak tabulatory, spacje oraz nowe linie."
+        desc: "Wyświetla symbole zastępcze dla niewidocznych znaków takich jak tabulatory, spacje oraz nowe linie."
       }
       {
         _id: 'editor.showLineNumbers'
@@ -335,118 +323,98 @@ Settings:
       }
       {
         _id: 'editor.softTabs'
-        title: "Soft Tabs"
-        desc: "If the <code>Tab Type</code> config setting is set to \"auto\"
-               and autodetection of tab type from buffer content fails, then
-               this config setting determines whether a soft tab or a hard tab
-               will be inserted when the Tab key is pressed."
+        title: "Miękka tabulacja"
+        desc: "Jeżeli opcja <code>Rodzaj tabulacji</code> ustawiona jest na \"auto\", a automatyczna detekcja rodzaju tabulacji w treści bufora nie powiedzie się, wówczas to ustawienie decyduje, czy po wciśnięciu klawisza Tab zostanie wstawiony miękki czy twardy tabulator."
       }
       {
         _id: 'editor.softWrap'
-        title: "Soft Wrap"
-        desc: "Wraps lines that exceed the width of the window. When
-               <code>Soft Wrap At Preferred Line Length</code> is set, it will
-               wrap to the number of characters defined by the <code>Preferred
-               Line Length</code> setting."
+        title: "Miękkie zawijanie wierszy"
+        desc: "Zawijaj linie, które są dłuższe od szerokości okna. Gdy włączona jest opcja <code>Miękkie zawijanie w preferowanej długości linii</code>, znaki powyżej liczby określonej ustawieniem <code>Preferowana długość linii</code> zostaną przeniesione do następnej linii."
       }
       {
         _id: 'editor.softWrapAtPreferredLineLength'
-        title: "Soft Wrap At Preferred Line Length"
-        desc: "Instead of wrapping lines to the window's width, wrap lines to
-               the number of characters defined by the <code>Preferred Line
-               Length</code> setting. This will only take effect when the soft
-               wrap config setting is enabled globally or for the current
-               language. <strong>Note:</strong> If you want to hide the wrap
-               guide (the vertical line) you can disable the
-               <code>wrap-guide</code> package."
+        title: "Miękkie zawijanie w preferowanej długości linii"
+        desc: "Zamiast zawijać wiersze dłuższe od szerokości okna, zawijaj je po przekroczeniu liczby znaków określonych ustawieniem <code>Preferowana długość linii</code>. Zadziała to jedynie wówczas, gdy miękkie zawijanie będzie włączone globalnie bądź dla bieżącego języka. <strong>Uwaga:</strong> Jeśli chcesz ukryć wskaźnik zawijania (pionową linię), możesz wyłączyć pakiet <code>wrap-guide</code>."
       }
       {
         _id: 'editor.softWrapHangingIndent'
-        title: "Soft Wrap Hanging Indent"
-        desc: "When soft wrap is enabled, defines length of additional
-               indentation applied to wrapped lines, in number of characters."
+        title: "Wcięcie miękkiego zawijania"
+        desc: "Gdy miękkie zawijanie jest włączone, poniższa wartość określa wielkość wcięcia zawiniętych linii wyrażoną w liczbie znaków."
       }
       {
         _id: 'editor.tabLength'
-        title: "Długość zakładki"
-        desc: "Liczba spacji użyta jako długość zakładki."
+        title: "Długość tabulatora"
+        desc: "Liczba spacji używanych do reprezentowania tabulatora."
       }
       {
         _id: 'editor.tabType'
-        title: "Tab Type"
-        desc: "Determine character inserted when Tab key is pressed. Possible
-               values: \"auto\", \"soft\" and \"hard\". When set to \"soft\" or
-               \"hard\", soft tabs (spaces) or hard tabs (tab characters) are
-               used. When set to \"auto\", the editor auto-detects the tab type
-               based on the contents of the buffer (it uses the first leading
-               whitespace on a non-comment line), or uses the value of the Soft
-               Tabs config setting if auto-detection fails."
+        title: "Rodzaj tabulacji"
+        desc: "Określa wstawiany znak po wciśnięciu klawisza Tab. Dostępne wartości: \"auto\", \"miękka\" i \"twarda\". Przy ustawieniu \"miękka\" lub \"twarda\" wstawiane są miękkie tabulatory (spacje) lub twarde (znaki tabulatora). Przy ustawieniu \"auto\" edytor automatycznie wykrywa rodzaj tabulacji na podstawie zawartości bufora (sprawdza pierwszą spację wiodącą w linii niebędącej komentarzem) albo w razie niepowodzenia autodetekcji opiera się na wartości ustawienia Miękka tabulacja."
       }
       {
         _id: 'editor.undoGroupingInterval'
-        title: "Undo Grouping Interval"
-        desc: "Time interval in milliseconds within which text editing
-               operations will be grouped together in the undo history."
+        title: "Interwał grupowania cofania"
+        desc: "Interwał czasowy w milisekundach, w czasie którego operacje edycji tekstu będą grupowane w historii cofania."
       }
       {
         _id: 'editor.zoomFontWhenCtrlScrolling'
-        title: "Zwiększenie czcionki przy użyciu scrolla i klawisza Ctrl"
-        desc: "Zmień rozmiar czcionki w edytorze, gdy klawisz Ctrl jest przytrzymany wraz z przewijaniem scrolla myszy w górę/dół."
+        title: "Zwiększenie czcionki przez przewijanie z klawiszem Ctrl"
+        desc: "Zmień rozmiar czcionki w edytorze, gdy wciśnięty jest klawisz Ctrl podczas przewijania kółkiem myszy w górę/dół."
       }
       {
         _id: 'system.windows.file-handler'
         title: "Zarejestruj jako obsługę plików"
-        desc: "Pokaż Atom'a w \"Otwórz za pomocą\" na liście aplikacji w celu łatwego przypisania typu plików."
+        desc: "Pokaż program Atom w liście aplikacji \"Otwórz za pomocą\" w celu łatwego przypisania typu plików."
       }
       {
         _id: 'system.windows.shell-menu-files'
-        title: "Pokaż w menu kontektstowym plików"
+        title: "Pokaż w menu kontekstowym plików"
         desc: "Dodaj \"Otwórz używając Atom'a\" w menu kontekstowym eksploratora plików."
       }
       {
         _id: 'system.windows.shell-menu-folders'
         title: "Pokaż w menu kontekstowym folderów"
-        desc: "Dodaj \"Otwórz używając Atom'a\" w menu kontekstowym eksploratora dla folderów."
+        desc: "Dodaj \"Open with Atom\" do menu kontekstowego Eksploratora dla folderów."
       }
     ]
   }
   system: {
-    notes: "Te ustawienia określają jak Atom integruje się z Twoim systemem operacyjnym."
+    notes: "Te ustawienia określają, jak Atom integruje się z Twoim systemem operacyjnym."
   }
   keymaps: {
     notes: {
-      text1: "Możesz nadpisać przypisanie klawiszy poprzez kopiowanie "
+      text1: "Możesz zmienić poniższe przypisanie klawiszy poprzez skopiowanie "
       text2: "i wklejenie ich do "
       text3: "Twojego pliku z przypisaniem klawiszy"
       text4: ""   # optional
       _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
     }
     "search-bar-placeholder": "Szukaj przypisania klawiszy"
-    "table-header-keystroke": "Naciśnięcie klawisza"
-    "table-header-command": "Komenda"
+    "table-header-keystroke": "Kombinacja klawiszy"
+    "table-header-command": "Polecenie"
     "table-header-source": "Źródło"
-    "table-header-selector": "Selector"
+    "table-header-selector": "Selektor"
   }
   packages: {
     searchBarText: 'Filtrowanie pakietów po nazwie'
   }
   themes: {
     notes: {
-      text1: "Możesz zmienić styl Atom'a poprzez edycję "
+      text1: "Możesz zmienić styl Atoma przez edycję "
       text2: "Twojego szablonu"
       text3: ""   # optional
       _template: "${text1} <a>${text2}</a> ${text3}"
     }
-    title1: "Style UI"
-    description1: "Style zakładek, paska statusu, drzewa katalogów oraz list rozwijalnych"
-    title2: "Style składni"
-    description2: "Style tekstu wewnątrz edytora"
-    searchBarText: 'Filtrowanie styli po nazwie'
+    title1: "Motyw UI"
+    description1: "Nadaje styl kartom, paskowi statusu, widokowi drzewa oraz rozwijanym listom"
+    title2: "Motyw składni"
+    description2: "Nadaje styl tekstowi wewnątrz edytora"
+    searchBarText: 'Filtrowanie motywów po nazwie'
   }
   updates: {
     "check-updates": "Sprawdź aktualizacje"
-    "update-all": "Aktualizuj wyszstko"
-    "checking-updates": "Sprawdzam aktualizacje..."
+    "update-all": "Aktualizuj wszystko"
+    "checking-updates": "Sprawdzam aktualizacje…"
     "all-updated-message": "Wszystkie zainstalowane pakiety są aktualne!"
   }
   install: {
@@ -458,7 +426,7 @@ Settings:
     }
     "searchbar-placeholder": "Szukaj pakietów"
     "btn-packages": "Pakiety"
-    "btn-themes": "Style"
+    "btn-themes": "Motywy"
   }
   "control-btns":{
     install: "Zainstaluj"
